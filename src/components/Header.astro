@@ -1,12 +1,12 @@
 ---
-import Logo from "./Logo.astro"
-import { getI18N } from "../i18n/"
-import Button from "./Button.astro"
-import LanguageSelector from "./LanguageSelector.astro"
-import HeaderLink from "./HeaderLink.astro"
+import LogoWhite from "./LogoWhite.astro";
+import { getI18N } from "../i18n/";
+import Button from "./Button.astro";
+import LanguageSelector from "./LanguageSelector.astro";
+import HeaderLink from "./HeaderLink.astro";
 
-const { currentLocale } = Astro
-const i18n = getI18N({ currentLocale })
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <header id="header-nav" class="fixed top-0 z-50 w-full px-6 py-2">
@@ -18,10 +18,10 @@ const i18n = getI18N({ currentLocale })
         class="group relative"
         aria-label={i18n.HEADER.LOGO}
       >
-        <Logo
-          class="h-auto w-10 blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        <LogoWhite
+          class="h-auto w-40 blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         />
-        <Logo class="h-auto w-10" />
+        <LogoWhite class="h-auto w-40" />
       </HeaderLink>
     </div>
 
@@ -29,16 +29,19 @@ const i18n = getI18N({ currentLocale })
     <nav
       class="hidden md:flex flex-grow lg:basis-0 w-full gap-x-8 text-lg md:justify-center font-medium items-center"
     >
-      <HeaderLink class="text__glowing" href="/vota">
-        {i18n.HEADER_VOTE}
-      </HeaderLink>
-      <HeaderLink class="text__glowing" href="/info">
+      <HeaderLink class="text__glowing" href="#info">
         {i18n.HEADER_INFO}
       </HeaderLink>
-      <HeaderLink class="text__glowing" href="/archivo">
-        {i18n.HEADER_ARCHIVE}
+      <HeaderLink class="text__glowing" href="#padel-courts">
+        {i18n.HEADER_PADEL_COURTS}
       </HeaderLink>
-      <LanguageSelector />
+      <HeaderLink class="text__glowing" href="#projects">
+        {i18n.HEADER_PROJECTS}
+      </HeaderLink>
+      <HeaderLink class="text__glowing" href="#our-factory">
+        {i18n.HEADER_OUR_FACTORY}
+      </HeaderLink>
+      <!-- <LanguageSelector /> -->
     </nav>
 
     <!-- Botón de menú para pantallas pequeñas -->
@@ -53,8 +56,9 @@ const i18n = getI18N({ currentLocale })
       class="hidden md:flex-grow md:basis-0 justify-end whitespace-nowrap md:flex md:text-base"
     >
       <Button
-        class="md:text-sm lg:text-base md:py-2"
-        url="https://drive.google.com/file/d/1D7IvIqMyqAoG58fuk8bc0JvhAmrWBbOK/view"
+        class="md:text-sm lg:text-base md:py-2 hover:bg-secondary hover:text-black"
+        url="#contact"
+        target="_self"
       >
         {i18n.HEADER_BUTTON}
       </Button>
@@ -66,16 +70,22 @@ const i18n = getI18N({ currentLocale })
     id="mobile-menu"
     class="bg-[#151a36]/90 -translate-y-full transition-transform md:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
   >
-    <HeaderLink class="my-4 text__glowing" href="/info">
+    <HeaderLink class="text__glowing item-link" href="#info">
       {i18n.HEADER_INFO}
     </HeaderLink>
-    <HeaderLink class="my-4 text__glowing" href="/archivo">
-      {i18n.HEADER_ARCHIVE}
+    <HeaderLink class="text__glowing item-link" href="#padel-courts">
+      {i18n.HEADER_PADEL_COURTS}
     </HeaderLink>
-
+    <HeaderLink class="text__glowing item-link" href="#projects">
+      {i18n.HEADER_PROJECTS}
+    </HeaderLink>
+    <HeaderLink class="text__glowing item-link" href="#our-factory">
+      {i18n.HEADER_OUR_FACTORY}
+    </HeaderLink>
     <Button
-      class="my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black"
-      url="https://drive.google.com/file/d/1D7IvIqMyqAoG58fuk8bc0JvhAmrWBbOK/view"
+      class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
+      url="#contact"
+      target="_self"
     >
       {i18n.HEADER_BUTTON}
     </Button>
@@ -85,18 +95,25 @@ const i18n = getI18N({ currentLocale })
 
 <script>
   document.addEventListener("astro:page-load", () => {
-    const menuToggle = document.getElementById("menu-toggle")
-    const mobileMenu = document.getElementById("mobile-menu")
-    const menuIcon = document.getElementById("menu-icon")
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const link = document.querySelectorAll("#mobile-menu .item-link");
+    const menuIcon = document.getElementById("menu-icon");
 
-    if (!menuToggle || !mobileMenu || !menuIcon) {
-      return
+    if (!menuToggle || !mobileMenu || !menuIcon || !link) {
+      return;
     }
 
     menuToggle.addEventListener("click", function () {
-      mobileMenu.classList.toggle("translate-y-0")
-      document.body.classList.toggle("overflow-hidden")
-      menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰"
-    })
-  })
+      mobileMenu.classList.toggle("translate-y-0");
+      document.body.classList.toggle("overflow-hidden");
+      menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+    });
+
+    link.forEach((item) => item.addEventListener("click", function () {
+      mobileMenu.classList.toggle("translate-y-0");
+      document.body.classList.toggle("overflow-hidden");
+      menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+    }));
+  });
 </script>

@@ -1,0 +1,110 @@
+---
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<section
+  id="contact"
+  class="w-full max-w-[1400px] mx-auto py-24 text-pretty px-6 text-left text-xl sm:px-20 p-6 md:p-12 lg:p-20"
+>
+  <h2
+    class="mx-auto mb-8 text-center text-3xl lg:text-6xl font-semibold tracking-wide"
+  >
+    {i18n.CONTACT_TITLE}
+  </h2>
+  <p class="text-center text-2xl text-pretty">{i18n.CONTACT_SUBTITLE}</p>
+  <form action="https://formbold.com/s/FORM_ID" method="POST">
+    <div class="mb-5">
+      <label for="name" class="mb-3 block text-base font-medium">
+        Full Name
+      </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Full Name"
+        required
+        class="w-full rounded-md border bg-white py-3 px-6 text-base font-medium text-[#6B7280] focus:border-secondary focus:ring-2 focus:ring-secondary outline-none autofill:bg-transparent valid:bg-transparent valid:text-white"
+      />
+    </div>
+    <div class="mb-5">
+      <label
+        for="email"
+        class="mb-3 block text-base font-medium"
+      >
+        Email Address
+      </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="example@domain.com"
+        required
+        class="w-full rounded-md border bg-white py-3 px-6 text-base font-medium text-[#6B7280] focus:border-secondary focus:ring-2 focus:ring-secondary outline-none autofill:bg-transparent valid:bg-transparent valid:text-white"
+      />
+    </div>
+    <div class="mb-5">
+      <label
+        for="subject"
+        class="mb-3 block text-base font-medium"
+      >
+        Subject
+      </label>
+      <input
+        type="text"
+        name="subject"
+        id="subject"
+        placeholder="Enter your subject"
+        required
+        class="w-full rounded-md border bg-white py-3 px-6 text-base font-medium text-[#6B7280] focus:border-secondary focus:ring-2 focus:ring-secondary outline-none autofill:bg-transparent valid:bg-transparent valid:text-white"
+      />
+    </div>
+    <div class="mb-5">
+      <label
+        for="message"
+        class="mb-3 block text-base font-medium"
+      >
+        Message
+      </label>
+      <textarea
+        rows="4"
+        name="message"
+        id="message"
+        placeholder="Type your message"
+        required
+        class="w-full resize-none rounded-md border bg-white py-3 px-6 text-base font-medium text-[#6B7280] focus:border-secondary focus:ring-2 focus:ring-secondary outline-none autofill:bg-transparent valid:bg-transparent valid:text-white"
+      ></textarea>
+    </div>
+    <div>
+      <button
+        class="hover:shadow-form hover:bg-secondary px-5 py-3 hover:text-black rounded-full bg-primary text-base font-medium uppercase text-white outline-none"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</section>
+
+<style>
+  button {
+    transition:
+      text-shadow 0.5s ease-out,
+      box-shadow 0.3s ease-out;
+  }
+
+  button:hover {
+    box-shadow: 0 0 16px #fff8;
+    text-shadow:
+      0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.8),
+      0 0 22px rgba(255, 255, 255, 0.8),
+      0 0 40px rgba(66, 220, 219, 0.8),
+      0 0 60px rgba(66, 220, 219, 0.8),
+      0 0 80px rgba(66, 220, 219, 0.5),
+      0 0 100px rgba(66, 220, 219, 0.5),
+      0 0 140px rgba(66, 220, 219, 0.5),
+      0 0 200px rgba(66, 220, 219, 0.5);
+  }
+</style>

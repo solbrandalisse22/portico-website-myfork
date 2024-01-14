@@ -3,6 +3,8 @@ import { ViewTransitions } from "astro:transitions"
 import Header from "@/components/Header.astro"
 import Footer from "@/components/Footer.astro"
 import "@fontsource-variable/onest"
+import '@fontsource/prompt/100.css';
+import '@fontsource/prompt/500.css';
 
 interface Props {
   description: string
@@ -56,6 +58,12 @@ const { currentLocale } = Astro
       html {
         font-family: "Onest Variable", system-ui, sans-serif;
         background: #151a36;
+        scroll-behavior: smooth;
+      }
+
+      h2 {
+        font-family: 'Prompt', system-ui, sans-serif;
+        font-weight: 500;
       }
 
       p {

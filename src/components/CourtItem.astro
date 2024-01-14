@@ -1,0 +1,44 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  img: string;
+  index: number;
+  class?: string;
+}
+const { title, description, img, index } = Astro.props;
+---
+
+<div class={`flex flex-col items-center justify-between gap-10 my-24 ${index % 2 ? 'lg:flex-row-reverse' : 'lg:flex-row'} ${Astro.props.class}`}>
+  <div class="md:w-1/2 space-y-4">
+    <h3
+      class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+    >
+      {title}
+    </h3>
+    <div set:html={description} />
+  </div>
+  <div class="mt-6 md:mt-0 md:w-1/2">
+    <img
+      loading="lazy"
+      class="object-cover w-full h-full rounded-md aspect-video"
+      src={img}
+    />
+  </div>
+</div>
+
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    img {
+      scale: 0.8;
+      opacity: 0;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry 100px;
+    }
+  
+    @keyframes fade-in {
+      to {scale: 1; opacity: 1;}
+    }
+  }
+</style>

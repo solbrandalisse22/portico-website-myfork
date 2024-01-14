@@ -5,16 +5,16 @@ const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<section class="mx-auto w-full max-w-[1400px] p-6 sm:p-20">
-  <h3
-    class="mx-auto mb-10 text-balance text-center text-xl font-semibold uppercase tracking-wide md:text-4xl"
+<section id="our-factory" class="mx-auto w-full max-w-[1400px] p-6 sm:p-20">
+  <h2
+    class="mx-auto mb-8 text-center text-3xl lg:text-6xl font-semibold tracking-wide"
   >
     {i18n.PREFOOTER_VIDEO_TITLE}
-  </h3>
-
+  </h2>
+  <p class="text-center text-2xl text-pretty">{i18n.PREFOOTER_SUBTITLE}</p>
   <lite-youtube
-    class="rounded-xl shadow-2xl shadow-white/10"
-    videoid="nYPVr2IYTtk"
+    class="rounded-xl shadow-2xl shadow-white/10 mt-24"
+    videoid="V_oUFrwMvWc"
     videotitle={i18n.PREFOOTER_VIDEO_TITLE}></lite-youtube>
 </section>
 

@@ -2,6 +2,7 @@
 import { getI18N } from "@/i18n/"
 import Button from "./Button.astro"
 import Logo from "./Logo.astro"
+import LogoWhite from "./LogoWhite.astro"
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -19,15 +20,7 @@ const i18n = getI18N({ currentLocale })
       <h1
         class="flex items-center gap-5 text-4xl md:text-6xl lg:gap-20 lg:text-8xl font-tomaso"
       >
-        <span>E</span>
-        <span>S</span>
-        <span>L</span>
-        <Logo
-          class="h-9 w-auto md:h-[3.75rem] lg:h-24 scale-150"
-          aria-label="A"
-        />
-        <span>N</span>
-        <span>D</span>
+        PORTICO SPORT
       </h1>
 
       <p
@@ -38,11 +31,12 @@ const i18n = getI18N({ currentLocale })
 
       <Button
         target="_self"
-        class="text-blue-950 animate-fade-up bg-white"
-        url="/vota"
+        class="text-blue-950 animate-fade-up bg-white hover:bg-primary"
+        url="#contact"
       >
         {i18n.VIDEO_BUTTON}
       </Button>
+      <LogoWhite class="w-24 md:w-32 lg:w-48" />
     </section>
 
     <video
@@ -52,21 +46,21 @@ const i18n = getI18N({ currentLocale })
       playsinline
       id="main-video"
       preload="metadata"
-      class="video hidden cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out"
+      class="video hidden cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
     >
-      <source src="/video.webm" type="video/webm" />
-      <source src="/video.mp4" type="video/mp4" />
+      <!-- <source src="/portico-sport-video.webm" type="video/webm" /> -->
+      <source src="/portico-sport-video.mp4" type="video/mp4" />
     </video>
   </div>
   <video
-    class="video hidden absolute -bottom-48 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out"
+    class="video hidden absolute -bottom-48 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50"
     autoplay
     loop
     muted
     preload="metadata"
   >
-    <source src="/video.webm" type="video/webm" />
-    <source src="/video.mp4" type="video/mp4" />
+    <!-- <source src="/video.webm" type="video/webm" /> -->
+    <source src="/portico-sport-video.mp4" type="video/mp4" />
   </video>
 </div>
 

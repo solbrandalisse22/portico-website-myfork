@@ -31,13 +31,13 @@ const { title, subtitle } = Astro.props
   <div
     class="relative z-20 flex h-full select-none flex-col justify-end gap-1 p-4 text-lg md:p-6"
   >
-    <h2 class="mb-4 text-balance text-3xl font-semibold uppercase text-white">
+    <h2 class="mb-4 text-balance text-3xl font-semibold uppercase text-secondary">
       {title}
     </h2>
 
     {
       subtitle && (
-        <h3 class="-mt-4 mb-4 text-3xl font-semibold text-sky-200/80">
+        <h3 class="-mt-4 mb-4 text-3xl font-semibold text-primary">
           {subtitle}
         </h3>
       )

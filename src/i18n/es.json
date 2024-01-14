@@ -1,6 +1,6 @@
 {
-  "SEO_TITLE": "Premios ESLAND 2024 - Celebrando lo mejor del streaming y los creadores de contenido",
-  "SEO_DESCRIPTION": "Descubre a los mejores creadores de contenido de España, Latinoamérica y Andorra. ¡Vota por tus favoritos! Celebra la innovación y el talento de Twitch, YouTube y más",
+  "SEO_TITLE": "Portico Sport - Thinking Padel, Construction and Installation of Padel Courts",
+  "SEO_DESCRIPTION": "At Portico Sport we are specialists in the construction and installation of Padel courts around the world, ask us for information without any obligation",
   "SEO": {
     "ARCHIVO_TITLE": "Archivo de las ediciones anteriores de Premios Esland 2024",
     "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
@@ -8,31 +8,34 @@
     "INFO_DESCRIPTION": "Descubre todo lo que necesitas saber sobre los Premios Esland 2024 y descarga el Kit de Prensa"
   },
   "HEADER": {
-    "LOGO": "Volver a la página de inicio de los Premios Esland"
+    "LOGO": "Go to the home page"
   },
-  "HEADER_VOTE": "VOTA",
+  "HEADER_CONTACT": "CONTACT",
   "HEADER_INFO": "INFO",
-  "HEADER_ARCHIVE": "ARCHIVO",
-  "HEADER_BUTTON": "CRITERIOS DE NOMINACIÓN",
-  "HERO_SUBTITLE": "Premios a la Comunidad Hispanohablante de Streaming",
-  "INTRO_TITLE": "Bienvenidos/as",
-  "INTRO_TITLE_AFTER_BR": "a los Premios ESLAND",
-  "INTRO_DESCRIPTION_1": "El cine tiene los Oscars, la música tiene los Grammy y <strong>el streaming tiene los ESLAND</strong>. Los premios que celebran la creatividad y el talento de los mejores creadores de contenido de <strong>la comunidad hispanohablante</strong>",
-  "INTRO_DESCRIPTION_2": "España, Latinoamérica y Andorra unidas por creadores, creadoras y sus comunidades, para recordar y revivir <strong>algunos de los mejores momentos del año.</strong>",
-  "INTRO_DESCRIPTION_3": "Tras dos galas celebradas, una en el Palau de la Música Catalana de Barcelona, y otra en el Auditorio Nacional de la Ciudad de México, solo queda esperar a <strong>la tercera edición en Andorra.</strong>",
-  "BENTO_TITLE_1": "Andorra: el cénit de los premios ESLAND",
-  "BENTO_CONTENT_1": "Una nueva edición <strong>cargada de novedades</strong> y contenido, que empezará varias semanas antes de la ansiada gala. <strong> Directos especiales, colaboraciones, conciertos y mucho más</strong> en lo que será una auténtica fiesta dedicada a la creación de contenido.",
-  "BENTO_TITLE_2": "La alfombra blanca",
-  "BENTO_SUBTITLE_2": "16 de febrero de 2024",
-  "BENTO_CONTENT_2": "Este año, el momento de la alfombra azul será sustituido y mejorado, gracias a los increíbles paisajes andorranos, por una <strong> alfombra blanca en plena nieve</strong>, situada en las <strong>pistas de esquí de Andorra</strong>.",
-  "BENTO_TITLE_3": "La gala",
-  "BENTO_SUBTITLE_3": "17 de febrero de 2024",
-  "BENTO_CONTENT_3": "Una gala de premios llena de <strong>contenido de primer nivel</strong> y <strong>muchas sorpresas</strong>, en la que descubrirán los ganadores de esta tercera edición de los Premios ESLAND.",
-  "BENTO_TITLE_4": "Disfruta del Reddit de la comunidad",
-  "BENTO_CONTENT_4": "Este año, el reddit no formará parte de las votaciones de los premios, pero sí que <strong>formará parte de la comunidad</strong>. El subreddit oficial de los Premios ESLAND está abierto para ti. Comparte tus clips, opiniones e <strong>interactúa con toda la comunidad</strong> del streaming hispanohablante.",
+  "HEADER_PADEL_COURTS": "COURTS",
+  "HEADER_OUR_FACTORY": "FACTORY",
+  "HEADER_PROJECTS": "PROJECTS",
+  "HEADER_BUTTON": "CONTACT WITH US",
+  "HERO_SUBTITLE": "Thinking Padel, construction and Installation of Padel Courts",
+  "INTRO_TITLE": "Welcome to",
+  "INTRO_TITLE_AFTER_BR": "Portico Sport",
+  "INTRO_DESCRIPTION_1": "Portico Sport is the leader company in manufacturation and instalation of padel courts and canopies, that has boasts a cutting-edge factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.",
+  "INTRO_DESCRIPTION_2": "As a result, Portico Sport has increased it's production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.",
+  "BENTO_TITLE_1": "EXPERIENCE",
+  "BENTO_CONTENT_1": "<strong>With over 13 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client.",
+  "BENTO_TITLE_2": "INNOVATION",
+  "BENTO_CONTENT_2": "In our commitment to innovation, Portico Sport offers the best design and quality in our courts and canopies, with record delivery times and full warranties. We provide padel courts and canopies with maximum strength and durability.",
+  "BENTO_TITLE_3": "QUALITY",
+  "BENTO_SUBTITLE_3": "The highest guarantee in all our projects",
+  "BENTO_CONTENT_3": "Portico Sport is positioned as a benchmark of the worldwide padel court builders and is also the leading provider of padel court canopies design and installation worldwide.",
+  "BENTO_TITLE_4": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
+  "BENTO_CONTENT_4": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique.",
   "VIDEO_ALT": "Esland - Premios a la comunidad hispanohablante de Streaming",
-  "VIDEO_BUTTON": "Vota",
-  "PREFOOTER_VIDEO_TITLE": "Guía de la 3ª Edición de los premios ESLAND",
+  "VIDEO_BUTTON": "CONTACT",
+  "PREFOOTER_VIDEO_TITLE": "Visit our factory",
+  "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site",
+  "CONTACT_TITLE": "CONTACT WITH US",
+  "CONTACT_SUBTITLE": "A great team of professionals at your service",
   "ARCHIVO": {
     "HERO_TITLE": "Ediciones anteriores",
     "HERO_BUTTON": "Revive la última gala",
@@ -42,7 +45,7 @@
     "COUNTER_MEDIA": "en medios ganados"
   },
   "FOOTER": {
-    "DISCLAIMER": "© ESLAND 2021 - 2024 Todos los derechos reservados. - Esta no es la web oficial, desarrollada por @midudev para fines educativos",
+    "DISCLAIMER": "© 2024 Portico Sport.\"Padel's growth at a global level\"",
     "LEGAL": {
       "TITLE": "Legal",
       "NOTICE": "Aviso Legal",
@@ -56,8 +59,7 @@
       "HOME": "Inicio",
       "INFO": "Info",
       "ARCHIVE": "Archivo"
-    },
-    "PRODUCED_BY": "Producido por"
+    }
   },
   "INFO_TITLE": "Los premios ESLAND",
   "INFO_TITLE_1": "Un reconocimiento único para creadores, creadoras y comunidades",
@@ -190,7 +192,56 @@
   "INFO": {
     "TITLE_HERO_1": "Los premios",
     "TITLE_HERO_2": "ESLAND",
-    "GALLERY_TITLE": "GALERÍA",
-    "GALLERY_TEXT": "Algunos de los mejores momentos de la gala que pasarán a la historia."
+    "PROJECTS_TITLE": "PROJECTS",
+    "PROJECTS_TEXT": "A selection of projects that coming into reality"
+  },
+  "COURTS": {
+    "TITLE": "Padel Courts",
+    "SUBTITLE": "Discover all our Padel Courts",
+    "COURT1": {
+      "TITLE": "Mobile",
+      "DESCRIPTION": "<p>Designed and calculated by our Engineering department, the client saves on labor and foundation costs. This court model is made with support plates that do not require anchoring to the ground, allowing the sport to be transported to any location. Only a draining surface is needed to prevent water accumulation. It can be played in a specific location for an extended period or easily moved to another place.</p>",
+      "IMAGE": "/courts/mobile-court.webp"
+    },
+    "COURT2": {
+      "TITLE": "Club",
+      "DESCRIPTION": "<p>One of our most sought-after courts. The Portico Sport Club Court is an ideal option for those seeking high quality and durability. With pillars measuring 3 meters in height, it is designed and manufactured by <strong>Portico Sport's engineering department</strong> for top-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that offers durability and resilience, the Club Court is an excellent choice.</p>",
+      "IMAGE": "/courts/club-court.webp"
+    },
+    "COURT3": {
+      "TITLE": "Club Plus",
+      "DESCRIPTION": "<p>The Club Plus Court is an enhanced version of our Club Court, offering additional features and benefits to elevate the playing experience. It incorporates advanced technologies and design elements to ensure optimal performance and player satisfaction. With its superior engineering and adherence to industry standards, the Club Plus Court is designed for professional and competitive play, meeting the demands of the most discerning players.</p>",
+      "IMAGE": "/courts/club-plus-court.webp"
+    },
+    "COURT4": {
+      "TITLE": "Panoramic",
+      "DESCRIPTION": "<p>Portico Sport's panoramic courts are a unique and exciting option for padel enthusiasts. These courts feature glass walls that offer a panoramic view of the surroundings, creating a unique and thrilling playing experience. Moreover, they are designed and manufactured by specialized engineers at Portico Sport, ensuring the highest standards of quality. If you're looking for a padel court that provides a unique and exciting gameplay experience, the panoramic courts are an excellent choice.</p>",
+      "IMAGE": "/courts/panoramic-court.webp"
+    },
+    "COURT5": {
+      "TITLE": "Panoramic FLOW",
+      "DESCRIPTION": "<p>Designed to provide the audience with an unobstructed view, the Panoramic Flow Court offers a visually stunning experience. With meticulous attention to aesthetics, it is particularly suitable for indoor structures.</p>",
+      "IMAGE": "/courts/panoramic-flow-court.webp"
+    },
+    "COURT6": {
+      "TITLE": "Ultra 64",
+      "DESCRIPTION": "<p>The Ultra 64 Court by Portico Sport is one of the most resilient padel courts on the market. Designed and manufactured by specialized engineers at Portico Sport, it guarantees the highest standards of quality. This court is capable of withstanding winds of up to 64 m/s, making it ideal for areas with adverse weather conditions. Additionally, it features unique materials that make it even more resistant and durable. If you're looking for a padel court that offers durability and resilience, the Ultra 64 Court by Portico Sport is an excellent choice.</p>",
+      "IMAGE": "/courts/ultra-64-court.webp"
+    },
+    "COURT7": {
+      "TITLE": "Force 80",
+      "DESCRIPTION": "<p>The Force 80 Court by Portico Sport is one of the most resilient padel courts available in the market. It is designed and manufactured by specialized engineers at Portico Sport, ensuring the highest standards of quality. This court is capable of withstanding winds of up to 80 m/s, making it ideal for areas with adverse weather conditions. Additionally, it features unique materials that enhance its resistance and durability. If you're looking for a padel court that offers durability and resilience, the Force 80 Court by Portico Sport is an excellent choice.</p>",
+      "IMAGE": "/courts/force-80-court.webp"
+    },
+    "COURT8": {
+      "TITLE": "Single",
+      "DESCRIPTION": "<p>The Single Court by Portico Sport features a galvanized steel metal structure coated with thermoplastic polyester paint, ensuring durability and resistance. It also includes tempered safety glass walls and state-of-the-art turf. The court has exterior dimensions of 20,47 x 6,47 meters.</p>",
+      "IMAGE": "/courts/single-court.webp"
+    },
+    "COURT9": {
+      "TITLE": "Mini",
+      "DESCRIPTION": "<p>The Mini Court by Portico Sport is a smaller-sized padel court, ideal for compact spaces or for those who want to practice padel at home. This court features a galvanized steel metal structure coated with thermoplastic polyester paint, ensuring durability and resistance. It also includes tempered safety glass walls and state-of-the-art turf. If you're looking for a smaller-sized panel court to practice at home or in limited spaces, the Mini Court by Portico Sport is an excellent choice.</p>",
+      "IMAGE": "/courts/mini-court.webp"
+    }
   }
 }

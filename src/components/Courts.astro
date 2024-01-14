@@ -1,0 +1,60 @@
+---
+import { getI18N } from "@/i18n";
+import CourtItem from "./CourtItem.astro";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
+const courts = [{
+  title: i18n.COURTS.COURT1.TITLE,
+  description: i18n.COURTS.COURT1.DESCRIPTION,
+  img: i18n.COURTS.COURT1.IMAGE,
+}, {
+  title: i18n.COURTS.COURT2.TITLE,
+  description: i18n.COURTS.COURT2.DESCRIPTION,
+  img: i18n.COURTS.COURT2.IMAGE,
+}, {
+  title: i18n.COURTS.COURT3.TITLE,
+  description: i18n.COURTS.COURT3.DESCRIPTION,
+  img: i18n.COURTS.COURT3.IMAGE,
+}, {
+  title: i18n.COURTS.COURT4.TITLE,
+  description: i18n.COURTS.COURT4.DESCRIPTION,
+  img: i18n.COURTS.COURT4.IMAGE,
+}, {
+  title: i18n.COURTS.COURT5.TITLE,
+  description: i18n.COURTS.COURT5.DESCRIPTION,
+  img: i18n.COURTS.COURT5.IMAGE,
+}, {
+  title: i18n.COURTS.COURT6.TITLE,
+  description: i18n.COURTS.COURT6.DESCRIPTION,
+  img: i18n.COURTS.COURT6.IMAGE,
+}, {
+  title: i18n.COURTS.COURT7.TITLE,
+  description: i18n.COURTS.COURT7.DESCRIPTION,
+  img: i18n.COURTS.COURT7.IMAGE,
+}, {
+  title: i18n.COURTS.COURT8.TITLE,
+  description: i18n.COURTS.COURT8.DESCRIPTION,
+  img: i18n.COURTS.COURT8.IMAGE,
+}, {
+  title: i18n.COURTS.COURT9.TITLE,
+  description: i18n.COURTS.COURT9.DESCRIPTION,
+  img: i18n.COURTS.COURT9.IMAGE,
+}]
+---
+
+<section
+  id="padel-courts"
+  class="w-full max-w-[1400px] mx-auto py-24 text-pretty px-6 text-left text-xl sm:px-20 p-6 md:p-12 lg:p-20"
+>
+  <h2
+    class="mx-auto mb-8 text-center text-3xl lg:text-6xl font-semibold tracking-wide"
+  >
+    {i18n.COURTS.TITLE}
+  </h2>
+  <p class="text-center text-2xl text-pretty">{i18n.COURTS.SUBTITLE}</p>
+  {
+    courts.map(({title, description, img}, index) => (<CourtItem title={title} description={description} img={img} index={index} class={index === courts.length - 1 ? 'mb-0' : ''} />))
+  }
+</section>
