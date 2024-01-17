@@ -3,10 +3,10 @@ import "photoswipe/style.css"
 import editionsInfo from "@/data/meta-gallery.json"
 import Button from "./Button.astro"
 
-const offset = 10
+const offset = 9
 const { edicion } = Astro.props
-const edictionIndex = Number(edicion) - 1
-const photos = editionsInfo[edictionIndex].slice(0, offset)
+const editionIndex = Number(edicion) - 1
+const photos = editionsInfo[editionIndex].slice(0, offset)
 
 const { i18n } = Astro.props
 ---
@@ -26,7 +26,7 @@ const { i18n } = Astro.props
     id="gallery"
   >
     {
-      photos.map(({ height, width }, i) => (
+      photos.map(({ alt, width, height }, i) => (
         <a
           class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
           href={`/archivo-page/${edicion}/gallery/img-${i + 1}.webp`}
@@ -41,7 +41,7 @@ const { i18n } = Astro.props
             src={`/archivo-page/${edicion}/gallery/thumbnails/img-${
               i + 1
             }.webp`}
-            alt="Fotografía de los premios ESLAND"
+            alt={alt}
           />
           <img
             class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
@@ -85,12 +85,12 @@ const { i18n } = Astro.props
     $button?.addEventListener("click", async (e) => {
       $button.remove()
       e.preventDefault()
-      const res = await fetch("/api/gallery.json?edition=1&offset=9")
+      const res = await fetch(`/api/gallery.json?edition=1&offset=${offset}`)
       const images = await res.json()
 
       const html = images
         .map((img, index) => {
-          const imgIndex = index + offset
+          const imgIndex = index + offset + 1;
           const $clone = $first?.cloneNode(true)
 
           $clone.setAttribute("data-pswp-width", img.width)
