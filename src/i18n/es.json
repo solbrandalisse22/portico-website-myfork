@@ -30,12 +30,17 @@
   "BENTO_CONTENT_3": "Portico Sport is positioned as a benchmark of the worldwide padel court builders and is also the leading provider of padel court canopies design and installation worldwide.",
   "BENTO_TITLE_4": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
   "BENTO_CONTENT_4": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique.",
-  "VIDEO_ALT": "Esland - Premios a la comunidad hispanohablante de Streaming",
   "VIDEO_BUTTON": "CONTACT",
   "PREFOOTER_VIDEO_TITLE": "Visit our factory",
   "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site",
   "CONTACT_TITLE": "CONTACT WITH US",
   "CONTACT_SUBTITLE": "A great team of professionals at your service",
+  "BLOG": {
+    "TITLE": "Blog",
+    "TITLE_ALT": "Our last news",
+    "SUBTITLE": "The latest news from Portico Sport",
+    "BUTTON": "Read more"
+  },
   "ARCHIVO": {
     "HERO_TITLE": "Ediciones anteriores",
     "HERO_BUTTON": "Revive la última gala",

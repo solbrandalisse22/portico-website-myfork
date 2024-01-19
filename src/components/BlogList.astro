@@ -1,0 +1,58 @@
+---
+import { getI18N } from "@/i18n"
+import BlogItem from "./blogItem.astro"
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+
+const { title, posts } = Astro.props
+
+interface Props {
+  title?: string,
+  posts: any[]
+}
+---
+
+<section
+  class="w-full max-w-[1400px] mx-auto py-24 text-pretty px-6 text-left text-xl sm:px-20 p-6 md:p-12 lg:p-20"
+>
+  <h2 class="text-6xl font-bold text-center mb-14 mt-4">{title || i18n.BLOG.TITLE}</h2>
+  <p class="text-center text-2xl text-pretty">Descubre nuestras últimas noticias</p>
+  <div class="list flex flex-col gap-16 lg:flex-row lg:gap-8 my-24">
+    {
+      posts.map((post) => (
+        <BlogItem
+          title={post.title.rendered}
+          image={post._embedded?.['wp:featuredmedia']?.[0]?.source_url}
+          link={post.slug}
+          // date={post.date}
+          // description={post.description}
+        />
+      ))
+    }
+    <!-- <BlogItem
+      title={i18n.MEDIA_KIT_SUBTITLE_1}
+      download={i18n.DOWNLOAD_BUTTON}
+      image="/info-page/logo-y-trofeo.webp"
+      link="https://premiosesland.com/ESLAND_MEDIA_KIT_2022.rar"
+    />
+    <BlogItem
+      title={i18n.MEDIA_KIT_SUBTITLE_2}
+      download={i18n.DOWNLOAD_BUTTON}
+      image="/info-page/fondos-de-pantalla.webp"
+      link="https://premiosesland.com/ESLAND_FONDOS.zip"
+    />
+    <BlogItem
+      title={i18n.MEDIA_KIT_SUBTITLE_3}
+      download={i18n.DOWNLOAD_BUTTON}
+      image="/info-page/nota-de-prensa.webp"
+      link="https://premiosesland.com/Nota%20Prensa-ESLAND.pdf"
+    /> -->
+  </div>
+</section>
+
+<style>
+  .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));;
+  }
+</style>
