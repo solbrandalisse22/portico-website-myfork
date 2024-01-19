@@ -29,7 +29,7 @@ const { i18n } = Astro.props
       photos.map(({ alt, width, height }, i) => (
         <a
           class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
-          href={`/archivo-page/${edicion}/gallery/img-${i + 1}.webp`}
+          href={`/projects/${edicion}/gallery/img-${i + 1}.webp`}
           target="_blank"
           data-cropped="true"
           data-pswp-width={width}
@@ -38,7 +38,7 @@ const { i18n } = Astro.props
           <img
             class="rounded-xl object-cover w-full h-auto"
             loading="lazy"
-            src={`/archivo-page/${edicion}/gallery/thumbnails/img-${
+            src={`/projects/${edicion}/gallery/thumbnails/img-${
               i + 1
             }.webp`}
             alt={alt}
@@ -46,7 +46,7 @@ const { i18n } = Astro.props
           <img
             class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
             loading="lazy"
-            src={`/archivo-page/${edicion}/gallery/thumbnails/img-${
+            src={`/projects/${edicion}/gallery/thumbnails/img-${
               i + 1
             }.webp`}
             alt="Imagen con efecto blur para hacer de sombra de una fotografía de los premios ESLAND"
@@ -97,7 +97,7 @@ const { i18n } = Astro.props
           $clone.setAttribute("data-pswp-height", img.height)
           $clone.setAttribute(
             "href",
-            `/archivo-page/${edicion}/gallery/img-${imgIndex}.webp`
+            `/projects/${edicion}/gallery/img-${imgIndex}.webp`
           )
           $clone.classList.add("animate-fade-up")
           $clone.classList.add("animate-delay-300")
@@ -106,13 +106,13 @@ const { i18n } = Astro.props
             .querySelector("img:first-child")
             .setAttribute(
               "src",
-              `/archivo-page/${edicion}/gallery/thumbnails/img-${imgIndex}.webp`
+              `/projects/${edicion}/gallery/thumbnails/img-${imgIndex}.webp`
             )
           $clone
             .querySelector("img:last-child")
             .setAttribute(
               "src",
-              `/archivo-page/${edicion}/gallery/thumbnails/img-${imgIndex}.webp`
+              `/projects/${edicion}/gallery/thumbnails/img-${imgIndex}.webp`
             )
 
           return $clone?.outerHTML
