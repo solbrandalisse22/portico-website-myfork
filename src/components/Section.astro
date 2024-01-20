@@ -1,0 +1,27 @@
+---
+const { className, heading, subheading, id } = Astro.props;
+
+interface Props {
+  id?: string;
+  className?: string;
+  heading?: string;
+  subheading?: string;
+}
+---
+
+<section
+  id={id}
+  class={`w-full max-w-[1400px] mx-auto py-10 text-pretty text-xl text-left p-6 md:p-12 lg:p-20 ${className}`}
+>
+  {
+    heading &&
+    <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide">
+      {heading}
+    </h2>
+  }
+  {
+    subheading &&
+    <p class="text-center text-2xl text-pretty">{subheading}</p>
+  }
+  <slot />
+</section>

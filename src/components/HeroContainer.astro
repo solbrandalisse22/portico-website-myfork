@@ -1,17 +1,24 @@
 ---
 interface Props {
+  heading?: string;
   img: string;
-  className?: string;
   imgAlt?: string;
 }
 
-const { img, className, imgAlt } = Astro.props
+const { img, imgAlt, heading } = Astro.props
 ---
 
 <div class="bg-no-repeat bg-cover relative h-[90vh] w-full max-w-[100vw]">
   <div
     class="absolute inset-0 m-auto w-full h-full flex justify-center flex-col items-center"
   >
+    {
+      heading && (
+        <h1 class="lg:text-4xl text-3xl text-center font-tomaso tracking tracking-widest text-balance px-4">
+          {heading}
+        </h1>
+      )
+    }
     <slot />
   </div>
   <img

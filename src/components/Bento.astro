@@ -1,18 +1,13 @@
 ---
 import BentoItem from "./BentoItem.astro"
 import { getI18N } from "@/i18n/"
+import Section from "@/components/Section.astro"
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<section
-  class={`
-    w-full max-w-[1400px]
-    grid lg:grid-cols-10 auto-rows-[30rem] gap-4
-    mx-auto p-6 md:p-12 lg:p-20
-  `}
->
+<Section className="grid lg:grid-cols-10 auto-rows-[30rem] gap-4">
   <BentoItem class="col-span-10 lg:col-span-4" title={i18n.BENTO_TITLE_1}>
     <div
       slot="image"
@@ -81,7 +76,7 @@ const i18n = getI18N({ currentLocale })
       set:html={i18n.BENTO_CONTENT_4}
     />
   </BentoItem>
-</section>
+</Section>
 
 <script>
   document.addEventListener("astro:page-load", () => {

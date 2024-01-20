@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro"
 import HeroContainer from "@/components/HeroContainer.astro"
 import Breadcrumb from "@/components/Breadcrumb.astro"
+import Section from "@/components/Section.astro"
 const { slug } = Astro.props
 
 const response = await fetch(`https://porticosport.com/wp-json/wp/v2/posts?slug=${slug}&_embed`)
@@ -11,26 +12,18 @@ const { source_url: image, alt_text: imgAlt } = _embedded["wp:featuredmedia"][0]
 const finalTitle = rendered || title
 ---
 <Layout title={finalTitle} description={description}>
-  <HeroContainer img={image} imgAlt={imgAlt || finalTitle}>
-    <h1
-      class="lg:text-6xl text-5xl text-center font-tomaso tracking tracking-widest text-balance px-4"
-    >
-      {finalTitle}
-    </h1>
-  </HeroContainer>
+  <HeroContainer img={image} imgAlt={imgAlt || finalTitle} heading={finalTitle} />
   <main class="pb-24 flex flex-col">
-    <div class="w-full max-w-[1400px] mx-auto px-6 my-10 text-left md:text-xl">
-      <Breadcrumb
-        crumbs={[
-          { label: "Home", href: "/" },
-          { label: "Blog", href: "/blog" },
-          { label: finalTitle, href: `/blog/${slug}` },
-        ]} />
-    </div>
-    <article
-      set:html={content}
-      class="w-full max-w-[1400px] mx-auto text-pretty px-6 text-left text-xl"
-    >
-    </article>
+    <Breadcrumb
+      crumbs={[
+        { label: "Home", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: finalTitle, href: `/blog/${slug}` },
+      ]} />
+    <Section>
+      <article
+        set:html={content}
+      />
+    </Section>
   </main>
 </Layout>
