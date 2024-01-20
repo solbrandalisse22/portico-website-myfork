@@ -2,12 +2,14 @@
 import Layout from "@/layouts/Layout.astro";
 import HeroContainer from "@/components/HeroContainer.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
+import Pagination from "@/components/Pagination.astro";
 import NewsList from "@/components/NewsList.astro";
 import { getI18N } from "@/i18n"
 
-const response = await fetch("https://porticosport.com/wp-json/wp/v2/posts?_embed")
+const page = Number(Astro.url.searchParams.get('page') || 1);
+const response = await fetch(`https://porticosport.com/wp-json/wp/v2/posts?per_page=12&page=${page}&_embed`)
+const totalPages = Number(response.headers.get('X-WP-TotalPages'));
 const posts = await response.json();
-
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -22,5 +24,6 @@ const i18n = getI18N({ currentLocale })
         { label: i18n.BREADCRUMB.NEWS.LABEL, href: i18n.BREADCRUMB.NEWS.URL },
       ]} />
     <NewsList posts={posts} />
+    <Pagination page={page} totalPages={totalPages}   />
   </main>
 </Layout>
