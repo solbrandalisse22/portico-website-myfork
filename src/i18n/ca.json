@@ -1,37 +1,37 @@
 {
-  "SEO_TITLE": "Premis ESLAND 2024 - Celebrant el millor del streaming i els creadors de contingut",
-  "SEO_DESCRIPTION": "Descobreix els millors creadors de contingut d'Espanya, Llatinoamèrica i Andorra. Vota pels teus favorits! Celebra la innovació i el talent de Twitch, YouTube i més",
+  "LOCALE_DATE": "en-US",
+  "SEO_TITLE": "Portico Sport - Thinking Padel, Construction and Installation of Padel Courts",
+  "SEO_DESCRIPTION": "At Portico Sport we are specialists in the construction and installation of Padel courts around the world, ask us for information without any obligation",
   "SEO": {
-    "ARCHIVO_TITLE": "Arxiu de les edicions anteriors dels Premis Esland 2024",
-    "ARCHIVO_DESCRIPTION": "Repassa els millors moments d'edicions anteriors",
-    "INFO_TITLE": "Informació sobre els Premis Esland 2024",
-    "INFO_DESCRIPTION": "Descobreix tot el que necessites saber sobre els Premis Esland 2024 i descarrega el Kit de Premsa"
+    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores de Premios Esland 2024",
+    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
+    "INFO_TITLE": "Información sobre los Premios Esland 2024",
+    "INFO_DESCRIPTION": "Descubre todo lo que necesitas saber sobre los Premios Esland 2024 y descarga el Kit de Prensa"
   },
   "HEADER": {
-    "LOGO": "Tornar a la pàgina d'inici dels Premis Esland"
+    "LOGO": "Go to the home page"
   },
-  "HEADER_CONTACT": "CONTACTO",
-  "HEADER_INFO": "INFORMACIÓ",
+  "HEADER_CONTACT": "CONTACT",
+  "HEADER_INFO": "INFO",
   "HEADER_PADEL_COURTS": "COURTS",
-  "HEADER_PROJECTS": "PROJECTS",
   "HEADER_OUR_FACTORY": "FACTORY",
-  "HEADER_BUTTON": "CRITERIS DE NOMINACIÓ",
-  "HERO_SUBTITLE": "Premis a la comunitat hispanoparlant de Streaming",
-  "INTRO_TITLE": "Benvinguts/des",
-  "INTRO_TITLE_AFTER_BR": "als Premis ESLAND",
-  "INTRO_DESCRIPTION_1": "El cinema té els Oscars, la música té els Grammy i <strong>el streaming té els ESLAND</strong>. Els premis que celebren la creativitat i el talent dels millors creadors de contingut de <strong>la comunitat hispanoparlant</strong>",
-  "INTRO_DESCRIPTION_2": "Espanya, Llatinoamèrica i Andorra unides per creadors, creadores i les seves comunitats, per recordar i reviure <strong>alguns dels millors moments de l'any.</strong>",
+  "HEADER_PROJECTS": "PROJECTS",
+  "HEADER_BUTTON": "CONTACT WITH US",
+  "HERO_SUBTITLE": "Thinking Padel, construction and Installation of Padel Courts",
+  "INTRO_TITLE": "Welcome to",
+  "INTRO_TITLE_AFTER_BR": "Portico Sport",
+  "INTRO_DESCRIPTION_1": "Portico Sport is the leader company in manufacturation and instalation of padel courts and canopies, that has boasts a cutting-edge factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.",
+  "INTRO_DESCRIPTION_2": "As a result, Portico Sport has increased it's production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.",
   "BENTO_TITLE_1": "EXPERIENCE",
-  "BENTO_CONTENT_1": "With over 13 years of experience in managing large projects across five continents, we have developed an international commercial network in each area to provide the best service to every client.",
+  "BENTO_CONTENT_1": "<strong>With over 13 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client.",
   "BENTO_TITLE_2": "INNOVATION",
   "BENTO_CONTENT_2": "In our commitment to innovation, Portico Sport offers the best design and quality in our courts and canopies, with record delivery times and full warranties. We provide padel courts and canopies with maximum strength and durability.",
-  "BENTO_TITLE_3": "LA GALA",
-  "BENTO_SUBTITLE_3": "17 de febrer de 2024",
-  "BENTO_CONTENT_3": "Una gala de premis plena de <strong> contingut de primer nivell</strong> i <strong>moltes sorpreses</strong>, on es descobriran els guanyadors d'aquesta tercera edició dels Premis ESLAND.",
-  "BENTO_TITLE_4": "GAUDEIX DEL REDDIT DE LA COMUNITAT",
-  "BENTO_CONTENT_4": "Enguany, el reddit no formarà part de les votacions dels premis, però sí que <strong>formarà part de la comunitat</strong>. El subreddit oficial dels Premis ESLAND està obert per a tu. Comparteix els teus clips, opinions i <strong>interactua amb tota la comunitat</strong> del streaming en espanyol.",
-  "VIDEO_ALT": "Esland - Premis a la comunitat hispanoparlant de Streaming",
-  "VIDEO_BUTTON": "CONTACTO",
+  "BENTO_TITLE_3": "QUALITY",
+  "BENTO_SUBTITLE_3": "The highest guarantee in all our projects",
+  "BENTO_CONTENT_3": "Portico Sport is positioned as a benchmark of the worldwide padel court builders and is also the leading provider of padel court canopies design and installation worldwide.",
+  "BENTO_TITLE_4": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
+  "BENTO_CONTENT_4": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique.",
+  "VIDEO_BUTTON": "CONTACT",
   "PREFOOTER_VIDEO_TITLE": "Visit our factory",
   "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site",
   "CONTACT_TITLE": "CONTACT WITH US",
@@ -40,166 +40,169 @@
     "TITLE": "Blog",
     "TITLE_ALT": "Our last news",
     "SUBTITLE": "The latest news from Portico Sport",
-    "BUTTON": "Read more"
+    "BUTTON": "Read more",
+    "POST_PAGE": {
+      "WRITE": "Write by"
+    }
   },
   "ARCHIVO": {
-    "HERO_TITLE": "Edicions anteriores",
-    "HERO_BUTTON": "Reviu la darrera gala",
-    "COUNTER_TITLE": "Els ESLAND en xifres",
-    "COUNTER_VIEWS": "de visualitzacions",
-    "COUNTER_NEWS": "notícies en premsa",
-    "COUNTER_MEDIA": "en mitjans guanyats"
+    "HERO_TITLE": "Ediciones anteriores",
+    "HERO_BUTTON": "Revive la última gala",
+    "COUNTER_TITLE": "Los ESLAND en números",
+    "COUNTER_VIEWS": "de visualizaciones",
+    "COUNTER_NEWS": "noticias en prensa",
+    "COUNTER_MEDIA": "en medios ganados"
   },
   "FOOTER": {
     "DISCLAIMER": "© 2024 Portico Sport.\"Padel's growth at a global level\"",
     "LEGAL": {
       "TITLE": "Legal",
-      "NOTICE": "Avís Legal",
-      "PRIVACY": "Privadesa",
-      "COOKIES": "Galetes",
-      "PRIVACY_POLICY": "Política de Privadesa",
-      "TOS": "Termes i Condicions"
+      "NOTICE": "Aviso Legal",
+      "PRIVACY": "Privacidad",
+      "COOKIES": "Cookies",
+      "PRIVACY_POLICY": "Política de Privacidad",
+      "TOS": "Términos y Condiciones"
     },
     "WEB_MAP": {
-      "TITLE": "Mapa del Lloc Web",
-      "HOME": "Inici",
-      "INFO": "Informació",
-      "ARCHIVE": "Arxiu"
+      "TITLE": "Mapa Web",
+      "HOME": "Inicio",
+      "INFO": "Info",
+      "ARCHIVE": "Archivo"
     }
   },
-  "INFO_TITLE": "Els premis ESLAND",
-  "INFO_TITLE_1": "Un reconoixement únic per a creadors, creadores i comunitats",
-  "INFO_CONTENT_1_1": "Un reconeixement únic per a creadors, creadores i comunitats que busquen el seu lloc al món de l'entreteniment en directe.",
-  "INFO_CONTENT_1_2": "ESLAND és l'acrònim d'ESPANYA, LLATINOAMÈRICA I ANDORRA, tres localitzacions geogràfiques que comparteixen l'idioma que les uneix més enllà de qualsevol frontera, física o virtual.",
-  "INFO_TITLE_2": "EL PREMI A LA CREACIÓ",
-  "INFO_CONTENT_2_1": "El trofeu que es lliura als guanyadors i guanyadores a la cerimònia és <strong>una representació de la lletra “A” dividida en tres fragments</strong> i acoblades a tall d'artilugi futurista sobre el qual es construeix la narrativa de l'esdeveniment.",
-  "INFO_CONTENT_2_2": "Un artefacte d'origen desconegut que dota de <strong>ferramentes i habilitats per a la creació.</strong> Una metàfora sobre l'emancipació del talent gràcies a la tecnologia i la irrupció dels creadors de contingut al món de l'entreteniment.",
-  "MEDIA_KIT_TITLE": "KIT DE PREMSA",
-  "MEDIA_KIT_SUBTITLE_1": "LOGOTIP I TROFEU",
-  "MEDIA_KIT_SUBTITLE_2": "FONS DE PANTALLA",
-  "MEDIA_KIT_SUBTITLE_3": "NOTA DE PREMSA",
-  "DOWNLOAD_BUTTON": "DESCARREGAR",
+  "INFO_TITLE": "Los premios ESLAND",
+  "INFO_TITLE_1": "Un reconocimiento único para creadores, creadoras y comunidades",
+  "INFO_CONTENT_1_1": "Los Premios ESLAND son una iniciativa privada promovida por el célebre streamer TheGrefg y buscan apoyar y reconocer la creación de contenido en el ámbito hispanohablante.",
+  "INFO_CONTENT_1_2": "ESLAND es el acrónimo de ESPAÑA, LATINOAMÉRICA Y ANDORRA, tres localizaciones geográficas que comparten el idioma que las une más allá de cualquier frontera, ya sea física o virtual.",
+  "INFO_TITLE_2": "EL PREMIO A LA CREACIÓN",
+  "INFO_CONTENT_2_1": "El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es <strong>una representación de la letra “A” dividida en tres fragmentos</strong> y ensambladas a modo de artilugio futurista sobre el que se construye la narrativa del evento.",
+  "INFO_CONTENT_2_2": "Un artefacto de origen desconocido que dota de <strong>herramientas y habilidades para la creación.</strong> Una metáfora sobre la emancipación del talento gracias a la tecnología y la irrupción de los creadores de contenido en el mundo del entretenimiento.",
+  "MEDIA_KIT_TITLE": "KIT DE PRENSA",
+  "MEDIA_KIT_SUBTITLE_1": "LOGOTIPO Y TROFEO",
+  "MEDIA_KIT_SUBTITLE_2": "FONDOS DE PANTALLA",
+  "MEDIA_KIT_SUBTITLE_3": "NOTA DE PRENSA",
+  "DOWNLOAD_BUTTON": "DESCARGAR",
   "COOKIES": {
     "POLICIES": {
-      "TITLE": "Política de Galetes",
-      "DESCRIPTION_1": "Aquesta Política de cookies és part integrant de l'Avís Legal i la Política de Privadesa de www.premiosesland.com (d'ara endavant, Lloc Web), titularitat d'UBIQ S.L.U (d'ara endavant, UBIQ) amb domicili social al carrer Josep Viladomat, 4, Ed Sogas, 1-1 AD700 Escaldes Engordany, i responsable de les Cookies i del tractament de dades personals obtingudes a través de cookies pròpies i de tercers que es fan servir en aquest Lloc Web.",
-      "DESCRIPTION_2": "Aquest Lloc Web utilitza galetes de tercers en concret galetes analítiques de Google Analytics per analitzar l'activitat que realitzen els usuaris quan visiten la web amb finalitats estadístiques.",
-      "DESCRIPTION_3": "Pots acceptar totes les cookies, rebutjar-les o configurar les teves preferències al panell de configuració de cookies. En qualsevol moment podràs revocar el consentiment o modificar les teves preferències de configuració de cookies accedint novament al panell de configuració. Així mateix, pots evitar la descàrrega de cookies o eliminar les instal·lades a través de la configuració del teu navegador, evitant que les cookies s'emmagatzemin al dispositiu. És molt important que llegeixis aquesta política de cookies.",
-      "DESCRIPTION_4": "T'informem de la possibilitat que el rebuig i la desactivació de les cookies pot afectar o dificultar la navegació o la prestació dels serveis oferts en aquest Lloc Web."
+      "TITLE": "Política de Cookies",
+      "DESCRIPTION_1": "Esta Política de cookies es parte integrante del Aviso Legal y la Política de Privacidad de www.premiosesland.com (en adelante, Sitio Web), titularidad de UBIQ S.L.U (en adelante, UBIQ) con domicilio social en la calle Josep Viladomat, 4, Ed Sogas, 1-1 AD700 Escaldes Engordany, y responsable de las Cookies y del tratamiento de datos personales obtenidos a través de cookies propias y de terceros que se usan en este Sitio Web.",
+      "DESCRIPTION_2": "Este Sitio Web utiliza cookies de terceros en concreto cookies analíticas de Google Analytics para analizar la actividad que realizan los usuarios cuando visitan la web con fines estadísticos.",
+      "DESCRIPTION_3": "Puedes aceptar todas las cookies, rechazarlas o configurar tus preferencias en el panel de configuración de cookies. En cualquier momento podrás revocar el consentimiento o modificar tus preferencias de configuración de cookies accediendo nuevamente al panel de configuración. Asimismo, puedes evitar la descarga de cookies o eliminar las instaladas a través de la configuración de tu navegador, evitando que las cookies se almacenen en tu dispositivo. Es muy importante que leas la presente política de cookies.",
+      "DESCRIPTION_4": "Te informamos de la posibilidad de que el rechazo y desactivación de las cookies puede afectar o dificultar la navegación o la prestación de los servicios ofrecidos en este Sitio Web."
     },
     "WHAT_IS": {
-      "TITLE": "Què són les galetes?",
-      "DESCRIPTION_1": "Les cookies són identificadors alfanumèrics que contenen informació que s'instal·la al dispositiu de l'Usuari i es descarreguen al navegador Web de l'Usuari quan aquest visita i accedeix a una pàgina web. La seva finalitat principal és identificar i reconèixer de manera unívoca el dispositiu de l'Usuari cada cop que accedeix al Lloc Web, a més de millorar la qualitat i oferir un millor ús del Lloc Web.",
-      "DESCRIPTION_2": "Es tracta de petits fitxers de text que queden emmagatzemats al disc dur de l'ordinador i que serveixen per identificar l'Usuari quan es connecta novament al lloc web. El seu objectiu és registrar la visita de l'Usuari i guardar certa informació. ús és comú i freqüent a la web ja que permet a les pàgines funcionar de manera més eficient i aconseguir una major personalització i anàlisi sobre el comportament de l'Usuari."
+      "TITLE": "¿Qué son las cookies?",
+      "DESCRIPTION_1": "Las cookies son identificadores alfanuméricos que contienen información que se instala en el dispositivo del Usuario y se descargan en el navegador Web del Usuario cuando éste visita y accede a una página web. Su finalidad principal es identificar y reconocer de forma unívoca el dispositivo del Usuario cada vez que accede al Sitio Web, además de mejorar la calidad y ofrecer un mejor uso del Sitio Web.",
+      "DESCRIPTION_2": "Se trata de pequeños archivos de texto que quedan almacenados en el disco duro del ordenador y que sirven para identificar al Usuario cuando se conecta nuevamente al sitio web. Su objetivo es registrar la visita del Usuario y guardar cierta información. Su uso es común y frecuente en la web ya que permite a las páginas funcionar de manera más eficiente y conseguir una mayor personalización y análisis sobre el comportamiento del Usuario."
     },
     "TYPES": {
-      "TITLE": "Quins tipus de galetes existeixen?",
-      "DESCRIPTION_1_TITLE": "1.- Segons l'entitat que les gestioni:",
-      "DESCRIPTION_1": "Les cookies pròpies són aquelles que s'instal·len al terminal de l'Usuari des del domini gestionat pel responsable de la Web i les cookies de tercers són aquelles que s'instal·len al terminal de l'Usuari des d'un domini gestionat per tercers que tracten les dades obtingudes a través de les cookies.",
-      "DESCRIPTION_2_TITLE": "2.- Segons el termini de temps que romanguin actives:",
-      "DESCRIPTION_2": "Les galetes de sessió són aquelles que romanen activades i recapten dades mentre l'usuari accedeix a una web i desapareixen en acabar la sessió, i les galetes permanents són aquelles que segueixen actives i de les quals es recull informació durant un període de temps definit pel responsable de la galeta o fins a la desactivació o eliminació per part de l'Usuari.",
-      "DESCRIPTION_3_TITLE": "3.- Cookies tècniques:",
-      "DESCRIPTION_3": "Són aquelles que permeten a l'Usuari navegar a través d'una pàgina web i utilitzar les diferents opcions o serveis que s'ofereixen, com ara controlar el trànsit i la comunicació de dades, identificar la sessió, accedir a parts d'accés restringit, realitzar una sol·licitud d'inscripció, utilitzar elements de seguretat durant la navegació, etc. En ser necessàries per al funcionament del web, aquestes cookies estaran activades i no es podran rebutjar.",
-      "DESCRIPTION_4_TITLE": "4.- Cookies de rendiment o operatives:",
-      "DESCRIPTION_4": "Aquest tipus de Cookie recorda les vostres preferències en la navegació per la Web per la qual cosa no heu de tornar a configurar el servei cada vegada que visiteu la Web. A tall d'exemple, en aquesta tipologia s'inclouen: Configuració de volum de reproductors de vídeo o so. Les velocitats de transmissió de vídeo que siguin compatibles amb el vostre navegador. Aquestes cookies poden desactivar-se per l'Usuari, si bé això pot afectar el bon funcionament dels serveis del Web.",
-      "DESCRIPTION_5_TITLE": "5.- Cookies analítiques o de mesura:",
-      "DESCRIPTION_5": "Són aquelles que permeten fer un seguiment i anàlisi del comportament dels Usuaris de la Web amb la finalitat d'obtenir dades estadístiques i millorar el funcionament de la Web. Cada vegada que un Usuari visita una Web, una eina d'un proveïdor extern genera una galeta analítica a l'ordinador de l'Usuari.",
-      "DESCRIPTION_6_TITLE": "6.- Cookies de publicitat:",
-      "DESCRIPTION_6": "Aquest tipus de galetes permeten obtenir informació sobre la durada o freqüència de visualització de posicions publicitàries, la interacció amb aquestes, o els patrons de navegació i/o comportaments de l'Usuari ja que ajuden a conformar un perfil d'interès publicitari . D'aquesta manera, permeten oferir publicitat afí als interessos de l'Usuari."
+      "TITLE": "¿Qué tipos de cookies existen?",
+      "DESCRIPTION_1_TITLE": "1.- Según la entidad que las gestione:",
+      "DESCRIPTION_1": "Las cookies propias son aquellas que se instalan en el terminal del Usuario desde el dominio gestionado por el responsable de la Web y las cookies de terceros son aquellas que se instalan en el terminal del Usuario desde un dominio gestionado por terceros que tratan los datos obtenidos a través de dichas cookies.",
+      "DESCRIPTION_2_TITLE": "2.- Según el plazo de tiempo que permanezcan activas:",
+      "DESCRIPTION_2": "Las cookies de sesión son aquellas que permanecen activadas y recaban datos mientras el usuario accede a una web y desaparecen al terminar la sesión, y las cookies permanentes son aquellas que siguen activas y de las que se recaba información durante un periodo de tiempo definido por el responsable de la cookie o hasta la su desactivación o eliminación por parte del Usuario.",
+      "DESCRIPTION_3_TITLE": "3.- Cookies técnicas:",
+      "DESCRIPTION_3": "Son aquellas que permiten al Usuario navegar a través una página web y utilizar las diferentes opciones o servicios que se ofrecen, como, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, realizar una solicitud de inscripción, utilizar elementos de seguridad durante la navegación, etc. Al ser necesarias para el funcionamiento de la web, estas cookies estarán activadas y no podrán rechazarse.",
+      "DESCRIPTION_4_TITLE": "4.- Cookies de rendimiento u operativas:",
+      "DESCRIPTION_4": "Este tipo de Cookie recuerda sus preferencias en la navegación por la Web por lo que no tiene que volver a configurar el servicio cada vez que usted visita la Web. A modo de ejemplo, en esta tipología se incluyen: Ajustes de volumen de reproductores de vídeo o sonido. Las velocidades de transmisión de vídeo que sean compatibles con su navegador. Estas cookies pueden desactivarse por el Usuario, si bien ello puede afectar el buen funcionamiento de los servicios de la Web.",
+      "DESCRIPTION_5_TITLE": "5.- Cookies analíticas o de medición:",
+      "DESCRIPTION_5": "Son aquellas que permiten realizar un seguimiento y análisis del comportamiento de los Usuarios de la Web con la finalidad de obtener datos estadísticos y mejorar el funcionamiento de la Web. Cada vez que un Usuario visita una Web, una herramienta de un proveedor externo genera una cookie analítica en el ordenador del Usuario.",
+      "DESCRIPTION_6_TITLE": "6.- Cookies de publicidad:",
+      "DESCRIPTION_6": "Este tipo de cookies permiten obtener información sobre la duración o frecuencia de visualización de posiciones publicitarias, la interacción con las mismas, o los patrones de navegación y/o comportamientos del Usuario ya que ayudan a conformar un perfil de interés publicitario. De este modo, permiten ofrecer publicidad afín a los intereses del Usuario."
     },
     "BLOCK": {
-      "TITLE": "REBUIXAR, CONFIGURAR, DESHABILITAR O BLOQUEJAR LES COOKIES:",
-      "DESCRIPTION_1": "Bé al banner o al panell de configuració de cookies -sempre actiu i accessible- l'Usuari té la possibilitat d'acceptar o rebutjar les cookies, així com configurar les seves preferències d'aquelles cookies el tractament de les quals requereixi del consentiment de l'Usuari .",
-      "DESCRIPTION_2": "L'Usuari podrà revocar el consentiment inicialment atorgat o modificar-ne les preferències, en qualsevol moment accedint al panell de configuració.",
-      "DESCRIPTION_3": "Així mateix, l'Usuari pot bloquejar i eliminar les cookies instal·lades al vostre equip mitjançant la configuració de les opcions del vostre navegador.",
-      "DESCRIPTION_4": "Es poden configurar els diferents navegadors per avisar l'Usuari de la recepció de cookies i, si es vol, impedir la seva instal·lació a l'equip. Així mateix, l'Usuari pot revisar al vostre navegador quines cookies té instal·lades i quin és el termini de caducitat de les mateixes, podent eliminar-les. Podeu trobar informació sobre com fer-ho, en relació amb els navegadors més comuns, en els enllaços que es relacionen a continuació:",
+      "TITLE": "RECHAZAR, CONFIGURAR, DESHABILITAR O BLOQUEAR LAS COOKIES:",
+      "DESCRIPTION_1": "Bien en el banner o en el panel de configuración de cookies -siempre activo y accesible- el Usuario tiene la posibilidad de aceptar o rechazar las cookies, así como configurar sus preferencias de aquellas cookies cuyo tratamiento requiera del consentimiento del Usuario.",
+      "DESCRIPTION_2": "El Usuario podrá revocar el consentimiento inicialmente otorgado o modificar sus preferencias, en cualquier momento accediendo al panel de configuración.",
+      "DESCRIPTION_3": "Asimismo, el Usuario puede bloquear y eliminar las cookies instaladas en su equipo mediante la configuración de las opciones de su navegador.",
+      "DESCRIPTION_4": "Se pueden configurar los diferentes navegadores para avisar al Usuario de la recepción de cookies y, si se desea, impedir su instalación en el equipo. Asimismo, el Usuario puede revisar en su navegador qué cookies tiene instaladas y cuál es el plazo de caducidad de las mismas, pudiendo eliminarlas. Puede encontrar información sobre cómo hacerlo, en relación con los navegadores más comunes, en los enlaces que se relacionan a continuación:",
       "DESCRIPTION_5": "Chrome:",
-      "DESCRIPTION_5_URL": "https://support.google.com/chrome/answer/95647?hl=ca",
-      "DESCRIPTION_6": "Per a més informació sobre l'administració de les galetes a Internet Explorer:",
+      "DESCRIPTION_5_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+      "DESCRIPTION_6": "Para más información sobre la administración de las cookies en Internet Explorer:",
       "DESCRIPTION_6_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
-      "DESCRIPTION_7": "Per a més informació sobre l'administració de les galetes a Mozilla Firefox:",
+      "DESCRIPTION_7": "Para más información sobre la administración de las cookies en Mozilla Firefox:",
       "DESCRIPTION_7_URL": "https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
-      "DESCRIPTION_8": "Per a més informació sobre l'administració de les galetes a Safari:",
+      "DESCRIPTION_8": "Para más información sobre la administración de las cookies en Safari:",
       "DESCRIPTION_8_URL": "http://www.apple.com/es/privacy/use-of-cookies",
-      "DESCRIPTION_9": "Per a més informació sobre l'administració de les galetes a Opera:",
-      "DESCRIPTION_9_URL": "http://help.opera.com/Windows/11.50/ca-ES/cookies.html",
-      "DESCRIPTION_10": "Si voleu deixar de ser seguit per Google Analytics visiteu:",
+      "DESCRIPTION_9": "Para más información sobre la administración de las cookies en Opera:",
+      "DESCRIPTION_9_URL": "http://help.opera.com/Windows/11.50/es-ES/cookies.html",
+      "DESCRIPTION_10": "Si desea dejar de ser seguido por Google Analytics visite:",
       "DESCRIPTION_10_URL": "http://tools.google.com/dlpage/gaoptout",
       "DESCRIPTION_11": "Chrome:"
     },
     "MORE_INFO": {
-      "TITLE": "Per saber més sobre les galetes",
-      "DESCRIPTION_1": "Podeu obtenir més informació sobre la publicitat en línia basada en el comportament i la privadesa en línia al següent enllaç:",
-      "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/ca",
-      "DESCRIPTION_2": "Protecció de dades de Google Analytics",
+      "TITLE": "Para saber más sobre las cookies",
+      "DESCRIPTION_1": "Puede obtener más información sobre la publicidad online basada en el comportamiento y la privacidad online en el siguiente enlace:",
+      "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
+      "DESCRIPTION_2": "Protección de datos de Google Analytics",
       "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
-      "DESCRIPTION_3": "Com utilitza Google Analytics les galetes:",
-      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=ca#analyticsjs"
+      "DESCRIPTION_3": "Cómo usa Google Analytics las cookies:",
+      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
     },
     "THIRD_PARTY": {
-      "TITLE": "Tercers i Transferències Internacionals",
-      "DESCRIPTION": "Pot obtenir informació sobre el tractament realitzat per tercers i possibles transferències de dades a altres països que realitzin aquests tercers identificats en aquesta política, als enllaços que es faciliten en aquesta política de cookies. Els diferents mecanismes de regularització de les transferències internacionals, en cas que n'hi hagi, seran informats pels esmentats tercers."
+      "TITLE": "Terceros y Transferencias Internacionales",
+      "DESCRIPTION": "Puede obtener información sobre el tratamiento realizado por terceros y posibles transferencias de datos a otros países que realicen estos terceros identificados en esta política, en los enlaces que se facilitan en la presente política de cookies. Los diferentes mecanismos de regularización de las transferencias internacionales, en el caso de existir, serán informados por dichos terceros."
     },
     "UPDATES": {
-      "TITLE": "Actualitzacions i canvis a la política de cookies",
-      "DESCRIPTION": "FAN CONTENT poden modificar aquesta Política de Cookies en funció d'exigències legislatives, reglamentàries, o amb la finalitat d'adaptar aquesta política a les instruccions dictades per l'Agència Espanyola de Protecció de Dades i pel Comitè Europeu de Protecció de Dades , per això s'aconsella als Usuaris que la visitin periòdicament.",
-      "DATE": "Data de la darrera actualització: 12 del 12 de 2023."
+      "TITLE": "Actualizaciones y cambios en la política de cookies",
+      "DESCRIPTION": "FAN CONTENT pueden modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos y por el Comité Europeo de Protección de Datos, por ello se aconseja a los Usuarios que la visiten periódicamente.",
+      "DATE": "Fecha de la última actualización: 12 del 12 de 2023."
     },
     "SITE_COOKIES": {
-      "TITLE": "Quines cookies utilitza aquest Lloc WEB?",
-      "THEAD_NAME": "Nom",
-      "THEAD_CADUCITY": "Caducitat",
-      "THEAD_PROVIDER": "Proveïdor",
-      "THEAD_FINALITY": "Finalitat",
+      "TITLE": "¿Qué cookies utiliza este Sitio WEB?",
+      "THEAD_NAME": "Nombre",
+      "THEAD_CADUCITY": "Caducidad",
+      "THEAD_PROVIDER": "Proveedor",
+      "THEAD_FINALITY": "Finalidad",
       "ANALYTICS": [
         {
           "NAME": "_ga",
-          "EXPIRE": "2 anys",
+          "EXPIRE": "2 años",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "S'utilitza per distingir els usuaris.",
+          "OBJECTIVE": "Se usa para distinguir a los usuarios.",
           "OBJECTIVE_URL": ""
         },
         {
           "NAME": "_gid",
-          "EXPIRE": "24 hores",
+          "EXPIRE": "24 horas",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "S'utilitza per distingir els usuaris.",
+          "OBJECTIVE": "Se usa para distinguir a los usuarios.",
           "OBJECTIVE_URL": ""
         },
         {
           "NAME": "_ga_J8PJQBXG7J",
-          "EXPIRE": "2 anys",
+          "EXPIRE": "2 años",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "S'utilitza per mantenir l'estat de la sessió.",
+          "OBJECTIVE": "Se usa para mantener el estado de la sesión.",
           "OBJECTIVE_URL": ""
         },
         {
           "NAME": "_gac_gb_J8PJQBXG7J",
-          "EXPIRE": "90 dies",
+          "EXPIRE": "90 días",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "Inclou informació relacionada amb la campanya. Si heu vinculat els vostres comptes de Google Analytics i Google Ads, les etiquetes de conversió al lloc web de Google Ads llegiran aquesta galeta, llevat que la inhabiliteu",
-          "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=ca"
+          "OBJECTIVE": "Incluye información relacionada con la campaña. Si has vinculado tus cuentas de Google Analytics y Google Ads, las etiquetas de conversión en sitio web de Google Ads leerán esta cookie, a menos que la inhabilites",
+          "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=es"
         }
       ]
     }
   },
   "INFO": {
-    "TITLE_HERO_1": "Els premis",
+    "TITLE_HERO_1": "Los premios",
     "TITLE_HERO_2": "ESLAND",
-    "PROJECTS_TITLE": "GALERÍA",
-    "PROJECTS_TEXT": "Alguns dels millors moments de la gala que passaran a la història."
+    "PROJECTS_TITLE": "PROJECTS",
+    "PROJECTS_TEXT": "A selection of projects that coming into reality"
   },
   "COURTS": {
     "TITLE": "Padel Courts",

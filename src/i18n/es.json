@@ -1,4 +1,5 @@
 {
+  "LOCALE_DATE": "en-US",
   "SEO_TITLE": "Portico Sport - Thinking Padel, Construction and Installation of Padel Courts",
   "SEO_DESCRIPTION": "At Portico Sport we are specialists in the construction and installation of Padel courts around the world, ask us for information without any obligation",
   "SEO": {
@@ -39,7 +40,10 @@
     "TITLE": "Blog",
     "TITLE_ALT": "Our last news",
     "SUBTITLE": "The latest news from Portico Sport",
-    "BUTTON": "Read more"
+    "BUTTON": "Read more",
+    "POST_PAGE": {
+      "WRITE": "Write by"
+    }
   },
   "ARCHIVO": {
     "HERO_TITLE": "Ediciones anteriores",
