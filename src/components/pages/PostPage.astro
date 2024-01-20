@@ -33,7 +33,7 @@ const finalDate = convertDate(date)
         { label: finalTitle, href: `/blog/${slug}` },
       ]} />
     <Section>
-      <p>{i18n.BLOG.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
+      <p class="text-gray-500">{i18n.BLOG.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
       <article set:html={content}  class="content" />
     </Section>
   </main>
