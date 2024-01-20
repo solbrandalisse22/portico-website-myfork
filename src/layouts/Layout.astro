@@ -93,6 +93,14 @@ const { currentLocale } = Astro
           0 0 120px #fff;
       }
 
+      a.text__min_glowing {
+        transition: text-shadow 0.3s ease;
+      }
+
+      a.text__min_glowing:hover {
+        text-shadow: 0 0 10px #fff;
+      }
+
       #header-nav {
         animation: blur linear both;
         animation-timeline: scroll();

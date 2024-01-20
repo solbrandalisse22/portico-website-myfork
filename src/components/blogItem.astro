@@ -4,7 +4,7 @@ const { link, title, image } = Astro.props
 
 <article class="flex flex-col justify-center items-center">
   <a
-    class="relative group flex flex-col gap-y-4 text-center justify-center items-center mt-2 uppercase m-auto transition-all text__glowing"
+    class="relative group flex flex-col gap-y-4 text-center justify-center items-center mt-2 uppercase m-auto transition-all text__min_glowing"
     href={link}
   >
     <img
@@ -18,9 +18,5 @@ const { link, title, image } = Astro.props
       loading="lazy"
     />
     <h3 class="text-xl my-2 line-clamp-3">{title}</h3>
-    <span
-      class="border-white inline-flex w-fit border-2 border-solid rounded-full py-2 px-12"
-      >Read more</span
-    >
   </a>
 </article>

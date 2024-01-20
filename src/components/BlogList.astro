@@ -22,7 +22,7 @@ interface Props {
       posts.map((post) => (
         <BlogItem
           title={post.title.rendered}
-          image={post._embedded?.['wp:featuredmedia']?.[0]?.source_url}
+          image={post._embedded?.['wp:featuredmedia']?.[0]?.['media_details']?.['sizes']?.['medium']?.['source_url']}
           link={`blog/${post.slug}`}
           // date={post.date}
           // description={post.description}
