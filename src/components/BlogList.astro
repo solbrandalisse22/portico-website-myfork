@@ -23,7 +23,7 @@ interface Props {
         <BlogItem
           title={post.title.rendered}
           image={post._embedded?.['wp:featuredmedia']?.[0]?.source_url}
-          link={post.slug}
+          link={`blog/${post.slug}`}
           // date={post.date}
           // description={post.description}
         />
