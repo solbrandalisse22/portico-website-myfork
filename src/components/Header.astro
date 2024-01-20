@@ -7,6 +7,29 @@ import HeaderLink from "./HeaderLink.astro";
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
+
+const LINKS = [
+  {
+    href: "#info",
+    text: i18n.HEADER_INFO,
+  },
+  {
+    href: "#padel-courts",
+    text: i18n.HEADER_PADEL_COURTS,
+  },
+  {
+    href: "#projects",
+    text: i18n.HEADER_PROJECTS,
+  },
+  {
+    href: "#our-factory",
+    text: i18n.HEADER_OUR_FACTORY,
+  },
+  {
+    href: "/news",
+    text: i18n.HEADER_OUR_FACTORY,
+  },
+];
 ---
 
 <header id="header-nav" class="fixed top-0 z-50 w-full px-6 py-2">
@@ -29,18 +52,13 @@ const i18n = getI18N({ currentLocale });
     <nav
       class="hidden md:flex flex-grow lg:basis-0 w-full gap-x-8 text-lg md:justify-center font-medium items-center"
     >
-      <HeaderLink class="text__glowing" href="#info">
-        {i18n.HEADER_INFO}
-      </HeaderLink>
-      <HeaderLink class="text__glowing" href="#padel-courts">
-        {i18n.HEADER_PADEL_COURTS}
-      </HeaderLink>
-      <HeaderLink class="text__glowing" href="#projects">
-        {i18n.HEADER_PROJECTS}
-      </HeaderLink>
-      <HeaderLink class="text__glowing" href="#our-factory">
-        {i18n.HEADER_OUR_FACTORY}
-      </HeaderLink>
+      {
+        LINKS.map(({ href, text }) => (
+          <HeaderLink class="text__glowing" href={href}>
+            {text}
+          </HeaderLink>
+        ))
+      }
       <!-- <LanguageSelector /> -->
     </nav>
 
@@ -70,18 +88,13 @@ const i18n = getI18N({ currentLocale });
     id="mobile-menu"
     class="bg-[#151a36]/90 -translate-y-full transition-transform md:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
   >
-    <HeaderLink class="text__glowing item-link" href="#info">
-      {i18n.HEADER_INFO}
-    </HeaderLink>
-    <HeaderLink class="text__glowing item-link" href="#padel-courts">
-      {i18n.HEADER_PADEL_COURTS}
-    </HeaderLink>
-    <HeaderLink class="text__glowing item-link" href="#projects">
-      {i18n.HEADER_PROJECTS}
-    </HeaderLink>
-    <HeaderLink class="text__glowing item-link" href="#our-factory">
-      {i18n.HEADER_OUR_FACTORY}
-    </HeaderLink>
+    {
+      LINKS.map(({ href, text }) => (
+        <HeaderLink class="text__glowing item-link" href={href}>
+          {text}
+        </HeaderLink>
+      ))
+    }
     <Button
       class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
       url="#contact"
@@ -89,7 +102,7 @@ const i18n = getI18N({ currentLocale });
     >
       {i18n.HEADER_BUTTON}
     </Button>
-    <LanguageSelector />
+    <!-- <LanguageSelector /> -->
   </nav>
 </header>
 

@@ -28,12 +28,12 @@ const finalDate = convertDate(date)
   <main class="pb-24 flex flex-col">
     <Breadcrumb
       crumbs={[
-        { label: "Home", href: "/" },
-        { label: "Blog", href: "/blog" },
-        { label: finalTitle, href: `/blog/${slug}` },
+        { label: i18n.BREADCRUMB.HOME.LABEL, href: i18n.BREADCRUMB.HOME.URL },
+        { label: i18n.BREADCRUMB.NEWS.LABEL, href: i18n.BREADCRUMB.NEWS.URL },
+        { label: finalTitle, href: `${i18n.BREADCRUMB.HOME.URL}/${slug}` },
       ]} />
     <Section>
-      <p class="text-gray-500">{i18n.BLOG.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
+      <p class="text-gray-500">{i18n.NEWS.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
       <article set:html={content}  class="content" />
     </Section>
   </main>

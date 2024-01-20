@@ -15,6 +15,7 @@
   "HEADER_INFO": "INFO",
   "HEADER_PADEL_COURTS": "COURTS",
   "HEADER_OUR_FACTORY": "FACTORY",
+  "HEADER_NEWS": "NEWS",
   "HEADER_PROJECTS": "PROJECTS",
   "HEADER_BUTTON": "CONTACT WITH US",
   "HERO_SUBTITLE": "Thinking Padel, construction and Installation of Padel Courts",
@@ -36,13 +37,27 @@
   "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site",
   "CONTACT_TITLE": "CONTACT WITH US",
   "CONTACT_SUBTITLE": "A great team of professionals at your service",
-  "BLOG": {
-    "TITLE": "Blog",
+  "NEWS": {
+    "TITLE": "News",
     "TITLE_ALT": "Our last news",
     "SUBTITLE": "The latest news from Portico Sport",
     "BUTTON": "Read more",
     "POST_PAGE": {
       "WRITE": "Write by"
+    },
+    "LIST": {
+      "TITLE": "Our last News",
+      "SUBTITLE": "The latest news from Portico Sport"
+    }
+  },
+  "BREADCRUMB": {
+    "HOME": {
+      "LABEL": "Home",
+      "URL": "/"
+    },
+    "NEWS": {
+      "LABEL": "News",
+      "URL": "/news"
     }
   },
   "ARCHIVO": {
