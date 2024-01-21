@@ -12,7 +12,12 @@ const totalPages = Number(response.headers.get('X-WP-TotalPages'));
 const posts = await response.json();
 
 const { currentLocale } = Astro
+const { hidePagination } = Astro.props
 const i18n = getI18N({ currentLocale })
+
+interface Props {
+  hidePagination?: boolean;
+}
 ---
 
 <Layout title={i18n.NEWS.TITLE} description={i18n.NEWS.SUBTITLE}>
@@ -24,6 +29,8 @@ const i18n = getI18N({ currentLocale })
         { label: i18n.BREADCRUMB.NEWS.LABEL, href: i18n.BREADCRUMB.NEWS.URL },
       ]} />
     <NewsList posts={posts} />
-    <Pagination page={page} totalPages={totalPages}   />
+    {
+      !hidePagination && <Pagination page={page} totalPages={totalPages}   />
+    }
   </main>
 </Layout>
