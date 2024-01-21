@@ -7,7 +7,7 @@ const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 ---
 
-<Section id="info">
+<Section id={i18n.ROUTES.INFO.ID}>
   <h2 class="mx-auto mb-10 text-wrap text-center text-4xl font-semibold tracking-wide">
     {i18n.INTRO_TITLE}<br />{i18n.INTRO_TITLE_AFTER_BR}
   </h2>

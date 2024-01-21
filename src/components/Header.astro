@@ -10,24 +10,28 @@ const i18n = getI18N({ currentLocale });
 
 const LINKS = [
   {
-    href: "#info",
-    text: i18n.HEADER_INFO,
+    href: i18n.ROUTES.HOME.URL,
+    text: i18n.ROUTES.HOME.LABEL,
   },
   {
-    href: "#padel-courts",
-    text: i18n.HEADER_PADEL_COURTS,
+    href: i18n.ROUTES.INFO.URL,
+    text: i18n.ROUTES.INFO.LABEL,
   },
   {
-    href: "#projects",
-    text: i18n.HEADER_PROJECTS,
+    href: i18n.ROUTES.COURTS.URL,
+    text: i18n.ROUTES.COURTS.LABEL,
   },
   {
-    href: "#our-factory",
-    text: i18n.HEADER_OUR_FACTORY,
+    href: i18n.ROUTES.PROJECTS.URL,
+    text: i18n.ROUTES.PROJECTS.LABEL,
   },
   {
-    href: "/news",
-    text: i18n.HEADER_OUR_FACTORY,
+    href: i18n.ROUTES.FACTORY.URL,
+    text: i18n.ROUTES.FACTORY.LABEL,
+  },
+  {
+    href: i18n.ROUTES.NEWS.URL,
+    text: i18n.ROUTES.NEWS.LABEL,
   },
 ];
 ---
@@ -75,10 +79,10 @@ const LINKS = [
     >
       <Button
         class="md:text-sm lg:text-base md:py-2 hover:bg-secondary hover:text-black"
-        url="#contact"
+        url={i18n.ROUTES.CONTACT.URL}
         target="_self"
       >
-        {i18n.HEADER_BUTTON}
+        {i18n.ROUTES.CONTACT.LABEL}
       </Button>
     </div>
   </div>
@@ -97,10 +101,10 @@ const LINKS = [
     }
     <Button
       class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
-      url="#contact"
+      url={i18n.ROUTES.CONTACT.URL}
       target="_self"
     >
-      {i18n.HEADER_BUTTON}
+      {i18n.ROUTES.CONTACT.LABEL}
     </Button>
     <!-- <LanguageSelector /> -->
   </nav>

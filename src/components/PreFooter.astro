@@ -6,7 +6,7 @@ const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<Section id="our-factory" heading={i18n.PREFOOTER_VIDEO_TITLE} subheading={i18n.PREFOOTER_SUBTITLE}>
+<Section id={i18n.ROUTES.FACTORY.ID} heading={i18n.PREFOOTER_VIDEO_TITLE} subheading={i18n.PREFOOTER_SUBTITLE}>
   <lite-youtube
     class="rounded-xl shadow-2xl shadow-white/10 mt-24"
     videoid="V_oUFrwMvWc"

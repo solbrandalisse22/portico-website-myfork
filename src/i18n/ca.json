@@ -50,14 +50,39 @@
       "SUBTITLE": "The latest news from Portico Sport"
     }
   },
-  "BREADCRUMB": {
+  "ROUTES": {
     "HOME": {
       "LABEL": "Home",
       "URL": "/"
     },
+    "INFO": {
+      "LABEL": "Info",
+      "ID": "info",
+      "URL": "/#info"
+    },
+    "COURTS": {
+      "LABEL": "Courts",
+      "ID": "padel-courts",
+      "URL": "/#padel-courts"
+    },
+    "PROJECTS": {
+      "LABEL": "Projects",
+      "ID": "projects",
+      "URL": "/#projects"
+    },
+    "FACTORY": {
+      "LABEL": "Factory",
+      "ID": "our-factory",
+      "URL": "/#our-factory"
+    },
     "NEWS": {
       "LABEL": "News",
       "URL": "/news"
+    },
+    "CONTACT": {
+      "LABEL": "Contact WITH US",
+      "ID": "contact",
+      "URL": "/#contact"
     }
   },
   "ARCHIVO": {

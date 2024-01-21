@@ -28,9 +28,9 @@ const finalDate = convertDate(date)
   <main class="pb-24 flex flex-col">
     <Breadcrumb
       crumbs={[
-        { label: i18n.BREADCRUMB.HOME.LABEL, href: i18n.BREADCRUMB.HOME.URL },
-        { label: i18n.BREADCRUMB.NEWS.LABEL, href: i18n.BREADCRUMB.NEWS.URL },
-        { label: finalTitle, href: `${i18n.BREADCRUMB.HOME.URL}/${slug}` },
+        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+        { label: i18n.ROUTES.NEWS.LABEL, href: i18n.ROUTES.NEWS.URL },
+        { label: finalTitle, href: `${i18n.ROUTES.HOME.URL}/${slug}` },
       ]} />
     <Section>
       <p class="text-gray-500">{i18n.NEWS.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
