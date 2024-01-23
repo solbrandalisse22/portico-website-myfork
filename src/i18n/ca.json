@@ -243,6 +243,66 @@
       ]
     }
   },
+  "PRIVACY": {
+    "TITLE": "Privacy Policy And General Conditions",
+    "IDENTIFICATION": {
+      "TITLE": "1. IDENTIFICATION DATA",
+      "DESCRIPTION_1": "In compliance with the duty of information contained in article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, the following data is reflected below:",
+      "DESCRIPTION_2": "The company that owns this web domain is PÓRTICO GESTIÓN E INGENIERÍA, S.L., domiciled for these purposes at C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registered in the commercial register of Badajoz, tome 504, folio 31, sheet BA-22562 Contact email: info@porticosport.com"
+    },
+    "USERS": {
+      "TITLE": "2. USERS",
+      "DESCRIPTION_1": "The access and / or use of this portal or website provides the condition of USER, who accepts, since access and / or use, the General Conditions of Use reflected in this notice. The Conditions will be applied independently of the General Contracting Conditions that in their case are mandatory. In any case, for any specific purpose, your express consent will be requested."
+    },
+    "USES": {
+      "TITLE": "3. USE OF THE PORTAL",
+      "DESCRIPTION_1": "Our website provides access to information, services, programs or data (hereinafter we will refer to them as “the contents”) on the Internet belonging to info@porticosport.com or its licensors to which the USER may have access. The USER assumes responsibility for the correct use of the portal. This responsibility extends to the registration that is necessary to access certain services or content.",
+      "DESCRIPTION_2": "In said registration, the USER will be responsible for providing true and lawful information about their data. As a consequence of this registration, the USER may be provided with a password for which he will be responsible, committing himself to make diligent, ethical and confidential use of it. The USER agrees to make appropriate use of the content and services (such as chat services, discussion forums or newsgroups) offered through its portal and by way of example, but not limitation, not to use them for:",
+      "DESCRIPTION_3": "<ul><li>Incurring activities that are illegal, illegal or contrary to good faith and public order;</li><li>Disseminate content or propaganda of a racist, xenophobic, pornographic-illegal nature, in support of terrorism or an attack on human rights</li><li>Causing damage to the physical and logical systems of the owner, its suppliers or third parties, introducing or spreading computer viruses or any other physical or logical systems that are likely to cause the aforementioned damage;</li><li>Try to access and, where appropriate, use the email accounts of other users and modify or manipulate their messages. The owner of the portal reserves the right to withdraw all comments and contributions that violate respect for the dignity of the person, that are discriminatory, xenophobic, racist, pornographic, that threaten youth or childhood, order or security. public or that, in his opinion, were not suitable or convenient for publication. In any case, the owner of the portal will not be responsible for the opinions expressed by users through forums, chats, or other participation tools.</li></ul>"
+    },
+    "DATA_PROTECTION": {
+      "TITLE": "4. DATA PROTECTION AND USE OF COOKIES",
+      "DESCRIPTION_1": "The use of personal data is defined on bases of the General Data Protection Regulation and current Spanish regulations. In order to achieve maximum transparency and based on our proactive policy, we inform you:",
+      "DESCRIPTION_2": "<ul><li>Why do we request your data? We need your data to create a record and subsequently contact our customers.</li><li>What kind of data do we collect? Personal information.</li><li>How are they collected? Through web form and blog comments.</li><li>Shared use with third parties: Not applicable.</li><li>How long are the personal data collected kept? The personal data provided will be kept as long as the commercial relationship is maintained or you do not request its deletion and during the period for which legal responsibilities for the services provided may arise.</li></ul>",
+      "DESCRIPTION_3": "Rights: You have the right to access your data, rectify, delete, limit and oppose its treatment at any time, you can also withdraw the consent given and claim before the control authority (Spanish Data Protection Agency C/ Jorge Juan nº6 28001 Madrid). To exercise your rights, you have a direct channel with our company at the email info@porticosport.com and at the postal address C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) indicating in the subject «data protection»."
+    },
+    "INTELLECTUAL": {
+      "TITLE": "5. INTELLECTUAL AND INDUSTRIAL PROPERTY",
+      "DESCRIPTION_1": "The owner himself or as assignee, is the owner of all the intellectual and industrial property rights of its website, as well as the elements contained therein (for example, images, sound, audio, video, software or texts; brands or logos, color combinations, structure and design, selection of used materials, computer programs necessary for its operation, access and use, etc.).",
+      "DESCRIPTION_2": "All rights reserved. By virtue of the provisions of articles 8 and 32.1, second paragraph, of the Intellectual Property Law, the reproduction, distribution and public communication, including the method of making them available, of all or part of the contents of this website, for commercial purposes, in any medium and by any technical means, without the authorization of PÓRTICO GESTIÓN E INGENIERÍA, SL",
+      "DESCRIPTION_3": "The USER agrees to respect the Intellectual and Industrial Property rights owned by PÓRTICO GESTIÓN E INGENIERÍA, S.L. You can view the elements of the portal and even print, copy and store them on your computer’s hard drive or any other physical medium as long as it is, solely and exclusively, for your personal and private use. The USER must refrain from deleting, altering, evading or manipulating any protection device or security system that was installed on the pages of PÓRTICO GESTIÓN E INGENIERÍA, S.L."
+    },
+    "EXCLUSION": {
+      "TITLE": "6. EXCLUSION OF GUARANTEES AND LIABILITY",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. is not responsible, in any case, for damages of any nature that may cause, by way of example: errors or omissions in the contents, unavailability of the portal or the transmission of viruses or malicious or harmful programs in the contents , despite having taken all the necessary technological measures to avoid it."
+    },
+    "MODIFICATIONS": {
+      "TITLE": "7. MODIFICATIONS",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. reserves the right to make the modifications it deems appropriate on its portal without prior notice, being able to change, delete or add both the content and services provided through it and the way in which they are presented or located in its portal."
+    },
+    "LINKS": {
+      "TITLE": "8. LINKS",
+      "DESCRIPTION_1": "In the event that links or hyperlinks to other Internet sites are available on porticosport.net, it will not exercise any type of control over said sites and content. In no case does PÓRTICO GESTIÓN E INGENIERÍA, S.L. will assume any responsibility for the contents of any link belonging to a third party website, nor will it guarantee the technical availability, quality, reliability, accuracy, breadth, veracity, validity and constitutionality of any material or information contained in any of said hyperlinks or other sites of Internet. In case of using the links, please access the privacy policy and legal notice of the page visited.",
+      "DESCRIPTION_2": "Likewise, the inclusion of these external connections will not imply any type of association, merger or participation with the connected entities."
+    },
+    "RIGHT_OF_EXCLUSION": {
+      "TITLE": "9. RIGHT OF EXCLUSION",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. reserves the right to deny or withdraw access to the portal and / or the services offered without prior notice, at its own request or by a third party, to those users who fail to comply with these General Conditions of Use."
+    },
+    "GENERAL": {
+      "TITLE": "10. GENERAL",
+      "DESCRIPTION_1": "Failure to comply with these conditions will be pursued, as well as any improper use of its portal, exercising all civil and criminal actions that may correspond to it in law."
+    },
+    "MODIFICATION_PRESENT": {
+      "TITLE": "11. MODIFICATION OF THE PRESENT CONDITIONS AND DURATION",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. You can modify the conditions determined here at any time, being duly published as they appear here.",
+      "DESCRIPTION_2": "The validity of the aforementioned conditions will be based on their exposure and will be valid until duly published. that are modified by others."
+    },
+    "LEGISLATION": {
+      "TITLE": "12. APPLICABLE LEGISLATION AND JURISDICTION",
+      "DESCRIPTION_1": "The relationship between PÓRTICO GESTIÓN E INGENIERÍA, S.L. and the USER will be governed by current Spanish regulations and any controversy will be submitted to the relevant authority."
+    }
+  },
   "INFO": {
     "TITLE_HERO_1": "Los premios",
     "TITLE_HERO_2": "ESLAND",
