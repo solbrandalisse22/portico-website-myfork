@@ -1,11 +1,9 @@
 ---
-import { getI18N } from "@/i18n/"
-import Button from "./Button.astro"
-import Logo from "./Logo.astro"
-import LogoWhite from "./LogoWhite.astro"
+import { getI18N } from "@/i18n/";
+import Button from "./Button.astro";
 
-const { currentLocale } = Astro
-const i18n = getI18N({ currentLocale })
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <div
@@ -17,22 +15,21 @@ const i18n = getI18N({ currentLocale })
     <section
       class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col"
     >
-      <h1
-        class="flex items-center gap-5 text-4xl md:text-6xl lg:gap-20 lg:text-8xl font-tomaso px-4 text-center"
-      >
-        PORTICO SPORT
-      </h1>
-
       <p
-        class="subtitle text-xl lg:text-2xl text-center text-wrap font-jura px-4"
+        class="subtitle text-xl lg:text-2xl text-center font-jura px-4 text-balance"
       >
         {i18n.HERO_SUBTITLE}
       </p>
+      <h1
+        class="flex items-center gap-5 text-xl md:text-2xl lg:gap-20 lg:text-3xl font-tomaso px-4 text-center text-balance"
+      >
+        {i18n.HERO_TITLE}
+      </h1>
 
       <Button
         target="_self"
         class="text-blue-950 animate-fade-up bg-white hover:bg-primary"
-        url="#contact"
+        url={i18n.ROUTES.CONTACT.URL}
       >
         {i18n.VIDEO_BUTTON}
       </Button>
@@ -65,30 +62,32 @@ const i18n = getI18N({ currentLocale })
 
 <script>
   document.addEventListener("astro:page-load", () => {
-    const firstVideo = document.querySelector("#main-video") as HTMLMediaElement
+    const firstVideo = document.querySelector(
+      "#main-video"
+    ) as HTMLMediaElement;
 
     if (firstVideo) {
       const videos = document.querySelectorAll(
         ".video"
-      ) as NodeListOf<HTMLMediaElement>
+      ) as NodeListOf<HTMLMediaElement>;
 
       if (firstVideo.readyState >= 3) {
         videos.forEach((videoEl) => {
-          videoEl.classList.remove("hidden")
-          videoEl.classList.add("animate-fade")
-        })
+          videoEl.classList.remove("hidden");
+          videoEl.classList.add("animate-fade");
+        });
 
-        return
+        return;
       }
 
       firstVideo.addEventListener("loadeddata", () => {
         videos.forEach((videoEl) => {
-          videoEl.classList.remove("hidden")
-          videoEl.classList.add("animate-fade")
-        })
-      })
+          videoEl.classList.remove("hidden");
+          videoEl.classList.add("animate-fade");
+        });
+      });
     }
-  })
+  });
 </script>
 
 <style>

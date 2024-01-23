@@ -18,18 +18,20 @@
   "HEADER_NEWS": "NEWS",
   "HEADER_PROJECTS": "PROJECTS",
   "HEADER_BUTTON": "CONTACT WITH US",
-  "HERO_SUBTITLE": "Thinking Padel, construction and Installation of Padel Courts",
+  "HERO_SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
+  "HERO_TITLE": "Thinking Padel, Thinking Portico Sport",
   "INTRO_TITLE": "Welcome to",
   "INTRO_TITLE_AFTER_BR": "Portico Sport",
-  "INTRO_DESCRIPTION_1": "Portico Sport is the leader company in manufacturation and instalation of padel courts and canopies, that has boasts a cutting-edge factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.",
-  "INTRO_DESCRIPTION_2": "As a result, Portico Sport has increased it's production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.",
+  "INTRO_DESCRIPTION_1": "Based in Spain, Portico Sport is one of the leading Padel courts & canopies manufacturer globally. The company counts with 15 yrs. track record in the sector, presence in over 40 countries and +3,000 courts installed.",
+  "INTRO_DESCRIPTION_2": "Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with 100% in-house design and manufacturing.",
+  "INTRO_DESCRIPTION_3": "In 2023 the company inaugurated a new manufacturing site expanding over 110k sqft making it the largest and most technologically advanced in the industry.",
   "BENTO_TITLE_1": "EXPERIENCE",
   "BENTO_CONTENT_1": "<strong>With over 13 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client.",
   "BENTO_TITLE_2": "INNOVATION",
   "BENTO_CONTENT_2": "In our commitment to innovation, Portico Sport offers the best design and quality in our courts and canopies, with record delivery times and full warranties. We provide padel courts and canopies with maximum strength and durability.",
-  "BENTO_TITLE_3": "QUALITY",
-  "BENTO_SUBTITLE_3": "The highest guarantee in all our projects",
-  "BENTO_CONTENT_3": "Portico Sport is positioned as a benchmark of the worldwide padel court builders and is also the leading provider of padel court canopies design and installation worldwide.",
+  "BENTO_TITLE_3": "PREMIUM QUALITY",
+  "BENTO_SUBTITLE_3": "Padel courts that comply with regulations",
+  "BENTO_CONTENT_3": "Designed and developed by engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations (NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction (EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability).",
   "BENTO_TITLE_4": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
   "BENTO_CONTENT_4": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique.",
   "VIDEO_BUTTON": "CONTACT",
@@ -248,56 +250,56 @@
     "TITLE": "Padel Courts",
     "SUBTITLE": "Discover all our Padel Courts",
     "COURT1": {
-      "TITLE": "Mobile",
+      "TITLE": "Mobile court patented by Portico Sport",
       "DESCRIPTION": "<p>Designed and calculated by our Engineering department, the client saves on labor and foundation costs. This court model is made with support plates that do not require anchoring to the ground, allowing the sport to be transported to any location. Only a draining surface is needed to prevent water accumulation. It can be played in a specific location for an extended period or easily moved to another place.</p>",
       "IMAGE": "/courts/mobile-court.webp",
-      "IMAGE_ALT": "Mobile court"
+      "IMAGE_ALT": "Mobile court patented by Portico Sport"
     },
     "COURT2": {
-      "TITLE": "Club",
-      "DESCRIPTION": "<p>One of our most sought-after courts. The Portico Sport Club Court is an ideal option for those seeking high quality and durability. With pillars measuring 3 meters in height, it is designed and manufactured by <strong>Portico Sport's engineering department</strong> for top-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that offers durability and resilience, the Club Court is an excellent choice.</p>",
-      "IMAGE": "/courts/club-court.webp",
-      "IMAGE_ALT": "Club court"
-    },
-    "COURT3": {
-      "TITLE": "Club Plus",
-      "DESCRIPTION": "<p>The Club Plus Court is an enhanced version of our Club Court, offering additional features and benefits to elevate the playing experience. It incorporates advanced technologies and design elements to ensure optimal performance and player satisfaction. With its superior engineering and adherence to industry standards, the Club Plus Court is designed for professional and competitive play, meeting the demands of the most discerning players.</p>",
-      "IMAGE": "/courts/club-plus-court.webp",
-      "IMAGE_ALT": "Club Plus court"
-    },
-    "COURT4": {
-      "TITLE": "Panoramic",
-      "DESCRIPTION": "<p>Portico Sport's panoramic courts are a unique and exciting option for padel enthusiasts. These courts feature glass walls that offer a panoramic view of the surroundings, creating a unique and thrilling playing experience. Moreover, they are designed and manufactured by specialized engineers at Portico Sport, ensuring the highest standards of quality. If you're looking for a padel court that provides a unique and exciting gameplay experience, the panoramic courts are an excellent choice.</p>",
-      "IMAGE": "/courts/panoramic-court.webp",
-      "IMAGE_ALT": "Panoramic court"
-    },
-    "COURT5": {
       "TITLE": "Panoramic FLOW",
-      "DESCRIPTION": "<p>Designed to provide the audience with an unobstructed view, the Panoramic Flow Court offers a visually stunning experience. With meticulous attention to aesthetics, it is particularly suitable for indoor structures.</p>",
+      "DESCRIPTION": "<p>The Panoramic Flow court is an enhanced version of our Panoramic court. Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings. This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
       "IMAGE": "/courts/panoramic-flow-court.webp",
       "IMAGE_ALT": "Panoramic FLOW court"
     },
+    "COURT3": {
+      "TITLE": "Panoramic",
+      "DESCRIPTION": "<p>Our panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court. Due to its visual appeal, this court is increasingly sought-after by customers aiming to offer a distinctive gaming experience to all their players.</p>",
+      "IMAGE": "/courts/panoramic-court.webp",
+      "IMAGE_ALT": "Panoramic court"
+    },
+    "COURT4": {
+      "TITLE": "Club",
+      "DESCRIPTION": "<p>One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability. With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
+      "IMAGE": "/courts/club-court.webp",
+      "IMAGE_ALT": "Club court"
+    },
+    "COURT5": {
+      "TITLE": "Club Plus",
+      "DESCRIPTION": "<p>The Club Plus Court is an evolution of our Club Court. This enhanced court maintains the same premium quality while providing increased durability, thanks to its superior structures designed by Portico Sport's engineering department. These structures are built to withstand high wind gusts and adverse weather conditions. In the Club Plus Court, you'll find seamlessly integrated durability and high resistance for an unparalleled padel practice experience.</p>",
+      "IMAGE": "/courts/club-plus-court.webp",
+      "IMAGE_ALT": "Club Plus court"
+    },
     "COURT6": {
       "TITLE": "Ultra 64",
-      "DESCRIPTION": "<p>The Ultra 64 Court by Portico Sport is one of the most resilient padel courts on the market. Designed and manufactured by specialized engineers at Portico Sport, it guarantees the highest standards of quality. This court is capable of withstanding winds of up to 64 m/s, making it ideal for areas with adverse weather conditions. Additionally, it features unique materials that make it even more resistant and durable. If you're looking for a padel court that offers durability and resilience, the Ultra 64 Court by Portico Sport is an excellent choice.</p>",
+      "DESCRIPTION": "<p>Our Ultra 64 court is one of the most resilient padel courts in the market. Designed by specialized engineers at Portico Sport, this court's structure features a unique design of buttresses and anchoring, enabling it to withstand winds of up to 64 m/s. The combination of its distinctive design with superior-quality materials makes it a highly robust and durable court, ideal for areas with adverse weather conditions. If you're seeking an extremely sturdy and long-lasting padel court, the Ultra 64 court is the perfect choice.</p>",
       "IMAGE": "/courts/ultra-64-court.webp",
       "IMAGE_ALT": "Ultra 64 court"
     },
     "COURT7": {
       "TITLE": "Force 80",
-      "DESCRIPTION": "<p>The Force 80 Court by Portico Sport is one of the most resilient padel courts available in the market. It is designed and manufactured by specialized engineers at Portico Sport, ensuring the highest standards of quality. This court is capable of withstanding winds of up to 80 m/s, making it ideal for areas with adverse weather conditions. Additionally, it features unique materials that enhance its resistance and durability. If you're looking for a padel court that offers durability and resilience, the Force 80 Court by Portico Sport is an excellent choice.</p>",
+      "DESCRIPTION": "<p>Our Force 80 court stands out as one of the most resilient padel courts on the market. Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s. The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions. If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.</p>",
       "IMAGE": "/courts/force-80-court.webp",
       "IMAGE_ALT": "Force 80 court"
     },
     "COURT8": {
       "TITLE": "Single",
-      "DESCRIPTION": "<p>The Single Court by Portico Sport features a galvanized steel metal structure coated with thermoplastic polyester paint, ensuring durability and resistance. It also includes tempered safety glass walls and state-of-the-art turf. The court has exterior dimensions of 20,47 x 6,47 meters.</p>",
+      "DESCRIPTION": "<p>Our Single Court is perfect for a solo player and is specially designed by Portico Sport's engineering department. With dimensions smaller than usual (20x6m), this court is intended to provide a great playing experience for those who play alone, whether for training, enjoyment, or due to a lack of a partner for the sport. Despite its smaller size, it features the same premium quality and exceptional durability as the rest of our courts, making it a great choice for clubs looking to expand their offerings and provide this special court.</p>",
       "IMAGE": "/courts/single-court.webp",
       "IMAGE_ALT": "Single court"
     },
     "COURT9": {
       "TITLE": "Mini",
-      "DESCRIPTION": "<p>The Mini Court by Portico Sport is a smaller-sized padel court, ideal for compact spaces or for those who want to practice padel at home. This court features a galvanized steel metal structure coated with thermoplastic polyester paint, ensuring durability and resistance. It also includes tempered safety glass walls and state-of-the-art turf. If you're looking for a smaller-sized panel court to practice at home or in limited spaces, the Mini Court by Portico Sport is an excellent choice.</p>",
+      "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players. Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts. Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
       "IMAGE": "/courts/mini-court.webp",
       "IMAGE_ALT": "Mini court"
     }
