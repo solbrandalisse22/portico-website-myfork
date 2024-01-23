@@ -182,11 +182,12 @@
       "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
       "DESCRIPTION_2": "Google Analytics Data Protection",
       "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
-      "DESCRIPTION_3": "How Google Analytics uses cookies:"
+      "DESCRIPTION_3": "How Google Analytics uses cookies:",
+      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
     },
     "THIRD_PARTY": {
       "TITLE": "Third party cookies",
-      "DESCRIPTION_1": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes."
+      "DESCRIPTION": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes."
     },
     "UPDATES": {
       "TITLE": "Updates and changes to the cookie policy",
@@ -281,7 +282,7 @@
       "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. reserves the right to make the modifications it deems appropriate on its portal without prior notice, being able to change, delete or add both the content and services provided through it and the way in which they are presented or located in its portal."
     },
     "LINKS": {
-      "TITLE": "8. LINKS",
+      "LINKS": "8. LINKS",
       "DESCRIPTION_1": "In the event that links or hyperlinks to other Internet sites are available on porticosport.net, it will not exercise any type of control over said sites and content. In no case does PÓRTICO GESTIÓN E INGENIERÍA, S.L. will assume any responsibility for the contents of any link belonging to a third party website, nor will it guarantee the technical availability, quality, reliability, accuracy, breadth, veracity, validity and constitutionality of any material or information contained in any of said hyperlinks or other sites of Internet. In case of using the links, please access the privacy policy and legal notice of the page visited.",
       "DESCRIPTION_2": "Likewise, the inclusion of these external connections will not imply any type of association, merger or participation with the connected entities."
     },

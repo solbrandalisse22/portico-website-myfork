@@ -182,11 +182,12 @@
       "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
       "DESCRIPTION_2": "Google Analytics Data Protection",
       "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
-      "DESCRIPTION_3": "How Google Analytics uses cookies:"
+      "DESCRIPTION_3": "How Google Analytics uses cookies:",
+      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
     },
     "THIRD_PARTY": {
       "TITLE": "Third party cookies",
-      "DESCRIPTION_1": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes."
+      "DESCRIPTION": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes."
     },
     "UPDATES": {
       "TITLE": "Updates and changes to the cookie policy",
