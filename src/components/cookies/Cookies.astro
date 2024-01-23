@@ -13,7 +13,9 @@ const { currentLocale } = Astro
 
 const i18n = getI18N({ currentLocale })
 const H1_STYLES =
-  "mx-auto mt-16 mb-4 text-wrap text-4xl font-semibold tracking-wide uppercase"
+  "mx-auto mt-16 mb-4 text-wrap text-3xl font-semibold tracking-wide uppercase"
+const H2_STYLES =
+  "mx-auto mt-16 mb-4 text-wrap text-2xl font-semibold tracking-wide uppercase text-balance"
 ---
 
 <Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION}>
@@ -36,18 +38,18 @@ const H1_STYLES =
       <p>
         {i18n.COOKIES.POLICIES.DESCRIPTION_4}
       </p>
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.WHAT_IS.TITLE}
-      </h1>
+      </h2>
       <p>
         {i18n.COOKIES.WHAT_IS.DESCRIPTION_1}
       </p>
       <p>
         {i18n.COOKIES.WHAT_IS.DESCRIPTION_2}
       </p>
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.TYPES.TITLE}
-      </h1>
+      </h2>
       <CookieTypeDescriptionItem
         title={i18n.COOKIES.TYPES.DESCRIPTION_1_TITLE}
         description={i18n.COOKIES.TYPES.DESCRIPTION_1}
@@ -72,9 +74,9 @@ const H1_STYLES =
         title={i18n.COOKIES.TYPES.DESCRIPTION_6_TITLE}
         description={i18n.COOKIES.TYPES.DESCRIPTION_6}
       />
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.BLOCK.TITLE}
-      </h1>
+      </h2>
       <p>
         {i18n.COOKIES.BLOCK.DESCRIPTION_1}
       </p>
@@ -111,9 +113,9 @@ const H1_STYLES =
         description={i18n.COOKIES.BLOCK.DESCRIPTION_10}
         url={i18n.COOKIES.BLOCK.DESCRIPTION_10_URL}
       />
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.MORE_INFO.TITLE}
-      </h1>
+      </h2>
       <CookieDescriptionLinkItem
         description={i18n.COOKIES.MORE_INFO.DESCRIPTION_1}
         url={i18n.COOKIES.MORE_INFO.DESCRIPTION_1_URL}
@@ -126,21 +128,21 @@ const H1_STYLES =
         description={i18n.COOKIES.MORE_INFO.DESCRIPTION_3}
         url={i18n.COOKIES.MORE_INFO.DESCRIPTION_3_URL}
       />
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.THIRD_PARTY.TITLE}
-      </h1>
+      </h2>
       <p>
         {i18n.COOKIES.THIRD_PARTY.DESCRIPTION}
       </p>
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.UPDATES.TITLE}
-      </h1>
+      </h2>
       <p>
         {i18n.COOKIES.UPDATES.DESCRIPTION}
       </p>
-      <h1 class=`${H1_STYLES}`>
+      <h2 class=`${H2_STYLES}`>
         {i18n.COOKIES.SITE_COOKIES.TITLE}
-      </h1>
+      </h2>
       <table class="w-fulltext-left rtl:text-right">
         <thead class="uppercase">
           <tr>

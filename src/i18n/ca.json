@@ -126,115 +126,118 @@
   "DOWNLOAD_BUTTON": "DESCARGAR",
   "COOKIES": {
     "POLICIES": {
-      "TITLE": "Política de Cookies",
-      "DESCRIPTION_1": "Esta Política de cookies es parte integrante del Aviso Legal y la Política de Privacidad de www.premiosesland.com (en adelante, Sitio Web), titularidad de UBIQ S.L.U (en adelante, UBIQ) con domicilio social en la calle Josep Viladomat, 4, Ed Sogas, 1-1 AD700 Escaldes Engordany, y responsable de las Cookies y del tratamiento de datos personales obtenidos a través de cookies propias y de terceros que se usan en este Sitio Web.",
-      "DESCRIPTION_2": "Este Sitio Web utiliza cookies de terceros en concreto cookies analíticas de Google Analytics para analizar la actividad que realizan los usuarios cuando visitan la web con fines estadísticos.",
-      "DESCRIPTION_3": "Puedes aceptar todas las cookies, rechazarlas o configurar tus preferencias en el panel de configuración de cookies. En cualquier momento podrás revocar el consentimiento o modificar tus preferencias de configuración de cookies accediendo nuevamente al panel de configuración. Asimismo, puedes evitar la descarga de cookies o eliminar las instaladas a través de la configuración de tu navegador, evitando que las cookies se almacenen en tu dispositivo. Es muy importante que leas la presente política de cookies.",
-      "DESCRIPTION_4": "Te informamos de la posibilidad de que el rechazo y desactivación de las cookies puede afectar o dificultar la navegación o la prestación de los servicios ofrecidos en este Sitio Web."
+      "TITLE": "Cookies policy",
+      "DESCRIPTION_1": "This Cookies Policy is an integral part of the Legal Notice and the Privacy Policy of www.porticosport.com (hereinafter, the Website), owned by PÓRTICO GESTIÓN E INGENIERÍA, S.L. with registered office at C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registered in the commercial register of Badajoz, tome 504, folio 31, sheet BA-22562, and responsible for the Cookies and the processing of personal data obtained through its own cookies and those of third parties used on this Website.",
+      "DESCRIPTION_2": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes.",
+      "DESCRIPTION_3": "You can accept all cookies, reject them or configure your preferences in the cookie settings panel. At any time you can revoke consent or modify your cookie settings preferences by accessing the configuration panel again. You can also prevent the download of cookies or delete those installed through your browser settings, preventing cookies from being stored on your device. It is very important that you read this cookie policy.",
+      "DESCRIPTION_4": "We inform you of the possibility of rejecting and disabling cookies may affect or hinder navigation or the provision of services offered on this Website."
     },
     "WHAT_IS": {
-      "TITLE": "¿Qué son las cookies?",
-      "DESCRIPTION_1": "Las cookies son identificadores alfanuméricos que contienen información que se instala en el dispositivo del Usuario y se descargan en el navegador Web del Usuario cuando éste visita y accede a una página web. Su finalidad principal es identificar y reconocer de forma unívoca el dispositivo del Usuario cada vez que accede al Sitio Web, además de mejorar la calidad y ofrecer un mejor uso del Sitio Web.",
-      "DESCRIPTION_2": "Se trata de pequeños archivos de texto que quedan almacenados en el disco duro del ordenador y que sirven para identificar al Usuario cuando se conecta nuevamente al sitio web. Su objetivo es registrar la visita del Usuario y guardar cierta información. Su uso es común y frecuente en la web ya que permite a las páginas funcionar de manera más eficiente y conseguir una mayor personalización y análisis sobre el comportamiento del Usuario."
+      "TITLE": "What are cookies?",
+      "DESCRIPTION_1": "Cookies are alphanumeric identifiers that contain information that is installed on the User's device and downloaded to the User's Web browser when the User visits and accesses a web page. Their main purpose is to uniquely identify and recognize the User's device each time he or she accesses the Website, as well as to improve the quality and offer a better use of the Website.",
+      "DESCRIPTION_2": "They are small text files that are stored on the hard drive of the computer and serve to identify the User when he or she connects to the website again. Their purpose is to record the User's visit and save certain information. Their use is common and frequent on the web as they allow pages to function more efficiently and obtain greater personalization and analysis of the User's behavior."
     },
     "TYPES": {
-      "TITLE": "¿Qué tipos de cookies existen?",
-      "DESCRIPTION_1_TITLE": "1.- Según la entidad que las gestione:",
-      "DESCRIPTION_1": "Las cookies propias son aquellas que se instalan en el terminal del Usuario desde el dominio gestionado por el responsable de la Web y las cookies de terceros son aquellas que se instalan en el terminal del Usuario desde un dominio gestionado por terceros que tratan los datos obtenidos a través de dichas cookies.",
-      "DESCRIPTION_2_TITLE": "2.- Según el plazo de tiempo que permanezcan activas:",
-      "DESCRIPTION_2": "Las cookies de sesión son aquellas que permanecen activadas y recaban datos mientras el usuario accede a una web y desaparecen al terminar la sesión, y las cookies permanentes son aquellas que siguen activas y de las que se recaba información durante un periodo de tiempo definido por el responsable de la cookie o hasta la su desactivación o eliminación por parte del Usuario.",
-      "DESCRIPTION_3_TITLE": "3.- Cookies técnicas:",
-      "DESCRIPTION_3": "Son aquellas que permiten al Usuario navegar a través una página web y utilizar las diferentes opciones o servicios que se ofrecen, como, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, realizar una solicitud de inscripción, utilizar elementos de seguridad durante la navegación, etc. Al ser necesarias para el funcionamiento de la web, estas cookies estarán activadas y no podrán rechazarse.",
-      "DESCRIPTION_4_TITLE": "4.- Cookies de rendimiento u operativas:",
-      "DESCRIPTION_4": "Este tipo de Cookie recuerda sus preferencias en la navegación por la Web por lo que no tiene que volver a configurar el servicio cada vez que usted visita la Web. A modo de ejemplo, en esta tipología se incluyen: Ajustes de volumen de reproductores de vídeo o sonido. Las velocidades de transmisión de vídeo que sean compatibles con su navegador. Estas cookies pueden desactivarse por el Usuario, si bien ello puede afectar el buen funcionamiento de los servicios de la Web.",
-      "DESCRIPTION_5_TITLE": "5.- Cookies analíticas o de medición:",
-      "DESCRIPTION_5": "Son aquellas que permiten realizar un seguimiento y análisis del comportamiento de los Usuarios de la Web con la finalidad de obtener datos estadísticos y mejorar el funcionamiento de la Web. Cada vez que un Usuario visita una Web, una herramienta de un proveedor externo genera una cookie analítica en el ordenador del Usuario.",
-      "DESCRIPTION_6_TITLE": "6.- Cookies de publicidad:",
-      "DESCRIPTION_6": "Este tipo de cookies permiten obtener información sobre la duración o frecuencia de visualización de posiciones publicitarias, la interacción con las mismas, o los patrones de navegación y/o comportamientos del Usuario ya que ayudan a conformar un perfil de interés publicitario. De este modo, permiten ofrecer publicidad afín a los intereses del Usuario."
+      "TITLE": "What types of cookies are there?",
+      "DESCRIPTION_1_TITLE": "1.- According to the entity that manages them:",
+      "DESCRIPTION_1": "Own cookies are those that are installed on the User's terminal from the domain managed by the person responsible for the Website and third-party cookies are those that are installed on the User's terminal from a domain managed by third parties that process the data obtained through such cookies.",
+      "DESCRIPTION_2_TITLE": "2.- According to the length of time they remain active:",
+      "DESCRIPTION_2": "Session cookies are those that remain active and collect data while the user accesses a website and disappear when the session ends, and permanent cookies are those that remain active and from which data is collected for a period of time defined by the person responsible for the cookie or until they are deactivated or deleted by the User.",
+      "DESCRIPTION_3_TITLE": "3.- Technical cookies:",
+      "DESCRIPTION_3": "They are those that allow the User to navigate through a web page and use the different options or services offered, such as, control traffic and data communication, identify the session, access restricted access parts, make a request for registration, use security elements during navigation, etc. As they are necessary for the operation of the website, these cookies will be activated and cannot be rejected.",
+      "DESCRIPTION_4_TITLE": "4.- Performance or operational cookies:",
+      "DESCRIPTION_4": "This type of Cookie remembers your preferences in browsing the Web so that you do not have to reconfigure the service each time you visit the Web. By way of example, this type includes: Volume settings for video or sound players. Video transmission speeds that are compatible with your browser. These cookies can be disabled by the User, although this may affect the proper functioning of the Web services.",
+      "DESCRIPTION_5_TITLE": "5.- Analytical or measurement cookies:",
+      "DESCRIPTION_5": "They are those that allow the tracking and analysis of the behavior of the Users of the Web in order to obtain statistical data and improve the operation of the Web. Each time a User visits a Web, a tool from an external provider generates an analytical cookie on the User's computer.",
+      "DESCRIPTION_6_TITLE": "6.- Advertising cookies:",
+      "DESCRIPTION_6": "This type of cookies allows to obtain information about the duration or frequency of visualization of advertising positions, the interaction with them, or the navigation patterns and/or behaviors of the User since they help to shape an advertising interest profile. In this way, they allow to offer advertising related to the interests of the User.",
+      "DESCRIPTION_7_TITLE": "7.- Social network cookies:",
+      "DESCRIPTION_7": "They are those that allow the User to interact with the content of different social platforms (Facebook, YouTube, Twitter, LinkedIn, etc.) and that are generated only for the Users of said social networks. The conditions of use of these cookies and the information collected are regulated by the privacy policy of the corresponding social platform."
     },
     "BLOCK": {
-      "TITLE": "RECHAZAR, CONFIGURAR, DESHABILITAR O BLOQUEAR LAS COOKIES:",
-      "DESCRIPTION_1": "Bien en el banner o en el panel de configuración de cookies -siempre activo y accesible- el Usuario tiene la posibilidad de aceptar o rechazar las cookies, así como configurar sus preferencias de aquellas cookies cuyo tratamiento requiera del consentimiento del Usuario.",
-      "DESCRIPTION_2": "El Usuario podrá revocar el consentimiento inicialmente otorgado o modificar sus preferencias, en cualquier momento accediendo al panel de configuración.",
-      "DESCRIPTION_3": "Asimismo, el Usuario puede bloquear y eliminar las cookies instaladas en su equipo mediante la configuración de las opciones de su navegador.",
-      "DESCRIPTION_4": "Se pueden configurar los diferentes navegadores para avisar al Usuario de la recepción de cookies y, si se desea, impedir su instalación en el equipo. Asimismo, el Usuario puede revisar en su navegador qué cookies tiene instaladas y cuál es el plazo de caducidad de las mismas, pudiendo eliminarlas. Puede encontrar información sobre cómo hacerlo, en relación con los navegadores más comunes, en los enlaces que se relacionan a continuación:",
-      "DESCRIPTION_5": "Chrome:",
-      "DESCRIPTION_5_URL": "https://support.google.com/chrome/answer/95647?hl=es",
-      "DESCRIPTION_6": "Para más información sobre la administración de las cookies en Internet Explorer:",
-      "DESCRIPTION_6_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
-      "DESCRIPTION_7": "Para más información sobre la administración de las cookies en Mozilla Firefox:",
-      "DESCRIPTION_7_URL": "https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
-      "DESCRIPTION_8": "Para más información sobre la administración de las cookies en Safari:",
-      "DESCRIPTION_8_URL": "http://www.apple.com/es/privacy/use-of-cookies",
-      "DESCRIPTION_9": "Para más información sobre la administración de las cookies en Opera:",
-      "DESCRIPTION_9_URL": "http://help.opera.com/Windows/11.50/es-ES/cookies.html",
-      "DESCRIPTION_10": "Si desea dejar de ser seguido por Google Analytics visite:",
-      "DESCRIPTION_10_URL": "http://tools.google.com/dlpage/gaoptout",
+      "TITLE": "How to block or delete cookies?",
+      "DESCRIPTION_1": "You can allow, block or delete the cookies installed on your computer by configuring the options of the browser installed on your computer. If you do not allow the installation of cookies in your browser, you may not be able to access some of the services and your experience on our website may be less satisfactory.",
+      "DESCRIPTION_2": "In the following links you have at your disposal all the information to configure or disable your cookies in each browser:",
+      "DESCRIPTION_3": "Chrome:",
+      "DESCRIPTION_3_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+      "DESCRIPTION_4": "For more information on managing cookies in Internet Explorer:",
+      "DESCRIPTION_4_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
+      "DESCRIPTION_5": "For more information on managing cookies in Mozilla Firefox:",
+      "DESCRIPTION_5_URL": "https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
+      "DESCRIPTION_6": "For more information on managing cookies in Safari:",
+      "DESCRIPTION_6_URL": "http://www.apple.com/es/privacy/use-of-cookies",
+      "DESCRIPTION_7": "For more information on managing cookies in Opera:",
+      "DESCRIPTION_7_URL": "http://help.opera.com/Windows/11.50/es-ES/cookies.html",
+      "DESCRIPTION_8": "If you wish to stop being tracked by Google Analytics visit:",
+      "DESCRIPTION_8_URL": "http://tools.google.com/dlpage/gaoptout",
+      "DESCRIPTION_9": "Chrome:",
+      "DESCRIPTION_9_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+      "DESCRIPTION_10": "For more information on managing cookies in Internet Explorer:",
+      "DESCRIPTION_10_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
       "DESCRIPTION_11": "Chrome:"
     },
     "MORE_INFO": {
-      "TITLE": "Para saber más sobre las cookies",
-      "DESCRIPTION_1": "Puede obtener más información sobre la publicidad online basada en el comportamiento y la privacidad online en el siguiente enlace:",
+      "TITLE": "More information about cookies",
+      "DESCRIPTION_1": "You can obtain more information about online behavioral advertising and online privacy at the following link:",
       "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
-      "DESCRIPTION_2": "Protección de datos de Google Analytics",
+      "DESCRIPTION_2": "Google Analytics Data Protection",
       "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
-      "DESCRIPTION_3": "Cómo usa Google Analytics las cookies:",
-      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
+      "DESCRIPTION_3": "How Google Analytics uses cookies:"
     },
     "THIRD_PARTY": {
-      "TITLE": "Terceros y Transferencias Internacionales",
-      "DESCRIPTION": "Puede obtener información sobre el tratamiento realizado por terceros y posibles transferencias de datos a otros países que realicen estos terceros identificados en esta política, en los enlaces que se facilitan en la presente política de cookies. Los diferentes mecanismos de regularización de las transferencias internacionales, en el caso de existir, serán informados por dichos terceros."
+      "TITLE": "Third party cookies",
+      "DESCRIPTION_1": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes."
     },
     "UPDATES": {
-      "TITLE": "Actualizaciones y cambios en la política de cookies",
-      "DESCRIPTION": "FAN CONTENT pueden modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos y por el Comité Europeo de Protección de Datos, por ello se aconseja a los Usuarios que la visiten periódicamente.",
-      "DATE": "Fecha de la última actualización: 12 del 12 de 2023."
+      "TITLE": "Updates and changes to the cookie policy",
+      "DESCRIPTION": "FAN CONTENT may modify this Cookies Policy in accordance with legislative or regulatory requirements, or in order to adapt this policy to the instructions issued by the Spanish Data Protection Agency and the European Data Protection Committee, therefore Users are advised to visit it periodically.",
+      "DATE": "Date of last update: 12th of December 2023."
     },
     "SITE_COOKIES": {
-      "TITLE": "¿Qué cookies utiliza este Sitio WEB?",
-      "THEAD_NAME": "Nombre",
-      "THEAD_CADUCITY": "Caducidad",
-      "THEAD_PROVIDER": "Proveedor",
-      "THEAD_FINALITY": "Finalidad",
+      "TITLE": "Cookies used on this Website",
+      "THEAD_NAME": "Name",
+      "THEAD_CADUCITY": "Caducity",
+      "THEAD_PROVIDER": "Provider",
+      "THEAD_FINALITY": "Finality",
       "ANALYTICS": [
         {
           "NAME": "_ga",
-          "EXPIRE": "2 años",
+          "EXPIRE": "2 years",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "Se usa para distinguir a los usuarios.",
+          "OBJECTIVE": "It is used to distinguish users.",
           "OBJECTIVE_URL": ""
         },
         {
           "NAME": "_gid",
-          "EXPIRE": "24 horas",
+          "EXPIRE": "24 hours",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "Se usa para distinguir a los usuarios.",
+          "OBJECTIVE": "It is used to distinguish users.",
           "OBJECTIVE_URL": ""
         },
         {
           "NAME": "_ga_J8PJQBXG7J",
-          "EXPIRE": "2 años",
+          "EXPIRE": "2 years",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "Se usa para mantener el estado de la sesión.",
+          "OBJECTIVE": "It is used to determinate user state",
           "OBJECTIVE_URL": ""
         },
         {
           "NAME": "_gac_gb_J8PJQBXG7J",
-          "EXPIRE": "90 días",
+          "EXPIRE": "90 days",
           "PROVIDER": {
             "NAME": "Google",
             "URL": "https://google.com/"
           },
-          "OBJECTIVE": "Incluye información relacionada con la campaña. Si has vinculado tus cuentas de Google Analytics y Google Ads, las etiquetas de conversión en sitio web de Google Ads leerán esta cookie, a menos que la inhabilites",
+          "OBJECTIVE": "It is used to store campaign information in order to provide Google Ads with a more efficient conversion.",
           "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=es"
         }
       ]
