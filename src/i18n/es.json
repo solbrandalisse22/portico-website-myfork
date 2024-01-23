@@ -52,6 +52,12 @@
       "SUBTITLE": "The latest news from Portico Sport"
     }
   },
+  "NO_FOUND": {
+    "TITLE": "Page not found",
+    "TITLE_ALT": "Page not found",
+    "SUBTITLE": "The page you are looking for does not exist",
+    "DESCRIPTION": "The page you are looking for does not exist. Please, go to the home page or contact us."
+  },
   "ROUTES": {
     "HOME": {
       "LABEL": "Home",
