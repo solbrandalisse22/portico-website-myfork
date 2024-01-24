@@ -17,7 +17,7 @@
   "HEADER_OUR_FACTORY": "FACTORY",
   "HEADER_NEWS": "NEWS",
   "HEADER_PROJECTS": "PROJECTS",
-  "HEADER_BUTTON": "CONTACT WITH US",
+  "HEADER_BUTTON": "CONTACT US",
   "HERO_SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
   "HERO_TITLE": "Thinking Padel, Thinking Portico Sport",
   "INTRO_TITLE": "Welcome to",
@@ -26,7 +26,7 @@
   "INTRO_DESCRIPTION_2": "Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with 100% in-house design and manufacturing.",
   "INTRO_DESCRIPTION_3": "In 2023 the company inaugurated a new manufacturing site expanding over 110k sqft making it the largest and most technologically advanced in the industry.",
   "BENTO_TITLE_1": "EXPERIENCE",
-  "BENTO_CONTENT_1": "<strong>With over 13 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client.",
+  "BENTO_CONTENT_1": "<strong>With over 15 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client.",
   "BENTO_TITLE_2": "INNOVATION",
   "BENTO_CONTENT_2": "In our commitment to innovation, Portico Sport offers the best design and quality in our courts and canopies, with record delivery times and full warranties. We provide padel courts and canopies with maximum strength and durability.",
   "BENTO_TITLE_3": "PREMIUM QUALITY",
@@ -37,7 +37,7 @@
   "VIDEO_BUTTON": "CONTACT",
   "PREFOOTER_VIDEO_TITLE": "Visit our factory",
   "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site",
-  "CONTACT_TITLE": "CONTACT WITH US",
+  "CONTACT_TITLE": "CONTACT US",
   "CONTACT_SUBTITLE": "A great team of professionals at your service",
   "NEWS": {
     "TITLE": "News",
@@ -314,14 +314,15 @@
     "TITLE_HERO_1": "Los premios",
     "TITLE_HERO_2": "ESLAND",
     "PROJECTS_TITLE": "PROJECTS",
-    "PROJECTS_TEXT": "A selection of projects that coming into reality"
+    "PROJECTS_TEXT": "A selection of projects we've turned into reality",
+    "BUTTON_TEXT": "Discover more projects"
   },
   "COURTS": {
     "TITLE": "Padel Courts",
     "SUBTITLE": "Discover all our Padel Courts",
     "COURT1": {
       "TITLE": "Mobile court patented by Portico Sport",
-      "DESCRIPTION": "<p>Designed and calculated by our Engineering department, the client saves on labor and foundation costs. This court model is made with support plates that do not require anchoring to the ground, allowing the sport to be transported to any location. Only a draining surface is needed to prevent water accumulation. It can be played in a specific location for an extended period or easily moved to another place.</p>",
+      "DESCRIPTION": "<p>Designed and engineered by our Engineering department, this court is patented by Portico Sport, being the first of its kind in the market. Thanks to this court, the client can save on ground preparation expenses and permit acquisition, as only a drained surface is needed to prevent water accumulation. This court model is built with a special counterweight box system as support, eliminating the need for ground anchoring. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. Additionally, its special counterweight box system makes it a highly resistant court that can withstand strong gusts of wind. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.</p>",
       "IMAGE": "/courts/mobile-court.webp",
       "IMAGE_ALT": "Mobile court patented by Portico Sport"
     },
