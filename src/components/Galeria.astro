@@ -38,12 +38,16 @@ const { i18n } = Astro.props;
             loading="lazy"
             src={`/projects/${edicion}/gallery/thumbnails/img-${i + 1}.webp`}
             alt={alt}
+            width="397"
+            height="264"
           />
           <img
             class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
             loading="lazy"
             src={`/projects/${edicion}/gallery/thumbnails/img-${i + 1}.webp`}
-            alt="Imagen con efecto blur para hacer de sombra de una fotografía de los premios ESLAND"
+            alt={alt}
+            width="397"
+            height="264"
           />
         </a>
       ))

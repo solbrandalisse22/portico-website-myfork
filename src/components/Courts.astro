@@ -56,6 +56,6 @@ const courts = [{
 
 <Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE}>
   {
-    courts.map(({title, description, img}, index) => (<CourtItem title={title} description={description} img={img} index={index} class={index === courts.length - 1 ? 'mb-0' : ''} />))
+    courts.map(({title, description, img, imgAlt}, index) => (<CourtItem title={title} description={description} img={img} index={index} imgAlt={imgAlt} class={index === courts.length - 1 ? 'mb-0' : ''} />))
   }
 </Section>
