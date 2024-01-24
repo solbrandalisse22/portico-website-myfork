@@ -11,11 +11,13 @@ const { link, title, image } = Astro.props
       src={image}
       class="aspect-video rounded-lg w-full h-auto transition group-hover:scale-105 object-cover"
       loading="lazy"
-    />
-    <img
+      alt={title}
+      />
+      <img
       src={image}
       class="absolute inset-0 opacity-0 brightness-200 blur-xl group-hover:opacity-40 scale-105 aspect-video rounded w-full h-auto -z-10 transition object-cover"
       loading="lazy"
+      alt={title}
     />
     <h3 class="text-xl my-2 line-clamp-3">{title}</h3>
   </a>
