@@ -1,6 +1,7 @@
 ---
 import { getI18N } from "@/i18n/";
 import Button from "./Button.astro";
+import FepLogo from "./FepLogo.astro";
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
@@ -58,6 +59,9 @@ const i18n = getI18N({ currentLocale });
     <!-- <source src="/video.webm" type="video/webm" /> -->
     <source src="/portico-sport-video.mp4" type="video/mp4" />
   </video>
+  <div class="absolute bottom-1/4 w-[200px] left-5 z-10">
+    <FepLogo />
+  </div>
 </div>
 
 <script>

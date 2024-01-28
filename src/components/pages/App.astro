@@ -10,6 +10,8 @@ import Courts from "@/components/Courts.astro"
 import { getI18N } from "@/i18n"
 import Galeria from "../Galeria.astro"
 import NewsList from "../NewsList.astro"
+import GraphicProcess from "../GraphicProcess.astro"
+import InfiniteScroll from "../InfiniteScroll.astro"
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -32,6 +34,8 @@ const posts = await response.json();
 
   <main>
     <Intro />
+    <GraphicProcess />
+    <InfiniteScroll />
     <Courts />
     <Bento />
     <Galeria i18n={i18n} edicion="1" />

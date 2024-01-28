@@ -52,6 +52,11 @@
       "SUBTITLE": "The latest news from Portico Sport"
     }
   },
+  "CANOPIES": {
+    "TITLE": "High-performance canopies",
+    "TITLE_ALT": "High-performance canopies",
+    "SUBTITLE": "Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies"
+  },
   "NO_FOUND": {
     "TITLE": "Page not found",
     "TITLE_ALT": "Page not found",
@@ -67,6 +72,11 @@
       "LABEL": "Info",
       "ID": "info",
       "URL": "/#info"
+    },
+    "CANOPIES": {
+      "LABEL": "Canopies",
+      "ID": "canopies",
+      "URL": "/canopies"
     },
     "COURTS": {
       "LABEL": "Courts",
@@ -373,6 +383,41 @@
       "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players. Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts. Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
       "IMAGE": "/courts/mini-court.webp",
       "IMAGE_ALT": "Mini court"
+    }
+  },
+  "PROCESS": {
+    "HEADING": "With you throughout then entire process",
+    "POINT_1": {
+      "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
+      "SUBTITLE": "Starting a strong, lasting relationship based on trust and customer satisfaction."
+    },
+    "POINT_2": {
+      "TITLE": "Commercial agreement",
+      "SUBTITLE": "Design and drafting of a commercial proposal tailored to the needs, goals, and preferences of each client."
+    },
+    "POINT_3": {
+      "TITLE": "Personalized Advice with Engineering and Architecture Departments",
+      "SUBTITLE": "Our technical team will be with you throughout the entire process, aiming to provide comprehensive and high-quality service that meets our clients' expectations. Our dedicated team is a guaranteed value for success."
+    },
+    "POINT_4": {
+      "TITLE": "Financing if applicable",
+      "SUBTITLE": "Portico Sport has advantageous agreements with different entities to offer personalized financing services with excellent conditions to our clients. The goal is to provide tailored solutions according to their needs."
+    },
+    "POINT_5": {
+      "TITLE": "Design, manufacturing, and installation according to each client's needs",
+      "SUBTITLE": "Based on the highest quality standards, our courts and covers are custom-designed to meet the specific needs of each client because we understand that every project is unique."
+    },
+    "POINT_6": {
+      "TITLE": "Installed courts",
+      "SUBTITLE": "Portico Sport guarantees satisfaction and quality in all our projects. Quality, innovation, trust, and experience are our pillars."
+    },
+    "POINT_7": {
+      "TITLE": "After-Sales service",
+      "SUBTITLE": "Customer-oriented, we maintain a close relationship from the beginning to the after-sales service because with Portico Sport, you'll never walk alone. For our company, after-sales service is essential to ensure customer satisfaction by providing technical support, resolving any concerns, and establishing long-term relationships."
+    },
+    "POINT_8": {
+      "TITLE": "Growing together",
+      "SUBTITLE": "For Portico Sport, it is equally important to offer exceptional after-sales service as it is to strengthen and foster long-term relationships with all our clients."
     }
   }
 }
