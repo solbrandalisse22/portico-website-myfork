@@ -1,0 +1,85 @@
+---
+import FepLogo from "./FepLogo.astro";
+import IspoMunichLogo from "./IspoMunichLogo.astro";
+import PadelSummitLogo from "./PadelSummitLogo.astro";
+import HexagonCupLogo from "./HexagoCupLogo.astro";
+import Section from "./Section.astro";
+---
+
+<Section>
+  <div class="scroller">
+    <ul class="tag-list scroller_inner">
+      <li><IspoMunichLogo /></li>
+      <li><PadelSummitLogo /></li>
+      <li><FepLogo /></li>
+      <li><HexagonCupLogo /></li>
+      <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></li>
+    </ul>
+  </div>
+</Section>
+
+<style>
+.tag-list {
+  list-style: none;
+  margin: 0;
+  padding-inline: 0;
+}
+.tag-list li {
+  padding: 1rem;
+  margin: 0 10px;
+  background: current;
+  position: relative;
+  min-width: 200px;
+}
+
+.scroller {
+  max-width: calc(100% - 1px);
+}
+
+.scroller_inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller_inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - .5rem));
+  }
+}
+
+</style>
+
+<script is:inline>
+  const scroller = document.querySelector(".scroller");
+
+  function addAnimation() {
+    scroller.setAttribute("data-animated", true)
+    const scrollerInner = scroller.querySelector(".scroller_inner")
+    const scrollerContent = Array.from(scrollerInner.children)
+
+    scrollerContent.forEach((item) => {
+      const clone = item.cloneNode(true)
+      clone.setAttribute("aria-hidden", true)
+      scrollerInner.appendChild(clone)
+    })
+  }
+
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    addAnimation()
+  }
+</script>
