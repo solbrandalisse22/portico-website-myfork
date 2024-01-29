@@ -1,4 +1,14 @@
-<svg viewBox="0 0 500 270" xmlns="http://www.w3.org/2000/svg">
+---
+const { isWhite } = Astro.props
+
+interface AstroProps {
+  size?: number;
+  color?: string | string[];
+  isWhite?: boolean;
+}
+---
+
+<svg {...Astro.props} viewBox="0 0 500 270" xmlns="http://www.w3.org/2000/svg">
   <g transform="translate(-63.44 -89.164) scale(.71833)">
     <linearGradient
       id="a"
@@ -8,8 +18,8 @@
       x2="340.204"
       y2="366.544"
     >
-      <stop offset="0" style="stop-color:red"></stop>
-      <stop offset="1" style="stop-color:#962025"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : 'red'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#962025'}`}></stop>
     </linearGradient>
     <path
       fill="url(#a)"
@@ -24,8 +34,8 @@
       x2="404.149"
       y2="268.988"
     >
-      <stop offset="0" style="stop-color:#feff00"></stop>
-      <stop offset="1" style="stop-color:#ff9600"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : '#feff00'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#ff9600'}`}></stop>
     </linearGradient>
     <path
       fill="url(#b)"
@@ -40,11 +50,11 @@
       x2="376.077"
       y2="151.608"
     >
-      <stop offset="0" style="stop-color:red"></stop>
-      <stop offset=".163" style="stop-color:#f60303"></stop>
-      <stop offset=".429" style="stop-color:#de0a0c"></stop>
-      <stop offset=".762" style="stop-color:#b6161a"></stop>
-      <stop offset="1" style="stop-color:#962025"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : 'red'}`}></stop>
+      <stop offset=".163" style={`stop-color:${isWhite ? '#fff' : '#f60303'}`}></stop>
+      <stop offset=".429" style={`stop-color:${isWhite ? '#fff' : '#de0a0c'}`}></stop>
+      <stop offset=".762" style={`stop-color:${isWhite ? '#fff' : '#b6161a'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#962025'}`}></stop>
     </linearGradient>
     <path
       fill="url(#c)"
@@ -67,11 +77,11 @@
       r="114.403"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" style="stop-color:red"></stop>
-      <stop offset=".163" style="stop-color:#f60303"></stop>
-      <stop offset=".429" style="stop-color:#de0a0c"></stop>
-      <stop offset=".762" style="stop-color:#b6161a"></stop>
-      <stop offset="1" style="stop-color:#962025"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : 'red'}`}></stop>
+      <stop offset=".163" style={`stop-color:${isWhite ? '#fff' : '#f60303'}`}></stop>
+      <stop offset=".429" style={`stop-color:${isWhite ? '#fff' : '#de0a0c'}`}></stop>
+      <stop offset=".762" style={`stop-color:${isWhite ? '#fff' : '#b6161a'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#962025'}`}></stop>
     </radialGradient>
     <path
       fill="url(#d)"
@@ -85,8 +95,8 @@
       r="75.022"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" style="stop-color:#feff00"></stop>
-      <stop offset="1" style="stop-color:#ff9600"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : '#feff00'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#ff9600'}`}></stop>
     </radialGradient>
     <path
       fill="url(#e)"
@@ -101,8 +111,8 @@
       x2="141"
       y2="159.84"
     >
-      <stop offset="0" style="stop-color:#ffba00"></stop>
-      <stop offset="1" style="stop-color:#ff9600"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : '#ffba00'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#ff9600'}`}></stop>
     </linearGradient>
     <path
       fill="url(#f)"
@@ -117,8 +127,8 @@
       x2="224.042"
       y2="296.136"
     >
-      <stop offset="0" style="stop-color:#fedf00"></stop>
-      <stop offset="1" style="stop-color:#ff9600"></stop>
+      <stop offset="0" style={`stop-color:${isWhite ? '#fff' : '#fedf00'}`}></stop>
+      <stop offset="1" style={`stop-color:${isWhite ? '#fff' : '#ff9600'}`}></stop>
     </linearGradient>
     <path
       fill="url(#g)"

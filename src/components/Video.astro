@@ -17,7 +17,7 @@ const i18n = getI18N({ currentLocale });
       class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col"
     >
       <p
-        class="subtitle text-xl lg:text-2xl text-center font-jura px-4 text-balance"
+        class="subtitle text-xl lg:text-2xl text-center font-jura px-4 text-balance mb-0"
       >
         {i18n.HERO_SUBTITLE}
       </p>
@@ -59,8 +59,8 @@ const i18n = getI18N({ currentLocale });
     <!-- <source src="/video.webm" type="video/webm" /> -->
     <source src="/portico-sport-video.mp4" type="video/mp4" />
   </video>
-  <div class="absolute bottom-1/4 w-[200px] left-5 z-10">
-    <FepLogo />
+  <div class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10">
+    <FepLogo isWhite />
   </div>
 </div>
 
