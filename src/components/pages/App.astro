@@ -12,6 +12,7 @@ import Galeria from "../Galeria.astro"
 import NewsList from "../NewsList.astro"
 import GraphicProcess from "../GraphicProcess.astro"
 import InfiniteScroll from "../InfiniteScroll.astro"
+import SliderImage from "../SliderImage"
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -45,3 +46,4 @@ const posts = await response.json();
   </main>
 
 </Layout>
+../SliderImage.tsx

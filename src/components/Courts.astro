@@ -9,53 +9,44 @@ const i18n = getI18N({ currentLocale });
 const courts = [{
   title: i18n.COURTS.COURT1.TITLE,
   description: i18n.COURTS.COURT1.DESCRIPTION,
-  img: i18n.COURTS.COURT1.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT1.IMAGES,
 }, {
   title: i18n.COURTS.COURT2.TITLE,
   description: i18n.COURTS.COURT2.DESCRIPTION,
-  img: i18n.COURTS.COURT2.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT2.IMAGES,
 }, {
   title: i18n.COURTS.COURT3.TITLE,
   description: i18n.COURTS.COURT3.DESCRIPTION,
-  img: i18n.COURTS.COURT3.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT3.IMAGES,
 }, {
   title: i18n.COURTS.COURT4.TITLE,
   description: i18n.COURTS.COURT4.DESCRIPTION,
-  img: i18n.COURTS.COURT4.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT4.IMAGES,
 }, {
   title: i18n.COURTS.COURT5.TITLE,
   description: i18n.COURTS.COURT5.DESCRIPTION,
-  img: i18n.COURTS.COURT5.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT5.IMAGES,
 }, {
   title: i18n.COURTS.COURT6.TITLE,
   description: i18n.COURTS.COURT6.DESCRIPTION,
-  img: i18n.COURTS.COURT6.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT6.IMAGES,
 }, {
   title: i18n.COURTS.COURT7.TITLE,
   description: i18n.COURTS.COURT7.DESCRIPTION,
-  img: i18n.COURTS.COURT7.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT7.IMAGES,
 }, {
   title: i18n.COURTS.COURT8.TITLE,
   description: i18n.COURTS.COURT8.DESCRIPTION,
-  img: i18n.COURTS.COURT8.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT8.IMAGES,
 }, {
   title: i18n.COURTS.COURT9.TITLE,
   description: i18n.COURTS.COURT9.DESCRIPTION,
-  img: i18n.COURTS.COURT9.IMAGE,
-  imgAlt: i18n.COURTS.COURT1.IMAGE_ALT,
+  images: i18n.COURTS.COURT9.IMAGES,
 }]
 ---
 
 <Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE}>
   {
-    courts.map(({title, description, img, imgAlt}, index) => (<CourtItem title={title} description={description} img={img} index={index} imgAlt={imgAlt} class={index === courts.length - 1 ? 'mb-0' : ''} />))
+    courts.map(({title, description, images}, index) => (<CourtItem title={title} description={description} images={images} index={index} class={index === courts.length - 1 ? 'mb-0' : ''} />))
   }
 </Section>
