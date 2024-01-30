@@ -40,7 +40,7 @@ export default function SliderImage({ images = [] }: SliderImageProps) {
       <div class="slider-nav flex gap-3 absolute bottom-5 left-1/2 -translate-x-1/2 z-10">
         {
           images.map(({id}) => (
-            <button class={`size-4 rounded-full hover:opacity-100 hover:scale-125 transition-all ${ id === slider ? 'scale-125 opacity-100 bg-white' : 'scale-100 opacity-75 bg-gray-400' }`} onClick={() => updateSlider(id)} />
+            <button class={`size-4 rounded-full hover:opacity-100 hover:scale-125 transition-all ${ id === slider ? 'scale-125 opacity-100 bg-primary' : 'scale-100 opacity-75 bg-secondary' }`} onClick={() => updateSlider(id)} />
           ))
         }
       </div>
