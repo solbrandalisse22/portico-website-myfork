@@ -55,7 +55,12 @@
   "CANOPIES": {
     "TITLE": "High-performance canopies",
     "TITLE_ALT": "High-performance canopies",
-    "SUBTITLE": "Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies"
+    "SUBTITLE": "Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies",
+    "GALLERY": {
+      "HEADING": "Sport-Specific Engineering",
+      "SUBHEADING": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
+      "BUTTON_TEXT":"Discover more canopies"
+    }
   },
   "NO_FOUND": {
     "TITLE": "Page not found",
