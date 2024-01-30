@@ -30,10 +30,20 @@ export default function SliderImage({ images = [] }: SliderImageProps) {
 
   return (
     <div class="slider-wrapper relative mx-auto m-0">
-      <div ref={sliderRef} class="slider flex aspect-video overflow-x-hidden snap-x scroll-smooth shadow-lg rounded">
+      <div ref={sliderRef} class="slider flex aspect-video overflow-x-hidden snap-x scroll-smooth rounded-xl">
         {
           images.map(({id, src, imgAlt, width, height}) => (
-            <img width={width} height={height} alt={imgAlt} loading="lazy" class="snap-start object-cover flex-1" style={{ flex: '0 0 100%' }} id={id} src={src} />
+            <>
+              <img width={width} height={height} alt={imgAlt} loading="lazy" class="snap-start object-cover flex-1" style={{ flex: '0 0 100%' }} id={id} src={src} />
+              <img
+                class={`blur-md ${id === slider ? 'opacity-100' : 'opacity-0'} absolute inset-0 transition contrast-150 -z-10 object-cover`}
+                loading="lazy"
+                src={src}
+                alt={imgAlt}
+                width={width}
+                height={height}
+              />
+            </>
           ))
         }
       </div>
