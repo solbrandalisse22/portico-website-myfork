@@ -60,6 +60,9 @@ const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } 
             width="397"
             height="264"
           />
+          <span class="absolute bottom-0 left-0 right-0 p-4 text-white bg-black bg-opacity-50 rounded-b-xl">
+            {alt}
+          </span>
         </a>
       ))
     }
@@ -114,12 +117,12 @@ const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } 
             `/${path}/thumbnails/${img.src}`
           );
         $clone
-          .querySelector("img:last-child")
+          .querySelector("img:first-child").closest('img')
           .setAttribute(
             "src",
             `/${path}/thumbnails/${img.src}`
           );
-
+        $clone.querySelector("span:last-child").innerHTML = img.alt;
         return $clone?.outerHTML;
       })
       .join("");
