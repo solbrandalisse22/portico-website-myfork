@@ -6,9 +6,10 @@ import Bento from "@/components/Bento.astro"
 import PreFooter from "@/components/PreFooter.astro"
 import Contact from "@/components/Contact.astro"
 import Courts from "@/components/Courts.astro"
+import projectsGallery from "@/data/projects-gallery.json";
 
 import { getI18N } from "@/i18n"
-import Galeria from "../Galeria.astro"
+import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
 import GraphicProcess from "../GraphicProcess.astro"
 import InfiniteScroll from "../InfiniteScroll.astro"
@@ -38,7 +39,14 @@ const posts = await response.json();
     <InfiniteScroll />
     <Courts />
     <Bento />
-    <Galeria i18n={i18n} edicion="1" />
+    <Gallery
+      id={i18n.ROUTES.PROJECTS.ID}
+      heading={i18n.INFO.PROJECTS_TITLE}
+      subheading={i18n.INFO.PROJECTS_TEXT}
+      photos={projectsGallery}
+      path="projects"
+      loadMoreText={i18n.INFO.BUTTON_TEXT}
+    />
     <PreFooter />
     <NewsList posts={posts} />
     <Contact />

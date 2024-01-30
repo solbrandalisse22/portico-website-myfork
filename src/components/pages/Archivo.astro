@@ -5,8 +5,7 @@ import Button from "../Button.astro"
 
 import { getI18N } from "@/i18n"
 import Numeros from "../Numeros.astro"
-import Galeria from "../Galeria.astro"
-import Footer from "../Footer.astro"
+import Gallery from "../Gallery.astro"
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -32,7 +31,7 @@ const i18n = getI18N({ currentLocale })
   </HeroContainer>
 
   <main class="pb-24">
-    <Galeria i18n={i18n} edicion="1" />
+    <Gallery i18n={i18n} />
     <Numeros i18n={i18n} />
   </main>
 </Layout>
