@@ -1,21 +1,32 @@
 ---
 import "photoswipe/style.css";
 import Section from "@/components/Section.astro";
-import editionsInfo from "@/data/meta-gallery.json";
 import Button from "./Button.astro";
 
-const offset = 9;
-const { edicion } = Astro.props;
-const editionIndex = Number(edicion) - 1;
-const photos = editionsInfo[editionIndex].slice(0, offset);
+interface Photo {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
 
-const { i18n } = Astro.props;
+interface AstroProps {
+  id: string;
+  heading: string;
+  subheading: string;
+  offset: number;
+  photos: Photo[];
+  path: string;
+  loadMoreText: string;
+}
+
+const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } = Astro.props;
 ---
 
 <Section
-  id={i18n.ROUTES.PROJECTS.ID}
-  heading={i18n.INFO.PROJECTS_TITLE}
-  subheading={i18n.INFO.PROJECTS_TEXT}
+  id={id}
+  heading={heading}
+  subheading={subheading}
 >
   <masonry-layout
     gap="24"
@@ -24,10 +35,10 @@ const { i18n } = Astro.props;
     id="gallery"
   >
     {
-      photos.map(({ alt, width, height }, i) => (
+      photos.slice(0, offset).map(({src, width, height, alt}:Photo )=> (
         <a
           class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
-          href={`/projects/${edicion}/gallery/img-${i + 1}.webp`}
+          href={`/${path}/${src}`}
           target="_blank"
           data-cropped="true"
           data-pswp-width={width}
@@ -36,7 +47,7 @@ const { i18n } = Astro.props;
           <img
             class="rounded-xl object-cover w-full h-auto"
             loading="lazy"
-            src={`/projects/${edicion}/gallery/thumbnails/img-${i + 1}.webp`}
+            src={`/${path}/thumbnails/${src}`}
             alt={alt}
             width="397"
             height="264"
@@ -44,7 +55,7 @@ const { i18n } = Astro.props;
           <img
             class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
             loading="lazy"
-            src={`/projects/${edicion}/gallery/thumbnails/img-${i + 1}.webp`}
+            src={`/${path}/thumbnails/${src}`}
             alt={alt}
             width="397"
             height="264"
@@ -55,7 +66,7 @@ const { i18n } = Astro.props;
   </masonry-layout>
 
   <div class="text-center mx-auto">
-    <Button id="load-more" url="#">{i18n.INFO.BUTTON_TEXT}</Button>
+    <Button id="load-more" url="#">{loadMoreText}</Button>
   </div>
 </Section>
 
@@ -74,7 +85,7 @@ const { i18n } = Astro.props;
   });
 </script>
 
-<script define:vars={{ edicion, offset }}>
+<script define:vars={{ photos, offset, path }}>
   document.addEventListener("astro:page-load", () => {
     const $button = document.querySelector("#load-more");
     // clone first element of gallery
@@ -83,10 +94,7 @@ const { i18n } = Astro.props;
     $button?.addEventListener("click", async (e) => {
       $button.remove();
       e.preventDefault();
-      const res = await fetch(`/api/gallery.json?edition=1&offset=${offset}`);
-      const images = await res.json();
-
-      const html = images.slice(offset).map((img, index) => {
+      const html = photos.slice(offset).map((img, index) => {
         const imgIndex = index + offset + 1;
         const $clone = $first?.cloneNode(true);
 
@@ -94,7 +102,7 @@ const { i18n } = Astro.props;
         $clone.setAttribute("data-pswp-height", img.height);
         $clone.setAttribute(
           "href",
-          `/projects/${edicion}/gallery/img-${imgIndex}.webp`
+          `/${path}/${img.src}`
         );
         $clone.classList.add("animate-fade-up");
         $clone.classList.add("animate-delay-300");
@@ -103,13 +111,13 @@ const { i18n } = Astro.props;
           .querySelector("img:first-child")
           .setAttribute(
             "src",
-            `/projects/${edicion}/gallery/thumbnails/img-${imgIndex}.webp`
+            `/${path}/thumbnails/${img.src}`
           );
         $clone
           .querySelector("img:last-child")
           .setAttribute(
             "src",
-            `/projects/${edicion}/gallery/thumbnails/img-${imgIndex}.webp`
+            `/${path}/thumbnails/${img.src}`
           );
 
         return $clone?.outerHTML;
