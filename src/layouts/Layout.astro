@@ -9,10 +9,11 @@ import '@fontsource/prompt/500.css';
 interface Props {
   description: string
   title: string
+  currentLocale: string
 }
 
-const { description, title } = Astro.props
-const { currentLocale } = Astro
+const { description, title, currentLocale } = Astro.props
+
 ---
 
 <!doctype html>
@@ -38,6 +39,9 @@ const { currentLocale } = Astro
   <body>
     <Header />
     <slot />
+    <!-- <div id="loading">
+      Loading...
+    </div> -->
     <Footer />
     <style is:global>
       :root {
@@ -107,6 +111,25 @@ const { currentLocale } = Astro
         animation-range: 0 500px;
       }
 
+      /* #loading {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: blur linear both;
+        @apply text-4xl text-white;
+      }
+
+      .show {
+        display: flex!important;
+      } */
+
       @keyframes blur {
         to {
           box-shadow:
@@ -119,3 +142,12 @@ const { currentLocale } = Astro
     </style>
   </body>
 </html>
+
+<!-- <script is:inline>
+  document.addEventListener('astro:before-preparation', () => {
+    document.querySelector('#loading').classList.add('show');
+  });
+  document.addEventListener('astro:after-preparation', () => {
+    document.querySelector('#loading').classList.remove('show');
+  });
+</script> -->

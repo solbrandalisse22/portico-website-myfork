@@ -3,8 +3,8 @@ import { getI18N } from "@/i18n/";
 import Button from "./Button.astro";
 import FepLogoWhite from "./FepLogoWhite.astro";
 
-const { currentLocale } = Astro;
-const i18n = getI18N({ currentLocale });
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
 ---
 
 <div

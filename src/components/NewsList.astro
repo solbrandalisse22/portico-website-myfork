@@ -2,8 +2,9 @@
 import { getI18N } from "@/i18n";
 import NewsItem from "./NewsItem.astro";
 import Section from "@/components/Section.astro";
-const { currentLocale } = Astro;
-const i18n = getI18N({ currentLocale });
+
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
 
 const { heading, posts, subheading } = Astro.props;
 

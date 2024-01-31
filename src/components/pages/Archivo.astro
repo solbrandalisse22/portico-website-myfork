@@ -3,17 +3,19 @@ import Layout from "@/layouts/Layout.astro"
 import HeroContainer from "@/components/HeroContainer.astro"
 import Button from "../Button.astro"
 
-import { getI18N } from "@/i18n"
+import { getI18N, getCurrentLocale } from "@/i18n"
 import Numeros from "../Numeros.astro"
 import Gallery from "../Gallery.astro"
 
-const { currentLocale } = Astro
-const i18n = getI18N({ currentLocale })
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
+const currentLocale = getCurrentLocale({ host: url.host })
 ---
 
 <Layout
   title={i18n.SEO.ARCHIVO_TITLE}
   description={i18n.SEO.ARCHIVO_DESCRIPTION}
+  currentLocale={currentLocale}
 >
   <HeroContainer img="/archivo-background.webp">
     <h1

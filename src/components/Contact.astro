@@ -2,8 +2,8 @@
 import { getI18N } from "@/i18n";
 import Section from "@/components/Section.astro";
 
-const { currentLocale } = Astro;
-const i18n = getI18N({ currentLocale });
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
 ---
 
 <Section id={i18n.ROUTES.CONTACT.ID} heading={i18n.CONTACT_TITLE} subheading={i18n.CONTACT_SUBTITLE}>

@@ -1,5 +1,5 @@
 ---
-import { getI18N } from "@/i18n"
+import { getCurrentLocale, getI18N } from "@/i18n"
 
 import Layout from "@/layouts/Layout.astro"
 
@@ -9,16 +9,17 @@ import CookieLink from "@/components/cookies/CookieLink.astro"
 
 import Footer from "@/components/Footer.astro"
 
-const { currentLocale } = Astro
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
+const currentLocale = getCurrentLocale({ host: url.host })
 
-const i18n = getI18N({ currentLocale })
 const H1_STYLES =
   "mx-auto mt-16 mb-4 text-wrap text-3xl font-semibold tracking-wide uppercase"
 const H2_STYLES =
   "mx-auto mt-16 mb-4 text-wrap text-2xl font-semibold tracking-wide uppercase text-balance"
 ---
 
-<Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION}>
+<Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION} currentLocale={currentLocale}>
   <main>
     <section
       class="max-w-5xl mx-auto my-24 text-pretty px-6 text-left text-lg leading-relaxed sm:px-20"

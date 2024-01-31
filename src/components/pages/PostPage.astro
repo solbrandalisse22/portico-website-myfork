@@ -3,11 +3,12 @@ import Layout from "@/layouts/Layout.astro"
 import HeroContainer from "@/components/HeroContainer.astro"
 import Breadcrumb from "@/components/Breadcrumb.astro"
 import Section from "@/components/Section.astro"
-import { getI18N } from "@/i18n"
+import { getI18N, getCurrentLocale } from "@/i18n"
 
 const { slug } = Astro.props
-const { currentLocale } = Astro
-const i18n = getI18N({ currentLocale })
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
+const currentLocale = getCurrentLocale({ host: url.host })
 
 function convertDate(dateToconvert:string) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -23,7 +24,7 @@ const author = _embedded["author"][0].name
 const finalTitle = rendered || title
 const finalDate = convertDate(date)
 ---
-<Layout title={finalTitle} description={description}>
+<Layout title={finalTitle} description={description} currentLocale={currentLocale}>
   <HeroContainer img={image} imgAlt={imgAlt || finalTitle} heading={finalTitle} />
   <main class="pb-24 flex flex-col">
     <Breadcrumb

@@ -2,17 +2,18 @@
 import Layout from "@/layouts/Layout.astro";
 import HeroContainer from "@/components/HeroContainer.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
-import { getI18N } from "@/i18n"
+import { getI18N, getCurrentLocale } from "@/i18n"
 
-const { currentLocale } = Astro
 const { hidePagination } = Astro.props
-const i18n = getI18N({ currentLocale })
+const { url } = Astro
+const i18n = getI18N({ host: url.host })
+const currentLocale = getCurrentLocale({ host: url.host })
 
 interface Props {
   hidePagination?: boolean;
 }
 ---
 
-<Layout title={i18n.NO_FOUND.TITLE} description={i18n.NO_FOUND.SUBTITLE}>
+<Layout title={i18n.NO_FOUND.TITLE} description={i18n.NO_FOUND.SUBTITLE} currentLocale={currentLocale}>
   <HeroContainer img="/factory-portico.webp" imgAlt={i18n.NO_FOUND.TITLE_ALT} heading={i18n.NO_FOUND.DESCRIPTION} />
 </Layout>
