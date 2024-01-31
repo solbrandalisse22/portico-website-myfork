@@ -1,9 +1,13 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import VoteTitle from "../VoteTitle.astro"
+import { getCurrentLocale } from "@/i18n"
+
+const { url } = Astro
+const currentLocale = getCurrentLocale({ host: url.host })
 ---
 
-<Layout title="Votar" description="Votar">
+<Layout title="Votar" description="Votar" currentLocale={currentLocale}>
   <section
     class="bg-no-repeat bg-cover relative pb-24 min-h-screen w-full max-w-[100vw]"
   >
