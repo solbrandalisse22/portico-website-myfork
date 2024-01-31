@@ -1,7 +1,7 @@
 {
-  "LOCALE_DATE": "en-US",
-  "SEO_TITLE": "Portico Sport - Thinking Padel, Construction and Installation of Padel Courts",
-  "SEO_DESCRIPTION": "At Portico Sport we are specialists in the construction and installation of Padel courts around the world, ask us for information without any obligation",
+  "LOCALE_DATE": "es-ES",
+  "SEO_TITLE": "Portico Sport - Piensa en padel, construcción e instalación de pistas de padel",
+  "SEO_DESCRIPTION": "En Portico Sport somos especialistas en la construcción e instalación de pistas de padel en todo el mundo, llámanos para más información sin ningún tipo de compromiso",
   "SEO": {
     "ARCHIVO_TITLE": "Archivo de las ediciones anteriores de Premios Esland 2024",
     "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
@@ -9,18 +9,18 @@
     "INFO_DESCRIPTION": "Descubre todo lo que necesitas saber sobre los Premios Esland 2024 y descarga el Kit de Prensa"
   },
   "HEADER": {
-    "LOGO": "Go to the home page"
+    "LOGO": "Ir a la página principal"
   },
-  "HEADER_CONTACT": "CONTACT",
+  "HEADER_CONTACT": "CONTACTO",
   "HEADER_INFO": "INFO",
-  "HEADER_PADEL_COURTS": "COURTS",
-  "HEADER_OUR_FACTORY": "FACTORY",
-  "HEADER_NEWS": "NEWS",
-  "HEADER_PROJECTS": "PROJECTS",
-  "HEADER_BUTTON": "CONTACT US",
-  "HERO_SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
-  "HERO_TITLE": "Thinking Padel, Thinking Portico Sport",
-  "INTRO_TITLE": "Welcome to",
+  "HEADER_PADEL_COURTS": "PISTAS",
+  "HEADER_OUR_FACTORY": "FÁBRICA",
+  "HEADER_NEWS": "NOTICIAS",
+  "HEADER_PROJECTS": "PROYECTOS",
+  "HEADER_BUTTON": "CONTÁCTANOS",
+  "HERO_SUBTITLE": "Construcción e instalación de pistas de padel y cubiertas en todo el mundo",
+  "HERO_TITLE": "Piensa en padel, Piensa en Portico Sport",
+  "INTRO_TITLE": "Bienvenido a",
   "INTRO_TITLE_AFTER_BR": "Portico Sport",
   "INTRO_DESCRIPTION_1": "Based in Spain, Portico Sport is one of the leading Padel courts & canopies manufacturer globally. The company counts with 15 yrs. track record in the industry, presence in over 40 countries and +3,500 courts installed.",
   "INTRO_DESCRIPTION_2": "Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with 100% in-house design and manufacturing.",
