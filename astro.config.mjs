@@ -9,8 +9,8 @@ import auth from "auth-astro";
 export default defineConfig({
   integrations: [tailwind(), preact(), auth()],
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es', 'ca'],
+    defaultLocale: 'en',
+    locales: ['es', 'en'],
     routing: {
       prefixDefaultLocale: false
     }
