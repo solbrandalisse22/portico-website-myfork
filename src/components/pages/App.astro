@@ -16,7 +16,7 @@ import InfiniteScroll from "../InfiniteScroll.astro"
 const { url, site } = Astro
 const i18n = getI18N({ host: url.host })
 const currentLocale = getCurrentLocale({host: url.host})
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const response = await fetch("https://porticosport.com/wp-json/wp/v2/posts?per_page=4&_embed")
 const posts = await response.json();
@@ -34,7 +34,7 @@ const posts = await response.json();
 
   <Video />
   <span class="url opacity-0">{new URL(Astro.request.url)}</span>
-  <span class="canonical-url opacity-0">{new URL(canonicalURL)}</span>
+  <!-- <span class="canonical-url opacity-0">{new URL(canonicalURL)}</span> -->
 
   <main>
     <Intro />
