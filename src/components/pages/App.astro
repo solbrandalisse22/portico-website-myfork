@@ -13,7 +13,8 @@ import NewsList from "../NewsList.astro"
 import GraphicProcess from "../GraphicProcess.astro"
 import InfiniteScroll from "../InfiniteScroll.astro"
 
-const { url, site } = Astro
+const { url, request } = Astro
+const host = request.headers.get("x-forwarded-host");
 const i18n = getI18N({ host: url.host })
 const currentLocale = getCurrentLocale({host: url.host})
 // const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -33,7 +34,7 @@ const posts = await response.json();
   />
 
   <Video />
-  <span class="url opacity-0">{new URL(Astro.request.url)}</span>
+  <span class="host opacity-0">{host}</span>
   <!-- <span class="canonical-url opacity-0">{new URL(canonicalURL)}</span> -->
 
   <main>
