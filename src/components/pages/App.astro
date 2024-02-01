@@ -13,7 +13,7 @@ import NewsList from "../NewsList.astro"
 import GraphicProcess from "../GraphicProcess.astro"
 import InfiniteScroll from "../InfiniteScroll.astro"
 
-const { url } = Astro
+const { url, site } = Astro
 const i18n = getI18N({ host: url.host })
 const currentLocale = getCurrentLocale({host: url.host})
 
@@ -32,6 +32,7 @@ const posts = await response.json();
   />
 
   <Video />
+  <span class="site opacity-0">{site}</span>
 
   <main>
     <Intro />
