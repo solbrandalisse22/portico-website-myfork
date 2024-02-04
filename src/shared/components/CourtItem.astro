@@ -1,0 +1,47 @@
+---
+import SliderImage from '@/shared/components/SliderImage';
+import type { SliderImageProps } from '@/shared/components/SliderImage';
+import Button from './Button.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  images: SliderImageProps['images'];
+  index: number;
+  class?: string;
+  imgAlt?: string;
+  url: string;
+}
+const { title, description, images, index, url } = Astro.props;
+---
+
+<div class={`flex flex-col items-center justify-between gap-10 my-24 ${index % 2 ? 'lg:flex-row-reverse' : 'lg:flex-row'} ${Astro.props.class}`}>
+  <div class="lg:w-1/2 space-y-4">
+    <h3
+      class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+    >
+      {title}
+    </h3>
+    <div set:html={description} />
+  </div>
+  <div class="slider-container mt-6 md:mt-0 lg:w-1/2 flex flex-col gap-4">
+    <SliderImage client:visible images={images} />
+    <Button url={url}>Details</Button>
+  </div>
+</div>
+
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    .slider-container {
+      scale: 0.8;
+      opacity: 0;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry 100px;
+    }
+  
+    @keyframes fade-in {
+      to {scale: 1; opacity: 1;}
+    }
+  }
+</style>

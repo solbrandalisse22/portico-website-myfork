@@ -1,0 +1,40 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import HeroContainer from "@/shared/components/HeroContainer.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Gallery from "../Gallery.astro";
+import canopiesGallery from "@/shared/data/canopies-gallery.json";
+
+interface Props {
+  language: string,
+}
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+---
+
+<Layout title={i18n.CANOPIES.TITLE} description={i18n.CANOPIES.SUBTITLE} currentLocale={currentLocale} language={language}>
+  <HeroContainer
+    img="/canopies-portico.webp"
+    imgAlt={i18n.NEWS.TITLE_ALT}
+    heading={i18n.CANOPIES.TITLE}
+  />
+  <main class="pb-24 flex flex-col">
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+        { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
+      ]}
+    />
+    <Gallery
+      heading={i18n.CANOPIES.GALLERY.HEADING}
+      subheading={i18n.CANOPIES.GALLERY.SUBHEADING}
+      path="canopies"
+      offset={9}
+      photos={canopiesGallery}
+      loadMoreText={i18n.CANOPIES.GALLERY.BUTTON_TEXT}
+    />
+  </main>
+</Layout>

@@ -13,7 +13,13 @@
     "script:create-meta": "bun ./scripts/create-meta-from-gallery.ts",
     "webp": "bun ./scripts/convert-all.ts",
     "dl": "bun ./scripts/download-all-images.ts",
-    "dl:voting": "bun ./scripts/dl-voting.ts"
+    "dl:voting": "bun ./scripts/dl-voting.ts",
+    "dev-en": "astro dev --config astro.config.en.mjs",
+    "build-en": "astro build --config astro.config.en.mjs",
+    "preview-en": "astro preview --config astro.config.en.mjs",
+    "dev-es": "astro dev --config astro.config.es.mjs",
+    "build-es": "astro build --config astro.config.es.mjs",
+    "preview-es": "astro preview --config astro.config.es.mjs"
   },
   "dependencies": {
     "@appnest/masonry-layout": "2.2.3",

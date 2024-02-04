@@ -1,0 +1,140 @@
+---
+import LogoWhite from "./LogoWhite.astro";
+import { getI18N } from "../i18n/";
+import Button from "./Button.astro";
+import LanguageSelector from "./LanguageSelector.astro";
+import HeaderLink from "./HeaderLink.astro";
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+
+const LINKS = [
+  {
+    href: i18n.ROUTES.HOME.URL,
+    text: i18n.ROUTES.HOME.LABEL,
+  },
+  {
+    href: i18n.ROUTES.INFO.URL,
+    text: i18n.ROUTES.INFO.LABEL,
+  },
+  {
+    href: i18n.ROUTES.COURTS.URL,
+    text: i18n.ROUTES.COURTS.LABEL,
+  },
+  {
+    href: i18n.ROUTES.CANOPIES.URL,
+    text: i18n.ROUTES.CANOPIES.LABEL,
+  },
+  {
+    href: i18n.ROUTES.PROJECTS.URL,
+    text: i18n.ROUTES.PROJECTS.LABEL,
+  },
+  {
+    href: i18n.ROUTES.FACTORY.URL,
+    text: i18n.ROUTES.FACTORY.LABEL,
+  },
+  {
+    href: i18n.ROUTES.NEWS.URL,
+    text: i18n.ROUTES.NEWS.LABEL,
+  },
+];
+---
+
+<header id="header-nav" class="fixed top-0 z-50 w-full px-6 py-2">
+  <div class="mx-auto flex max-w-7xl items-center justify-between">
+    <div class="flex flex-grow basis-0 z-50">
+      <HeaderLink
+        checkActive={false}
+        href="/"
+        class="group relative"
+        aria-label={i18n.HEADER.LOGO}
+      >
+        <LogoWhite
+          class="h-auto w-40 blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        />
+        <LogoWhite class="h-auto w-40" />
+      </HeaderLink>
+    </div>
+
+    <!-- Menú de navegación para pantallas grandes -->
+    <nav
+      class="hidden md:flex flex-grow lg:basis-0 w-full gap-x-8 text-lg md:justify-center font-medium items-center"
+    >
+      {
+        LINKS.map(({ href, text }) => (
+          <HeaderLink class="text__glowing" href={href}>
+            {text}
+          </HeaderLink>
+        ))
+      }
+      <!-- <LanguageSelector /> -->
+    </nav>
+
+    <!-- Botón de menú para pantallas pequeñas -->
+    <button
+      id="menu-toggle"
+      class="flex flex-grow basis-0 justify-end text-2xl md:hidden z-50"
+    >
+      <span id="menu-icon">☰</span>
+    </button>
+
+    <div
+      class="hidden md:flex-grow md:basis-0 justify-end whitespace-nowrap md:flex md:text-base"
+    >
+      <Button
+        class="md:text-sm lg:text-base md:py-2 hover:bg-secondary hover:text-black"
+        url={i18n.ROUTES.CONTACT.URL}
+        target="_self"
+      >
+        {i18n.ROUTES.CONTACT.LABEL}
+      </Button>
+    </div>
+  </div>
+
+  <!-- Menú de navegación móvil para pantallas pequeñas -->
+  <nav
+    id="mobile-menu"
+    class="bg-[#151a36]/90 -translate-y-full transition-transform md:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
+  >
+    {
+      LINKS.map(({ href, text }) => (
+        <HeaderLink class="text__glowing item-link" href={href}>
+          {text}
+        </HeaderLink>
+      ))
+    }
+    <Button
+      class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
+      url={i18n.ROUTES.CONTACT.URL}
+      target="_self"
+    >
+      {i18n.ROUTES.CONTACT.LABEL}
+    </Button>
+    <!-- <LanguageSelector /> -->
+  </nav>
+</header>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const link = document.querySelectorAll("#mobile-menu .item-link");
+    const menuIcon = document.getElementById("menu-icon");
+
+    if (!menuToggle || !mobileMenu || !menuIcon || !link) {
+      return;
+    }
+
+    menuToggle.addEventListener("click", function () {
+      mobileMenu.classList.toggle("translate-y-0");
+      document.body.classList.toggle("overflow-hidden");
+      menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+    });
+
+    link.forEach((item) => item.addEventListener("click", function () {
+      mobileMenu.classList.toggle("translate-y-0");
+      document.body.classList.toggle("overflow-hidden");
+      menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+    }));
+  });
+</script>

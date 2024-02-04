@@ -1,0 +1,15 @@
+---
+import PostPage from "@/shared/components/pages/PostPage.astro"
+import { LANGUAGES } from "@/shared/i18n/constants"
+const { slug } = Astro.params;
+
+interface Props {
+  slug: string;
+  language: string;
+}
+
+export const prerender = false
+
+---
+
+<PostPage slug={slug} language={LANGUAGES.EN} />
