@@ -3,5 +3,6 @@ import { defineConfig } from 'astro/config'
 
 export default defineConfig({
     ...shared,
-    srcDir: './src/es',
+    site: 'https://porticosport.fr',
+    srcDir: './src/fr',
 })
