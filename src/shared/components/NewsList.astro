@@ -26,7 +26,7 @@ interface Props {
           image={
             post._embedded?.["wp:featuredmedia"]?.[0]?.["media_details"]?.["sizes"]?.["medium"]?.["source_url"]
           }
-          link={`news/${post.slug}`}
+          link={`${i18n.ROUTES.NEWS.URL}/${post.slug}`}
           date={post.date}
           description={post.description}
         />

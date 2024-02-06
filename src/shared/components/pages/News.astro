@@ -29,7 +29,7 @@ const currentLocale = getCurrentLocale({ language })
         { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
         { label: i18n.ROUTES.NEWS.LABEL, href: i18n.ROUTES.NEWS.URL },
       ]} />
-    <NewsList posts={posts} />
+    <NewsList posts={posts} language={language} />
     {
       !hidePagination && <Pagination page={page} totalPages={totalPages}   />
     }
