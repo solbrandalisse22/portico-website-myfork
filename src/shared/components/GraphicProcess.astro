@@ -247,19 +247,6 @@ const lineLength = 50; // Longitud de las líneas
   }
 </style>
 <script is:inline>
-  const animateOnScroll = () => {
-    var element = document.querySelector(".reference-circle");
-    var rect = element.getBoundingClientRect();
-
-    if (rect.top <= window.innerHeight) {
-      if (rect.bottom >= 0) {
-        console.log("In viewport");
-      }
-    } else {
-      console.log("Not in viewport");
-    }
-  };
-
   document.querySelectorAll('.button-point').forEach((button) => {
     button.addEventListener('click', (e) => {
       const target = e.target.closest('.button-point');
@@ -273,6 +260,4 @@ const lineLength = 50; // Longitud de las líneas
       document.querySelector('.process-subtitle').textContent = subtitle;
     })
   })
-
-  window.addEventListener("scroll", animateOnScroll);
 </script>
