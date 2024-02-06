@@ -1,0 +1,615 @@
+{
+  "LOCALE_DATE": "it-IT",
+  "SEO_TITLE": "Portico Sport - Padel, Costruzione e Installazione di Campi da Padel",
+  "SEO_DESCRIPTION": "Portico Sport è specializzata nella costruzione e installazione di campi da padel in tutto il mondo, richiedi informazioni senza alcun impegno",
+  "SEO": {
+    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores de Premios Esland 2024",
+    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
+    "INFO_TITLE": "Información sobre los Premios Esland 2024",
+    "INFO_DESCRIPTION": "Descubre todo lo que necesitas saber sobre los Premios Esland 2024 y descarga el Kit de Prensa"
+  },
+  "HEADER": {
+    "LOGO": "Vai alla pagina iniziale"
+  },
+  "HEADER_HOME": "INIZIO",
+  "HEADER_CONTACT": "CONTATTO",
+  "HEADER_INFO": "INFO",
+  "HEADER_PADEL_COURTS": "CAMPI",
+  "HEADER_OUR_FACTORY": "FABBRICA",
+  "HEADER_NEWS": "NOTIZIE",
+  "HEADER_PROJECTS": "PROGETTI",
+  "HEADER_BUTTON": "CONTATTACI",
+  "HERO_SUBTITLE": "Costruzione e installazione di campi da padel e tettoie in tutto il mondo",
+  "HERO_TITLE": "Pensando al padel, pensando a Portico Sport",
+  "INTRO_TITLE": "Benvenuti in",
+  "INTRO_TITLE_AFTER_BR": "Portico Sport",
+  "INTRO_DESCRIPTION_1": "Con sede in Spagna, Portico Sport è uno dei principali produttori di campi da padel e tettoie a livello globale. L'azienda vanta un'esperienza di 15 anni nel settore, è presente in oltre 40 paesi e ha installato oltre 3.500 campi.",
+  "INTRO_DESCRIPTION_2": "Portico Sport è sinonimo di qualità ed eccellenza nel servizio clienti. Il nostro DNA ingegneristico ci consente di essere produttori con un'offerta chiavi in mano completa che combina campi e tettoie con design e produzione al 100% interni.",
+  "INTRO_DESCRIPTION_3": "Nel 2023 l'azienda ha inaugurato un nuovo sito di produzione che si estende su oltre 110.000 piedi quadrati, rendendolo il più grande e tecnologicamente avanzato del settore.",
+  "BENTO_TITLE_1": "ESPERIENZA",
+  "BENTO_CONTENT_1": "<strong>Con oltre 15 anni di esperienza nella gestione di grandi progetti</strong> in cinque continenti, abbiamo sviluppato una rete commerciale internazionale in ciascuna area per fornire il miglior servizio a ogni cliente.",
+  "BENTO_TITLE_2": "INNOVAZIONE",
+  "BENTO_CONTENT_2": "Nel nostro impegno all'innovazione, Portico Sport offre il miglior design e la migliore qualità nei nostri campi e tettoie, con tempi di consegna record e garanzie complete. Forniamo campi da padel e tettoie con massima resistenza e durata.",
+  "BENTO_TITLE_3": "QUALITÀ PREMIUM",
+  "BENTO_SUBTITLE_3": "Campi da padel che rispettano le normative",
+  "BENTO_CONTENT_3": "Progettati e sviluppati dal dipartimento di ingegneria di PORTICO SPORT per la pratica del padel al massimo livello, i nostri campi rispettano le normative sportive ufficiali (NIDE 2004 Padel), le normative e gli standard della FIP (Federazione Internazionale Padel) e il calcolo strutturale basato sullo Standard «Istruzione Acciaio Strutturale (EAE)» e Codice Americano: AISC-360 E ASCE SEI 7-16-. Tutti i nostri campi sono garantiti per 10 anni (stabilità strutturale).",
+  "BENTO_TITLE_4": "TEAM - INGEGNERIA SPORTIVA E ARCHITETTURA",
+  "BENTO_CONTENT_4": "<strong>Come studio di ingegneria, Portico Sport offre un processo di costruzione completo dall'inizio alla fine</strong>, con un team di professionisti specializzati che ti guideranno in ogni passo, riconoscendo che ogni progetto è unico.",
+  "VIDEO_BUTTON": "CONTATTO",
+  "PREFOOTER_VIDEO_TITLE": "Visita la nostra fabbrica",
+  "PREFOOTER_SUBTITLE": "Il più grande sito di produzione di campi da padel e tettoie",
+  "CONTACT_TITLE": "CONTATTACI",
+  "CONTACT_SUBTITLE": "Un grande team di professionisti al tuo servizio",
+  "NEWS": {
+    "TITLE": "Notizie",
+    "TITLE_ALT": "Le nostre ultime notizie",
+    "SUBTITLE": "Le ultime notizie di Portico Sport",
+    "BUTTON": "Leggi di più",
+    "POST_PAGE": {
+      "WRITE": "Scritto da"
+    },
+    "LIST": {
+      "TITLE": "Le nostre ultime notizie",
+      "SUBTITLE": "Le ultime notizie di Portico Sport"
+    }
+  },
+  "CANOPIES": {
+    "TITLE": "Tettoie ad alte prestazioni",
+    "TITLE_ALT": "Tettoie ad alte prestazioni",
+    "SUBTITLE": "Portico Sport è specializzata in tettoie ad alte prestazioni e leader nella produzione e installazione di tettoie",
+    "GALLERY": {
+      "HEADING": "Ingegneria sportiva specifica",
+      "SUBHEADING": "Progettate per proteggere i campi da padel all'aperto dalle intemperie e offrire un'esperienza di gioco senza pari. Resistenza alle intemperie, trasparenza, struttura di alta qualità che soddisfa gli standard di sicurezza e durata, e design esteticamente piacevole che si integra perfettamente con l'ambiente circostante e che è anche visivamente attraente.",
+      "BUTTON_TEXT":"Scopri di più sulle tettoie"
+    }
+  },
+  "NO_FOUND": {
+    "TITLE": "Pagina non trovata",
+    "TITLE_ALT": "Pagina non trovata",
+    "SUBTITLE": "La pagina che stai cercando non esiste",
+    "DESCRIPTION": "La pagina che stai cercando non esiste. Per favore, vai alla pagina iniziale o contattaci."
+  },
+  "ROUTES": {
+    "HOME": {
+      "LABEL": "INIZIO",
+      "URL": "/"
+    },
+    "INFO": {
+      "LABEL": "Info",
+      "ID": "info",
+      "URL": "/#info"
+    },
+    "CANOPIES": {
+      "LABEL": "Tettoie",
+      "ID": "tettoie",
+      "URL": "/tettoie"
+    },
+    "COURTS": {
+      "LABEL": "Campi da padel",
+      "ID": "campi-da-padel",
+      "URL": "/#campi-da-padel"
+    },
+    "PROJECTS": {
+      "LABEL": "Progetti",
+      "ID": "progetti",
+      "URL": "/#progetti"
+    },
+    "FACTORY": {
+      "LABEL": "Fabbrica",
+      "ID": "Fabbrica",
+      "URL": "/#Fabbrica"
+    },
+    "NEWS": {
+      "LABEL": "Notizie",
+      "URL": "/notizie"
+    },
+    "CONTACT": {
+      "LABEL": "Contattaci",
+      "ID": "contattaci",
+      "URL": "/#contattaci"
+    }
+  },
+  "ARCHIVO": {
+    "HERO_TITLE": "Ediciones anteriores",
+    "HERO_BUTTON": "Revive la última gala",
+    "COUNTER_TITLE": "Los ESLAND en números",
+    "COUNTER_VIEWS": "de visualizaciones",
+    "COUNTER_NEWS": "noticias en prensa",
+    "COUNTER_MEDIA": "en medios ganados"
+  },
+  "FOOTER": {
+    "DISCLAIMER": "© 2024 Portico Sport.",
+    "LEGAL": {
+      "TITLE": "Legale",
+      "NOTICE": "Avviso Legale",
+      "PRIVACY": "Privacy",
+      "COOKIES": "Cookies",
+      "PRIVACY_POLICY": "Politica sulla Privacy",
+      "TOS": "Termini e Condizioni"
+    },
+    "WEB_MAP": {
+      "TITLE": "Mappa del sito",
+      "HOME": "Inizio",
+      "INFO": "Info",
+      "ARCHIVE": "Archivio"
+    }
+  },
+  "INFO_TITLE": "Los premios ESLAND",
+  "INFO_TITLE_1": "Un reconocimiento único para creadores, creadoras y comunidades",
+  "INFO_CONTENT_1_1": "Los Premios ESLAND son una iniciativa privada promovida por el célebre streamer TheGrefg y buscan apoyar y reconocer la creación de contenido en el ámbito hispanohablante.",
+  "INFO_CONTENT_1_2": "ESLAND es el acrónimo de ESPAÑA, LATINOAMÉRICA Y ANDORRA, tres localizaciones geográficas que comparten el idioma que las une más allá de cualquier frontera, ya sea física o virtual.",
+  "INFO_TITLE_2": "EL PREMIO A LA CREACIÓN",
+  "INFO_CONTENT_2_1": "El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es <strong>una representación de la letra “A” dividida en tres fragmentos</strong> y ensambladas a modo de artilugio futurista sobre el que se construye la narrativa del evento.",
+  "INFO_CONTENT_2_2": "Un artefacto de origen desconocido que dota de <strong>herramientas y habilidades para la creación.</strong> Una metáfora sobre la emancipación del talento gracias a la tecnología y la irrupción de los creadores de contenido en el mundo del entretenimiento.",
+  "MEDIA_KIT_TITLE": "KIT DE PRENSA",
+  "MEDIA_KIT_SUBTITLE_1": "LOGOTIPO Y TROFEO",
+  "MEDIA_KIT_SUBTITLE_2": "FONDOS DE PANTALLA",
+  "MEDIA_KIT_SUBTITLE_3": "NOTA DE PRENSA",
+  "DOWNLOAD_BUTTON": "DESCARGAR",
+  "COOKIES": {
+    "POLICIES": {
+      "TITLE": "Politica sui cookie",
+      "DESCRIPTION_1": "Questa Politica sui Cookie è parte integrante dell'Avviso Legale e della Politica sulla Privacy di www.porticosport.com (di seguito, il Sito Web), di proprietà di PÓRTICO GESTIÓN E INGENIERÍA, S.L. con sede legale in C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registrata presso il registro commerciale di Badajoz, tomo 504, foglio 31, sezione BA-22562, e responsabile dei Cookie e del trattamento dei dati personali ottenuti tramite i propri cookie e quelli di terzi utilizzati su questo Sito Web.",
+      "DESCRIPTION_2": "Questo Sito Web utilizza cookie di terze parti, in particolare cookie analitici di Google Analytics, per analizzare l'attività svolta dagli utenti quando visitano il sito web a fini statistici.",
+      "DESCRIPTION_3": "Puoi accettare tutti i cookie, rifiutarli o configurare le tue preferenze nel pannello delle impostazioni dei cookie. In qualsiasi momento puoi revocare il consenso o modificare le tue preferenze delle impostazioni dei cookie accedendo nuovamente al pannello di configurazione. Puoi anche impedire il download dei cookie o eliminare quelli installati tramite le impostazioni del tuo browser, impedendo ai cookie di essere memorizzati sul tuo dispositivo. È molto importante che tu legga questa politica sui cookie.",
+      "DESCRIPTION_4": "Ti informiamo che la possibilità di rifiutare e disabilitare i cookie può influire o ostacolare la navigazione o la fornitura dei servizi offerti su questo Sito Web."
+    },
+    "WHAT_IS": {
+      "TITLE": "Cosa sono i cookie?",
+      "DESCRIPTION_1": "I cookie sono identificatori alfanumerici che contengono informazioni che vengono installate sul dispositivo dell'Utente e scaricate sul browser Web dell'Utente quando l'Utente visita e accede a una pagina Web. Il loro scopo principale è identificare e riconoscere in modo univoco il dispositivo dell'Utente ogni volta che accede al Sito Web, nonché migliorare la qualità e offrire un migliore utilizzo del Sito Web.",
+      "DESCRIPTION_2": "Sono piccoli file di testo che vengono memorizzati sull'hard disk del computer e servono a identificare l'Utente quando si riconnette al sito web. Il loro scopo è registrare la visita dell'Utente e salvare determinate informazioni. Il loro utilizzo è comune e frequente sul web in quanto consentono alle pagine di funzionare in modo più efficiente e di ottenere una maggiore personalizzazione e analisi del comportamento dell'Utente."
+    },
+    "TYPES": {
+      "TITLE": "Che tipi di cookie esistono?",
+      "DESCRIPTION_1_TITLE": "1.- In base all'entità che li gestisce:",
+      "DESCRIPTION_1": "I cookie propri sono quelli che vengono installati sul terminale dell'Utente dal dominio gestito dal responsabile del Sito Web e i cookie di terze parti sono quelli che vengono installati sul terminale dell'Utente da un dominio gestito da terzi che trattano i dati ottenuti tramite tali cookie.",
+      "DESCRIPTION_2_TITLE": "2.- In base alla durata del tempo in cui rimangono attivi:",
+      "DESCRIPTION_2": "I cookie di sessione sono quelli che rimangono attivi e raccolgono dati mentre l'utente accede a un sito web e scompaiono quando la sessione termina, e i cookie permanenti sono quelli che rimangono attivi e da cui vengono raccolti dati per un periodo di tempo definito dal responsabile del cookie o fino a quando non vengono disattivati o eliminati dall'Utente.",
+      "DESCRIPTION_3_TITLE": "3.- Cookie tecnici:",
+      "DESCRIPTION_3": "Sono quelli che consentono all'Utente di navigare attraverso una pagina web e utilizzare le diverse opzioni o servizi offerti, come, controllare il traffico e la comunicazione dei dati, identificare la sessione, accedere a parti ad accesso limitato, fare richiesta di registrazione, utilizzare elementi di sicurezza durante la navigazione, ecc. Poiché sono necessari per il funzionamento del sito web, questi cookie verranno attivati e non possono essere rifiutati.",
+      "DESCRIPTION_4_TITLE": "4.- Cookie di prestazione o operativi:",
+      "DESCRIPTION_4": "Questo tipo di Cookie ricorda le tue preferenze nella navigazione sul Web in modo che tu non debba riconfigurare il servizio ogni volta che visiti il Web. A titolo esemplificativo, questo tipo include: Impostazioni del volume per i lettori video o audio. Velocità di trasmissione video compatibili con il tuo browser. Questi cookie possono essere disattivati dall'Utente, anche se ciò potrebbe influire sul corretto funzionamento dei servizi Web.",
+      "DESCRIPTION_5_TITLE": "5.- Cookie analitici o di misurazione:",
+      "DESCRIPTION_5": "Sono quelli che consentono il tracciamento e l'analisi del comportamento degli Utenti del Web al fine di ottenere dati statistici e migliorare il funzionamento del Web. Ogni volta che un Utente visita un Web, uno strumento di un fornitore esterno genera un cookie analitico sul computer dell'Utente.",
+      "DESCRIPTION_6_TITLE": "6.- Cookie pubblicitari:",
+      "DESCRIPTION_6": "Questo tipo di cookie consente di ottenere informazioni sulla durata o frequenza di visualizzazione delle posizioni pubblicitarie, l'interazione con esse o i modelli e/o comportamenti di navigazione dell'Utente poiché aiutano a creare un profilo di interesse pubblicitario. In questo modo, consentono di offrire pubblicità correlate agli interessi dell'Utente.",
+      "DESCRIPTION_7_TITLE": "7.- Cookie dei social network:",
+      "DESCRIPTION_7": "Sono quelli che consentono all'Utente di interagire con i contenuti di diverse piattaforme sociali (Facebook, YouTube, Twitter, LinkedIn, ecc.) e che vengono generati solo per gli Utenti di tali social network. Le condizioni di utilizzo di questi cookie e le informazioni raccolte sono regolate dalla politica sulla privacy della piattaforma sociale corrispondente."
+    },
+    "BLOCK": {
+      "TITLE": "Come bloccare o eliminare i cookie?",
+      "DESCRIPTION_1": "È possibile consentire, bloccare o eliminare i cookie installati sul proprio computer configurando le opzioni del browser installato sul proprio computer. Se non si consente l'installazione di cookie nel proprio browser, potrebbe non essere possibile accedere a alcuni dei servizi e la propria esperienza sul nostro sito Web potrebbe essere meno soddisfacente.",
+      "DESCRIPTION_2": "Nei seguenti link hai a disposizione tutte le informazioni per configurare o disabilitare i tuoi cookie in ciascun browser:",
+      "DESCRIPTION_3": "Chrome:",
+      "DESCRIPTION_3_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+      "DESCRIPTION_4": "Per ulteriori informazioni sulla gestione dei cookie in Internet Explorer:",
+      "DESCRIPTION_4_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
+      "DESCRIPTION_5": "Per ulteriori informazioni sulla gestione dei cookie in Mozilla Firefox:",
+      "DESCRIPTION_5_URL": "https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
+      "DESCRIPTION_6": "Per ulteriori informazioni sulla gestione dei cookie in Safari:",
+      "DESCRIPTION_6_URL": "http://www.apple.com/es/privacy/use-of-cookies",
+      "DESCRIPTION_7": "Per ulteriori informazioni sulla gestione dei cookie in Opera:",
+      "DESCRIPTION_7_URL": "http://help.opera.com/Windows/11.50/es-ES/cookies.html",
+      "DESCRIPTION_8": "Se desideri smettere di essere tracciato da Google Analytics, visita:",
+      "DESCRIPTION_8_URL": "http://tools.google.com/dlpage/gaoptout",
+      "DESCRIPTION_9": "Chrome:",
+      "DESCRIPTION_9_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+      "DESCRIPTION_10": "Per ulteriori informazioni sulla gestione dei cookie in Internet Explorer:",
+      "DESCRIPTION_10_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
+      "DESCRIPTION_11": "Chrome:"
+    },
+    "MORE_INFO": {
+      "TITLE": "Maggiori informazioni sui cookie",
+      "DESCRIPTION_1": "È possibile ottenere maggiori informazioni sulla pubblicità comportamentale online e sulla privacy online al seguente link:",
+      "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
+      "DESCRIPTION_2": "Protezione dei dati di Google Analytics",
+      "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
+      "DESCRIPTION_3": "Come utilizza i cookie Google Analytics:",
+      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
+    },
+    "THIRD_PARTY": {
+      "TITLE": "Cookie di terze parti",
+      "DESCRIPTION": "Questo Sito Web utilizza cookie di terze parti, in particolare cookie analitici di Google Analytics, per analizzare l'attività svolta dagli utenti quando visitano il sito web a fini statistici."
+    },
+    "UPDATES": {
+      "TITLE": "Aggiornamenti e modifiche alla politica sui cookie",
+      "DESCRIPTION": "Portico Sport può modificare questa Politica sui Cookie in conformità ai requisiti legislativi o regolamentari, o per adattare questa politica alle istruzioni emesse dall'Agenzia spagnola per la protezione dei dati e dal Comitato europeo per la protezione dei dati, pertanto si consiglia agli Utenti di visitarla periodicamente.",
+      "DATE": "Data dell'ultimo aggiornamento: 12 dicembre 2023."
+    },
+    "SITE_COOKIES": {
+      "TITLE": "Cookie utilizzati su questo Sito Web",
+      "THEAD_NAME": "Nome",
+      "THEAD_CADUCITY": "Scadenza",
+      "THEAD_PROVIDER": "Fornitore",
+      "THEAD_FINALITY": "Finalità",
+      "ANALYTICS": [
+        {
+          "NAME": "_ga",
+          "EXPIRE": "2 anni",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Viene utilizzato per distinguere gli utenti.",
+          "OBJECTIVE_URL": ""
+        },
+        {
+          "NAME": "_gid",
+          "EXPIRE": "24 ore",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Viene utilizzato per distinguere gli utenti.",
+          "OBJECTIVE_URL": ""
+        },
+        {
+          "NAME": "_ga_J8PJQBXG7J",
+          "EXPIRE": "2 anni",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Viene utilizzato per distinguere gli utenti.",
+          "OBJECTIVE_URL": ""
+        },
+        {
+          "NAME": "_gac_gb_J8PJQBXG7J",
+          "EXPIRE": "90 giorni",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Contiene informazioni sulle campagne per l'utente. Se hai associato i tuoi account Google Analytics e Google Ads, le tag di conversione del sito Web leggono questo cookie a meno che non sia disabilitato.",
+          "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=es"
+        }
+      ]
+    }
+  },
+  "PRIVACY": {
+    "TITLE": "Politica sulla privacy",
+    "IDENTIFICATION": {
+      "TITLE": "1. DATI DI IDENTIFICAZIONE",
+      "DESCRIPTION_1": "In ottemperanza al dovere di informazione contenuto nell'articolo 10 della Legge 34/2002, dell'11 luglio, sui servizi della società dell'informazione e del commercio elettronico, di seguito sono riportati i seguenti dati:",
+      "DESCRIPTION_2": "L'azienda proprietaria di questo dominio web è PÓRTICO GESTIÓN E INGENIERÍA, S.L., con sede legale per tali scopi in C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registrata presso il registro commerciale di Badajoz, tomo 504, foglio 31, sezione BA-22562. Indirizzo email di contatto: info@porticosport.com"
+    },
+    "USERS": {
+      "TITLE": "2. UTENTI",
+      "DESCRIPTION_1": "L'accesso e/o l'uso di questo portale o sito web conferisce la condizione di UTENTE, che accetta, dal momento dell'accesso e/o dell'uso, le Condizioni Generali d'Uso qui riportate. Le Condizioni saranno applicate indipendentemente dalle Condizioni Generali di Contratto che, se del caso, sono obbligatorie. In ogni caso, per qualsiasi scopo specifico, verrà richiesto il tuo consenso espresso."
+    },
+    "USES": {
+      "TITLE": "3. UTILIZZO DEL PORTALE",
+      "DESCRIPTION_1": "Il nostro sito web fornisce accesso a informazioni, servizi, programmi o dati (di seguito li chiameremo “i contenuti”) su Internet appartenenti a info@porticosport.com o ai suoi licenziatari ai quali l'UTENTE può accedere. L'UTENTE assume la responsabilità dell'uso corretto del portale. Tale responsabilità si estende alla registrazione che è necessaria per accedere a determinati servizi o contenuti.",
+      "DESCRIPTION_2": "In tale registrazione, l'UTENTE sarà responsabile di fornire informazioni veritiere e lecite sui propri dati. A seguito di tale registrazione, all'UTENTE potrebbe essere fornita una password di cui sarà responsabile, impegnandosi a fare un uso diligente, etico e confidenziale di essa. L'UTENTE accetta di fare un uso appropriato dei contenuti e dei servizi (come ad esempio i servizi di chat, i forum di discussione o i newsgroup) offerti attraverso il suo portale e, a titolo esemplificativo, ma non limitativo, di non utilizzarli per:",
+      "DESCRIPTION_3": "<ul><li>Compire attività illegali, illegali o contrarie alla buona fede e all'ordine pubblico;</li><li>Diffondere contenuti o propaganda di natura razzista, xenofoba, pornografica-illegale, a sostegno del terrorismo o di un attacco ai diritti umani</li><li>Causare danni ai sistemi fisici e logici del proprietario, dei suoi fornitori o di terzi, introducendo o diffondendo virus informatici o qualsiasi altro sistema fisico o logico che potrebbe causare i suddetti danni;</li><li>Cercare di accedere e, se del caso, utilizzare gli account email di altri utenti e modificare o manipolare i loro messaggi. Il proprietario del portale si riserva il diritto di ritirare tutti i commenti e contributi che violino il rispetto della dignità della persona, che siano discriminatori, xenofobi, razzisti, pornografici, che minaccino la gioventù o l'infanzia, l'ordine o la sicurezza pubblica o che, a suo giudizio, non fossero adatti o convenienti per la pubblicazione. In ogni caso, il proprietario del portale non sarà responsabile delle opinioni espresse dagli utenti attraverso forum, chat o altri strumenti di partecipazione.</li></ul>"
+    },
+    "DATA_PROTECTION": {
+      "TITLE": "4. PROTEZIONE DEI DATI E UTILIZZO DEI COOKIE",
+      "DESCRIPTION_1": "L'uso dei dati personali è definito in base al Regolamento Generale sulla Protezione dei Dati e alle normative spagnole vigenti. Al fine di ottenere la massima trasparenza e in base alla nostra politica proattiva, ti informiamo:",
+      "DESCRIPTION_2": "<ul><li>Perché richiediamo i tuoi dati? Abbiamo bisogno dei tuoi dati per creare un record e successivamente contattare i nostri clienti.</li><li>Quali tipi di dati raccogliamo? Informazioni personali.</li><li>Come vengono raccolti? Attraverso il modulo web e i commenti al blog.</li><li>Utilizzo condiviso con terzi: Non applicabile.</li><li>Per quanto tempo vengono conservati i dati personali raccolti? I dati personali forniti saranno conservati finché sarà mantenuto il rapporto commerciale o non richiederai la loro cancellazione e durante il periodo per il quale potrebbero sorgere responsabilità legali per i servizi forniti.</li></ul>",
+      "DESCRIPTION_3": "Diritti: Hai il diritto di accedere ai tuoi dati, rettificarli, cancellarli, limitarne e opporli al trattamento in qualsiasi momento, puoi anche revocare il consenso dato e reclamare davanti all'autorità di controllo (Agenzia spagnola per la protezione dei dati C/ Jorge Juan nº6 28001 Madrid). Per esercitare i tuoi diritti, hai un canale diretto con la nostra azienda all'indirizzo email info@porticosport.com e all'indirizzo postale C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) indicando nell'oggetto «protezione dei dati»."
+    },
+    "INTELLECTUAL": {
+      "TITLE": "5. PROPRIETÀ INTELLETTUALE E INDUSTRIALE",
+      "DESCRIPTION_1": "Il proprietario stesso o come cessionario, è il proprietario di tutti i diritti di proprietà intellettuale e industriale del suo sito web, nonché degli elementi in esso contenuti (ad esempio, immagini, suoni, audio, video, software o testi; marchi o loghi, combinazioni di colori, struttura e design, selezione dei materiali utilizzati, programmi informatici necessari per il suo funzionamento, accesso e utilizzo, ecc.).",
+      "DESCRIPTION_2": "Tutti i diritti riservati. In virtù delle disposizioni degli articoli 8 e 32.1, secondo comma, della Legge sulla Proprietà Intellettuale, la riproduzione, la distribuzione e la comunicazione pubblica, compreso il metodo di metterli a disposizione, di tutto o parte dei contenuti di questo sito web, a scopi commerciali, in qualsiasi supporto e con qualsiasi mezzo tecnico, senza l'autorizzazione di PÓRTICO GESTIÓN E INGENIERÍA, SL",
+      "DESCRIPTION_3": "L'UTENTE si impegna a rispettare i diritti di proprietà intellettuale e industriale di proprietà di PÓRTICO GESTIÓN E INGENIERÍA, S.L. Puoi visualizzare gli elementi del portale e persino stampare, copiare e memorizzarli sull'hard disk del tuo computer o su qualsiasi altro supporto fisico, a condizione che sia, esclusivamente e esclusivamente, per il tuo uso personale e privato. L'UTENTE deve astenersi dal cancellare, alterare, eludere o manipolare qualsiasi dispositivo di protezione o sistema di sicurezza installato nelle pagine di PÓRTICO GESTIÓN E INGENIERÍA, S.L."
+    },
+    "EXCLUSION": {
+      "TITLE": "6. ESCLUSIONE DI GARANZIE E RESPONSABILITÀ",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. non è responsabile, in nessun caso, dei danni di qualsiasi natura che potrebbero causare, ad esempio: errori o omissioni nei contenuti, indisponibilità del portale o la trasmissione di virus o programmi dannosi o dannosi nei contenuti, nonostante abbia adottato tutte le misure tecnologiche necessarie per evitarlo."
+    },
+    "MODIFICATIONS": {
+      "TITLE": "7. MODIFICHE",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. si riserva il diritto di apportare le modifiche che ritiene opportune sul suo portale senza preavviso, potendo modificare, eliminare o aggiungere sia i contenuti e i servizi forniti attraverso di esso sia il modo in cui vengono presentati o posizionati nel suo portale."
+    },
+    "LINKS": {
+      "TITLE": "8. LINKS",
+      "DESCRIPTION_1": "Nel caso in cui siano disponibili link o collegamenti ipertestuali ad altri siti Internet su porticosport.net, non eserciterà alcun tipo di controllo su tali siti e contenuti. In nessun caso PÓRTICO GESTIÓN E INGENIERÍA, S.L. si assume alcuna responsabilità per i contenuti di qualsiasi link appartenente a un sito web di terzi, né garantirà la disponibilità tecnica, la qualità, l'affidabilità, l'accuratezza, l'ampiezza, la veridicità, la validità e la costituzionalità di qualsiasi materiale o informazione contenuta in qualsiasi di tali collegamenti ipertestuali o altri siti di Internet. In caso di utilizzo dei link, si prega di accedere alla politica sulla privacy e all'avviso legale della pagina visitata.",
+      "DESCRIPTION_2": "Allo stesso modo, l'inclusione di questi collegamenti esterni non implicherà alcun tipo di associazione, fusione o partecipazione con le entità collegate."
+    },
+    "RIGHT_OF_EXCLUSION": {
+      "TITLE": "9. DIRITTO DI ESCLUSIONE",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. si riserva il diritto di negare o ritirare l'accesso al portale e/o ai servizi offerti senza preavviso, su richiesta propria o di terzi, a quegli utenti che non rispettano queste Condizioni Generali d'Uso."
+    },
+    "GENERAL": {
+      "TITLE": "10. GENERALE",
+      "DESCRIPTION_1": "Il mancato rispetto di queste condizioni sarà perseguito, così come qualsiasi uso improprio del suo portale, esercitando tutte le azioni civili e penali che possono corrisponderle in diritto."
+    },
+    "MODIFICATION_PRESENT": {
+      "TITLE": "11. MODIFICA DELLE PRESENTI CONDIZIONI E DURATA",
+      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. può modificare in qualsiasi momento le condizioni determinate qui, essendo debitamente pubblicate come appaiono qui.",
+      "DESCRIPTION_2": "La validità delle condizioni sopra menzionate si baserà sulla loro esposizione e sarà valida fino a quando non saranno debitamente pubblicate. che vengono modificate da altri."
+    },
+    "LEGISLATION": {
+      "TITLE": "12. LEGISLAZIONE APPLICABILE E GIURISDIZIONE",
+      "DESCRIPTION_1": "Il rapporto tra PÓRTICO GESTIÓN E INGENIERÍA, S.L. e l'UTENTE sarà regolato dalla normativa spagnola vigente e qualsiasi controversia sarà sottoposta all'autorità competente."
+    }
+  },
+  "INFO": {
+    "TITLE_HERO_1": "Los premios",
+    "TITLE_HERO_2": "ESLAND",
+    "PROJECTS_TITLE": "PROJECTS",
+    "PROJECTS_TEXT": "A selection of projects we've turned into reality",
+    "BUTTON_TEXT": "Discover more projects"
+  },
+  "COURTS": {
+    "TITLE": "Campi da Padel",
+    "SUBTITLE": "Scopri tutti i nostri campi da Padel",
+    "COURT1": {
+      "TITLE": "Mobile court brevettato da Portico Sport",
+      "DESCRIPTION": "<p>Progettato e realizzato dal nostro reparto di ingegneria, questo campo è brevettato da Portico Sport, essendo il primo del suo genere sul mercato. Grazie a questo campo, il cliente può risparmiare sulle spese di preparazione del terreno e sull'acquisizione del permesso, in quanto è necessaria solo una superficie drenata per evitare l'accumulo di acqua. Questo modello di campo è costruito con un sistema di supporto a scatola di contrappeso speciale, eliminando la necessità di ancoraggio al suolo. Ciò consente la pratica sportiva in una posizione specifica per un periodo prolungato, rendendola adatta all'uso permanente nel corso degli anni, o può essere facilmente spostata in un'altra posizione. Inoltre, il suo speciale sistema di scatola di contrappeso lo rende un campo altamente resistente in grado di resistere a forti raffiche di vento. Se stai cercando un campo che offra la possibilità di mobilità, il campo mobile è la scelta migliore.</p>",
+      "URL": "https://porticosport.com/en/mobile-courts",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/mobile-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo mobile brevettato da Portico Sport"
+      },{
+        "id": "slide-2",
+        "src": "/courts/mobile-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo mobile brevettato da Portico Sport"
+      },{
+        "id": "slide-3",
+        "src": "/courts/mobile-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo mobile brevettato da Portico Sport"
+      }]
+    },
+    "COURT2": {
+      "TITLE": "Panoramic FLOW",
+      "DESCRIPTION": "<p>Il campo Panoramic Flow è una versione migliorata del nostro campo Panoramic. Progettato dal reparto di ingegneria di Portico Sport, questo modello di campo elimina gli angoli della struttura metallica, consentendo alle pareti continue in vetro ad alta resistenza di offrire una vista panoramica ininterrotta dei dintorni. Questo magnifico design, unito a un'estetica meticolosa, rende questo campo il più attraente per coloro che desiderano che i loro spettatori godano di un'esperienza di padel senza precedenti.</p>",
+      "URL": "https://porticosport.com/en/panoramic-flow-court",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/panoramic-flow-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Panoramic Flow"
+      },{
+        "id": "slide-2",
+        "src": "/courts/panoramic-flow-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Panoramic Flow"
+      },{
+        "id": "slide-3",
+        "src": "/courts/panoramic-flow-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Panoramic Flow"
+      }]
+    },
+    "COURT3": {
+      "TITLE": "Panoramic",
+      "DESCRIPTION": "<p>Il nostro campo panoramico è una scelta straordinaria ed emozionante per gli appassionati di padel. Progettato e realizzato dal reparto di ingegneria di Portico Sport, questo modello di campo presenta pareti in vetro ad alta resistenza che offrono una vista panoramica dei dintorni, creando un'esperienza di gioco unica ed emozionante sia all'interno che all'esterno del campo. Grazie al suo fascino visivo, questo campo è sempre più richiesto dai clienti che desiderano offrire un'esperienza di gioco distintiva a tutti i loro giocatori.</p>",
+      "URL": "https://porticosport.com/en/panoramic-court",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/panoramic-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo panoramico"
+      },{
+        "id": "slide-2",
+        "src": "/courts/panoramic-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo panoramico"
+      },{
+        "id": "slide-3",
+        "src": "/courts/panoramic-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo panoramico"
+      },{
+        "id": "slide-4",
+        "src": "/courts/panoramic-court-04.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo panoramico"
+      }]
+    },
+    "COURT4": {
+      "TITLE": "Club",
+      "DESCRIPTION": "<p>Uno dei nostri campi più ricercati, il Club Court, si distingue come un'opzione ideale per coloro che cercano una qualità superiore e una durata eccezionale. Con pilastri alti 3 metri, questo campo è progettato e realizzato dal reparto di ingegneria di Portico Sport per fornire un ambiente ottimale per la pratica del padel di alto livello, garantendo i più alti standard di qualità. Se stai cercando un campo da padel che combini durata e resistenza, il Club Court è un'ottima scelta.</p>",
+      "URL": "https://porticosport.com/en/courts-club",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/club-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club"
+      },{
+        "id": "slide-2",
+        "src": "/courts/club-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club"
+      },{
+        "id": "slide-3",
+        "src": "/courts/club-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club"
+      }]
+    },
+    "COURT5": {
+      "TITLE": "Club Plus",
+      "DESCRIPTION": "<p>Il Club Plus Court è un'evoluzione del nostro Club Court. Questo campo migliorato mantiene la stessa qualità premium, offrendo una maggiore durata grazie alle sue strutture superiori progettate dal reparto di ingegneria di Portico Sport. Queste strutture sono progettate per resistere a forti raffiche di vento e condizioni meteorologiche avverse. Nel Club Plus Court troverai una durata integrata senza soluzione di continuità e un'elevata resistenza per un'esperienza di pratica del padel senza precedenti.</p>",
+      "URL": "https://porticosport.com/en/club-plus-courts",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/club-plus-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club Plus"
+      },{
+        "id": "slide-2",
+        "src": "/courts/club-plus-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club Plus"
+      },{
+        "id": "slide-3",
+        "src": "/courts/club-plus-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club Plus"
+      },{
+        "id": "slide-4",
+        "src": "/courts/club-plus-court-04.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Club Plus"
+      }]
+    },
+    "COURT6": {
+      "TITLE": "Ultra 64",
+      "DESCRIPTION": "<p>Il nostro campo Ultra 64 è uno dei campi da padel più resistenti sul mercato. Progettato dagli ingegneri specializzati di Portico Sport, la struttura di questo campo presenta un design unico di contrafforti e ancoraggi, consentendogli di resistere a venti fino a 64 m/s. La combinazione del suo design distintivo con materiali di alta qualità lo rende un campo estremamente robusto e durevole, ideale per aree con condizioni meteorologiche avverse. Se stai cercando un campo da padel estremamente resistente e duraturo, il campo Ultra 64 è la scelta perfetta.</p>",
+      "URL": "https://porticosport.com/en/ultra-64-court",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/ultra-64-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Ultra 64"
+      },{
+        "id": "slide-2",
+        "src": "/courts/ultra-64-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Ultra 64"
+      },{
+        "id": "slide-3",
+        "src": "/courts/ultra-64-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Ultra 64"
+      },{
+        "id": "slide-4",
+        "src": "/courts/ultra-64-court-04.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Ultra 64"
+      }]
+    },
+    "COURT7": {
+      "TITLE": "Force 80",
+      "DESCRIPTION": "<p>Il nostro campo Force 80 si distingue come uno dei campi da padel più resistenti sul mercato. Progettato dagli ingegneri di Portico Sport, la struttura di questo campo presenta un design superiore di contrafforti e un sistema di ancoraggio speciale, consentendogli di resistere a venti fino a 80 m/s. La combinazione del suo design originale con materiali di alta qualità lo rende il campo più robusto e durevole, ideale per aree con condizioni meteorologiche estremamente avverse. Se desideri goderti il padel indipendentemente dalle condizioni meteorologiche avverse, il campo Force 80 è un'ottima scelta.</p>",
+      "URL": "https://porticosport.com/en/force-80-court",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/force-80-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Force 80"
+      },{
+        "id": "slide-2",
+        "src": "/courts/force-80-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Force 80"
+      },{
+        "id": "slide-3",
+        "src": "/courts/force-80-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Force 80"
+      },{
+        "id": "slide-4",
+        "src": "/courts/force-80-court-04.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Force 80"
+      }]
+    },
+    "COURT8": {
+      "TITLE": "Single",
+      "DESCRIPTION": "<p>Il nostro campo Singolo è perfetto per un giocatore solitario ed è stato progettato appositamente dal reparto di ingegneria di Portico Sport. Con dimensioni più piccole del solito (20x6m), questo campo è destinato a offrire un'ottima esperienza di gioco per coloro che giocano da soli, sia per allenamento, divertimento o per mancanza di un partner per lo sport. Nonostante le sue dimensioni ridotte, presenta la stessa qualità premium e una durata eccezionale come il resto dei nostri campi, rendendolo una scelta ideale per i club che desiderano ampliare la loro offerta e offrire questo campo speciale.</p>",
+      "URL": "https://porticosport.com/en/single-court",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/single-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Single"
+      },{
+        "id": "slide-2",
+        "src": "/courts/single-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Single"
+      },{
+        "id": "slide-3",
+        "src": "/courts/single-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Single"
+      }]
+    },
+    "COURT9": {
+      "TITLE": "Mini",
+      "DESCRIPTION": "<p>Il nostro Mini Court è un campo da padel di dimensioni ridotte (10,47x5,47m) con un'altezza ridotta (1m), ideale per spazi più piccoli, allenamenti a casa o giocatori più giovani. Progettato dal reparto di ingegneria di Portico Sport, questo campo è realizzato con gli stessi materiali di alta qualità degli altri nostri campi da padel. Nonostante sia il campo più piccolo, offre la stessa stabilità, durata e resistenza. Se stai cercando un campo da padel compatto, il Mini Court è un'ottima scelta.</p>",
+      "URL": "https://porticosport.com/en/mini-court",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/mini-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Mini"
+      },{
+        "id": "slide-2",
+        "src": "/courts/mini-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Mini"
+      },{
+        "id": "slide-3",
+        "src": "/courts/mini-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "imgAlt": "Campo Mini"
+      }]
+    }
+  },
+  "PROCESS": {
+    "HEADING": "Con te durante tutto il processo",
+    "POINT_1": {
+      "TITLE": "PENSARE AL PADEL, PENSARE A PORTICO SPORT",
+      "SUBTITLE": "Iniziare una relazione solida e duratura basata sulla fiducia e sulla soddisfazione del cliente."
+    },
+    "POINT_2": {
+      "TITLE": "Accordo commerciale",
+      "SUBTITLE": "Progettazione e redazione di una proposta commerciale su misura per le esigenze, gli obiettivi e le preferenze di ciascun cliente."
+    },
+    "POINT_3": {
+      "TITLE": "Consulenza personalizzata con i reparti di ingegneria e architettura",
+      "SUBTITLE": "Il nostro team tecnico sarà con te durante tutto il processo, con l'obiettivo di fornire un servizio completo e di alta qualità che soddisfi le aspettative dei nostri clienti. Il nostro team dedicato è un valore garantito per il successo."
+    },
+    "POINT_4": {
+      "TITLE": "Finanziamento se applicabile",
+      "SUBTITLE": "Portico Sport ha accordi vantaggiosi con diverse entità per offrire servizi di finanziamento personalizzati con condizioni eccellenti ai nostri clienti. L'obiettivo è offrire soluzioni su misura in base alle loro esigenze."
+    },
+    "POINT_5": {
+      "TITLE": "Progettazione, produzione e installazione in base alle esigenze di ciascun cliente",
+      "SUBTITLE": "Basandoci sui più alti standard di qualità, i nostri campi e coperture sono progettati su misura per soddisfare le esigenze specifiche di ciascun cliente, poiché comprendiamo che ogni progetto è unico."
+    },
+    "POINT_6": {
+      "TITLE": "Campi installati",
+      "SUBTITLE": "Portico Sport garantisce soddisfazione e qualità in tutti i nostri progetti. Qualità, innovazione, fiducia ed esperienza sono i nostri pilastri."
+    },
+    "POINT_7": {
+      "TITLE": "Servizio post-vendita",
+      "SUBTITLE": "Orientati al cliente, manteniamo una stretta relazione dall'inizio al servizio post-vendita perché con Portico Sport, non camminerai mai da solo. Per la nostra azienda, il servizio post-vendita è essenziale per garantire la soddisfazione del cliente, fornendo supporto tecnico, risolvendo eventuali preoccupazioni ed instaurando relazioni a lungo termine."
+    },
+    "POINT_8": {
+      "TITLE": "Crescere insieme",
+      "SUBTITLE": "Per Portico Sport, è altrettanto importante offrire un servizio post-vendita eccezionale quanto rafforzare e coltivare relazioni a lungo termine con tutti i nostri clienti."
+    }
+  }
+}

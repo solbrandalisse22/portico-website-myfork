@@ -19,7 +19,10 @@
     "preview-en": "astro preview --config astro.config.en.mjs",
     "dev-fr": "astro dev --config astro.config.fr.mjs",
     "build-fr": "astro build --config astro.config.fr.mjs",
-    "preview-fr": "astro preview --config astro.config.fr.mjs"
+    "preview-fr": "astro preview --config astro.config.fr.mjs",
+    "dev-it": "astro dev --config astro.config.it.mjs",
+    "build-it": "astro build --config astro.config.it.mjs",
+    "preview-it": "astro preview --config astro.config.it.mjs"
   },
   "dependencies": {
     "@appnest/masonry-layout": "2.2.3",
