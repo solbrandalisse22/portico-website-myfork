@@ -1,122 +1,116 @@
 [
   {
-    "src": "img-1.webp",
-    "width": 771,
-    "height": 581,
-    "alt": "Club court in Auckland in New Zealand"
-  },
-  {
     "src": "img-2.webp",
     "width": 1252,
     "height": 835,
-    "alt": "Vilshärads padel court in Sweden"
+    "alt": "Campo di padel di Vilshärads in Svezia"
   },
   {
     "src": "img-3.webp",
     "width": 1252,
     "height": 835,
-    "alt": "Vilshärads padel court in Sweden"
-  },
-  {
-    "src": "img-5.webp",
-    "width": 768,
-    "height": 432,
-    "alt": "Harrogate Spa Tennis in the UK"
-  },
-  {
-    "src": "img-6.webp",
-    "width": 1024,
-    "height": 576,
-    "alt": "The Padel club in the UK"
-  },
-  {
-    "src": "img-8.webp",
-    "width": 1170,
-    "height": 1181,
-    "alt": "Harrogate Spa Tennis in the UK"
-  },
-  {
-    "src": "img-9.webp",
-    "width": 1180,
-    "height": 792,
-    "alt": "Club cerrado del Aguila in Spain"
-  },
-  {
-    "src": "img-10.webp",
-    "width": 1180,
-    "height": 787,
-    "alt": "Padel courts"
-  },
-  {
-    "src": "img-11.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Öja Padel Park in Sweden"
-  },
-  {
-    "src": "img-12.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Europadel Elvas in Portugal"
-  },
-  {
-    "src": "img-13.webp",
-    "width": 750,
-    "height": 417,
-    "alt": "Club cerrado del Aguila in Malaga"
-  },
-  {
-    "src": "img-14.webp",
-    "width": 1024,
-    "height": 683,
-    "alt": "Blue Padel Kourts Sintra in Portugal"
-  },
-  {
-    "src": "img-15.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Öja Padel Park in Sweden"
-  },
-  {
-    "src": "img-16.webp",
-    "width": 1024,
-    "height": 498,
-    "alt": "Several panoramic padel courts"
-  },
-  {
-    "src": "img-17.webp",
-    "width": 678,
-    "height": 437,
-    "alt": "Several padel courts in a club"
-  },
-  {
-    "src": "img-18.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Padel Court covered with canopy"
-  },
-  {
-    "src": "img-19.webp",
-    "width": 960,
-    "height": 640,
-    "alt": "Padel club court"
-  },
-  {
-    "src": "img-20.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Installation of Panoramic club court"
-  },
-  {
-    "src": "img-21.webp",
-    "width": 1024,
-    "height": 731,
-    "alt": "panoramic courts and canopies"
+    "alt": "Campo di padel di Vilshärads in Svezia"
   },
   {
     "src": "img-22.webp",
     "width": 1024,
     "height": 682,
-    "alt": " Vilshärads padel court in Sweden"
+    "alt": "Campo di padel di Vilshärads in Svezia"
+  },
+  {
+    "src": "img-5.webp",
+    "width": 768,
+    "height": 432,
+    "alt": "Club cerrado del Aguila in Spagna"
+  },
+  {
+    "src": "img-6.webp",
+    "width": 1024,
+    "height": 576,
+    "alt": "Club cerrado del Aguila in Spagna"
+  },
+  {
+    "src": "img-8.webp",
+    "width": 1170,
+    "height": 1181,
+    "alt": "Tennis del centro termale di Harrogate nel Regno Unito"
+  },
+  {
+    "src": "img-9.webp",
+    "width": 1180,
+    "height": 792,
+    "alt": "Tendaggi"
+  },
+  {
+    "src": "img-10.webp",
+    "width": 1180,
+    "height": 787,
+    "alt": "Dettaglio del tendaggio"
+  },
+  {
+    "src": "img-11.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Parco Padel Öja in Svezia"
+  },
+  {
+    "src": "img-12.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Europadel Elvas in Portogallo"
+  },
+  {
+    "src": "img-13.webp",
+    "width": 750,
+    "height": 417,
+    "alt": "Club cerrado del Aguila a Malaga"
+  },
+  {
+    "src": "img-14.webp",
+    "width": 1024,
+    "height": 683,
+    "alt": "Kourts di Padel blu Sintra in Portogallo"
+  },
+  {
+    "src": "img-15.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Parco Padel Öja in Svezia"
+  },
+  {
+    "src": "img-16.webp",
+    "width": 1024,
+    "height": 498,
+    "alt": "Diversi campi di padel panoramici"
+  },
+  {
+    "src": "img-17.webp",
+    "width": 678,
+    "height": 437,
+    "alt": "Diversi campi di padel in un club"
+  },
+  {
+    "src": "img-18.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Campo di padel coperto con tendaggio"
+  },
+  {
+    "src": "img-19.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Campo di padel del club"
+  },
+  {
+    "src": "img-20.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Installazione di campo di padel panoramico del club"
+  },
+  {
+    "src": "img-21.webp",
+    "width": 1024,
+    "height": 731,
+    "alt": "Campi panoramici e tendaggi"
   }
 ]

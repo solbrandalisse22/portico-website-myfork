@@ -1,11 +1,5 @@
 [
   {
-    "src": "img-1.webp",
-    "width": 771,
-    "height": 581,
-    "alt": "Club court in Auckland in New Zealand"
-  },
-  {
     "src": "img-2.webp",
     "width": 1252,
     "height": 835,
@@ -18,16 +12,22 @@
     "alt": "Vilshärads padel court in Sweden"
   },
   {
+    "src": "img-22.webp",
+    "width": 1024,
+    "height": 682,
+    "alt": " Vilshärads padel court in Sweden"
+  },
+  {
     "src": "img-5.webp",
     "width": 768,
     "height": 432,
-    "alt": "Harrogate Spa Tennis in the UK"
+    "alt": "Club cerrado del Aguila in Spain"
   },
   {
     "src": "img-6.webp",
     "width": 1024,
     "height": 576,
-    "alt": "The Padel club in the UK"
+    "alt": "Club cerrado del Aguila in Spain"
   },
   {
     "src": "img-8.webp",
@@ -39,13 +39,13 @@
     "src": "img-9.webp",
     "width": 1180,
     "height": 792,
-    "alt": "Club cerrado del Aguila in Spain"
+    "alt": "Canopies"
   },
   {
     "src": "img-10.webp",
     "width": 1180,
     "height": 787,
-    "alt": "Padel courts"
+    "alt": "Canopie detail"
   },
   {
     "src": "img-11.webp",
@@ -112,11 +112,5 @@
     "width": 1024,
     "height": 731,
     "alt": "panoramic courts and canopies"
-  },
-  {
-    "src": "img-22.webp",
-    "width": 1024,
-    "height": 682,
-    "alt": " Vilshärads padel court in Sweden"
   }
 ]
