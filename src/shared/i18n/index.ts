@@ -21,3 +21,15 @@ export const getCurrentLocale = ({
 }: {
   language: string | undefined
 }) => LANGUAGES[language.toUpperCase()] || LANGUAGES.DEFAULT
+
+export const getCategoryByLanguage = ({
+  language = LANGUAGES.DEFAULT
+}: {
+  language: string | undefined
+}) => {
+  if (LANGUAGES[language.toUpperCase()] === 'it') return 12
+  if (LANGUAGES[language.toUpperCase()] === 'fr') return 13
+  if (LANGUAGES[language.toUpperCase()] === 'es') return 1
+  if (LANGUAGES[language.toUpperCase()] === 'fr') return 1
+  return 1
+}
