@@ -6,18 +6,19 @@ import Bento from "@/shared/components/Bento.astro"
 import PreFooter from "@/shared/components/PreFooter.astro"
 import Contact from "@/shared/components/Contact.astro"
 import Courts from "@/shared/components/Courts.astro"
-import projectsGallery from "@/shared/data/projects-gallery.json";
 import { getI18N, getCurrentLocale } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
 import GraphicProcess from "../GraphicProcess.astro"
 import InfiniteScroll from "../InfiniteScroll.astro"
+import { Photo } from "@/types/types.ts";
 
 interface Props {
-  language: string
+  language: string,
+  projectsGallery: Photo[]
 }
 
-const { language } = Astro.props
+const { language, projectsGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 

@@ -1,6 +1,7 @@
 ---
 import CanopiesPage from "@/shared/components/pages/CanopiesPage.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
+import canopiesGallery from "@/fr/data/canopies-gallery.json"
 ---
 
-<CanopiesPage language={LANGUAGES.FR} />
+<CanopiesPage language={LANGUAGES.FR} canopiesGallery={canopiesGallery} />

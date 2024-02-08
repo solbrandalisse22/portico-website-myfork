@@ -1,6 +1,7 @@
 ---
 import App from "@/shared/components/pages/App.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
+import projectsGallery from "@/it/data/projects-gallery.json"
 ---
 
-<App language={LANGUAGES.IT} />
+<App language={LANGUAGES.IT} projectsGallery={projectsGallery} />

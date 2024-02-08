@@ -71,7 +71,7 @@
   },
   "ROUTES": {
     "HOME": {
-      "LABEL": "INIZIO",
+      "LABEL": "Inizio",
       "URL": "/"
     },
     "INFO": {
@@ -85,7 +85,7 @@
       "URL": "/tettoie"
     },
     "COURTS": {
-      "LABEL": "Campi da padel",
+      "LABEL": "Campi",
       "ID": "campi-da-padel",
       "URL": "/#campi-da-padel"
     },

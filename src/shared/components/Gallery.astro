@@ -2,19 +2,13 @@
 import "photoswipe/style.css";
 import Section from "@/shared/components/Section.astro";
 import Button from "./Button.astro";
+import { Photo } from "@/types/types.ts";
 
-interface Photo {
-  src: string;
-  alt: string;
-  width: number;
-  height: number;
-}
-
-interface AstroProps {
+interface Props {
   id: string;
   heading: string;
   subheading: string;
-  offset: number;
+  offset?: number;
   photos: Photo[];
   path: string;
   loadMoreText: string;

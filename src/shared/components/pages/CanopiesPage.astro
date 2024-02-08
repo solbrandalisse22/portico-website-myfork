@@ -4,13 +4,14 @@ import HeroContainer from "@/shared/components/HeroContainer.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
-import canopiesGallery from "@/shared/data/canopies-gallery.json";
+import { Photo } from "@/types/types";
 
 interface Props {
   language: string,
+  canopiesGallery: Photo[]
 }
 
-const { language } = Astro.props
+const { language, canopiesGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
 ---
@@ -29,6 +30,7 @@ const currentLocale = getCurrentLocale({ language })
       ]}
     />
     <Gallery
+      id="gallery-canopies"
       heading={i18n.CANOPIES.GALLERY.HEADING}
       subheading={i18n.CANOPIES.GALLERY.SUBHEADING}
       path="canopies"
