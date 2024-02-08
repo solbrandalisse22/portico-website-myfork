@@ -611,5 +611,18 @@
       "TITLE": "Grandir ensemble",
       "SUBTITLE": "Pour Portico Sport, il est tout aussi important d'offrir un service après-vente exceptionnel que de renforcer et stimuler une relation à long terme avec tous ses clients."
     }
+  },
+  "CONTACT": {
+    "TITLE": "Contactez-nous",
+    "SUBTITLE": "Nous sommes là pour vous aider",
+    "FORM": {
+      "NAME": "Nom complet",
+      "EMAIL": "Adresse e-mail",
+      "EMAIL_PLACEHOLDER": "exemple@domain.com",
+      "SUBJECT": "Sujet",
+      "SUBJECT_PLACEHOLDER": "Entrez votre sujet",
+      "MESSAGE": "Message",
+      "SEND": "Soumettre"
+    }
   }
 }
