@@ -1,10 +1,30 @@
 ---
-import { getI18N } from "@/shared/i18n/";
 import Button from "./Button.astro";
-import FepLogoWhite from "./FepLogoWhite.astro";
+import Contact from "@/shared/components/Contact.astro"
 
-const { language } = Astro.props
-const i18n = getI18N({ language })
+interface Props {
+  language: string;
+  video: string;
+  subtitle?: string;
+  title?: string;
+  buttonUrl?: string;
+  buttonText?: string;
+}
+
+const { video, subtitle, title, buttonUrl, buttonText } = Astro.props;
+
+function getTipeFromVideo() {
+  const videoExtension = video.split(".").pop();
+  if (videoExtension === "mp4") {
+    return "video/mp4";
+  }
+  if (videoExtension === "webm") {
+    return "video/webm";
+  }
+  return "video/mp4";
+}
+
+const type = getTipeFromVideo();
 ---
 
 <div
@@ -13,28 +33,37 @@ const i18n = getI18N({ language })
   <div
     class="absolute inset-0 h-full justify-center z-10 m-auto flex flex-col items-center w-full"
   >
-    <section
-      class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col"
-    >
-      <p
-        class="subtitle text-xl lg:text-2xl text-center font-jura px-4 text-balance mb-0"
+    <slot>
+      <section
+        class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col"
       >
-        {i18n.HERO_SUBTITLE}
-      </p>
-      <h1
-        class="flex items-center gap-5 text-xl md:text-2xl lg:gap-20 lg:text-3xl font-tomaso px-4 text-center text-balance"
-      >
-        {i18n.HERO_TITLE}
-      </h1>
-
-      <Button
-        target="_self"
-        class="text-blue-950 animate-fade-up bg-white hover:bg-primary"
-        url={i18n.ROUTES.CONTACT.URL}
-      >
-        {i18n.VIDEO_BUTTON}
-      </Button>
-    </section>
+        {
+          subtitle ? (
+            <p class="subtitle text-xl lg:text-2xl text-center font-jura px-4 text-balance mb-0">
+              {subtitle}
+            </p>
+          ) : null
+        }
+        {
+          title ? (
+            <h1 class="flex items-center gap-5 text-xl md:text-2xl lg:gap-20 lg:text-3xl font-tomaso px-4 text-center text-balance">
+              {title}
+            </h1>
+          ) : null
+        }
+        {
+          buttonUrl && buttonText ? (
+            <Button
+              target="_self"
+              class="text-blue-950 animate-fade-up bg-white hover:bg-primary"
+              url={buttonUrl}
+            >
+              {buttonText}
+            </Button>
+          ) : null
+        }
+      </section>
+    </slot>
 
     <video
       autoplay
@@ -45,8 +74,7 @@ const i18n = getI18N({ language })
       preload="metadata"
       class="video hidden cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
     >
-      <source src="/portico-sport-video.webm" type="video/webm" />
-      <!-- <source src="/portico-sport-video.mp4" type="video/mp4" /> -->
+      <source src={video} type={type} />
     </video>
   </div>
   <video
@@ -56,12 +84,9 @@ const i18n = getI18N({ language })
     muted
     preload="metadata"
   >
-    <source src="/portico-sport-video.webm" type="video/webm" />
-    <!-- <source src="/portico-sport-video.mp4" type="video/mp4" /> -->
+    <source src={video} type={type} />
   </video>
-  <div class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10">
-    <FepLogoWhite />
-  </div>
+  <slot name="bottom" />
 </div>
 
 <script>
