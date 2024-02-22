@@ -6,6 +6,7 @@ import Bento from "@/shared/components/Bento.astro"
 import PreFooter from "@/shared/components/PreFooter.astro"
 import Contact from "@/shared/components/Contact.astro"
 import Courts from "@/shared/components/Courts.astro"
+import CanopiesSection from "@/shared/components/CanopiesSection.astro"
 import FepLogoWhite from "@/shared/components/FepLogoWhite.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
@@ -51,6 +52,7 @@ const posts = await response.json();
     <GraphicProcess language={language} />
     <InfiniteScroll language={language} />
     <Courts language={language} />
+    <CanopiesSection language={language} video="/cubiertas-spot.webm" subtitle={i18n.CANOPIES_SECTION.SUBTITLE} title={i18n.CANOPIES_SECTION.TITLE} text={i18n.CANOPIES_SECTION.TEXT} />
     <Bento language={language} />
     <Gallery
       id={i18n.ROUTES.PROJECTS.ID}

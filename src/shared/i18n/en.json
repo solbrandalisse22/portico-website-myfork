@@ -86,7 +86,11 @@
     "COURTS": {
       "LABEL": "Courts",
       "ID": "padel-courts",
-      "URL": "/#padel-courts"
+      "URL": "/courts",
+      "MOBILE": {
+        "LABEL": "Mobile padel court",
+        "URL": "/courts/mobile"
+      }
     },
     "PROJECTS": {
       "LABEL": "Projects",
@@ -623,5 +627,10 @@
       "MESSAGE": "Message",
       "SEND": "Send"
     }
+  },
+  "CANOPIES_SECTION": {
+    "TITLE": "Canopies",
+    "SUBTITLE": "Strength, durability and perfect integration",
+    "TEXT": "Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of canopies worldwide."
   }
 }
