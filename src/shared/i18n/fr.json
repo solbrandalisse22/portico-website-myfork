@@ -630,5 +630,35 @@
     "SUBTITLE": "Haute qualité, résistance, durabilité et intégration parfaite",
     "TEXT": "Notre expérience en tant qu'ingénierie nous a permis de concevoir une couverture spécialement conçue pour la pratique sportive, et très particulièrement pour le PADEL, réunissant des caractéristiques différenciatrices pour ce sport difficilement égalables par d'autres types de couvertures.",
     "BUTTON_TEXT": "Découvrez nos couvertures"
+  },
+  "COMPLEMENTS_SECTION": {
+    "TITLE": "Qualité, Innovation, Confiance, Expérience et Rapidité",
+    "SUBTITLE": "Enterprise de référence dans le panorama national et international",
+    "ITEMS": {
+      "ITEM_1": {
+        "TITLE": "Foundation et plateformes",
+        "DESCRIPTION": "Nous conseillons nos clients concernant la préparation du terrain et d'autres aspects techniques liés à la construction de chapes et de fondations."
+      },
+      "ITEM_2": {
+        "TITLE": "Structures",
+        "DESCRIPTION": "Structure métallique en acier galvanisé, laquée au four avec une peinture polyester thermoplastique, une couche sur les pentes intérieures et deux couches sur les installations extérieures, avec des normes de qualité élevées."
+      },
+      "ITEM_3": {
+        "TITLE": "Lunettes",
+        "DESCRIPTION": "Tous les courts sont équipés de verre de sécurité trempé, épaisseur 10 ou 12 mm selon chaque projet, respectant strictement la réglementation établie pour ce type d'installation."
+      },
+      "ITEM_4": {
+        "TITLE": "Gazon artificiel",
+        "DESCRIPTION": "Marque ARTIFICIAL GRASS SYSTEM MONDE, de dernière génération, à fibres droites ou bouclées…"
+      },
+      "ITEM_5": {
+        "TITLE": "Éclairage",
+        "DESCRIPTION": "Nous installons les meilleurs projecteurs Led, des fabricants les plus renommés du marché."
+      },
+      "ITEM_6": {
+        "TITLE": "Personnalisation",
+        "DESCRIPTION": "PERSONNALISEZ VOTRE COURT : Bancs intégrés à la structure, coins gravés du logo du club, filet sérigraphié,..."
+      }
+    }
   }
 }

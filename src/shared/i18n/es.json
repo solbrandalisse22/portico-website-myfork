@@ -629,5 +629,35 @@
     "SUBTITLE": "Alta calidad, resistencia, durabilidad e integración perfecta",
     "TEXT": "Nuestra experiencia como ingeniería nos ha permitido diseñar una cubierta especialmente concebida para la práctica deportiva, y muy especialmente para PÁDEL, aunando características diferenciadoras para este deporte difícilmente inigualables por otro tipo de cubiertas. PORTICO SPORT es referente en diseño e instalación de cubiertas en todo el mundo.",
     "BUTTON_TEXT": "Descubre nuestras cubiertas"
+  },
+  "COMPLEMENTS_SECTION": {
+    "TITLE": "Calidad, innovación, confianza, experiencia y rapidez",
+    "SUBTITLE": "Empresa de referencia en el panorama nacional e internacional",
+    "ITEMS": {
+      "ITEM_1": {
+        "TITLE": "Cimentación y plataformas",
+        "DESCRIPTION": "Asesoramos a nuestros clientes en cuanto a la preparación del terreno y otros aspectos técnicos relacionados con la construcción de soleras y cimentaciones."
+      },
+      "ITEM_2": {
+        "TITLE": "Estructuras",
+        "DESCRIPTION": "Estructura metálica de acero galvanizado lacado al horno con pintura termoplástica de poliéster, una capa en pistas indoor y dos capas en instalaciones outdoor, con altos estándares de calidad."
+      },
+      "ITEM_3": {
+        "TITLE": "Vidrios",
+        "DESCRIPTION": "Todas las pistas se equipan con vidrios templados de seguridad, en 10 o 12 mm de espesor según cada proyecto, cumpliendo rigurosamente la normativa marcada para este tipo instalaciones."
+      },
+      "ITEM_4": {
+        "TITLE": "Césped artificial",
+        "DESCRIPTION": "SISTEMA DE CÉSPED ARTIFICIAL marca MONDO, de última generación, con fibras rectas o rizadas…"
+      },
+      "ITEM_5": {
+        "TITLE": "Iluminación",
+        "DESCRIPTION": "Instalamos los mejores proyectores Led, de los más reconocidos fabricantes del mercado."
+      },
+      "ITEM_6": {
+        "TITLE": "Customización",
+        "DESCRIPTION": "CUSTOMIZA TU PISTA: Bancos integrados en la estructura, esquineras grabadas con logo del club, red serigrafiada..."
+      }
+    }
   }
 }

@@ -7,6 +7,7 @@ import PreFooter from "@/shared/components/PreFooter.astro"
 import Contact from "@/shared/components/Contact.astro"
 import Courts from "@/shared/components/Courts.astro"
 import CanopiesSection from "@/shared/components/CanopiesSection.astro"
+import ComplementsSection from "@/shared/components/ComplementsSection.astro"
 import FepLogoWhite from "@/shared/components/FepLogoWhite.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
@@ -70,6 +71,7 @@ const posts = await response.json();
       path="projects"
       loadMoreText={i18n.INFO.BUTTON_TEXT}
     />
+    <ComplementsSection language={language} />
     <PreFooter language={language} />
     <NewsList language={language} posts={posts} />
     <Contact language={language} />

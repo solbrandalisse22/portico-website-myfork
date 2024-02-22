@@ -630,5 +630,36 @@
     "SUBTITLE": "Forza, durabilità e perfetta integrazione",
     "TEXT": "La nostra esperienza come azienda di ingegneria ci ha permesso di progettare tettoie specificamente concepite per la pratica sportiva, in particolare per il PADEL, combinando caratteristiche differenzianti per questo sport che sono difficili da eguagliare da altri tipi di tettoie. PORTICO SPORT è leader nella progettazione e installazione di tettoie in tutto il mondo.",
     "BUTTON_TEXT": "Scopri di più"
+  },
+  "COMPLEMENTS_SECTION": {
+    "TITLE": "Qualità, innovazione, fiducia, esperienza e rapidità",
+    "SUBTITLE": "Azienda di riferimento nel panorama nazionale ed internazionale",
+    "ITEMS": {
+      // Translate to italian
+      "ITEM_1": {
+        "TITLE": "Fondazioni e piattaforme",
+        "DESCRIPTION": "Specializzati nella costruzione e riparazione di lastre di asfalto e cemento e fondazioni strutturali."
+      },
+      "ITEM_2": {
+        "TITLE": "Strutture",
+        "DESCRIPTION": "Struttura metallica in acciaio zincato, verniciata a forno con vernice termoplastica al poliestere. Dispone di uno strato per campi al coperto e due strati per installazioni all'aperto, realizzati per soddisfare gli standard di mercato più elevati."
+      },
+      "ITEM_3": {
+        "TITLE": "Vetri",
+        "DESCRIPTION": "Tutti i campi sono dotati di vetri di sicurezza temperati, spessi 10 o 12 mm a seconda di ciascun progetto, che rispettano rigorosamente le normative stabilite per questo tipo di impianto."
+      },
+      "ITEM_4": {
+        "TITLE": "Tappeto artificiale",
+        "DESCRIPTION": "SISTEMA DI TAPPETO ARTIFICIALE marchio MONDO, di ultima generazione, con fibre dritte o ricciute, con una lunghezza di 12 mm e una densità di 44.100 punti/m2."
+      },
+      "ITEM_5": {
+        "TITLE": "Illuminazione",
+        "DESCRIPTION": "Installiamo i migliori proiettori Led, dei più rinomati produttori del mercato."
+      },
+      "ITEM_6": {
+        "TITLE": "Accessori",
+        "DESCRIPTION": "Banche integrate nella struttura, angoli incisi con il logo del club, rete serigrafata,..."
+      }
+    }
   }
 }

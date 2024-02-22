@@ -633,5 +633,35 @@
     "SUBTITLE": "Strength, durability and perfect integration",
     "TEXT": "Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of canopies worldwide.",
     "BUTTON_TEXT": "More about canopies"
+  },
+  "COMPLEMENTS_SECTION": {
+    "TITLE": "Quality, Innovation, Trust, Experience and Speed",
+    "SUBTITLE": "A leading company in the national and international landscape.",
+    "ITEMS": {
+      "ITEM_1": {
+        "TITLE": "Foundation and platforms",
+        "DESCRIPTION": "We specialize in the construction and repair of asphalt and concrete slabs and structural foundations."
+      },
+      "ITEM_2": {
+        "TITLE": "Structures",
+        "DESCRIPTION": "Metallic structure made of galvanized steel, oven-baked with thermoplastic polyester paint. It features one layer for indoor courts and two layers for outdoor installations, manufactured to meet the highest market standards."
+      },
+      "ITEM_3": {
+        "TITLE": "Glasses",
+        "DESCRIPTION": "All courts are equipped with tempered safety glass, 10 or 12 mm thick depending on each project, strictly complying with the regulations established for this type of facility."
+      },
+      "ITEM_4": {
+        "TITLE": "Artifitial turf",
+        "DESCRIPTION": "ARTIFICIAL TURF SYSTEM brand MONDO, of the latest generation, with straight or curly fibers…"
+      },
+      "ITEM_5": {
+        "TITLE": "Lighting",
+        "DESCRIPTION": "We install the best Led projectors, from the most renowned manufacturers on the market."
+      },
+      "ITEM_6": {
+        "TITLE": "Customize your court",
+        "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
+      }
+    }
   }
 }
