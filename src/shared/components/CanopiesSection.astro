@@ -1,4 +1,15 @@
 ---
+import Button from '@/shared/components/Button.astro';
+
+interface Props {
+  video: string;
+  subtitle: string;
+  title: string;
+  text: string;
+  buttonUrl: string;
+  buttonText: string;
+}
+
 const { video, subtitle, title, text, buttonUrl, buttonText } = Astro.props;
 
 function getTipeFromVideo() {
@@ -44,6 +55,16 @@ const type = getTipeFromVideo();
           <p class="subtitle text-xl lg:text-2xl text-center font-jura px-4 text-balance mb-0">
               {text}
             </p>
+          ) : null
+        }
+        {
+          buttonUrl && buttonText ? (
+            <Button
+              target="_self"
+              url={buttonUrl}
+            >
+              {buttonText}
+            </Button>
           ) : null
         }
       </section>

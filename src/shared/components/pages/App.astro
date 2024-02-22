@@ -52,7 +52,15 @@ const posts = await response.json();
     <GraphicProcess language={language} />
     <InfiniteScroll language={language} />
     <Courts language={language} />
-    <CanopiesSection language={language} video="/cubiertas-spot.webm" subtitle={i18n.CANOPIES_SECTION.SUBTITLE} title={i18n.CANOPIES_SECTION.TITLE} text={i18n.CANOPIES_SECTION.TEXT} />
+    <CanopiesSection
+      video="/cubiertas-spot.webm"
+      subtitle={i18n.CANOPIES_SECTION.SUBTITLE}
+      title={i18n.CANOPIES_SECTION.TITLE}
+      text={i18n.CANOPIES_SECTION.TEXT}
+      buttonUrl={i18n.ROUTES.CANOPIES.URL}
+      buttonText={i18n.CANOPIES_SECTION.BUTTON_TEXT}
+    >
+    </CanopiesSection>
     <Bento language={language} />
     <Gallery
       id={i18n.ROUTES.PROJECTS.ID}
