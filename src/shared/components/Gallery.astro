@@ -14,14 +14,18 @@ interface Props {
   loadMoreText: string;
 }
 
-const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } = Astro.props;
+const {
+  id,
+  heading,
+  subheading,
+  offset = 9,
+  photos = [],
+  path = "",
+  loadMoreText,
+} = Astro.props;
 ---
 
-<Section
-  id={id}
-  heading={heading}
-  subheading={subheading}
->
+<Section id={id} heading={heading} subheading={subheading}>
   <masonry-layout
     gap="24"
     maxcolwidth="600"
@@ -29,7 +33,7 @@ const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } 
     id="gallery"
   >
     {
-      photos.slice(0, offset).map(({src, width, height, alt}:Photo )=> (
+      photos.slice(0, offset).map(({ src, width, height, alt }: Photo) => (
         <a
           class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
           href={`/${path}/${src}`}
@@ -62,9 +66,15 @@ const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } 
     }
   </masonry-layout>
 
-  <div class="text-center mx-auto">
-    <Button id="load-more" url="#">{loadMoreText}</Button>
-  </div>
+  {
+    loadMoreText && photos.length > offset ? (
+      <div class="text-center mx-auto">
+        <Button id="load-more" url="#">
+          {loadMoreText}
+        </Button>
+      </div>
+    ) : null
+  }
 </Section>
 
 <script>
@@ -91,35 +101,29 @@ const { id, heading, subheading, offset = 9, photos=[], path='', loadMoreText } 
     $button?.addEventListener("click", async (e) => {
       $button.remove();
       e.preventDefault();
-      const html = photos.slice(offset).map((img, index) => {
-        const imgIndex = index + offset + 1;
-        const $clone = $first?.cloneNode(true);
+      const html = photos
+        .slice(offset)
+        .map((img, index) => {
+          const imgIndex = index + offset + 1;
+          const $clone = $first?.cloneNode(true);
 
-        $clone.setAttribute("data-pswp-width", img.width);
-        $clone.setAttribute("data-pswp-height", img.height);
-        $clone.setAttribute(
-          "href",
-          `/${path}/${img.src}`
-        );
-        $clone.classList.add("animate-fade-up");
-        $clone.classList.add("animate-delay-300");
-        $clone.classList.add("opacity-0");
-        $clone
-          .querySelector("img:first-child")
-          .setAttribute(
-            "src",
-            `/${path}/thumbnails/${img.src}`
-          );
-        $clone
-          .querySelector("img:first-child").closest('img')
-          .setAttribute(
-            "src",
-            `/${path}/thumbnails/${img.src}`
-          );
-        $clone.querySelector("span:last-child").innerHTML = img.alt;
-        return $clone?.outerHTML;
-      })
-      .join("");
+          $clone.setAttribute("data-pswp-width", img.width);
+          $clone.setAttribute("data-pswp-height", img.height);
+          $clone.setAttribute("href", `/${path}/${img.src}`);
+          $clone.classList.add("animate-fade-up");
+          $clone.classList.add("animate-delay-300");
+          $clone.classList.add("opacity-0");
+          $clone
+            .querySelector("img:first-child")
+            .setAttribute("src", `/${path}/thumbnails/${img.src}`);
+          $clone
+            .querySelector("img:first-child")
+            .closest("img")
+            .setAttribute("src", `/${path}/thumbnails/${img.src}`);
+          $clone.querySelector("span:last-child").innerHTML = img.alt;
+          return $clone?.outerHTML;
+        })
+        .join("");
 
       document.querySelector("#gallery")?.insertAdjacentHTML("beforeend", html);
       document.querySelector("masonry-layout").scheduleLayout();
