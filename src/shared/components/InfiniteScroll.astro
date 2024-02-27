@@ -1,9 +1,11 @@
 ---
-import FepLogo from "./FepLogo.astro";
-import IspoMunichLogo from "./IspoMunichLogo.astro";
-import PadelSummitLogo from "./PadelSummitLogo.astro";
-import HexagonCupLogo from "./HexagoCupLogo.astro";
-import Section from "./Section.astro";
+import FepLogo from "@/shared/components/FepLogo.astro";
+import IspoMunichLogo from "@/shared/components/IspoMunichLogo.astro";
+import PadelSummitLogo from "@/shared/components/PadelSummitLogo.astro";
+import HexagonCupLogo from "@/shared/components/HexagoCupLogo.astro";
+import LogoEvenPadel from "@/shared/components/LogoEvenPadel.astro";
+import LogoFutwall from "@/shared/components/LogoFutwall.astro";
+import Section from "@/shared/components/Section.astro";
 import { getI18N } from "@/shared/i18n";
 
 const { language } = Astro.props
@@ -12,12 +14,14 @@ const i18n = getI18N({ language })
 
 <Section>
   <div class="scroller">
-    <ul class="tag-list scroller_inner">
+    <ul class="tag-list scroller_inner items-center">
       <li><IspoMunichLogo /></li>
       <li><PadelSummitLogo /></li>
       <li><FepLogo /></li>
       <li><HexagonCupLogo /></li>
-      <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></li>
+      <li><LogoEvenPadel /></li>
+      <li><LogoFutwall /></li>
+      <li><img loading="lazy" src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></li>
     </ul>
   </div>
 </Section>
