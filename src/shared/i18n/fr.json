@@ -73,11 +73,6 @@
       "LABEL": "Home",
       "URL": "/"
     },
-    "INFO": {
-      "LABEL": "Info",
-      "ID": "info",
-      "URL": "/#info"
-    },
     "CANOPIES": {
       "LABEL": "Couvertures",
       "ID": "Couvertures",
@@ -327,6 +322,7 @@
     }
   },
   "INFO": {
+    "ID": "info",
     "TITLE_HERO_1": "Los premios",
     "TITLE_HERO_2": "ESLAND",
     "PROJECTS_TITLE": "PROJETS",
