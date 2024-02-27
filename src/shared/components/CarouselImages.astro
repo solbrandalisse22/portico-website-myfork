@@ -79,16 +79,17 @@ const { images } = Astro.props
 </style>
 
 <script>
-  class ImagesCarousel extends HTMLElement {
+  class CarouselImages extends HTMLElement {
     constructor() {
       super();
-      const $wrapper = this.querySelector(".wrapper");
       const $carousel = this.querySelector('.carousel');
-      const firstCardWidth = $carousel.querySelector('li').offsetWidth;
       const $arrowButtons = this.querySelectorAll('.wrapper button');
+      if (!$carousel) return;
+      if (!$arrowButtons) return;
+      const firstCardWidth = $carousel?.querySelector('li')?.offsetWidth;
       const carouselChildren = [...$carousel.children];
       let isDragging = false, startX, startScrollLeft;
-      let cardPerView = Math.round($carousel.offsetWidth / firstCardWidth);
+      let cardPerView = Math.round($carousel?.offsetWidth / firstCardWidth);
 
       carouselChildren.slice(-cardPerView).reverse().forEach((child) => {
         $carousel.insertAdjacentHTML('afterbegin', child.outerHTML);
@@ -109,14 +110,14 @@ const { images } = Astro.props
         })
       })
 
-      const draggStart = (e) => {
+      const draggStart = (e:MouseEvent) => {
         isDragging = true;
         $carousel.classList.add('dragging')
         startX = e.pageX;
         startScrollLeft = $carousel.scrollLeft;
       }
 
-      const dragging = (e) => {
+      const dragging = (e:MouseEvent) => {
         if (!isDragging) return;
         $carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
       }
@@ -146,5 +147,5 @@ const { images } = Astro.props
       $carousel.addEventListener('scroll', InfiniteScroll);
     }
   }
-  customElements.define('images-carousel', ImagesCarousel);
+  customElements.define('images-carousel', CarouselImages);
 </script>

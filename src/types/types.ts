@@ -1,8 +1,19 @@
+import CourtItem from "@/shared/components/CourtItem.astro";
+
+export interface CourtItem {
+  title: string;
+  description: string;
+  url: string;
+  images: Photo[];
+}
+
 export interface Photo {
   src: string;
   alt: string;
   width: number;
   height: number;
+  imgAlt?: string;
+  id?: string;
 }
 
 export interface Feature {
