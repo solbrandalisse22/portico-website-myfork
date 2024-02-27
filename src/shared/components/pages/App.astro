@@ -9,6 +9,8 @@ import Courts from "@/shared/components/Courts.astro"
 import CanopiesSection from "@/shared/components/CanopiesSection.astro"
 import ComplementsSection from "@/shared/components/ComplementsSection.astro"
 import FepLogoWhite from "@/shared/components/FepLogoWhite.astro";
+import PartnerLogos from "@/shared/components/PartnerLogos.astro";
+import HexagonCupLogoWhite from "@/shared/components/HexagonCupLogoWhite.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
@@ -45,7 +47,10 @@ const posts = await response.json();
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
     >
-      <FepLogoWhite />
+      <div class="flex flex-col gap-2">
+        <FepLogoWhite />
+        <HexagonCupLogoWhite />
+      </div>
     </div>
   </Video>
   <main>
@@ -75,6 +80,7 @@ const posts = await response.json();
     <PreFooter language={language} />
     <NewsList language={language} posts={posts} />
     <Contact language={language} />
+    <PartnerLogos />
   </main>
 
 </Layout>

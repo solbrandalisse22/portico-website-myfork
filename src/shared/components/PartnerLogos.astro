@@ -1,0 +1,34 @@
+---
+import LogoLedProjects from "@/shared/components/LogoLedProjects.astro";
+import LogoKuka from "@/shared/components/LogoKuka.astro";
+import LogoMondo from "@/shared/components/LogoMondo.astro";
+import LogoEvenPadelWhite from "@/shared/components/LogoEvenPadelWhite.astro";
+import LogoArcelorMittal from "@/shared/components/LogoArcelorMittal.astro";
+import HexagonCupLogoWhite from "@/shared/components/HexagonCupLogoWhite.astro";
+import LogoFutwallWhite from "@/shared/components/LogoFutwallWhite.astro";
+import Section from "@/shared/components/Section.astro";
+---
+
+<div class="border-t border-primary">
+  <Section>
+    <ul class="partner-logos-wrapper gap-8 items-center">
+      <li><LogoLedProjects /></li>
+      <li><LogoKuka /></li>
+      <li><LogoMondo /></li>
+      <li><LogoEvenPadelWhite /></li>
+      <li><LogoArcelorMittal /></li>
+      <li><HexagonCupLogoWhite /></li>
+      <li><LogoFutwallWhite /></li>
+      <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
+      <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
+      <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
+    </ul>
+  </Section>
+</div>
+
+<style>
+  .partner-logos-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+</style>
