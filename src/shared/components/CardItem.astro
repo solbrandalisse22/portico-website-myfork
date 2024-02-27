@@ -1,0 +1,35 @@
+---
+interface Props {
+  link: string
+  title: string
+  image: string
+  date: string
+  excerpt: string
+  description: string
+}
+
+const { link, title, image, excerpt, date } = Astro.props
+---
+
+<article class="border bg-black/30 rounded-xl border-primary">
+  <a
+    class="flex group flex-col h-full focus:ring-2 focus:ring-secondary focus:ring-offset-4 rounded-xl text__min_glowing"
+    href={link}
+  >
+    <div class="aspect-video inset-0 overflow-hidden bg-gradient-to-t from-black/80 to-transparent rounded-t-xl">
+      <img
+        src={image}
+        class="aspect-video w-full h-auto object-cover group-focus:scale-110 group-hover:scale-110 transition-transform"
+        loading="lazy"
+        alt={title}
+      />
+    </div>
+    <div class="px-4 py-1">
+      <span class="text-xs font-thin text-primary px-2 border-primary border rounded-full my-2 inline-block">{date}</span>
+      <h3 class="text-xl line-clamp-3 text-secondary text-balance">{title}</h3>
+      <p class="text-sm font-thin text-pretty border-t my-3 pt-2 border-primary">
+        {excerpt}
+      </p>
+    </div>
+  </a>
+</article>

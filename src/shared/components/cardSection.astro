@@ -1,0 +1,56 @@
+---
+interface Props {
+  preTitle?: string;
+  title?: string;
+  heading?: string;
+  description?: string;
+  bgImage?: string;
+  hideHeader?: boolean;
+  hideFooter?: boolean;
+  hideBody?: boolean;
+  className?: string;
+}
+
+const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className } = Astro.props;
+---
+
+<section class=`w-full max-w-[1400px] mx-auto my-14 px-2 px-6 mdx:p-12 lgx:p-20 ${className ? className : ''}`>
+  <div class="border bg-black/30 rounded-xl border-primary p-6"
+    style={{
+      backgroundImage: bgImage ? `url(${bgImage})` : '',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
+    {
+      !hideHeader && (
+        <slot name="slot-header">
+          <header class="flex flex-col md:flex-row justify-center md:justify-between mb-4">
+            <div class="flex flex-col flex-1 self-end">
+              {preTitle && (<span class="text-primary text-xl" set:html={preTitle} />)}
+              {title && (<h2 class="text-secondary text-3xl font-bold text-balance" set:html={title} />)}
+            </div>
+            <div class="flex-1 border-t-primary border-t mt-3 pt-3 md:border-none md:mt-0 md:pt-0">
+              {heading && (<h3 class="text-primary text-2xl mb-4 text-balance" set:html={heading} />)}
+              {description && (<div class="section-description text-white text-pretty text-base mb-0" set:html={description} />)}
+            </div>
+          </header>
+        </slot>
+      )
+    }
+    {
+      !hideBody && (
+        <body>
+          <slot name="body" />
+        </body>
+      )
+    }
+    {
+      !hideBody && (
+        <footer>
+          <slot name="footer" />
+        </footer>
+      )
+    }
+  </div>
+</section>

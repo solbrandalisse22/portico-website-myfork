@@ -2,6 +2,8 @@
 import { getI18N } from "@/shared/i18n";
 import CourtItem from "@/shared/components/CourtItem.astro";
 import Section from '@/shared/components/Section.astro';
+import ImagesCarousel from '@/shared/components/ImagesCarousel.astro';
+import CardSection from '@/shared/components/CardSection.astro';
 
 const { language } = Astro.props
 const i18n = getI18N({ language })
@@ -56,6 +58,14 @@ const courts = [{
 
 <Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE}>
   {
-    courts.map(({title, description, images, url}, index) => (<CourtItem url={url} title={title} description={description} images={images} index={index} class={index === courts.length - 1 ? 'mb-0' : ''} />))
+    courts.map(({title, description, images, url}, index) => (<CardSection
+      title={title}
+      description={description}
+      className="mb-4"
+    >
+      <div class="flex gap-4" slot="body">
+        <ImagesCarousel images={images} />
+      </div>
+    </CardSection>))
   }
 </Section>
