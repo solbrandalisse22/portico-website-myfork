@@ -57,12 +57,13 @@ const courts = [{
 }] as CourtItem[]
 ---
 
-<Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE}>
+<Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE} className="max-w-none relative">
+  <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
   {
     courts.map(({title, description, images, url}, index) => (<CardSection
       title={title}
       description={description}
-      className="mb-4"
+      className="mb-4 max-w-[1400px]"
     >
       <div class="flex gap-4" slot="body">
         <CarouselImages images={images} />

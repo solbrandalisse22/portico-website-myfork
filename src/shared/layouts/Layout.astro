@@ -110,6 +110,18 @@ const { description, title, currentLocale, language } = Astro.props
         text-shadow: 0 0 10px #fff;
       }
 
+      .bg-pattern {
+        --s: 86px; /* control the size */
+        --a: 60deg; /* control the angle */
+        
+        --g:#0000 50%,#B7E4FD 51% 30%,#0000 31%;
+        background:
+          linear-gradient(var(--a), var(--g)),
+          linear-gradient(calc(-1*var(--a)),var(--g))
+          #151A36;
+        background-size: var(--s) calc(tan(var(--a))*var(--s));
+      }
+
       #header-nav {
         animation: blur linear both;
         animation-timeline: scroll();
