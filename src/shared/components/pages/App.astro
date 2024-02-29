@@ -1,21 +1,21 @@
 ---
 import Layout from "@/shared/layouts/Layout.astro"
 import Video from "@/shared/components/Video.astro"
-import Intro from "@/shared/components/Intro.astro"
-import Bento from "@/shared/components/Bento.astro"
-import PreFooter from "@/shared/components/PreFooter.astro"
-import Contact from "@/shared/components/Contact.astro"
-import Courts from "@/shared/components/Courts.astro"
-import CanopiesSection from "@/shared/components/CanopiesSection.astro"
-import ComplementsSection from "@/shared/components/ComplementsSection.astro"
+import SectionIntro from "@/shared/components/sections/SectionIntro.astro"
+import SectionBento from "@/shared/components/sections/SectionBento.astro"
+import SectionFactory from "@/shared/components/sections/SectionFactory.astro"
+import SectionContact from "@/shared/components/sections/SectionContact.astro"
+import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
+import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
+import SectionComplements from "@/shared/components/sections/SectionComplements.astro"
 import LogoFepWhite from "@/shared/components/logos/LogoFepWhite.astro";
-import PartnerLogos from "@/shared/components/PartnerLogos.astro";
+import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import HexagonCupLogoWhite from "@/shared/components/logos/LogoHexagonCupWhite.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
-import GraphicProcess from "../GraphicProcess.astro"
-import InfiniteScroll from "../InfiniteScroll.astro"
+import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
+import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import { type Photo } from "@/types/types.ts";
 
 interface Props {
@@ -54,11 +54,11 @@ const posts = await response.json();
     </div>
   </Video>
   <main>
-    <Intro language={language} />
-    <GraphicProcess language={language} />
-    <InfiniteScroll language={language} />
-    <Courts language={language} />
-    <CanopiesSection
+    <SectionIntro language={language} />
+    <SectionGraphicProcess language={language} />
+    <SectionInfiniteScroll language={language} />
+    <SectionCourts language={language} />
+    <SectionCanopies
       video="/cubiertas-spot.webm"
       subtitle={i18n.CANOPIES_SECTION.SUBTITLE}
       title={i18n.CANOPIES_SECTION.TITLE}
@@ -66,8 +66,8 @@ const posts = await response.json();
       buttonUrl={i18n.ROUTES.CANOPIES.URL}
       buttonText={i18n.CANOPIES_SECTION.BUTTON_TEXT}
     >
-    </CanopiesSection>
-    <Bento language={language} />
+    </SectionCanopies>
+    <SectionBento language={language} />
     <Gallery
       id={i18n.ROUTES.PROJECTS.ID}
       heading={i18n.INFO.PROJECTS_TITLE}
@@ -76,11 +76,11 @@ const posts = await response.json();
       path="projects"
       loadMoreText={i18n.INFO.BUTTON_TEXT}
     />
-    <ComplementsSection language={language} />
-    <PreFooter language={language} />
+    <SectionComplements language={language} />
+    <SectionFactory language={language} />
     <NewsList language={language} posts={posts} />
-    <Contact language={language} />
-    <PartnerLogos />
+    <SectionContact language={language} />
+    <SectionPartnerLogos />
   </main>
 
 </Layout>
