@@ -12,6 +12,7 @@ export default {
       colors: {
         primary: "rgb(183 228 253);",
         secondary: "rgb(60 160 215);",
+        footer: "rgb(10 12 31)",
       },
     },
   },

@@ -14,7 +14,7 @@ interface Props {
 const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className } = Astro.props;
 ---
 
-<section class=`w-full max-w-[1400px] mx-auto my-14 px-2 px-6 mdx:p-12 lgx:p-20 ${className ? className : ''}`>
+<article class=`w-full mx-auto my-14 px-2 px-6 mdx:p-12 lgx:p-20 ${className ? className : ''}`>
   <div class="border bg-black/30 rounded-xl border-primary p-6"
     style={{
       backgroundImage: bgImage ? `url(${bgImage})` : '',
@@ -53,4 +53,4 @@ const { preTitle, title, heading, description, hideHeader = false, hideFooter = 
       )
     }
   </div>
-</section>
+</article>

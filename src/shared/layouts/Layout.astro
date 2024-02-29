@@ -10,10 +10,11 @@ interface Props {
   description: string
   title: string
   currentLocale: string,
-  language: string
+  language: string,
+  bgImage?: string
 }
 
-const { description, title, currentLocale, language } = Astro.props
+const { description, title, currentLocale, language, bgImage } = Astro.props
 
 ---
 
@@ -38,6 +39,11 @@ const { description, title, currentLocale, language } = Astro.props
   </head>
 
   <body>
+    {
+      bgImage && (
+        <img aria-hidden="true" src={bgImage} alt="Background image" class="fixed w-full aspect-video mx-auto object-cover -z-10" />
+      )
+    }
     <Header language={language} />
     <slot />
     <!-- <div id="loading">

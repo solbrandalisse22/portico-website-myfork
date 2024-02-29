@@ -14,15 +14,15 @@ interface Props {
 const { language, canopiesGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
+const superTitle = 'High performance <span class="text-primary">canopies</span>'
 ---
 
-<Layout title={i18n.CANOPIES.TITLE} description={i18n.CANOPIES.SUBTITLE} currentLocale={currentLocale} language={language}>
-  <HeroContainer
-    img="/canopies-portico.webp"
-    imgAlt={i18n.NEWS.TITLE_ALT}
-    heading={i18n.CANOPIES.TITLE}
-  />
-  <main class="pb-24 flex flex-col">
+<Layout title={i18n.CANOPIES.TITLE} description={i18n.CANOPIES.SUBTITLE} currentLocale={currentLocale} language={language} bgImage="https://assets-global.website-files.com/6448efd4d16cc722f6316d2e/65b8ca0d1218131015a20490_Background%20horizontal.webp">
+  <main class="pb-24 flex flex-col pt-[500px] gradient-bg">
+    <div class="text-center">
+      <span class="pb-10 text-secondary uppercase">Leader in the manufacturing and installation of canopies</span>
+      <h1 class="text-center text-4xl pb-64 uppercase" set:html={superTitle} />
+    </div>
     <Breadcrumb
       crumbs={[
         { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
@@ -40,3 +40,10 @@ const currentLocale = getCurrentLocale({ language })
     />
   </main>
 </Layout>
+
+<style>
+  .gradient-bg {
+    background: rgb(21,26,54);
+    background: linear-gradient(180deg, rgba(21,26,54,0) 9%, rgba(21,26,54,0.7) 26%, rgba(21,26,54,1) 37%, rgba(21,26,54,1) 100%);
+  }
+</style>

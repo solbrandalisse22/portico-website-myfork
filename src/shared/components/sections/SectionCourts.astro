@@ -3,7 +3,7 @@ import { getI18N } from "@/shared/i18n";
 // import CourtItem from "@/shared/components/CourtItem.astro";
 import Section from '@/shared/components/Section.astro';
 import CarouselImages from '@/shared/components/CarouselImages.astro';
-import CardSection from '@/shared/components/CardSection.astro';
+import ArticleCard from '@/shared/components/ArticleCard.astro';
 import { type CourtItem } from '@/types/types'
 
 const { language } = Astro.props
@@ -60,14 +60,14 @@ const courts = [{
 <Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE} className="max-w-none relative">
   <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
   {
-    courts.map(({title, description, images, url}, index) => (<CardSection
+    courts.map(({title, description, images, url}, index) => (<ArticleCard
       title={title}
       description={description}
-      className="mb-4 max-w-[1400px]"
+      className="mb-4 max-w-[1280px]"
     >
       <div class="flex gap-4" slot="body">
         <CarouselImages images={images} />
       </div>
-    </CardSection>))
+    </ArticleCard>))
   }
 </Section>

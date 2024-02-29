@@ -7,11 +7,11 @@ const { language } = Astro.props
 const i18n = getI18N({ language })
 ---
 
-<Section id={i18n.INFO.ID}>
+<Section id={i18n.INFO.ID} className="text-center">
   <h2 class="mx-auto mb-10 text-wrap text-center text-4xl font-semibold tracking-wide">
     {i18n.INTRO_TITLE}<br />{i18n.INTRO_TITLE_AFTER_BR}
   </h2>
-  <p class="text-pretty" set:html={i18n.INTRO_DESCRIPTION_1} />
-  <p class="text-pretty" set:html={i18n.INTRO_DESCRIPTION_2} />
-  <p class="text-pretty" set:html={i18n.INTRO_DESCRIPTION_3} />
+  <p class="text-pretty max-w-[60ch] mx-auto" set:html={i18n.INTRO_DESCRIPTION_1} />
+  <p class="text-pretty max-w-[60ch] mx-auto" set:html={i18n.INTRO_DESCRIPTION_2} />
+  <p class="text-pretty max-w-[60ch] mx-auto" set:html={i18n.INTRO_DESCRIPTION_3} />
 </Section>
