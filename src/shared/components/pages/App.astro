@@ -8,9 +8,9 @@ import Contact from "@/shared/components/Contact.astro"
 import Courts from "@/shared/components/Courts.astro"
 import CanopiesSection from "@/shared/components/CanopiesSection.astro"
 import ComplementsSection from "@/shared/components/ComplementsSection.astro"
-import FepLogoWhite from "@/shared/components/FepLogoWhite.astro";
+import LogoFepWhite from "@/shared/components/logos/LogoFepWhite.astro";
 import PartnerLogos from "@/shared/components/PartnerLogos.astro";
-import HexagonCupLogoWhite from "@/shared/components/HexagonCupLogoWhite.astro";
+import HexagonCupLogoWhite from "@/shared/components/logos/LogoHexagonCupWhite.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
@@ -48,7 +48,7 @@ const posts = await response.json();
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
     >
       <div class="flex flex-col gap-2">
-        <FepLogoWhite />
+        <LogoFepWhite />
         <HexagonCupLogoWhite />
       </div>
     </div>
