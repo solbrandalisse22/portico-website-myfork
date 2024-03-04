@@ -8,6 +8,7 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionComplements from "@/shared/components/sections/SectionComplements.astro"
+import MapProjects from "@/shared/components/MapProjects"
 import LogoFepWhite from "@/shared/components/logos/LogoFepWhite.astro";
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import HexagonCupLogoWhite from "@/shared/components/logos/LogoHexagonCupWhite.astro";
@@ -68,6 +69,7 @@ const posts = await response.json();
     >
     </SectionCanopies>
     <SectionBento language={language} />
+    <MapProjects client:only />
     <Gallery
       id={i18n.ROUTES.PROJECTS.ID}
       heading={i18n.INFO.PROJECTS_TITLE}
