@@ -57,7 +57,7 @@ const images = [
 >
   <main class="flex flex-col gradient-bg relative">
     <div
-      class="text-center left-0 top-0 w-full aspect-video flex justify-center items-center flex-col gap-4"
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4"
     >
       <span class="uppercase"
         >Leader in the manufacturing and installation of canopies</span
@@ -108,7 +108,7 @@ const images = [
           court canopies tailored to the needs of our clients, as well as to the
           standards and regulations of each country.
         </p>
-        <div class="flex flex-col lg:flex-row max-w-none">
+        <div class="flex flex-col xl:flex-row max-w-none">
           <div class="relative w-full flex-1">
             {
               images.map((image, index) => (
@@ -116,12 +116,12 @@ const images = [
                   id={image.id}
                   src={image.src}
                   alt={image.alt}
-                  class={`${index === 0 ? "relative" : "absolute"} object-cover max-w-full md:max-w-[300px] lg:max-w-[600px] xl:max-w-[1024px] top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                  class={`${index === 0 ? "relative" : "absolute"} object-cover max-w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
                 />
               ))
             }
           </div>
-          <div class="w-full py-4 -ml-28 flex-1">
+          <div class="w-full py-8 px-4 xl:-ml-72 flex-1">
             <h3 class="text-2xl text-balance font-thin mb-4 text-primary">
               Excellence and experience
             </h3>
@@ -231,7 +231,7 @@ const images = [
   .bg-main::before {
     content: "";
     @apply w-full;
-    @apply h-80;
+    @apply h-20;
     background: linear-gradient(
       180deg,
       rgba(21, 26, 54, 0) 0%,
@@ -240,7 +240,14 @@ const images = [
       rgba(21, 26, 54, 1) 100%
     );
     position: absolute;
-    @apply -top-80;
+    @apply -top-20;
+  }
+
+  @media (min-width: 1024px) {
+    .bg-main::before {
+      @apply h-64;
+      @apply -top-64;
+    }
   }
 </style>
 
