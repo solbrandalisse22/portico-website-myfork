@@ -36,9 +36,9 @@ const LINKS = [
 ];
 ---
 
-<header id="header-nav" class="fixed top-0 z-50 w-full px-6 py-2">
+<header id="header-nav" class="fixed top-0 z-30 w-full px-6 py-2">
   <div class="mx-auto flex max-w-7xl items-center justify-between">
-    <div class="flex flex-grow basis-0 z-50">
+    <div class="flex flex-grow basis-0 z-30">
       <HeaderLink
         checkActive={false}
         href="/"
@@ -90,7 +90,7 @@ const LINKS = [
   <!-- Menú de navegación móvil para pantallas pequeñas -->
   <nav
     id="mobile-menu"
-    class="bg-[#151a36]/90 -translate-y-full transition-transform md:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
+    class="bg-background/90 -translate-y-full transition-transform md:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
   >
     {
       LINKS.map(({ href, text }) => (
