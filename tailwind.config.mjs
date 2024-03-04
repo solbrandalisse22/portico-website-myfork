@@ -10,6 +10,7 @@ export default {
         jura: ["Jura", "sans-serif"],
       },
       colors: {
+        background: "rgb(21 26 54)",
         primary: "rgb(183 228 253);",
         secondary: "rgb(60 160 215);",
         footer: "rgb(10 12 31)",
