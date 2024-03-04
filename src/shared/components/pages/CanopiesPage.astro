@@ -2,48 +2,273 @@
 import Layout from "@/shared/layouts/Layout.astro";
 import HeroContainer from "@/shared/components/HeroContainer.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Section from "@/shared/components/Section.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
 import { type Photo } from "@/types/types";
+import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
 
 interface Props {
-  language: string,
-  canopiesGallery: Photo[]
+  language: string;
+  canopiesGallery: Photo[];
 }
 
-const { language, canopiesGallery } = Astro.props
-const i18n = getI18N({ language })
-const currentLocale = getCurrentLocale({ language })
-const superTitle = 'High performance <span class="text-primary">canopies</span>'
+const { language, canopiesGallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+const superTitle =
+  'High performance <span class="text-primary">canopies</span>';
+
+const images = [
+  {
+    id: "image-1",
+    src: "canopies/section-canopies-01/canopies-section-01.webp",
+    alt: "Canopies",
+  },
+  {
+    id: "image-2",
+    src: "canopies/section-canopies-01/canopies-section-02.webp",
+    alt: "Canopies",
+  },
+  {
+    id: "image-3",
+    src: "canopies/section-canopies-01/canopies-section-03.webp",
+    alt: "Canopies",
+  },
+  {
+    id: "image-4",
+    src: "canopies/section-canopies-01/canopies-section-04.webp",
+    alt: "Canopies",
+  },
+  {
+    id: "image-5",
+    src: "canopies/section-canopies-01/canopies-section-05.webp",
+    alt: "Canopies",
+  },
+];
 ---
 
-<Layout title={i18n.CANOPIES.TITLE} description={i18n.CANOPIES.SUBTITLE} currentLocale={currentLocale} language={language} bgImage="https://assets-global.website-files.com/6448efd4d16cc722f6316d2e/65b8ca0d1218131015a20490_Background%20horizontal.webp">
-  <main class="pb-24 flex flex-col pt-[500px] gradient-bg">
-    <div class="text-center">
-      <span class="pb-10 text-secondary uppercase">Leader in the manufacturing and installation of canopies</span>
-      <h1 class="text-center text-4xl pb-64 uppercase" set:html={superTitle} />
+<Layout
+  title={i18n.CANOPIES.TITLE}
+  description={i18n.CANOPIES.SUBTITLE}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/heros/CanopiesWebsPorticoSport.webp"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full aspect-video flex justify-center items-center flex-col gap-4"
+    >
+      <span class="uppercase"
+        >Leader in the manufacturing and installation of canopies</span
+      >
+      <h1
+        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6"
+        set:html={superTitle}
+      />
+      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary">
+        Innovation, quality and high technology.
+      </h2>
+      <h3 class="text-base md:text-lg lg:text-xl font-thin text-primary">
+        Enhances play experience
+      </h3>
+      <p class="max-w-80">
+        Our canopies grant a significant increase in the long-term usage of the
+        padel courts.
+      </p>
     </div>
-    <Breadcrumb
-      crumbs={[
-        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-        { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
-      ]}
-    />
-    <Gallery
-      id="gallery-canopies"
-      heading={i18n.CANOPIES.GALLERY.HEADING}
-      subheading={i18n.CANOPIES.GALLERY.SUBHEADING}
-      path="canopies"
-      offset={9}
-      photos={canopiesGallery}
-      loadMoreText={i18n.CANOPIES.GALLERY.BUTTON_TEXT}
-    />
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+          { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
+        ]}
+      />
+      <Section
+        heading="Sport-Specific Engineering"
+        subheading="Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing."
+      >
+        <img
+          src="/canopies/section-canopies-01/canopy-structure.png"
+          alt="Canopies"
+          class="w-full img-structure"
+        />
+      </Section>
+      <Section
+        className="flex flex-col max-w-none"
+        style="padding: 0; margin: 2rem 0"
+      >
+        <h2
+          class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide px-8"
+        >
+          Specialized Team Professional team
+        </h2>
+        <p class="text-center mx-auto text-2xl text-pretty mb-10 max-w-[60ch]">
+          Our engineers develop construction and installation systems for padel
+          court canopies tailored to the needs of our clients, as well as to the
+          standards and regulations of each country.
+        </p>
+        <div class="flex flex-col lg:flex-row max-w-none">
+          <div class="relative w-full flex-1">
+            {
+              images.map((image, index) => (
+                <img
+                  id={image.id}
+                  src={image.src}
+                  alt={image.alt}
+                  class={`${index === 0 ? "relative" : "absolute"} object-cover max-w-full md:max-w-[300px] lg:max-w-[600px] xl:max-w-[1024px] top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                />
+              ))
+            }
+          </div>
+          <div class="w-full py-4 -ml-28 flex-1">
+            <h3 class="text-2xl text-balance font-thin mb-4 text-primary">
+              Excellence and experience
+            </h3>
+            <p class="text-pretty">
+              We highlight the following features of our canopies:
+            </p>
+            <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span class="flex-1">
+                  <strong>Reducción de proyección de calor</strong> en comparación con las cubiertas construidas con chapa metálica.
+                </span>
+              </li>
+
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span><strong>Reducción de sombras y contrastes</strong> en comparación con materiales opacos.</span>
+              </li>
+
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span>
+                  <strong>Aumento significativo de la luminosidad</strong> que optimiza el uso de la iluminación artificial.
+                </span>
+              </li>
+
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span>
+                  <strong>Reducción del efecto eco</strong> durante el juego.
+                </span>
+              </li>
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span><strong>Evita la decoloración del césped</strong> por rayos UV.</span>
+              </li>
+
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span><strong>Evita la condensación de cristales</strong>.</span>
+              </li>
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span><strong>Evita la compactación de la arena del césped por la lluvia</strong>.</span>
+              </li>
+              <li class="flex gap-x-6 items-center">
+                <CheckIcon className="w-8 h-8" />
+                <span>
+                  <strong
+                    >Suaviza las posibles dilataciones y contracciones por
+                    influencia del sol</strong
+                  > en la estructura y en el césped.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Section>
+      <Gallery
+        id="gallery-canopies"
+        heading={i18n.CANOPIES.GALLERY.HEADING}
+        subheading={i18n.CANOPIES.GALLERY.SUBHEADING}
+        path="canopies"
+        offset={9}
+        photos={canopiesGallery}
+        loadMoreText={i18n.CANOPIES.GALLERY.BUTTON_TEXT}
+      />
+    </div>
   </main>
 </Layout>
 
 <style>
+  .img-structure:hover {
+    filter: drop-shadow(1px 1px 20px rgb(183 228 253));
+  }
+
+  .image {
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 0,
+      white 30%,
+      transparent
+    );
+    mask: linear-gradient(90deg, transparent, white 0, white 30%, transparent);
+  }
+
+  ul {
+    font-size: 1em;
+  }
+
+  ul li span {
+    flex: 1;
+  }
+
   .gradient-bg {
-    background: rgb(21,26,54);
-    background: linear-gradient(180deg, rgba(21,26,54,0) 9%, rgba(21,26,54,0.7) 26%, rgba(21,26,54,1) 37%, rgba(21,26,54,1) 100%);
+    background: rgb(21, 26, 54);
+    background: linear-gradient(
+      180deg,
+      rgba(21, 26, 54, 0) 9%,
+      rgba(21, 26, 54, 0.7) 26%,
+      rgba(21, 26, 54, 1) 37%,
+      rgba(21, 26, 54, 1) 100%
+    );
+  }
+
+  .bg-main::before {
+    content: "";
+    @apply w-full;
+    @apply h-80;
+    background: linear-gradient(
+      180deg,
+      rgba(21, 26, 54, 0) 0%,
+      rgba(21, 26, 54, 0.7) 34%,
+      rgba(21, 26, 54, 1) 68%,
+      rgba(21, 26, 54, 1) 100%
+    );
+    position: absolute;
+    @apply -top-80;
   }
 </style>
+
+<script define:vars={{ images }}>
+  const updateImages = (images) => {
+    // cambiar a la siguiente imagen cada 3 segundos
+
+    let index = 0;
+    setInterval(() => {
+      const currentImage = images[index];
+      const nextImage = images[index + 1] || images[0];
+
+      
+      const currentImageElement = document.getElementById(currentImage.id);
+      const nextImageElement = document.getElementById(nextImage.id);
+      
+      if (currentImageElement && nextImageElement ) {
+        currentImageElement.classList.remove("opacity-100");
+        currentImageElement.classList.add("opacity-0");
+        nextImageElement.classList.remove("opacity-0");
+        nextImageElement.classList.add("opacity-100");
+      }
+
+
+      index = index + 1;
+      if (index === images.length) index = 0;
+    }, 3000);
+  };
+
+  updateImages(images);
+</script>
