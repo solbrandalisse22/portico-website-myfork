@@ -1,21 +1,20 @@
 ---
-import { ViewTransitions } from "astro:transitions"
-import Header from "../components/Header.astro"
-import Footer from "@/shared/components/Footer.astro"
-import "@fontsource-variable/onest"
-import '@fontsource/prompt/100.css';
-import '@fontsource/prompt/500.css';
+import { ViewTransitions } from "astro:transitions";
+import Header from "../components/Header.astro";
+import Footer from "@/shared/components/Footer.astro";
+import "@fontsource-variable/onest";
+import "@fontsource/prompt/100.css";
+import "@fontsource/prompt/500.css";
 
 interface Props {
-  description: string
-  title: string
-  currentLocale: string,
-  language: string,
-  bgImage?: string
+  description: string;
+  title: string;
+  currentLocale: string;
+  language: string;
+  bgImage?: string;
 }
 
-const { description, title, currentLocale, language, bgImage } = Astro.props
-
+const { description, title, currentLocale, language, bgImage } = Astro.props;
 ---
 
 <!doctype html>
@@ -41,7 +40,12 @@ const { description, title, currentLocale, language, bgImage } = Astro.props
   <body>
     {
       bgImage && (
-        <img aria-hidden="true" src={bgImage} alt="Background image" class="fixed w-full aspect-video mx-auto object-cover -z-10" />
+        <img
+          aria-hidden="true"
+          src={bgImage}
+          alt="Background image"
+          class="fixed w-full aspect-video mx-auto object-cover -z-10"
+        />
       )
     }
     <Header language={language} />
@@ -68,12 +72,12 @@ const { description, title, currentLocale, language, bgImage } = Astro.props
 
       html {
         font-family: "Onest Variable", system-ui, sans-serif;
-        background: #151a36;
+        @apply bg-background;
         scroll-behavior: smooth;
       }
 
       h2 {
-        font-family: 'Prompt', system-ui, sans-serif;
+        font-family: "Prompt", system-ui, sans-serif;
         font-weight: 500;
       }
 
@@ -119,13 +123,12 @@ const { description, title, currentLocale, language, bgImage } = Astro.props
       .bg-pattern {
         --s: 86px; /* control the size */
         --a: 60deg; /* control the angle */
-        
-        --g:#0000 50%,#B7E4FD 51% 30%,#0000 31%;
+
+        --g: #0000 50%, #b7e4fd 51% 30%, #0000 31%;
         background:
           linear-gradient(var(--a), var(--g)),
-          linear-gradient(calc(-1*var(--a)),var(--g))
-          #151A36;
-        background-size: var(--s) calc(tan(var(--a))*var(--s));
+          linear-gradient(calc(-1 * var(--a)), var(--g)) #151a36;
+        background-size: var(--s) calc(tan(var(--a)) * var(--s));
       }
 
       #header-nav {
@@ -163,10 +166,7 @@ const { description, title, currentLocale, language, bgImage } = Astro.props
         }
       }
     </style>
-  </body>
-</html>
-
-<!-- <script is:inline>
+  </body><!-- <script is:inline>
   document.addEventListener('astro:before-preparation', () => {
     document.querySelector('#loading').classList.add('show');
   });
@@ -174,3 +174,4 @@ const { description, title, currentLocale, language, bgImage } = Astro.props
     document.querySelector('#loading').classList.remove('show');
   });
 </script> -->
+</html>
