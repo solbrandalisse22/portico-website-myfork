@@ -1,0 +1,13 @@
+.logo-circle:hover .circle {
+  animation: spin 5s linear infinite;
+}
+
+.reverse:hover .circle {
+  animation: spin 5s linear infinite reverse;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

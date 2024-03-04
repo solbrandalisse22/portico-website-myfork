@@ -1,0 +1,26 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import MapProjects from "@/shared/components/MapProjects";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+
+interface Props {
+  language: string,
+}
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+---
+
+<Layout title={i18n.CANOPIES.TITLE} description={i18n.CANOPIES.SUBTITLE} currentLocale={currentLocale} language={language}>
+  <main class="pb-24 flex flex-col pt-16">
+    <MapProjects client:only />
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+        { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
+      ]}
+    />
+  </main>
+</Layout>

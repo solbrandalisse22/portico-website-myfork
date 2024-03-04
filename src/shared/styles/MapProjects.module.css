@@ -1,0 +1,31 @@
+@media (prefers-reduced-motion: no-preference) {
+  .popup {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .close {
+    transition:
+      text-shadow 0.5s ease-out,
+      box-shadow 0.3s ease-out;
+  }
+}
+
+.open {
+  transform: translate(0, 0) scale(1) !important;
+  left: 5% !important;
+  top: 5% !important;
+}
+
+.close:hover {
+  box-shadow: 0 0 16px #fff8;
+  text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 22px rgba(255, 255, 255, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8),
+    0 0 60px rgba(66, 220, 219, 0.8),
+    0 0 80px rgba(66, 220, 219, 0.5),
+    0 0 100px rgba(66, 220, 219, 0.5),
+    0 0 140px rgba(66, 220, 219, 0.5),
+    0 0 200px rgba(66, 220, 219, 0.5);
+}

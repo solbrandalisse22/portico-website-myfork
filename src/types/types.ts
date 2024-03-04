@@ -10,8 +10,8 @@ export interface CourtItem {
 export interface Photo {
   src: string;
   alt: string;
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
   imgAlt?: string;
   id?: string;
 }
@@ -37,4 +37,24 @@ export interface Court {
   subtitle: string;
   littleDescription: string;
   route?: Route;
+}
+
+export interface Project {
+  projectCity: string;
+  projectName: string;
+  shortdescription: string;
+  description: string;
+  projectLogo: string;
+  projectsCourts: string;
+  constructionYear: string;
+  website: string;
+  images?: Photo[];
+  route?: Route;
+}
+
+export interface Country {
+  country: string;
+  id: string;
+  coordinates: Array<number>;
+  projects: Project[];
 }
