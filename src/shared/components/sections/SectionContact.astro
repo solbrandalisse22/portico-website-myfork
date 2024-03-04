@@ -2,14 +2,20 @@
 import { getI18N } from "@/shared/i18n";
 import Section from "@/shared/components/Section.astro";
 
-const { language } = Astro.props
+interface Props {
+  language: string;
+  bgImage: string;
+  image: string;
+}
+
+const { language, bgImage, image } = Astro.props
 const i18n = getI18N({ language })
 // heading={i18n.CONTACT_TITLE} subheading={i18n.CONTACT_SUBTITLE}
 ---
 
 <Section id={i18n.ROUTES.CONTACT.ID} className="relative flex justify-center items-center flex-col max-w-none">
-  <img src="/hexagon-contact-bg.webp" alt="Contact background" loading="lazy" class="w-full h-full object-cover -z-10 absolute max-w-[1800px] mx-auto blur-3xl" />
-  <img src="/hexagon-contact-bg.webp" alt="Contact background" loading="lazy" class="w-full h-full object-cover -z-10 absolute max-w-[1800px] mx-auto" />
+  <img aria-hidden="true" src={bgImage} alt="Contact background" loading="lazy" class="w-full h-full object-cover absolute max-w-[1800px] mx-auto blur-3xl" />
+  <img src={bgImage} alt="Contact background" loading="lazy" class="w-full h-full object-cover absolute max-w-[1800px] mx-auto" />
   <div class="w-full rounded-xl border-primary border bg-black/50 p-6 md:p-12 lg:p-20 flex flex-col-reverse lg:flex-row gap-8 max-w-[1240px] relative">
     <form action="https://formbold.com/s/FORM_ID" method="POST" class="flex-1">
       <div class="mb-5">
@@ -74,7 +80,7 @@ const i18n = getI18N({ language })
       <h2 class="text-3xl text-primary pb-2">{i18n.CONTACT_TITLE}</h2>
       <p>{i18n.CONTACT_SUBTITLE}</p>
     </div>
-    <img src="/pista-hexagon-contact.webp" loading="lazy" alt="hexagon court" class="-bottom-10 aspect-video -right-10 absolute hidden lg:block" />
+    <img src={image} loading="lazy" alt="hexagon court" class="-bottom-10 aspect-video -right-10 absolute hidden lg:block" />
   </div>
 </Section>
 

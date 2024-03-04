@@ -66,8 +66,7 @@ const posts = await response.json();
       text={i18n.CANOPIES_SECTION.TEXT}
       buttonUrl={i18n.ROUTES.CANOPIES.URL}
       buttonText={i18n.CANOPIES_SECTION.BUTTON_TEXT}
-    >
-    </SectionCanopies>
+    />
     <SectionBento language={language} />
     <MapProjects client:only />
     <Gallery
@@ -81,7 +80,7 @@ const posts = await response.json();
     <SectionComplements language={language} />
     <SectionFactory language={language} />
     <NewsList language={language} posts={posts} />
-    <SectionContact language={language} />
+    <SectionContact language={language} bgImage="/hexagon-contact-bg.webp" image="/pista-hexagon-contact.webp" />
     <SectionPartnerLogos />
   </main>
 

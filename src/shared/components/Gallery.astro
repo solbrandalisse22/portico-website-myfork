@@ -6,8 +6,8 @@ import { type Photo } from "@/types/types.ts";
 
 interface Props {
   id: string;
-  heading: string;
-  subheading: string;
+  heading?: string;
+  subheading?: string;
   offset?: number;
   photos: Photo[];
   path: string;
