@@ -1,4 +1,6 @@
 ---
+import Button from '@/shared/components/Button.astro';
+
 interface Props {
   preTitle?: string;
   title?: string;
@@ -9,9 +11,11 @@ interface Props {
   hideFooter?: boolean;
   hideBody?: boolean;
   className?: string;
+  buttonText?: string;
+  buttonUrl?: string;
 }
 
-const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className } = Astro.props;
+const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className, buttonText, buttonUrl } = Astro.props;
 ---
 
 <article class=`w-full mx-auto my-14 px-2 px-6 mdx:p-12 lgx:p-20 ${className ? className : ''}`>
@@ -28,9 +32,10 @@ const { preTitle, title, heading, description, hideHeader = false, hideFooter = 
           <header class="flex flex-col md:flex-row justify-center md:justify-between mb-4">
             <div class="flex flex-col flex-1 self-end">
               {preTitle && (<span class="text-primary text-xl" set:html={preTitle} />)}
-              {title && (<h2 class="text-secondary text-3xl font-bold text-balance" set:html={title} />)}
+              {title && (<h2 class="text-secondary text-3xl md:text-5xl font-bold text-balance" set:html={title} />)}
             </div>
-            <div class="flex-1 border-t-primary border-t mt-3 pt-3 md:border-none md:mt-0 md:pt-0">
+            <div class="flex-1 border-t-primary border-t mt-3 pt-3 md:border-none flex flex-col justify-between gap-y-3 md:mt-0 md:pt-0">
+              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base lg:text-base self-end py-2">{buttonText}</Button>}
               {heading && (<h3 class="text-primary text-2xl mb-4 text-balance" set:html={heading} />)}
               {description && (<div class="section-description text-white text-pretty text-base mb-0" set:html={description} />)}
             </div>

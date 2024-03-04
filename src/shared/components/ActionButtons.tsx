@@ -1,4 +1,5 @@
 import LogoCircles from "@/shared/components/logos/LogoCircles";
+
 export default function ActionButtons ({ backButtonClicked, nextButtonClicked, className, isDisabledBack, isDisabledNext }: { backButtonClicked: () => void, nextButtonClicked: () => void, className?: string, isDisabledBack?: boolean, isDisabledNext?: boolean}) {
   return (
     <div class={`flex justify-center items-center w-full gap-6 p-4 ${className}`}>

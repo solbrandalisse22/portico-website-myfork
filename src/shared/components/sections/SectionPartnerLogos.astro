@@ -9,23 +9,21 @@ import LogoFutwallWhite from "@/shared/components/logos/LogoFutwallWhite.astro";
 import Section from "@/shared/components/Section.astro";
 ---
 
-<div class="border-t border-primary">
-  <Section className="max-w-none relative">
-    <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
-    <ul class="partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
-      <li><LogoLedProjects /></li>
-      <li><LogoKuka /></li>
-      <li><LogoMondo /></li>
-      <li><LogoEvenPadelWhite /></li>
-      <li><LogoArcelorMittal /></li>
-      <li><LogoHexagonCupWhite /></li>
-      <li><LogoFutwallWhite /></li>
-      <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
-      <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
-      <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
-    </ul>
-  </Section>
-</div>
+<Section className="max-w-none relative">
+  <div class="absolute top-0 bottom-0 -z-10 w-full left-0 opacity-50 border-t border-primary bg-cover bg-top saturate-50 blur-sm" style="background-image: url('/bg-turf-2.webp')" />
+  <ul class="partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
+    <li><LogoLedProjects /></li>
+    <li><LogoKuka /></li>
+    <li><LogoMondo /></li>
+    <li><LogoEvenPadelWhite /></li>
+    <li><LogoArcelorMittal /></li>
+    <li><LogoHexagonCupWhite /></li>
+    <li><LogoFutwallWhite /></li>
+    <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
+    <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
+    <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
+  </ul>
+</Section>
 
 <style>
   .partner-logos-wrapper {

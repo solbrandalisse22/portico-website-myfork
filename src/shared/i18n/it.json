@@ -465,36 +465,6 @@
       }]
     },
     "COURT6": {
-      "TITLE": "Ultra 64",
-      "DESCRIPTION": "<p>Il nostro campo Ultra 64 è uno dei campi da padel più resistenti sul mercato. Progettato dagli ingegneri specializzati di Portico Sport, la struttura di questo campo presenta un design unico di contrafforti e ancoraggi, consentendogli di resistere a venti fino a 64 m/s. La combinazione del suo design distintivo con materiali di alta qualità lo rende un campo estremamente robusto e durevole, ideale per aree con condizioni meteorologiche avverse. Se stai cercando un campo da padel estremamente resistente e duraturo, il campo Ultra 64 è la scelta perfetta.</p>",
-      "URL": "https://porticosport.com/en/ultra-64-court",
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/ultra-64-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Campo Ultra 64"
-      },{
-        "id": "slide-2",
-        "src": "/courts/ultra-64-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Campo Ultra 64"
-      },{
-        "id": "slide-3",
-        "src": "/courts/ultra-64-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Campo Ultra 64"
-      },{
-        "id": "slide-4",
-        "src": "/courts/ultra-64-court-04.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Campo Ultra 64"
-      }]
-    },
-    "COURT7": {
       "TITLE": "Force 80",
       "DESCRIPTION": "<p>Il nostro campo Force 80 si distingue come uno dei campi da padel più resistenti sul mercato. Progettato dagli ingegneri di Portico Sport, la struttura di questo campo presenta un design superiore di contrafforti e un sistema di ancoraggio speciale, consentendogli di resistere a venti fino a 80 m/s. La combinazione del suo design originale con materiali di alta qualità lo rende il campo più robusto e durevole, ideale per aree con condizioni meteorologiche estremamente avverse. Se desideri goderti il padel indipendentemente dalle condizioni meteorologiche avverse, il campo Force 80 è un'ottima scelta.</p>",
       "URL": "https://porticosport.com/en/force-80-court",
@@ -524,7 +494,7 @@
         "imgAlt": "Campo Force 80"
       }]
     },
-    "COURT8": {
+    "COURT7": {
       "TITLE": "Single",
       "DESCRIPTION": "<p>Il nostro campo Singolo è perfetto per un giocatore solitario ed è stato progettato appositamente dal reparto di ingegneria di Portico Sport. Con dimensioni più piccole del solito (20x6m), questo campo è destinato a offrire un'ottima esperienza di gioco per coloro che giocano da soli, sia per allenamento, divertimento o per mancanza di un partner per lo sport. Nonostante le sue dimensioni ridotte, presenta la stessa qualità premium e una durata eccezionale come il resto dei nostri campi, rendendolo una scelta ideale per i club che desiderano ampliare la loro offerta e offrire questo campo speciale.</p>",
       "URL": "https://porticosport.com/en/single-court",
@@ -548,7 +518,7 @@
         "imgAlt": "Campo Single"
       }]
     },
-    "COURT9": {
+    "COURT8": {
       "TITLE": "Mini",
       "DESCRIPTION": "<p>Il nostro Mini Court è un campo da padel di dimensioni ridotte (10,47x5,47m) con un'altezza ridotta (1m), ideale per spazi più piccoli, allenamenti a casa o giocatori più giovani. Progettato dal reparto di ingegneria di Portico Sport, questo campo è realizzato con gli stessi materiali di alta qualità degli altri nostri campi da padel. Nonostante sia il campo più piccolo, offre la stessa stabilità, durata e resistenza. Se stai cercando un campo da padel compatto, il Mini Court è un'ottima scelta.</p>",
       "URL": "https://porticosport.com/en/mini-court",

@@ -49,11 +49,6 @@ const courts = [{
   description: i18n.COURTS.COURT8.DESCRIPTION,
   url: i18n.COURTS.COURT8.URL,
   images: i18n.COURTS.COURT8.IMAGES,
-}, {
-  title: i18n.COURTS.COURT9.TITLE,
-  description: i18n.COURTS.COURT9.DESCRIPTION,
-  url: i18n.COURTS.COURT9.URL,
-  images: i18n.COURTS.COURT9.IMAGES,
 }] as CourtItem[]
 ---
 
@@ -61,6 +56,8 @@ const courts = [{
   <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
   {
     courts.map(({title, description, images, url}, index) => (<ArticleCard
+      buttonUrl={url}
+      buttonText="View more info"
       title={title}
       description={description}
       className="mb-4 max-w-[1280px]"
