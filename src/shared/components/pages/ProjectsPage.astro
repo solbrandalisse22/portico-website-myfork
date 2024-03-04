@@ -5,22 +5,68 @@ import MapProjects from "@/shared/components/MapProjects";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 
 interface Props {
-  language: string,
+  language: string;
 }
 
-const { language } = Astro.props
-const i18n = getI18N({ language })
-const currentLocale = getCurrentLocale({ language })
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+const superTitle = 'Projects By <span class="text-primary">Portico Sport</span>';
 ---
 
-<Layout title={i18n.CANOPIES.TITLE} description={i18n.CANOPIES.SUBTITLE} currentLocale={currentLocale} language={language}>
-  <main class="pb-24 flex flex-col pt-16">
-    <MapProjects client:only />
-    <Breadcrumb
-      crumbs={[
-        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-        { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
-      ]}
-    />
+<Layout
+  title={i18n.CANOPIES.TITLE}
+  description={i18n.CANOPIES.SUBTITLE}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/heros/background-projects.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
+      <span class="uppercase text-balance">National and international facilities of padel courts and canopies</span>
+      <h1
+        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
+        set:html={superTitle}
+      />
+      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance">
+        PADEL COURTS AND CANOPIES CLUBS BY PORTICO SPORT
+      </h2>
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+          { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
+        ]}
+      />
+      <section class="border-t border-primary mt-8">
+        <MapProjects client:only />
+      </section>
+    </div>
   </main>
 </Layout>
+
+<style>
+  .bg-main::before {
+    content: "";
+    @apply w-full;
+    @apply h-20;
+    background: linear-gradient(
+      180deg,
+      rgba(21, 26, 54, 0) 0%,
+      rgba(21, 26, 54, 0.7) 34%,
+      rgba(21, 26, 54, 1) 68%,
+      rgba(21, 26, 54, 1) 100%
+    );
+    position: absolute;
+    @apply -top-20;
+  }
+
+  @media (min-width: 1024px) {
+    .bg-main::before {
+      @apply h-64;
+      @apply -top-64;
+    }
+  }
+</style>

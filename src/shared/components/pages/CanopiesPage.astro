@@ -16,8 +16,7 @@ interface Props {
 const { language, canopiesGallery } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
-const superTitle =
-  'High performance <span class="text-primary">canopies</span>';
+const superTitle = 'High performance <span class="text-primary">canopies</span>';
 
 const images = [
   {
@@ -56,26 +55,21 @@ const images = [
   bgImage="/heros/CanopiesWebsPorticoSport.webp"
 >
   <main class="flex flex-col gradient-bg relative">
-    <div
-      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4"
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
     >
-      <span class="uppercase"
-        >Leader in the manufacturing and installation of canopies</span
+      <span class="uppercase text-balance">Leader in the manufacturing and installation of canopies</span
       >
       <h1
-        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6"
+        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
         set:html={superTitle}
       />
-      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary">
+      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance">
         Innovation, quality and high technology.
       </h2>
-      <h3 class="text-base md:text-lg lg:text-xl font-thin text-primary">
+      <h3 class="text-base md:text-lg lg:text-xl font-thin text-primary text-balance">
         Enhances play experience
       </h3>
-      <p class="max-w-80">
-        Our canopies grant a significant increase in the long-term usage of the
-        padel courts.
-      </p>
+      <p class="max-w-80 text-balance">Our canopies grant a significant increase in the long-term usage of the padel courts.</p>
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb

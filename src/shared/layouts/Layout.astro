@@ -12,9 +12,10 @@ interface Props {
   currentLocale: string;
   language: string;
   bgImage?: string;
+  bgClass?: string;
 }
 
-const { description, title, currentLocale, language, bgImage } = Astro.props;
+const { description, title, currentLocale, language, bgImage, bgClass } = Astro.props;
 ---
 
 <!doctype html>
@@ -44,7 +45,7 @@ const { description, title, currentLocale, language, bgImage } = Astro.props;
           aria-hidden="true"
           src={bgImage}
           alt="Background image"
-          class="fixed w-full min-h-[40rem] lg:aspect-video mx-auto object-cover -z-10"
+          class={`fixed w-full min-h-[40rem] lg:aspect-video mx-auto object-cover -z-10 ${bgClass}`}
         />
       )
     }
