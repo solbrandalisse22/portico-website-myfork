@@ -17,10 +17,7 @@ interface Props {
   style={style}
 >
   {
-    heading &&
-    <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide">
-      {heading}
-    </h2>
+    heading && <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide" set:html={heading} />
   }
   {
     subheading &&

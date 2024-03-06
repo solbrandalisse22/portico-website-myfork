@@ -24,6 +24,9 @@ export default {
         ".cp-v": {
           clipPath: "polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%)",
         },
+        ".cp-elipse": {
+          clipPath: "ellipse(100% 55% at 48% 44%)",
+        },
       });
     },
   ],

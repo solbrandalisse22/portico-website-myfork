@@ -1,0 +1,292 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro";
+import SectionInformation from "@/shared/components/sections/SectionInformation.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Button from "@/shared/components/Button.astro";
+import Section from "@/shared/components/Section.astro";
+import ContactForm from "@/shared/components/ContactForm.astro";
+import Video from "@/shared/components/Video.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Gallery from "../Gallery.astro";
+import { type Photo, type CourtItem2, type FeatureCourt, type FirstSectionCourt, type AdvantageSectionCourt, type InformationSection, type ContactSection } from "@/types/types";
+import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
+
+interface Props {
+  language: string;
+  video?: string;
+  heroImage?: string;
+  gallery: Photo[];
+  court: "COURT1" | "COURT2" | "COURT3" | "COURT4" | "COURT5" | "COURT6" | "COURT7" | "COURT8";
+}
+
+const featureImages = [] as Photo[];
+const { language, video, heroImage, court, gallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+const locale = i18n.COURTS[court];
+const isFeature = (locale as { FEATURE_SECTION?: FeatureCourt }).FEATURE_SECTION;
+const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_SECTION;
+const isAdvantage = (locale as { ADVANTAGE_SECTION?: AdvantageSectionCourt }).ADVANTAGE_SECTION;
+const isSectionInformation = (locale as { INFORMATION_SECTION?: InformationSection }).INFORMATION_SECTION;
+const contactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
+
+if (isFeature) {
+  isFeature.IMAGES.forEach((image: Photo) => {
+    featureImages.push({
+      id: image.id,
+      src: image.src,
+      alt: image.alt,
+    });
+  });
+}
+
+---
+
+<Layout
+  title={i18n.CANOPIES.TITLE}
+  description={i18n.CANOPIES.SUBTITLE}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage={heroImage}
+>
+  {
+    video ? (
+      <Video language={language} video={video} classVideo="cp-elipse">
+        <Section className="absolute z-10 animate-fade-up flex flex-col xl:flex-row max-w-none">
+          <div class="p-16 flex flex-col gap-8 flex-1 justify-center max-w-[1400]">
+            <header class="text-center">
+              <p class="text-lg lg:text-xl text-primary">{locale.SUBTITLE}</p>
+              <h1
+                class="text-xl md:text-2xl lg:text-4xl xl:text-5xl uppercase mb-6 text-balance text-secondary tracking-wider font-bold"
+                set:html={locale.DETAIL_TITLE}
+              />
+            </header>
+            <div
+              class="text-white text-center text-lg lg:text-xl font-thin text-pretty"
+              set:html={locale.DESCRIPTION}
+            />
+          </div>
+          <div class="bg-black/70 xl:flex flex-col flex-1 rounded-xl hidden p-6 border border-primary">
+            <h2 class="text-base text-center md:text-xl lg:text-3xl mb-4 text-balance">
+              {locale.CONTACT_TITLE_1}
+            </h2>
+            <ContactForm
+              language={language}
+              hiddenSubject
+              subject={locale.CONTACT_SUBJECT}
+              sendText={locale.CONTACT_BUTTON}
+            />
+          </div>
+          <Button target="_self" class="xl:hidden self-center" url="#contact">
+            Pedir información
+          </Button>
+        </Section>
+      </Video>
+    ) : null
+  }
+  <main class="flex flex-col gradient-bg relative">
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+        { label: i18n.ROUTES.COURTS.LABEL, href: i18n.ROUTES.COURTS.URL },
+        {
+          label: locale.NAME,
+          href: locale.URL.URL,
+        },
+      ]}
+    />
+    {
+      isFirstSection ? (<Section heading={isFirstSection.TITLE}>
+        <div class="text-center text-2xl text-pretty" set:html={isFirstSection.DESCRIPTION} />
+      </Section>) : null
+    }
+    {
+      isFeature ? (
+        <Section className="flex flex-col max-w-none my-14 p-0 lg:mb-0" style="padding: 0; margin-left: 0; margin-right: 0;">
+          <div class="flex flex-col xl:flex-row max-w-none">
+            <div class="relative w-full flex-1">
+              {
+                featureImages.map((image, index) => (
+                  <img
+                    loading="lazy"
+                    draggable={false}
+                    id={image.id}
+                    src={image.src}
+                    alt={image.alt}
+                    class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-video ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                  />
+                ))
+              }
+            </div>
+            <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+              <h2
+                class="text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase"
+              >
+                {isFeature.TITLE}
+              </h2>
+              <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
+                {
+                  isFeature.LIST.map((item: string) => (
+                    <li class="flex gap-x-6 items-center">
+                      <CheckIcon className="w-8 h-8" />
+                      <span set:html={item} />
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </Section>
+      ) : null
+    }
+    {
+      isAdvantage ? <Section
+        className="flex flex-col max-w-none p-0 lg:mb-0"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+      <div class="flex flex-col-reverse xl:flex-row max-w-none">
+        <div class="w-full py-8 px-4 flex-1 md:px-8">
+          <h2
+            class="text-3xl text-balance mb-6 text-secondary font-bold uppercase"
+            set:html={isAdvantage.TITLE}
+          />
+          <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
+            {
+              isAdvantage.ADVANTAGES.map((item: string) => (
+                <li class="flex gap-x-6 items-center">
+                  <CheckIcon className="w-8 h-8" />
+                  <span set:html={item} />
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+        <div class="relative w-full flex-1">
+          <img
+            loading="lazy"
+            draggable={false}
+            id={isAdvantage.IMAGE.id}
+            src={isAdvantage.IMAGE.src}
+            alt={isAdvantage.IMAGE.alt}
+            class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/12] image-reverse"
+          />
+        </div>
+      </div>
+    </Section> : null
+    }
+    {
+      isSectionInformation ? (
+        <SectionInformation
+          title={isSectionInformation.TITLE}
+          image={isSectionInformation.IMAGE.src}
+          subtitle={isSectionInformation.SUBTITLE}
+          text={isSectionInformation.TEXT}
+          buttonUrl={isSectionInformation.BUTTON.href}
+          buttonText={isSectionInformation.BUTTON.label} />
+      ) : null
+    }
+    <Gallery
+      id="gallery-canopies"
+      path="canopies"
+      offset={9}
+      photos={gallery}
+      loadMoreText={i18n.CANOPIES.GALLERY.BUTTON_TEXT}
+    />
+    <SectionContact
+      hiddenSubject
+      subject={contactSection.SUBJECT}
+      language={language}
+      bgImage={contactSection.BG_IMAGE}
+      image={contactSection.IMAGE}
+    />
+  </main>
+</Layout>
+
+<style>
+  .img-structure:hover {
+    filter: drop-shadow(1px 1px 20px rgb(183 228 253));
+  }
+
+  ul {
+    font-size: 1em;
+  }
+
+  ul li span {
+    flex: 1;
+  }
+
+  .gradient-bg {
+    background: rgb(21, 26, 54);
+    background: linear-gradient(
+      180deg,
+      rgba(21, 26, 54, 0) 9%,
+      rgba(21, 26, 54, 0.7) 26%,
+      rgba(21, 26, 54, 1) 37%,
+      rgba(21, 26, 54, 1) 100%
+    );
+  }
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>
+
+<script define:vars={{ featureImages }}>
+  const updateFeatureImages = (featureImages) => {
+    // cambiar a la siguiente imagen cada 3 segundos
+
+    let index = 0;
+    setInterval(() => {
+      const currentImage = featureImages[index];
+      const nextImage = featureImages[index + 1] || featureImages[0];
+
+      const currentImageElement = document.getElementById(currentImage.id);
+      const nextImageElement = document.getElementById(nextImage.id);
+
+      if (currentImageElement && nextImageElement) {
+        currentImageElement.classList.remove("opacity-100");
+        currentImageElement.classList.add("opacity-0");
+        nextImageElement.classList.remove("opacity-0");
+        nextImageElement.classList.add("opacity-100");
+      }
+
+      index = index + 1;
+      if (index === featureImages.length) index = 0;
+    }, 3000);
+  };
+
+  updateFeatureImages(featureImages);
+</script>

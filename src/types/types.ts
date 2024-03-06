@@ -58,3 +58,60 @@ export interface Country {
   coordinates: Array<number>;
   projects: Project[];
 }
+
+export interface FeatureCourt {
+  TITLE: string;
+  IMAGES: Photo[];
+  LIST: string[];
+}
+
+export interface FirstSectionCourt {
+  TITLE: string;
+  DESCRIPTION: string;
+}
+
+export interface AdvantageSectionCourt {
+  IMAGE: Photo;
+  TITLE: string;
+  ADVANTAGES: string[];
+}
+
+export interface InformationSection {
+  TITLE: string;
+  IMAGE: Photo;
+  SUBTITLE: string;
+  TEXT: string;
+}
+
+export interface ContactSection {
+  TITLE?: string;
+  SUBTITLE?: string;
+  BUTTON: Route;
+  SUBJECT?: string;
+  BG_IMAGE: string;
+  IMAGE: string
+}
+
+export interface CourtItem2 {
+  SEO_TITLE: string;
+  SEO_DESCRIPTION: string;
+  ID: string;
+  NAME: string;
+  SUBTITLE: string;
+  TITLE: string;
+  DETAIL_TITLE: string;
+  DESCRIPTION: string;
+  LITTLE_DESCRIPTION: string;
+  MORE_INFO_URL: string;
+  CONTACT_TITLE_1: string;
+  CONTACT_SUBJECT: string;
+  CONTACT_BUTTON: string;
+  URL: Route;
+  FEATURE_SECTION ?: FeatureCourt;
+  HOME_IMAGES: Photo[];
+  FIRST_SECTION ?: FirstSectionCourt;
+  ADVANTAGE_SECTION ?: AdvantageSectionCourt;
+  INFORMATION_SECTION: InformationSection;
+  CONTACT_SECTION: ContactSection;
+  BUTTON: Route;
+}

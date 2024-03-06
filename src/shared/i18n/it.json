@@ -87,7 +87,7 @@
     "PROJECTS": {
       "LABEL": "Progetti",
       "ID": "progetti",
-      "URL": "/#progetti"
+      "URL": "/progetti"
     },
     "FACTORY": {
       "LABEL": "Fabbrica",
@@ -333,27 +333,129 @@
     "TITLE": "Campi da Padel",
     "SUBTITLE": "Scopri tutti i nostri campi da Padel",
     "COURT1": {
-      "TITLE": "Mobile court brevettato da Portico Sport",
-      "DESCRIPTION": "<p>Progettato e realizzato dal nostro reparto di ingegneria, questo campo è brevettato da Portico Sport, essendo il primo del suo genere sul mercato. Grazie a questo campo, il cliente può risparmiare sulle spese di preparazione del terreno e sull'acquisizione del permesso, in quanto è necessaria solo una superficie drenata per evitare l'accumulo di acqua. Questo modello di campo è costruito con un sistema di supporto a scatola di contrappeso speciale, eliminando la necessità di ancoraggio al suolo. Ciò consente la pratica sportiva in una posizione specifica per un periodo prolungato, rendendola adatta all'uso permanente nel corso degli anni, o può essere facilmente spostata in un'altra posizione. Inoltre, il suo speciale sistema di scatola di contrappeso lo rende un campo altamente resistente in grado di resistere a forti raffiche di vento. Se stai cercando un campo che offra la possibilità di mobilità, il campo mobile è la scelta migliore.</p>",
-      "URL": "https://porticosport.com/en/mobile-courts",
-      "IMAGES": [{
+      "SEO_TITLE": "Mobile Court - Padel Court",
+      "SEO_DESCRIPTION":"The mobile court is the first patented mobile court in the market designed and engineered by our Engineering department. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.",
+      "ID": "mobile-court",
+      "NAME": "Court Mobile",
+      "SUBTITLE": "Introducing the latest innovation in padel court technology",
+      "TITLE": "<span>Mobile court</span> <span class=\"text-white\">patented by Portico Sport</span>",
+      "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">patented by Portico Sport</span>",
+      "DESCRIPTION": "<p>Our patented Mobile Court, meticulously designed and engineered by our expert Engineering Department, is revolutionizing the market and it was the <strong>first of its kind in the padel industry</strong>.</p><p>This groundbreaking court eliminates the need for costly ground preparation expenses and permit acquisitions. With only a drained surface required to prevent water accumulation, our court offers unparalleled convenience and cost savings.</p>",
+      "LITTLE_DESCRIPTION": "<p>The first patented mobile court in the market designed and engineered by our Engineering department. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.</p>",
+      "MORE_INFO_URL": "https://porticosport.com/en/mobile-courts",
+      "CONTACT_TITLE_1": "Do you want a Mobile Court?",
+      "CONTACT_SUBJECT": "New petition for a Mobile Court",
+      "CONTACT_BUTTON": "I want a Mobile Court",
+      "URL": {
+        "label": "More about mobile",
+        "href": "/courts/mobile"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
+        "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>"
+      },
+      "FEATURE_SECTION": {
+        "TITLE": "Remarkable features",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/render-1.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Exterior of a mobile court render in 3D"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/render-2.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Interior of a mobile court render in 3D"
+        },{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/render-3.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Exterior of a mobile court render in 3D"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/render-4.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Interior of a mobile court render in 3D"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/render-5.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Exterior of a mobile court render in 3D"
+        },{
+          "id": "slide-6",
+          "src": "/courts-detail/mobile/render-6.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Interior of a mobile court render in 3D"
+        }],
+        "LIST": [
+          "Withstand wind <strong>speed of 114.12 km/h</strong>.",
+          "Suitable for both indoor and outdoor installations.",
+          "Same premium quality as a permanent court.",
+          "Perfect integration into any environment.",
+          "Crafted with premium materials for maximum strength and durability."
+        ]
+      },
+      "ADVANTAGE_SECTION": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-advantage-section.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Mobile court patented by Portico Sport"
+        },
+        "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
+        "ADVANTAGES": [
+          "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
+          "You’ll save on expenses as our courts do not require extensive floor repairs.",
+          "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
+          "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
+          "Rest assured with our 10-year warranty on the structural integrity of our courts."
+        ]
+      },
+      "INFORMATION_SECTION": {
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Render of a mobile court"
+        },
+        "TITLE": "Experience the excellence of our premium quality court structure",
+        "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
+        "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
+        "BUTTON": {
+          "label": "I want a new padel court",
+          "href": "#contact"
+        }
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Mobile Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/mobile/mobile-contact.webp"
+      },
+      "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/mobile-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo mobile brevettato da Portico Sport"
+        "imgAlt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-2",
         "src": "/courts/mobile-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo mobile brevettato da Portico Sport"
+        "imgAlt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-3",
         "src": "/courts/mobile-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo mobile brevettato da Portico Sport"
+        "imgAlt": "Mobile court patented by Portico Sport"
       }]
     },
     "COURT2": {
@@ -585,6 +687,8 @@
       "NAME": "Nome Completo",
       "EMAIL": "Indirizzo Email",
       "EMAIL_PLACEHOLDER": "esempio@dominio.com",
+      "PHONE": "Telefono",
+      "PHONE_PLACEHOLDER": "Inserisci il tuo numero di telefono",
       "SUBJECT": "Oggetto",
       "SUBJECT_PLACEHOLDER": "Inserisci il tuo oggetto",
       "MESSAGE": "Messaggio",

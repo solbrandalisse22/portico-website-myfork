@@ -615,6 +615,8 @@
       "NAME": "Nom complet",
       "EMAIL": "Adresse e-mail",
       "EMAIL_PLACEHOLDER": "exemple@domain.com",
+      "PHONE": "Téléphone",
+      "PHONE_PLACEHOLDER": "Entrez votre numéro de téléphone",
       "SUBJECT": "Sujet",
       "SUBJECT_PLACEHOLDER": "Entrez votre sujet",
       "MESSAGE": "Message",

@@ -1,0 +1,222 @@
+---
+import "ol/ol.css";
+import CarouselImages from '@/shared/components/CarouselImages.astro';
+---
+
+<div id="map" class="map relative w-full aspect-video" tabindex="0" />
+<div id="backdrop" class="fixed z-40 left-0 top-0 bottom-0 right-0 hidden" />
+<div
+  class="popup fixed w-[90%] h-[90%] scale-0 bg-black/60 rounded-xl border border-primary origin-center z-50"
+  style="transform: translate(-50%, -50%) scale(0);"
+>
+  <header class="flex justify-between items-center p-4 border-b border-primary">
+    <h2 id="header-title" class="text-white text-2xl font-bold">Galería</h2>
+    <button id="close" class="close flex justify-center items-center text-white border border-white aspect-square w-8 h-8 rounded-full text-2xl font-bold">x</button>
+  </header>
+  <body class="p-6">
+    <h3 id="project-title">Project title</h3>
+    <CarouselImages client:idle images={[]} />
+  </body>
+  <footer></footer>
+</div>
+
+<style>
+  .popup {
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .open {
+    transform: translate(0, 0) scale(1) !important;
+    left: 5% !important;
+    top: 5% !important;
+  }
+
+  .close {
+    transition:
+      text-shadow 0.5s ease-out,
+      box-shadow 0.3s ease-out;
+  }
+
+  .close:hover {
+    box-shadow: 0 0 16px #fff8;
+    text-shadow:
+      0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.8),
+      0 0 22px rgba(255, 255, 255, 0.8),
+      0 0 40px rgba(66, 220, 219, 0.8),
+      0 0 60px rgba(66, 220, 219, 0.8),
+      0 0 80px rgba(66, 220, 219, 0.5),
+      0 0 100px rgba(66, 220, 219, 0.5),
+      0 0 140px rgba(66, 220, 219, 0.5),
+      0 0 200px rgba(66, 220, 219, 0.5);
+  }
+</style>
+
+<script>
+  import Map from "ol/Map";
+  import Feature from "ol/Feature";
+  import VectorSource from "ol/source/Vector";
+  import GeoJSON from "ol/format/GeoJSON";
+  import Vector from "ol/layer/Vector";
+  import View from "ol/View";
+  import { fromLonLat } from "ol/proj";
+  import Point from "ol/geom/Point";
+  import { Select } from "ol/interaction";
+  import { click } from "ol/events/condition";
+  import { ZoomSlider } from "ol/control";
+  import { Fill, Stroke, Style, Icon } from "ol/style";
+  import countries from "@/shared/data/countries.json";
+  import {type Country} from "@/types/types";
+
+  let countrySelected = null, projectSelected = null;
+  const $popoup = document.querySelector(".popup");
+  const $backdrop = document.querySelector("#backdrop");
+  const $headerTitle = document.querySelector("#header-title");
+  const $projectTitle = document.querySelector("#project-title");
+  
+  // Estilo de la capa vectorial
+  const fill = new Fill({
+    color: "transparent",
+  });
+  const style = new Style({
+    fill: fill,
+    stroke: new Stroke({
+      color: "#b7e4fd",
+      width: 1,
+    }),
+  });
+
+  // Crear la capa vectorial
+  const vectorLayer = new Vector({
+    source: new VectorSource({
+      url: "/countries.geojson",
+      format: new GeoJSON(),
+      wrapX: false,
+    }),
+    style,
+  });
+
+  // Crear el mapa
+  const map = new Map({
+    layers: [vectorLayer],
+    target: "map",
+    view: new View({
+      center: fromLonLat([-5.0, 20.0]), // Centro del mapa (longitud, latitud)
+      zoom: 3, // Nivel de zoom inicial
+      minZoom: 3, // Nivel mínimo de zoom
+      maxZoom: 5, // Nivel máximo de zoom
+      constrainOnlyCenter: true, // Restringe el desplazamiento solo al centro del mapa
+      extent: [-2000000, -1000000, 1200000, 7000000],
+      multiWorld: false,
+    }),
+  });
+
+  const features = countries.map(
+    ({ coordinates, country }) =>
+      new Feature({
+        geometry: new Point(fromLonLat(coordinates)),
+        name: country,
+      })
+  );
+
+  // Crear la capa vectorial de marcadores
+  const markerStyle = new Style({
+    stroke: new Stroke({
+      color: "#b7e4fd",
+      width: 1,
+    }),
+    image: new Icon({
+      src: "https://porticosport.com/wp-content/uploads/2023/05/padel-ball.png",
+    }),
+  });
+
+  // Añadir la capa vectorial de marcadores al mapa
+  const markerLayer = new Vector({
+    source: new VectorSource({
+      features,
+    }),
+    style: markerStyle,
+  });
+
+  // Añadir la capa de los marcadores al mapa
+  map.addLayer(markerLayer);
+
+  // Interacción de selección de marcadores al hacer clic
+  const selectInteraction = new Select({
+    condition: click,
+  });
+
+  map.addInteraction(selectInteraction);
+  map.addControl(new ZoomSlider());
+
+  
+  const openGallery = (ct : Country) => {
+    const { country, id, projects } = ct || {};
+    countrySelected = ct;
+    projectSelected = projects[0];
+    $headerTitle.textContent = country;
+    if (projects && projects.length) {
+      const [ project ] = projects;
+      const { title } = project || {};
+      $projectTitle.textContent = title;
+      debugger
+    }
+    // if (images && images.length) {
+    //   imagesArray = images;
+    //   selectedImage = '0';
+    //   document.querySelector('.modal-title').textContent = title;
+    //   setImage();
+    //   window.location.hash = 'galeria';
+    //   checkButtons();
+    // }
+  }
+
+  const openPopoup = () => {
+    $backdrop?.classList.remove("hidden");
+    $popoup?.classList.add("open")
+  }
+
+  const closePopoup = () => {
+    $backdrop?.classList.add("hidden");
+    selectInteraction.getFeatures().clear();
+    $popoup?.classList.remove("open")
+  }
+
+  // Añadir la interacción al mapa
+  selectInteraction.on("select", (event) => {
+    var selectedFeature = event.selected[0];
+    selectInteraction.getFeatures().clear();
+    if (selectedFeature) {
+      const name = selectedFeature.getProperties().name;
+      const country = countries.find(({country}) => country === name);
+      selectedFeature.setStyle(markerStyle);
+      if (country) {
+        // get position of the country in window
+        const { coordinates } = country;
+        const position = fromLonLat(coordinates);
+        const pixel = map.getPixelFromCoordinate(position);
+        const mapDiv = document.getElementById("map");
+        const mapRect = mapDiv.getBoundingClientRect();
+        const x = pixel[0] + mapRect.left;
+        const y = pixel[1] + mapRect.top;
+        $popoup.style.left = `${x}px`;
+        $popoup.style.top = `${y}px`;
+        openGallery(country);
+        setTimeout(() => {
+          openPopoup();
+        }, 500);
+      }
+    } else {
+      selectInteraction.getFeatures().clear();
+    }
+  });
+
+  document.getElementById("close").addEventListener("click", () => {
+    closePopoup();
+  });
+  
+  document.getElementById("backdrop").addEventListener("click", () => {
+    closePopoup();
+  });
+</script>

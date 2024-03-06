@@ -8,9 +8,10 @@ interface Props {
   title?: string;
   buttonUrl?: string;
   buttonText?: string;
+  classVideo?: string;
 }
 
-const { video, subtitle, title, buttonUrl, buttonText } = Astro.props;
+const { video, classVideo, subtitle, title, buttonUrl, buttonText } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -71,7 +72,7 @@ const type = getTipeFromVideo();
       playsinline
       id="main-video"
       preload="metadata"
-      class="video hidden cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
+      class={`video hidden cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50 ${classVideo}`}
     >
       <source src={video} type={type} />
     </video>

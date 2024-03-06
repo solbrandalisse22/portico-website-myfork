@@ -1,6 +1,7 @@
 ---
 import Layout from "@/shared/layouts/Layout.astro"
 import Video from "@/shared/components/Video.astro"
+import Button from "@/shared/components/Button.astro"
 import SectionIntro from "@/shared/components/sections/SectionIntro.astro"
 import SectionBento from "@/shared/components/sections/SectionBento.astro"
 import SectionFactory from "@/shared/components/sections/SectionFactory.astro"
@@ -75,8 +76,10 @@ const posts = await response.json();
       subheading={i18n.INFO.PROJECTS_TEXT}
       photos={projectsGallery}
       path="projects"
-      loadMoreText={i18n.INFO.BUTTON_TEXT}
     />
+    <div class="flex">
+      <Button class="mx-auto" url={i18n.ROUTES.PROJECTS.URL} target="_self">{i18n.INFO.BUTTON_TEXT}</Button>
+    </div>
     <SectionComplements language={language} />
     <SectionFactory language={language} />
     <NewsList language={language} posts={posts} />

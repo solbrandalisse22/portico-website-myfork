@@ -11,43 +11,51 @@ const i18n = getI18N({ language })
 
 const courts = [{
   title: i18n.COURTS.COURT1.TITLE,
-  description: i18n.COURTS.COURT1.DESCRIPTION,
-  url: i18n.COURTS.COURT1.URL,
-  images: i18n.COURTS.COURT1.IMAGES,
+  description: i18n.COURTS.COURT1.LITTLE_DESCRIPTION,
+  url: i18n.COURTS.COURT1.URL.href,
+  label: i18n.COURTS.COURT1.URL.label,
+  images: i18n.COURTS.COURT1.HOME_IMAGES,
 }, {
   title: i18n.COURTS.COURT2.TITLE,
   description: i18n.COURTS.COURT2.DESCRIPTION,
   url: i18n.COURTS.COURT2.URL,
+  label: "More about Panoramic Flow court",
   images: i18n.COURTS.COURT2.IMAGES,
 }, {
   title: i18n.COURTS.COURT3.TITLE,
   description: i18n.COURTS.COURT3.DESCRIPTION,
   url: i18n.COURTS.COURT3.URL,
+  label: "More about Panoramic court",
   images: i18n.COURTS.COURT3.IMAGES,
 }, {
   title: i18n.COURTS.COURT4.TITLE,
   description: i18n.COURTS.COURT4.DESCRIPTION,
   url: i18n.COURTS.COURT4.URL,
+  label: "More about Club court",
   images: i18n.COURTS.COURT4.IMAGES,
 }, {
   title: i18n.COURTS.COURT5.TITLE,
   description: i18n.COURTS.COURT5.DESCRIPTION,
   url: i18n.COURTS.COURT5.URL,
+  label: "More about Club Plus court",
   images: i18n.COURTS.COURT5.IMAGES,
 }, {
   title: i18n.COURTS.COURT6.TITLE,
   description: i18n.COURTS.COURT6.DESCRIPTION,
   url: i18n.COURTS.COURT6.URL,
+  label: "More about Force 80 court",
   images: i18n.COURTS.COURT6.IMAGES,
 }, {
   title: i18n.COURTS.COURT7.TITLE,
   description: i18n.COURTS.COURT7.DESCRIPTION,
   url: i18n.COURTS.COURT7.URL,
+  label: "More about Single court",
   images: i18n.COURTS.COURT7.IMAGES,
 }, {
   title: i18n.COURTS.COURT8.TITLE,
   description: i18n.COURTS.COURT8.DESCRIPTION,
   url: i18n.COURTS.COURT8.URL,
+  label: "More about Mini court",
   images: i18n.COURTS.COURT8.IMAGES,
 }] as CourtItem[]
 ---
@@ -55,9 +63,9 @@ const courts = [{
 <Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE} className="max-w-none relative">
   <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
   {
-    courts.map(({title, description, images, url}, index) => (<ArticleCard
+    courts.map(({title, description, images, url, label}, index) => (<ArticleCard
       buttonUrl={url}
-      buttonText="View more info"
+      buttonText={label}
       title={title}
       description={description}
       className="mb-4 max-w-[1280px]"
