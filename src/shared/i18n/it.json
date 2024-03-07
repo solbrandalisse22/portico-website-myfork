@@ -432,6 +432,47 @@
           "href": "#contact"
         }
       },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/mobile-gallery-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/mobile-gallery-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/mobile-gallery-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/mobile-gallery-04.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/mobile-gallery-05.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-6",
+          "src": "/courts-detail/mobile/mobile-gallery-06.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        }],
+        "BUTTON_TEXT": "Discover more images"
+      },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Mobile Court",
         "TITLE": "News",

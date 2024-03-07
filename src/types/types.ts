@@ -83,6 +83,13 @@ export interface InformationSection {
   TEXT: string;
 }
 
+export interface GallerySection {
+  ID: string;
+  TITLE: string;
+  IMAGES: Photo[];
+  BUTTON_TEXT: string;
+}
+
 export interface ContactSection {
   TITLE?: string;
   SUBTITLE?: string;
@@ -113,5 +120,6 @@ export interface CourtItem2 {
   ADVANTAGE_SECTION ?: AdvantageSectionCourt;
   INFORMATION_SECTION: InformationSection;
   CONTACT_SECTION: ContactSection;
+  GALLERY_SECTION?: GallerySection;
   BUTTON: Route;
 }

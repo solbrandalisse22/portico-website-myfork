@@ -9,7 +9,7 @@ import ContactForm from "@/shared/components/ContactForm.astro";
 import Video from "@/shared/components/Video.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
-import { type Photo, type CourtItem2, type FeatureCourt, type FirstSectionCourt, type AdvantageSectionCourt, type InformationSection, type ContactSection } from "@/types/types";
+import { type Photo, type FeatureCourt, type FirstSectionCourt, type AdvantageSectionCourt, type InformationSection, type ContactSection, type GallerySection } from "@/types/types";
 import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
 
 interface Props {
@@ -29,6 +29,7 @@ const isFeature = (locale as { FEATURE_SECTION?: FeatureCourt }).FEATURE_SECTION
 const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_SECTION;
 const isAdvantage = (locale as { ADVANTAGE_SECTION?: AdvantageSectionCourt }).ADVANTAGE_SECTION;
 const isSectionInformation = (locale as { INFORMATION_SECTION?: InformationSection }).INFORMATION_SECTION;
+const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLERY_SECTION;
 const contactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
 
 if (isFeature) {
@@ -191,7 +192,7 @@ if (isFeature) {
       path="canopies"
       offset={9}
       photos={gallery}
-      loadMoreText={i18n.CANOPIES.GALLERY.BUTTON_TEXT}
+      loadMoreText={isGallerySection.BUTTON_TEXT}
     />
     <SectionContact
       hiddenSubject
