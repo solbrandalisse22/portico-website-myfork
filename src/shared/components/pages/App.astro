@@ -69,11 +69,17 @@ const posts = await response.json();
       buttonText={i18n.CANOPIES_SECTION.BUTTON_TEXT}
     />
     <SectionBento language={language} />
-    <MapProjects client:only />
-    <Gallery
+    <section 
       id={i18n.ROUTES.PROJECTS.ID}
-      heading={i18n.INFO.PROJECTS_TITLE}
-      subheading={i18n.INFO.PROJECTS_TEXT}
+    >
+      <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide" set:html={i18n.INFO.PROJECTS_TITLE} />
+      <p class="text-center text-2xl text-pretty pb-8">{i18n.INFO.PROJECTS_TEXT}</p>
+      <div class="border-y border-primary mt-8">
+        <MapProjects client:only />
+      </div>
+    </section>
+    <Gallery
+      id="projects-gallery"
       photos={projectsGallery}
       path="projects"
     />

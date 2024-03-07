@@ -32,7 +32,7 @@ const { preTitle, title, heading, description, hideHeader = false, hideFooter = 
           <header class="flex flex-col md:flex-row justify-center md:justify-between mb-4">
             <div class="flex flex-col flex-1 self-end">
               {preTitle && (<span class="text-primary text-xl" set:html={preTitle} />)}
-              {title && (<h2 class="text-secondary text-3xl md:text-5xl font-bold text-balance" set:html={title} />)}
+              {title && (<h2 class="text-secondary text-2xl md:text-4xl font-bold text-balance uppercase" set:html={title} />)}
             </div>
             <div class="flex-1 border-t-primary border-t mt-3 pt-3 md:border-none flex flex-col justify-between gap-y-3 md:mt-0 md:pt-0">
               {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base lg:text-base self-end py-2">{buttonText}</Button>}
