@@ -13,9 +13,10 @@ interface Props {
   className?: string;
   buttonText?: string;
   buttonUrl?: string;
+  target?: string;
 }
 
-const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className, buttonText, buttonUrl } = Astro.props;
+const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className, buttonText, buttonUrl, target="_self" } = Astro.props;
 ---
 
 <article class=`w-full mx-auto my-14 px-2 px-6 mdx:p-12 lgx:p-20 ${className ? className : ''}`>
@@ -35,7 +36,7 @@ const { preTitle, title, heading, description, hideHeader = false, hideFooter = 
               {title && (<h2 class="text-secondary text-2xl md:text-4xl font-bold text-balance uppercase" set:html={title} />)}
             </div>
             <div class="flex-1 border-t-primary border-t mt-3 pt-3 md:border-none flex flex-col justify-between gap-y-3 md:mt-0 md:pt-0">
-              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base lg:text-base self-end py-2">{buttonText}</Button>}
+              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base lg:text-base self-end py-2" target={target}>{buttonText}</Button>}
               {heading && (<h3 class="text-primary text-2xl mb-4 text-balance" set:html={heading} />)}
               {description && (<div class="section-description text-white text-pretty text-base mb-0" set:html={description} />)}
             </div>
