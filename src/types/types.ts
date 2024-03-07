@@ -81,6 +81,7 @@ export interface InformationSection {
   IMAGE: Photo;
   SUBTITLE: string;
   TEXT: string;
+  BUTTON: Route;
 }
 
 export interface GallerySection {

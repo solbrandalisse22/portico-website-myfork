@@ -30,7 +30,7 @@ const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_S
 const isAdvantage = (locale as { ADVANTAGE_SECTION?: AdvantageSectionCourt }).ADVANTAGE_SECTION;
 const isSectionInformation = (locale as { INFORMATION_SECTION?: InformationSection }).INFORMATION_SECTION;
 const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLERY_SECTION;
-const contactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
+const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
 
 if (isFeature) {
   isFeature.IMAGES.forEach((image: Photo) => {
@@ -187,20 +187,25 @@ if (isFeature) {
           buttonText={isSectionInformation.BUTTON.label} />
       ) : null
     }
-    <Gallery
-      id="gallery-canopies"
-      path="canopies"
-      offset={9}
-      photos={gallery}
-      loadMoreText={isGallerySection.BUTTON_TEXT}
-    />
-    <SectionContact
-      hiddenSubject
-      subject={contactSection.SUBJECT}
-      language={language}
-      bgImage={contactSection.BG_IMAGE}
-      image={contactSection.IMAGE}
-    />
+    {
+      isGallerySection ? (<Gallery
+        id="gallery-canopies"
+        path="canopies"
+        offset={9}
+        photos={gallery}
+        loadMoreText={isGallerySection.BUTTON_TEXT}
+      />) : null
+    }
+    {
+      isContactSection ? (<SectionContact
+        hiddenSubject
+        subject={isContactSection.SUBJECT}
+        language={language}
+        bgImage={isContactSection.BG_IMAGE}
+        image={isContactSection.IMAGE}
+      />) : null
+    }
+    
   </main>
 </Layout>
 
