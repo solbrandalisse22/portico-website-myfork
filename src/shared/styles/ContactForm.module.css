@@ -1,0 +1,56 @@
+.form-button {
+  transition:
+    text-shadow 0.5s ease-out,
+    box-shadow 0.3s ease-out;
+}
+
+.form-button:hover {
+  box-shadow: 0 0 16px #fff8;
+  text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 22px rgba(255, 255, 255, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8),
+    0 0 60px rgba(66, 220, 219, 0.8),
+    0 0 80px rgba(66, 220, 219, 0.5),
+    0 0 100px rgba(66, 220, 219, 0.5),
+    0 0 140px rgba(66, 220, 219, 0.5),
+    0 0 200px rgba(66, 220, 219, 0.5);
+}
+
+.input-list:focus {
+  border-bottom: 0;
+  border-bottom-color: transparent;
+}
+
+.input-no-rounded {
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+
+.datalist {
+  @apply absolute block bg-white border-[3px] border-solid border-primary border-t-0 max-h-40 overflow-y-auto z-0;
+  width: calc(100% + 4px);
+  border-end-end-radius: 0;
+  border-end-start-radius: 30px;
+  border-start-end-radius: 0;
+  border-start-start-radius: 0;
+  transform: translateX(-2px);
+}
+
+.option {
+  @apply bg-white p-2 text-base text-secondary mb-1 cursor-pointer;
+  margin: .1rem;
+}
+
+.option:hover,
+.active {
+  @apply bg-secondary text-white rounded-full;
+}
+
+.option-no-found {
+  @apply bg-white p-2 text-base text-secondary mb-1 pointer-events-none opacity-70;
+  margin: .1rem;
+}
