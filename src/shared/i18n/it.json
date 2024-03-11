@@ -330,18 +330,20 @@
     "BUTTON_TEXT": "Scopri altri progetti"
   },
   "COURTS": {
-    "TITLE": "Campi da Padel",
-    "SUBTITLE": "Scopri tutti i nostri campi da Padel",
+    "SEO_TITLE": "Padel Courts",
+    "SEO_DESCRIPTION":"Discover all our Padel Courts",
+    "TITLE": "Padel Courts",
+    "SUBTITLE": "Discover all our Padel Courts",
     "COURT1": {
       "SEO_TITLE": "Mobile Court - Padel Court",
       "SEO_DESCRIPTION":"The mobile court is the first patented mobile court in the market designed and engineered by our Engineering department. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.",
       "ID": "mobile-court",
-      "NAME": "Court Mobile",
+      "NAME": "Mobile court",
       "SUBTITLE": "Introducing the latest innovation in padel court technology",
       "TITLE": "<span>Mobile court</span> <span class=\"text-white\">patented by Portico Sport</span>",
       "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">patented by Portico Sport</span>",
       "DESCRIPTION": "<p>Our patented Mobile Court, meticulously designed and engineered by our expert Engineering Department, is revolutionizing the market and it was the <strong>first of its kind in the padel industry</strong>.</p><p>This groundbreaking court eliminates the need for costly ground preparation expenses and permit acquisitions. With only a drained surface required to prevent water accumulation, our court offers unparalleled convenience and cost savings.</p>",
-      "LITTLE_DESCRIPTION": "<p>The first patented mobile court in the market designed and engineered by our Engineering department. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.</p>",
+      "LITTLE_DESCRIPTION": "<p>Move your court wherever you want</p>",
       "MORE_INFO_URL": "https://porticosport.com/en/mobile-courts",
       "CONTACT_TITLE_1": "Do you want a Mobile Court?",
       "CONTACT_SUBJECT": "New petition for a Mobile Court",
@@ -434,6 +436,8 @@
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
+        "PATH": "courts-detail/mobile/gallery",
+        "OFFSET": 12,
         "IMAGES": [{
           "id": "slide-1",
           "src": "/courts-detail/mobile/mobile-gallery-01.webp",
@@ -473,11 +477,15 @@
         }],
         "BUTTON_TEXT": "Discover more images"
       },
+      "COURTS_SECTION": {
+        "TITLE": "Portico Sport Mobile Court",
+        "DESCRIPTION": "Compatible with the following Padel Court Models:"
+      },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Mobile Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mobile/mobile-contact.webp"
+        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
       "HOME_IMAGES": [{
         "id": "slide-1",
@@ -500,189 +508,266 @@
       }]
     },
     "COURT2": {
-      "TITLE": "Panoramic FLOW",
-      "DESCRIPTION": "<p>Il campo Panoramic Flow è una versione migliorata del nostro campo Panoramic. Progettato dal reparto di ingegneria di Portico Sport, questo modello di campo elimina gli angoli della struttura metallica, consentendo alle pareti continue in vetro ad alta resistenza di offrire una vista panoramica ininterrotta dei dintorni. Questo magnifico design, unito a un'estetica meticolosa, rende questo campo il più attraente per coloro che desiderano che i loro spettatori godano di un'esperienza di padel senza precedenti.</p>",
-      "URL": "https://porticosport.com/en/panoramic-flow-court",
+      "TITLE": "<span>Panoramic FLOW</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>The Panoramic Flow court is an enhanced version of our Panoramic court. Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings. This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
+      "NAME": "Panoramic Flow court",
+      "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
+      "URL": {
+        "label": "More about panoramic flow court",
+        "href": "/courts/panoramic-flow"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Mobile Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-flow-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Panoramic Flow"
+        "imgAlt": "Panoramic flow court"
       },{
         "id": "slide-2",
         "src": "/courts/panoramic-flow-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Panoramic Flow"
+        "imgAlt": "Panoramic flow court"
       },{
         "id": "slide-3",
         "src": "/courts/panoramic-flow-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Panoramic Flow"
+        "imgAlt": "Panoramic flow court"
       }]
     },
     "COURT3": {
-      "TITLE": "Panoramic",
-      "DESCRIPTION": "<p>Il nostro campo panoramico è una scelta straordinaria ed emozionante per gli appassionati di padel. Progettato e realizzato dal reparto di ingegneria di Portico Sport, questo modello di campo presenta pareti in vetro ad alta resistenza che offrono una vista panoramica dei dintorni, creando un'esperienza di gioco unica ed emozionante sia all'interno che all'esterno del campo. Grazie al suo fascino visivo, questo campo è sempre più richiesto dai clienti che desiderano offrire un'esperienza di gioco distintiva a tutti i loro giocatori.</p>",
-      "URL": "https://porticosport.com/en/panoramic-court",
+      "TITLE": "<span>Panoramic</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>Our panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court. Due to its visual appeal, this court is increasingly sought-after by customers aiming to offer a distinctive gaming experience to all their players.</p>",
+      "NAME": "Panoramic court",
+      "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
+      "URL": {
+        "label": "More about panoramic court",
+        "href": "/courts/panoramic"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Panoramic Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo panoramico"
+        "imgAlt": "Panoramic court"
       },{
         "id": "slide-2",
         "src": "/courts/panoramic-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo panoramico"
+        "imgAlt": "Panoramic court"
       },{
         "id": "slide-3",
         "src": "/courts/panoramic-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo panoramico"
+        "imgAlt": "Panoramic court"
       },{
         "id": "slide-4",
         "src": "/courts/panoramic-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo panoramico"
+        "imgAlt": "Panoramic court"
       }]
     },
     "COURT4": {
-      "TITLE": "Club",
-      "DESCRIPTION": "<p>Uno dei nostri campi più ricercati, il Club Court, si distingue come un'opzione ideale per coloro che cercano una qualità superiore e una durata eccezionale. Con pilastri alti 3 metri, questo campo è progettato e realizzato dal reparto di ingegneria di Portico Sport per fornire un ambiente ottimale per la pratica del padel di alto livello, garantendo i più alti standard di qualità. Se stai cercando un campo da padel che combini durata e resistenza, il Club Court è un'ottima scelta.</p>",
-      "URL": "https://porticosport.com/en/courts-club",
+      "TITLE": "<span>Club</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability. With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
+      "LITTLE_DESCRIPTION": "<p>You can move padel in one of our most sought-after courts.</p>",
+      "NAME": "Club court",
+      "URL": {
+        "label": "More about club court",
+        "href": "/courts/club"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Club Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/club/club-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/club-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club"
+        "imgAlt": "Club padel court"
       },{
         "id": "slide-2",
         "src": "/courts/club-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club"
+        "imgAlt": "Club padel court"
       },{
         "id": "slide-3",
         "src": "/courts/club-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club"
+        "imgAlt": "Club padel court"
       }]
     },
     "COURT5": {
-      "TITLE": "Club Plus",
-      "DESCRIPTION": "<p>Il Club Plus Court è un'evoluzione del nostro Club Court. Questo campo migliorato mantiene la stessa qualità premium, offrendo una maggiore durata grazie alle sue strutture superiori progettate dal reparto di ingegneria di Portico Sport. Queste strutture sono progettate per resistere a forti raffiche di vento e condizioni meteorologiche avverse. Nel Club Plus Court troverai una durata integrata senza soluzione di continuità e un'elevata resistenza per un'esperienza di pratica del padel senza precedenti.</p>",
-      "URL": "https://porticosport.com/en/club-plus-courts",
+      "TITLE": "<span>Club Plus</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>The Club Plus Court is an evolution of our Club Court. This enhanced court maintains the same premium quality while providing increased durability, thanks to its superior structures designed by Portico Sport's engineering department. These structures are built to withstand high wind gusts and adverse weather conditions. In the Club Plus Court, you'll find seamlessly integrated durability and high resistance for an unparalleled padel practice experience.</p>",
+      "LITTLE_DESCRIPTION": "<p>You can enjoy padel in the evolution of our Club Court.</p>",
+      "NAME": "Club Plus court",
+      "URL": {
+        "label": "More about club plus court",
+        "href": "/courts/club-plus"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Club Plus Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/club-plus/club-plus-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/club-plus-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club Plus"
+        "imgAlt": "Club plus padel court"
       },{
         "id": "slide-2",
         "src": "/courts/club-plus-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club Plus"
+        "imgAlt": "Club plus padel court"
       },{
         "id": "slide-3",
         "src": "/courts/club-plus-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club Plus"
+        "imgAlt": "Club plus padel court"
       },{
         "id": "slide-4",
         "src": "/courts/club-plus-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Club Plus"
+        "imgAlt": "Club plus padel court"
       }]
     },
     "COURT6": {
-      "TITLE": "Force 80",
-      "DESCRIPTION": "<p>Il nostro campo Force 80 si distingue come uno dei campi da padel più resistenti sul mercato. Progettato dagli ingegneri di Portico Sport, la struttura di questo campo presenta un design superiore di contrafforti e un sistema di ancoraggio speciale, consentendogli di resistere a venti fino a 80 m/s. La combinazione del suo design originale con materiali di alta qualità lo rende il campo più robusto e durevole, ideale per aree con condizioni meteorologiche estremamente avverse. Se desideri goderti il padel indipendentemente dalle condizioni meteorologiche avverse, il campo Force 80 è un'ottima scelta.</p>",
-      "URL": "https://porticosport.com/en/force-80-court",
+      "TITLE": "<span>Force 80</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>Our Force 80 court stands out as one of the most resilient padel courts on the market. Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s. The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions. If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.</p>",
+      "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
+      "NAME": "Force 80 court",
+      "URL": {
+        "label": "More about Force 80",
+        "href": "/courts/force-80"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Force 80 Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/force-80-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Force 80"
+        "imgAlt": "Force 80 padel court"
       },{
         "id": "slide-2",
         "src": "/courts/force-80-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Force 80"
+        "imgAlt": "Force 80 padel court"
       },{
         "id": "slide-3",
         "src": "/courts/force-80-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Force 80"
+        "imgAlt": "Force 80 padel court"
       },{
         "id": "slide-4",
         "src": "/courts/force-80-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Force 80"
+        "imgAlt": "Force 80 padel court"
       }]
     },
     "COURT7": {
-      "TITLE": "Single",
-      "DESCRIPTION": "<p>Il nostro campo Singolo è perfetto per un giocatore solitario ed è stato progettato appositamente dal reparto di ingegneria di Portico Sport. Con dimensioni più piccole del solito (20x6m), questo campo è destinato a offrire un'ottima esperienza di gioco per coloro che giocano da soli, sia per allenamento, divertimento o per mancanza di un partner per lo sport. Nonostante le sue dimensioni ridotte, presenta la stessa qualità premium e una durata eccezionale come il resto dei nostri campi, rendendolo una scelta ideale per i club che desiderano ampliare la loro offerta e offrire questo campo speciale.</p>",
-      "URL": "https://porticosport.com/en/single-court",
+      "TITLE": "<span>Single</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>Our Single Court is perfect for a solo player and is specially designed by Portico Sport's engineering department. With dimensions smaller than usual (20x6m), this court is intended to provide a great playing experience for those who play alone, whether for training, enjoyment, or due to a lack of a partner for the sport. Despite its smaller size, it features the same premium quality and exceptional durability as the rest of our courts, making it a great choice for clubs looking to expand their offerings and provide this special court.</p>",
+      "NAME": "Single court",
+      "LITTLE_DESCRIPTION": "<p>Same strength in smaller dimensions for solo players.</p>",
+      "URL": {
+        "label": "More about single court",
+        "href": "/courts/single"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Single Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/single/single-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/single-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Single"
+        "imgAlt": "Single court"
       },{
         "id": "slide-2",
         "src": "/courts/single-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Single"
+        "imgAlt": "Single court"
       },{
         "id": "slide-3",
         "src": "/courts/single-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Single"
+        "imgAlt": "Single court"
       }]
     },
     "COURT8": {
-      "TITLE": "Mini",
-      "DESCRIPTION": "<p>Il nostro Mini Court è un campo da padel di dimensioni ridotte (10,47x5,47m) con un'altezza ridotta (1m), ideale per spazi più piccoli, allenamenti a casa o giocatori più giovani. Progettato dal reparto di ingegneria di Portico Sport, questo campo è realizzato con gli stessi materiali di alta qualità degli altri nostri campi da padel. Nonostante sia il campo più piccolo, offre la stessa stabilità, durata e resistenza. Se stai cercando un campo da padel compatto, il Mini Court è un'ottima scelta.</p>",
-      "URL": "https://porticosport.com/en/mini-court",
+      "TITLE": "<span>Mini</span> <span class=\"text-white\">court</span>",
+      "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players. Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts. Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
+      "NAME": "Mini court",
+      "LITTLE_DESCRIPTION": "<p>Move our reduced-size padel court that fits anywhere.</p>",
+      "URL": {
+        "label": "More about mini court",
+        "href": "/courts/mini"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition for a Mini Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+        "IMAGE": "/courts-detail/mini/mini-perspective.webp"
+      },
       "IMAGES": [{
         "id": "slide-1",
         "src": "/courts/mini-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Mini"
+        "imgAlt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-2",
         "src": "/courts/mini-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Mini"
+        "imgAlt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-3",
         "src": "/courts/mini-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Campo Mini"
+        "imgAlt": "Mobile court patented by Portico Sport"
       }]
     }
   },
@@ -721,19 +806,41 @@
       "SUBTITLE": "Per Portico Sport, è altrettanto importante offrire un servizio post-vendita eccezionale quanto rafforzare e coltivare relazioni a lungo termine con tutti i nostri clienti."
     }
   },
-  "CONTACT": {
-    "TITLE": "Contattaci",
-    "SUBTITLE": "Siamo qui per aiutarti",
+  "CONTACT_FORM": {
+    "TITLE": "Contact us",
+    "SUBTITLE": "We are here to help you",
     "FORM": {
-      "NAME": "Nome Completo",
-      "EMAIL": "Indirizzo Email",
-      "EMAIL_PLACEHOLDER": "esempio@dominio.com",
-      "PHONE": "Telefono",
-      "PHONE_PLACEHOLDER": "Inserisci il tuo numero di telefono",
-      "SUBJECT": "Oggetto",
-      "SUBJECT_PLACEHOLDER": "Inserisci il tuo oggetto",
-      "MESSAGE": "Messaggio",
-      "SEND": "Invia"
+      "NAME": {
+        "ID": "name",
+        "LABEL": "Full Name",
+        "PLACEHOLDER": "Enter your full name"
+      },
+      "EMAIL": {
+        "ID": "email",
+        "LABEL": "Email Address",
+        "PLACEHOLDER": "example@domain.com"
+      },
+      "COUNTRY": {
+        "ID": "country",
+        "LABEL": "Country",
+        "PLACEHOLDER": "Select your country"
+      },
+      "PHONE": {
+        "ID": "phone",
+        "LABEL": "Phone",
+        "PLACEHOLDER": "Enter your phone number"
+      },
+      "SUBJECT": {
+        "ID": "subject",
+        "LABEL": "Subject",
+        "PLACEHOLDER": "Enter your subject"
+      },
+      "MESSAGE": {
+        "ID": "message",
+        "LABEL": "Message",
+        "PLACEHOLDER": "Enter your message"
+      },
+      "SEND": "Send"
     }
   },
   "CANOPIES_SECTION": {
