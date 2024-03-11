@@ -138,6 +138,28 @@ const { description, title, currentLocale, language, bgImage, bgClass } = Astro.
         animation-range: 0 500px;
       }
 
+      .bg-main::before {
+        content: "";
+        @apply w-full;
+        @apply h-20;
+        background: linear-gradient(
+          180deg,
+          rgba(21, 26, 54, 0) 0%,
+          rgba(21, 26, 54, 0.7) 34%,
+          rgba(21, 26, 54, 1) 68%,
+          rgba(21, 26, 54, 1) 100%
+        );
+        position: absolute;
+        @apply -top-20;
+      }
+
+      @media (min-width: 1024px) {
+        .bg-main::before {
+          @apply h-64;
+          @apply -top-64;
+        }
+      }
+
       /* #loading {
         position: fixed;
         z-index: 999;
