@@ -84,7 +84,7 @@
       "URL": "/padel-courts",
       "MOBILE": {
         "LABEL": "Mobile padel court",
-        "URL": "/courts/mobile"
+        "URL": "/padel-courts/mobile"
       }
     },
     "PROJECTS": {
@@ -353,7 +353,7 @@
       "CONTACT_BUTTON": "I want a Mobile Court",
       "URL": {
         "label": "More about mobile",
-        "href": "/courts/mobile"
+        "href": "/padel-courts/mobile"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
@@ -517,7 +517,7 @@
       "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
       "URL": {
         "label": "More about panoramic flow court",
-        "href": "/courts/panoramic-flow"
+        "href": "/padel-courts/panoramic-flow"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Mobile Court",
@@ -552,7 +552,7 @@
       "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
       "URL": {
         "label": "More about panoramic court",
-        "href": "/courts/panoramic"
+        "href": "/padel-courts/panoramic"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Panoramic Court",
@@ -593,7 +593,7 @@
       "NAME": "Club court",
       "URL": {
         "label": "More about club court",
-        "href": "/courts/club"
+        "href": "/padel-courts/club"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Club Court",
@@ -628,7 +628,7 @@
       "NAME": "Club Plus court",
       "URL": {
         "label": "More about club plus court",
-        "href": "/courts/club-plus"
+        "href": "/padel-courts/club-plus"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Club Plus Court",
@@ -669,7 +669,7 @@
       "NAME": "Force 80 court",
       "URL": {
         "label": "More about Force 80",
-        "href": "/courts/force-80"
+        "href": "/padel-courts/force-80"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Force 80 Court",
@@ -710,7 +710,7 @@
       "LITTLE_DESCRIPTION": "<p>Same strength in smaller dimensions for solo players.</p>",
       "URL": {
         "label": "More about single court",
-        "href": "/courts/single"
+        "href": "/padel-courts/single"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Single Court",
@@ -745,7 +745,7 @@
       "LITTLE_DESCRIPTION": "<p>Move our reduced-size padel court that fits anywhere.</p>",
       "URL": {
         "label": "More about mini court",
-        "href": "/courts/mini"
+        "href": "/padel-courts/mini"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Mini Court",
