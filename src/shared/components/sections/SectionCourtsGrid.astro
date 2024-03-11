@@ -1,0 +1,67 @@
+---
+import { getI18N } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import { type CourtItem } from "@/types/types";
+import { courtsGrid } from "@/shared/i18n/constants";
+
+interface Props {
+  language: string;
+  courts?: CourtItem[];
+  heading?: string;
+  subheading?: string;
+}
+
+const { language, courts, heading, subheading } = Astro.props;
+const i18n = getI18N({ language });
+
+const courtsToUse = courts || courtsGrid(i18n)
+---
+
+<Section
+  heading={heading}
+  subheading={subheading}
+>
+  <div class="compatible-courts-wrapper grid gap-10">
+    {
+      courtsToUse.map(({ title, description, url, image }) => (
+        <a
+          href={url}
+          class="compatible-court flex flex-col items-center rounded-xl bg-black/70 border-primary border relative h-80 outline-none"
+        >
+          <div class="box-shadow absolute inset-0 rounded-xl border-primary border" />
+          <h2
+            class="text-2xl text-balance p-4 text-center text-secondary font-bold uppercase"
+            set:html={title}
+          />
+          <div
+            class="text-white text-center font-thin text-pretty px-4"
+            set:html={description}
+          />
+          {
+            image && (
+              <img
+                src={image.src}
+                alt={image.alt}
+                class="lg:w-80 w-60 absolute -right-4 -bottom-5 lg:-right-8 lg:-bottom-10"
+              />
+            )
+          }
+        </a>
+      ))
+    }
+  </div>
+</Section>
+
+<style>
+  .compatible-courts-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .compatible-court .box-shadow, .compatible-court img {
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .compatible-court:focus .box-shadow, .compatible-court:focus img, .compatible-court:hover img, .compatible-court:hover .box-shadow {
+    filter: drop-shadow(1px 1px 5px rgb(183 228 253));
+  }
+</style>

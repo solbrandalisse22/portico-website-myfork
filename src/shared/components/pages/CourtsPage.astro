@@ -1,0 +1,41 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+---
+
+<Layout
+  title={i18n.CANOPIES.TITLE}
+  description={i18n.CANOPIES.SUBTITLE}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/heros/hero-courts.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4"
+    >
+      <span class="uppercase text-balance">{i18n.COURTS.SUBTITLE}</span
+      >
+      <h1
+        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
+        set:html={i18n.COURTS.TITLE}
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+          { label: i18n.ROUTES.COURTS.LABEL, href: i18n.ROUTES.COURTS.URL },
+        ]}
+      />
+      <SectionCourtsGrid language={language} />
+    </div>
+  </main>
+</Layout>
