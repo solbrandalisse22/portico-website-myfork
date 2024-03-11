@@ -14,14 +14,14 @@ const { image, subtitle, title, text, buttonUrl, buttonText } = Astro.props;
 ---
 
 <section
-  class="relative w-full max-w-[100vw] h-[500px]"
+  class="relative w-full max-w-[100vw] h-[600px]"
 >
   <div
     class="absolute inset-0 h-full justify-center z-10 m-auto flex flex-col items-center w-full"
   >
     <slot>
       <div
-        class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col"
+        class="absolute z-10 animate-fade-up flex justify-center items-center gap-4 lg:gap-8 flex-col"
       >
         {
           subtitle ? (
@@ -36,7 +36,7 @@ const { image, subtitle, title, text, buttonUrl, buttonText } = Astro.props;
           ) : null
         }
         {
-          text ? (<div class="subtitle text-xl lg:text-2xl text-center px-4 text-balance mb-0" set:html={text} />) : null
+          text ? (<div class="subtitle text-base lg:text-2xl text-center px-4 text-balance mb-0" set:html={text} />) : null
         }
         {
           buttonUrl && buttonText ? (

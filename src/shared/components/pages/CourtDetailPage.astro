@@ -2,15 +2,17 @@
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro";
 import SectionInformation from "@/shared/components/sections/SectionInformation.astro";
+import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Button from "@/shared/components/Button.astro";
 import Section from "@/shared/components/Section.astro";
-import ContactForm from "@/shared/components/ContactForm.astro";
+import ContactForm from "@/shared/components/forms/ContactForm";
 import Video from "@/shared/components/Video.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
 import { type Photo, type FeatureCourt, type FirstSectionCourt, type AdvantageSectionCourt, type InformationSection, type ContactSection, type GallerySection } from "@/types/types";
 import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
+import { courtsGrid } from "@/shared/i18n/constants";
 
 interface Props {
   language: string;
@@ -31,6 +33,7 @@ const isAdvantage = (locale as { ADVANTAGE_SECTION?: AdvantageSectionCourt }).AD
 const isSectionInformation = (locale as { INFORMATION_SECTION?: InformationSection }).INFORMATION_SECTION;
 const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLERY_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
+const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 
 if (isFeature) {
   isFeature.IMAGES.forEach((image: Photo) => {
@@ -41,6 +44,8 @@ if (isFeature) {
     });
   });
 }
+
+const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase().includes('mob') && !item.title.includes('80'));
 
 ---
 
@@ -55,7 +60,7 @@ if (isFeature) {
     video ? (
       <Video language={language} video={video} classVideo="cp-elipse">
         <Section className="absolute z-10 animate-fade-up flex flex-col xl:flex-row max-w-none">
-          <div class="p-16 flex flex-col gap-8 flex-1 justify-center max-w-[1400]">
+          <div class="lg:p-16 flex flex-col gap-8 flex-1 justify-center max-w-[1400]">
             <header class="text-center">
               <p class="text-lg lg:text-xl text-primary">{locale.SUBTITLE}</p>
               <h1
@@ -64,7 +69,7 @@ if (isFeature) {
               />
             </header>
             <div
-              class="text-white text-center text-lg lg:text-xl font-thin text-pretty"
+              class="text-white text-center text-base lg:text-xl font-thin text-pretty"
               set:html={locale.DESCRIPTION}
             />
           </div>
@@ -73,6 +78,7 @@ if (isFeature) {
               {locale.CONTACT_TITLE_1}
             </h2>
             <ContactForm
+              client:visible
               language={language}
               hiddenSubject
               subject={locale.CONTACT_SUBJECT}
@@ -100,6 +106,23 @@ if (isFeature) {
     {
       isFirstSection ? (<Section heading={isFirstSection.TITLE}>
         <div class="text-center text-2xl text-pretty" set:html={isFirstSection.DESCRIPTION} />
+        <div class="section-renders grid-flow-col-dense items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ">
+          <img
+            src="/courts-detail/mobile/mobile-front.webp"
+            alt="Mobile front"
+            class="front"
+          />
+          <img
+            src="/courts-detail/mobile/mobile-perspective.webp"
+            alt="Mobile perspective"
+            class="perspective"
+          />
+          <img
+            src="/courts-detail/mobile/mobile-top.webp"
+            alt="Mobile top"
+            class="top"
+          />
+        </div>
       </Section>) : null
     }
     {
@@ -189,12 +212,15 @@ if (isFeature) {
     }
     {
       isGallerySection ? (<Gallery
-        id="gallery-canopies"
-        path="canopies"
-        offset={9}
+        id={isGallerySection.ID}
+        path={isGallerySection.PATH}
+        offset={isGallerySection.OFFSET}
         photos={gallery}
         loadMoreText={isGallerySection.BUTTON_TEXT}
       />) : null
+    }
+    {
+      isCourtsSection ? (<SectionCourtsGrid courts={compatibleCourts} heading={isCourtsSection.TITLE} subheading={isCourtsSection.DESCRIPTION} />) : null
     }
     {
       isContactSection ? (<SectionContact
@@ -210,9 +236,6 @@ if (isFeature) {
 </Layout>
 
 <style>
-  .img-structure:hover {
-    filter: drop-shadow(1px 1px 20px rgb(183 228 253));
-  }
 
   ul {
     font-size: 1em;
@@ -222,15 +245,23 @@ if (isFeature) {
     flex: 1;
   }
 
-  .gradient-bg {
-    background: rgb(21, 26, 54);
-    background: linear-gradient(
-      180deg,
-      rgba(21, 26, 54, 0) 9%,
-      rgba(21, 26, 54, 0.7) 26%,
-      rgba(21, 26, 54, 1) 37%,
-      rgba(21, 26, 54, 1) 100%
-    );
+  .section-renders {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+  
+  .front {
+    grid-column: 1 / -1;
+  }
+  
+  
+  .section-renders img {
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .section-renders img:hover {
+    filter: drop-shadow(1px 1px 10px rgb(183 228 253));
   }
 
   @media (min-width: 1280px) {
