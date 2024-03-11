@@ -99,7 +99,6 @@ map.addControl(new ZoomSlider());
 export default function MapProjects() {
   const [countrySelected, setCountry] = useState() as [Country, any];
   const [projectSelected, setProject] = useState() as [Project, any];
-  const [loading, setLoading] = useState<boolean>(true);
   const device = useDeviceDetection()
   const mapRef = useRef<HTMLDivElement>(null);
   const popupRef = useRef<HTMLDivElement>(null);
@@ -197,14 +196,6 @@ export default function MapProjects() {
         selectInteraction.getFeatures().clear();
       }
     });
-
-    map.on('loadstart', function () {
-      setLoading(true)
-    });
-
-    map.on('loadend', function () {
-      setLoading(false)
-    });
   }, []);
 
   const isDisabledBack = projectSelected && countrySelected?.projects?.findIndex(({ projectName }) => projectName === projectSelected.projectName) === 0;
@@ -215,12 +206,9 @@ export default function MapProjects() {
       <div
         id="map"
         ref={mapRef}
-        className={`map relative w-full ${device === 'Mobile' ? 'h-[300px]' : ''} ${device === 'Tablet' ? 'h-[400px]' : ''} ${device === 'Desktop' ? 'h-[600px]' : ''}`}
+        className={`map relative w-full ${device === 'Mobile' ? 'h-[500px]' : ''} ${device === 'Tablet' ? 'h-[800px]' : ''} ${device === 'Desktop' ? 'h-[1000px]' : ''}`}
         tabindex={0}
       />
-      {
-        loading ? 'loading...' : null
-      }
       {countrySelected && (
         <div
           onMouseDown={closePopoup}
