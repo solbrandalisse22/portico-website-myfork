@@ -93,42 +93,51 @@ const {
 </script>
 
 <script define:vars={{ photos, offset, path }}>
-  document.addEventListener("astro:page-load", () => {
-    const $button = document.querySelector("#load-more");
-    // clone first element of gallery
-    const $first = document.querySelector("#gallery a:first-child");
+  class GalleryImages extends HTMLElement {
+    constructor() {
+      super();
 
-    $button?.addEventListener("click", async (e) => {
-      $button.remove();
-      e.preventDefault();
-      const html = photos
-        .slice(offset)
-        .map((img, index) => {
-          const imgIndex = index + offset + 1;
-          const $clone = $first?.cloneNode(true);
+      document.addEventListener("astro:page-load", () => {
+        const $button = this.querySelector("#load-more");
+        // clone first element of gallery
+        const $first = this.querySelector("#gallery a:first-child");
 
-          $clone.setAttribute("data-pswp-width", img.width);
-          $clone.setAttribute("data-pswp-height", img.height);
-          $clone.setAttribute("href", `/${path}/${img.src}`);
-          $clone.classList.add("animate-fade-up");
-          $clone.classList.add("animate-delay-300");
-          $clone.classList.add("opacity-0");
-          $clone
-            .querySelector("img:first-child")
-            .setAttribute("src", `/${path}/thumbnails/${img.src}`);
-          $clone
-            .querySelector("img:first-child")
-            .closest("img")
-            .setAttribute("src", `/${path}/thumbnails/${img.src}`);
-          $clone.querySelector("span:last-child").innerHTML = img.alt;
-          return $clone?.outerHTML;
-        })
-        .join("");
+        $button?.addEventListener("click", async (e) => {
+          $button.remove();
+          e.preventDefault();
+          const html = photos
+            .slice(offset)
+            .map((img, index) => {
+              const imgIndex = index + offset + 1;
+              const $clone = $first?.cloneNode(true);
 
-      document.querySelector("#gallery")?.insertAdjacentHTML("beforeend", html);
-      document.querySelector("masonry-layout").scheduleLayout();
-    });
-  });
+              $clone.setAttribute("data-pswp-width", img.width);
+              $clone.setAttribute("data-pswp-height", img.height);
+              $clone.setAttribute("href", `/${path}/${img.src}`);
+              $clone.classList.add("animate-fade-up");
+              $clone.classList.add("animate-delay-300");
+              $clone.classList.add("opacity-0");
+              $clone
+                .querySelector("img:first-child")
+                .setAttribute("src", `/${path}/thumbnails/${img.src}`);
+              $clone
+                .querySelector("img:first-child")
+                .closest("img")
+                .setAttribute("src", `/${path}/thumbnails/${img.src}`);
+              $clone.querySelector("span:last-child").innerHTML = img.alt;
+              return $clone?.outerHTML;
+            })
+            .join("");
+
+          document
+            .querySelector("#gallery")
+            ?.insertAdjacentHTML("beforeend", html);
+          this.querySelector("masonry-layout").scheduleLayout();
+        });
+      });
+    }
+  }
+  customElements.define("gallery-images", GalleryImages);
 </script>
 
 <style is:global>
