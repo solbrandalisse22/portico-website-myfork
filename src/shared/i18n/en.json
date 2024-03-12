@@ -357,45 +357,47 @@
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
-        "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>"
+        "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/mobile/mobile-front.webp",
+            "alt": "Mobile court front view"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/mobile/mobile-perspective.webp",
+            "alt": "Mobile court perspective view"
+          },
+          "TOP": {
+            "src": "/courts-detail/mobile/mobile-top.webp",
+            "alt": "Mobile court top view"
+          }
+        }
       },
       "FEATURE_SECTION": {
         "TITLE": "Remarkable features",
         "IMAGES": [{
           "id": "slide-1",
           "src": "/courts-detail/mobile/render-1.webp",
-          "width": 574,
-          "height": 323,
           "imgAlt": "Exterior of a mobile court render in 3D"
         },{
           "id": "slide-2",
           "src": "/courts-detail/mobile/render-2.webp",
-          "width": 574,
-          "height": 323,
           "imgAlt": "Interior of a mobile court render in 3D"
         },{
           "id": "slide-3",
           "src": "/courts-detail/mobile/render-3.webp",
-          "width": 574,
-          "height": 323,
           "alt": "Exterior of a mobile court render in 3D"
         },{
           "id": "slide-4",
           "src": "/courts-detail/mobile/render-4.webp",
-          "width": 574,
-          "height": 323,
           "imgAlt": "Interior of a mobile court render in 3D"
         },{
           "id": "slide-5",
           "src": "/courts-detail/mobile/render-5.webp",
-          "width": 574,
-          "height": 323,
           "imgAlt": "Exterior of a mobile court render in 3D"
         },{
           "id": "slide-6",
           "src": "/courts-detail/mobile/render-6.webp",
-          "width": 574,
-          "height": 323,
           "alt": "Interior of a mobile court render in 3D"
         }],
         "LIST": [
@@ -441,43 +443,6 @@
         "ID": "gallery",
         "PATH": "courts-detail/mobile/gallery",
         "OFFSET": 12,
-        "IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts-detail/mobile/mobile-gallery-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-2",
-          "src": "/courts-detail/mobile/mobile-gallery-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-3",
-          "src": "/courts-detail/mobile/mobile-gallery-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-4",
-          "src": "/courts-detail/mobile/mobile-gallery-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-5",
-          "src": "/courts-detail/mobile/mobile-gallery-05.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-6",
-          "src": "/courts-detail/mobile/mobile-gallery-06.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        }],
         "BUTTON_TEXT": "Discover more images"
       },
       "COURTS_SECTION": {
@@ -519,13 +484,109 @@
         "label": "More about panoramic flow court",
         "href": "/padel-courts/panoramic-flow"
       },
+      "FIRST_SECTION": {
+        "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
+        "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/panoramic-flow/panoramic-flow-front.webp",
+            "alt": "Panoramic flow court front view"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp",
+            "alt": "Panoramic flow court perspective view"
+          },
+          "TOP": {
+            "src": "/courts-detail/panoramic-flow/panoramic-flow-top.webp",
+            "alt": "Panoramic court top view"
+          }
+        }
+      },
+      "FEATURE_SECTION": {
+        "TITLE": "Remarkable features",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/panoramic-flow/render-1.webp",
+          "imgAlt": "Exterior of panoramic flow court render in 3D"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/panoramic-flow/render-2.webp",
+          "imgAlt": "Interior of a panoramics flow court render in 3D"
+        },{
+          "id": "slide-3",
+          "src": "/courts-detail/panoramic-flow/render-3.webp",
+          "alt": "Exterior of a panoramic flow court render in 3D"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/panoramic-flow/render-4.webp",
+          "imgAlt": "Interior of a panoramics flow court render in 3D"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/panoramic-flow/render-5.webp",
+          "imgAlt": "Exterior of a panoramic flow court render in 3D"
+        },{
+          "id": "slide-6",
+          "src": "/courts-detail/panoramic-flow/render-6.webp",
+          "imgAlt": "Interior of a panoramics flow court render in 3D"
+        },{
+          "id": "slide-7",
+          "src": "/courts-detail/panoramic-flow/render-7.webp",
+          "imgAlt": "Exterior of a panoramic flow court render in 3D"
+        },{
+          "id": "slide-8",
+          "src": "/courts-detail/panoramic-flow/render-8.webp",
+          "imgAlt": "Interior of a panoramics flow court render in 3D"
+        }],
+        "LIST": [
+          "Withstand wind <strong>speed of 114.12 km/h</strong>.",
+          "Suitable for both indoor and outdoor installations.",
+          "Same premium quality as a permanent court.",
+          "Perfect integration into any environment.",
+          "Crafted with premium materials for maximum strength and durability."
+        ]
+      },
+      "ADVANTAGE_SECTION": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/panoramic-flow/panoramic-flow-advantege-section.webp",
+          "alt": "Panoramic court"
+        },
+        "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
+        "ADVANTAGES": [
+          "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
+          "You’ll save on expenses as our courts do not require extensive floor repairs.",
+          "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
+          "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
+          "Rest assured with our 10-year warranty on the structural integrity of our courts."
+        ]
+      },
+      "INFORMATION_SECTION": {
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/panoramic-flow/panoramic-flow-section-information-court.webp",
+          "alt": "Panoramic section information court"
+        },
+        "TITLE": "Experience the excellence of our premium quality court structure",
+        "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
+        "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
+        "BUTTON": {
+          "label": "I want a new padel court",
+          "href": "#contact"
+        }
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/mobile/gallery",
+        "OFFSET": 12,
+        "BUTTON_TEXT": "Discover more images"
+      },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Mobile Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp"
       },
-      "IMAGES": [{
+      "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-flow-court-01.webp",
         "width": 574,
@@ -546,13 +607,130 @@
       }]
     },
     "COURT3": {
+      "SEO_TITLE": "Panoramic Court - Padel Court",
+      "SEO_DESCRIPTION":"The panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed, this court model features high-strength glass walls that provide a panoramic view of the surroundings",
       "TITLE": "<span>Panoramic</span> <span class=\"text-white\">court</span>",
       "DESCRIPTION": "<p>Our panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court. Due to its visual appeal, this court is increasingly sought-after by customers aiming to offer a distinctive gaming experience to all their players.</p>",
       "NAME": "Panoramic court",
+      "SUBTITLE": "Introducing the latest innovation in padel court technology",
       "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
+      "ID": "panoramic-court",
+      "DETAIL_TITLE": "<span class=\"block\">Panoramic</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \"> court</span>",
+      "MORE_INFO_URL": "https://porticosport.com/en/panoramic-courts",
+      "CONTACT_TITLE_1": "Do you want a Panoramic Court?",
+      "CONTACT_SUBJECT": "New petition for a Panoramic Court",
+      "CONTACT_BUTTON": "I want a Panoramic Court",
       "URL": {
         "label": "More about panoramic court",
         "href": "/padel-courts/panoramic"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
+        "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/panoramic/panoramic-front.webp",
+            "alt": "Panoramic court front view"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/panoramic/panoramic-perspective.webp",
+            "alt": "Panoramic court perspective view"
+          },
+          "TOP": {
+            "src": "/courts-detail/panoramic/panoramic-top.webp",
+            "alt": "Panoramic court top view"
+          }
+        }
+      },
+      "FEATURE_SECTION": {
+        "TITLE": "Remarkable features",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/panoramic/render-1.webp",
+          "imgAlt": "Exterior of panoramic court render in 3D"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/panoramic/render-2.webp",
+          "imgAlt": "Interior of a panoramics court render in 3D"
+        },{
+          "id": "slide-3",
+          "src": "/courts-detail/panoramic/render-3.webp",
+          "alt": "Exterior of a panoramic court render in 3D"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/panoramic/render-4.webp",
+          "imgAlt": "Interior of a panoramics court render in 3D"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/panoramic/render-5.webp",
+          "imgAlt": "Exterior of a panoramic court render in 3D"
+        },{
+          "id": "slide-6",
+          "src": "/courts-detail/panoramic/render-6.webp",
+          "imgAlt": "Interior of a panoramics court render in 3D"
+        },{
+          "id": "slide-7",
+          "src": "/courts-detail/panoramic/render-7.webp",
+          "imgAlt": "Exterior of a panoramic court render in 3D"
+        },{
+          "id": "slide-8",
+          "src": "/courts-detail/panoramic/render-8.webp",
+          "imgAlt": "Interior of a panoramics court render in 3D"
+        },{
+          "id": "slide-9",
+          "src": "/courts-detail/panoramic/render-9.webp",
+          "imgAlt": "Interior of a panoramics court render in 3D"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/panoramic/render-10.webp",
+          "imgAlt": "Interior of a panoramics court render in 3D"
+        }],
+        "LIST": [
+          "Withstand wind <strong>speed of 114.12 km/h</strong>.",
+          "Suitable for both indoor and outdoor installations.",
+          "Same premium quality as a permanent court.",
+          "Perfect integration into any environment.",
+          "Crafted with premium materials for maximum strength and durability."
+        ]
+      },
+      "ADVANTAGE_SECTION": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/panoramic/panoramic-advantege-section.webp",
+          "alt": "Panoramic court"
+        },
+        "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
+        "ADVANTAGES": [
+          "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
+          "You’ll save on expenses as our courts do not require extensive floor repairs.",
+          "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
+          "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
+          "Rest assured with our 10-year warranty on the structural integrity of our courts."
+        ]
+      },
+      "INFORMATION_SECTION": {
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/panoramic/panoramic-section-information-court.webp",
+          "alt": "Panoramic section information court"
+        },
+        "TITLE": "Experience the excellence of our premium quality court structure",
+        "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
+        "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
+        "BUTTON": {
+          "label": "I want a new padel court",
+          "href": "#contact"
+        }
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/mobile/gallery",
+        "OFFSET": 12,
+        "BUTTON_TEXT": "Discover more images"
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Discover other Padel Courts",
+        "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
       },
       "CONTACT_SECTION": {
         "SUBJECT": "New petition for a Panoramic Court",
@@ -560,7 +738,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
       },
-      "IMAGES": [{
+      "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-court-01.webp",
         "width": 574,
