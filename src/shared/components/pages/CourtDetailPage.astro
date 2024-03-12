@@ -69,24 +69,12 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
               />
             </header>
             <div
-              class="text-white text-center text-base lg:text-xl font-thin text-pretty"
+              class="text-white text-center text-base lg:text-xl font-thin text-pretty px-3 md:px-6 lg:px-24 xl:px-48"
               set:html={locale.DESCRIPTION}
             />
           </div>
-          <div class="bg-black/70 xl:flex flex-col flex-1 rounded-xl hidden p-6 border border-primary">
-            <h2 class="text-base text-center md:text-xl lg:text-3xl mb-4 text-balance">
-              {locale.CONTACT_TITLE_1}
-            </h2>
-            <ContactForm
-              client:visible
-              language={language}
-              hiddenSubject
-              subject={locale.CONTACT_SUBJECT}
-              sendText={locale.CONTACT_BUTTON}
-            />
-          </div>
           <Button target="_self" class="xl:hidden self-center" url="#contact">
-            Pedir información
+            {locale.CONTACT_BUTTON}
           </Button>
         </Section>
       </Video>
@@ -108,18 +96,18 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
         <div class="text-center text-2xl text-pretty" set:html={isFirstSection.DESCRIPTION} />
         <div class="section-renders grid-flow-col-dense items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ">
           <img
-            src="/courts-detail/mobile/mobile-front.webp"
-            alt="Mobile front"
+            src={isFirstSection.IMAGES.FRONT.src}
+            alt={isFirstSection.IMAGES.FRONT.alt}
             class="front"
           />
           <img
-            src="/courts-detail/mobile/mobile-perspective.webp"
-            alt="Mobile perspective"
+            src={isFirstSection.IMAGES.PERSPECTIVE.src}
+            alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
             class="perspective"
           />
           <img
-            src="/courts-detail/mobile/mobile-top.webp"
-            alt="Mobile top"
+            src={isFirstSection.IMAGES.TOP.src}
+            alt={isFirstSection.IMAGES.TOP.alt}
             class="top"
           />
         </div>
