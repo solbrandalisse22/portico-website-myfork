@@ -30,7 +30,7 @@ const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
 
-const response = await fetch(`https://old.porticosport.es/wp-json/wp/v2/posts?categories=${category}&per_page=4&_embed`)
+const response = await fetch(`https://porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=4&_embed`)
 const posts = await response.json();
 ---
 
