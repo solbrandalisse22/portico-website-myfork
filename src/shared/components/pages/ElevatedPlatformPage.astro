@@ -1,0 +1,230 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro";
+import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Section from "@/shared/components/Section.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import { courtsGrid } from "@/shared/i18n/constants";
+import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
+
+interface Props {
+  language: string;
+}
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase().includes('mob') && !item.title.includes('80'));
+
+---
+
+<Layout
+  title={i18n.ELEVATED_PLATFORM.SEO_TITLE}
+  description={i18n.ELEVATED_PLATFORM.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/heros/background-elevated-projects.webp"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <span class="uppercase text-balance"
+        >{i18n.ELEVATED_PLATFORM.SUBTITLE}</span
+      >
+      <h1
+        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
+        set:html={i18n.ELEVATED_PLATFORM.TITLE}
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
+          {
+            label: i18n.ROUTES.ELEVATED_PLATFORM.LABEL,
+            href: i18n.ROUTES.ELEVATED_PLATFORM.URL,
+          },
+        ]}
+      />
+      <Section
+        heading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.TITLE}
+        subheading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.SUBTITLE}
+      >
+        <div
+          class="text-center text-2xl font-thin text-pretty"
+          set:html={i18n.ELEVATED_PLATFORM.FIRST_SECTION.DESCRIPTION}
+        />
+      </Section>
+      <Section
+        className="flex flex-col max-w-none my-14 p-0 lg:mb-0"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="relative w-full flex-1">
+            <img
+              loading="lazy"
+              draggable={false}
+              id={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.id}
+              src={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.src}
+              alt={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.alt}
+              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/12]"
+            />
+          </div>
+          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+            <h2
+              class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase" set:html={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE}
+            />
+            <h3
+              class="text-xl lg:text-2xl text-balance font-thin text-primary mb-8 uppercase"
+            >
+              {i18n.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE}
+            </h3>
+            <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
+              {
+                i18n.ELEVATED_PLATFORM.FEATURE_SECTION.LIST.map((item: string) => (
+                  <li class="flex gap-x-6 items-center">
+                    <CheckIcon className="w-8 h-8" />
+                    <span set:html={item} />
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        </div>
+      </Section>
+      <Section
+          className="flex flex-col max-w-none p-0 lg:mb-0"
+          style="padding: 0; margin-left: 0; margin-right: 0;"
+        >
+        <div class="flex flex-col-reverse xl:flex-row max-w-none">
+          <div class="w-full py-8 px-4 flex-1 md:px-8">
+            <h2
+              class="text-3xl text-balance mb-6 text-secondary font-bold uppercase"
+              set:html={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.TITLE}
+            />
+            <p
+              class="text-xl font-thin text-pretty"
+              set:html={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.DESCRIPTION}
+            />
+            <h3
+              class="text-xl lg:text-2xl text-balance font-thin text-primary mb-8 uppercase"
+            >
+              {i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.SUBTITLE}
+            </h3>
+            <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
+              {
+                i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES.map((item: string) => (
+                  <li class="flex gap-x-6 items-center">
+                    <CheckIcon className="w-8 h-8" />
+                    <span set:html={item} />
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+          <div class="relative w-full flex-1">
+            <img
+              loading="lazy"
+              draggable={false}
+              id={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.id}
+              src={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.src}
+              alt={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.alt}
+              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/15] image-reverse"
+            />
+          </div>
+        </div>
+      </Section>
+      <Section
+        className="flex flex-col max-w-none mb-14 p-0"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="relative w-full flex-1">
+            <img
+              loading="lazy"
+              draggable={false}
+              id={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.id}
+              src={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.src}
+              alt={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.alt}
+              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11]"
+            />
+          </div>
+          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+            <h2
+              class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase" set:html={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TITLE}
+            />
+            <div
+              class="text-xl font-thin text-pretty"
+              set:html={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.DESCRIPTION}
+            />
+            <div class="flex gap-4">
+              {
+                i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TECHNICAL_FEATURES.map((item:string) => (
+                  <div class="p-3 bg-black/70 rounded-xl border border-primary">
+                    {item}
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </Section>
+      <SectionCourtsGrid courts={compatibleCourts} heading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.TITLE} subheading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.DESCRIPTION} />
+      <SectionContact
+        hiddenSubject
+        subject={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.SUBJECT}
+        language={language}
+        bgImage={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.BG_IMAGE}
+      />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  ul {
+    font-size: 1em;
+  }
+
+  ul li span {
+    flex: 1;
+  }
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>

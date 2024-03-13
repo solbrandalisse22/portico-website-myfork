@@ -6,7 +6,7 @@ import ContactForm from "@/shared/components/forms/ContactForm";
 interface Props {
   language: string;
   bgImage: string;
-  image: string;
+  image?: string;
   subject?: string;
   hiddenSubject?: boolean;
 }
@@ -25,6 +25,8 @@ const i18n = getI18N({ language })
       <h2 class="text-3xl text-primary pb-2">{i18n.CONTACT_TITLE}</h2>
       <p>{i18n.CONTACT_SUBTITLE}</p>
     </div>
-    <img src={image} loading="lazy" alt="hexagon court" class="-bottom-10 w-[500px] aspect-video -right-12 absolute hidden lg:block" />
+    {
+      image && <img src={image} loading="lazy" alt="hexagon court" class="-bottom-10 w-[500px] aspect-video -right-12 absolute hidden lg:block" />
+    }
   </div>
 </Section>

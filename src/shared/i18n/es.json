@@ -92,6 +92,11 @@
       "ID": "projects",
       "URL": "/projects"
     },
+    "ELEVATED_PLATFORM": {
+      "LABEL": "Elevated platform",
+      "ID": "elevated-platform",
+      "URL": "/elevated-platform"
+    },
     "FACTORY": {
       "LABEL": "Factory",
       "ID": "our-factory",
@@ -144,6 +149,91 @@
   "MEDIA_KIT_SUBTITLE_2": "FONDOS DE PANTALLA",
   "MEDIA_KIT_SUBTITLE_3": "NOTA DE PRENSA",
   "DOWNLOAD_BUTTON": "DESCARGAR",
+  "ELEVATED_PLATFORM": {
+    "SEO_TITLE": "Elevated Platform - Padel Court",
+    "SEO_DESCRIPTION":"The elevated platform is a patented system designed and engineered by our Engineering department. This system allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the elevated platform is the best choice.",
+    "ID": "elevated-platform",
+    "TITLE": "Elevated Platform",
+    "SUBTITLE": "- Leaders in manufacture and installation of padel courts –",
+    "FIRST_SECTION": {
+      "TITLE": "Your padel court on any terrain",
+      "SUBTITLE": "The perfect solution for you!",
+      "DESCRIPTION": "At Portico Sport, our engineering team has developed an innovative, elevated, modular and removable platform, specifically designed to adapt to any type of terrain.This platform provides a sturdy and reliable foundation for all our court models, enabling clients to establish their padel space irrespective of terrain conditions. Additionally, clients can save on ground preparation expenses and permit acquisition as only a soil test is necessary to place the platform."
+    },
+    "FEATURE_SECTION": {
+      "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Elevate your passion for padel to new heights with</span><br/> <span>our innovative elevated platform!</span>",
+      "SUBTITLE": "Remarkable features",
+      "IMAGE": {
+        "id": "feature-section",
+        "src": "/elevated-platform/elevated-feature-section.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Elevate your passion for padel to new heights"
+      },
+      "LIST": [
+        "Same structural resistance as our Club court model, capable of withstanding wind speeds of 115 km/h (71.5 mph).",
+        "Only a ground report is necessary to place the platform.",
+        "Quick and easy assembly.",
+        "Structural stability to ensure the best playing experience.",
+        "Manufactured with premium steel and components for maximum strength and durability.",
+        "Same 10-year warranty as all our padel courts."
+      ]
+    },
+    "ADVANTAGE_SECTION": {
+      "IMAGE": {
+        "id": "advantage-section",
+        "src": "/elevated-platform/elevated-advantage-section.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Elevated platform patented by Portico Sport"
+      },
+      "TITLE": "Great performance",
+      "DESCRIPTION": "Discover our elevated platform, where versatility and durability come together to offer you an innovative solution in padel court installation. With our adjustable pillar system and unique assembly design, we streamline the process required so you can enjoy your padel court quicker and in a much wider range of different terrains, now the possibilities to where install your padel court are endless!",
+      "SUBTITLE": "The benefits of our innovative elevated platform:",
+      "ADVANTAGES": [
+        "Effortlessly overcomes terrain variations without the need for extensive and costly ground leveling or foundations.",
+        "Save valuable time and efforts.",
+        "Requires simple testing for placement, ensuring a hassle-free installation process.",
+        "Avoids permanent installation pitfalls.",
+        "Same 10-year warranty as all our padel courts."
+      ]
+    },
+    "INFORMATION_SECTION": {
+      "TITLE": "A platform designed to overcome any terrain",
+      "DESCRIPTION": "<p>The Portico Sport elevated platform is a structural solution that adapts to your terrain. Thanks to its adjustable pillar system, it overcomes the terrain limitations that normal padel courts bring with them without affecting the game experience. Its unique design and screwing system allow for quick and easy installation. This means that in no time, your platform will be ready to accommodate to any unevenness of the ground and facilitate the installation of any of our padel courts.</p><p>Our engineering department is at the forefront of the padel courts design and manufacturing industry, which is why each elevated platform undergoes rigorous procedures including seismic analysis, deformation limitation and verification of steel elements according to ASCE 7-SEI 2019 and AISC 360 2016 (LRFD) regulations, guaranteeing safety and quality in every detail to ensure optimal performance and unparalleled stability.</p>",
+      "IMAGE": {
+        "id": "information-section",
+        "src": "/elevated-platform/elevated-information-section.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Elevated platform patented by Portico Sport"
+      },
+      "TECHNICAL_FEATURES": [
+        "Analysis of the limitation of the natural vibration frequency, ensuring that it is not less than 8 Hz, and behaving appropriately in this aspect.",
+        "Dynamic analysis of the structure, with an ASCE 7 seismic spectrum, calculated with a 0.3sec acceleration."
+      ]
+    },
+    "COURTS_SECTION": {
+      "TITLE": "Elevated platform",
+      "DESCRIPTION": "is Compatible with the following Padel Court Models:",
+      "BUTTON": "Discover more",
+      "URL": {
+        "label": "More about courts",
+        "href": "/padel-courts"
+      }
+    },
+    "CONTACT_SECTION": {
+      "TITLE": "Do you want an Elevated Platform?",
+      "SUBTITLE": "Contact us and we will help you",
+      "BUTTON": "I want an Elevated Platform",
+      "CONTACT_SUBJECT": "New petition for an Elevated Platform",
+      "BG_IMAGE": "elevated-platform/elevated-platform-contact-bg.webp"
+    },
+    "URL": {
+      "label": "More about elevated",
+      "href": "elevated-platform"
+    }
+  },
   "COOKIES": {
     "POLICIES": {
       "TITLE": "Cookies policy",
