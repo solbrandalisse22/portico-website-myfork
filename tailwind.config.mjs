@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        tomaso: ["Tomaso", "sans-serif"],
-        jura: ["Jura", "sans-serif"],
+        onest: ["Onest", "sans-serif"],
+        prompt: ["Prompt", "sans-serif"],
       },
       colors: {
         background: "rgb(21 26 54)",
