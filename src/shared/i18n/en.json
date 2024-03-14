@@ -38,7 +38,7 @@
   "PREFOOTER_VIDEO_TITLE": "Visit our factory",
   "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site",
   "CONTACT_TITLE": "REACH OUR EXPERTS",
-  "CONTACT_SUBTITLE": "Don't hesitate to contact our team of experts for more information on padel courts! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!",
+  "CONTACT_DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p>",
   "NEWS": {
     "TITLE": "News",
     "TITLE_ALT": "Our last news",
@@ -53,9 +53,74 @@
     }
   },
   "CANOPIES": {
+    "SEO_TITLE": "High-performance canopies - Padel Court",
+    "SEO_DESCRIPTION":"Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies",
+    "PRETITLE": "Leader in the manufacturing and installation of canopies",
     "TITLE": "High-performance canopies",
     "TITLE_ALT": "High-performance canopies",
-    "SUBTITLE": "Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies",
+    "SUBTITLE": "Innovation, quality and high technology",
+    "SUBSUBTITLE": "Enhances play experience",
+    "DESCRIPTION": "Our canopies grant a significant increase in the long-term usage of the padel courts.",
+    "FIRST_SECTION": {
+      "TITLE": "Sport-Specific Engineering",
+      "DESCRIPTION": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
+      "IMAGE": {
+        "src": "/canopies/section-canopies-01/canopy-structure.png",
+        "alt": "Canopy structure"
+      }
+    },
+    "FEATURE_SECTION": {
+      "TITLE": "Specialized Professional team",
+      "DESCRIPTION": "Our engineers develop construction and installation systems for padel court canopies tailored to the needs of our clients, as well as to the standards and regulations of each country.",
+      "LIST": [
+        "<strong>Reduced heat projection</strong> compared to metal sheets canopies.",
+        "<strong>Reduced shadows and contrasts</strong> compared to opaque materials.",
+        "<strong>Increased brightness</strong> that optimizes the use of artificial lighting.",
+        "<strong>Reduced echo effect</strong> during gameplay.",
+        "<strong>Prevents discoloration of the turf</strong> due to UV rays.",
+        "<strong>Prevents crystal condensation</strong>.",
+        "<strong>Prevents rain from compacting</strong> the sand on the turf.",
+        "<strong>Soften potential expansions and contractions</strong> caused by sunlight on the structure and the turf."
+      ],
+      "LIST_TITLE": "Excellence and experience",
+      "LIST_DESCRIPTION": "We highlight the following features of our canopies:",
+      "IMAGES": [{
+        "id": "image-1",
+        "src": "canopies/section-canopies-01/canopies-section-01.webp",
+        "alt": "Canopies"
+      },
+      {
+        "id": "image-2",
+        "src": "canopies/section-canopies-01/canopies-section-02.webp",
+        "alt": "Canopies"
+      },
+      {
+        "id": "image-3",
+        "src": "canopies/section-canopies-01/canopies-section-03.webp",
+        "alt": "Canopies"
+      },
+      {
+        "id": "image-4",
+        "src": "canopies/section-canopies-01/canopies-section-04.webp",
+        "alt": "Canopies"
+      },
+      {
+        "id": "image-5",
+        "src": "canopies/section-canopies-01/canopies-section-05.webp",
+        "alt": "Canopies"
+      }]
+    },
+    "ADVANTAGE_SECTION": {
+      "TITLE": "Installation of padel canopies",
+      "DESCRIPTION": "<p><strong>PORTICO SPORT has many years of experience in engineering</strong>, and handles the entire construction process, with a team of professionals specialized in every step from <strong>design to manufacturing and installation.</strong></p><p>They are highly aware of the unique nature of each client and manage their projects with the respect and personalized attention that everyone requires. All of this, <strong>guarantees the success</strong> of their work, based on quality, innovation, trust, and experience.</p><p><strong>Manufactured with hot-rolled structural steel profiles</strong> of various dimensions as required by the installation.</p><p><strong>The roofing of the structure</strong> is done with cellular polycarbonate sheets of variable thicknesses as demanded by the project and the situation.</p><p><strong>The material provides the roof with ideal characteristics for the practice of this sport</strong>, tested by high-level players.</p><p>As an option <strong>we offer the possibility of installing side panels</strong> up to a height of 3 meters from the ground, to prevent lateral winds and/or rains that could interfere with the game.</p>",
+      "BUTTON_TEXT": "Discover more canopies"
+    },
+    "CONTACT_SECTION": {
+      "SUBJECT": "I would like to receive more information about the canopies",
+      "BUTTON_TEXT": "I WANT MORE INFORMATION ABOUT CANOPIES",
+      "BG_IMAGE": "canopies/canopies-contact-bg.webp",
+      "IMAGE": "canopies/canopy-contact.webp"
+    },
     "GALLERY": {
       "HEADING": "Sport-Specific Engineering",
       "SUBHEADING": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
@@ -100,7 +165,7 @@
     "FACTORY": {
       "LABEL": "Factory",
       "ID": "our-factory",
-      "URL": "/#our-factory"
+      "URL": "/our-factory"
     },
     "NEWS": {
       "LABEL": "News",
@@ -336,6 +401,73 @@
     "PROJECTS_TITLE": "PROJECTS",
     "PROJECTS_TEXT": "A selection of projects we've turned into reality",
     "BUTTON_TEXT": "Discover more projects"
+  },
+  "FACTORY": {
+    "ID": "our-factory",
+    "SEO_TITLE": "Our Factory - Padel Court",
+    "SEO_DESCRIPTION":"Our factory is the largest and most technologically advanced in the industry. We have a new manufacturing site expanding over 110k sqft. Our factory is equipped with the latest technology and machinery, allowing us to manufacture and install padel courts and canopies worldwide.",
+    "TITLE": "Portico Sport Factory",
+    "SUBTITLE": "The largest padel courts and canopies manufacturing site",
+    "DESCRIPTION": "<p>The company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
+    "FEATURE_SECTION": {
+      "TITLE": "Commitment to excellence",
+      "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
+      "IMAGES": [{
+        "id": "feature-section-1",
+        "src": "/factory/factory-feature-section-01.webp",
+        "alt": "Worker operating in our factory."
+      }, {
+        "id": "feature-section-2",
+        "src": "/factory/factory-feature-section-02.webp",
+        "alt": "Robot operating in our structures"
+      }, {
+        "id": "feature-section-3",
+        "src": "/factory/factory-feature-section-03.webp",
+        "alt": "Robot operating in our structures"
+      }, {
+        "id": "feature-section-4",
+        "src": "/factory/factory-feature-section-04.webp",
+        "alt": "Worker operating in our factory."
+      }, {
+        "id": "feature-section-5",
+        "src": "/factory/factory-feature-section-05.webp",
+        "alt": "Worker operating in our factory."
+      }]
+    },
+    "INFORMATION_SECTION": {
+      "TITLE": "Consolidation",
+      "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
+      "SUBTITLE": "This entails:",
+      "IMAGES": [{
+        "id": "information-section-1",
+        "src": "/factory/factory-information-section-1.webp",
+        "alt": "Factory overview"
+      }, {
+        "id": "information-section-2",
+        "src": "/factory/factory-information-section-2.webp",
+        "alt": "Factory overview"
+      }, {
+        "id": "information-section-3",
+        "src": "/factory/factory-information-section-3.webp",
+        "alt": "Factory overview"
+      }, {
+        "id": "information-section-4",
+        "src": "/factory/factory-information-section-4.webp",
+        "alt": "Factory overview"
+      }, {
+        "id": "information-section-5",
+        "src": "/factory/factory-information-section-5.webp",
+        "alt": "Factory overview"
+      }]
+    },
+    "CONTACT_SECTION": {
+      "TITLE": "Visit our factory",
+      "DESCRIPTION": "<p>We invite you to visit our facilities. Our team of experts will be delighted to guide you through the different design, production, manufacturing and lacquering plants, showing the entire construction process from start to finish. Discover the entire production process from the materials selection process to the cutting-edge engineering that enables us to manufacture the best courts in the industry.</p><p>This is a unique opportunity to understand why our courts and canopies are so highly valued by professional players and enthusiasts worldwide, and to gain insight into the manufacturing process of high-quality padel courts and the technology and innovation that boost our industry. Additionally, you'll have the chance to experience the quality of our courts by playing on one of them.</p><p>We look forward to seeing you at our facilities and sharing our passion for padel with you.</p>",
+      "SUBJECT": "I would like visit your factory",
+      "SUBTITLE": "We are happy to show you around",
+      "BUTTON_TEXT": "Visit us",
+      "BG_IMAGE": "factory/factory-contact-bg.webp"
+    }
   },
   "ELEVATED_PLATFORM": {
     "SEO_TITLE": "Elevated Platform - Padel Court",
