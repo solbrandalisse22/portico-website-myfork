@@ -10,7 +10,7 @@ import Video from "@/shared/components/Video.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
 import { type Photo, type FeatureCourt, type FirstSectionCourt, type AdvantageSectionCourt, type InformationSection, type ContactSection, type GallerySection } from "@/types/types";
-import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
+import FeatureList from "@/shared/components/FeatureList.astro";
 import { courtsGrid } from "@/shared/i18n/constants";
 
 interface Props {
@@ -136,16 +136,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
               >
                 {isFeature.TITLE}
               </h2>
-              <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
-                {
-                  isFeature.LIST.map((item: string) => (
-                    <li class="flex gap-x-6 items-center">
-                      <CheckIcon className="w-8 h-8" />
-                      <span set:html={item} />
-                    </li>
-                  ))
-                }
-              </ul>
+              <FeatureList list={isFeature.LIST} />
             </div>
           </div>
         </Section>
@@ -162,16 +153,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
             class="text-3xl text-balance mb-6 text-secondary font-bold uppercase"
             set:html={isAdvantage.TITLE}
           />
-          <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
-            {
-              isAdvantage.ADVANTAGES.map((item: string) => (
-                <li class="flex gap-x-6 items-center">
-                  <CheckIcon className="w-8 h-8" />
-                  <span set:html={item} />
-                </li>
-              ))
-            }
-          </ul>
+          <FeatureList list={isAdvantage.ADVANTAGES} />
         </div>
         <div class="relative w-full flex-1">
           <img
@@ -288,7 +270,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
   }
 </style>
 
-<script define:vars={{ featureImages }}>
+<script is:inline define:vars={{ featureImages }}>
   const updateFeatureImages = (featureImages) => {
     // cambiar a la siguiente imagen cada 3 segundos
 

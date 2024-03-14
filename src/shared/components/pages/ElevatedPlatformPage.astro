@@ -6,7 +6,7 @@ import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Section from "@/shared/components/Section.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import { courtsGrid } from "@/shared/i18n/constants";
-import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
+import FeatureList from "@/shared/components/FeatureList.astro";
 
 interface Props {
   language: string;
@@ -74,24 +74,9 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
             />
           </div>
           <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-            <h2
-              class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase" set:html={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE}
-            />
-            <h3
-              class="text-xl lg:text-2xl text-balance font-thin text-primary mb-8 uppercase"
-            >
-              {i18n.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE}
-            </h3>
-            <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
-              {
-                i18n.ELEVATED_PLATFORM.FEATURE_SECTION.LIST.map((item: string) => (
-                  <li class="flex gap-x-6 items-center">
-                    <CheckIcon className="w-8 h-8" />
-                    <span set:html={item} />
-                  </li>
-                ))
-              }
-            </ul>
+            <h2 class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase" set:html={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE} />
+            <h3 class="text-xl lg:text-2xl text-balance font-thin text-primary mb-8 uppercase">{i18n.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE}</h3>
+            <FeatureList list={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.LIST} />
           </div>
         </div>
       </Section>
@@ -114,16 +99,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
             >
               {i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.SUBTITLE}
             </h3>
-            <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
-              {
-                i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES.map((item: string) => (
-                  <li class="flex gap-x-6 items-center">
-                    <CheckIcon className="w-8 h-8" />
-                    <span set:html={item} />
-                  </li>
-                ))
-              }
-            </ul>
+            <FeatureList list={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES} />
           </div>
           <div class="relative w-full flex-1">
             <img
