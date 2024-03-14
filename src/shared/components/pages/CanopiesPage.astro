@@ -6,7 +6,7 @@ import Section from "@/shared/components/Section.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
 import { type Photo } from "@/types/types";
-import CheckIcon from "@/shared/components/icons/CheckIcon.astro";
+import FeatureList from "@/shared/components/FeatureList.astro";
 
 interface Props {
   language: string;
@@ -16,70 +16,32 @@ interface Props {
 const { language, canopiesGallery } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
-const superTitle =
-  'High performance <span class="text-primary">canopies</span>';
 
-const images = [
-  {
-    id: "image-1",
-    src: "canopies/section-canopies-01/canopies-section-01.webp",
-    alt: "Canopies",
-  },
-  {
-    id: "image-2",
-    src: "canopies/section-canopies-01/canopies-section-02.webp",
-    alt: "Canopies",
-  },
-  {
-    id: "image-3",
-    src: "canopies/section-canopies-01/canopies-section-03.webp",
-    alt: "Canopies",
-  },
-  {
-    id: "image-4",
-    src: "canopies/section-canopies-01/canopies-section-04.webp",
-    alt: "Canopies",
-  },
-  {
-    id: "image-5",
-    src: "canopies/section-canopies-01/canopies-section-05.webp",
-    alt: "Canopies",
-  },
-];
+const images = i18n.CANOPIES.FEATURE_SECTION.IMAGES;
 ---
 
 <Layout
-  title={i18n.CANOPIES.TITLE}
-  description={i18n.CANOPIES.SUBTITLE}
+  title={i18n.CANOPIES.SEO_TITLE}
+  description={i18n.CANOPIES.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage="/heros/CanopiesWebsPorticoSport.webp"
 >
   <main class="flex flex-col gradient-bg relative">
-    <div
-      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
-    >
-      <span class="uppercase text-balance"
-        >Leader in the manufacturing and installation of canopies</span
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4">
+      <span class="uppercase text-balance">{i18n.CANOPIES.PRETITLE}</span
       >
       <h1
         class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={superTitle}
+        set:html={i18n.CANOPIES.TITLE}
       />
-      <h2
-        class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance"
-      >
-        Innovation, quality and high technology.
+      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance">
+        {i18n.CANOPIES.SUBTITLE}
       </h2>
-      <h3
-        class="text-base md:text-lg lg:text-xl font-thin text-primary text-balance"
-      >
-        Enhances play experience
+      <h3 class="text-base md:text-lg lg:text-xl font-thin text-primary text-balance">
+        {i18n.CANOPIES.SUBSUBTITLE}
       </h3>
-      <p class="max-w-80 text-balance">
-        Our canopies grant a significant increase in the long-term usage of the
-        padel courts.
-      </p>
+      <p class="max-w-80 md:max-w-[500px] text-balance">{i18n.CANOPIES.DESCRIPTION}</p>
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
@@ -89,12 +51,12 @@ const images = [
         ]}
       />
       <Section
-        heading="Sport-Specific Engineering"
-        subheading="Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing."
+        heading={i18n.CANOPIES.FIRST_SECTION.TITLE}
+        subheading={i18n.CANOPIES.FIRST_SECTION.DESCRIPTION}
       >
         <img
-          src="/canopies/section-canopies-01/canopy-structure.png"
-          alt="Canopies"
+          src={i18n.CANOPIES.FIRST_SECTION.IMAGE.src}
+          alt={i18n.CANOPIES.FIRST_SECTION.IMAGE.alt}
           class="w-full img-structure"
         />
       </Section>
@@ -102,26 +64,22 @@ const images = [
         className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
         style="padding: 0; margin-left: 0; margin-right: 0;"
       >
-        <h2
-          class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide px-8"
-        >
-          Specialized Professional team
+        <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide px-8">
+          {i18n.CANOPIES.FEATURE_SECTION.TITLE}
         </h2>
         <p class="text-center mx-auto text-2xl text-pretty mb-10 max-w-[60ch]">
-          Our engineers develop construction and installation systems for padel
-          court canopies tailored to the needs of our clients, as well as to the
-          standards and regulations of each country.
+          {i18n.CANOPIES.FEATURE_SECTION.DESCRIPTION}
         </p>
         <div class="flex flex-col xl:flex-row max-w-none">
           <div class="relative w-full flex-1">
             {
-              images.map((image, index) => (
+              images.map(({id, src, alt}, index) => (
                 <img
                   loading="lazy"
                   draggable={false}
-                  id={image.id}
-                  src={image.src}
-                  alt={image.alt}
+                  id={id}
+                  src={src}
+                  alt={alt}
                   class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
                 />
               ))
@@ -129,72 +87,12 @@ const images = [
           </div>
           <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
             <h3 class="text-2xl text-balance font-thin mb-4 text-primary">
-              Excellence and experience
+              {i18n.CANOPIES.FEATURE_SECTION.LIST_TITLE}
             </h3>
             <p class="text-pretty">
-              We highlight the following features of our canopies:
+              {i18n.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION}
             </p>
-            <ul class="flex flex-col gap-y-10 pl-4 font-thin text-base">
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span class="flex-1">
-                  <strong>Reducción de proyección de calor</strong> en comparación
-                  con las cubiertas construidas con chapa metálica.
-                </span>
-              </li>
-
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span
-                  ><strong>Reducción de sombras y contrastes</strong> en comparación
-                  con materiales opacos.</span
-                >
-              </li>
-
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span>
-                  <strong>Aumento significativo de la luminosidad</strong> que optimiza
-                  el uso de la iluminación artificial.
-                </span>
-              </li>
-
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span>
-                  <strong>Reducción del efecto eco</strong> durante el juego.
-                </span>
-              </li>
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span
-                  ><strong>Evita la decoloración del césped</strong> por rayos UV.</span
-                >
-              </li>
-
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span><strong>Evita la condensación de cristales</strong>.</span
-                >
-              </li>
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span
-                  ><strong
-                    >Evita la compactación de la arena del césped por la lluvia</strong
-                  >.</span
-                >
-              </li>
-              <li class="flex gap-x-6 items-center">
-                <CheckIcon className="w-8 h-8" />
-                <span>
-                  <strong
-                    >Suaviza las posibles dilataciones y contracciones por
-                    influencia del sol</strong
-                  > en la estructura y en el césped.
-                </span>
-              </li>
-            </ul>
+            <FeatureList list={i18n.CANOPIES.FEATURE_SECTION.LIST} />
           </div>
         </div>
       </Section>
@@ -205,26 +103,9 @@ const images = [
         <div class="flex flex-col-reverse xl:flex-row max-w-none">
           <div class="w-full py-8 px-4 flex-1 md:px-8">
             <h2 class="text-3xl text-balance mb-6 text-secondary font-bold uppercase">
-              Installation of padel canopies
+              {i18n.CANOPIES.ADVANTAGE_SECTION.TITLE}
             </h2>
-            <p class="text-pretty">
-              <strong>PORTICO SPORT has many years of experience in engineering</strong>, and handles the entire construction process, with a team of professionals specialized in every step from <strong>design to manufacturing and installation.</strong>
-            </p>
-            <p class="text-pretty">
-              They are highly aware of the unique nature of each client and manage their projects with the respect and personalized attention that everyone requires. All of this, <strong>guarantees the success</strong> of their work, based on quality, innovation, trust, and experience.
-            </p>
-            <p class="text-pretty">
-              <strong>Manufactured with hot-rolled structural steel profiles</strong> of various dimensions as required by the installation.
-            </p>
-            <p class="text-pretty">
-              <strong>The roofing of the structure</strong> is done with cellular polycarbonate sheets of variable thicknesses as demanded by the project and the situation.
-            </p>
-            <p class="text-pretty">
-              <strong>The material provides the roof with ideal characteristics for the practice of this sport</strong>, tested by high-level players.
-            </p>
-            <p class="text-pretty">
-              As an option <strong>we offer the possibility of installing side panels</strong> up to a height of 3 meters from the ground, to prevent lateral winds and/or rains that could interfere with the game.
-            </p>
+            <div class="text-pretty" set:html={i18n.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION} />
           </div>
           <div class="relative w-full flex-1">
             <video
@@ -248,7 +129,13 @@ const images = [
         photos={canopiesGallery}
         loadMoreText={i18n.CANOPIES.GALLERY.BUTTON_TEXT}
       />
-      <SectionContact language={language} bgImage="/canopies-contact-bg.webp" image="/canopy-contact.webp" />
+      <SectionContact
+        hiddenSubject
+        subject={i18n.CANOPIES.CONTACT_SECTION.SUBJECT}
+        language={language}
+        bgImage={i18n.CANOPIES.CONTACT_SECTION.BG_IMAGE}
+        image={i18n.CANOPIES.CONTACT_SECTION.IMAGE}
+      />
     </div>
   </main>
 </Layout>
@@ -286,7 +173,7 @@ const images = [
 
     .video {
       -webkit-mask: linear-gradient(
-        90deg,
+        -90deg,
         transparent,
         white 0,
         white 30%,
@@ -303,7 +190,7 @@ const images = [
   }
 </style>
 
-<script define:vars={{ images }}>
+<script is:inline define:vars={{ images }}>
   const updateImages = (images) => {
     // cambiar a la siguiente imagen cada 3 segundos
 
