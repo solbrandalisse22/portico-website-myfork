@@ -4,9 +4,16 @@ interface Props {
   class?: string
   target?: string
   url: string
+  size?: 'sm' | 'md' | 'lg';
 }
 
-const { url, target, class: className, ...rest } = Astro.props
+const { url, target, class: className, size = 'md', ...rest } = Astro.props
+
+const sizeClasses = {
+  sm: 'text-sm px-2 py-1 lg:text-base',
+  md: 'text-base px-3 py-2 lg:text-lg',
+  lg: 'text-lg px-5 py-3 lg:text-xl',
+}
 ---
 
 <a
@@ -14,12 +21,10 @@ const { url, target, class: className, ...rest } = Astro.props
   target=`${target ?? '_blank'}`
   rel="noopener noreferrer"
   class:list={[
+    sizeClasses[size],
     "w-fit",
-    "lg:text-2xl",
     "font-medium",
     "no-underline",
-    "px-5",
-    "py-3",
     "border",
     "border-solid",
     "border-white",
