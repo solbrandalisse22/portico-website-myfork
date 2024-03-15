@@ -143,6 +143,11 @@
       "ID": "Couvertures",
       "URL": "/couvertures"
     },
+    "ELEVATED_PLATFORM": {
+      "LABEL": "Elevated platform",
+      "ID": "elevated-platform",
+      "URL": "/elevated-platform"
+    },
     "COURTS": {
       "LABEL": "Terrains",
       "ID": "terrains-padel",
