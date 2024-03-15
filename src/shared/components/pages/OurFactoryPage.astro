@@ -2,6 +2,7 @@
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import SectionFactory from "@/shared/components/sections/SectionFactory.astro"
 import Section from "@/shared/components/Section.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 
@@ -48,6 +49,7 @@ const secondImages = i18n.FACTORY.INFORMATION_SECTION.IMAGES;
           { label: i18n.ROUTES.FACTORY.LABEL, href: i18n.ROUTES.FACTORY.URL },
         ]}
       />
+      <SectionFactory language={language} />
       <Section
         className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
         style="padding: 0; margin-left: 0; margin-right: 0;"

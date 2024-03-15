@@ -4,7 +4,6 @@ import Video from "@/shared/components/Video.astro"
 import Button from "@/shared/components/Button.astro"
 import SectionIntro from "@/shared/components/sections/SectionIntro.astro"
 import SectionBento from "@/shared/components/sections/SectionBento.astro"
-import SectionFactory from "@/shared/components/sections/SectionFactory.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
@@ -36,7 +35,7 @@ const posts = await response.json();
 
 <Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
 
-  <Video language={language} video="/portico-sport-video.webm" subtitle={i18n.HERO_SUBTITLE} title={i18n.HERO_TITLE} buttonUrl={i18n.ROUTES.CONTACT.URL} buttonText={i18n.VIDEO_BUTTON}>
+  <Video language={language} video="/portico-sport-video.webm" subtitle={i18n.HERO_SUBTITLE} title={i18n.HERO_TITLE}>
     <div
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
@@ -79,7 +78,6 @@ const posts = await response.json();
       <Button class="mx-auto" url={i18n.ROUTES.PROJECTS.URL} target="_self">{i18n.INFO.BUTTON_TEXT}</Button>
     </div>
     <SectionComplements language={language} />
-    <SectionFactory language={language} />
     <NewsList language={language} posts={posts} />
     <SectionContact language={language} bgImage="/hexagon-contact-bg.webp" image="/pista-hexagon-contact.webp" />
     <SectionPartnerLogos />
