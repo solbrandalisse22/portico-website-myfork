@@ -22,13 +22,13 @@ const totalPages = Number(response.headers.get('X-WP-TotalPages'));
 const posts = await response.json();
 ---
 
-<Layout title={i18n.NEWS.TITLE} description={i18n.NEWS.SUBTITLE} currentLocale={currentLocale} language={language}>
-  <HeroContainer img="/factory-portico.webp" imgAlt={i18n.NEWS.TITLE_ALT} heading={i18n.NEWS.TITLE} />
+<Layout title={i18n.PAGES.NEWS.SEO_TITLE} description={i18n.PAGES.NEWS.SEO_SUBTITLE} currentLocale={currentLocale} language={language}>
+  <HeroContainer img="/factory-portico.webp" imgAlt={i18n.PAGES.NEWS.TITLE_ALT} heading={i18n.PAGES.NEWS.TITLE} />
   <main class="pb-24 flex flex-col">
     <Breadcrumb
       crumbs={[
-        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-        { label: i18n.ROUTES.NEWS.LABEL, href: i18n.ROUTES.NEWS.URL },
+        { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.NEWS.ROUTE.LABEL, href: i18n.PAGES.NEWS.ROUTE.URL },
       ]} />
     <NewsList posts={posts} language={language} />
     {

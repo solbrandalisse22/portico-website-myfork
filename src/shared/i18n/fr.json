@@ -1,177 +1,1185 @@
 {
-  "LOCALE_DATE": "en-US",
-  "SEO_TITLE": "Portico Sport - Thinking Padel, Fabrication et Installation de terrains de padel",
-  "SEO_DESCRIPTION": "Chez Portico Sport, nous sommes spécialistes de la fabrication et de l'installation de terrains de Padel à travers le monde. Demandez-nous des informations sans aucun engagement.",
-  "SEO": {
-    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores de Premios Esland 2024",
-    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
-    "INFO_TITLE": "Información sobre los Premios Esland 2024",
-    "INFO_DESCRIPTION": "Descubre todo lo que necesitas saber sobre los Premios Esland 2024 y descarga el Kit de Prensa"
-  },
-  "HEADER": {
-    "LOGO": "Go to the home page"
-  },
-  "HEADER_CONTACT": "CONTACT",
-  "HEADER_INFO": "INFO",
-  "HEADER_PADEL_COURTS": "TERRAINS",
-  "HEADER_OUR_FACTORY": "USINE",
-  "HEADER_NEWS": "NOUVELLES",
-  "HEADER_PROJECTS": "PROJETS",
-  "HEADER_BUTTON": "CONTACT",
-  "HERO_SUBTITLE": "Fabrication et Installation de Terrains de Padel et Couvertures à travers le Monde",
-  "HERO_TITLE": "Thinking Padel, Thinking Portico Sport",
-  "INTRO_TITLE": "Bienvenue sur",
-  "INTRO_TITLE_AFTER_BR": "Portico Sport",
-  "INTRO_DESCRIPTION_1": "Établie en Espagne, Portico Sport est l'un des principaux fabricants mondiaux de terrains de Padel et de couvertures. L' entreprise bénéficie de 15 ans d'expérience dans l'industrie, avec une présence dans plus de 40 pays et plus de 3 500 terrains installés.",
-  "INTRO_DESCRIPTION_2": "Portico Sport incarne la qualité et l'excellence dans le service à la clientèle. Notre ADN d'ingénierie nous permet d'être un fabricant proposant une offre clé en main complète, combinant terrains de Padel et couvertures, avec une conception et une fabrication entièrement internes.",
-  "INTRO_DESCRIPTION_3": "In 2023 the company inaugurated a new manufacturing site expanding over 110k sqft making it the largest and most technologically advanced in the industry.",
-  "BENTO_TITLE_1": "EXPÉRIENCE",
-  "BENTO_CONTENT_1": "<strong>Avec plus de 15 ans d'expérience dans la gestion de grands projets</strong> à travers cinq continents, nous avons développé un réseau commercial international dans chaque région pour offrir le meilleur service à chaque client.",
-  "BENTO_TITLE_2": "INNOVATION",
-  "BENTO_CONTENT_2": "Dans notre engagement envers l'innovation, Portico Sport propose le meilleur design et la meilleure qualité pour nos terrains de Padel et nos couvertures, avec des délais de livraison records et des garanties complètes. Nous fournissons des terrains de Padel et des couvertures alliant une résistance maximale et une durabilité exceptionnelle.",
-  "BENTO_TITLE_3": "QUALITÉ PREMIUM",
-  "BENTO_SUBTITLE_3": "Terrains de padel conformes aux réglementations.",
-  "BENTO_CONTENT_3": "Conçus et développés par le département d'ingénierie de PORTICO SPORT pour la pratique du Padel au plus haut niveau, nos terrains de padel sont conformes aux réglementations sportives officielles (NIDE 2004 Padel), aux règlements et normes de la FIP (Fédération Internationale de Padel), ainsi qu'aux calculs structuraux basés sur l'instruction standard « Structural Steel Instruction (EAE) » et les codes américains : AISC-360 ET ASCE SEI 7-16. Tous nos terrains de padel sont assortis d'une garantie de 10 ans (stabilité structurelle).",
-  "BENTO_TITLE_4": "ÉQUIPE - INGÉNIERIE ET ARCHITECTURE SPORTIVES",
-  "BENTO_CONTENT_4": "<strong>En tant que bureau d'ingénierie, Portico Sport propose un processus de construction complet de bout en bout</strong>, avec une équipe de professionnels spécialisés qui vous guident à chaque étape, reconnaissant que chaque projet est unique.",
-  "VIDEO_BUTTON": "CONTACT",
-  "PREFOOTER_VIDEO_TITLE": "Visitez notre usine",
-  "PREFOOTER_SUBTITLE": "Le plus grand site de fabrication de terrains de Padel et de couvertures.",
-  "CONTACT_TITLE": "CONTACTEZ-NOUS",
-  "CONTACT_DESCRIPTION": "<p>Une excellente équipe de professionnels à votre service.</p>",
-  "NEWS": {
-    "TITLE": "Nouvelles",
-    "TITLE_ALT": "Les dernières nouvelles",
-    "SUBTITLE": "Les dernières nouvelles de Portico Sport",
-    "BUTTON": "Voir",
-    "POST_PAGE": {
-      "WRITE": "Écrit par"
-    },
-    "LIST": {
-      "TITLE": "Nos dernières nouvelles",
-      "SUBTITLE": "Les dernières nouvelles de Portico Sport"
-    }
-  },
-  "CANOPIES": {
-    "SEO_TITLE": "High-performance canopies - Padel Court",
-    "SEO_DESCRIPTION":"Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies",
-    "PRETITLE": "Leader in the manufacturing and installation of canopies",
-    "TITLE": "High-performance canopies",
-    "TITLE_ALT": "High-performance canopies",
-    "SUBTITLE": "Innovation, quality and high technology",
-    "SUBSUBTITLE": "Enhances play experience",
-    "DESCRIPTION": "Our canopies grant a significant increase in the long-term usage of the padel courts.",
-    "FIRST_SECTION": {
-      "TITLE": "Sport-Specific Engineering",
-      "DESCRIPTION": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
-      "IMAGE": {
-        "src": "/canopies/section-canopies-01/canopy-structure.png",
-        "alt": "Canopy structure"
+  "PAGES": {
+    "HOME": {
+      "SEO_TITLE": "Portico Sport - Thinking Padel, Construction and Installation of Padel Courts",
+      "SEO_DESCRIPTION": "At Portico Sport we are specialists in the construction and installation of Padel courts around the world, ask us for information without any obligation",
+      "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
+      "TITLE": "Thinking Padel, Thinking Portico Sport",
+      "ROUTE": {
+        "LABEL": "Home",
+        "URL": "/"
+      },
+      "INTRO_SECTION": {
+        "ID": "intro",
+        "TITLE": "Welcome to <br />Portico Sport",
+        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies</strong> manufacturer <strong>globally</strong>. The company counts with 15 yrs. track record in the industry, presence <strong>in over 40 countries and +3,500 courts installed</strong>.</p><p>Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with <strong>100% in-house design</strong> and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong> expanding over 110k sqft making it the largest and most <strong>technologically advanced</strong> in the industry.</p>"
+      },
+      "GRAPHIC_PROCESS_SECTION": {
+        "ID": "graphic-process",
+        "TITLE": "With you throughout the entire process",
+        "POINT_1": {
+          "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
+          "SUBTITLE": "Starting a strong, lasting relationship based on trust and customer satisfaction."
+        },
+        "POINT_2": {
+          "TITLE": "Commercial agreement",
+          "SUBTITLE": "Design and drafting of a commercial proposal tailored to the needs, goals, and preferences of each client."
+        },
+        "POINT_3": {
+          "TITLE": "Personalized Advice with Engineering and Architecture Departments",
+          "SUBTITLE": "Our technical team will be with you throughout the entire process, aiming to provide comprehensive and high-quality service that meets our clients' expectations. Our dedicated team is a guaranteed value for success."
+        },
+        "POINT_4": {
+          "TITLE": "Financing if applicable",
+          "SUBTITLE": "Portico Sport has advantageous agreements with different entities to offer personalized financing services with excellent conditions to our clients. The goal is to provide tailored solutions according to their needs."
+        },
+        "POINT_5": {
+          "TITLE": "Design, manufacturing, and installation according to each client's needs",
+          "SUBTITLE": "Based on the highest quality standards, our courts and covers are custom-designed to meet the specific needs of each client because we understand that every project is unique."
+        },
+        "POINT_6": {
+          "TITLE": "Installed courts",
+          "SUBTITLE": "Portico Sport guarantees satisfaction and quality in all our projects. Quality, innovation, trust, and experience are our pillars."
+        },
+        "POINT_7": {
+          "TITLE": "After-Sales service",
+          "SUBTITLE": "Customer-oriented, we maintain a close relationship from the beginning to the after-sales service because with Portico Sport, you'll never walk alone. For our company, after-sales service is essential to ensure customer satisfaction by providing technical support, resolving any concerns, and establishing long-term relationships."
+        },
+        "POINT_8": {
+          "TITLE": "Growing together",
+          "SUBTITLE": "For Portico Sport, it is equally important to offer exceptional after-sales service as it is to strengthen and foster long-term relationships with all our clients."
+        }
+      },
+      "COURTS_SECTION": {
+        "ID": "padel-courts",
+        "TITLE": "Padel Courts",
+        "DESCRIPTION":"Discover all our Padel Courts"
+      },
+      "CANOPIES_SECTION": {
+        "ID": "canopies",
+        "TITLE": "Canopies",
+        "SUBTITLE": "Strength, durability and perfect integration",
+        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
+        "BUTTON_TEXT": "More about canopies"
+      },
+      "BENTO_SECTION": {
+        "ID": "why-us",
+        "TITLE": "Why choose Portico Sport?",
+        "POINT_1": {
+          "TITLE": "EXPERIENCE",
+          "DESCRIPTION": "<strong>With over 15 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client."
+        },
+        "POINT_2": {
+          "TITLE": "INNOVATION",
+          "DESCRIPTION": "In our commitment to innovation, Portico Sport offers the best design and quality in our courts and canopies, with record delivery times and full warranties. We provide padel courts and canopies with maximum strength and durability."
+        },
+        "POINT_3": {
+          "TITLE": "PREMIUM QUALITY",
+          "SUBTITLE": "Padel courts that comply with regulations",
+          "DESCRIPTION": "Designed and developed by engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations (NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction (EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)."
+        },
+        "POINT_4": {
+          "TITLE": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
+          "DESCRIPTION": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique."
+        }
+      },
+      "PROJECTS_SECTION": {
+        "ID": "projects",
+        "TITLE": "Projects",
+        "URL": {
+          "LABEL": "Discover all our projects",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "project-gallery",
+        "TITLE_GALLERY": "A selection of projects we've turned into reality",
+        "PATH": "projects"
+      },
+      "COMPLEMENTS_SECTION": {
+        "ID": "complements",
+        "TITLE": "Quality, Innovation, Trust, Experience and Speed",
+        "SUBTITLE": "A leading company in the national and international landscape.",
+        "ITEMS": {
+          "ITEM_1": {
+            "TITLE": "Foundation and platforms",
+            "DESCRIPTION": "We specialize in the construction and repair of asphalt and concrete slabs and structural foundations."
+          },
+          "ITEM_2": {
+            "TITLE": "Structures",
+            "DESCRIPTION": "Metallic structure made of galvanized steel, oven-baked with thermoplastic polyester paint. It features one layer for indoor courts and two layers for outdoor installations, manufactured to meet the highest market standards."
+          },
+          "ITEM_3": {
+            "TITLE": "Glasses",
+            "DESCRIPTION": "All courts are equipped with tempered safety glass, 10 or 12 mm thick depending on each project, strictly complying with the regulations established for this type of facility."
+          },
+          "ITEM_4": {
+            "TITLE": "Artifitial turf",
+            "DESCRIPTION": "ARTIFICIAL TURF SYSTEM brand MONDO, of the latest generation, with straight or curly fibers…"
+          },
+          "ITEM_5": {
+            "TITLE": "Lighting",
+            "DESCRIPTION": "We install the best Led projectors, from the most renowned manufacturers on the market."
+          },
+          "ITEM_6": {
+            "TITLE": "Customize your court",
+            "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
+          }
+        }
       }
     },
-    "FEATURE_SECTION": {
-      "TITLE": "Specialized Professional team",
-      "DESCRIPTION": "Our engineers develop construction and installation systems for padel court canopies tailored to the needs of our clients, as well as to the standards and regulations of each country.",
-      "LIST": [
-        "<strong>Reduced heat projection</strong> compared to metal sheets canopies.",
-        "<strong>Reduced shadows and contrasts</strong> compared to opaque materials.",
-        "<strong>Increased brightness</strong> that optimizes the use of artificial lighting.",
-        "<strong>Reduced echo effect</strong> during gameplay.",
-        "<strong>Prevents discoloration of the turf</strong> due to UV rays.",
-        "<strong>Prevents crystal condensation</strong>.",
-        "<strong>Prevents rain from compacting</strong> the sand on the turf.",
-        "<strong>Soften potential expansions and contractions</strong> caused by sunlight on the structure and the turf."
-      ],
-      "LIST_TITLE": "Excellence and experience",
-      "LIST_DESCRIPTION": "We highlight the following features of our canopies:",
-      "IMAGES": [{
-        "id": "image-1",
-        "src": "canopies/section-canopies-01/canopies-section-01.webp",
-        "alt": "Canopies"
+    "COURTS": {
+      "ID": "courts",
+      "SEO_TITLE": "Padel Courts",
+      "SEO_DESCRIPTION":"Discover all our Padel Courts",
+      "TITLE": "Padel Courts",
+      "SUBTITLE": "Discover all our Padel Courts",
+      "ROUTE": {
+        "LABEL": "Courts",
+        "URL": "/padel-courts"
       },
-      {
-        "id": "image-2",
-        "src": "canopies/section-canopies-01/canopies-section-02.webp",
-        "alt": "Canopies"
+      "MOBILE_COURT": {
+        "ID": "mobile-court",
+        "SEO_TITLE": "Mobile Court - Padel Court",
+        "SEO_DESCRIPTION":"The mobile court is the first patented mobile court in the market designed and engineered by our Engineering department. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.",
+        "NAME": "Mobile court",
+        "SUBTITLE": "Introducing the latest innovation in padel court technology",
+        "TITLE": "<span>Mobile court</span> <span class=\"text-white\">patented by Portico Sport</span>",
+        "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">patented by Portico Sport</span>",
+        "DESCRIPTION": "<p>Our patented Mobile Court, meticulously designed and engineered by our expert Engineering Department, is revolutionizing the market and it was the <strong>first of its kind in the padel industry</strong>.</p><p>This groundbreaking court eliminates the need for costly ground preparation expenses and permit acquisitions. With only a drained surface required to prevent water accumulation, our court offers unparalleled convenience and cost savings.</p>",
+        "LITTLE_DESCRIPTION": "<p>Move your court wherever you want</p>",
+        "MORE_INFO_URL": "https://porticosport.com/en/mobile-courts",
+        "CONTACT_TITLE_1": "Do you want a Mobile Court?",
+        "CONTACT_SUBJECT": "New petition for a Mobile Court",
+        "CONTACT_BUTTON": "I want a Mobile Court",
+        "ROUTE": {
+          "LABEL": "More about mobile",
+          "URL": "/padel-courts/mobile"
+        },
+        "FIRST_SECTION": {
+          "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
+          "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>",
+          "IMAGES": {
+            "FRONT": {
+              "src": "/courts-detail/mobile/mobile-front.webp",
+              "alt": "Mobile court front view"
+            },
+            "PERSPECTIVE": {
+              "src": "/courts-detail/mobile/mobile-perspective.webp",
+              "alt": "Mobile court perspective view"
+            },
+            "TOP": {
+              "src": "/courts-detail/mobile/mobile-top.webp",
+              "alt": "Mobile court top view"
+            }
+          }
+        },
+        "FEATURE_SECTION": {
+          "TITLE": "Remarkable features",
+          "IMAGES": [{
+            "id": "slide-1",
+            "src": "/courts-detail/mobile/render-1.webp",
+            "imgAlt": "Exterior of a mobile court render in 3D"
+          },{
+            "id": "slide-2",
+            "src": "/courts-detail/mobile/render-2.webp",
+            "imgAlt": "Interior of a mobile court render in 3D"
+          },{
+            "id": "slide-3",
+            "src": "/courts-detail/mobile/render-3.webp",
+            "alt": "Exterior of a mobile court render in 3D"
+          },{
+            "id": "slide-4",
+            "src": "/courts-detail/mobile/render-4.webp",
+            "imgAlt": "Interior of a mobile court render in 3D"
+          },{
+            "id": "slide-5",
+            "src": "/courts-detail/mobile/render-5.webp",
+            "imgAlt": "Exterior of a mobile court render in 3D"
+          },{
+            "id": "slide-6",
+            "src": "/courts-detail/mobile/render-6.webp",
+            "alt": "Interior of a mobile court render in 3D"
+          }],
+          "LIST": [
+            "Withstand wind <strong>speed of 114.12 km/h</strong>.",
+            "Suitable for both indoor and outdoor installations.",
+            "Same premium quality as a permanent court.",
+            "Perfect integration into any environment.",
+            "Crafted with premium materials for maximum strength and durability."
+          ]
+        },
+        "ADVANTAGE_SECTION": {
+          "IMAGE": {
+            "id": "advantage-section",
+            "src": "/courts-detail/mobile/mobile-advantage-section.webp",
+            "width": 574,
+            "height": 323,
+            "alt": "Mobile court patented by Portico Sport"
+          },
+          "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
+          "ADVANTAGES": [
+            "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
+            "You’ll save on expenses as our courts do not require extensive floor repairs.",
+            "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
+            "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
+            "Rest assured with our 10-year warranty on the structural integrity of our courts."
+          ]
+        },
+        "INFORMATION_SECTION": {
+          "IMAGE": {
+            "id": "section-information",
+            "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+            "alt": "Render of a mobile court"
+          },
+          "TITLE": "Experience the excellence of our premium quality court structure",
+          "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
+          "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
+          "BUTTON": {
+            "label": "I want a new padel court",
+            "href": "#contact"
+          }
+        },
+        "GALLERY_SECTION": {
+          "ID": "gallery",
+          "PATH": "courts-detail/mobile/gallery",
+          "OFFSET": 12,
+          "BUTTON_TEXT": "Discover more images"
+        },
+        "COURTS_SECTION": {
+          "TITLE": "Portico Sport Mobile Court",
+          "DESCRIPTION": "Compatible with the following Padel Court Models:"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Mobile Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "Our Patented Mobile Court allows padel practice in a specific location for an extended period or easily moved it to another location. With the same 10-year warranty as our fixed courts without the need for ground anchoring while ensuring sturdy support and structural integrity comparable to our fixed-anchored Club courts.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/mobile-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-2",
+          "src": "/courts/mobile-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-3",
+          "src": "/courts/mobile-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        }]
       },
-      {
-        "id": "image-3",
-        "src": "canopies/section-canopies-01/canopies-section-03.webp",
-        "alt": "Canopies"
+      "PANORAMIC_FLOW_COURT": {
+        "ID": "panoramic-flow",
+        "SEO_TITLE": "Panoramic Flow Court - Padel Court",
+        "SEO_DESCRIPTION":"The Panoramic Flow court is an enhanced version of our Panoramic court. Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings. This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.",
+        "TITLE": "<span>Panoramic FLOW</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>The Panoramic Flow court is an enhanced version of our Panoramic court. Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings. This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
+        "NAME": "Panoramic Flow court",
+        "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
+        "ROUTE": {
+          "LABEL": "More about panoramic flow court",
+          "URL": "padel-courts/panoramic-flow"
+        },
+        "FIRST_SECTION": {
+          "TITLE": "<span class=\"text-secondary\">Experience Padel Like Never Before!</span>",
+          "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>",
+          "IMAGES": {
+            "FRONT": {
+              "src": "/courts-detail/panoramic-flow/panoramic-flow-front.webp",
+              "alt": "Panoramic flow court front view"
+            },
+            "PERSPECTIVE": {
+              "src": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp",
+              "alt": "Panoramic flow court perspective view"
+            },
+            "TOP": {
+              "src": "/courts-detail/panoramic-flow/panoramic-flow-top.webp",
+              "alt": "Panoramic court top view"
+            }
+          }
+        },
+        "FEATURE_SECTION": {
+          "TITLE": "Remarkable features",
+          "IMAGES": [{
+            "id": "slide-1",
+            "src": "/courts-detail/panoramic-flow/render-1.webp",
+            "imgAlt": "Exterior of panoramic flow court render in 3D"
+          },{
+            "id": "slide-2",
+            "src": "/courts-detail/panoramic-flow/render-2.webp",
+            "imgAlt": "Interior of a panoramics flow court render in 3D"
+          },{
+            "id": "slide-3",
+            "src": "/courts-detail/panoramic-flow/render-3.webp",
+            "alt": "Exterior of a panoramic flow court render in 3D"
+          },{
+            "id": "slide-4",
+            "src": "/courts-detail/panoramic-flow/render-4.webp",
+            "imgAlt": "Interior of a panoramics flow court render in 3D"
+          },{
+            "id": "slide-5",
+            "src": "/courts-detail/panoramic-flow/render-5.webp",
+            "imgAlt": "Exterior of a panoramic flow court render in 3D"
+          },{
+            "id": "slide-6",
+            "src": "/courts-detail/panoramic-flow/render-6.webp",
+            "imgAlt": "Interior of a panoramics flow court render in 3D"
+          },{
+            "id": "slide-7",
+            "src": "/courts-detail/panoramic-flow/render-7.webp",
+            "imgAlt": "Exterior of a panoramic flow court render in 3D"
+          },{
+            "id": "slide-8",
+            "src": "/courts-detail/panoramic-flow/render-8.webp",
+            "imgAlt": "Interior of a panoramics flow court render in 3D"
+          }],
+          "LIST": [
+            "Withstand wind <strong>speed of 114.12 km/h</strong>.",
+            "Suitable for both indoor and outdoor installations.",
+            "Same premium quality as a permanent court.",
+            "Perfect integration into any environment.",
+            "Crafted with premium materials for maximum strength and durability."
+          ]
+        },
+        "ADVANTAGE_SECTION": {
+          "IMAGE": {
+            "id": "advantage-section",
+            "src": "/courts-detail/panoramic-flow/panoramic-flow-advantege-section.webp",
+            "alt": "Panoramic court"
+          },
+          "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
+          "ADVANTAGES": [
+            "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
+            "You’ll save on expenses as our courts do not require extensive floor repairs.",
+            "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
+            "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
+            "Rest assured with our 10-year warranty on the structural integrity of our courts."
+          ]
+        },
+        "INFORMATION_SECTION": {
+          "IMAGE": {
+            "id": "section-information",
+            "src": "/courts-detail/panoramic-flow/panoramic-flow-section-information-court.webp",
+            "alt": "Panoramic section information court"
+          },
+          "TITLE": "Experience the excellence of our premium quality court structure",
+          "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
+          "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
+          "BUTTON": {
+            "label": "I want a new padel court",
+            "href": "#contact"
+          }
+        },
+        "GALLERY_SECTION": {
+          "ID": "gallery",
+          "PATH": "courts-detail/mobile/gallery",
+          "OFFSET": 12,
+          "BUTTON_TEXT": "Discover more images"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Mobile Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "The Panoramic Flow court eliminates the corners of the steel structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/panoramic-flow-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic flow court"
+        },{
+          "id": "slide-2",
+          "src": "/courts/panoramic-flow-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic flow court"
+        },{
+          "id": "slide-3",
+          "src": "/courts/panoramic-flow-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic flow court"
+        }]
       },
-      {
-        "id": "image-4",
-        "src": "canopies/section-canopies-01/canopies-section-04.webp",
-        "alt": "Canopies"
+      "PANORAMIC_COURT": {
+        "ID": "panoramic-court",
+        "SEO_TITLE": "Panoramic Court - Padel Court",
+        "SEO_DESCRIPTION":"The panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed, this court model features high-strength glass walls that provide a panoramic view of the surroundings",
+        "TITLE": "<span>Panoramic</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>Our panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court. Due to its visual appeal, this court is increasingly sought-after by customers aiming to offer a distinctive gaming experience to all their players.</p>",
+        "NAME": "Panoramic court",
+        "SUBTITLE": "Introducing the Panoramic Court by Portico Sport",
+        "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
+        "DETAIL_TITLE": "<span class=\"block\">Panoramic</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \"> court</span>",
+        "MORE_INFO_URL": "https://porticosport.com/en/panoramic-courts",
+        "CONTACT_TITLE_1": "Do you want a Panoramic Court?",
+        "CONTACT_SUBJECT": "New petition for a Panoramic Court",
+        "CONTACT_BUTTON": "I want a Panoramic Court",
+        "ROUTE": {
+          "LABEL": "More about panoramic court",
+          "URL": "/padel-courts/panoramic"
+        },
+        "FIRST_SECTION": {
+          "TITLE": "<span class=\"text-secondary\">Elevate Your Game with Unmatched Views!</span>",
+          "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>",
+          "IMAGES": {
+            "FRONT": {
+              "src": "/courts-detail/panoramic/panoramic-front.webp",
+              "alt": "Panoramic court front view"
+            },
+            "PERSPECTIVE": {
+              "src": "/courts-detail/panoramic/panoramic-perspective.webp",
+              "alt": "Panoramic court perspective view"
+            },
+            "TOP": {
+              "src": "/courts-detail/panoramic/panoramic-top.webp",
+              "alt": "Panoramic court top view"
+            }
+          }
+        },
+        "FEATURE_SECTION": {
+          "TITLE": "Remarkable features",
+          "IMAGES": [{
+            "id": "slide-1",
+            "src": "/courts-detail/panoramic/render-1.webp",
+            "imgAlt": "Exterior of panoramic court render in 3D"
+          },{
+            "id": "slide-2",
+            "src": "/courts-detail/panoramic/render-2.webp",
+            "imgAlt": "Interior of a panoramics court render in 3D"
+          },{
+            "id": "slide-3",
+            "src": "/courts-detail/panoramic/render-3.webp",
+            "alt": "Exterior of a panoramic court render in 3D"
+          },{
+            "id": "slide-4",
+            "src": "/courts-detail/panoramic/render-4.webp",
+            "imgAlt": "Interior of a panoramics court render in 3D"
+          },{
+            "id": "slide-5",
+            "src": "/courts-detail/panoramic/render-5.webp",
+            "imgAlt": "Exterior of a panoramic court render in 3D"
+          },{
+            "id": "slide-6",
+            "src": "/courts-detail/panoramic/render-6.webp",
+            "imgAlt": "Interior of a panoramics court render in 3D"
+          },{
+            "id": "slide-7",
+            "src": "/courts-detail/panoramic/render-7.webp",
+            "imgAlt": "Exterior of a panoramic court render in 3D"
+          },{
+            "id": "slide-8",
+            "src": "/courts-detail/panoramic/render-8.webp",
+            "imgAlt": "Interior of a panoramics court render in 3D"
+          },{
+            "id": "slide-9",
+            "src": "/courts-detail/panoramic/render-9.webp",
+            "imgAlt": "Interior of a panoramics court render in 3D"
+          },{
+            "id": "slide-10",
+            "src": "/courts-detail/panoramic/render-10.webp",
+            "imgAlt": "Interior of a panoramics court render in 3D"
+          }],
+          "LIST": [
+            "Withstand wind <strong>speed of 114.12 km/h</strong>.",
+            "Suitable for both indoor and outdoor installations.",
+            "Same premium quality as a permanent court.",
+            "Perfect integration into any environment.",
+            "Crafted with premium materials for maximum strength and durability."
+          ]
+        },
+        "ADVANTAGE_SECTION": {
+          "IMAGE": {
+            "id": "advantage-section",
+            "src": "/courts-detail/panoramic/panoramic-advantege-section.webp",
+            "alt": "Panoramic court"
+          },
+          "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
+          "ADVANTAGES": [
+            "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
+            "You’ll save on expenses as our courts do not require extensive floor repairs.",
+            "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
+            "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
+            "Rest assured with our 10-year warranty on the structural integrity of our courts."
+          ]
+        },
+        "INFORMATION_SECTION": {
+          "IMAGE": {
+            "id": "section-information",
+            "src": "/courts-detail/panoramic/panoramic-section-information-court.webp",
+            "alt": "Panoramic section information court"
+          },
+          "TITLE": "Experience the excellence of our premium quality court structure",
+          "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
+          "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
+          "BUTTON": {
+            "label": "I want a new padel court",
+            "href": "#contact"
+          }
+        },
+        "GALLERY_SECTION": {
+          "ID": "gallery",
+          "PATH": "courts-detail/mobile/gallery",
+          "OFFSET": 12,
+          "BUTTON_TEXT": "Discover more images"
+        },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Panoramic Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "Our panoramic court features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/panoramic-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic court"
+        },{
+          "id": "slide-2",
+          "src": "/courts/panoramic-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic court"
+        },{
+          "id": "slide-3",
+          "src": "/courts/panoramic-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic court"
+        },{
+          "id": "slide-4",
+          "src": "/courts/panoramic-court-04.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Panoramic court"
+        }]
       },
-      {
-        "id": "image-5",
-        "src": "canopies/section-canopies-01/canopies-section-05.webp",
-        "alt": "Canopies"
-      }]
-    },
-    "ADVANTAGE_SECTION": {
-      "TITLE": "Installation of padel canopies",
-      "DESCRIPTION": "<p><strong>PORTICO SPORT has many years of experience in engineering</strong>, and handles the entire construction process, with a team of professionals specialized in every step from <strong>design to manufacturing and installation.</strong></p><p>They are highly aware of the unique nature of each client and manage their projects with the respect and personalized attention that everyone requires. All of this, <strong>guarantees the success</strong> of their work, based on quality, innovation, trust, and experience.</p><p><strong>Manufactured with hot-rolled structural steel profiles</strong> of various dimensions as required by the installation.</p><p><strong>The roofing of the structure</strong> is done with cellular polycarbonate sheets of variable thicknesses as demanded by the project and the situation.</p><p><strong>The material provides the roof with ideal characteristics for the practice of this sport</strong>, tested by high-level players.</p><p>As an option <strong>we offer the possibility of installing side panels</strong> up to a height of 3 meters from the ground, to prevent lateral winds and/or rains that could interfere with the game.</p>",
-      "BUTTON_TEXT": "Discover more canopies"
-    },
-    "CONTACT_SECTION": {
-      "SUBJECT": "I would like to receive more information about the canopies",
-      "BUTTON_TEXT": "I WANT MORE INFORMATION ABOUT CANOPIES",
-      "BG_IMAGE": "canopies/canopies-contact-bg.webp",
-      "IMAGE": "canopies/canopy-contact.webp"
-    },
-    "GALLERY": {
-      "HEADING": "Sport-Specific Engineering",
-      "SUBHEADING": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
-      "BUTTON_TEXT":"Discover more canopies"
-    }
-  },
-  "NO_FOUND": {
-    "TITLE": "Page non trouvée",
-    "TITLE_ALT": "Page non trouvée",
-    "SUBTITLE": "La page que vous recherchez n'existe pas.",
-    "DESCRIPTION": "La page que vous recherchez n'existe pas. Veuillez vous rendre sur la page d'accueil ou nous contacter."
-  },
-  "ROUTES": {
-    "HOME": {
-      "LABEL": "Home",
-      "URL": "/"
+      "CLUB_COURT": {
+        "ID": "club-court",
+        "SEO_TITLE": "Club Court - Padel Court",
+        "SEO_DESCRIPTION":"One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability. With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.",
+        "TITLE": "<span>Club</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability. With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
+        "LITTLE_DESCRIPTION": "<p>You can move padel in one of our most sought-after courts.</p>",
+        "NAME": "Club court",
+        "ROUTE": {
+          "LABEL": "More about club court",
+          "URL": "/padel-courts/club"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Club Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/club/club-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/club-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club padel court"
+        },{
+          "id": "slide-2",
+          "src": "/courts/club-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club padel court"
+        },{
+          "id": "slide-3",
+          "src": "/courts/club-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club padel court"
+        }]
+      },
+      "CLUB_PLUS_COURT": {
+        "ID": "club-plus-court",
+        "SEO_TITLE": "Club Plus Court - Padel Court",
+        "SEO_DESCRIPTION":"The Club Plus Court is an evolution of our Club Court. This enhanced court maintains the same premium quality while providing increased durability, thanks to its superior structures designed by Portico Sport's engineering department. These structures are built to withstand high wind gusts and adverse weather conditions. In the Club Plus Court, you'll find seamlessly integrated durability and high resistance for an unparalleled padel practice experience.",
+        "TITLE": "<span>Club Plus</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>The Club Plus Court is an evolution of our Club Court. This enhanced court maintains the same premium quality while providing increased durability, thanks to its superior structures designed by Portico Sport's engineering department. These structures are built to withstand high wind gusts and adverse weather conditions. In the Club Plus Court, you'll find seamlessly integrated durability and high resistance for an unparalleled padel practice experience.</p>",
+        "LITTLE_DESCRIPTION": "<p>You can enjoy padel in the evolution of our Club Court.</p>",
+        "NAME": "Club Plus court",
+        "ROUTE": {
+          "LABEL": "More about club plus court",
+          "URL": "/padel-courts/club-plus"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Club Plus Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/club-plus/club-plus-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "This enhanced court maintains premium quality while providing increased durability, thanks to its superior structures.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/club-plus-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club plus padel court"
+        },{
+          "id": "slide-2",
+          "src": "/courts/club-plus-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club plus padel court"
+        },{
+          "id": "slide-3",
+          "src": "/courts/club-plus-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club plus padel court"
+        },{
+          "id": "slide-4",
+          "src": "/courts/club-plus-court-04.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Club plus padel court"
+        }]
+      },
+      "FORCE_80_COURT": {
+        "ID": "force-80-court",
+        "SEO_TITLE": "Force 80 Court - Padel Court",
+        "SEO_DESCRIPTION":"Our Force 80 court stands out as one of the most resilient padel courts on the market. Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s. The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions. If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.",
+        "TITLE": "<span>Force 80</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>Our Force 80 court stands out as one of the most resilient padel courts on the market. Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s. The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions. If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.</p>",
+        "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
+        "NAME": "Force 80 court",
+        "ROUTE": {
+          "LABEL": "More about Force 80",
+          "URL": "/padel-courts/force-80"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Force 80 Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "Our Force 80 court stands out as one of the most resilient padel courts on the market thanks to a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/force-80-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Force 80 padel court"
+        },{
+          "id": "slide-2",
+          "src": "/courts/force-80-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Force 80 padel court"
+        },{
+          "id": "slide-3",
+          "src": "/courts/force-80-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Force 80 padel court"
+        },{
+          "id": "slide-4",
+          "src": "/courts/force-80-court-04.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Force 80 padel court"
+        }]
+      },
+      "SINGLE_COURT": {
+        "ID": "single-court",
+        "SEO_TITLE": "Single Court - Padel Court",
+        "TITLE": "<span>Single</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>Our Single Court is perfect for a solo player and is specially designed by Portico Sport's engineering department. With dimensions smaller than usual (20x6m), this court is intended to provide a great playing experience for those who play alone, whether for training, enjoyment, or due to a lack of a partner for the sport. Despite its smaller size, it features the same premium quality and exceptional durability as the rest of our courts, making it a great choice for clubs looking to expand their offerings and provide this special court.</p>",
+        "NAME": "Single court",
+        "LITTLE_DESCRIPTION": "<p>Same strength in smaller dimensions for solo players.</p>",
+        "ROUTE": {
+          "LABEL": "More about single court",
+          "URL": "/padel-courts/single"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Single Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/single/single-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "Our Single Court, with dimensions smaller than usual (20x6m), provides a great playing experience for those who play alone, whether for training, enjoyment, or due to a lack of a partner for the sport.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/single-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Single court"
+        },{
+          "id": "slide-2",
+          "src": "/courts/single-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Single court"
+        },{
+          "id": "slide-3",
+          "src": "/courts/single-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Single court"
+        }]
+      },
+      "MINI_COURT": {
+        "ID": "mini-court",
+        "SEO_TITLE": "Mini Court - Padel Court",
+        "SEO_DESCRIPTION":"Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players. Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts. Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.",
+        "TITLE": "<span>Mini</span> <span class=\"text-white\">court</span>",
+        "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players. Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts. Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
+        "NAME": "Mini court",
+        "LITTLE_DESCRIPTION": "<p>Move our reduced-size padel court that fits anywhere.</p>",
+        "ROUTE": {
+          "LABEL": "More about mini court",
+          "URL": "/padel-courts/mini"
+        },
+        "CONTACT_SECTION": {
+          "SUBJECT": "New petition for a Mini Court",
+          "TITLE": "News",
+          "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
+          "IMAGE": "/courts-detail/mini/mini-perspective.webp"
+        },
+        "HOME_DESCRIPTION": "Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players.",
+        "HOME_IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts/mini-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-2",
+          "src": "/courts/mini-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-3",
+          "src": "/courts/mini-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        }]
+      }
     },
     "CANOPIES": {
-      "LABEL": "Couvertures",
-      "ID": "Couvertures",
-      "URL": "/couvertures"
-    },
-    "ELEVATED_PLATFORM": {
-      "LABEL": "Elevated platform",
-      "ID": "elevated-platform",
-      "URL": "/elevated-platform"
-    },
-    "COURTS": {
-      "LABEL": "Terrains",
-      "ID": "terrains-padel",
-      "URL": "/#terrains-padel"
+      "SEO_TITLE": "High-performance canopies - Padel Court",
+      "SEO_DESCRIPTION":"Portico Sport is specialist in high-performance canopies and the leader in the manufacturing and installation of canopies",
+      "PRETITLE": "Leader in the manufacturing and installation of canopies",
+      "TITLE": "High-performance canopies",
+      "TITLE_ALT": "High-performance canopies",
+      "SUBTITLE": "Innovation, quality and high technology",
+      "SUBSUBTITLE": "Enhances play experience",
+      "DESCRIPTION": "Our canopies grant a significant increase in the long-term usage of the padel courts.",
+      "ROUTE": {
+        "LABEL": "Canopies",
+        "URL": "/canopies"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "Sport-Specific Engineering",
+        "DESCRIPTION": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
+        "IMAGE": {
+          "src": "/canopies/section-canopies-01/canopy-structure.png",
+          "alt": "Canopy structure"
+        }
+      },
+      "FEATURE_SECTION": {
+        "TITLE": "Specialized Professional team",
+        "DESCRIPTION": "Our engineers develop construction and installation systems for padel court canopies tailored to the needs of our clients, as well as to the standards and regulations of each country.",
+        "LIST": [
+          "<strong>Reduced heat projection</strong> compared to metal sheets canopies.",
+          "<strong>Reduced shadows and contrasts</strong> compared to opaque materials.",
+          "<strong>Increased brightness</strong> that optimizes the use of artificial lighting.",
+          "<strong>Reduced echo effect</strong> during gameplay.",
+          "<strong>Prevents discoloration of the turf</strong> due to UV rays.",
+          "<strong>Prevents crystal condensation</strong>.",
+          "<strong>Prevents rain from compacting</strong> the sand on the turf.",
+          "<strong>Soften potential expansions and contractions</strong> caused by sunlight on the structure and the turf."
+        ],
+        "LIST_TITLE": "Excellence and experience",
+        "LIST_DESCRIPTION": "We highlight the following features of our canopies:",
+        "IMAGES": [{
+          "id": "image-1",
+          "src": "canopies/section-canopies-01/canopies-section-01.webp",
+          "alt": "Canopies"
+        },
+        {
+          "id": "image-2",
+          "src": "canopies/section-canopies-01/canopies-section-02.webp",
+          "alt": "Canopies"
+        },
+        {
+          "id": "image-3",
+          "src": "canopies/section-canopies-01/canopies-section-03.webp",
+          "alt": "Canopies"
+        },
+        {
+          "id": "image-4",
+          "src": "canopies/section-canopies-01/canopies-section-04.webp",
+          "alt": "Canopies"
+        },
+        {
+          "id": "image-5",
+          "src": "canopies/section-canopies-01/canopies-section-05.webp",
+          "alt": "Canopies"
+        }]
+      },
+      "ADVANTAGE_SECTION": {
+        "TITLE": "Installation of padel canopies",
+        "DESCRIPTION": "<p><strong>PORTICO SPORT has many years of experience in engineering</strong>, and handles the entire construction process, with a team of professionals specialized in every step from <strong>design to manufacturing and installation.</strong></p><p>They are highly aware of the unique nature of each client and manage their projects with the respect and personalized attention that everyone requires. All of this, <strong>guarantees the success</strong> of their work, based on quality, innovation, trust, and experience.</p><p><strong>Manufactured with hot-rolled structural steel profiles</strong> of various dimensions as required by the installation.</p><p><strong>The roofing of the structure</strong> is done with cellular polycarbonate sheets of variable thicknesses as demanded by the project and the situation.</p><p><strong>The material provides the roof with ideal characteristics for the practice of this sport</strong>, tested by high-level players.</p><p>As an option <strong>we offer the possibility of installing side panels</strong> up to a height of 3 meters from the ground, to prevent lateral winds and/or rains that could interfere with the game.</p>",
+        "BUTTON_TEXT": "Discover more canopies"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "I would like to receive more information about the canopies",
+        "BUTTON_TEXT": "I WANT MORE INFORMATION ABOUT CANOPIES",
+        "BG_IMAGE": "canopies/canopies-contact-bg.webp",
+        "IMAGE": "canopies/canopy-contact.webp"
+      },
+      "GALLERY": {
+        "HEADING": "Sport-Specific Engineering",
+        "SUBHEADING": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
+        "BUTTON_TEXT":"Discover more canopies"
+      }
     },
     "PROJECTS": {
-      "LABEL": "Projets",
-      "ID": "projets",
-      "URL": "/#projets"
+      "ID": "projects",
+      "SEO_TITLE": "Projects - Padel Court",
+      "SEO_DESCRIPTION":"Discover the latest projects of Portico Sport",
+      "SUBTITLE": "Discover the latest projects of Portico Sport",
+      "TITLE": "Projects By <span class=\"text-primary\">Portico Sport</span>",
+      "POSTTITLE": "Padel courts and Canopies clubs by Portico Sport",
+      "ROUTE": {
+        "LABEL": "Projects",
+        "URL": "/projects"
+      }
     },
     "FACTORY": {
-      "LABEL": "Usine",
-      "ID": "notre-usine",
-      "URL": "/notre-usine"
+      "ID": "our-factory",
+      "SEO_TITLE": "Our Factory - Padel Court",
+      "SEO_DESCRIPTION":"Our factory is the largest and most technologically advanced in the industry. We have a new manufacturing site expanding over 110k sqft. Our factory is equipped with the latest technology and machinery, allowing us to manufacture and install padel courts and canopies worldwide.",
+      "TITLE": "Portico Sport Factory",
+      "SUBTITLE": "The largest padel courts and canopies manufacturing site",
+      "DESCRIPTION": "<p>The company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
+      "ROUTE": {
+        "LABEL": "Our Factory",
+        "URL": "/our-factory"
+      },
+      "FACTORY_SECTION":{
+        "PREFOOTER_VIDEO_TITLE": "Visit our factory",
+        "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site"
+      },
+      "FEATURE_SECTION": {
+        "TITLE": "Commitment to excellence",
+        "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
+        "IMAGES": [{
+          "id": "feature-section-1",
+          "src": "/factory/factory-feature-section-01.webp",
+          "alt": "Worker operating in our factory."
+        }, {
+          "id": "feature-section-2",
+          "src": "/factory/factory-feature-section-02.webp",
+          "alt": "Robot operating in our structures"
+        }, {
+          "id": "feature-section-3",
+          "src": "/factory/factory-feature-section-03.webp",
+          "alt": "Robot operating in our structures"
+        }, {
+          "id": "feature-section-4",
+          "src": "/factory/factory-feature-section-04.webp",
+          "alt": "Worker operating in our factory."
+        }, {
+          "id": "feature-section-5",
+          "src": "/factory/factory-feature-section-05.webp",
+          "alt": "Worker operating in our factory."
+        }]
+      },
+      "INFORMATION_SECTION": {
+        "TITLE": "Consolidation",
+        "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
+        "SUBTITLE": "This entails:",
+        "IMAGES": [{
+          "id": "information-section-1",
+          "src": "/factory/factory-information-section-1.webp",
+          "alt": "Factory overview"
+        }, {
+          "id": "information-section-2",
+          "src": "/factory/factory-information-section-2.webp",
+          "alt": "Factory overview"
+        }, {
+          "id": "information-section-3",
+          "src": "/factory/factory-information-section-3.webp",
+          "alt": "Factory overview"
+        }, {
+          "id": "information-section-4",
+          "src": "/factory/factory-information-section-4.webp",
+          "alt": "Factory overview"
+        }, {
+          "id": "information-section-5",
+          "src": "/factory/factory-information-section-5.webp",
+          "alt": "Factory overview"
+        }]
+      },
+      "CONTACT_SECTION": {
+        "TITLE": "Visit our factory",
+        "DESCRIPTION": "<p>We invite you to visit our facilities. Our team of experts will be delighted to guide you through the different design, production, manufacturing and lacquering plants, showing the entire construction process from start to finish. Discover the entire production process from the materials selection process to the cutting-edge engineering that enables us to manufacture the best courts in the industry.</p><p>This is a unique opportunity to understand why our courts and canopies are so highly valued by professional players and enthusiasts worldwide, and to gain insight into the manufacturing process of high-quality padel courts and the technology and innovation that boost our industry. Additionally, you'll have the chance to experience the quality of our courts by playing on one of them.</p><p>We look forward to seeing you at our facilities and sharing our passion for padel with you.</p>",
+        "SUBJECT": "I would like visit your factory",
+        "SUBTITLE": "We are happy to show you around",
+        "BUTTON_TEXT": "Visit us",
+        "BG_IMAGE": "factory/factory-contact-bg.webp"
+      }
     },
     "NEWS": {
-      "LABEL": "Nouvelles",
-      "URL": "/nouvelles"
+      "ID": "news",
+      "SEO_TITLE": "News - Padel Court",
+      "SEO_DESCRIPTION":"The latest news from Portico Sport",
+      "TITLE": "News",
+      "TITLE_ALT": "Our last news",
+      "SUBTITLE": "The latest news from Portico Sport",
+      "BUTTON": "Read more",
+      "ROUTE": {
+        "LABEL": "News",
+        "URL": "/news"
+      },
+      "POST_PAGE": {
+        "WRITE": "Write by"
+      },
+      "LIST": {
+        "TITLE": "Our last News",
+        "SUBTITLE": "The latest news from Portico Sport"
+      }
     },
     "CONTACT": {
-      "LABEL": "Contactez-nous",
       "ID": "contact",
-      "URL": "/#contact"
+      "SEO_TITLE": "Contact us",
+      "SEO_DESCRIPTION": "We are here to help you. Contact us for any questions or inquiries.",
+      "TITLE": "Contact us",
+      "SUBTITLE": "Portico Sport: With you throughout the entire process",
+      "ROUTE": {
+        "LABEL": "Contact",
+        "URL": "/contact"
+      }
+    },
+    "COOKIES": {
+      "ID": "cookies",
+      "SEO_TITLE": "Cookies policy",
+      "SEO_DESCRIPTION": "This Cookies Policy is an integral part of the Legal Notice and the Privacy Policy of www.porticosport.com (hereinafter, the Website), owned by PÓRTICO GESTIÓN E INGENIERÍA, S.L. with registered office at C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registered in the commercial register of Badajoz, tome 504, folio 31, sheet BA-22562, and responsible for the Cookies and the processing of personal data obtained through its own cookies and those of third parties used on this Website.",
+      "ROUTE": {
+        "LABEL": "Cookies",
+        "URL": "/cookies"
+      },
+      "POLICIES": {
+        "TITLE": "Cookies policy",
+        "DESCRIPTION_1": "This Cookies Policy is an integral part of the Legal Notice and the Privacy Policy of www.porticosport.com (hereinafter, the Website), owned by PÓRTICO GESTIÓN E INGENIERÍA, S.L. with registered office at C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registered in the commercial register of Badajoz, tome 504, folio 31, sheet BA-22562, and responsible for the Cookies and the processing of personal data obtained through its own cookies and those of third parties used on this Website.",
+        "DESCRIPTION_2": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes.",
+        "DESCRIPTION_3": "You can accept all cookies, reject them or configure your preferences in the cookie settings panel. At any time you can revoke consent or modify your cookie settings preferences by accessing the configuration panel again. You can also prevent the download of cookies or delete those installed through your browser settings, preventing cookies from being stored on your device. It is very important that you read this cookie policy.",
+        "DESCRIPTION_4": "We inform you of the possibility of rejecting and disabling cookies may affect or hinder navigation or the provision of services offered on this Website."
+      },
+      "WHAT_IS": {
+        "TITLE": "What are cookies?",
+        "DESCRIPTION_1": "Cookies are alphanumeric identifiers that contain information that is installed on the User's device and downloaded to the User's Web browser when the User visits and accesses a web page. Their main purpose is to uniquely identify and recognize the User's device each time he or she accesses the Website, as well as to improve the quality and offer a better use of the Website.",
+        "DESCRIPTION_2": "They are small text files that are stored on the hard drive of the computer and serve to identify the User when he or she connects to the website again. Their purpose is to record the User's visit and save certain information. Their use is common and frequent on the web as they allow pages to function more efficiently and obtain greater personalization and analysis of the User's behavior."
+      },
+      "TYPES": {
+        "TITLE": "What types of cookies are there?",
+        "DESCRIPTION_1_TITLE": "1.- According to the entity that manages them:",
+        "DESCRIPTION_1": "Own cookies are those that are installed on the User's terminal from the domain managed by the person responsible for the Website and third-party cookies are those that are installed on the User's terminal from a domain managed by third parties that process the data obtained through such cookies.",
+        "DESCRIPTION_2_TITLE": "2.- According to the length of time they remain active:",
+        "DESCRIPTION_2": "Session cookies are those that remain active and collect data while the user accesses a website and disappear when the session ends, and permanent cookies are those that remain active and from which data is collected for a period of time defined by the person responsible for the cookie or until they are deactivated or deleted by the User.",
+        "DESCRIPTION_3_TITLE": "3.- Technical cookies:",
+        "DESCRIPTION_3": "They are those that allow the User to navigate through a web page and use the different options or services offered, such as, control traffic and data communication, identify the session, access restricted access parts, make a request for registration, use security elements during navigation, etc. As they are necessary for the operation of the website, these cookies will be activated and cannot be rejected.",
+        "DESCRIPTION_4_TITLE": "4.- Performance or operational cookies:",
+        "DESCRIPTION_4": "This type of Cookie remembers your preferences in browsing the Web so that you do not have to reconfigure the service each time you visit the Web. By way of example, this type includes: Volume settings for video or sound players. Video transmission speeds that are compatible with your browser. These cookies can be disabled by the User, although this may affect the proper functioning of the Web services.",
+        "DESCRIPTION_5_TITLE": "5.- Analytical or measurement cookies:",
+        "DESCRIPTION_5": "They are those that allow the tracking and analysis of the behavior of the Users of the Web in order to obtain statistical data and improve the operation of the Web. Each time a User visits a Web, a tool from an external provider generates an analytical cookie on the User's computer.",
+        "DESCRIPTION_6_TITLE": "6.- Advertising cookies:",
+        "DESCRIPTION_6": "This type of cookies allows to obtain information about the duration or frequency of visualization of advertising positions, the interaction with them, or the navigation patterns and/or behaviors of the User since they help to shape an advertising interest profile. In this way, they allow to offer advertising related to the interests of the User.",
+        "DESCRIPTION_7_TITLE": "7.- Social network cookies:",
+        "DESCRIPTION_7": "They are those that allow the User to interact with the content of different social platforms (Facebook, YouTube, Twitter, LinkedIn, etc.) and that are generated only for the Users of said social networks. The conditions of use of these cookies and the information collected are regulated by the privacy policy of the corresponding social platform."
+      },
+      "BLOCK": {
+        "TITLE": "How to block or delete cookies?",
+        "DESCRIPTION_1": "You can allow, block or delete the cookies installed on your computer by configuring the options of the browser installed on your computer. If you do not allow the installation of cookies in your browser, you may not be able to access some of the services and your experience on our website may be less satisfactory.",
+        "DESCRIPTION_2": "In the following links you have at your disposal all the information to configure or disable your cookies in each browser:",
+        "DESCRIPTION_3": "Chrome:",
+        "DESCRIPTION_3_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+        "DESCRIPTION_4": "For more information on managing cookies in Internet Explorer:",
+        "DESCRIPTION_4_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
+        "DESCRIPTION_5": "For more information on managing cookies in Mozilla Firefox:",
+        "DESCRIPTION_5_URL": "https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
+        "DESCRIPTION_6": "For more information on managing cookies in Safari:",
+        "DESCRIPTION_6_URL": "http://www.apple.com/es/privacy/use-of-cookies",
+        "DESCRIPTION_7": "For more information on managing cookies in Opera:",
+        "DESCRIPTION_7_URL": "http://help.opera.com/Windows/11.50/es-ES/cookies.html",
+        "DESCRIPTION_8": "If you wish to stop being tracked by Google Analytics visit:",
+        "DESCRIPTION_8_URL": "http://tools.google.com/dlpage/gaoptout",
+        "DESCRIPTION_9": "Chrome:",
+        "DESCRIPTION_9_URL": "https://support.google.com/chrome/answer/95647?hl=es",
+        "DESCRIPTION_10": "For more information on managing cookies in Internet Explorer:",
+        "DESCRIPTION_10_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
+        "DESCRIPTION_11": "Chrome:"
+      },
+      "MORE_INFO": {
+        "TITLE": "More information about cookies",
+        "DESCRIPTION_1": "You can obtain more information about online behavioral advertising and online privacy at the following link:",
+        "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
+        "DESCRIPTION_2": "Google Analytics Data Protection",
+        "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
+        "DESCRIPTION_3": "How Google Analytics uses cookies:",
+        "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
+      },
+      "THIRD_PARTY": {
+        "TITLE": "Third party cookies",
+        "DESCRIPTION": "This Website uses third-party cookies, specifically Google Analytics analytical cookies, to analyse the activity carried out by users when they visit the website for statistical purposes."
+      },
+      "UPDATES": {
+        "TITLE": "Updates and changes to the cookie policy",
+        "DESCRIPTION": "FAN CONTENT may modify this Cookies Policy in accordance with legislative or regulatory requirements, or in order to adapt this policy to the instructions issued by the Spanish Data Protection Agency and the European Data Protection Committee, therefore Users are advised to visit it periodically.",
+        "DATE": "Date of last update: 12th of December 2023."
+      },
+      "SITE_COOKIES": {
+        "TITLE": "Cookies used on this Website",
+        "THEAD_NAME": "Name",
+        "THEAD_CADUCITY": "Caducity",
+        "THEAD_PROVIDER": "Provider",
+        "THEAD_FINALITY": "Finality",
+        "ANALYTICS": [
+          {
+            "NAME": "_ga",
+            "EXPIRE": "2 years",
+            "PROVIDER": {
+              "NAME": "Google",
+              "URL": "https://google.com/"
+            },
+            "OBJECTIVE": "It is used to distinguish users.",
+            "OBJECTIVE_URL": ""
+          },
+          {
+            "NAME": "_gid",
+            "EXPIRE": "24 hours",
+            "PROVIDER": {
+              "NAME": "Google",
+              "URL": "https://google.com/"
+            },
+            "OBJECTIVE": "It is used to distinguish users.",
+            "OBJECTIVE_URL": ""
+          },
+          {
+            "NAME": "_ga_J8PJQBXG7J",
+            "EXPIRE": "2 years",
+            "PROVIDER": {
+              "NAME": "Google",
+              "URL": "https://google.com/"
+            },
+            "OBJECTIVE": "It is used to determinate user state",
+            "OBJECTIVE_URL": ""
+          },
+          {
+            "NAME": "_gac_gb_J8PJQBXG7J",
+            "EXPIRE": "90 days",
+            "PROVIDER": {
+              "NAME": "Google",
+              "URL": "https://google.com/"
+            },
+            "OBJECTIVE": "It is used to store campaign information in order to provide Google Ads with a more efficient conversion.",
+            "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=es"
+          }
+        ]
+      }
+    },
+    "PRIVACY": {
+      "ID": "privacy",
+      "SEO_TITLE": "Privacy Policy - Padel Court",
+      "SEO_DESCRIPTION":"Privacy Policy and General Conditions of Portico Sport",
+      "ROUTE": {
+        "LABEL": "Privacy Policy",
+        "URL": "/privacy"
+      },
+      "TITLE": "Privacy Policy And General Conditions",
+      "IDENTIFICATION": {
+        "TITLE": "1. IDENTIFICATION DATA",
+        "DESCRIPTION_1": "In compliance with the duty of information contained in article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, the following data is reflected below:",
+        "DESCRIPTION_2": "The company that owns this web domain is PÓRTICO GESTIÓN E INGENIERÍA, S.L., domiciled for these purposes at C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. number: B-06585897 registered in the commercial register of Badajoz, tome 504, folio 31, sheet BA-22562 Contact email: info@porticosport.com"
+      },
+      "USERS": {
+        "TITLE": "2. USERS",
+        "DESCRIPTION_1": "The access and / or use of this portal or website provides the condition of USER, who accepts, since access and / or use, the General Conditions of Use reflected in this notice. The Conditions will be applied independently of the General Contracting Conditions that in their case are mandatory. In any case, for any specific purpose, your express consent will be requested."
+      },
+      "USES": {
+        "TITLE": "3. USE OF THE PORTAL",
+        "DESCRIPTION_1": "Our website provides access to information, services, programs or data (hereinafter we will refer to them as “the contents”) on the Internet belonging to info@porticosport.com or its licensors to which the USER may have access. The USER assumes responsibility for the correct use of the portal. This responsibility extends to the registration that is necessary to access certain services or content.",
+        "DESCRIPTION_2": "In said registration, the USER will be responsible for providing true and lawful information about their data. As a consequence of this registration, the USER may be provided with a password for which he will be responsible, committing himself to make diligent, ethical and confidential use of it. The USER agrees to make appropriate use of the content and services (such as chat services, discussion forums or newsgroups) offered through its portal and by way of example, but not limitation, not to use them for:",
+        "DESCRIPTION_3": "<ul><li>Incurring activities that are illegal, illegal or contrary to good faith and public order;</li><li>Disseminate content or propaganda of a racist, xenophobic, pornographic-illegal nature, in support of terrorism or an attack on human rights</li><li>Causing damage to the physical and logical systems of the owner, its suppliers or third parties, introducing or spreading computer viruses or any other physical or logical systems that are likely to cause the aforementioned damage;</li><li>Try to access and, where appropriate, use the email accounts of other users and modify or manipulate their messages. The owner of the portal reserves the right to withdraw all comments and contributions that violate respect for the dignity of the person, that are discriminatory, xenophobic, racist, pornographic, that threaten youth or childhood, order or security. public or that, in his opinion, were not suitable or convenient for publication. In any case, the owner of the portal will not be responsible for the opinions expressed by users through forums, chats, or other participation tools.</li></ul>"
+      },
+      "DATA_PROTECTION": {
+        "TITLE": "4. DATA PROTECTION AND USE OF COOKIES",
+        "DESCRIPTION_1": "The use of personal data is defined on bases of the General Data Protection Regulation and current Spanish regulations. In order to achieve maximum transparency and based on our proactive policy, we inform you:",
+        "DESCRIPTION_2": "<ul><li>Why do we request your data? We need your data to create a record and subsequently contact our customers.</li><li>What kind of data do we collect? Personal information.</li><li>How are they collected? Through web form and blog comments.</li><li>Shared use with third parties: Not applicable.</li><li>How long are the personal data collected kept? The personal data provided will be kept as long as the commercial relationship is maintained or you do not request its deletion and during the period for which legal responsibilities for the services provided may arise.</li></ul>",
+        "DESCRIPTION_3": "Rights: You have the right to access your data, rectify, delete, limit and oppose its treatment at any time, you can also withdraw the consent given and claim before the control authority (Spanish Data Protection Agency C/ Jorge Juan nº6 28001 Madrid). To exercise your rights, you have a direct channel with our company at the email info@porticosport.com and at the postal address C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) indicating in the subject «data protection»."
+      },
+      "INTELLECTUAL": {
+        "TITLE": "5. INTELLECTUAL AND INDUSTRIAL PROPERTY",
+        "DESCRIPTION_1": "The owner himself or as assignee, is the owner of all the intellectual and industrial property rights of its website, as well as the elements contained therein (for example, images, sound, audio, video, software or texts; brands or logos, color combinations, structure and design, selection of used materials, computer programs necessary for its operation, access and use, etc.).",
+        "DESCRIPTION_2": "All rights reserved. By virtue of the provisions of articles 8 and 32.1, second paragraph, of the Intellectual Property Law, the reproduction, distribution and public communication, including the method of making them available, of all or part of the contents of this website, for commercial purposes, in any medium and by any technical means, without the authorization of PÓRTICO GESTIÓN E INGENIERÍA, SL",
+        "DESCRIPTION_3": "The USER agrees to respect the Intellectual and Industrial Property rights owned by PÓRTICO GESTIÓN E INGENIERÍA, S.L. You can view the elements of the portal and even print, copy and store them on your computer’s hard drive or any other physical medium as long as it is, solely and exclusively, for your personal and private use. The USER must refrain from deleting, altering, evading or manipulating any protection device or security system that was installed on the pages of PÓRTICO GESTIÓN E INGENIERÍA, S.L."
+      },
+      "EXCLUSION": {
+        "TITLE": "6. EXCLUSION OF GUARANTEES AND LIABILITY",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. is not responsible, in any case, for damages of any nature that may cause, by way of example: errors or omissions in the contents, unavailability of the portal or the transmission of viruses or malicious or harmful programs in the contents , despite having taken all the necessary technological measures to avoid it."
+      },
+      "MODIFICATIONS": {
+        "TITLE": "7. MODIFICATIONS",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. reserves the right to make the modifications it deems appropriate on its portal without prior notice, being able to change, delete or add both the content and services provided through it and the way in which they are presented or located in its portal."
+      },
+      "LINKS": {
+        "LINKS": "8. LINKS",
+        "DESCRIPTION_1": "In the event that links or hyperlinks to other Internet sites are available on porticosport.net, it will not exercise any type of control over said sites and content. In no case does PÓRTICO GESTIÓN E INGENIERÍA, S.L. will assume any responsibility for the contents of any link belonging to a third party website, nor will it guarantee the technical availability, quality, reliability, accuracy, breadth, veracity, validity and constitutionality of any material or information contained in any of said hyperlinks or other sites of Internet. In case of using the links, please access the privacy policy and legal notice of the page visited.",
+        "DESCRIPTION_2": "Likewise, the inclusion of these external connections will not imply any type of association, merger or participation with the connected entities."
+      },
+      "RIGHT_OF_EXCLUSION": {
+        "TITLE": "9. RIGHT OF EXCLUSION",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. reserves the right to deny or withdraw access to the portal and / or the services offered without prior notice, at its own request or by a third party, to those users who fail to comply with these General Conditions of Use."
+      },
+      "GENERAL": {
+        "TITLE": "10. GENERAL",
+        "DESCRIPTION_1": "Failure to comply with these conditions will be pursued, as well as any improper use of its portal, exercising all civil and criminal actions that may correspond to it in law."
+      },
+      "MODIFICATION_PRESENT": {
+        "TITLE": "11. MODIFICATION OF THE PRESENT CONDITIONS AND DURATION",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. You can modify the conditions determined here at any time, being duly published as they appear here.",
+        "DESCRIPTION_2": "The validity of the aforementioned conditions will be based on their exposure and will be valid until duly published. that are modified by others."
+      },
+      "LEGISLATION": {
+        "TITLE": "12. APPLICABLE LEGISLATION AND JURISDICTION",
+        "DESCRIPTION_1": "The relationship between PÓRTICO GESTIÓN E INGENIERÍA, S.L. and the USER will be governed by current Spanish regulations and any controversy will be submitted to the relevant authority."
+      }
+    },
+    "NO_FOUND": {
+      "ID": "not-found",
+      "SEO_TITLE": "Page not found",
+      "SEO_DESCRIPTION":"The page you are looking for does not exist. Please, go to the home page or contact us.",
+      "TITLE": "Page not found",
+      "TITLE_ALT": "Page not found",
+      "SUBTITLE": "The page you are looking for does not exist",
+      "DESCRIPTION": "The page you are looking for does not exist. Please, go to the home page or contact us."
     }
+  },
+  "LOCALE_DATE": "en-US",
+  "HEADER": {
+    "LOGO": "Go to the home page"
   },
   "ARCHIVO": {
     "HERO_TITLE": "Ediciones anteriores",
@@ -198,762 +1206,99 @@
       "ARCHIVE": "Archivo"
     }
   },
-  "INFO_TITLE": "Los premios ESLAND",
-  "INFO_TITLE_1": "Un reconocimiento único para creadores, creadoras y comunidades",
-  "INFO_CONTENT_1_1": "Los Premios ESLAND son una iniciativa privada promovida por el célebre streamer TheGrefg y buscan apoyar y reconocer la creación de contenido en el ámbito hispanohablante.",
-  "INFO_CONTENT_1_2": "ESLAND es el acrónimo de ESPAÑA, LATINOAMÉRICA Y ANDORRA, tres localizaciones geográficas que comparten el idioma que las une más allá de cualquier frontera, ya sea física o virtual.",
-  "INFO_TITLE_2": "EL PREMIO A LA CREACIÓN",
-  "INFO_CONTENT_2_1": "El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es <strong>una representación de la letra “A” dividida en tres fragmentos</strong> y ensambladas a modo de artilugio futurista sobre el que se construye la narrativa del evento.",
-  "INFO_CONTENT_2_2": "Un artefacto de origen desconocido que dota de <strong>herramientas y habilidades para la creación.</strong> Una metáfora sobre la emancipación del talento gracias a la tecnología y la irrupción de los creadores de contenido en el mundo del entretenimiento.",
-  "MEDIA_KIT_TITLE": "KIT DE PRENSA",
-  "MEDIA_KIT_SUBTITLE_1": "LOGOTIPO Y TROFEO",
-  "MEDIA_KIT_SUBTITLE_2": "FONDOS DE PANTALLA",
-  "MEDIA_KIT_SUBTITLE_3": "NOTA DE PRENSA",
-  "DOWNLOAD_BUTTON": "DESCARGAR",
-  "COOKIES": {
-    "POLICIES": {
-      "TITLE": "Politique de cookies",
-      "DESCRIPTION_1": "Cette politique de cookies fait partie intégrante des Mentions Légales et de la Politique de Confidentialité de www.porticosport.com (ci-après, le Site Web), propriété de PÓRTICO GESTIÓN E INGENIERÍA, S.L. domiciliée à C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) C.I.F. numéro : B-06585897 inscrite au registre du commerce de Badajoz, tome 504, folio 31, feuille BA-22562, et responsable des Cookies et du traitement des données personnelles obtenues grâce à ses propres cookies et à ceux de tiers utilisés sur ce Site Web.",
-      "DESCRIPTION_2": "Ce Site Web utilise des cookies tiers, en particulier des cookies analytiques Google Analytics, pour analyser l'activité des utilisateurs lorsqu'ils visitent le site Web à des fins statistiques.",
-      "DESCRIPTION_3": "Vous pouvez accepter tous les cookies, les refuser ou configurer vos préférences dans le panneau de paramètres des cookies. À tout moment, vous pouvez révoquer votre consentement ou modifier vos préférences de paramètres de cookies en accédant à nouveau au panneau de configuration. Vous pouvez également empêcher le téléchargement de cookies ou supprimer ceux installés via les paramètres de votre navigateur, empêchant ainsi le stockage de cookies sur votre appareil. Il est très important que vous lisiez cette politique de cookies.",
-      "DESCRIPTION_4": "Nous vous informons que la possibilité de refuser et de désactiver les cookies peut affecter ou entraver la navigation ou la fourniture des services proposés sur ce Site Web."
+  "ELEVATED_PLATFORM": {
+    "SEO_TITLE": "Elevated Platform - Padel Court",
+    "SEO_DESCRIPTION":"The elevated platform is a patented system designed and engineered by our Engineering department. This system allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the elevated platform is the best choice.",
+    "ID": "elevated-platform",
+    "TITLE": "Elevated Platform",
+    "SUBTITLE": "- Leaders in manufacture and installation of padel courts –",
+    "ROUTE": {
+      "LABEL": "Elevated Platform",
+      "URL": "/elevated-platform"
     },
-    "WHAT_IS": {
-      "TITLE": "Qu'est-ce qu'un cookie ?",
-      "DESCRIPTION_1": "Les cookies sont des identificateurs alphanumériques qui contiennent des informations installées sur l'appareil de l'Utilisateur et téléchargées sur le navigateur Web de l'Utilisateur lorsqu'il visite et accède à une page Web. Ils ont pour objectif principal d'identifier et de reconnaître de manière unique l'appareil de l'Utilisateur à chaque fois qu'il accède au Site Web, ainsi que d'améliorer la qualité et d'offrir une meilleure utilisation du Site Web.",
-      "DESCRIPTION_2": "Ce sont de petits fichiers texte qui sont stockés sur le disque dur de l'ordinateur et servent à identifier l'Utilisateur lorsqu'il se connecte à nouveau au site Web. Ils ont pour objectif d'enregistrer la visite de l'Utilisateur et de sauvegarder certaines informations. Leur utilisation est courante et fréquente sur le Web car ils permettent aux pages de fonctionner de manière plus efficace et d'obtenir une plus grande personnalisation et une analyse du comportement de l'Utilisateur."
+    "FIRST_SECTION": {
+      "TITLE": "Your padel court on any terrain",
+      "SUBTITLE": "The perfect solution for you!",
+      "DESCRIPTION": "At Portico Sport, our engineering team has developed an innovative, elevated, modular and removable platform, specifically designed to adapt to any type of terrain.This platform provides a sturdy and reliable foundation for all our court models, enabling clients to establish their padel space irrespective of terrain conditions. Additionally, clients can save on ground preparation expenses and permit acquisition as only a soil test is necessary to place the platform."
     },
-    "TYPES": {
-      "TITLE": "Quels types de cookies existe-t-il ?",
-      "DESCRIPTION_1_TITLE": "1.- Selon l'entité qui les gère :",
-      "DESCRIPTION_1": "Les cookies propres sont ceux qui sont installés sur le terminal de l'Utilisateur à partir du domaine géré par le responsable du Site Web et les cookies tiers sont ceux qui sont installés sur le terminal de l'Utilisateur à partir d'un domaine géré par des tiers qui traitent les données obtenues grâce à ces cookies.",
-      "DESCRIPTION_2_TITLE": "2.- Selon la durée pendant laquelle ils restent actifs :",
-      "DESCRIPTION_2": "Les cookies de session sont ceux qui restent actifs et collectent des données pendant que l'utilisateur accède à un site Web et disparaissent lorsque la session se termine, et les cookies permanents sont ceux qui restent actifs et à partir desquels des données sont collectées pendant une période de temps définie par le responsable du cookie ou jusqu'à ce qu'ils soient désactivés ou supprimés par l'Utilisateur.",
-      "DESCRIPTION_3_TITLE": "3.- Cookies techniques :",
-      "DESCRIPTION_3": "Ce sont ceux qui permettent à l'Utilisateur de naviguer sur une page Web et d'utiliser les différentes options ou services proposés, tels que, contrôler le trafic et la communication de données, identifier la session, accéder à des parties à accès restreint, faire une demande d'inscription, utiliser des éléments de sécurité pendant la navigation, etc. Comme ils sont nécessaires au fonctionnement du site Web, ces cookies seront activés et ne pourront pas être refusés.",
-      "DESCRIPTION_4_TITLE": "4.- Cookies de performance ou opérationnels :",
-      "DESCRIPTION_4": "Ce type de Cookie se souvient de vos préférences de navigation sur le Web afin que vous n'ayez pas à reconfigurer le service à chaque fois que vous visitez le Web. Par exemple, ce type comprend : les paramètres de volume pour les lecteurs vidéo ou audio. Les vitesses de transmission vidéo compatibles avec votre navigateur. Ces cookies peuvent être désactivés par l'Utilisateur, bien que cela puisse affecter le bon fonctionnement des services Web.",
-      "DESCRIPTION_5_TITLE": "5.- Cookies analytiques ou de mesure :",
-      "DESCRIPTION_5": "Ce sont ceux qui permettent le suivi et l'analyse du comportement des Utilisateurs du Web afin d'obtenir des données statistiques et d'améliorer le fonctionnement du Web. Chaque fois qu'un Utilisateur visite un Web, un outil d'un fournisseur externe génère un cookie analytique sur l'ordinateur de l'Utilisateur.",
-      "DESCRIPTION_6_TITLE": "6.- Cookies publicitaires :",
-      "DESCRIPTION_6": "Ce type de cookies permet d'obtenir des informations sur la durée ou la fréquence de visualisation des positions publicitaires, l'interaction avec elles, ou les modèles et/ou comportements de navigation de l'Utilisateur, car ils aident à façonner un profil d'intérêt publicitaire. De cette manière, ils permettent d'offrir de la publicité liée aux intérêts de l'Utilisateur.",
-      "DESCRIPTION_7_TITLE": "7.- Cookies de réseaux sociaux :",
-      "DESCRIPTION_7": "Ce sont ceux qui permettent à l'Utilisateur d'interagir avec le contenu de différentes plateformes sociales (Facebook, YouTube, Twitter, LinkedIn, etc.) et qui sont générés uniquement pour les Utilisateurs desdits réseaux sociaux. Les conditions d'utilisation de ces cookies et les informations collectées sont régies par la politique de confidentialité de la plateforme sociale correspondante."
-    },
-    "BLOCK": {
-      "TITLE": "Comment bloquer ou supprimer les cookies ?",
-      "DESCRIPTION_1": "Vous pouvez autoriser, bloquer ou supprimer les cookies installés sur votre ordinateur en configurant les options du navigateur installé sur votre ordinateur. Si vous n'autorisez pas l'installation de cookies dans votre navigateur, il est possible que vous ne puissiez pas accéder à certains des services et que votre expérience sur notre site Web soit moins satisfaisante.",
-      "DESCRIPTION_2": "Dans les liens suivants, vous avez à votre disposition toutes les informations pour configurer ou désactiver vos cookies dans chaque navigateur :",
-      "DESCRIPTION_3": "Chrome :",
-      "DESCRIPTION_3_URL": "https://support.google.com/chrome/answer/95647?hl=es",
-      "DESCRIPTION_4": "Pour plus d'informations sur la gestion des cookies dans Internet Explorer :",
-      "DESCRIPTION_4_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
-      "DESCRIPTION_5": "Pour plus d'informations sur la gestion des cookies dans Mozilla Firefox :",
-      "DESCRIPTION_5_URL": "https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
-      "DESCRIPTION_6": "Pour plus d'informations sur la gestion des cookies dans Safari :",
-      "DESCRIPTION_6_URL": "http://www.apple.com/es/privacy/use-of-cookies",
-      "DESCRIPTION_7": "Pour plus d'informations sur la gestion des cookies dans Opera :",
-      "DESCRIPTION_7_URL": "http://help.opera.com/Windows/11.50/es-ES/cookies.html",
-      "DESCRIPTION_8": "Si vous souhaitez cesser d'être suivi par Google Analytics, visitez :",
-      "DESCRIPTION_8_URL": "http://tools.google.com/dlpage/gaoptout",
-      "DESCRIPTION_9": "Chrome :",
-      "DESCRIPTION_9_URL": "https://support.google.com/chrome/answer/95647?hl=es",
-      "DESCRIPTION_10": "Pour plus d'informations sur la gestion des cookies dans Internet Explorer :",
-      "DESCRIPTION_10_URL": "http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions",
-      "DESCRIPTION_11": "Chrome :"
-    },
-    "MORE_INFO": {
-      "TITLE": "Plus d'informations sur les cookies",
-      "DESCRIPTION_1": "Vous pouvez obtenir plus d'informations sur la publicité comportementale en ligne et la confidentialité en ligne sur le lien suivant :",
-      "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
-      "DESCRIPTION_2": "Protection des données Google Analytics",
-      "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
-      "DESCRIPTION_3": "Comment Google Analytics utilise les cookies :",
-      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs"
-    },
-    "THIRD_PARTY": {
-      "TITLE": "Cookies tiers",
-      "DESCRIPTION": "Ce Site Web utilise des cookies tiers, en particulier des cookies analytiques Google Analytics, pour analyser l'activité des utilisateurs lorsqu'ils visitent le site Web à des fins statistiques."
-    },
-    "UPDATES": {
-      "TITLE": "Mises à jour et modifications de la politique de cookies",
-      "DESCRIPTION": "Portico Sport peut modifier cette politique de cookies conformément aux exigences législatives ou réglementaires, ou pour adapter cette politique aux instructions émises par l'Agence espagnole de protection des données et le Comité européen de protection des données, il est donc conseillé aux Utilisateurs de la visiter périodiquement.",
-      "DATE": "Date de la dernière mise à jour : 12 décembre 2023."
-    },
-    "SITE_COOKIES": {
-      "TITLE": "Cookies utilisés sur ce Site Web",
-      "THEAD_NAME": "Nom",
-      "THEAD_CADUCITY": "Caducité",
-      "THEAD_PROVIDER": "Fournisseur",
-      "THEAD_FINALITY": "Finalité",
-      "ANALYTICS": [
-        {
-          "NAME": "_ga",
-          "EXPIRE": "2 ans",
-          "PROVIDER": {
-            "NAME": "Google",
-            "URL": "https://google.com/"
-          },
-          "OBJECTIVE": "Il est utilisé pour distinguer les utilisateurs.",
-          "OBJECTIVE_URL": ""
-        },
-        {
-          "NAME": "_gid",
-          "EXPIRE": "24 heures",
-          "PROVIDER": {
-            "NAME": "Google",
-            "URL": "https://google.com/"
-          },
-          "OBJECTIVE": "Il est utilisé pour distinguer les utilisateurs.",
-          "OBJECTIVE_URL": ""
-        },
-        {
-          "NAME": "_ga_J8PJQBXG7J",
-          "EXPIRE": "2 ans",
-          "PROVIDER": {
-            "NAME": "Google",
-            "URL": "https://google.com/"
-          },
-          "OBJECTIVE": "Il est utilisé pour distinguer les utilisateurs.",
-          "OBJECTIVE_URL": ""
-        },
-        {
-          "NAME": "_gac_gb_J8PJQBXG7J",
-          "EXPIRE": "90 jours",
-          "PROVIDER": {
-            "NAME": "Google",
-            "URL": "https://google.com/"
-          },
-          "OBJECTIVE": "Il est utilisé pour stocker des informations sur la façon dont les utilisateurs utilisent le site Web et aide à créer un rapport d'analyse sur le fonctionnement du site Web. Les données stockées sont utilisées pour distinguer les utilisateurs et les sessions.",
-          "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=es"
-        }
-      ]
-    }
-  },
-  "PRIVACY": {
-    "TITLE": "Politique de confidentialité et conditions générales",
-    "IDENTIFICATION": {
-      "TITLE": "1. Données d'identification",
-      "DESCRIPTION_1": "Conformément à l'obligation d'information contenue à l'article 10 de la loi 34/2002 du 11 juillet sur les services de la société de l'information et du commerce électronique, les données suivantes sont reflétées ci-dessous :",
-      "DESCRIPTION_2": "La société propriétaire de ce domaine web est PÓRTICO GESTIÓN E INGENIERÍA, S.L., domiciliée à C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) Numéro de TVA : B-06585897 inscrite au registre du commerce de Badajoz, tome 504, folio 31, feuille BA-22562 Courriel de contact : info@porticosport.com"
-    },
-    "USERS": {
-      "TITLE": "2. UTILISATEURS",
-      "DESCRIPTION_1": "L'accès et / ou l'utilisation de ce portail ou site Web confère la condition d'UTILISATEUR, qui accepte, dès l'accès et / ou l'utilisation, les Conditions Générales d'Utilisation reflétées dans cet avis. Les Conditions seront appliquées indépendamment des Conditions Générales de Contrat qui, le cas échéant, sont obligatoires. En tout cas, pour tout objectif spécifique, votre consentement exprès sera demandé."
-    },
-    "USES": {
-      "TITLE": "3. UTILISATION DU PORTAIL",
-      "DESCRIPTION_1": "Notre site Web permet d'accéder à des informations, des services, des programmes ou des données (nous les appellerons ci-après «les contenus») sur Internet appartenant à info@porticosport.com ou à ses concédants auxquels l'UTILISATEUR peut avoir accès. L'UTILISATEUR assume la responsabilité de l'utilisation correcte du portail. Cette responsabilité s'étend à l'inscription nécessaire pour accéder à certains services ou contenus.",
-      "DESCRIPTION_2": "Dans ladite inscription, l'UTILISATEUR sera responsable de fournir des informations vraies et licites sur ses données. En conséquence de cette inscription, l'UTILISATEUR peut se voir attribuer un mot de passe dont il sera responsable, s'engageant à en faire un usage diligent, éthique et confidentiel. L'UTILISATEUR s'engage à faire un usage approprié des contenus et services (tels que les services de chat, les forums de discussion ou les newsgroups) offerts via son portail et, à titre d'exemple, mais sans limitation, à ne pas les utiliser pour :",
-      "DESCRIPTION_3": "<ul><li>Engager des activités illégales, illégales ou contraires à la bonne foi et à l'ordre public ;</li><li>Diffuser du contenu ou de la propagande de nature raciste, xénophobe, pornographique-illégale, en soutien au terrorisme ou à une atteinte aux droits de l'homme ;</li><li>Causer des dommages aux systèmes physiques et logiques du propriétaire, de ses fournisseurs ou de tiers, en introduisant ou en diffusant des virus informatiques ou tout autre système physique ou logique susceptible de causer les dommages susmentionnés ;</li><li>Essayer d'accéder et, le cas échéant, d'utiliser les comptes de messagerie d'autres utilisateurs et de modifier ou de manipuler leurs messages. Le propriétaire du portail se réserve le droit de retirer tous les commentaires et contributions qui violent le respect de la dignité de la personne, qui sont discriminatoires, xénophobes, racistes, pornographiques, qui menacent la jeunesse ou l'enfance, l'ordre ou la sécurité publics ou qui, à son avis, n'étaient pas adaptés ou convenables pour publication. En tout état de cause, le propriétaire du portail ne sera pas responsable des opinions exprimées par les utilisateurs via des forums, des chats ou d'autres outils de participation.</li></ul>"
-    },
-    "DATA_PROTECTION": {
-      "TITLE": "4. PROTECTION DES DONNÉES ET UTILISATION DES COOKIES",
-      
-      "DESCRIPTION_1": "L'utilisation des données personnelles est définie sur la base du Règlement Général sur la Protection des Données et de la réglementation espagnole en vigueur. Afin d'atteindre une transparence maximale et sur la base de notre politique proactive, nous vous informons :",
-      "DESCRIPTION_2": "<ul><li>Pourquoi demandons-nous vos données ? Nous avons besoin de vos données pour créer un enregistrement et contacter par la suite nos clients.</li><li>Quel type de données collectons-nous ? Informations personnelles.</li><li>Comment sont-elles collectées ? Par le biais de formulaires Web et de commentaires sur le blog.</li><li>Utilisation partagée avec des tiers : Non applicable.</li><li>Combien de temps les données personnelles collectées sont-elles conservées ? Les données personnelles fournies seront conservées tant que la relation commerciale sera maintenue ou que vous ne demandez pas leur suppression et pendant la période pour laquelle des responsabilités légales pour les services fournis peuvent survenir.</li></ul>",
-      "DESCRIPTION_3": "Droits : Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer, de limiter et de vous opposer à leur traitement à tout moment, vous pouvez également retirer le consentement donné et réclamer devant l'autorité de contrôle (Agence espagnole de protection des données C/ Jorge Juan nº6 28001 Madrid). Pour exercer vos droits, vous disposez d'un canal direct avec notre entreprise à l'adresse e-mail info@porticosport.com et à l'adresse postale C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) en indiquant dans l'objet «protection des données»."
-    },
-    "INTELLECTUAL": {
-      "TITLE": "5. PROPRIÉTÉ INTELLECTUELLE ET INDUSTRIELLE",
-      "DESCRIPTION_1": "Le propriétaire lui-même ou en tant que cessionnaire, est le propriétaire de tous les droits de propriété intellectuelle et industrielle de son site Web, ainsi que des éléments qu'il contient (par exemple, images, son, audio, vidéo, logiciels ou textes ; marques ou logos, combinaisons de couleurs, structure et design, sélection des matériaux utilisés, programmes informatiques nécessaires à son fonctionnement, accès et utilisation, etc.).",
-      "DESCRIPTION_2": "Tous droits réservés. En vertu des dispositions des articles 8 et 32.1, deuxième paragraphe, de la Loi sur la propriété intellectuelle, la reproduction, la distribution et la communication publique, y compris la méthode de mise à disposition, de tout ou partie du contenu de ce site Web, à des fins commerciales, sur tout support et par tout moyen technique, sans l'autorisation de PÓRTICO GESTIÓN E INGENIERÍA, SL",
-      "DESCRIPTION_3": "L'UTILISATEUR s'engage à respecter les droits de propriété intellectuelle et industrielle détenus par PÓRTICO GESTIÓN E INGENIERÍA, S.L. Vous pouvez consulter les éléments du portail et même les imprimer, copier et stocker sur le disque dur de votre ordinateur ou tout autre support physique, à condition que ce soit, uniquement et exclusivement, pour votre usage personnel et privé. L'UTILISATEUR doit s'abstenir de supprimer, altérer, éviter ou manipuler tout dispositif de protection ou système de sécurité installé sur les pages de PÓRTICO GESTIÓN E INGENIERÍA, S.L."
-    },
-    "EXCLUSION": {
-      "TITLE": "6. EXCLUSION DE GARANTIES ET RESPONSABILITÉ",
-      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. n'est en aucun cas responsable des dommages de toute nature qui pourraient être causés, par exemple : erreurs ou omissions dans le contenu, indisponibilité du portail ou transmission de virus ou de programmes malveillants ou nuisibles dans le contenu, malgré avoir pris toutes les mesures technologiques nécessaires pour l'éviter."
-    },
-    "MODIFICATIONS": {
-      "TITLE": "7. MODIFICATIONS",
-      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. se réserve le droit d'apporter les modifications qu'il juge appropriées sur son portail sans préavis, pouvant changer, supprimer ou ajouter à la fois le contenu et les services fournis à travers celui-ci et la manière dont ils sont présentés ou situés dans son portail."
-    },
-    "LINKS": {
-      "TITLE": "8. LIENS",
-      "DESCRIPTION_1": "Dans le cas où des liens ou des hyperliens vers d'autres sites Internet seraient disponibles sur porticosport.net, il n'exercera aucun type de contrôle sur ces sites et contenus. En aucun cas PÓRTICO GESTIÓN E INGENIERÍA, S.L. n'assumera de responsabilité pour le contenu de tout lien appartenant à un site Web tiers, ni ne garantira la disponibilité technique, la qualité, la fiabilité, l'exactitude, l'étendue, la véracité, la validité et la constitutionnalité de tout matériel ou information contenue dans l'un de ces hyperliens ou autres sites Internet. En cas d'utilisation des liens, veuillez accéder à la politique de confidentialité et à l'avis légal de la page visitée.",
-      "DESCRIPTION_2": "De même, l'inclusion de ces liens externes n'impliquera aucun type d'association, de fusion ou de participation avec les entités connectées."
-    },
-    "RIGHT_OF_EXCLUSION": {
-      "TITLE": "9. DROIT D'EXCLUSION",
-      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. se réserve le droit de refuser ou de retirer l'accès au portail et / ou aux services offerts sans préavis, à sa propre demande ou par un tiers, à ceux qui ne respectent pas ces Conditions Générales d'Utilisation."
-    },
-    "GENERAL": {
-      "TITLE": "10. GENERAL",
-      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. poursuivra le non-respect de ces conditions, ainsi que toute utilisation abusive de son portail, en exerçant toutes les actions civiles et pénales qui lui correspondent en droit."
-    },
-    "MODIFICATION_PRESENT": {
-      "TITLE": "11. MODIFICATION DES CONDITIONS PRÉSENTES ET DURÉE",
-      "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. peut modifier à tout moment les conditions déterminées ici, étant dûment publiées telles qu'elles apparaissent ici.",
-      "DESCRIPTION_2": "La validité des conditions susmentionnées sera basée sur leur exposition et sera valable jusqu'à ce qu'elles soient dûment publiées. qui sont modifiés par d'autres."
-    },
-    "LEGISLATION": {
-      "TITLE": "12. LÉGISLATION APPLICABLE ET JURIDICTION",
-      "DESCRIPTION_1": "La relation entre PÓRTICO GESTIÓN E INGENIERÍA, S.L. et l'UTILISATEUR sera régie par la réglementation espagnole en vigueur et tout litige sera soumis à l'autorité compétente."
-    }
-  },
-  "INFO": {
-    "ID": "info",
-    "TITLE_HERO_1": "Los premios",
-    "TITLE_HERO_2": "ESLAND",
-    "PROJECTS_TITLE": "PROJETS",
-    "PROJECTS_TEXT": "Une sélection de projets que nous avons concrétisés.",
-    "BUTTON_TEXT": "Explorez davantage de projets"
-  },
-  "FACTORY": {
-    "ID": "our-factory",
-    "SEO_TITLE": "Our Factory - Padel Court",
-    "SEO_DESCRIPTION":"Our factory is the largest and most technologically advanced in the industry. We have a new manufacturing site expanding over 110k sqft. Our factory is equipped with the latest technology and machinery, allowing us to manufacture and install padel courts and canopies worldwide.",
-    "TITLE": "Portico Sport Factory",
-    "SUBTITLE": "The largest padel courts and canopies manufacturing site",
-    "DESCRIPTION": "<p>The company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
     "FEATURE_SECTION": {
-      "TITLE": "Commitment to excellence",
-      "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
-      "IMAGES": [{
-        "id": "feature-section-1",
-        "src": "/factory/factory-feature-section-01.webp",
-        "alt": "Worker operating in our factory."
-      }, {
-        "id": "feature-section-2",
-        "src": "/factory/factory-feature-section-02.webp",
-        "alt": "Robot operating in our structures"
-      }, {
-        "id": "feature-section-3",
-        "src": "/factory/factory-feature-section-03.webp",
-        "alt": "Robot operating in our structures"
-      }, {
-        "id": "feature-section-4",
-        "src": "/factory/factory-feature-section-04.webp",
-        "alt": "Worker operating in our factory."
-      }, {
-        "id": "feature-section-5",
-        "src": "/factory/factory-feature-section-05.webp",
-        "alt": "Worker operating in our factory."
-      }]
+      "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Elevate your passion for padel to new heights with</span><br/> <span>our innovative elevated platform!</span>",
+      "SUBTITLE": "Remarkable features",
+      "IMAGE": {
+        "id": "feature-section",
+        "src": "/elevated-platform/elevated-feature-section.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Elevate your passion for padel to new heights"
+      },
+      "LIST": [
+        "Same structural resistance as our Club court model, capable of withstanding wind speeds of 115 km/h (71.5 mph).",
+        "Only a ground report is necessary to place the platform.",
+        "Quick and easy assembly.",
+        "Structural stability to ensure the best playing experience.",
+        "Manufactured with premium steel and components for maximum strength and durability.",
+        "Same 10-year warranty as all our padel courts."
+      ]
+    },
+    "ADVANTAGE_SECTION": {
+      "IMAGE": {
+        "id": "advantage-section",
+        "src": "/elevated-platform/elevated-advantage-section.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Elevated platform patented by Portico Sport"
+      },
+      "TITLE": "Great performance",
+      "DESCRIPTION": "Discover our elevated platform, where versatility and durability come together to offer you an innovative solution in padel court installation. With our adjustable pillar system and unique assembly design, we streamline the process required so you can enjoy your padel court quicker and in a much wider range of different terrains, now the possibilities to where install your padel court are endless!",
+      "SUBTITLE": "The benefits of our innovative elevated platform:",
+      "ADVANTAGES": [
+        "Effortlessly overcomes terrain variations without the need for extensive and costly ground leveling or foundations.",
+        "Save valuable time and efforts.",
+        "Requires simple testing for placement, ensuring a hassle-free installation process.",
+        "Avoids permanent installation pitfalls.",
+        "Same 10-year warranty as all our padel courts."
+      ]
     },
     "INFORMATION_SECTION": {
-      "TITLE": "Consolidation",
-      "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
-      "SUBTITLE": "This entails:",
-      "IMAGES": [{
-        "id": "information-section-1",
-        "src": "/factory/factory-information-section-1.webp",
-        "alt": "Factory overview"
-      }, {
-        "id": "information-section-2",
-        "src": "/factory/factory-information-section-2.webp",
-        "alt": "Factory overview"
-      }, {
-        "id": "information-section-3",
-        "src": "/factory/factory-information-section-3.webp",
-        "alt": "Factory overview"
-      }, {
-        "id": "information-section-4",
-        "src": "/factory/factory-information-section-4.webp",
-        "alt": "Factory overview"
-      }, {
-        "id": "information-section-5",
-        "src": "/factory/factory-information-section-5.webp",
-        "alt": "Factory overview"
-      }]
+      "TITLE": "A platform designed to overcome any terrain",
+      "DESCRIPTION": "<p>The Portico Sport elevated platform is a structural solution that adapts to your terrain. Thanks to its adjustable pillar system, it overcomes the terrain limitations that normal padel courts bring with them without affecting the game experience. Its unique design and screwing system allow for quick and easy installation. This means that in no time, your platform will be ready to accommodate to any unevenness of the ground and facilitate the installation of any of our padel courts.</p><p>Our engineering department is at the forefront of the padel courts design and manufacturing industry, which is why each elevated platform undergoes rigorous procedures including seismic analysis, deformation limitation and verification of steel elements according to ASCE 7-SEI 2019 and AISC 360 2016 (LRFD) regulations, guaranteeing safety and quality in every detail to ensure optimal performance and unparalleled stability.</p>",
+      "IMAGE": {
+        "id": "information-section",
+        "src": "/elevated-platform/elevated-information-section.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Elevated platform patented by Portico Sport"
+      },
+      "TECHNICAL_FEATURES": [
+        "Analysis of the limitation of the natural vibration frequency, ensuring that it is not less than 8 Hz, and behaving appropriately in this aspect.",
+        "Dynamic analysis of the structure, with an ASCE 7 seismic spectrum, calculated with a 0.3sec acceleration."
+      ]
+    },
+    "COURTS_SECTION": {
+      "TITLE": "Elevated platform",
+      "DESCRIPTION": "is Compatible with the following Padel Court Models:",
+      "BUTTON": "Discover more",
+      "URL": {
+        "label": "More about courts",
+        "href": "/padel-courts"
+      }
     },
     "CONTACT_SECTION": {
-      "TITLE": "Visit our factory",
-      "DESCRIPTION": "<p>We invite you to visit our facilities. Our team of experts will be delighted to guide you through the different design, production, manufacturing and lacquering plants, showing the entire construction process from start to finish. Discover the entire production process from the materials selection process to the cutting-edge engineering that enables us to manufacture the best courts in the industry.</p><p>This is a unique opportunity to understand why our courts and canopies are so highly valued by professional players and enthusiasts worldwide, and to gain insight into the manufacturing process of high-quality padel courts and the technology and innovation that boost our industry. Additionally, you'll have the chance to experience the quality of our courts by playing on one of them.</p><p>We look forward to seeing you at our facilities and sharing our passion for padel with you.</p>",
-      "SUBJECT": "I would like visit your factory",
-      "SUBTITLE": "We are happy to show you around",
-      "BUTTON_TEXT": "Visit us",
-      "BG_IMAGE": "factory/factory-contact-bg.webp"
-    }
-  },
-  "COURTS": {
-    "SEO_TITLE": "Padel Courts",
-    "SEO_DESCRIPTION":"Discover all our Padel Courts",
-    "TITLE": "Padel Courts",
-    "SUBTITLE": "Discover all our Padel Courts",
-    "COURT1": {
-      "SEO_TITLE": "Mobile Court - Padel Court",
-      "SEO_DESCRIPTION":"The mobile court is the first patented mobile court in the market designed and engineered by our Engineering department. This allows sports practice in a specific location for an extended period, making it suitable for permanent use over the years, or it can be easily moved to another location. If you're looking for a court that offers the possibility of mobility, the mobile court is the best choice.",
-      "ID": "mobile-court",
-      "NAME": "Mobile court",
-      "SUBTITLE": "Introducing the latest innovation in padel court technology",
-      "TITLE": "<span>Mobile court</span> <span class=\"text-white\">patented by Portico Sport</span>",
-      "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">patented by Portico Sport</span>",
-      "DESCRIPTION": "<p>Our patented Mobile Court, meticulously designed and engineered by our expert Engineering Department, is revolutionizing the market and it was the <strong>first of its kind in the padel industry</strong>.</p><p>This groundbreaking court eliminates the need for costly ground preparation expenses and permit acquisitions. With only a drained surface required to prevent water accumulation, our court offers unparalleled convenience and cost savings.</p>",
-      "LITTLE_DESCRIPTION": "<p>Move your court wherever you want</p>",
-      "HOME_DESCRIPTION": "Our Patented Mobile Court allows padel practice in a specific location for an extended period or easily moved it to another location. With the same 10-year warranty as our fixed courts without the need for ground anchoring while ensuring sturdy support and structural integrity comparable to our fixed-anchored Club courts.",
-      "MORE_INFO_URL": "https://porticosport.com/en/mobile-courts",
-      "CONTACT_TITLE_1": "Do you want a Mobile Court?",
-      "CONTACT_SUBJECT": "New petition for a Mobile Court",
-      "CONTACT_BUTTON": "I want a Mobile Court",
-      "URL": {
-        "label": "More about mobile",
-        "href": "/padel-courts/mobile"
-      },
-      "FIRST_SECTION": {
-        "TITLE": "<span class=\"text-secondary\">Move it anywhere!</span>",
-        "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can enjoy sports activities in your desired location for years to come, or effortlessly relocate it whenever needed.</p><p>But that’s not all – our court’s special counterweight box system also makes it incredibly resilient, capable of withstanding wind speeds of up to 114.12 km/h.</p>"
-      },
-      "FEATURE_SECTION": {
-        "TITLE": "Remarkable features",
-        "IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts-detail/mobile/render-1.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Exterior of a mobile court render in 3D"
-        },{
-          "id": "slide-2",
-          "src": "/courts-detail/mobile/render-2.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Interior of a mobile court render in 3D"
-        },{
-          "id": "slide-3",
-          "src": "/courts-detail/mobile/render-3.webp",
-          "width": 574,
-          "height": 323,
-          "alt": "Exterior of a mobile court render in 3D"
-        },{
-          "id": "slide-4",
-          "src": "/courts-detail/mobile/render-4.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Interior of a mobile court render in 3D"
-        },{
-          "id": "slide-5",
-          "src": "/courts-detail/mobile/render-5.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Exterior of a mobile court render in 3D"
-        },{
-          "id": "slide-6",
-          "src": "/courts-detail/mobile/render-6.webp",
-          "width": 574,
-          "height": 323,
-          "alt": "Interior of a mobile court render in 3D"
-        }],
-        "LIST": [
-          "Withstand wind <strong>speed of 114.12 km/h</strong>.",
-          "Suitable for both indoor and outdoor installations.",
-          "Same premium quality as a permanent court.",
-          "Perfect integration into any environment.",
-          "Crafted with premium materials for maximum strength and durability."
-        ]
-      },
-      "ADVANTAGE_SECTION": {
-        "IMAGE": {
-          "id": "advantage-section",
-          "src": "/courts-detail/mobile/mobile-advantage-section.webp",
-          "width": 574,
-          "height": 323,
-          "alt": "Mobile court patented by Portico Sport"
-        },
-        "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
-        "ADVANTAGES": [
-          "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
-          "You’ll save on expenses as our courts do not require extensive floor repairs.",
-          "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
-          "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
-          "Rest assured with our 10-year warranty on the structural integrity of our courts."
-        ]
-      },
-      "INFORMATION_SECTION": {
-        "IMAGE": {
-          "id": "section-information",
-          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Render of a mobile court"
-        },
-        "TITLE": "Experience the excellence of our premium quality court structure",
-        "SUBTITLE": "Choose convenience, flexibility, and reliability with our Mobile Court",
-        "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>Discover the epitome of distinction in padel court construction, choose the color that suits your preference, and elevate your padel experience today.</p>",
-        "BUTTON": {
-          "label": "I want a new padel court",
-          "href": "#contact"
-        }
-      },
-      "GALLERY_SECTION": {
-        "ID": "gallery",
-        "PATH": "courts-detail/mobile/gallery",
-        "OFFSET": 12,
-        "IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts-detail/mobile/mobile-gallery-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-2",
-          "src": "/courts-detail/mobile/mobile-gallery-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-3",
-          "src": "/courts-detail/mobile/mobile-gallery-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-4",
-          "src": "/courts-detail/mobile/mobile-gallery-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-5",
-          "src": "/courts-detail/mobile/mobile-gallery-05.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-6",
-          "src": "/courts-detail/mobile/mobile-gallery-06.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        }],
-        "BUTTON_TEXT": "Discover more images"
-      },
-      "COURTS_SECTION": {
-        "TITLE": "Portico Sport Mobile Court",
-        "DESCRIPTION": "Compatible with the following Padel Court Models:"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Mobile Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
-      },
-      "HOME_IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/mobile-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
-      },{
-        "id": "slide-2",
-        "src": "/courts/mobile-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
-      },{
-        "id": "slide-3",
-        "src": "/courts/mobile-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
-      }]
+      "TITLE": "Do you want an Elevated Platform?",
+      "SUBTITLE": "Contact us and we will help you",
+      "BUTTON": "I want an Elevated Platform",
+      "CONTACT_SUBJECT": "New petition for an Elevated Platform",
+      "BG_IMAGE": "elevated-platform/elevated-platform-contact-bg.webp"
     },
-    "COURT2": {
-      "TITLE": "<span>Panoramic FLOW</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>The Panoramic Flow court is an enhanced version of our Panoramic court. Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings. This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
-      "NAME": "Panoramic Flow court",
-      "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
-      "HOME_DESCRIPTION": "The Panoramic Flow court eliminates the corners of the steel structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings.",
-      "URL": {
-        "label": "More about panoramic flow court",
-        "href": "/padel-courts/panoramic-flow"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Mobile Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/panoramic-flow-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic flow court"
-      },{
-        "id": "slide-2",
-        "src": "/courts/panoramic-flow-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic flow court"
-      },{
-        "id": "slide-3",
-        "src": "/courts/panoramic-flow-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic flow court"
-      }]
-    },
-    "COURT3": {
-      "TITLE": "<span>Panoramic</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>Our panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court. Due to its visual appeal, this court is increasingly sought-after by customers aiming to offer a distinctive gaming experience to all their players.</p>",
-      "NAME": "Panoramic court",
-      "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
-      "HOME_DESCRIPTION": "Our panoramic court features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court.",
-      "URL": {
-        "label": "More about panoramic court",
-        "href": "/padel-courts/panoramic"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Panoramic Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/panoramic-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic court"
-      },{
-        "id": "slide-2",
-        "src": "/courts/panoramic-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic court"
-      },{
-        "id": "slide-3",
-        "src": "/courts/panoramic-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic court"
-      },{
-        "id": "slide-4",
-        "src": "/courts/panoramic-court-04.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Panoramic court"
-      }]
-    },
-    "COURT4": {
-      "TITLE": "<span>Club</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability. With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
-      "LITTLE_DESCRIPTION": "<p>You can move padel in one of our most sought-after courts.</p>",
-      "HOME_DESCRIPTION": "One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability.",
-      "NAME": "Club court",
-      "URL": {
-        "label": "More about club court",
-        "href": "/padel-courts/club"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Club Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/club-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club padel court"
-      },{
-        "id": "slide-2",
-        "src": "/courts/club-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club padel court"
-      },{
-        "id": "slide-3",
-        "src": "/courts/club-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club padel court"
-      }]
-    },
-    "COURT5": {
-      "TITLE": "<span>Club Plus</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>The Club Plus Court is an evolution of our Club Court. This enhanced court maintains the same premium quality while providing increased durability, thanks to its superior structures designed by Portico Sport's engineering department. These structures are built to withstand high wind gusts and adverse weather conditions. In the Club Plus Court, you'll find seamlessly integrated durability and high resistance for an unparalleled padel practice experience.</p>",
-      "LITTLE_DESCRIPTION": "<p>You can enjoy padel in the evolution of our Club Court.</p>",
-      "HOME_DESCRIPTION": "This enhanced court maintains premium quality while providing increased durability, thanks to its superior structures.",
-      "NAME": "Club Plus court",
-      "URL": {
-        "label": "More about club plus court",
-        "href": "/padel-courts/club-plus"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Club Plus Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/club-plus/club-plus-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/club-plus-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club plus padel court"
-      },{
-        "id": "slide-2",
-        "src": "/courts/club-plus-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club plus padel court"
-      },{
-        "id": "slide-3",
-        "src": "/courts/club-plus-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club plus padel court"
-      },{
-        "id": "slide-4",
-        "src": "/courts/club-plus-court-04.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Club plus padel court"
-      }]
-    },
-    "COURT6": {
-      "TITLE": "<span>Force 80</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>Our Force 80 court stands out as one of the most resilient padel courts on the market. Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s. The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions. If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.</p>",
-      "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
-      "HOME_DESCRIPTION": "Our Force 80 court stands out as one of the most resilient padel courts on the market thanks to a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s.",
-      "NAME": "Force 80 court",
-      "URL": {
-        "label": "More about Force 80",
-        "href": "/padel-courts/force-80"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Force 80 Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/force-80-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Force 80 padel court"
-      },{
-        "id": "slide-2",
-        "src": "/courts/force-80-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Force 80 padel court"
-      },{
-        "id": "slide-3",
-        "src": "/courts/force-80-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Force 80 padel court"
-      },{
-        "id": "slide-4",
-        "src": "/courts/force-80-court-04.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Force 80 padel court"
-      }]
-    },
-    "COURT7": {
-      "TITLE": "<span>Single</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>Our Single Court is perfect for a solo player and is specially designed by Portico Sport's engineering department. With dimensions smaller than usual (20x6m), this court is intended to provide a great playing experience for those who play alone, whether for training, enjoyment, or due to a lack of a partner for the sport. Despite its smaller size, it features the same premium quality and exceptional durability as the rest of our courts, making it a great choice for clubs looking to expand their offerings and provide this special court.</p>",
-      "NAME": "Single court",
-      "LITTLE_DESCRIPTION": "<p>Same strength in smaller dimensions for solo players.</p>",
-      "HOME_DESCRIPTION": "Our Single Court, with dimensions smaller than usual (20x6m), provides a great playing experience for those who play alone, whether for training, enjoyment, or due to a lack of a partner for the sport.",
-      "URL": {
-        "label": "More about single court",
-        "href": "/padel-courts/single"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Single Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/single/single-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/single-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Single court"
-      },{
-        "id": "slide-2",
-        "src": "/courts/single-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Single court"
-      },{
-        "id": "slide-3",
-        "src": "/courts/single-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Single court"
-      }]
-    },
-    "COURT8": {
-      "TITLE": "<span>Mini</span> <span class=\"text-white\">court</span>",
-      "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players. Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts. Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
-      "NAME": "Mini court",
-      "LITTLE_DESCRIPTION": "<p>Move our reduced-size padel court that fits anywhere.</p>",
-      "HOME_DESCRIPTION": "Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players.",
-      "URL": {
-        "label": "More about mini court",
-        "href": "/padel-courts/mini"
-      },
-      "CONTACT_SECTION": {
-        "SUBJECT": "New petition for a Mini Court",
-        "TITLE": "News",
-        "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mini/mini-perspective.webp"
-      },
-      "IMAGES": [{
-        "id": "slide-1",
-        "src": "/courts/mini-court-01.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
-      },{
-        "id": "slide-2",
-        "src": "/courts/mini-court-02.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
-      },{
-        "id": "slide-3",
-        "src": "/courts/mini-court-03.webp",
-        "width": 574,
-        "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
-      }]
-    }
-  },
-  "PROCESS": {
-    "HEADING": "Avec vous pendant tout le processus",
-    "POINT_1": {
-      "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
-      "SUBTITLE": "Début d'une relation solide et durable basée sur la confiance et la satisfaction de nos clients"
-    },
-    "POINT_2": {
-      "TITLE": "Accord commercial",
-      "SUBTITLE": "Conception et rédaction de la proposition commerciale adaptée aux besoins, objectifs et préférences de chaque client."
-    },
-    "POINT_3": {
-      "TITLE": "Conseils personnalisés avec les départements d'ingénierie et d'architecture",
-      "SUBTITLE": "Notre équipe technique vous accompagnera tout au long du processus, visant à fournir un service complet et de haute qualité qui répond à vos attentes. Notre équipe dévouée est une valeur garantie pour le succès."
-    },
-    "POINT_4": {
-      "TITLE": "Financement, le cas échéant",
-      "SUBTITLE": "Portico Sport a des accords avantageux avec différentes entités pour offrir des services de financement personnalisés avec d'excellentes conditions à ses clients. L'objectif est de leur fournir des solutions sur mesure selon leurs besoins."
-    },
-    "POINT_5": {
-      "TITLE": "Conception, fabrication et installation selon les besoins de chaque client",
-      "SUBTITLE": "Basées sur les normes de qualité les plus élevées, nos terrains de padel et couvertures sont conçues sur mesure en fonction des besoins de chaque client, car nous savons que chaque projet est unique."
-    },
-    "POINT_6": {
-      "TITLE": "Terrains de padel installés",
-      "SUBTITLE": "Portico Sport garantit la satisfaction et la qualité de tous nos projets. Qualité, innovation, confiance et expérience."
-    },
-    "POINT_7": {
-      "TITLE": "Service après-vente",
-      "SUBTITLE": "Orientés vers le client, nous maintenons une relation étroite depuis le début jusqu'au service après-vente, car avec Portico Sport, vous ne marcherez jamais seul. Pour l'entreprise, le service après-vente est essentiel, garantissant la satisfaction de nos clients en leur fournissant un support technique, en résolvant toute question et en établissant une relation à long terme."
-    },
-    "POINT_8": {
-      "TITLE": "Grandir ensemble",
-      "SUBTITLE": "Pour Portico Sport, il est tout aussi important d'offrir un service après-vente exceptionnel que de renforcer et stimuler une relation à long terme avec tous ses clients."
+    "URL": {
+      "label": "More about elevated",
+      "href": "elevated-platform"
     }
   },
   "CONTACT_FORM": {
-    "TITLE": "Contact us",
-    "SUBTITLE": "We are here to help you",
+    "ID": "contact-form",
+    "TITLE": "Reach our experts",
+    "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p>",
     "FORM": {
       "NAME": {
         "ID": "name",
@@ -986,42 +1331,6 @@
         "PLACEHOLDER": "Enter your message"
       },
       "SEND": "Send"
-    }
-  },
-  "CANOPIES_SECTION": {
-    "TITLE": "Couvertures",
-    "SUBTITLE": "Haute qualité, résistance, durabilité et intégration parfaite",
-    "TEXT": "Notre expérience en tant qu'ingénierie nous a permis de concevoir une couverture spécialement conçue pour la pratique sportive, et très particulièrement pour le PADEL, réunissant des caractéristiques différenciatrices pour ce sport difficilement égalables par d'autres types de couvertures.",
-    "BUTTON_TEXT": "Découvrez nos couvertures"
-  },
-  "COMPLEMENTS_SECTION": {
-    "TITLE": "Qualité, Innovation, Confiance, Expérience et Rapidité",
-    "SUBTITLE": "Enterprise de référence dans le panorama national et international",
-    "ITEMS": {
-      "ITEM_1": {
-        "TITLE": "Foundation et plateformes",
-        "DESCRIPTION": "Nous conseillons nos clients concernant la préparation du terrain et d'autres aspects techniques liés à la construction de chapes et de fondations."
-      },
-      "ITEM_2": {
-        "TITLE": "Structures",
-        "DESCRIPTION": "Structure métallique en acier galvanisé, laquée au four avec une peinture polyester thermoplastique, une couche sur les pentes intérieures et deux couches sur les installations extérieures, avec des normes de qualité élevées."
-      },
-      "ITEM_3": {
-        "TITLE": "Lunettes",
-        "DESCRIPTION": "Tous les courts sont équipés de verre de sécurité trempé, épaisseur 10 ou 12 mm selon chaque projet, respectant strictement la réglementation établie pour ce type d'installation."
-      },
-      "ITEM_4": {
-        "TITLE": "Gazon artificiel",
-        "DESCRIPTION": "Marque ARTIFICIAL GRASS SYSTEM MONDE, de dernière génération, à fibres droites ou bouclées…"
-      },
-      "ITEM_5": {
-        "TITLE": "Éclairage",
-        "DESCRIPTION": "Nous installons les meilleurs projecteurs Led, des fabricants les plus renommés du marché."
-      },
-      "ITEM_6": {
-        "TITLE": "Personnalisation",
-        "DESCRIPTION": "PERSONNALISEZ VOTRE COURT : Bancs intégrés à la structure, coins gravés du logo du club, filet sérigraphié,..."
-      }
     }
   }
 }

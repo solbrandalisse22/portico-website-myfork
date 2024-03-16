@@ -33,12 +33,12 @@ const finalDate = convertDate(date)
   <main class="pb-24 flex flex-col">
     <Breadcrumb
       crumbs={[
-        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-        { label: i18n.ROUTES.NEWS.LABEL, href: i18n.ROUTES.NEWS.URL },
-        { label: finalTitle, href: `${i18n.ROUTES.HOME.URL}/${slug}` },
+        { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.NEWS.ROUTE.LABEL, href: i18n.PAGES.NEWS.ROUTE.URL },
+        { label: finalTitle, href: `${i18n.PAGES.HOME.ROUTE.URL}${i18n.PAGES.NEWS.ROUTE.URL}/${slug}` },
       ]} />
     <Section>
-      <p class="text-gray-500">{i18n.NEWS.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
+      <p class="text-gray-500">{i18n.PAGES.NEWS.POST_PAGE.WRITE} {author} <span class="date">{finalDate}</span></p>
       <article set:html={content}  class="content" />
     </Section>
   </main>

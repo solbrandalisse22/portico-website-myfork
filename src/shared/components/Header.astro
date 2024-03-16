@@ -10,44 +10,44 @@ const i18n = getI18N({ language });
 
 const LINKS = [
   {
-    href: i18n.ROUTES.HOME.URL,
-    text: i18n.ROUTES.HOME.LABEL,
+    href: i18n.PAGES.HOME.ROUTE.URL,
+    text: i18n.PAGES.HOME.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.COURTS.URL,
-    text: i18n.ROUTES.COURTS.LABEL,
+    href: i18n.PAGES.COURTS.ROUTE.URL,
+    text: i18n.PAGES.COURTS.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.CANOPIES.URL,
-    text: i18n.ROUTES.CANOPIES.LABEL,
+    href: i18n.PAGES.CANOPIES.ROUTE.URL,
+    text: i18n.PAGES.CANOPIES.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.ELEVATED_PLATFORM.URL,
-    text: i18n.ROUTES.ELEVATED_PLATFORM.LABEL,
+    href: i18n.ELEVATED_PLATFORM.ROUTE.URL,
+    text: i18n.ELEVATED_PLATFORM.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.PROJECTS.URL,
-    text: i18n.ROUTES.PROJECTS.LABEL,
+    href: i18n.PAGES.PROJECTS.ROUTE.URL,
+    text: i18n.PAGES.PROJECTS.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.FACTORY.URL,
-    text: i18n.ROUTES.FACTORY.LABEL,
+    href: i18n.PAGES.FACTORY.ROUTE.URL,
+    text: i18n.PAGES.FACTORY.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.NEWS.URL,
-    text: i18n.ROUTES.NEWS.LABEL,
+    href: i18n.PAGES.NEWS.ROUTE.URL,
+    text: i18n.PAGES.NEWS.ROUTE.LABEL,
   },
   {
-    href: i18n.ROUTES.CONTACT.URL,
-    text: i18n.ROUTES.CONTACT.LABEL,
+    href: i18n.PAGES.CONTACT.ROUTE.URL,
+    text: i18n.PAGES.CONTACT.ROUTE.LABEL,
     // children: [
     //   {
-    //     href: i18n.ROUTES.CONTACT.URL,
-    //     text: i18n.ROUTES.CONTACT.LABEL,
+    //     href: i18n.PAGES.CONTACT.ROUTE.URL,
+    //     text: i18n.PAGES.CONTACT.ROUTE.LABEL,
     //   },
     //   {
-    //     href: i18n.ROUTES.CONTACT.URL,
-    //     text: i18n.ROUTES.CONTACT.LABEL,
+    //     href: i18n.PAGES.CONTACT.ROUTE.URL,
+    //     text: i18n.PAGES.CONTACT.ROUTE.LABEL,
     //   },
     // ],
   },
@@ -148,10 +148,10 @@ const LINKS = [
     >
       <Button
         class="md:text-sm lg:text-base md:py-2 hover:bg-secondary hover:text-black"
-        url={i18n.ROUTES.CONTACT.URL}
+        url={i18n.PAGES.CONTACT.ROUTE.URL}
         target="_self"
       >
-        {i18n.ROUTES.CONTACT.LABEL}
+        {i18n.PAGES.CONTACT.ROUTE.LABEL}
       </Button>
     </div> -->
   </div>
@@ -170,10 +170,10 @@ const LINKS = [
     }
     <Button
       class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
-      url={i18n.ROUTES.CONTACT.URL}
+      url={i18n.PAGES.CONTACT.ROUTE.URL}
       target="_self"
     >
-      {i18n.ROUTES.CONTACT.LABEL}
+      {i18n.PAGES.CONTACT.ROUTE.LABEL}
     </Button>
     <!-- <LanguageSelector /> -->
   </nav>
