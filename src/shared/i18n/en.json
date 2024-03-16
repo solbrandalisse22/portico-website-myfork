@@ -174,7 +174,7 @@
     "CONTACT": {
       "LABEL": "Contact us",
       "ID": "contact",
-      "URL": "/#contact"
+      "URL": "/contact"
     }
   },
   "ARCHIVO": {
@@ -202,18 +202,6 @@
       "ARCHIVE": "Archivo"
     }
   },
-  "INFO_TITLE": "Los premios ESLAND",
-  "INFO_TITLE_1": "Un reconocimiento único para creadores, creadoras y comunidades",
-  "INFO_CONTENT_1_1": "Los Premios ESLAND son una iniciativa privada promovida por el célebre streamer TheGrefg y buscan apoyar y reconocer la creación de contenido en el ámbito hispanohablante.",
-  "INFO_CONTENT_1_2": "ESLAND es el acrónimo de ESPAÑA, LATINOAMÉRICA Y ANDORRA, tres localizaciones geográficas que comparten el idioma que las une más allá de cualquier frontera, ya sea física o virtual.",
-  "INFO_TITLE_2": "EL PREMIO A LA CREACIÓN",
-  "INFO_CONTENT_2_1": "El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es <strong>una representación de la letra “A” dividida en tres fragmentos</strong> y ensambladas a modo de artilugio futurista sobre el que se construye la narrativa del evento.",
-  "INFO_CONTENT_2_2": "Un artefacto de origen desconocido que dota de <strong>herramientas y habilidades para la creación.</strong> Una metáfora sobre la emancipación del talento gracias a la tecnología y la irrupción de los creadores de contenido en el mundo del entretenimiento.",
-  "MEDIA_KIT_TITLE": "KIT DE PRENSA",
-  "MEDIA_KIT_SUBTITLE_1": "LOGOTIPO Y TROFEO",
-  "MEDIA_KIT_SUBTITLE_2": "FONDOS DE PANTALLA",
-  "MEDIA_KIT_SUBTITLE_3": "NOTA DE PRENSA",
-  "DOWNLOAD_BUTTON": "DESCARGAR",
   "COOKIES": {
     "POLICIES": {
       "TITLE": "Cookies policy",
@@ -1257,7 +1245,7 @@
   "CANOPIES_SECTION": {
     "TITLE": "Canopies",
     "SUBTITLE": "Strength, durability and perfect integration",
-    "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of canopies worldwide.</p>",
+    "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
     "BUTTON_TEXT": "More about canopies"
   },
   "COMPLEMENTS_SECTION": {
@@ -1289,5 +1277,35 @@
         "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
       }
     }
-  }
+  },
+  "CONTACT": {
+    "SEO_TITLE": "Contact us",
+    "SEO_DESCRIPTION": "We are here to help you. Contact us for any questions or inquiries.",
+    "TITLE": "Contact us",
+    "SUBTITLE": "Portico Sport: With you throughout the entire process",
+    "FORM": {
+      "NAME": {
+        "ID": "name",
+        "LABEL": "Full Name",
+        "PLACEHOLDER": "Enter your full name"
+      },
+      "EMAIL": {
+        "ID": "email",
+        "LABEL": "Email Address",
+        "PLACEHOLDER": ""
+      }
+    }
+  },
+  "INFO_TITLE": "Los premios ESLAND",
+  "INFO_TITLE_1": "Un reconocimiento único para creadores, creadoras y comunidades",
+  "INFO_CONTENT_1_1": "Los Premios ESLAND son una iniciativa privada promovida por el célebre streamer TheGrefg y buscan apoyar y reconocer la creación de contenido en el ámbito hispanohablante.",
+  "INFO_CONTENT_1_2": "ESLAND es el acrónimo de ESPAÑA, LATINOAMÉRICA Y ANDORRA, tres localizaciones geográficas que comparten el idioma que las une más allá de cualquier frontera, ya sea física o virtual.",
+  "INFO_TITLE_2": "EL PREMIO A LA CREACIÓN",
+  "INFO_CONTENT_2_1": "El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es <strong>una representación de la letra “A” dividida en tres fragmentos</strong> y ensambladas a modo de artilugio futurista sobre el que se construye la narrativa del evento.",
+  "INFO_CONTENT_2_2": "Un artefacto de origen desconocido que dota de <strong>herramientas y habilidades para la creación.</strong> Una metáfora sobre la emancipación del talento gracias a la tecnología y la irrupción de los creadores de contenido en el mundo del entretenimiento.",
+  "MEDIA_KIT_TITLE": "KIT DE PRENSA",
+  "MEDIA_KIT_SUBTITLE_1": "LOGOTIPO Y TROFEO",
+  "MEDIA_KIT_SUBTITLE_2": "FONDOS DE PANTALLA",
+  "MEDIA_KIT_SUBTITLE_3": "NOTA DE PRENSA",
+  "DOWNLOAD_BUTTON": "DESCARGAR"
 }
