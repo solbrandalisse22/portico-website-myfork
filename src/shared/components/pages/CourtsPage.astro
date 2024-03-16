@@ -10,8 +10,8 @@ const currentLocale = getCurrentLocale({ language });
 ---
 
 <Layout
-  title={i18n.CANOPIES.TITLE}
-  description={i18n.CANOPIES.SUBTITLE}
+  title={i18n.PAGES.COURTS.SEO_TITLE}
+  description={i18n.PAGES.COURTS.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage="/heros/hero-courts.webp"
@@ -21,18 +21,18 @@ const currentLocale = getCurrentLocale({ language });
     <div
       class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4"
     >
-      <span class="uppercase text-balance">{i18n.COURTS.SUBTITLE}</span
+      <span class="uppercase text-balance">{i18n.PAGES.COURTS.SUBTITLE}</span
       >
       <h1
         class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={i18n.COURTS.TITLE}
+        set:html={i18n.PAGES.COURTS.TITLE}
       />
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
         crumbs={[
-          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-          { label: i18n.ROUTES.COURTS.LABEL, href: i18n.ROUTES.COURTS.URL },
+          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.COURTS.ROUTE.LABEL, href: i18n.PAGES.COURTS.ROUTE.URL },
         ]}
       />
       <SectionCourtsGrid language={language} />

@@ -25,7 +25,7 @@ const featureImages = [] as Photo[];
 const { language, video, heroImage, court, gallery } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
-const locale = i18n.COURTS[court];
+const locale = i18n.PAGES.COURTS[court];
 const isFeature = (locale as { FEATURE_SECTION?: FeatureCourt }).FEATURE_SECTION;
 const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_SECTION;
 const isAdvantage = (locale as { ADVANTAGE_SECTION?: AdvantageSectionCourt }).ADVANTAGE_SECTION;
@@ -49,8 +49,8 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
 ---
 
 <Layout
-  title={i18n.CANOPIES.TITLE}
-  description={i18n.CANOPIES.SUBTITLE}
+  title={locale.SEO_TITLE}
+  description={locale.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage={heroImage}
@@ -82,11 +82,11 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
   <main class="flex flex-col gradient-bg relative">
     <Breadcrumb
       crumbs={[
-        { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-        { label: i18n.ROUTES.COURTS.LABEL, href: i18n.ROUTES.COURTS.URL },
+        { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.COURTS.ROUTE.LABEL, href: i18n.PAGES.COURTS.ROUTE.URL },
         {
           label: locale.NAME,
-          href: locale.URL.URL,
+          href: locale.ROUTE.URL,
         },
       ]}
     />

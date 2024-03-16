@@ -15,8 +15,8 @@ const superTitle = 'Projects By <span class="text-primary">Portico Sport</span>'
 ---
 
 <Layout
-  title={i18n.CANOPIES.TITLE}
-  description={i18n.CANOPIES.SUBTITLE}
+  title={i18n.PAGES.PROJECTS.SEO_TITLE}
+  description={i18n.PAGES.PROJECTS.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage="/heros/background-projects.webp"
@@ -24,20 +24,20 @@ const superTitle = 'Projects By <span class="text-primary">Portico Sport</span>'
 >
   <main class="flex flex-col gradient-bg relative">
     <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
-      <span class="uppercase text-balance">National and international facilities of padel courts and canopies</span>
+      <span class="uppercase text-balance">{i18n.PAGES.PROJECTS.SUBTITLE}</span>
       <h1
         class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={superTitle}
+        set:html={i18n.PAGES.PROJECTS.TITLE}
       />
-      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance">
-        PADEL COURTS AND CANOPIES CLUBS BY PORTICO SPORT
+      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance uppercase">
+        {i18n.PAGES.PROJECTS.POSTTITLE}
       </h2>
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
         crumbs={[
-          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-          { label: i18n.ROUTES.CANOPIES.LABEL, href: i18n.ROUTES.CANOPIES.URL },
+          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.PROJECTS.ROUTE.LABEL, href: i18n.PAGES.PROJECTS.ROUTE.URL },
         ]}
       />
       <section class="border-t border-primary mt-8">

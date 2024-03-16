@@ -18,7 +18,7 @@ interface Props {
         .map((crumb, index) => (
           <li class="flex gap-1 items-center">
             {index < crumbs.length - 1 ? (
-              <a class="text-primary hover:text-secondary transition-colors" href={crumb.href}>{crumb.label}</a>
+              <a class="text-primary hover:text-secondary transition-colors lowercase" href={crumb.href}>{crumb.label}</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

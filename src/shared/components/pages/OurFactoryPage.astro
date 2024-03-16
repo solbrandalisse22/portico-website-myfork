@@ -14,13 +14,13 @@ const { language } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 
-const images = i18n.FACTORY.FEATURE_SECTION.IMAGES;
-const secondImages = i18n.FACTORY.INFORMATION_SECTION.IMAGES;
+const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
+const secondImages = i18n.PAGES.FACTORY.INFORMATION_SECTION.IMAGES;
 ---
 
 <Layout
-  title={i18n.FACTORY.SEO_TITLE}
-  description={i18n.FACTORY.SEO_DESCRIPTION}
+  title={i18n.PAGES.FACTORY.SEO_TITLE}
+  description={i18n.PAGES.FACTORY.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage="/heros/background-factory.webp"
@@ -30,23 +30,21 @@ const secondImages = i18n.FACTORY.INFORMATION_SECTION.IMAGES;
     <div
       class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
     >
-      <span class="uppercase text-balance text-secondary"
-        >{i18n.FACTORY.SUBTITLE}</span
-      >
+      <span class="uppercase text-balance text-secondary">{i18n.PAGES.FACTORY.SUBTITLE}</span>
       <h1
         class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={i18n.FACTORY.TITLE}
+        set:html={i18n.PAGES.FACTORY.TITLE}
       />
       <div
         class="max-w-80 md:max-w-[700px] text-lg md:text-xl text-balance"
-        set:html={i18n.FACTORY.DESCRIPTION}
+        set:html={i18n.PAGES.FACTORY.DESCRIPTION}
       />
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
         crumbs={[
-          { label: i18n.ROUTES.HOME.LABEL, href: i18n.ROUTES.HOME.URL },
-          { label: i18n.ROUTES.FACTORY.LABEL, href: i18n.ROUTES.FACTORY.URL },
+          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.FACTORY.ROUTE.LABEL, href: i18n.PAGES.FACTORY.ROUTE.URL },
         ]}
       />
       <SectionFactory language={language} />
@@ -71,11 +69,11 @@ const secondImages = i18n.FACTORY.INFORMATION_SECTION.IMAGES;
           </div>
           <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
             <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide px-8">
-              {i18n.FACTORY.FEATURE_SECTION.TITLE}
+              {i18n.PAGES.FACTORY.FEATURE_SECTION.TITLE}
             </h2>
             <div
               class="text-2xl text-pretty font-thin mb-4 text-primary"
-              set:html={i18n.FACTORY.FEATURE_SECTION.DESCRIPTION}
+              set:html={i18n.PAGES.FACTORY.FEATURE_SECTION.DESCRIPTION}
             />
           </div>
         </div>
@@ -87,9 +85,9 @@ const secondImages = i18n.FACTORY.INFORMATION_SECTION.IMAGES;
         <div class="flex flex-col-reverse xl:flex-row max-w-none">
           <div class="w-full py-8 px-4 flex-1 md:px-8">
             <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide px-8">
-              {i18n.FACTORY.INFORMATION_SECTION.TITLE}
+              {i18n.PAGES.FACTORY.INFORMATION_SECTION.TITLE}
             </h2>
-            <div class="text-pretty" set:html={i18n.FACTORY.INFORMATION_SECTION.DESCRIPTION} />
+            <div class="text-pretty" set:html={i18n.PAGES.FACTORY.INFORMATION_SECTION.DESCRIPTION} />
           </div>
           <div class="relative w-full flex-1">
             {
@@ -108,12 +106,12 @@ const secondImages = i18n.FACTORY.INFORMATION_SECTION.IMAGES;
         </div>
       </Section>
       <SectionContact
-        title={i18n.FACTORY.CONTACT_SECTION.TITLE}
-        description={i18n.FACTORY.CONTACT_SECTION.DESCRIPTION}
+        title={i18n.PAGES.FACTORY.CONTACT_SECTION.TITLE}
+        description={i18n.PAGES.FACTORY.CONTACT_SECTION.DESCRIPTION}
         hiddenSubject
-        subject={i18n.FACTORY.CONTACT_SECTION.SUBJECT}
+        subject={i18n.PAGES.FACTORY.CONTACT_SECTION.SUBJECT}
         language={language}
-        bgImage={i18n.FACTORY.CONTACT_SECTION.BG_IMAGE}
+        bgImage={i18n.PAGES.FACTORY.CONTACT_SECTION.BG_IMAGE}
       />
     </div>
   </main>

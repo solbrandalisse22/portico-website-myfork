@@ -10,57 +10,57 @@ const { language } = Astro.props
 const i18n = getI18N({ language })
 
 const courts = [{
-  title: i18n.COURTS.COURT1.TITLE,
-  description: i18n.COURTS.COURT1.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT1.URL.href,
-  label: i18n.COURTS.COURT1.URL.label,
-  images: i18n.COURTS.COURT1.HOME_IMAGES,
+  title: i18n.PAGES.COURTS.COURT1.TITLE,
+  description: i18n.PAGES.COURTS.COURT1.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT1.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT1.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT1.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT2.TITLE,
-  description: i18n.COURTS.COURT2.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT2.URL.href,
-  label: i18n.COURTS.COURT2.URL.label,
-  images: i18n.COURTS.COURT2.HOME_IMAGES,
+  title: i18n.PAGES.COURTS.COURT2.TITLE,
+  description: i18n.PAGES.COURTS.COURT2.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT2.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT2.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT2.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT3.TITLE,
-  description: i18n.COURTS.COURT3.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT3.URL.href,
-  label: i18n.COURTS.COURT3.URL.label,
-  images: i18n.COURTS.COURT3.HOME_IMAGES,
+  title: i18n.PAGES.COURTS.COURT3.TITLE,
+  description: i18n.PAGES.COURTS.COURT3.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT3.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT3.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT3.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT4.TITLE,
-  description: i18n.COURTS.COURT4.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT4.URL.href,
-  label: i18n.COURTS.COURT4.URL.label,
-  images: i18n.COURTS.COURT4.IMAGES,
+  title: i18n.PAGES.COURTS.COURT4.TITLE,
+  description: i18n.PAGES.COURTS.COURT4.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT4.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT4.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT4.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT5.TITLE,
-  description: i18n.COURTS.COURT5.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT5.URL.href,
-  label: i18n.COURTS.COURT5.URL.label,
-  images: i18n.COURTS.COURT5.IMAGES,
+  title: i18n.PAGES.COURTS.COURT5.TITLE,
+  description: i18n.PAGES.COURTS.COURT5.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT5.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT5.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT5.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT6.TITLE,
-  description: i18n.COURTS.COURT6.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT6.URL.href,
-  label: i18n.COURTS.COURT6.URL.label,
-  images: i18n.COURTS.COURT6.IMAGES,
+  title: i18n.PAGES.COURTS.COURT6.TITLE,
+  description: i18n.PAGES.COURTS.COURT6.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT6.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT6.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT6.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT7.TITLE,
-  description: i18n.COURTS.COURT7.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT7.URL.href,
-  label: i18n.COURTS.COURT7.URL.label,
-  images: i18n.COURTS.COURT7.IMAGES,
+  title: i18n.PAGES.COURTS.COURT7.TITLE,
+  description: i18n.PAGES.COURTS.COURT7.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT7.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT7.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT7.HOME_IMAGES,
 }, {
-  title: i18n.COURTS.COURT8.TITLE,
-  description: i18n.COURTS.COURT8.HOME_DESCRIPTION,
-  url: i18n.COURTS.COURT8.URL.href,
-  label: i18n.COURTS.COURT8.URL.label,
-  images: i18n.COURTS.COURT8.IMAGES,
+  title: i18n.PAGES.COURTS.COURT8.TITLE,
+  description: i18n.PAGES.COURTS.COURT8.HOME_DESCRIPTION,
+  url: i18n.PAGES.COURTS.COURT8.ROUTE.URL,
+  label: i18n.PAGES.COURTS.COURT8.ROUTE.LABEL,
+  images: i18n.PAGES.COURTS.COURT8.HOME_IMAGES,
 }] as CourtItem[]
 ---
 
-<Section id={i18n.ROUTES.COURTS.ID} heading={i18n.COURTS.TITLE} subheading={i18n.COURTS.SUBTITLE} className="max-w-none relative">
+<Section id={i18n.PAGES.HOME.COURTS_SECTION.ID} heading={i18n.PAGES.HOME.COURTS_SECTION.TITLE} subheading={i18n.PAGES.HOME.COURTS_SECTION.DESCRIPTION} className="max-w-none relative">
   <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
   {
     courts.map(({title, description, images, url, label}, index) => (<ArticleCard

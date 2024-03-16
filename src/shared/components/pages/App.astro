@@ -33,9 +33,9 @@ const response = await fetch(`https://porticosport.com/wp-json/wp/v2/posts?categ
 const posts = await response.json();
 ---
 
-<Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
+<Layout title={i18n.PAGES.HOME.SEO_TITLE} description={i18n.PAGES.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
 
-  <Video language={language} video="/portico-sport-video.webm" subtitle={i18n.HERO_SUBTITLE} title={i18n.HERO_TITLE}>
+  <Video language={language} video="/portico-sport-video.webm" subtitle={i18n.PAGES.HOME.SUBTITLE} title={i18n.PAGES.HOME.TITLE}>
     <div
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
@@ -53,29 +53,29 @@ const posts = await response.json();
     <SectionCourts language={language} />
     <SectionCanopies
       video="/cubiertas-spot.webm"
-      subtitle={i18n.CANOPIES_SECTION.SUBTITLE}
-      title={i18n.CANOPIES_SECTION.TITLE}
-      text={i18n.CANOPIES_SECTION.TEXT}
+      subtitle={i18n.PAGES.HOME.CANOPIES_SECTION.SUBTITLE}
+      title={i18n.PAGES.HOME.CANOPIES_SECTION.TITLE}
+      text={i18n.PAGES.HOME.CANOPIES_SECTION.TEXT}
       buttonUrl={i18n.ROUTES.CANOPIES.URL}
-      buttonText={i18n.CANOPIES_SECTION.BUTTON_TEXT}
+      buttonText={i18n.PAGES.HOME.CANOPIES_SECTION.BUTTON_TEXT}
     />
     <SectionBento language={language} />
     <section 
-      id={i18n.ROUTES.PROJECTS.ID}
+      id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}
     >
-      <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide" set:html={i18n.INFO.PROJECTS_TITLE} />
-      <p class="text-center text-2xl text-pretty pb-8">{i18n.INFO.PROJECTS_TEXT}</p>
+      <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide" set:html={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} />
       <div class="border-y border-primary mt-8">
         <MapProjects client:only />
       </div>
     </section>
     <Gallery
-      id="projects-gallery"
+      subheading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+      id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
       photos={projectsGallery}
-      path="projects"
+      path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
     />
     <div class="flex">
-      <Button class="mx-auto" url={i18n.ROUTES.PROJECTS.URL} target="_self">{i18n.INFO.BUTTON_TEXT}</Button>
+      <Button class="mx-auto" url={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC} target="_self">{i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}</Button>
     </div>
     <SectionComplements language={language} />
     <NewsList language={language} posts={posts} />
