@@ -26,7 +26,7 @@ const courtsToUse = courts || courtsGrid(i18n)
       courtsToUse.map(({ title, description, url, image }) => (
         <a
           href={url}
-          class="compatible-court flex flex-col items-center rounded-xl bg-black/70 border-primary border relative h-80 outline-none"
+          class="compatible-court flex flex-col items-center rounded-xl bg-black/70 border-primary border relative h-96 outline-none"
         >
           <div class="box-shadow absolute inset-0 rounded-xl border-primary border" />
           <h2
@@ -42,7 +42,7 @@ const courtsToUse = courts || courtsGrid(i18n)
               <img
                 src={image.src}
                 alt={image.alt}
-                class="lg:w-80 w-60 absolute -right-4 -bottom-5 lg:-right-8 lg:-bottom-10"
+                class="lg:w-96 w-60 absolute -right-4 -bottom-5 lg:-right-8 lg:-bottom-10"
               />
             )
           }
@@ -54,7 +54,7 @@ const courtsToUse = courts || courtsGrid(i18n)
 
 <style>
   .compatible-courts-wrapper {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 
   .compatible-court .box-shadow, .compatible-court img {

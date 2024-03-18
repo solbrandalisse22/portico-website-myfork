@@ -64,7 +64,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
               <p class="text-lg lg:text-xl text-primary">{locale.SUBTITLE}</p>
               <h1
                 class="text-xl md:text-2xl lg:text-4xl xl:text-5xl uppercase mb-6 text-balance text-secondary tracking-wider font-bold"
-                set:html={locale.DETAIL_TITLE}
+                set:html={locale.DETAIL_TITLE || locale.TITLE}
               />
             </header>
             <div
