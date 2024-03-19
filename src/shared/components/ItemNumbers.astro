@@ -7,8 +7,14 @@ const { title } = Astro.props
 ---
 
 <div class="flex flex-col justify-center items-center">
-  <span class="number text-7xl font-bold tabular-nums tracking-tighter">
+  <span class="number text-5xl font-bold tabular-nums tracking-tighter">
     <slot />
   </span>
   <span class="uppercase opacity-70">{title}</span>
 </div>
+
+<style>
+  .number {
+    text-shadow: 0 0 10px rgba(197, 225, 255, 0.5);
+  }
+</style>
