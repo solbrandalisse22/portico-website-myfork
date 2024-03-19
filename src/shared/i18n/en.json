@@ -876,7 +876,7 @@
       "ID": "our-factory",
       "SEO_TITLE": "Our Factory - Padel Court",
       "SEO_DESCRIPTION":"Our factory is the largest and most technologically advanced in the industry. We have a new manufacturing site expanding over 110k sqft. Our factory is equipped with the latest technology and machinery, allowing us to manufacture and install padel courts and canopies worldwide.",
-      "TITLE": "Portico Sport Factory",
+      "TITLE": "<span class=\"block\">Portico Sport:</span> <span class=\"text-xl\">a Factory for the new era of Padel</span>",
       "SUBTITLE": "The largest padel courts and canopies manufacturing site",
       "DESCRIPTION": "<p>The company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
       "ROUTE": {
@@ -889,7 +889,19 @@
       },
       "FEATURE_SECTION": {
         "TITLE": "Commitment to excellence",
-        "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
+        "DESCRIPTION": "<p>Drawing upon over 15 years of industry expertise and the construction of more than 3,500 courts, Portico Sport embarked on a new chapter in 2023 with the inauguration of a state-of-the-art factory. Spanning 8,000 square meters, the new facility integrates cutting-edge industrial technology, features a fully automated robotic welding assembly line, and employs advanced industrial steel processes previously exclusive to more sophisticated industries.</p>",
+        "COUNTRY_COUNTER": {
+          "TITLE": "Countries",
+          "NUMBER": 35
+        },
+        "COURTS_COUNTER": {
+          "TITLE": "Installed courts",
+          "NUMBER": 3500
+        },
+        "FACTORY_COUNTER": {
+          "TITLE": "Factory size",
+          "NUMBER": 8000
+        },
         "IMAGES": [{
           "id": "feature-section-1",
           "src": "/factory/factory-feature-section-01.webp",
@@ -913,9 +925,7 @@
         }]
       },
       "INFORMATION_SECTION": {
-        "TITLE": "Consolidation",
-        "DESCRIPTION": "<p>The manufacturing plant represents an even greater boost to exports to new countries on all five continents. Currently, Portico Sport has presence in over forty countries globally, consolidating its position in large markets such as the United Kingdom, Germany, or the United States, while also actively expanding into emerging markets in the Middle East, Asia and LATAM.</p><p>This new factory is one of the largest in the sector and the most technologically advanced, featuring distinct areas for design, production, manufacturing, and lacquering. It provides the entire construction process from start to finish, incorporating innovative solutions for more efficient welding.</p><p>This Extremadura-based company combine perfect efficiency with cutting-edge sports technology.</p>",
-        "SUBTITLE": "This entails:",
+        "DESCRIPTION": "<p>Today, Portico Sport has established its presence in over 35 countries worldwide. With the inauguration of this new factory, the company is poised to embrace a new era of padel growth with optimism within an increasingly demanding international industry landscape. This state-of-the-art facility stands as one of the largest and most technologically advanced in the sector. It is equipped with distinct areas dedicated to design, manufacturing, welding, and paint &amp; lacquering. Its innovative design and robust capacity enable us to maintain a 100% in-house manufacturing process, ensuring complete traceability of every material used and rigorous quality control measures.</p>",
         "IMAGES": [{
           "id": "information-section-1",
           "src": "/factory/factory-information-section-1.webp",
@@ -940,7 +950,7 @@
       },
       "CONTACT_SECTION": {
         "TITLE": "Visit our factory",
-        "DESCRIPTION": "<p>We invite you to visit our facilities. Our team of experts will be delighted to guide you through the different design, production, manufacturing and lacquering plants, showing the entire construction process from start to finish. Discover the entire production process from the materials selection process to the cutting-edge engineering that enables us to manufacture the best courts in the industry.</p><p>This is a unique opportunity to understand why our courts and canopies are so highly valued by professional players and enthusiasts worldwide, and to gain insight into the manufacturing process of high-quality padel courts and the technology and innovation that boost our industry. Additionally, you'll have the chance to experience the quality of our courts by playing on one of them.</p><p>We look forward to seeing you at our facilities and sharing our passion for padel with you.</p>",
+        "DESCRIPTION": "<p>Whether you are a potential client or a professional distributor interested in our courts and canopies, We extend a warm invitation to visit our facilities. Our team of experts eagerly awaits the opportunity to guide you through our design, production, manufacturing, and lacquering plants, providing an in-depth exploration of the entire construction process from inception to completion. You&#39;ll have the chance to delve into every aspect of our production process, from meticulous materials selection to the cutting-edge engineering techniques that enable us to craft the finest courts in the industry.</p><p>This exclusive opportunity offers insight into why our courts and canopies are so highly esteemed by professional players and club owners worldwide. Moreover, you&#39;ll have the firsthand experience of our court quality by partaking in a game on one of them.<br />We eagerly anticipate your visit to our facilities, where we can share our passion for padel and showcase the excellence of our craftsmanship.</p>",
         "SUBJECT": "I would like visit your factory",
         "SUBTITLE": "We are happy to show you around",
         "BUTTON_TEXT": "Visit us",
@@ -1207,14 +1217,6 @@
   "LOCALE_DATE": "en-US",
   "HEADER": {
     "LOGO": "Go to the home page"
-  },
-  "ARCHIVO": {
-    "HERO_TITLE": "Ediciones anteriores",
-    "HERO_BUTTON": "Revive la última gala",
-    "COUNTER_TITLE": "Los ESLAND en números",
-    "COUNTER_VIEWS": "de visualizaciones",
-    "COUNTER_NEWS": "noticias en prensa",
-    "COUNTER_MEDIA": "en medios ganados"
   },
   "FOOTER": {
     "DISCLAIMER": "© 2024 Portico Sport.",
