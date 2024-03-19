@@ -8,7 +8,6 @@ import FeatureList from "@/shared/components/FeatureList.astro";
 
 interface Props {
   language: string;
-  canopiesGallery: Photo[];
 }
 
 const { language, } = Astro.props;
@@ -24,7 +23,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
   description={i18n.PAGES.CONTACT.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
-  bgImage="/heros/background-contact.webp"
+  bgImage="/heros/background-client-contact.webp"
   bgClass="brightness-50"
 >
   <main class="flex flex-col gradient-bg relative">
