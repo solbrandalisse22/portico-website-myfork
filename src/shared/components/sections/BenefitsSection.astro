@@ -1,0 +1,60 @@
+---
+import Section from "@/shared/components/Section.astro";
+import SavingsAstro from '@/shared/components/Icons/SavingsIcon.astro';
+import WarrantyIcon from '@/shared/components/Icons/WarrantyIcon.astro';
+import VersatileCourtIcon from '@/shared/components/Icons/VersatileCourtIcon.astro';
+import RentIcon from '@/shared/components/Icons/RentIcon.astro';
+import MaterialsIcon from '@/shared/components/Icons/MaterialsIcon.astro';
+import LogoCircles from '@/shared/components/logos/LogoCircles';
+
+interface Benefit {
+  header: string;
+  icon: string;
+  footer: string;
+}
+
+interface Props {
+  title: string;
+  Benefits: Benefit[];
+}
+
+const { title, Benefits } = Astro.props;
+---
+
+<Section>
+  <h2 class="text-2xl lg:text-4xl text-balance font-bold text-secondary mb-12 uppercase text-center">
+    {title}
+  </h2>
+  <div class="flex flex-col md:flex-row gap-10 justify-center flex-wrap">
+    {
+      Benefits.map(({header, icon, footer}) => (
+        <div class="w-72 flex flex-col items-center gap-3">
+          <header class="text-secondary">{header}</header>
+          <body>
+            <LogoCircles className="w-[150px]" color="#b7e4fd" color="#b7e4fd" stopAnimation>
+              {
+                icon === 'SavingsAstro' && <SavingsAstro width={100} height={100} />
+              }
+              {
+                icon === 'WarrantyIcon' && <WarrantyIcon width={100} height={100} />
+              }
+              {
+                icon === 'VersatileCourtIcon' && <VersatileCourtIcon width={100} height={100} />
+              }
+              {
+                icon === 'RentIcon' && <RentIcon width={100} height={100} />
+              }
+              {
+                icon === 'MaterialsIcon' && <MaterialsIcon width={100} height={100} />
+              }
+              <span />
+            </LogoCircles>
+          </body>
+          <footer class="text-center text-base font-thin">
+            <span>{footer}</span>
+          </footer>
+        </div>
+      ))
+    }
+  </div>
+</Section>

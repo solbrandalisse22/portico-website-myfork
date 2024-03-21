@@ -12,7 +12,7 @@ const { list = [], className } = Astro.props;
 <ul class={`flex flex-col gap-y-10 pl-4 font-thin text-base ${className}`}>
   {
     list.map((item: string) => (
-      <li class="flex gap-x-6 items-center">
+      <li class="flex gap-x-6 items-center text-base lg:text-xl">
         <CheckIcon className="w-8 h-8" />
         <span set:html={item} class="flex-1" />
       </li>

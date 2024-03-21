@@ -3,6 +3,8 @@ import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro";
 import SectionInformation from "@/shared/components/sections/SectionInformation.astro";
 import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
+import SizingSection from "@/shared/components/sections/SizingSection.astro";
+import BenefitsSection from "@/shared/components/sections/BenefitsSection.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Button from "@/shared/components/Button.astro";
 import Section from "@/shared/components/Section.astro";
@@ -29,10 +31,13 @@ const locale = i18n.PAGES.COURTS[court];
 const isFeature = (locale as { FEATURE_SECTION?: FeatureCourt }).FEATURE_SECTION;
 const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_SECTION;
 const isAdvantage = (locale as { ADVANTAGE_SECTION?: AdvantageSectionCourt }).ADVANTAGE_SECTION;
-const isSectionInformation = (locale as { INFORMATION_SECTION?: InformationSection }).INFORMATION_SECTION;
+const isStructure = (locale as { STRUCTURE_SECTION?: InformationSection }).STRUCTURE_SECTION;
 const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLERY_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
 const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
+const isCourtsSizingSection = (locale as { SIZING_SECTION?: string }).SIZING_SECTION;
+const isGlassSection = (locale as { GLASS_SECTION?: string }).GLASS_SECTION;
+const isBenefitsSection = (locale as { BENEFITS_SECTION?: string }).BENEFITS_SECTION;
 
 if (isFeature) {
   isFeature.IMAGES.forEach((image: Photo) => {
@@ -113,8 +118,55 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
       </Section>) : null
     }
     {
+      isBenefitsSection ? (
+        <BenefitsSection
+          title={isBenefitsSection.TITLE}
+          Benefits={isBenefitsSection.BENEFITS}
+        />
+      ) : null
+    }
+    {
+      isStructure ? (
+        <SectionInformation
+          title={isStructure.TITLE}
+          image={isStructure.IMAGE.src}
+          subtitle={isStructure.SUBTITLE}
+          text={isStructure.TEXT}
+        />
+      ) : null
+    }
+    {
+      isCourtsSizingSection ? <SizingSection id={isCourtsSizingSection.ID} title={isCourtsSizingSection.TITLE} imageSizing={isCourtsSizingSection.IMAGE} outdoorText={isCourtsSizingSection.OUTDOOR} indoorText={isCourtsSizingSection.INDOOR} /> : null
+    }
+    {
+      isGlassSection ? <Section
+        className="flex flex-col max-w-none p-0 lg:mb-0 border-b-4 border-white"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+        <div class="flex flex-col-reverse xl:flex-row max-w-none">
+          <div class="w-full py-8 px-4 flex-1 md:px-8">
+            <h2
+              class="text-3xl text-balance mb-6 text-secondary font-bold uppercase"
+              set:html={isGlassSection.TITLE}
+            />
+            <div set:html={isGlassSection.DESCRIPTION}></div>
+          </div>
+          <div class="relative w-full flex-1">
+            <img
+              loading="lazy"
+              draggable={false}
+              id={isGlassSection.IMAGE.id}
+              src={isGlassSection.IMAGE.src}
+              alt={isGlassSection.IMAGE.alt}
+              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-video xl:aspect-[16/14] xxl:aspect-[16/11] image-reverse"
+            />
+          </div>
+        </div>
+      </Section> : null
+    }
+    {
       isFeature ? (
-        <Section className="flex flex-col max-w-none my-14 p-0 lg:mb-0" style="padding: 0; margin-left: 0; margin-right: 0;">
+        <Section className="flex flex-col max-w-none p-0 border-b-4 border-white" style="padding: 0; margin-left: 0; margin-right: 0;">
           <div class="flex flex-col xl:flex-row max-w-none">
             <div class="relative w-full flex-1">
               {
@@ -125,7 +177,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
                     id={image.id}
                     src={image.src}
                     alt={image.alt}
-                    class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-video ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                    class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
                   />
                 ))
               }
@@ -136,47 +188,13 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
               >
                 {isFeature.TITLE}
               </h2>
+              <h3 class="text-2xl text-balance font-thin mb-4 text-primary">
+                {isFeature.SUBTITLE}</h3>
+              <div class="text-pretty text-base lg:text-xl" set:html={isFeature.DESCRIPTION} />
               <FeatureList list={isFeature.LIST} />
             </div>
           </div>
         </Section>
-      ) : null
-    }
-    {
-      isAdvantage ? <Section
-        className="flex flex-col max-w-none p-0 lg:mb-0"
-        style="padding: 0; margin-left: 0; margin-right: 0;"
-      >
-      <div class="flex flex-col-reverse xl:flex-row max-w-none">
-        <div class="w-full py-8 px-4 flex-1 md:px-8">
-          <h2
-            class="text-3xl text-balance mb-6 text-secondary font-bold uppercase"
-            set:html={isAdvantage.TITLE}
-          />
-          <FeatureList list={isAdvantage.ADVANTAGES} />
-        </div>
-        <div class="relative w-full flex-1">
-          <img
-            loading="lazy"
-            draggable={false}
-            id={isAdvantage.IMAGE.id}
-            src={isAdvantage.IMAGE.src}
-            alt={isAdvantage.IMAGE.alt}
-            class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/12] image-reverse"
-          />
-        </div>
-      </div>
-    </Section> : null
-    }
-    {
-      isSectionInformation ? (
-        <SectionInformation
-          title={isSectionInformation.TITLE}
-          image={isSectionInformation.IMAGE.src}
-          subtitle={isSectionInformation.SUBTITLE}
-          text={isSectionInformation.TEXT}
-          buttonUrl={isSectionInformation.BUTTON.href}
-          buttonText={isSectionInformation.BUTTON.label} />
       ) : null
     }
     {
