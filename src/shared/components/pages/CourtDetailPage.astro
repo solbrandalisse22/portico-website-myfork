@@ -6,6 +6,7 @@ import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.as
 import SizingSection from "@/shared/components/sections/SizingSection.astro";
 import BenefitsSection from "@/shared/components/sections/BenefitsSection.astro";
 import TurfSection from "@/shared/components/sections/TurfSection.astro";
+import LightSection from "@/shared/components/sections/LightSection.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Button from "@/shared/components/Button.astro";
 import Section from "@/shared/components/Section.astro";
@@ -36,6 +37,7 @@ const isStructure = (locale as { STRUCTURE_SECTION?: InformationSection }).STRUC
 const isCourtsSizingSection = (locale as { SIZING_SECTION?: SizingSectionCourt }).SIZING_SECTION;
 const isGlassSection = (locale as { GLASS_SECTION?: InformationSection }).GLASS_SECTION;
 const isTurfSection = (locale as { TURF_SECTION?: InformationSection }).TURF_SECTION;
+const isLightningSection = (locale as { LIGHTING_SECTION?: InformationSection }).LIGHTING_SECTION;
 const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLERY_SECTION;
 const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
@@ -204,6 +206,14 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
         subtitle={isTurfSection.SUBTITLE}
         title={isTurfSection.TITLE}
         description={isTurfSection.DESCRIPTION} /> : null
+    }
+    {
+      isLightningSection ? <LightSection
+        title={isLightningSection.TITLE}
+        subtitle={isLightningSection.SUBTITLE}
+        description={isLightningSection.DESCRIPTION}
+        language={language}
+      /> : null
     }
     {
       isGallerySection ? (<Gallery

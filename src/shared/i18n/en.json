@@ -303,6 +303,16 @@
           "SUBTITLE": "Experience Unmatched Performance on our Turf!",
           "DESCRIPTION": "<p>Transform your padel court with ARTIFICIAL TURF SYSTEM by MONDO! Latest generation turf engineered with semi-concave textured monofilaments, featuring a 250 μm thick central rib, very low abrasion, made of polyethylene (PE) and specific additives with high resistance to wear and anti-UV treatment, resistant to heat and extreme weather fluctuations. Stabilization fill and ballast using rounded, washed and dried silica sand, with 97% silica, granulometry between 0,2 - 0,6 mm in an approximate quantity of 10-15 Kg/m2, depending on the lawn model.</p>"
         },
+        "LIGHTING_SECTION": {
+          "ID": "lighting-section",
+          "IMAGE": {
+            "src": "/courts-detail/mobile/mobile-lighting.webp",
+            "alt": "Mobile court lighting"
+          },
+          "TITLE": "Led lighting",
+          "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
+          "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
+        },
         "GALLERY_SECTION": {
           "ID": "gallery",
           "PATH": "courts-detail/mobile/gallery",
@@ -1428,6 +1438,31 @@
       },
       "SEND": "Send"
     }
+  },
+  "LIGHTING_SECTION": {
+    "TYPES_TITLE": "Lighting types",
+    "MASTS_TITLE": "Lighting masts",
+    "MASTS_DESCRIPTION": "<p>Our masts, attached and anchored to the court structure, are crafted from galvanized and lacquered S275 JR steel profiles, ensuring durability and reliability. Standing at an impressive height of 6 meters, each mast provides support for 2 projectors, illuminating your court with precision and clarity.</p><p>Choose from our range of aesthetic options to complement your court design:</p>",
+    "LIGHTING_TYPES": [{
+      "title": "PV: 8 X 180W",
+      "description": "Proven technology endorsed by our experience and the vast majority of professional players."
+    },{
+      "title": "PV-D: 12 X 180W",
+      "description": "Lighting for clubs that want to be at the level of the best and with top-notch conditions."
+    }],
+    "LIGHTING_MASTS": [{
+      "title": "Straight Mast",
+      "description": "For a sleek and linear look.",
+      "image": "/courts-detail/mast-straight.webp"
+    }, {
+      "title": "V-shaped Mast",
+      "description": "Adding a touch of aggressiveness to your court.",
+      "image": "/courts-detail/mast-v.webp"
+    },{
+      "title": "Curved Mast",
+      "description": "Offering a fluid and elegant solution.",
+      "image": "/courts-detail/mast-curved.webp"
+    }]
   },
   "TURF_SECTION": {
     "MODELS": [{

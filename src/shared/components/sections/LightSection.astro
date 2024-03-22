@@ -1,0 +1,174 @@
+---
+import Section from "@/shared/components/Section.astro";
+import { getI18N } from "@/shared/i18n/"
+
+const { title, subtitle, description, language } = Astro.props
+const i18n = getI18N({ language })
+---
+
+<Section className="relative max-w-none" style="padding: 0; margin-left: 0; margin-right: 0;">
+  <div class="wrapper-light absolute w-full h-[1000px]">
+    <div id="light" class="left">
+      <div id="mask_container">
+        <div class="mask" />
+      </div>
+    </div>
+  </div>
+  <div class="shadow-light bg-black/50 rounded-xl relative p-6 max-w-[1200px] my-16 mx-6 md:mx-12 xl:mx-auto">
+    <h2 class="text-2xl lg:text-3xl text-balance mb-6 text-secondary font-bold uppercase">{title}</h2>
+    <h3 class="text-xl lg:text-2xl text-balance font-thin mb-4 text-primary">{subtitle}</h3>
+    <div class="pb-2 shadow-md" set:html={description} />
+    <h3 class="text-xl lg:text-2xl text-balance font-thin mt-6 mb-4 text-primary">{i18n.LIGHTING_SECTION.TYPES_TITLE}</h3>
+    <div class="flex flex-col lg:flex-row gap-8 pb-2 shadow-md">
+      {
+        i18n.LIGHTING_SECTION.LIGHTING_TYPES.map((type) => (
+          <div class="flex-1">
+            <h4 class="text-lg lg:text-xl text-balance font-bold mb-2">{type.title}</h4>
+            <p class="text-primary">{type.description}</p>
+          </div>
+          ))
+      }
+    </div>
+    <div>
+      <h3 class="text-xl lg:text-2xl text-balance font-thin mt-6 mb-4 text-primary">{i18n.LIGHTING_SECTION.MASTS_TITLE}</h3>
+      <div class="pb-2" set:html={i18n.LIGHTING_SECTION.MASTS_DESCRIPTION} />
+      <div class="flex flex-col lg:flex-row gap-8">
+        {
+          i18n.LIGHTING_SECTION.LIGHTING_MASTS.map((type) => (
+            <div class="flex-1 text-center">
+              <h4 class="text-lg lg:text-xl text-balance font-bold text-primary mb-2">{type.title}</h4>
+              <img src={type.image} alt={type.title} class="w-full" />
+              <p class="text-base">{type.description}</p>
+            </div>
+            ))
+        }
+      </div>
+    </div>
+  </div>
+</Section>
+
+<style>
+  .wrapper-light {
+    background-image: -webkit-gradient(
+      radial,
+      50% 0%,
+      0,
+      50% 0%,
+      319,
+      color-stop(0%, #b7e4fd),
+      color-stop(100%, #1c1917)
+    );
+    background-image: -webkit-radial-gradient(
+      center top,
+      farthest-corner,
+      #b7e4fd 0%,
+      #1c1917 100%
+    );
+    background-image: -moz-radial-gradient(
+      center top,
+      farthest-corner,
+      #b7e4fd 0%,
+      #1c1917 100%
+    );
+    background-image: -ms-radial-gradient(
+      center top,
+      farthest-corner,
+      #b7e4fd 0%,
+      #1c1917 100%
+    );
+    background-image: -o-radial-gradient(
+      center top,
+      farthest-corner,
+      #b7e4fd 0%,
+      #1c1917 100%
+    );
+    background-image: radial-gradient(
+      farthest-corner at center top,
+      #b7e4fd 0%,
+      #1c1917 100%
+    );
+    opacity: 0;
+    animation: light-in ease-in .5s forwards;
+    animation-timeline: view();
+    animation-range: 82vh 90vh;
+  }
+
+  div#light {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  div#light.left {
+    background: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2JhKDAsIDAsIDAsIDApIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJyZ2JhKDAsIDAsIDAsIDAuODk1KSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJyZ2JhKDAsIDAsIDAsIDAuODk1KSIgLz48cmVjdCB4PSItMTAwJSIgeT0iLTEwMCUiIHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIGZpbGw9InVybCgjZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(
+      radial,
+      0% 0%,
+      0,
+      0% 0%,
+      337,
+      color-stop(0%, rgba(0, 0, 0, 0)),
+      color-stop(100%, rgb(21 26 54) 100%)
+    );
+    background-image: -webkit-radial-gradient(
+      left top,
+      farthest-side,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(21 26 54) 100% 100%
+    );
+    background-image: -moz-radial-gradient(
+      left top,
+      farthest-side,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(21 26 54) 100% 100%
+    );
+    background-image: -ms-radial-gradient(
+      left top,
+      farthest-side,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(21 26 54) 100% 100%
+    );
+    background-image: -o-radial-gradient(
+      left top,
+      farthest-side,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(21 26 54) 100% 100%
+    );
+    background-image: radial-gradient(
+      farthest-side at left top,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(21 26 54) 100% 100%
+    );
+  }
+  div#light.none {
+    opacity: 0;
+  }
+  div#mask_container {
+    width: 260px;
+    height: 140px;
+    margin: 90px auto;
+  }
+  div.mask {
+    width: 124px;
+    height: 128px;
+    float: left;
+    margin: 4px 2px;
+  }
+  .shadow-light {
+    filter: drop-shadow(1px 1px 10px rgb(183 228 253));
+    opacity: 0;
+    animation: light-in ease-in .5s forwards;
+    animation-timeline: view();
+    animation-range: 80vh 85vh;
+  }
+
+  @keyframes light-in {
+    to {
+      opacity: 1;
+    }
+  }
+</style>
