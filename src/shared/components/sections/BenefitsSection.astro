@@ -6,12 +6,7 @@ import VersatileCourtIcon from '@/shared/components/icons/VersatileCourtIcon.ast
 import RentIcon from '@/shared/components/icons/RentIcon.astro';
 import MaterialsIcon from '@/shared/components/icons/MaterialsIcon.astro';
 import LogoCircles from '@/shared/components/logos/LogoCircles';
-
-interface Benefit {
-  header: string;
-  icon: string;
-  footer: string;
-}
+import { type Benefit } from "@/types/types";
 
 interface Props {
   title: string;
@@ -22,7 +17,7 @@ const { title, Benefits } = Astro.props;
 ---
 
 <Section>
-  <h2 class="text-2xl lg:text-4xl text-balance font-bold text-secondary mb-12 uppercase text-center">
+  <h2 class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-12 uppercase text-center">
     {title}
   </h2>
   <div class="flex flex-col md:flex-row gap-10 justify-center flex-wrap">

@@ -4,29 +4,30 @@ import { type Photo } from "@/types/types.ts";
 
 
 interface Props {
+  id: string;
   title: string;
   outdoorText: string;
   indoorText: string;
   imageSizing: Photo;
 }
 
-const { title, outdoorText, indoorText, imageSizing } = Astro.props
+const { title, outdoorText, indoorText, imageSizing, id } = Astro.props
 ---
 
-<Section className="max-w-none relative border-b-4 border-white">
+<Section id={id} className="max-w-none relative border-b-4 border-white">
   <img loading="lazy" src="/bg-ground.webp" alt="Ground" class="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-20" />
   <div class="flex relative flex-col items-center justify-center lg:flex-row gap-8 max-w-[1400px] mx-auto">
     <img src={imageSizing.src} alt={imageSizing.alt} class="aspect-video md:h-72 xl:h-96 z-10" />
     <div class=" z-10">
-      <h2 class="text-3xl font-bold mb-2 text-secondary">{title}</h2>
+      <h2 class="text-2xl lg:text-3xl font-bold mb-8 text-secondary uppercase text-balance">{title}</h2>
       {
         outdoorText ? 
-        <h3 class="text-primary font-thin text-2xl mt-2">Outdoor</h3>
+        <h3 class="text-primary font-bold text-xl lg:text-2xl mt-2">Outdoor</h3>
         <div class="mt-4 text-left" set:html={outdoorText} /> : null
       }
       {
         indoorText ? 
-        <h3 class="text-primary font-thin text-2xl mt-2">Indoor</h3>
+        <h3 class="text-primary font-bold text-xl lg:text-2xl mt-2">Indoor</h3>
         <div class="mt-4 text-left" set:html={indoorText} /> : null
       
       }

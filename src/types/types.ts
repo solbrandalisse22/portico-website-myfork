@@ -61,13 +61,21 @@ export interface Country {
 
 export interface FeatureCourt {
   TITLE: string;
+  SUBTITLE: string;
+  DESCRIPTION?: string;
   IMAGES: Photo[];
   LIST: string[];
 }
 
 export interface FirstSectionCourt {
+  ID: string;
   TITLE: string;
   DESCRIPTION: string;
+  IMAGES: {
+    FRONT: Photo;
+    PERSPECTIVE: Photo;
+    TOP: Photo;
+  };
 }
 
 export interface AdvantageSectionCourt {
@@ -76,12 +84,33 @@ export interface AdvantageSectionCourt {
   ADVANTAGES: string[];
 }
 
+export interface Benefit {
+  header: string;
+  icon: string;
+  footer: string;
+}
+export interface BenefitsSectionCourt {
+  ID: string;
+  TITLE: string;
+  BENEFITS: Benefit[];
+}
+
+export interface SizingSectionCourt {
+  ID: string;
+  TITLE: string;
+  OUTDOOR: string;
+  INDOOR: string;
+  IMAGE: Photo;
+}
+
 export interface InformationSection {
+  ID?: string;
   TITLE: string;
   IMAGE: Photo;
-  SUBTITLE: string;
-  TEXT: string;
-  BUTTON: Route;
+  SUBTITLE?: string;
+  TEXT?: string;
+  DESCRIPTION?: string;
+  BUTTON?: Route;
 }
 
 export interface GallerySection {
@@ -92,9 +121,10 @@ export interface GallerySection {
 }
 
 export interface ContactSection {
+  ID: string;
   TITLE?: string;
   SUBTITLE?: string;
-  BUTTON: Route;
+  BUTTON?: Route;
   SUBJECT?: string;
   BG_IMAGE: string;
   IMAGE: string

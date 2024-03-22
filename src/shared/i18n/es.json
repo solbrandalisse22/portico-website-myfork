@@ -155,6 +155,7 @@
           "URL": "/padel-courts/mobile"
         },
         "FIRST_SECTION": {
+          "ID": "courts-views",
           "TITLE": "<span class=\"text-secondary\">Place it anywhere!</span>",
           "DESCRIPTION": "<p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can install this court in a particular location for years to come, or effortlessly relocate it whenever needed without damaging the ground where it was installed.</p><p>But that’s not all – opposite to other “mobile” solutions, our system allows for the same play experience with traditional anchored courts, same robustness and wind resistance as our club court model, that why we offer the same 10-year structural warranty</p>",
           "IMAGES": {
@@ -173,6 +174,7 @@
           }
         },
         "BENEFITS_SECTION": {
+          "ID": "benefits",
           "TITLE": "Experience the benefits of our innovative mobile padel court system",
           "BENEFITS": [{
             "header": "Saving with us",
@@ -196,59 +198,8 @@
             "footer": "Crafted with premium materials for maximum strength and durability, our mobile courts offer the same premium quality as a permanent court."
           }]
         },
-        "FEATURE_SECTION": {
-          "TITLE": "Structure paint",
-          "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
-          "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p>",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/render-1.webp",
-            "imgAlt": "Exterior of a mobile court render in 3D"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/render-2.webp",
-            "imgAlt": "Interior of a mobile court render in 3D"
-          },{
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/render-3.webp",
-            "alt": "Exterior of a mobile court render in 3D"
-          },{
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/render-4.webp",
-            "imgAlt": "Interior of a mobile court render in 3D"
-          },{
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/render-5.webp",
-            "imgAlt": "Exterior of a mobile court render in 3D"
-          },{
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/render-6.webp",
-            "alt": "Interior of a mobile court render in 3D"
-          }],
-          "LIST": [
-            "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
-            "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
-            "<strong>HOT DIP GALVANIZED:</strong> treatment of molten zinc at a temperature of 450 ºC in order to achieve high protection of parts against corrosion in marine environments. Includes powder coating formulated with thermo-fusible resins."
-          ]
-        },
-        "ADVANTAGE_SECTION": {
-          "IMAGE": {
-            "id": "advantage-section",
-            "src": "/courts-detail/mobile/mobile-advantage-section.webp",
-            "width": 574,
-            "height": 323,
-            "alt": "Mobile court patented by Portico Sport"
-          },
-          "TITLE": "<span class=\"text-primary block text-xl font-thin\">Experience the benefits of our innovative </span><span class=\"text-secondary block\">mobile padel court system</span>",
-          "ADVANTAGES": [
-            "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time.",
-            "You’ll save on expenses as our courts do not require extensive floor repairs.",
-            "Designed to be versatile and adaptable, this court can be easily transported to various environments and locations, making them ideal for events or installations where making holes is not possible.",
-            "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment.",
-            "Rest assured with our 10-year warranty on the structural integrity of our courts."
-          ]
-        },
         "STRUCTURE_SECTION": {
+          "ID": "structure",
           "IMAGE": {
             "id": "section-information",
             "src": "/courts-detail/mobile/mobile-section-information-court.webp",
@@ -256,14 +207,10 @@
           },
           "TITLE": "Structures",
           "SUBTITLE": "Experience the excellence of our premium quality court structure",
-          "TEXT": "<p class=\"text-center px-2 text-base lg:text-2xl\">Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p class=\"text-center px-2 text-base lg:text-2xl\">The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col text-center px-2 text-base lg:text-2xl lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>",
-          "BUTTON": {
-            "label": "I want a new padel court",
-            "href": "#contact"
-          }
+          "TEXT": "<p class=\"text-center px-2 text-base lg:text-2xl\">Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p class=\"text-center px-2 text-base lg:text-2xl\">The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col text-center px-2 text-base lg:text-2xl lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
         },
         "SIZING_SECTION": {
-          "ID": "sizing-section",
+          "ID": "measure-section",
           "TITLE": "Mobile Court measurements",
           "OUTDOOR": "<p><strong>12 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,96 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
           "INDOOR": "<p><strong>4 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,67 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
@@ -286,6 +233,66 @@
           "SUBTITLE": "Tempered Safety Glass in Every Court!",
           "DESCRIPTION": "<p>Discover unrivaled safety and durability in our padel courts. Each court features tempered safety glass, available in either 10 or 12 mm thickness, tailored to the specific requirements of your project. Rest assured, our glass meets all regulatory standards for installations of this kind. Partnering with esteemed Spanish manufacturers boasting CE marking, we guarantee top-notch quality in every aspect of our construction.</p><p><strong>GLAZING</strong> is done using clear tempered glass with polished edges, fixed to the metal structure using countersunk polyethylene bushings, galvanized screws and neoprene gaskets for perfect glass/metal support, with a total of 6 anchor holes. Our glass panels boast outstanding physical and mechanical properties, including impact resistance and optimal flatness.</p>"
         },
+        "PAINT_SECTION": {
+          "ID": "paint-section",
+          "TITLE": "Structure paint",
+          "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
+          "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p>",
+          "IMAGES": [{
+            "id": "slide-1",
+            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+            "alt": "Orange painted mobile court"
+          },{
+            "id": "slide-2",
+            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+            "alt": "Orange painted mobile court"
+          },{
+            "id": "slide-3",
+            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+            "alt": "Exterior of a yellow mobile court"
+          },{
+            "id": "slide-4",
+            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+            "alt": "Exterior of a yellow mobile court"
+          },{
+            "id": "slide-5",
+            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+            "imgAlt": "Yellow painted mobile court"
+          },{
+            "id": "slide-6",
+            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+            "alt": "Blue structure painted"
+          },{
+            "id": "slide-7",
+            "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
+            "alt": "Blue structure painted"
+          },{
+            "id": "slide-8",
+            "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
+            "alt": "Pink structure painted"
+          },{
+            "id": "slide-9",
+            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+            "alt": "A violet court"
+          },{
+            "id": "slide-10",
+            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+            "alt": "Blue structure painted"
+          },{
+            "id": "slide-11",
+            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+            "alt": "Blue structure painted in interior"
+          },{
+            "id": "slide-12",
+            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+            "alt": "Gray structure painted in interior"
+          }],
+          "LIST": [
+            "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
+            "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
+            "<strong>HOT DIP GALVANIZED:</strong> treatment of molten zinc at a temperature of 450 ºC in order to achieve high protection of parts against corrosion in marine environments. Includes powder coating formulated with thermo-fusible resins."
+          ]
+        },
         "TURF_SECTION": {
           "ID": "turf-section",
           "IMAGE": {
@@ -303,10 +310,12 @@
           "BUTTON_TEXT": "Discover more images"
         },
         "COURTS_SECTION": {
+          "ID": "compatible-courts",
           "TITLE": "Portico Sport Mobile Court",
           "DESCRIPTION": "Compatible with the following Padel Court Models:"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition for a Mobile Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
