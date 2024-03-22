@@ -1,0 +1,82 @@
+---
+import Section from "@/shared/components/Section.astro";
+import { getI18N } from "@/shared/i18n/"
+
+
+const { title, description, language, subtitle, image } = Astro.props;
+const i18n = getI18N({ language })
+
+const colors = {
+  blue: "bg-blue-500 hover:bg-blue-700",
+  red: "bg-red-500 hover:bg-red-700",
+  green: "bg-green-500 hover:bg-green-700",
+  violet: "bg-violet-500 hover:bg-violet-700",
+  orange: "bg-orange-500 hover:bg-orange-700",
+}
+---
+
+<Section className="max-w-none">
+  <div class="flex flex-col lg:flex-row gap-8 max-w-[1400px] my-16 mx-auto px-6">
+    <div class="flex-col gap-4 flex-1 text-center">
+      <h2 class="text-2xl lg:text-4xl text-balance font-bold text-secondary uppercase text-center" set:html={title}>
+      <h3 class="text-2xl text-balance font-thin mb-12 text-primary">{subtitle}</h3>
+      <div class="text-center text-2xl text-pretty" set:html={description} />
+      <img src={image.src} alt={image.alt} class="aspect-video object-cover turf-image" />
+    </div>
+    <div class="flex flex-col gap-4 flex-1">
+      {
+        i18n.TURF_SECTION.MODELS.map((model) => (
+          <div class="flex items-center flex-col justify-center">
+            <h3 class="text-2xl text-balance font-bold mb-4 text-primary">{model.TITLE}</h3>
+            <p>{model.DESCRIPTION}</p>
+            <div class="flex gap-4 justify-center items-center mb-4">
+              {
+                model.COLORS.map((item) => (
+                  <button name={`${model.ID}_${item.color}`} class={`rounded-full w-24 ${colors[item.color]} border text-white text-center px-4 py-1`}>
+                    {item.name}
+                  </button>
+                ))
+              }
+            </div>
+            <img id={model.ID} class="turf-image" src={model.IMAGE} alt={model.TITLE} />
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</Section>
+
+<script>
+  document.addEventListener('click', (e) => {
+    if (e.target.tagName === 'BUTTON') {
+      const { name } = e.target as HTMLButtonElement;
+      const target = name.split('_')
+      const id = `#${target[0]}`
+      const color = target[1];
+      const $imageTurf = document.querySelector(id)
+      const $turf = document.querySelector('.turf-image');
+      $imageTurf.classList.remove('blue', 'violet', 'red', 'orange', 'green');
+      $turf.classList.remove('blue', 'violet', 'red', 'orange', 'green');
+      $imageTurf.classList.add(color);
+      $turf.classList.add(color);
+    }
+  });
+</script>
+
+<style>
+  .blue {
+    filter:hue-rotate(0deg);
+  }
+  .violet {
+    filter:hue-rotate(40deg);
+  }
+  .red {
+    filter:hue-rotate(120deg);
+  }
+  .orange {
+    filter:hue-rotate(150deg);
+  }
+  .green {
+    filter:hue-rotate(240deg);
+  }
+</style>

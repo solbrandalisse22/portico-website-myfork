@@ -264,7 +264,7 @@
         },
         "SIZING_SECTION": {
           "ID": "sizing-section",
-          "TITLE": "Mobile Court Dimensions",
+          "TITLE": "Mobile Court measurements",
           "OUTDOOR": "<p><strong>12 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,96 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
           "INDOOR": "<p><strong>4 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,67 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
           "IMAGE": {
@@ -285,6 +285,16 @@
           "TITLE": "Glasses",
           "SUBTITLE": "Tempered Safety Glass in Every Court!",
           "DESCRIPTION": "<p>Discover unrivaled safety and durability in our padel courts. Each court features tempered safety glass, available in either 10 or 12 mm thickness, tailored to the specific requirements of your project. Rest assured, our glass meets all regulatory standards for installations of this kind. Partnering with esteemed Spanish manufacturers boasting CE marking, we guarantee top-notch quality in every aspect of our construction.</p><p><strong>GLAZING</strong> is done using clear tempered glass with polished edges, fixed to the metal structure using countersunk polyethylene bushings, galvanized screws and neoprene gaskets for perfect glass/metal support, with a total of 6 anchor holes. Our glass panels boast outstanding physical and mechanical properties, including impact resistance and optimal flatness.</p>"
+        },
+        "TURF_SECTION": {
+          "ID": "turf-section",
+          "IMAGE": {
+            "src": "/courts-detail/mobile/mobile-top.webp",
+            "alt": "Mobile court top view"
+          },
+          "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Turf</span>",
+          "SUBTITLE": "Experience Unmatched Performance on our Turf!",
+          "DESCRIPTION": "<p>Transform your padel court with ARTIFICIAL TURF SYSTEM by MONDO! Latest generation turf engineered with semi-concave textured monofilaments, featuring a 250 μm thick central rib, very low abrasion, made of polyethylene (PE) and specific additives with high resistance to wear and anti-UV treatment, resistant to heat and extreme weather fluctuations. Stabilization fill and ballast using rounded, washed and dried silica sand, with 97% silica, granulometry between 0,2 - 0,6 mm in an approximate quantity of 10-15 Kg/m2, depending on the lawn model.</p>"
         },
         "GALLERY_SECTION": {
           "ID": "gallery",
@@ -1409,5 +1419,41 @@
       },
       "SEND": "Send"
     }
+  },
+  "TURF_SECTION": {
+    "MODELS": [{
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blue"
+        }, {
+        "color": "green",
+        "name": "Green"
+        }, {
+        "color": "red",
+        "name": "Red"
+      }],
+      "ID": "supercourt-xn",
+      "TITLE": "SUPERCOURT XN",
+      "DESCRIPTION": "A system of artificial turf that combines the new XNOVA textured monofilaments with the textured STX monofilaments.",
+      "IMAGE": "/courts-detail/turf-XN.webp"
+    }, {
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blue"
+        }, {
+        "color": "green",
+        "name": "Green"
+        }, {
+        "color": "violet",
+        "name": "Violet"
+      }, {
+        "color": "orange",
+        "name": "Orange"
+      }],
+      "ID": "stx-96-a",
+      "TITLE": "STX 96 A",
+      "DESCRIPTION": "Cutting-edge artificial turf system composed of straight-structured STX monofilaments with a central nerve and filled with silica sand.",
+      "IMAGE": "/courts-detail/turf-STX.webp"
+    }]
   }
 }

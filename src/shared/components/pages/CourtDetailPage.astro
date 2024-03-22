@@ -5,6 +5,7 @@ import SectionInformation from "@/shared/components/sections/SectionInformation.
 import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
 import SizingSection from "@/shared/components/sections/SizingSection.astro";
 import BenefitsSection from "@/shared/components/sections/BenefitsSection.astro";
+import TurfSection from "@/shared/components/sections/TurfSection.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Button from "@/shared/components/Button.astro";
 import Section from "@/shared/components/Section.astro";
@@ -38,6 +39,7 @@ const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 const isCourtsSizingSection = (locale as { SIZING_SECTION?: string }).SIZING_SECTION;
 const isGlassSection = (locale as { GLASS_SECTION?: string }).GLASS_SECTION;
 const isBenefitsSection = (locale as { BENEFITS_SECTION?: string }).BENEFITS_SECTION;
+const isTurfSection = (locale as { TURF_SECTION?: string }).TURF_SECTION;
 
 if (isFeature) {
   isFeature.IMAGES.forEach((image: Photo) => {
@@ -188,14 +190,21 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
               >
                 {isFeature.TITLE}
               </h2>
-              <h3 class="text-2xl text-balance font-thin mb-4 text-primary">
-                {isFeature.SUBTITLE}</h3>
-              <div class="text-pretty text-base lg:text-xl" set:html={isFeature.DESCRIPTION} />
+              <h3 class="text-2xl text-balance font-thin mb-4 text-primary">{isFeature.SUBTITLE}</h3>
+              <div class="text-pretty text-base lg:text-xl mb-8" set:html={isFeature.DESCRIPTION} />
               <FeatureList list={isFeature.LIST} />
             </div>
           </div>
         </Section>
       ) : null
+    }
+    {
+      isTurfSection ? <TurfSection
+        language={language}
+        image={isTurfSection.IMAGE}
+        subtitle={isTurfSection.SUBTITLE}
+        title={isTurfSection.TITLE}
+        description={isTurfSection.DESCRIPTION} /> : null
     }
     {
       isGallerySection ? (<Gallery
