@@ -1,7 +1,9 @@
 ---
 import Button from "./Button.astro";
+import ContactForm from "@/shared/components/forms/ContactForm";
 
 interface Props {
+  showContactForm?: boolean;
   language: string;
   video: string;
   subtitle?: string;
@@ -11,7 +13,7 @@ interface Props {
   classVideo?: string;
 }
 
-const { video, classVideo, subtitle, title, buttonUrl, buttonText } = Astro.props;
+const { video, classVideo, subtitle, title, buttonUrl, buttonText, language, showContactForm } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -28,39 +30,48 @@ const type = getTipeFromVideo();
 ---
 
 <div
-  class="relative h-dvh w-full max-w-[100vw] md:aspect-video md:h-[80vh] xl:h-full"
+  class="relative h-[105dvh] w-full max-w-[100vw] md:aspect-video"
 >
   <div
     class="absolute inset-0 h-full z-10 m-auto flex flex-col items-center w-full"
   >
     <slot>
       <section
-        class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col pt-48"
+        class="absolute z-20 animate-fade-up flex justify-center gap-8 flex-col pt-20 lg:flex-row max-w-[1400px] mx-auto px-4"
       >
+        <div class="text-center pt-20 flex flex-col gap-4">
+          {
+            subtitle ? (
+              <p class="subtitle text-xl lg:text-2xl text-center px-4 text-balance mb-0">
+                {subtitle}
+              </p>
+            ) : null
+          }
+          {
+            title ? (
+              <h1 class="items-center gap-5 text-xl md:text-2xl lg:gap-20 lg:text-3xl px-4 text-center text-balance">
+                {title}
+              </h1>
+            ) : null
+          }
+          {
+            buttonUrl && buttonText ? (
+              <Button
+                target="_self"
+                class="animate-fade-up block lg:hidden mx-auto mt-10"
+                url={buttonUrl}
+              >
+                {buttonText}
+              </Button>
+            ) : null
+          }
+        </div>
         {
-          subtitle ? (
-            <p class="subtitle text-xl lg:text-2xl text-center px-4 text-balance mb-0">
-              {subtitle}
-            </p>
-          ) : null
-        }
-        {
-          title ? (
-            <h1 class="flex items-center gap-5 text-xl md:text-2xl lg:gap-20 lg:text-3xl px-4 text-center text-balance">
-              {title}
-            </h1>
-          ) : null
-        }
-        {
-          buttonUrl && buttonText ? (
-            <Button
-              target="_self"
-              class="text-blue-950 animate-fade-up bg-white hover:bg-primary"
-              url={buttonUrl}
-            >
-              {buttonText}
-            </Button>
-          ) : null
+          showContactForm && (
+            <div class="p-4 bg-black/50 rounded-xl hidden lg:block">
+              <ContactForm language={language} />
+            </div>
+          )
         }
       </section>
     </slot>

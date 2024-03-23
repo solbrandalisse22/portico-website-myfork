@@ -18,20 +18,45 @@ import CarouselImages from "@/shared/components/CarouselImages";
 import Styles from '@/shared/styles/MapProjects.module.css';
 import ActionButtons from "@/shared/components/ActionButtons";
 import useDeviceDetection from '@/shared/hooks/useDeviceDetection';
+import { toContext } from 'ol/render';
 
 let zoom = 3;
 
 
 // Estilo de la capa vectorial
 const fill = new Fill({
-  color: "transparent",
+  color: "#151a34",
 });
+
+const stroke = new Stroke({
+  color: "#b7e4fd",
+  width: 1,
+})
+
 const style = new Style({
-  fill: fill,
-  stroke: new Stroke({
-    color: "#b7e4fd",
-    width: 1,
-  }),
+  renderer(pixelCoordinates, state) {
+    const { context, pixelRatio } = state;
+    const geometry = state.geometry.clone();
+    geometry.setCoordinates(pixelCoordinates);
+    const grad = context.createLinearGradient(298, 200, 302, 1);
+      grad.addColorStop(0, 'rgba(0, 255, 235, 1)');
+      grad.addColorStop(1, 'rgba(7, 58, 187, 1)');
+
+    // Stitch out country shape from the blue canvas
+    context.save();
+    context.shadowBlur = 200;
+    context.shadowColor = 'rgba(183, 253, 251, 1)';
+
+    const renderContext = toContext(context, { pixelRatio });
+
+    // context.fillStyle = grad;
+
+    renderContext.setFillStrokeStyle(fill, stroke);
+    // context.fill();
+    renderContext.drawGeometry(geometry);
+    context.clip();
+    context.restore();
+  }
 });
 
 // Crear la capa vectorial
