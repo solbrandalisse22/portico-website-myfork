@@ -14,17 +14,18 @@ const i18n = getI18N({ language })
       </div>
     </div>
   </div>
-  <div class="shadow-light bg-black/50 rounded-xl relative p-6 max-w-[1200px] my-16 mx-6 md:mx-12 xl:mx-auto">
+  <div class="shadow-light bg-black/50 rounded-xl relative px-6 py-12  max-w-[1200px] my-16 mx-6 md:mx-12 xl:mx-auto">
     <h2 class="text-2xl lg:text-3xl text-balance mb-6 text-secondary font-bold uppercase">{title}</h2>
     <h3 class="text-xl lg:text-2xl text-balance font-thin mb-4 text-primary">{subtitle}</h3>
-    <div class="pb-2 shadow-md" set:html={description} />
+    <div class="pb-2 shadow-glass text-pretty" set:html={description} />
     <h3 class="text-xl lg:text-2xl text-balance font-thin mt-6 mb-4 text-primary">{i18n.LIGHTING_SECTION.TYPES_TITLE}</h3>
-    <div class="flex flex-col lg:flex-row gap-8 pb-2 shadow-md">
+    <div class="flex flex-col lg:flex-row gap-8 pb-2 shadow-glass">
       {
         i18n.LIGHTING_SECTION.LIGHTING_TYPES.map((type) => (
-          <div class="flex-1">
-            <h4 class="text-lg lg:text-xl text-balance font-bold mb-2">{type.title}</h4>
-            <p class="text-primary">{type.description}</p>
+          <div class="flex-1 flex flex-col justify-center items-center gap-2">
+            <h4 class="text-lg lg:text-xl text-balance font-bold text-secondary">{type.title}</h4>
+            <img loading="lazy" src={type.image} alt={type.title} class="w-full rounded-xl aspect-[4/1] object-cover max-w-[350px]" />
+            <p class="text-balance text-center">{type.description}</p>
           </div>
           ))
       }
@@ -32,12 +33,12 @@ const i18n = getI18N({ language })
     <div>
       <h3 class="text-xl lg:text-2xl text-balance font-thin mt-6 mb-4 text-primary">{i18n.LIGHTING_SECTION.MASTS_TITLE}</h3>
       <div class="pb-2" set:html={i18n.LIGHTING_SECTION.MASTS_DESCRIPTION} />
-      <div class="flex flex-col lg:flex-row gap-8">
+      <div class="flex flex-col sm:flex-row gap-4 md:gap-8">
         {
           i18n.LIGHTING_SECTION.LIGHTING_MASTS.map((type) => (
-            <div class="flex-1 text-center">
-              <h4 class="text-lg lg:text-xl text-balance font-bold text-primary mb-2">{type.title}</h4>
-              <img src={type.image} alt={type.title} class="w-full" />
+            <div class="flex-1 text-center flex flex-col gap-4">
+              <h4 class="text-xl text-balance font-bold text-secondary mb-2 uppercase">{type.title}</h4>
+              <img loading="lazy" src={type.image} alt={type.title} class="w-full rounded-xl aspect-video object-cover" />
               <p class="text-base">{type.description}</p>
             </div>
             ))
@@ -104,7 +105,6 @@ const i18n = getI18N({ language })
   }
   div#light.left {
     background: none;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2JhKDAsIDAsIDAsIDApIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJyZ2JhKDAsIDAsIDAsIDAuODk1KSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJyZ2JhKDAsIDAsIDAsIDAuODk1KSIgLz48cmVjdCB4PSItMTAwJSIgeT0iLTEwMCUiIHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIGZpbGw9InVybCgjZykiIC8+PC9zdmc+);
     background-image: -webkit-gradient(
       radial,
       0% 0%,

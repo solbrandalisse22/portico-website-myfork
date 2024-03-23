@@ -1,0 +1,53 @@
+---
+import Section from "@/shared/components/Section.astro";
+import LogoFedPadel from "@/shared/components/logos/LogoFedPadel.astro";
+import LogoEAE from "@/shared/components/logos/LogoEAE.astro";
+import LogoAsce from "@/shared/components/logos/LogoAsce.astro";
+import LogoInstituteSteel from "@/shared/components/logos/LogoInstituteSteel.astro";
+import LogoNormativaPadel from "@/shared/components/logos/LogoNormativaPadel.astro";
+import { getI18N } from "@/shared/i18n/"
+
+interface Props {
+  showInfo?: boolean;
+  language: string;
+  description?: string;
+  title?: string;
+  subtitle?: string;
+}
+
+const { showInfo, language, title, subtitle, description } = Astro.props
+const i18n = getI18N({ language })
+
+const heading = showInfo ? title || i18n.NORMATIVE_SECTION_LOGOS.TITLE : null
+const subheading = showInfo ? subtitle || i18n.NORMATIVE_SECTION_LOGOS.SUBTITLE : null
+const descriptionText = showInfo ? description || i18n.NORMATIVE_SECTION_LOGOS.DESCRIPTION : null
+---
+
+<Section heading={heading} subheading={subheading}>
+  {
+    descriptionText && (
+      <p class="mb-16">{descriptionText}</p>
+    )
+  }
+  <div class="logos items-center">
+    <LogoFedPadel />
+    <LogoEAE />
+    <LogoAsce />
+    <LogoNormativaPadel />
+    <LogoInstituteSteel />
+  </div>
+</Section>
+
+<style>
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(120px,1fr)) 100px;
+    @apply gap-4;
+  }
+
+  @media (max-width: 768px) {
+    .logos {
+      grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    }
+  }
+</style>

@@ -7,6 +7,7 @@ import SizingSection from "@/shared/components/sections/SizingSection.astro";
 import BenefitsSection from "@/shared/components/sections/BenefitsSection.astro";
 import TurfSection from "@/shared/components/sections/TurfSection.astro";
 import LightSection from "@/shared/components/sections/LightSection.astro";
+import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Button from "@/shared/components/Button.astro";
 import Section from "@/shared/components/Section.astro";
@@ -120,6 +121,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
         </div>
       </Section>) : null
     }
+    <NormativeLogos language={language} />
     {
       isBenefitsSection ? (
         <BenefitsSection
@@ -242,14 +244,6 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
 
 <style>
 
-  ul {
-    font-size: 1em;
-  }
-
-  ul li span {
-    flex: 1;
-  }
-
   .section-renders {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -259,7 +253,6 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
   .front {
     grid-column: 1 / -1;
   }
-  
   
   .section-renders img {
     transition: filter 0.3s ease-in-out;

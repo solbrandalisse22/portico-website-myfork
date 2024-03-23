@@ -12,7 +12,7 @@ const colors = {
   green: "bg-green-500 hover:bg-green-700",
   violet: "bg-violet-500 hover:bg-violet-700",
   orange: "bg-orange-500 hover:bg-orange-700",
-}
+} as any;
 ---
 
 <Section className="max-w-none border-b-4">
@@ -47,7 +47,7 @@ const colors = {
 </Section>
 
 <script>
-  document.addEventListener('click', (e) => {
+  document.addEventListener('click', (e: any) => {
     if (e.target.tagName === 'BUTTON') {
       const { name } = e.target as HTMLButtonElement;
       const target = name.split('_')
@@ -55,6 +55,7 @@ const colors = {
       const color = target[1];
       const $imageTurf = document.querySelector(id)
       const $turf = document.querySelector('.turf-image');
+      if (!$imageTurf || !$turf) return;
       $imageTurf.classList.remove('blue', 'violet', 'red', 'orange', 'green');
       $turf.classList.remove('blue', 'violet', 'red', 'orange', 'green');
       $imageTurf.classList.add(color);

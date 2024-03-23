@@ -1445,10 +1445,12 @@
     "MASTS_DESCRIPTION": "<p>Our masts, attached and anchored to the court structure, are crafted from galvanized and lacquered S275 JR steel profiles, ensuring durability and reliability. Standing at an impressive height of 6 meters, each mast provides support for 2 projectors, illuminating your court with precision and clarity.</p><p>Choose from our range of aesthetic options to complement your court design:</p>",
     "LIGHTING_TYPES": [{
       "title": "PV: 8 X 180W",
-      "description": "Proven technology endorsed by our experience and the vast majority of professional players."
+      "description": "Proven technology endorsed by our experience and the vast majority of professional players.",
+      "image": "/courts-detail/pv-8-180w.webp"
     },{
       "title": "PV-D: 12 X 180W",
-      "description": "Lighting for clubs that want to be at the level of the best and with top-notch conditions."
+      "description": "Lighting for clubs that want to be at the level of the best and with top-notch conditions.",
+      "image": "/courts-detail/pv-d-12-x-180.webp"
     }],
     "LIGHTING_MASTS": [{
       "title": "Straight Mast",
@@ -1499,5 +1501,10 @@
       "DESCRIPTION": "Cutting-edge artificial turf system composed of straight-structured STX monofilaments with a central nerve and filled with silica sand.",
       "IMAGE": "/courts-detail/turf-STX.webp"
     }]
+  },
+  "NORMATIVE_SECTION_LOGOS": {
+    "TITLE": "Padel courts that comply with regulations",
+    "SUBTITLE": "Strength, durability and perfect integration",
+    "DESCRIPTION": "Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)"
   }
 }

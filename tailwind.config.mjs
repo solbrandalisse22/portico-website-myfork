@@ -15,6 +15,9 @@ export default {
         secondary: "rgb(60 160 215);",
         footer: "rgb(10 12 31)",
       },
+      boxShadow: {
+        'glass': '0 4px 2px -2px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+      }
     },
     screens: {
       xs: "375px",
