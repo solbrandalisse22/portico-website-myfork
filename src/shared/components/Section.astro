@@ -1,4 +1,6 @@
 ---
+import Typography from '@/shared/components/ui/Typography.astro';
+
 const { className, heading, subheading, id, style, afterHeading } = Astro.props;
 
 interface Props {
@@ -17,11 +19,10 @@ interface Props {
   style={style}
 >
   {
-    heading && <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide" set:html={heading} />
+    heading && <Typography tag="h2" className="mx-auto mb-8 text-center font-semibold " text={heading} />
   }
   {
-    subheading &&
-    <p class="text-center text-2xl text-pretty text-primary">{subheading}</p>
+    subheading && <Typography tag="p" className="text-center mb-8" text={subheading} type="primary"/>
   }
   <slot />
 </section>

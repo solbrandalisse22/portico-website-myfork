@@ -1,6 +1,7 @@
 ---
 import { getI18N } from "@/shared/i18n";
 import Section from "@/shared/components/Section.astro";
+import Typography from '@/shared/components/ui/Typography.astro';
 import { type CourtItem } from "@/types/types";
 import { courtsGrid } from "@/shared/i18n/constants";
 
@@ -26,17 +27,11 @@ const courtsToUse = courts || courtsGrid(i18n)
       courtsToUse.map(({ title, description, url, image }) => (
         <a
           href={url}
-          class="compatible-court flex flex-col items-center rounded-xl bg-black/70 border-primary border relative h-96 outline-none"
+          class="compatible-court flex flex-col items-center rounded-xl bg-black/70 border-primary border relative h-96 outline-none w-[80%] md:w-full"
         >
           <div class="box-shadow absolute inset-0 rounded-xl border-primary border" />
-          <h2
-            class="text-2xl text-balance p-4 text-center text-secondary font-bold uppercase"
-            set:html={title}
-          />
-          <div
-            class="text-white text-center font-thin text-pretty px-4"
-            set:html={description}
-          />
+          <Typography tag="h2" text={title} type="secondary" className="p-4 text-center font-bold uppercase" />
+          <Typography tag="div" text={description} className="px-4 text-center font-thin" />
           {
             image && (
               <img

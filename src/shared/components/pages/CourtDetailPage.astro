@@ -4,6 +4,7 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro";
 import SectionInformation from "@/shared/components/sections/SectionInformation.astro";
 import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
 import SizingSection from "@/shared/components/sections/SizingSection.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 import BenefitsSection from "@/shared/components/sections/BenefitsSection.astro";
 import TurfSection from "@/shared/components/sections/TurfSection.astro";
 import LightSection from "@/shared/components/sections/LightSection.astro";
@@ -68,18 +69,12 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
     video ? (
       <Video language={language} video={video} classVideo="cp-elipse">
         <Section className="absolute z-10 animate-fade-up flex flex-col xl:flex-row max-w-none">
-          <div class="lg:p-16 flex flex-col gap-8 flex-1 justify-center max-w-[1400]">
-            <header class="text-center">
-              <p class="text-lg lg:text-xl text-primary">{locale.SUBTITLE}</p>
-              <h1
-                class="text-xl md:text-2xl lg:text-4xl xl:text-5xl uppercase mb-6 text-balance text-secondary tracking-wider font-bold"
-                set:html={locale.DETAIL_TITLE || locale.TITLE}
-              />
+          <div class="lg:p-16 flex flex-col md:gap-8 flex-1 justify-center max-w-[1400]">
+            <header class="text-center md:pt-20">
+              <Typography tag="p" type="primary" size="large" text={locale.SUBTITLE} responsive />
+              <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={locale.DETAIL_TITLE || locale.TITLE} responsive />
             </header>
-            <div
-              class="text-white text-center text-base lg:text-xl font-thin text-pretty px-3 md:px-6 lg:px-24 xl:px-48"
-              set:html={locale.DESCRIPTION}
-            />
+            <Typography tag="div" className="text-center px-3 md:px-6 lg:px-24 xl:px-48" text={locale.DESCRIPTION} responsive />
           </div>
           <Button target="_self" class="xl:hidden self-center" url="#contact">
             {locale.CONTACT_BUTTON}
@@ -101,7 +96,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
     />
     {
       isFirstSection ? (<Section heading={isFirstSection.TITLE}>
-        <div class="text-center text-xl lg:text-2xl text-pretty" set:html={isFirstSection.DESCRIPTION} />
+        <Typography tag="div" className="text-center" text={isFirstSection.DESCRIPTION} responsive />
         <div class="section-renders grid-flow-col-dense items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ">
           <img
             src={isFirstSection.IMAGES.FRONT.src}
@@ -141,7 +136,15 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
       ) : null
     }
     {
-      isCourtsSizingSection ? <SizingSection id={isCourtsSizingSection.ID} title={isCourtsSizingSection.TITLE} imageSizing={isCourtsSizingSection.IMAGE} outdoorText={isCourtsSizingSection.OUTDOOR} indoorText={isCourtsSizingSection.INDOOR} /> : null
+      isCourtsSizingSection ? <SizingSection
+        id={isCourtsSizingSection.ID}
+        title={isCourtsSizingSection.TITLE}
+        imageSizing={isCourtsSizingSection.IMAGE}
+        outdoorText={isCourtsSizingSection.OUTDOOR}
+        indoorText={isCourtsSizingSection.INDOOR}
+        outdoorTitle={isStructure.OUTDOOR_TITLE}
+        indoorTitle={isStructure.INDOOR_TITLE}
+      /> : null
     }
     {
       isGlassSection ? <Section
@@ -150,11 +153,9 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
       >
         <div class="flex flex-col-reverse xl:flex-row max-w-none">
           <div class="w-full py-8 px-4 flex-1 md:px-8">
-            <h2
-              class="text-2xl lg:text-3xl text-balance mb-6 text-secondary font-bold uppercase"
-              set:html={isGlassSection.TITLE}
-            />
-            <div set:html={isGlassSection.DESCRIPTION}></div>
+            <Typography tag="h2" className="mb-6 font-bold uppercase" text={isGlassSection.TITLE} type="secondary" responsive />
+            <Typography tag="h3" className="mb-4 font-thin" text={isGlassSection.SUBTITLE} type="primary" responsive />
+            <Typography tag="div" text={isGlassSection.DESCRIPTION} responsive />
           </div>
           <div class="relative w-full flex-1">
             <img
@@ -188,13 +189,9 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
               }
             </div>
             <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-              <h2
-                class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase"
-              >
-                {isPaintSection.TITLE}
-              </h2>
-              <h3 class="text-xl lg:text-2xl text-balance font-thin mb-4 text-primary">{isPaintSection.SUBTITLE}</h3>
-              <div class="text-pretty text-base lg:text-xl mb-8" set:html={isPaintSection.DESCRIPTION} />
+              <Typography tag="h2" className="mb-6 font-bold uppercase" text={isPaintSection.TITLE} type="secondary" responsive />
+              <Typography tag="h3" className="mb-4 font-thin" text={isPaintSection.SUBTITLE} type="primary" responsive />
+              <Typography tag="div" className="mb-8" text={isPaintSection.DESCRIPTION} responsive />
               <FeatureList list={isPaintSection.LIST} />
             </div>
           </div>

@@ -1,6 +1,7 @@
 ---
 import Button from "./Button.astro";
 import ContactForm from "@/shared/components/forms/ContactForm";
+import Typography from "@/shared/components/ui/Typography.astro"
 
 interface Props {
   showContactForm?: boolean;
@@ -41,18 +42,10 @@ const type = getTipeFromVideo();
       >
         <div class="text-center pt-20 flex flex-col gap-4">
           {
-            subtitle ? (
-              <p class="subtitle text-xl lg:text-2xl text-center px-4 text-balance mb-0">
-                {subtitle}
-              </p>
-            ) : null
+            subtitle && (<Typography tag="p" className="subtitle text-center px-4 mb-0" text={subtitle} responsive />)
           }
           {
-            title ? (
-              <h1 class="items-center gap-5 text-xl md:text-2xl lg:gap-20 lg:text-3xl px-4 text-center text-balance">
-                {title}
-              </h1>
-            ) : null
+            title && (<Typography tag="h1" className="items-center gap-5 lg:gap-20 px-4 text-center" text={title} responsive />)
           }
           {
             buttonUrl && buttonText ? (

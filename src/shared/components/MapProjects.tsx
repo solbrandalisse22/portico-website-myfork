@@ -73,7 +73,7 @@ const vectorLayer = new Vector({
 const map = new Map({
   layers: [vectorLayer],
   view: new View({
-    center: fromLonLat([-5.0, 20.0]), // Centro del mapa (longitud, latitud)
+    center: fromLonLat([20, 20.0]), // Centro del mapa (longitud, latitud)
     zoom: 3, // Nivel de zoom inicial
     minZoom: 3, // Nivel mínimo de zoom
     maxZoom: 5, // Nivel máximo de zoom
@@ -83,20 +83,26 @@ const map = new Map({
   }),
 });
 
-const features = countries.map(
-  ({ coordinates, country }) =>
+const features = countries.map(({ coordinates, country, projects }) =>
     new Feature({
       geometry: new Point(fromLonLat(coordinates)),
       name: country,
     })
 );
 
+features.forEach((feature) => {
+  const { projects } = countries.find(item => item.country === feature.getProperties().name) || {};
+  feature.setStyle(
+    new Style({
+      image: new Icon({
+        src: projects ? "/padel-ball.png" : "/padel-disabled.png",
+      }),
+    })
+  );
+});
+
 // Crear la capa vectorial de marcadores
 const markerStyle = new Style({
-  stroke: new Stroke({
-    color: "#b7e4fd",
-    width: 1,
-  }),
   image: new Icon({
     src: "https://porticosport.com/wp-content/uploads/2023/05/padel-ball.png",
   }),
@@ -106,8 +112,7 @@ const markerStyle = new Style({
 const markerLayer = new Vector({
   source: new VectorSource({
     features,
-  }),
-  style: markerStyle,
+  })
 });
 
 // Añadir la capa de los marcadores al mapa
@@ -120,6 +125,8 @@ const selectInteraction = new Select({
 
 map.addInteraction(selectInteraction);
 map.addControl(new ZoomSlider());
+
+map.updateSize()
 
 export default function MapProjects() {
   const [countrySelected, setCountry] = useState() as [Country, any];
@@ -195,8 +202,8 @@ export default function MapProjects() {
       if (selectedFeature) {
         const name = selectedFeature.getProperties().name;
         const country = countries.find(({ country }) => country === name);
-        selectedFeature.setStyle(markerStyle);
-        if (country && $map && $popup) {
+        if (country && $map && $popup && country.projects) {
+          selectedFeature.setStyle(markerStyle);
           const { projects } = country;
           const [project] = projects || {};
           // Set the country

@@ -2,6 +2,7 @@
 import Layout from "@/shared/layouts/Layout.astro"
 import Video from "@/shared/components/Video.astro"
 import Button from "@/shared/components/Button.astro"
+import Typography from "@/shared/components/ui/Typography.astro"
 import SectionIntro from "@/shared/components/sections/SectionIntro.astro"
 import SectionBento from "@/shared/components/sections/SectionBento.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
@@ -63,20 +64,20 @@ const posts = await response.json();
     <section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}
     >
-      <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide" set:html={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} />
+      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
+      <Typography tag="p" text={i18n.PAGES.HOME.PROJECTS_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
       <div class="border-y border-primary mt-8">
         <MapProjects client:only />
       </div>
     </section>
     <Gallery
-      subheading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+      heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
       id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
       photos={projectsGallery}
       path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
     />
-    <div class="flex">
-      <Button class="mx-auto" url={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC} target="_self">{i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}</Button>
-    </div>
     <SectionComplements language={language} />
     <NewsList language={language} posts={posts} />
     <SectionContact language={language} bgImage="/hexagon-contact-bg.webp" image="/pista-hexagon-contact.webp" />

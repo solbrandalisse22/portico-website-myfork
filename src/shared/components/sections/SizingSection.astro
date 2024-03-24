@@ -1,5 +1,6 @@
 ---
 import Section from "@/shared/components/Section.astro";
+import Typography from '@/shared/components/ui/Typography.astro';
 import { type Photo } from "@/types/types.ts";
 
 
@@ -8,10 +9,12 @@ interface Props {
   title: string;
   outdoorText: string;
   indoorText: string;
+  outdoorTitle: string;
+  indoorTitle: string;
   imageSizing: Photo;
 }
 
-const { title, outdoorText, indoorText, imageSizing, id } = Astro.props
+const { title, outdoorText, indoorText, imageSizing, id, indoorTitle, outdoorTitle } = Astro.props
 ---
 
 <Section id={id} className="max-w-none relative border-b-4 border-white">
@@ -19,17 +22,16 @@ const { title, outdoorText, indoorText, imageSizing, id } = Astro.props
   <div class="flex relative flex-col items-center justify-center lg:flex-row gap-8 max-w-[1400px] mx-auto">
     <img src={imageSizing.src} alt={imageSizing.alt} class="aspect-video md:h-72 xl:h-96 z-10" />
     <div class=" z-10">
-      <h2 class="text-2xl lg:text-3xl font-bold mb-8 text-secondary uppercase text-balance">{title}</h2>
+      <Typography tag="h2" type="secondary" className="font-bold mb-8 uppercase" text={title} />
       {
         outdoorText ? 
-        <h3 class="text-primary font-bold text-xl lg:text-2xl mt-2">Outdoor</h3>
-        <div class="mt-4 text-left" set:html={outdoorText} /> : null
+        <Typography tag="h3" type="primary" className="font-bold mt-2" text={outdoorTitle} />
+        <Typography tag="div" className="mt-4 text-left" text={outdoorText} responsive /> : null
       }
       {
         indoorText ? 
-        <h3 class="text-primary font-bold text-xl lg:text-2xl mt-2">Indoor</h3>
-        <div class="mt-4 text-left" set:html={indoorText} /> : null
-      
+        <Typography tag="h3" type="primary" className="font-bold mt-2" text={indoorTitle} />
+        <Typography tag="div" className="mt-4 text-left" text={indoorText} responsive /> : null
       }
   </div>
 </Section>

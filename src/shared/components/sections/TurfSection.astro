@@ -1,5 +1,6 @@
 ---
 import Section from "@/shared/components/Section.astro";
+import Typography from '@/shared/components/ui/Typography.astro';
 import { getI18N } from "@/shared/i18n/"
 
 
@@ -16,23 +17,23 @@ const colors = {
 ---
 
 <Section className="max-w-none border-b-4">
-  <div class="flex flex-col lg:flex-row gap-8 max-w-[1400px] my-16 mx-auto px-6">
+  <div class="flex flex-col lg:flex-row gap-8 max-w-[1400px] mx-auto">
     <div class="flex-col gap-4 flex-1 text-center">
-      <h2 class="text-2xl lg:text-3xl text-balance font-bold text-secondary uppercase text-center" set:html={title}>
-      <h3 class="text-xl lg:text-2xl text-balance font-thin mb-12 text-primary">{subtitle}</h3>
-      <div class="text-center text-xl lg:text-2xl text-pretty" set:html={description} />
+      <Typography tag="h2" text={title} type="secondary" className="uppercase text-center font-bold" />
+      <Typography tag="h3" text={subtitle} type="primary" className="font-thin mb-12" />
+      <Typography tag="div" text={description} type="primary" className="text-center" />
       <img src={image.src} alt={image.alt} class="aspect-video object-cover turf-image" />
     </div>
     <div class="flex flex-col gap-4 flex-1">
       {
         i18n.TURF_SECTION.MODELS.map((model) => (
           <div class="flex items-center flex-col justify-center">
-            <h3 class="text-xl lg:text-2xl text-balance font-bold mb-4 text-primary">{model.TITLE}</h3>
-            <p>{model.DESCRIPTION}</p>
-            <div class="flex gap-4 justify-center items-center mb-4">
+            <Typography tag="h3" text={model.TITLE} type="primary" className="font-bold mb-4" />
+            <Typography tag="p" text={model.DESCRIPTION} />
+            <div class="flex gap-1 md:gap-4 justify-center items-center mb-4">
               {
                 model.COLORS.map((item) => (
-                  <button name={`${model.ID}_${item.color}`} class={`rounded-full w-24 ${colors[item.color]} border text-white text-center px-4 py-1`}>
+                  <button name={`${model.ID}_${item.color}`} class={`rounded-full w-20 md:w-24 ${colors[item.color]} border text-white text-center text-sm md:text-base px-2 md:px-4 py-1`}>
                     {item.name}
                   </button>
                 ))

@@ -2,6 +2,7 @@
 import Section from "@/shared/components/Section.astro";
 import SavingsAstro from '@/shared/components/icons/SavingsIcon.astro';
 import WarrantyIcon from '@/shared/components/icons/WarrantyIcon.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
 import VersatileCourtIcon from '@/shared/components/icons/VersatileCourtIcon.astro';
 import RentIcon from '@/shared/components/icons/RentIcon.astro';
 import MaterialsIcon from '@/shared/components/icons/MaterialsIcon.astro';
@@ -17,16 +18,14 @@ const { title, Benefits } = Astro.props;
 ---
 
 <Section>
-  <h2 class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-12 uppercase text-center">
-    {title}
-  </h2>
-  <div class="flex flex-col md:flex-row gap-10 justify-center flex-wrap">
+  <Typography tag="h2" className="font-bold text-secondary mb-12 uppercase text-center" text={title} type="secondary" />
+  <div class="flex flex-col md:flex-row gap-10 justify-center flex-wrap items-center">
     {
       Benefits.map(({header, icon, footer}) => (
         <div class="w-72 flex flex-col items-center gap-3">
           <header class="text-secondary">{header}</header>
           <body>
-            <LogoCircles className="w-[150px]" color="#b7e4fd" color="#b7e4fd" stopAnimation>
+            <LogoCircles className="w-[150px] h-[150px]" color="#b7e4fd" color="#b7e4fd" stopAnimation>
               {
                 icon === 'SavingsAstro' && <SavingsAstro width={100} height={100} />
               }

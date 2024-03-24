@@ -90,6 +90,7 @@
       "PROJECTS_SECTION": {
         "ID": "projects",
         "TITLE": "Projects",
+        "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
           "SRC": "/projects"
@@ -211,11 +212,13 @@
           },
           "TITLE": "Structures",
           "SUBTITLE": "Experience the excellence of our premium quality court structure",
-          "TEXT": "<p class=\"text-center px-2 text-base lg:text-2xl\">Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p class=\"text-center px-2 text-base lg:text-2xl\">The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col text-center px-2 text-base lg:text-2xl lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
+          "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
           "TITLE": "Mobile Court measurements",
+          "INDOOR_TITLE": "Indoor",
+          "OUTDOOR_TITLE": "Outdoor",
           "OUTDOOR": "<p><strong>12 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,96 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
           "INDOOR": "<p><strong>4 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,67 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
           "IMAGE": {
@@ -948,6 +951,11 @@
       "SUBTITLE": "Discover the latest projects of Portico Sport",
       "TITLE": "Projects By <span class=\"text-primary\">Portico Sport</span>",
       "POSTTITLE": "Padel courts and Canopies clubs by Portico Sport",
+      "PROJECTS_CLUB_SECTION": {
+        "ID": "projects-club",
+        "TITLE": "Projects by Portico",
+        "SUBTITLE": "Discover some projects we've turned into reality"
+      },
       "ROUTE": {
         "LABEL": "Projects",
         "URL": "/projects"
@@ -1509,6 +1517,6 @@
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Padel courts that comply with regulations",
     "SUBTITLE": "Strength, durability and perfect integration",
-    "DESCRIPTION": "Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)"
+    "DESCRIPTION": "<p>Our padel courts are meticulously designed to provide exceptional durability and outstanding performance, ensuring a fantastic gaming experience for players of all levels. Crafted with precision and built to last, our courts are engineered to withstand the test of time and deliver unparalleled resilience, even in the most demanding environments.</p><p>Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)</p>"
   }
 }

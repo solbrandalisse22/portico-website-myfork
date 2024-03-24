@@ -1,5 +1,6 @@
 ---
 import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro"
 
 import { getI18N } from "../../i18n";
 
@@ -8,6 +9,6 @@ const i18n = getI18N({ language })
 ---
 
 <Section id={i18n.PAGES.HOME.INTRO_SECTION.ID} className="text-center">
-  <h2 class="mx-auto mb-10 text-wrap text-center text-4xl font-semibold tracking-wide" set:html={i18n.PAGES.HOME.INTRO_SECTION.TITLE} />
-  <div class="text-pretty max-w-[60ch] mx-auto" set:html={i18n.PAGES.HOME.INTRO_SECTION.DESCRIPTION} />
+  <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.HOME.INTRO_SECTION.TITLE} />
+  <Typography tag="div" className="max-w-[60ch] mx-auto" text={i18n.PAGES.HOME.INTRO_SECTION.DESCRIPTION} />
 </Section>

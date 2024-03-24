@@ -154,3 +154,59 @@ export interface CourtItem2 {
   GALLERY_SECTION?: GallerySection;
   BUTTON: Route;
 }
+
+export interface SizingType {
+  base: string,
+  responsive: string
+}
+
+export interface Sizing {
+  small: SizingType;
+  medium: SizingType;
+  large: SizingType;
+}
+
+export interface TypograghyTags {
+  h1: {
+    extra: string,
+    size: Sizing
+  },
+  h2: {
+    extra: string,
+    size: Sizing
+  },
+  h3: {
+    extra: string,
+    size: Sizing
+  },
+  h4: {
+    extra: string,
+    size: Sizing
+  },
+  h5: {
+    extra: string,
+    size: Sizing
+  },
+  h6: {
+    extra: string,
+    size: Sizing
+  },
+  p: {
+    extra: string,
+    size: Sizing
+  },
+  span: {
+    extra: string,
+    size: Sizing
+  },
+  div: {
+    extra: string,
+    size: Sizing
+  },
+}
+
+export interface TypographyTypes {
+  current: string;
+  primary: string;
+  secondary: string;
+}

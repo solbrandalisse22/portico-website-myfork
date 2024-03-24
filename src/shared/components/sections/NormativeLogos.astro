@@ -1,5 +1,6 @@
 ---
 import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 import LogoFedPadel from "@/shared/components/logos/LogoFedPadel.astro";
 import LogoEAE from "@/shared/components/logos/LogoEAE.astro";
 import LogoAsce from "@/shared/components/logos/LogoAsce.astro";
@@ -26,7 +27,7 @@ const descriptionText = showInfo ? description || i18n.NORMATIVE_SECTION_LOGOS.D
 <Section heading={heading} subheading={subheading}>
   {
     descriptionText && (
-      <p class="mb-16">{descriptionText}</p>
+      <Typography tag="div" className="mb-16" text={descriptionText} />
     )
   }
   <div class="logos items-center">

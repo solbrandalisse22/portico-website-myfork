@@ -1,7 +1,9 @@
 ---
 import Layout from "@/shared/layouts/Layout.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import ProjectsClubsSection from "@/shared/components/sections/ProjectsClubsSection.astro";
 import MapProjects from "@/shared/components/MapProjects";
+import countries from "@/shared/data/countries.json";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 
 interface Props {
@@ -11,7 +13,6 @@ interface Props {
 const { language } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
-const superTitle = 'Projects By <span class="text-primary">Portico Sport</span>';
 ---
 
 <Layout
@@ -39,6 +40,11 @@ const superTitle = 'Projects By <span class="text-primary">Portico Sport</span>'
           { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
           { label: i18n.PAGES.PROJECTS.ROUTE.LABEL, href: i18n.PAGES.PROJECTS.ROUTE.URL },
         ]}
+      />
+      <ProjectsClubsSection
+        title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
+        subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
+        countries={countries}
       />
       <section class="border-t border-primary mt-8">
         <MapProjects client:only />
