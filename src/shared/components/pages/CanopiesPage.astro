@@ -1,6 +1,7 @@
 ---
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro";
+import Typography from "@/shared/components/ui/Typography.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Section from "@/shared/components/Section.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
@@ -31,17 +32,10 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
     <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4">
       <span class="uppercase text-balance">{i18n.PAGES.CANOPIES.PRETITLE}</span
       >
-      <h1
-        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={i18n.PAGES.CANOPIES.TITLE}
-      />
-      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance">
-        {i18n.PAGES.CANOPIES.SUBTITLE}
-      </h2>
-      <h3 class="text-base md:text-lg lg:text-xl font-thin text-primary text-balance">
-        {i18n.PAGES.CANOPIES.SUBSUBTITLE}
-      </h3>
-      <p class="max-w-80 md:max-w-[500px] text-balance">{i18n.PAGES.CANOPIES.DESCRIPTION}</p>
+      <Typography tag="h1" className="uppercase mb-6" text={i18n.PAGES.CANOPIES.TITLE} responsive />
+      <Typography type="secondary" tag="h2" className="mb-2" text={i18n.PAGES.CANOPIES.SUBTITLE} responsive />
+      <Typography type="primary" tag="h2" className="font-thin" text={i18n.PAGES.CANOPIES.SUBSUBTITLE} responsive />
+      <Typography type="primary" tag="p" className="max-w-80 md:max-w-[500px]" text={i18n.PAGES.CANOPIES.DESCRIPTION} responsive />
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
@@ -64,12 +58,8 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
         className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
         style="padding: 0; margin-left: 0; margin-right: 0;"
       >
-        <h2 class="mx-auto mb-8 text-center text-3xl lg:text-6xl text-balance font-semibold tracking-wide px-8">
-          {i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE}
-        </h2>
-        <p class="text-center mx-auto text-2xl text-pretty mb-10 max-w-[60ch]">
-          {i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION}
-        </p>
+        <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE} responsive />
+        <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION} />
         <div class="flex flex-col xl:flex-row max-w-none">
           <div class="relative w-full flex-1">
             {
@@ -86,12 +76,8 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
             }
           </div>
           <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-            <h3 class="text-2xl text-balance font-thin mb-4 text-primary">
-              {i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_TITLE}
-            </h3>
-            <p class="text-pretty">
-              {i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION}
-            </p>
+            <Typography tag="h3" type="primary" className="font-thin mb-4" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_TITLE} responsive />
+            <Typography tag="p" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION} responsive />
             <FeatureList list={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST} />
           </div>
         </div>
@@ -102,10 +88,8 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
       >
         <div class="flex flex-col-reverse xl:flex-row max-w-none">
           <div class="w-full py-8 px-4 flex-1 md:px-8">
-            <h2 class="text-3xl text-balance mb-6 text-secondary font-bold uppercase">
-              {i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE}
-            </h2>
-            <div class="text-pretty" set:html={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION} />
+            <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE} responsive />
+            <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION} />
           </div>
           <div class="relative w-full flex-1">
             <video
