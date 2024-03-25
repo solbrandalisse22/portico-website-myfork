@@ -1,5 +1,29 @@
 [
   {
+    "src": "img-1.webp",
+    "width": 980,
+    "height": 827,
+    "alt": "Big padel Club in France"
+  },
+  {
+    "src": "img-2.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Cubierta Valdehornillos in Spain"
+  },
+  {
+    "src": "img-3.webp",
+    "width": 1024,
+    "height": 574,
+    "alt": "Harrogate Spa Tennis in the UK"
+  },
+  {
+    "src": "img-4.webp",
+    "width": 1024,
+    "height": 682,
+    "alt": "Club cerrado del Aguila in Spain"
+  },
+  {
     "src": "img-5.webp",
     "width": 768,
     "height": 432,
@@ -12,6 +36,12 @@
     "alt": "Club cerrado del Aguila in Spain"
   },
   {
+    "src": "img-7.webp",
+    "width": 1024,
+    "height": 604,
+    "alt": "Club Padel i Markaryd in Sweden"
+  },
+  {
     "src": "img-8.webp",
     "width": 1170,
     "height": 1181,
@@ -19,7 +49,7 @@
   },
   {
     "src": "img-9.webp",
-    "width": 1180,
+    "width": 1170,
     "height": 792,
     "alt": "Canopies"
   },
@@ -50,8 +80,8 @@
   {
     "src": "img-14.webp",
     "width": 1024,
-    "height": 683,
-    "alt": "Blue Padel Kourts Sintra in Portugal"
+    "height": 574,
+    "alt": "Harrogate Spa Tennis in the UK"
   },
   {
     "src": "img-15.webp",
@@ -94,5 +124,11 @@
     "width": 1024,
     "height": 731,
     "alt": "panoramic courts and canopies"
+  },
+  {
+    "src": "img-22.webp",
+    "width": 1024,
+    "height": 576,
+    "alt": "Harrogate Spa Tennis in the UK"
   }
 ]

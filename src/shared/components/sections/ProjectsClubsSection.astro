@@ -3,7 +3,6 @@ import Section from '@/shared/components/Section.astro';
 
 const { countries, title, subtitle } = Astro.props
 const projects = countries.filter(({ projects }) => projects).map(({ projects }) => projects).flat()
-console.log(projects)
 ---
 
 <Section heading={title} subheading={subtitle}>

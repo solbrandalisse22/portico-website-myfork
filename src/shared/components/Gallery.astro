@@ -55,7 +55,7 @@ const {
             height="264"
           />
           <img
-            class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
+            class="img-effect blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
             loading="lazy"
             src={`/${path}/thumbnails/${src}`}
             alt={alt}
@@ -107,56 +107,52 @@ const {
 </script>
 
 <script is:inline define:vars={{ photos, offset, path }}>
-  class GalleryImages extends HTMLElement {
-    constructor() {
-      super();
+  document.addEventListener("astro:page-load", () => {
+    const $button = document.querySelector("#load-more");
+    // clone first element of gallery
+    const $first = document.querySelector("#gallery a:first-child");
 
-      document.addEventListener("astro:page-load", () => {
-        const $button = this.querySelector("#load-more");
-        // clone first element of gallery
-        const $first = this.querySelector("#gallery a:first-child");
+    $button?.addEventListener("click", async (e) => {
+      $button.remove();
+      e.preventDefault();
 
-        $button?.addEventListener("click", async (e) => {
-          $button.remove();
-          e.preventDefault();
-          const html = photos
-            .slice(offset)
-            .map((img, index) => {
-              const imgIndex = index + offset + 1;
-              const $clone = $first?.cloneNode(true);
+      const html = photos
+        .slice(offset)
+        .map((img, index) => {
+          const $clone = $first?.cloneNode(true);
 
-              $clone.setAttribute("data-pswp-width", img.width);
-              $clone.setAttribute("data-pswp-height", img.height);
-              $clone.setAttribute("href", `/${path}/${img.src}`);
-              $clone.classList.add("animate-fade-up");
-              $clone.classList.add("animate-delay-300");
-              $clone.classList.add("opacity-0");
-              $clone
-                .querySelector("img:first-child")
-                .setAttribute("src", `/${path}/thumbnails/${img.src}`);
-              $clone
-                .querySelector("img:first-child")
-                .closest("img")
-                .setAttribute("src", `/${path}/thumbnails/${img.src}`);
-              $clone.querySelector("span:last-child").innerHTML = img.alt;
-              return $clone?.outerHTML;
-            })
-            .join("");
+          $clone.setAttribute("data-pswp-width", img.width);
+          $clone.setAttribute("data-pswp-height", img.height);
+          $clone.setAttribute("href", `/${path}/${img.src}`);
+          $clone.classList.add("animate-fade-up");
+          $clone.classList.add("animate-delay-300");
+          $clone.classList.add("opacity-0");
+          $clone.querySelector("img:first-child").setAttribute("src", `/${path}/thumbnails/${img.src}`)
+          $clone.querySelector("img:first-child").setAttribute("width", img.width)
+          $clone.querySelector("img:first-child").setAttribute("height", img.height)
+          $clone.querySelector("img:first-child").setAttribute("alt", img.alt)
+          $clone.querySelector("img:first-child + img").setAttribute("width", img.width)
+          $clone.querySelector("img:first-child + img").setAttribute("height", img.height)
+          $clone.querySelector("img:first-child + img").setAttribute("alt", img.alt)
+          $clone.querySelector("img:first-child + img").setAttribute("src", `/${path}/thumbnails/${img.src}`)
+          $clone.querySelector("span:last-child").innerHTML = img.alt;
+          return $clone?.outerHTML;
+        })
+        .join("");
 
-          document
-            .querySelector("#gallery")
-            ?.insertAdjacentHTML("beforeend", html);
-          this.querySelector("masonry-layout").scheduleLayout();
-        });
-      });
-    }
-  }
-  customElements.define("gallery-images", GalleryImages);
+      document.querySelector("#gallery")?.insertAdjacentHTML("beforeend", html);
+      document.querySelector("masonry-layout").scheduleLayout();
+    });
+  });
 </script>
 
 <style is:global>
   .pswp {
     --pswp-bg: #00012a;
+  }
+
+  .pswp__img {
+    @apply rounded-xl;
   }
 
   #gallery a {
