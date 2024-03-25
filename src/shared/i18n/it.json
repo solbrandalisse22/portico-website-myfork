@@ -16,7 +16,7 @@
       "INTRO_SECTION": {
         "ID": "intro",
         "TITLE": "Welcome to <br />Portico Sport",
-        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies</strong> manufacturer <strong>globally</strong>. The company counts with 15 yrs. track record in the industry, presence <strong>in over 40 countries and +3,500 courts installed</strong>.</p><p>Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with <strong>100% in-house design</strong> and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong> expanding over 110k sqft making it the largest and most <strong>technologically advanced</strong> in the industry.</p>"
+        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies</strong> manufacturer <strong>globally</strong>. The company counts with 15 yrs. track record in the industry, presence <strong>in over 35 countries and +3,500 courts installed</strong>.</p><p>Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with <strong>100% in-house design</strong> and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong> expanding over 110k sqft making it the largest and most <strong>technologically advanced</strong> in the industry.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
@@ -129,6 +129,14 @@
             "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
           }
         }
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "SUBJECT": "I want more information about Padel Courts",
+        "TITLE": "Contact us",
+        "BUTTON_TEXT": "I want more information",
+        "BG_IMAGE": "/hexagon-contact-bg.webp",
+        "IMAGE": "/pista-hexagon-contact.webp"
       }
     },
     "COURTS": {
@@ -933,7 +941,9 @@
         "BUTTON_TEXT": "Discover more canopies"
       },
       "CONTACT_SECTION": {
+        "ID": "contact",
         "SUBJECT": "I would like to receive more information about the canopies",
+        "TITLE": "Contact us",
         "BUTTON_TEXT": "I WANT MORE INFORMATION ABOUT CANOPIES",
         "BG_IMAGE": "canopies/canopies-contact-bg.webp",
         "IMAGE": "canopies/canopy-contact.webp"

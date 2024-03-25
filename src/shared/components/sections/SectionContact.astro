@@ -4,6 +4,7 @@ import Section from "@/shared/components/Section.astro";
 import ContactForm from "@/shared/components/forms/ContactForm";
 
 interface Props {
+  id?: string;
   language: string;
   bgImage: string;
   image?: string;
@@ -13,11 +14,11 @@ interface Props {
   description?: string;
 }
 
-const { language, bgImage, image, subject, hiddenSubject, title, description } = Astro.props
+const { language, bgImage, image, subject, hiddenSubject, title, description, id } = Astro.props
 const i18n = getI18N({ language })
 ---
 
-<Section id={i18n.CONTACT_FORM.ID} className="relative flex justify-center items-center flex-col max-w-none">
+<Section id={id || i18n.CONTACT_FORM.ID} className="relative flex justify-center items-center flex-col max-w-none">
   <img aria-hidden="true" src={bgImage} alt="Contact background" loading="lazy" class="w-full h-full object-cover absolute max-w-[1800px] mx-auto blur-3xl" />
   <img src={bgImage} alt="Contact background" loading="lazy" class="w-full h-full object-cover absolute max-w-[1800px] mx-auto" />
   <div class="w-full rounded-xl border-primary border bg-black/50 p-6 md:p-12 lg:p-20 flex flex-col-reverse lg:flex-row gap-8 max-w-[1240px] relative">

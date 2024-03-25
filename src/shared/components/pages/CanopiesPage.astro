@@ -2,7 +2,9 @@
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro";
 import Typography from "@/shared/components/ui/Typography.astro"
+import Button from "@/shared/components/Button.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Video from "@/shared/components/Video.astro";
 import Section from "@/shared/components/Section.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
@@ -26,101 +28,107 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
   description={i18n.PAGES.CANOPIES.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
-  bgImage="/heros/CanopiesWebsPorticoSport.webp"
 >
+  <Video language={language} video="/cubiertas-spot.webm" classVideo="cp-elipse">
+    <Section className="absolute z-10 animate-fade-up flex flex-col max-w-none h-full justify-between sm:justify-center">
+      <div class="lg:p-16 flex flex-col md:gap-8 flex-1 justify-center max-w-[1400]">
+        <header class="text-center md:pt-20 flex flex-col justify-center items-center">
+          <Typography tag="p" text={i18n.PAGES.CANOPIES.PRETITLE} responsive />
+          <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.CANOPIES.TITLE} responsive />
+          <Typography tag="h2" type="secondary" className="mb-6" text={i18n.PAGES.CANOPIES.SUBTITLE} responsive />
+          <Typography tag="h3" type="primary" className="mb-6 font-thin" text={i18n.PAGES.CANOPIES.SUBSUBTITLE} responsive />
+          <Typography tag="p" className="max-w-[60ch]" text={i18n.PAGES.CANOPIES.DESCRIPTION} responsive />
+        </header>
+      </div>
+      <Button target="_self" class="self-center" url={`#${i18n.PAGES.CANOPIES.CONTACT_SECTION.ID}`}>
+        {i18n.PAGES.CANOPIES.CONTACT_SECTION.TITLE}
+      </Button>
+    </Section>
+  </Video>
   <main class="flex flex-col gradient-bg relative">
-    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4">
-      <span class="uppercase text-balance">{i18n.PAGES.CANOPIES.PRETITLE}</span
-      >
-      <Typography tag="h1" className="uppercase mb-6" text={i18n.PAGES.CANOPIES.TITLE} responsive />
-      <Typography type="secondary" tag="h2" className="mb-2" text={i18n.PAGES.CANOPIES.SUBTITLE} responsive />
-      <Typography type="primary" tag="h2" className="font-thin" text={i18n.PAGES.CANOPIES.SUBSUBTITLE} responsive />
-      <Typography type="primary" tag="p" className="max-w-80 md:max-w-[500px]" text={i18n.PAGES.CANOPIES.DESCRIPTION} responsive />
-    </div>
-    <div class="bg-main relative bg-background">
-      <Breadcrumb
-        crumbs={[
-          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
-          { label: i18n.PAGES.CANOPIES.ROUTE.LABEL, href: i18n.PAGES.CANOPIES.ROUTE.URL },
-        ]}
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.CANOPIES.ROUTE.LABEL, href: i18n.PAGES.CANOPIES.ROUTE.URL },
+      ]}
+    />
+    <Section
+      heading={i18n.PAGES.CANOPIES.FIRST_SECTION.TITLE}
+      subheading={i18n.PAGES.CANOPIES.FIRST_SECTION.DESCRIPTION}
+    >
+      <img
+        src={i18n.PAGES.CANOPIES.FIRST_SECTION.IMAGE.src}
+        alt={i18n.PAGES.CANOPIES.FIRST_SECTION.IMAGE.alt}
+        class="w-full img-structure"
       />
-      <Section
-        heading={i18n.PAGES.CANOPIES.FIRST_SECTION.TITLE}
-        subheading={i18n.PAGES.CANOPIES.FIRST_SECTION.DESCRIPTION}
-      >
-        <img
-          src={i18n.PAGES.CANOPIES.FIRST_SECTION.IMAGE.src}
-          alt={i18n.PAGES.CANOPIES.FIRST_SECTION.IMAGE.alt}
-          class="w-full img-structure"
-        />
-      </Section>
-      <Section
-        className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
-        style="padding: 0; margin-left: 0; margin-right: 0;"
-      >
-        <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE} responsive />
-        <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION} />
-        <div class="flex flex-col xl:flex-row max-w-none">
-          <div class="relative w-full flex-1">
-            {
-              images.map(({id, src, alt}, index) => (
-                <img
-                  loading="lazy"
-                  draggable={false}
-                  id={id}
-                  src={src}
-                  alt={alt}
-                  class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
-                />
-              ))
-            }
-          </div>
-          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-            <Typography tag="h3" type="primary" className="font-thin mb-4" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_TITLE} responsive />
-            <Typography tag="p" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION} responsive />
-            <FeatureList list={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST} />
-          </div>
+    </Section>
+    <Section
+      className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
+      style="padding: 0; margin-left: 0; margin-right: 0;"
+    >
+      <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE} responsive />
+      <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION} />
+      <div class="flex flex-col xl:flex-row max-w-none">
+        <div class="relative flex-1">
+          {
+            images.map(({id, src, alt}, index) => (
+              <img
+                loading="lazy"
+                draggable={false}
+                id={id}
+                src={src}
+                alt={alt}
+                class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] xl:w-auto top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
+              />
+            ))
+          }
         </div>
-      </Section>
-      <Section
-        className="flex flex-col max-w-none p-0 lg:mb-0"
-        style="padding: 0; margin-left: 0; margin-right: 0;"
-      >
-        <div class="flex flex-col-reverse xl:flex-row max-w-none">
-          <div class="w-full py-8 px-4 flex-1 md:px-8">
-            <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE} responsive />
-            <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION} />
-          </div>
-          <div class="relative w-full flex-1">
-            <video
-              autoplay
-              loop
-              muted
-              playsinline
-              id="main-video"
-              preload="metadata"
-              class="video h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
-            >
-              <source src="/cubiertas-spot.webm" type="video/webm" />
-            </video>
-          </div>
+        <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+          <Typography tag="h3" type="primary" className="font-thin mb-4" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_TITLE} responsive />
+          <Typography tag="p" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION} responsive />
+          <FeatureList list={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST} />
         </div>
-      </Section>
-      <Gallery
-        id="gallery-canopies"
-        path="canopies/gallery"
-        offset={12}
-        photos={canopiesGallery}
-        loadMoreText={i18n.PAGES.CANOPIES.GALLERY.BUTTON_TEXT}
-      />
-      <SectionContact
-        hiddenSubject
-        subject={i18n.PAGES.CANOPIES.CONTACT_SECTION.SUBJECT}
-        language={language}
-        bgImage={i18n.PAGES.CANOPIES.CONTACT_SECTION.BG_IMAGE}
-        image={i18n.PAGES.CANOPIES.CONTACT_SECTION.IMAGE}
-      />
-    </div>
+      </div>
+    </Section>
+    <Section
+      className="flex flex-col max-w-none p-0 lg:mb-0"
+      style="padding: 0; margin-left: 0; margin-right: 0;"
+    >
+      <div class="flex flex-col-reverse xl:flex-row max-w-none">
+        <div class="w-full py-8 px-4 flex-1 md:px-8">
+          <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE} responsive />
+          <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION} />
+        </div>
+        <div class="relative w-full flex-1">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            id="main-video"
+            preload="metadata"
+            class="video h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
+          >
+            <source src="/canopies/canopy-noruega.mp4" type="video/webm" />
+          </video>
+        </div>
+      </div>
+    </Section>
+    <Gallery
+      id="gallery-canopies"
+      path="canopies/gallery"
+      offset={12}
+      photos={canopiesGallery}
+      loadMoreText={i18n.PAGES.CANOPIES.GALLERY.BUTTON_TEXT}
+    />
+    <SectionContact
+      id={i18n.PAGES.CANOPIES.CONTACT_SECTION.ID}
+      hiddenSubject
+      subject={i18n.PAGES.CANOPIES.CONTACT_SECTION.SUBJECT}
+      language={language}
+      bgImage={i18n.PAGES.CANOPIES.CONTACT_SECTION.BG_IMAGE}
+      image={i18n.PAGES.CANOPIES.CONTACT_SECTION.IMAGE}
+    />
   </main>
 </Layout>
 

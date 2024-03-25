@@ -80,7 +80,14 @@ const posts = await response.json();
     />
     <SectionComplements language={language} />
     <NewsList language={language} posts={posts} />
-    <SectionContact language={language} bgImage="/hexagon-contact-bg.webp" image="/pista-hexagon-contact.webp" />
+    <SectionContact
+      id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
+      hiddenSubject
+      subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}
+      language={language}
+      bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
+      image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+    />
     <SectionPartnerLogos />
   </main>
 
