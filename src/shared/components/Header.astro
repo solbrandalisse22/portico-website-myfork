@@ -4,7 +4,7 @@ import { getI18N } from "../i18n/";
 import Button from "./Button.astro";
 import LanguageSelector from "./LanguageSelector.astro";
 import HeaderLink from "./HeaderLink.astro";
-import { capitalize }  from "@/libraries/utils";
+import { capitalize } from "@/libraries/utils";
 
 const { language } = Astro.props;
 const i18n = getI18N({ language });
@@ -17,31 +17,40 @@ const LINKS = [
   {
     href: i18n.PAGES.COURTS.ROUTE.URL,
     text: i18n.PAGES.COURTS.ROUTE.LABEL,
-    children: [{
-      href: i18n.PAGES.COURTS.MOBILE_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.MOBILE_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.PANORAMIC_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.PANORAMIC_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.PANORAMIC_FLOW_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.PANORAMIC_FLOW_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.CLUB_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.CLUB_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.CLUB_PLUS_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.CLUB_PLUS_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.FORCE_80_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.FORCE_80_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.SINGLE_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.SINGLE_COURT.NAME,
-    }, {
-      href: i18n.PAGES.COURTS.MINI_COURT.ROUTE.URL,
-      text: i18n.PAGES.COURTS.MINI_COURT.NAME,
-    }]
+    children: [
+      {
+        href: i18n.PAGES.COURTS.MOBILE_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.MOBILE_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.PANORAMIC_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.PANORAMIC_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.PANORAMIC_FLOW_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.PANORAMIC_FLOW_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.CLUB_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.CLUB_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.CLUB_PLUS_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.CLUB_PLUS_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.FORCE_80_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.FORCE_80_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.SINGLE_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.SINGLE_COURT.NAME,
+      },
+      {
+        href: i18n.PAGES.COURTS.MINI_COURT.ROUTE.URL,
+        text: i18n.PAGES.COURTS.MINI_COURT.NAME,
+      },
+    ],
   },
   {
     href: i18n.PAGES.CANOPIES.ROUTE.URL,
@@ -103,12 +112,11 @@ const LINKS = [
       {
         LINKS.map(({ href, text, children = [] }) =>
           children.length ? (
-            <>
-              <button
-                id="dropdownNavbarLink"
-                data-dropdown-toggle="dropdownNavbar"
-                class="bg-transparent relative flex items-center justify-between gap-2 w-max group"
-              >
+            <div
+              data-dropdown-toggle="dropdownNavbar"
+              class="relative gap-2 w-max group"
+            >
+              <HeaderLink class="flex justify-center items-center text__glowing" href={href}>
                 {`${capitalize(text)} `}
                 <svg
                   class="w-2.5 h-2.5 ms-2.5"
@@ -125,32 +133,30 @@ const LINKS = [
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <div
-                  id="dropdownNavbar"
-                  class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? 'w-52' : 'w-40'}`}
-                >
+              </HeaderLink>
+              <div
+                id="dropdownNavbar"
+                class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
+              >
                 <ul
                   class="py-2 text-sm flex flex-col gap-4 w-full"
                   aria-labelledby="dropdownLargeButton"
                 >
-                  {
-                    children.map(({ href, text }) => (
-                      <li>
-                        <Button
-                          size="sm"
-                          class="text__glowing bg-background/90 hover:text-black w-full flex justify-center items-center normal-case"
-                          url={href}
-                          target="_self"
-                        >
-                          {capitalize(text)}
-                        </Button>
-                      </li>
-                    ))
-                  }
+                  {children.map(({ href, text }) => (
+                    <li>
+                      <Button
+                        size="sm"
+                        class="text__glowing bg-background/90 hover:text-black w-full flex justify-center items-center normal-case"
+                        url={href}
+                        target="_self"
+                      >
+                        {capitalize(text)}
+                      </Button>
+                    </li>
+                  ))}
                 </ul>
               </div>
-              </button>
-            </>
+            </div>
           ) : (
             <HeaderLink class="w-max text__glowing" href={href}>
               {capitalize(text)}
