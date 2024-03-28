@@ -517,7 +517,7 @@
         "SEO_TITLE": "Panoramic Court - Padel Court",
         "SEO_DESCRIPTION":"The panoramic court is an extraordinary and thrilling choice for padel enthusiasts. Designed, this court model features high-strength glass walls that provide a panoramic view of the surroundings",
         "TITLE": "<span>Panoramic court</span>",
-        "DESCRIPTION": "<p>Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court.</p><p>Due to its visual appeal, this court is increasingly sought-after by customers aiming to offer a distinctive gaming experience to all their players.</p><p>If you're looking for a padel court that provides a unique and exciting gameplay experience, the panoramic courts are an excellent choice.</p>",
+        "DESCRIPTION": "<p>Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court.</p><p>Due to its visual appeal, this court is increasingly sought-after by clients aiming to offer a distinctive gaming experience to all their players.</p><p>If you're looking for a padel court that provides a unique and exciting gameplay experience, the panoramic courts are an excellent choice.</p>",
         "NAME": "Panoramic court",
         "SUBTITLE": "Introducing the Panoramic Court by Portico Sport",
         "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
@@ -1824,11 +1824,34 @@
       "ID": "work-with-us",
       "SEO_TITLE": "Work with us",
       "SEO_DESCRIPTION": "We are looking for professionals to join our team. If you are interested in working with us, please send us your CV.",
-      "TITLE": "Work with us",
-      "SUBTITLE": "We are looking for professionals to join our team",
+      "TITLE": "Join Our Team at Portico Sport: Where Excellence Meets Opportunity",
+      "SUBTITLE": "Empower Your Career in the Global Padel Industry with Portico Sport",
       "ROUTE": {
         "LABEL": "Work with us",
         "URL": "/work-with-us"
+      },
+      "INTRO_SECTION": {
+        "ID": "intro",
+        "TITLE": "Work with us",
+        "DESCRIPTION": "Are you passionate about the world of padel and seeking an exciting career opportunity? Look no further than Portico Sport, a leading name in the global padel industry. We're constantly on the lookout for talented individuals who share our commitment to excellence and innovation.",
+        "SECTIONS": [{
+          "TITLE": "Why Work with Us?",
+          "DESCRIPTION": "At Portico Sport, we believe in fostering a dynamic and supportive work environment where every team member is valued and empowered to thrive. When you join our team, you become part of a family that's dedicated to pushing the boundaries of what's possible in the padel world."
+        }, {
+          "TITLE": "Opportunities for Growth",
+          "DESCRIPTION": "We're committed to helping our employees reach their full potential. Whether you're just starting your career or looking to take the next step, we offer opportunities for growth and development that will challenge and inspire you."
+        }, {
+          "TITLE": "Collaborative Culture",
+          "DESCRIPTION": "At Portico Sport, collaboration is key. We believe in the power of teamwork and actively encourage open communication and idea-sharing among our employees. Together, we strive to achieve excellence in everything we do."
+        }, {
+          "TITLE": "Making a Difference",
+          "DESCRIPTION": "Joining Portico Sport isn't just about building a career; it's about making a difference in the world of padel. We're passionate about what we do, and we're looking for individuals who share that passion and want to be part of something meaningful."
+        }, {
+          "TITLE": "Ready to Join Us?",
+          "DESCRIPTION": "If you're ready to take your career to the next level and be part of a team that's shaping the future of padel, we want to hear from you."
+        }],
+        "SUBHEADING": "Send us your CV",
+        "EMAIL": "rrhh@porticosport.com"
       }
     },
     "CLIENT_CONTACT": {
@@ -1855,22 +1878,6 @@
             "PHONE_2": "+ (34)- 637 740 451",
             "PHONE_3": "+ (34)- 924 302 423",
             "ADDRESS": "C/ Albañiles. Los Varales Industrial Estate. Villafranca de Los Barros. (Badajoz)"
-          },
-          "ENGINEERING": {
-            "TITLE": "Engineering",
-            "DESCRIPTION": "Our engineering department is dedicated to designing innovative, high-quality padel courts that meet your unique needs. From concept to completion, our team ensures excellence every step of the way."
-          },
-          "ARCHITECTURE": {
-            "TITLE": "Architecture",
-            "DESCRIPTION": "Our architecture department specializes in creating bespoke padel court designs that reflect your vision and preferences. With a focus on aesthetics and functionality, we bring your dream court to life."
-          },
-          "SALES": {
-            "TITLE": "Sales",
-            "DESCRIPTION": "Our sales team is here to guide you through the process of selecting the perfect padel court for your needs. From initial consultation to final installation, we're committed to providing personalized solutions that exceed your expectations."
-          },
-          "AFTERSALES": {
-            "TITLE": "After-sales",
-            "DESCRIPTION": "Our after-sales team is dedicated to ensuring your continued satisfaction with your padel court. From technical support to resolving concerns, we're here to support you every step of the way."
           }
         },
         "POINTS": [

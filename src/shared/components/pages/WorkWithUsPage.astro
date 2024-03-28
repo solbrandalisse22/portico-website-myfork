@@ -1,0 +1,151 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Button from "@/shared/components/Button.astro";
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import { CountUp } from "@/shared/components/CountUp";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import ContactForm from "@/shared/components/forms/ContactForm";
+
+interface Props {
+  language: string;
+}
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const secondImages = i18n.PAGES.FACTORY.INFORMATION_SECTION.IMAGES;
+const sections = i18n.PAGES.WORK_WITH_US.INTRO_SECTION.SECTIONS
+---
+
+<Layout
+  title={i18n.PAGES.WORK_WITH_US.SEO_TITLE}
+  description={i18n.PAGES.WORK_WITH_US.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/heros/background-work-with-us.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.WORK_WITH_US.TITLE} responsive />
+      <Typography tag="div" className="text-center px-3" type="primary" text={i18n.PAGES.WORK_WITH_US.SUBTITLE} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.WORK_WITH_US.ROUTE.LABEL, href: i18n.PAGES.WORK_WITH_US.ROUTE.URL },
+        ]}
+      />
+      <Section id={i18n.PAGES.WORK_WITH_US.INTRO_SECTION.ID} className="text-center">
+        <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.WORK_WITH_US.INTRO_SECTION.TITLE} responsive />
+        <Typography tag="div" className="max-w-[60ch] mx-auto" text={i18n.PAGES.WORK_WITH_US.INTRO_SECTION.DESCRIPTION} responsive />
+      </Section>
+      <Section
+      className="flex flex-col max-w-none p-0 lg:mb-0"
+      style="padding: 0; margin-left: 0; margin-right: 0;"
+    >
+      <div class="flex flex-col xl:flex-row max-w-none">
+        <div class="w-full gap-4 px-4 py-12 xl:py-0 flex-1 md:px-8 flex flex-col">
+          {
+            sections.map(({ TITLE, DESCRIPTION }) => (
+              <div>
+                <Typography tag="h3" text={TITLE} type="primary" className="mb-4" responsive />
+                <Typography tag="div" text={DESCRIPTION} responsive />
+                </div>
+            ))
+          }
+          <Button class="mx-auto" size="lg" url={`mailto:${i18n.PAGES.WORK_WITH_US.INTRO_SECTION.EMAIL}`} target="_blank">{i18n.PAGES.WORK_WITH_US.INTRO_SECTION.EMAIL}</Button>
+        </div>
+        <div class="relative w-full flex-1">
+          {
+            secondImages.map(({id, src, alt}, index:number) => (
+              <img
+                loading="lazy"
+                draggable={false}
+                id={id}
+                src={src}
+                alt={alt}
+                class={`${index === 0 ? "relative" : "absolute"} object-cover aspect-[16/14] w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image-reverse ${index === 0 ? "opacity-100" : "opacity-0"}`}
+              />
+            ))
+          }
+        </div>
+      </div>
+    </Section>
+      <SectionInfiniteScroll language={language} />
+    </div>
+  </main>
+</Layout>
+
+<style>
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>
+
+<script is:inline define:vars={{ secondImages }}>
+  const updateImages = (images) => {
+    // cambiar a la siguiente imagen cada 3 segundos
+
+    let index = 0;
+    setInterval(() => {
+      const currentImage = images[index];
+      const nextImage = images[index + 1] || images[0];
+
+      const currentImageElement = document.getElementById(currentImage.id);
+      const nextImageElement = document.getElementById(nextImage.id);
+
+      if (currentImageElement && nextImageElement) {
+        currentImageElement.classList.remove("opacity-100");
+        currentImageElement.classList.add("opacity-0");
+        nextImageElement.classList.remove("opacity-0");
+        nextImageElement.classList.add("opacity-100");
+      }
+
+      index = index + 1;
+      if (index === images.length) index = 0;
+    }, 3000);
+  };
+
+  updateImages(secondImages);
+</script>

@@ -73,7 +73,6 @@ const LINKS = [
     text: i18n.PAGES.NEWS.ROUTE.LABEL,
   },
   {
-    href: i18n.PAGES.CONTACT.ROUTE.URL,
     text: i18n.PAGES.CONTACT.ROUTE.LABEL,
     children: [
       {
@@ -116,7 +115,7 @@ const LINKS = [
               data-dropdown-toggle="dropdownNavbar"
               class="relative gap-2 w-max group"
             >
-              <HeaderLink class="flex justify-center items-center text__glowing" href={href}>
+              <HeaderLink class={`flex justify-center items-center text__glowing ${href ? 'pointer-events-none' : ''}`} href={href ? href : '#'}>
                 {`${capitalize(text)} `}
                 <svg
                   class="w-2.5 h-2.5 ms-2.5"
