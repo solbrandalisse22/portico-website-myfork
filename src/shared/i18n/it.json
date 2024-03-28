@@ -192,7 +192,7 @@
           "BENEFITS": [{
             "header": "Saving with us",
             "icon": "SavingsAstro",
-            "footer": "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time and expenses on extensive floor repairs"
+            "footer": "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time and expenses on ground works."
           }, {
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -200,7 +200,7 @@
           }, {
             "header": "Versatile and adaptable",
             "icon": "VersatileCourtIcon",
-            "footer": "Suitable for both indoor and outdoor installations, can be easily transported to various environments and locations, making it ideal for events or installations where making holes is not possible."
+            "footer": "Suitable for both indoor and outdoor installations, can be easily transported to various environments and locations, making it ideal for events or installations where drilling holes to anchor the court is not possible."
           }, {
             "header": "Leasing opportunities",
             "icon": "RentIcon",
@@ -314,7 +314,7 @@
           "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
           "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
         },
-        "HOME_DESCRIPTION": "Patented court system that avoids anchoring the court to the ground and preserves the original ground conditions after it is removed. The court can be placed in the same place for extended periods of time and enjoys the same structural robustness as a traditionally anchored court. Perfect to be placed on top of tennis courts, where ground works for traditional courts are costly or simply prefer not to do them!",
+        "HOME_DESCRIPTION": "Patented court system that avoids anchoring the court to the ground. The court can be placed in the same place for extended periods of time and enjoys the same structural robustness as a traditionally anchored court. Perfect to be placed on top of tennis courts, where ground works for traditional courts are costly or simply prefer not to do them!",
         "HOME_IMAGES": [{
           "id": "slide-1",
           "src": "/courts/mobile-court-01.webp",
@@ -396,19 +396,19 @@
           },
           "TITLE": "Structures",
           "SUBTITLE": "Experience the excellence of our premium quality court structure",
-          "TEXT": "<p>Crafted with galvanized steel painted structure, our court ensures maximum resistance to abrasion and oxidation. The court structure consists of HOT DIP GALVANIZED S275 JR steel profiles, attached to the mobile base using countersunk metal anchors. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
+          "TEXT": "<p>Crafted with galvanized steel structure, our court ensures maximum resistance to abrasion and oxidation.</p><p>The court structure consists of galvanized S275JR steel profiles, anchored securely to the ground using anchor plates. The side and top frames are complemented by electro-welded mesh in accordance with UNE-EN-10223-4 standards.</p><p>To prevent vibrations of the mesh, the structure includes intermediate scaffolding.</p><p>Fastening the structure to the pavement is achieved with countersunk metal anchors measuring M8X80 mm. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
-          "TITLE": "Mobile Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 20,50 m (exterior measurements of the court)</p><p><strong>Width</strong>: 10,46 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 20 m (interior measurements)</p><p><strong>Width</strong>: 10 m (interior measurements)</p>",
+          "TITLE": "Panoramic Flow Court measurements",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 20,50 m </p><p><strong>Width</strong>: 10,46 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 10 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/panoramic-flow/panoramic-flow-sizing.webp",
+            "alt": "Interior and exterior Panoramic Flow court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -481,6 +481,10 @@
           "PATH": "courts-detail/panoramic-flow/gallery",
           "OFFSET": 17
         },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
+        },
         "CONTACT_SECTION": {
           "SUBJECT": "New petition for a Mobile Court",
           "TITLE": "News",
@@ -517,7 +521,7 @@
         "NAME": "Panoramic court",
         "SUBTITLE": "Introducing the Panoramic Court by Portico Sport",
         "LITTLE_DESCRIPTION": "<p>Enjoy padel with a panoramic view of the surroundings.</p>",
-        "DETAIL_TITLE": "<span class=\"block\">Panoramic</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \"> court</span>",
+        "DETAIL_TITLE": "<span>Panoramic court</span>",
         "MORE_INFO_URL": "https://porticosport.com/en/panoramic-courts",
         "CONTACT_TITLE_1": "Do you want a Panoramic Court?",
         "CONTACT_SUBJECT": "New petition for a Panoramic Court",
@@ -574,15 +578,15 @@
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
-          "TITLE": "Mobile Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 20,50 m (exterior measurements of the court)</p><p><strong>Width</strong>: 10,46 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 20 m (interior measurements)</p><p><strong>Width</strong>: 10 m (interior measurements)</p>",
+          "TITLE": "Panoramic Court measurements",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 20,50 m </p><p><strong>Width</strong>: 10,46 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 10 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+            "alt": "Interior and exterior Panoramic court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -694,7 +698,7 @@
         "SEO_DESCRIPTION":"One of our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability. With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards. If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.",
         "TITLE": "<span>Club court</span>",
         "DESCRIPTION": "<p>For many years our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability.</p><p>With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards.</p><p>If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
-        "LITTLE_DESCRIPTION": "<p>You can move padel in one of our most sought-after courts.</p>",
+        "LITTLE_DESCRIPTION": "<p>You can play padel in one of our most sought-after courts.</p>",
         "SUBTITLE": "Our most sought-after courts.",
         "NAME": "Club court",
         "CONTACT_TITLE_1": "Do you want a Club Court?",
@@ -754,14 +758,14 @@
         "SIZING_SECTION": {
           "ID": "measure-section",
           "TITLE": "Club Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 20,47 m (exterior measurements of the court)</p><p><strong>Width</strong>: 10,47 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 20 m (interior measurements)</p><p><strong>Width</strong>: 10 m (interior measurements)</p>",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 20,47 m </p><p><strong>Width</strong>: 10,47 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 10 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/club/Club-sizing.webp",
+            "alt": "Interior and exterior Club court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -833,6 +837,10 @@
           "ID": "gallery",
           "PATH": "courts-detail/club/gallery",
           "OFFSET": 27
+        },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
           "ID": "contact",
@@ -928,14 +936,14 @@
         "SIZING_SECTION": {
           "ID": "measure-section",
           "TITLE": "Club Plus Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 20,47 m (exterior measurements of the court)</p><p><strong>Width</strong>: 10,47 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 20 m (interior measurements)</p><p><strong>Width</strong>: 10 m (interior measurements)</p>",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 20,47 m </p><p><strong>Width</strong>: 10,47 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 10 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/club-plus/club-plus-sizing.webp",
+            "alt": "Interior and exterior Club Plus court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -1011,6 +1019,10 @@
           "ID": "gallery",
           "PATH": "courts-detail/club-plus/gallery",
           "OFFSET": 27
+        },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
           "SUBJECT": "New petition for a Club Plus Court",
@@ -1110,15 +1122,15 @@
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
-          "TITLE": "Mobile Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 20,87 m (exterior measurements of the court)</p><p><strong>Width</strong>: 10,87 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 20 m (interior measurements)</p><p><strong>Width</strong>: 10 m (interior measurements)</p>",
+          "TITLE": "Force 80 Court measurements",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 20,87 m </p><p><strong>Width</strong>: 10,87 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 10 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/force-80/Force-80-sizing.webp",
+            "alt": "Interior and exterior Force-80 court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -1190,6 +1202,10 @@
           "ID": "gallery",
           "PATH": "courts-detail/force-80/gallery",
           "OFFSET": 27
+        },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
           "SUBJECT": "New petition for a Force 80 Court",
@@ -1288,15 +1304,15 @@
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
-          "TITLE": "Mobile Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 20,47 m (exterior measurements of the court)</p><p><strong>Width</strong>: 6,47 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 20 m (interior measurements)</p><p><strong>Width</strong>: 6 m (interior measurements)</p>",
+          "TITLE": "Single Court measurements",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 20,47 m </p><p><strong>Width</strong>: 6,47 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 6 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/single/single-sizing.webp",
+            "alt": "Interior and exterior Single court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -1377,6 +1393,10 @@
           "PATH": "courts-detail/single/gallery",
           "OFFSET": 27
         },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
+        },
         "CONTACT_SECTION": {
           "SUBJECT": "New petition for a Single Court",
           "TITLE": "News",
@@ -1411,7 +1431,7 @@
         "TITLE": "<span>Mini court</span>",
         "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players.</p><p>Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts.</p><p>Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
         "NAME": "Mini court",
-        "LITTLE_DESCRIPTION": "<p>Move our reduced-size padel court that fits anywhere.</p>",
+        "LITTLE_DESCRIPTION": "<p>Our reduced-size padel court that fits anywhere.</p>",
         "SUBTITLE": "Our reduced-size padel court that fits anywhere.",
         "CONTACT_TITLE_1": "Do you want a Mini Court?",
         "CONTACT_SUBJECT": "New petition for a Mini Plus Court",
@@ -1469,15 +1489,15 @@
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
-          "TITLE": "Mobile Court measurements",
-          "INDOOR_TITLE": "Indoor",
-          "OUTDOOR_TITLE": "Outdoor",
-          "OUTDOOR": "<p><strong>Length</strong>: 10,47 m (exterior measurements of the court)</p><p><strong>Width</strong>: 5,47 m (exterior measurements of the court)</p>",
-          "INDOOR": "<p><strong>Length</strong>: 10 m (interior measurements)</p><p><strong>Width</strong>: 5 m (interior measurements)</p>",
+          "TITLE": "Mini Court measurements",
+          "INDOOR_TITLE": "Interior",
+          "OUTDOOR_TITLE": "Exterior",
+          "OUTDOOR": "<p><strong>Length</strong>: 10,47 m </p><p><strong>Width</strong>: 5,47 m </p>",
+          "INDOOR": "<p><strong>Length</strong>: 10 m </p><p><strong>Width</strong>: 5 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/mobile/sizing-mobile-court.webp",
-            "alt": "Indoor and outdoor Mobile court sizes"
+            "src": "/courts-detail/mini/mini-sizing.webp",
+            "alt": "Interior and exterior single court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -1553,6 +1573,10 @@
           "ID": "gallery",
           "PATH": "courts-detail/mini/gallery",
           "OFFSET": 27
+        },
+        "COURTS_SECTION": {
+          "TITLE": "Discover other Padel Courts",
+          "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
           "SUBJECT": "New petition for a Mini Court",
@@ -1660,7 +1684,7 @@
       "GALLERY": {
         "HEADING": "Sport-Specific Engineering",
         "SUBHEADING": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
-        "BUTTON_TEXT":"Discover more canopies"
+        "OFFSET": 27
       }
     },
     "PROJECTS": {
@@ -1733,7 +1757,7 @@
         }]
       },
       "INFORMATION_SECTION": {
-        "DESCRIPTION": "<p>Today, Portico Sport has established its presence in over 35 countries worldwide. With the inauguration of this new factory, the company is poised to embrace a new era of padel growth with optimism within an increasingly demanding international industry landscape. This state-of-the-art facility stands as one of the largest and most technologically advanced in the sector. It is equipped with distinct areas dedicated to design, manufacturing, welding, and paint &amp; lacquering. Its innovative design and robust capacity enable us to maintain a 100% in-house manufacturing process, ensuring complete traceability of every material used and rigorous quality control measures.</p>",
+        "DESCRIPTION": "<p>Today, Portico Sport has established its presence in over 35 countries worldwide. With the inauguration of this new factory, the company is poised to embrace a new era of padel growth with optimism within an increasingly demanding international industry landscape. This state-of-the-art facility stands as one of the largest and the most technologically advanced in the sector. It is equipped with distinct areas dedicated to design, manufacturing, welding, and paint &amp; lacquering. Its innovative design and robust capacity enable us to maintain a 100% in-house manufacturing process, ensuring complete traceability of every material used and rigorous quality control measures. We have no excuses to make nothing but the best padel courts in the industry.</p>",
         "IMAGES": [{
           "id": "information-section-1",
           "src": "/factory/factory-information-section-1.webp",
@@ -1809,13 +1833,88 @@
     },
     "CLIENT_CONTACT": {
       "ID": "client-contact",
-      "SEO_TITLE": "Client contact",
-      "SEO_DESCRIPTION": "We are here to help you. Contact us for any questions or inquiries.",
-      "TITLE": "Client contact",
-      "SUBTITLE": "We are here to help you",
+      "SEO_TITLE": "Connect with Portico Sport: Your Global Partner for Padel Court Excellence",
+      "SEO_DESCRIPTION": "Get in touch with Portico Sport, your trusted global partner for premium padel court solutions. Contact us today to start building your dream padel court and elevate your game to new heights.",
+      "TITLE": "<span class=\"block\">Portico Sport:</span> <span class=\"text-xl\">a Factory for the new era of Padel</span>",
+      "SUBTITLE": "With you throughtout the entire process",
       "ROUTE": {
         "LABEL": "Client contact",
         "URL": "/client-contact"
+      },
+      "INTRO_SECTION": {
+        "ID": "intro",
+        "TITLE": "Connect with Portico Sport: Your Partner in Padel Excellence",
+        "DESCRIPTION": "At Portico Sport, we believe in more than just selling padel courts; we're committed to building strong, enduring relationships with our clients. From the moment you think of padel, think of Portico Sport. Our customer-centric approach ensures your journey with us is marked by trust, satisfaction, and unparalleled service.",
+        "SUBHEADING": "Contact with our departments",
+        "DEPARTMENTS": {
+          "PHONE_TITLE": "Phone numbers",
+          "ADDRESS_TITLE": "Address",
+          "COMPANY": {
+            "EMAIL": "info@porticosport.com",
+            "PHONE_1": "+ (34)- 628 818 913",
+            "PHONE_2": "+ (34)- 637 740 451",
+            "PHONE_3": "+ (34)- 924 302 423",
+            "ADDRESS": "C/ Albañiles. Los Varales Industrial Estate. Villafranca de Los Barros. (Badajoz)"
+          },
+          "ENGINEERING": {
+            "TITLE": "Engineering",
+            "DESCRIPTION": "Our engineering department is dedicated to designing innovative, high-quality padel courts that meet your unique needs. From concept to completion, our team ensures excellence every step of the way."
+          },
+          "ARCHITECTURE": {
+            "TITLE": "Architecture",
+            "DESCRIPTION": "Our architecture department specializes in creating bespoke padel court designs that reflect your vision and preferences. With a focus on aesthetics and functionality, we bring your dream court to life."
+          },
+          "SALES": {
+            "TITLE": "Sales",
+            "DESCRIPTION": "Our sales team is here to guide you through the process of selecting the perfect padel court for your needs. From initial consultation to final installation, we're committed to providing personalized solutions that exceed your expectations."
+          },
+          "AFTERSALES": {
+            "TITLE": "After-sales",
+            "DESCRIPTION": "Our after-sales team is dedicated to ensuring your continued satisfaction with your padel court. From technical support to resolving concerns, we're here to support you every step of the way."
+          }
+        },
+        "POINTS": [
+          {
+            "TITLE": "Thinking Padel, Thinking Portico Sport",
+            "DESCRIPTION": "Embark on a journey of excellence with Portico Sport. Our dedication to customer satisfaction is the cornerstone of our business philosophy. From the initial contact to the final installation, we prioritize your needs, goals, and preferences."
+          },
+          {
+            "TITLE": "Tailored Commercial Agreements",
+            "DESCRIPTION": "We understand that every client is unique. That's why we craft bespoke commercial proposals that align with your specific requirements. Our experienced team works closely with you to design agreements that meet your needs and exceed your expectations."
+          },
+          {
+            "TITLE": "Personalized Guidance from Expert Teams",
+            "DESCRIPTION": "At Portico Sport, we don't just sell padel courts; we provide comprehensive solutions. Our dedicated engineering and architecture departments offer personalized advice throughout the entire process. From concept to completion, our technical experts ensure excellence every step of the way."
+          },
+          {
+            "TITLE": "Flexible Financing Options",
+            "DESCRIPTION": "We believe that financial constraints should never hinder your dreams. That's why we offer flexible financing options through advantageous agreements with leading entities. Our goal is to provide tailored solutions that make your padel court dreams a reality."
+          },
+          {
+            "TITLE": "Bespoke Design, Manufacturing, and Installation",
+            "DESCRIPTION": "Experience the pinnacle of quality with Portico Sport. Our courts and covers are meticulously designed, manufactured, and installed to meet your unique specifications. We understand that every project is different, and we're committed to delivering excellence tailored to your needs."
+          },
+          {
+            "TITLE": "Satisfaction Guaranteed",
+            "DESCRIPTION": "At Portico Sport, satisfaction isn't just a promise; it's a guarantee. Our commitment to quality, innovation, trust, and experience ensures that every project exceeds expectations. With Portico Sport, your satisfaction is our priority."
+          },
+          {
+            "TITLE": "Exceptional After-Sales Support",
+            "DESCRIPTION": "Our relationship with you doesn't end with installation; it's just the beginning. Our customer-oriented approach means we're with you every step of the way. From technical support to resolving concerns, our after-sales service ensures your continued satisfaction."
+          },
+          {
+            "TITLE": "Partnering for Success",
+            "DESCRIPTION": "At Portico Sport, we're more than just suppliers; we're partners in your success. We're dedicated to fostering long-term relationships built on trust, excellence, and mutual growth. With Portico Sport, you're not just a client; you're part of our family."
+          }
+        ]
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "I would like to receive more information",
+        "TITLE": "Let's Start Building Your Dream Padel Court",
+        "DESCRIPTION": "<p>Ready to take the first step towards your ultimate padel court experience? Fill out the form below, and let's get the ball rolling. Whether you have questions, need a quote, or simply want to discuss your project, we're here to help.</p><p>Our team at Portico Sport is dedicated to providing personalized solutions that exceed your expectations. From design to installation and beyond, we're committed to making your padel court dreams a reality.</p>",
+        "SEND_TEXT": "I WANT CONTACT WITH PORTICO SPORT",
+        "BG_IMAGE": "client-contact/client-contact-bg.webp",
+        "IMAGE": "client-contact/client-contact.webp"
       }
     },
     "COOKIES": {
@@ -2049,6 +2148,7 @@
     "ID": "elevated-platform",
     "TITLE": "Elevated Platform",
     "SUBTITLE": "- Leaders in manufacture and installation of padel courts –",
+    "CONTACT_BUTTON": "I want a Mobile Court",
     "ROUTE": {
       "LABEL": "Elevated Platform",
       "URL": "/elevated-platform"
@@ -2121,6 +2221,7 @@
       }
     },
     "CONTACT_SECTION": {
+      "ID": "contact",
       "TITLE": "Do you want an Elevated Platform?",
       "SUBTITLE": "Contact us and we will help you",
       "BUTTON": "I want an Elevated Platform",
