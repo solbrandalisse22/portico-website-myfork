@@ -54,7 +54,13 @@ if (isPaintSection) {
   });
 }
 
-const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase().includes('mob') && !item.title.includes('80'));
+const title = i18n.PAGES.COURTS[court].TITLE
+const isMobile = title === i18n.PAGES.COURTS.MOBILE_COURT.TITLE
+const force80 = i18n.PAGES.COURTS.FORCE_80_COURT.TITLE
+const courts = courtsGrid(i18n);
+const compatibleCourts = isMobile 
+  ? courts.filter((item) => item.title !== title && item.title !== force80)
+  : courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.COURTS.MOBILE_COURT.TITLE);
 
 ---
 

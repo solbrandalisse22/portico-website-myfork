@@ -15,13 +15,9 @@ import { Fill, Stroke, Style, Icon } from "ol/style";
 import countries from "@/shared/data/countries.json";
 import { type Country, type Project } from "@/types/types";
 import CarouselImages from "@/shared/components/CarouselImages";
-import Styles from '@/shared/styles/MapProjects.module.css';
+import Styles from "@/shared/styles/MapProjects.module.css";
 import ActionButtons from "@/shared/components/ActionButtons";
-import useDeviceDetection from '@/shared/hooks/useDeviceDetection';
-import { toContext } from 'ol/render';
-
-let zoom = 3;
-
+import { toContext } from "ol/render";
 
 // Estilo de la capa vectorial
 const fill = new Fill({
@@ -31,7 +27,7 @@ const fill = new Fill({
 const stroke = new Stroke({
   color: "#b7e4fd",
   width: 1,
-})
+});
 
 const style = new Style({
   renderer(pixelCoordinates, state) {
@@ -39,24 +35,22 @@ const style = new Style({
     const geometry = state.geometry.clone();
     geometry.setCoordinates(pixelCoordinates);
     const grad = context.createLinearGradient(298, 200, 302, 1);
-      grad.addColorStop(0, 'rgba(0, 255, 235, 1)');
-      grad.addColorStop(1, 'rgba(7, 58, 187, 1)');
+    grad.addColorStop(0, "rgba(0, 255, 235, 1)");
+    grad.addColorStop(1, "rgba(7, 58, 187, 1)");
 
     // Stitch out country shape from the blue canvas
     context.save();
     context.shadowBlur = 200;
-    context.shadowColor = 'rgba(183, 253, 251, 1)';
+    context.shadowColor = "rgba(183, 253, 251, 1)";
 
     const renderContext = toContext(context, { pixelRatio });
-
-    // context.fillStyle = grad;
 
     renderContext.setFillStrokeStyle(fill, stroke);
     // context.fill();
     renderContext.drawGeometry(geometry);
     context.clip();
     context.restore();
-  }
+  },
 });
 
 // Crear la capa vectorial
@@ -73,17 +67,51 @@ const vectorLayer = new Vector({
 const map = new Map({
   layers: [vectorLayer],
   view: new View({
-    center: fromLonLat([20, 20.0]), // Centro del mapa (longitud, latitud)
-    zoom: 3, // Nivel de zoom inicial
-    minZoom: 3, // Nivel mínimo de zoom
+    center: fromLonLat([0, 0]), // Centro del mapa (longitud, latitud)
+    zoom: 2.9, // Nivel de zoom inicial
+    minZoom: 2.9, // Nivel mínimo de zoom
     maxZoom: 5, // Nivel máximo de zoom
-    constrainOnlyCenter: true, // Restringe el desplazamiento solo al centro del mapa
-    extent: [-2000000, -1000000, 1200000, 7000000],
     multiWorld: false,
+    constrainOnlyCenter: true, // Restringe el desplazamiento solo al centro del mapa
+    // extent: [-200000, -1000000, 1200000, 7000000],
+    // extent: [-180, -90, 180, 90],
+    // enableRotation: false,
+    constrainResolution: true,
   }),
 });
 
-const features = countries.map(({ coordinates, country, projects }) =>
+function getWindowSize() {
+  return {
+    width: window.innerWidth,
+    height: window.innerHeight,
+  };
+}
+
+// Cargar los datos del GeoJSON
+vectorLayer.getSource().on("change", function (e) {
+  if (vectorLayer.getSource().getState() === "ready") {
+    // Obtener el extent del GeoJSON cargado
+    const extent = vectorLayer.getSource().getExtent();
+
+    // Establecer el extent como el extent inicial de la vista del mapa
+    map.getView().fit(extent);
+    map.updateSize();
+    // actualizamos el center
+    const size = getWindowSize();
+    if (size.width <= 767) {
+      map.getView().setCenter(fromLonLat([20, 50]));
+    } else if (size.width <= 1024) {
+      map.getView().setCenter(fromLonLat([30, 50]));
+    } else if (size.width <= 1440) {
+      map.getView().setCenter(fromLonLat([40, 50]));
+    } else {
+      map.getView().setCenter(fromLonLat([35, 15]));
+    }
+  }
+});
+
+const features = countries.map(
+  ({ coordinates, country, projects }) =>
     new Feature({
       geometry: new Point(fromLonLat(coordinates)),
       name: country,
@@ -91,7 +119,9 @@ const features = countries.map(({ coordinates, country, projects }) =>
 );
 
 features.forEach((feature) => {
-  const { projects } = countries.find(item => item.country === feature.getProperties().name) || {};
+  const { projects } =
+    countries.find((item) => item.country === feature.getProperties().name) ||
+    {};
   feature.setStyle(
     new Style({
       image: new Icon({
@@ -112,7 +142,7 @@ const markerStyle = new Style({
 const markerLayer = new Vector({
   source: new VectorSource({
     features,
-  })
+  }),
 });
 
 // Añadir la capa de los marcadores al mapa
@@ -126,23 +156,13 @@ const selectInteraction = new Select({
 map.addInteraction(selectInteraction);
 map.addControl(new ZoomSlider());
 
-map.updateSize()
+map.updateSize();
 
 export default function MapProjects() {
   const [countrySelected, setCountry] = useState() as [Country, any];
   const [projectSelected, setProject] = useState() as [Project, any];
-  const device = useDeviceDetection()
   const mapRef = useRef<HTMLDivElement>(null);
   const popupRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (device === 'Mobile') {
-      zoom = 0.2;
-    } else {
-      zoom = 3;
-    }
-    map.getView().setZoom(zoom);
-  }, [device])
 
   const openPopoup = () => {
     const $popup = popupRef.current;
@@ -166,13 +186,13 @@ export default function MapProjects() {
     );
     const nextIndex = index + 1;
     if (nextIndex < projects.length) {
-      popupRef.current?.querySelector('body')?.classList.add('opacity-0');
+      popupRef.current?.querySelector("body")?.classList.add("opacity-0");
       setTimeout(() => {
         setProject(projects[nextIndex]);
-        popupRef.current?.querySelector('body')?.classList.remove('opacity-0');
-      }, 500)
+        popupRef.current?.querySelector("body")?.classList.remove("opacity-0");
+      }, 500);
     }
-  }
+  };
 
   const prevProject = () => {
     const { projects } = countrySelected;
@@ -181,13 +201,13 @@ export default function MapProjects() {
     );
     const prevIndex = index - 1;
     if (prevIndex >= 0) {
-      popupRef.current?.querySelector('body')?.classList.add('opacity-0');
+      popupRef.current?.querySelector("body")?.classList.add("opacity-0");
       setTimeout(() => {
         setProject(projects[prevIndex]);
-        popupRef.current?.querySelector('body')?.classList.remove('opacity-0');
-      }, 500)
+        popupRef.current?.querySelector("body")?.classList.remove("opacity-0");
+      }, 500);
     }
-  }
+  };
 
   useEffect(() => {
     const $popup = popupRef.current;
@@ -230,17 +250,27 @@ export default function MapProjects() {
     });
   }, []);
 
-  const isDisabledBack = projectSelected && countrySelected?.projects?.findIndex(({ projectName }) => projectName === projectSelected.projectName) === 0;
-  const isDisabledNext = projectSelected && countrySelected?.projects?.findIndex(({ projectName }) => projectName === projectSelected.projectName) === countrySelected?.projects?.length - 1;
+  const isDisabledBack =
+    projectSelected &&
+    countrySelected?.projects?.findIndex(
+      ({ projectName }) => projectName === projectSelected.projectName
+    ) === 0;
+  const isDisabledNext =
+    projectSelected &&
+    countrySelected?.projects?.findIndex(
+      ({ projectName }) => projectName === projectSelected.projectName
+    ) ===
+      countrySelected?.projects?.length - 1;
 
   return (
     <>
       <div
         id="map"
         ref={mapRef}
-        className={`map relative w-full ${device === 'Mobile' ? 'h-[500px]' : ''} ${device === 'Tablet' ? 'h-[800px]' : ''} ${device === 'Desktop' ? 'h-[1000px]' : ''}`}
+        className={`map relative w-full h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px]`}
         tabindex={0}
-      />
+      >
+      </div>
       {countrySelected && (
         <div
           onMouseDown={closePopoup}
@@ -255,7 +285,10 @@ export default function MapProjects() {
         }}
       >
         <header className="flex justify-between items-center p-4 border-b border-primary">
-          <h2 id="header-title" className="text-white text-2xl font-bold transition-opacity">
+          <h2
+            id="header-title"
+            className="text-white text-2xl font-bold transition-opacity"
+          >
             {countrySelected?.country}
           </h2>
           <button
@@ -280,7 +313,9 @@ export default function MapProjects() {
                 )}
                 <div class="flex flex-col gap-4">
                   <div>
-                    <span className="text-primary text-sm">{projectSelected.projectCity}</span>
+                    <span className="text-primary text-sm">
+                      {projectSelected.projectCity}
+                    </span>
                     <h3 className="text-secondary text-2xl font-bold">
                       {projectSelected.projectName}
                     </h3>
@@ -293,12 +328,18 @@ export default function MapProjects() {
                   />
                 </div>
               </div>
-              <div className={`flex-1 flex flex-col gap-2 justify-end max-w-80`}>
-                {
-                  countrySelected?.projects?.length > 1 && (
-                    <ActionButtons backButtonClicked={prevProject} nextButtonClicked={nextProject} className="absolute top-0 right-0 w-auto" isDisabledBack={isDisabledBack} isDisabledNext={isDisabledNext} />
-                  )
-                }
+              <div
+                className={`flex-1 flex flex-col gap-2 justify-end max-w-80`}
+              >
+                {countrySelected?.projects?.length > 1 && (
+                  <ActionButtons
+                    backButtonClicked={prevProject}
+                    nextButtonClicked={nextProject}
+                    className="absolute top-0 right-0 w-auto"
+                    isDisabledBack={isDisabledBack}
+                    isDisabledNext={isDisabledNext}
+                  />
+                )}
                 <div>
                   {projectSelected.projectsCourts && (
                     <div className="flex flex-col gap-2">
@@ -337,9 +378,7 @@ export default function MapProjects() {
           )}
           {projectSelected?.images?.length && (
             <div className="py-6 border-t border-primary">
-              <CarouselImages
-                images={projectSelected?.images || []}
-              />
+              <CarouselImages images={projectSelected?.images || []} />
             </div>
           )}
         </body>

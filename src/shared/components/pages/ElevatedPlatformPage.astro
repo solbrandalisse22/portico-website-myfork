@@ -3,7 +3,10 @@ import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro";
 import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Video from "@/shared/components/Video.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 import Section from "@/shared/components/Section.astro";
+import Button from "@/shared/components/Button.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import { courtsGrid } from "@/shared/i18n/constants";
 import FeatureList from "@/shared/components/FeatureList.astro";
@@ -25,137 +28,119 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
   description={i18n.ELEVATED_PLATFORM.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
-  bgImage="/heros/background-elevated-projects.webp"
 >
+
+  <Video language={language} video="elevated-platform/elevated-platform-video.mp4" classVideo="cp-elipse">
+    <Section className="absolute z-10 animate-fade-up flex flex-col xl:flex-row max-w-none h-full justify-between md:justify-center">
+      <div class="lg:p-16 flex flex-col md:gap-8 flex-1 justify-center max-w-[1400]">
+        <header class="text-center md:pt-20">
+          <Typography tag="p" type="primary" size="large" text={i18n.ELEVATED_PLATFORM.SUBTITLE} responsive />
+          <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.ELEVATED_PLATFORM.TITLE} responsive />
+        </header>
+      </div>
+      <Button target="_self" class="xl:hidden self-center" url={`#/${i18n.ELEVATED_PLATFORM.CONTACT_SECTION.ID}`}>
+        {i18n.ELEVATED_PLATFORM.CONTACT_BUTTON}
+      </Button>
+    </Section>
+  </Video>
   <main class="flex flex-col gradient-bg relative">
-    <div
-      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+        {
+          label: i18n.ELEVATED_PLATFORM.ROUTE.LABEL,
+          href: i18n.ELEVATED_PLATFORM.ROUTE.URL,
+        },
+      ]}
+    />
+    <Section
+      heading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.TITLE}
+      subheading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.SUBTITLE}
     >
-      <span class="uppercase text-balance"
-        >{i18n.ELEVATED_PLATFORM.SUBTITLE}</span
-      >
-      <h1
-        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={i18n.ELEVATED_PLATFORM.TITLE}
-      />
-    </div>
-    <div class="bg-main relative bg-background">
-      <Breadcrumb
-        crumbs={[
-          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
-          {
-            label: i18n.ELEVATED_PLATFORM.ROUTE.LABEL,
-            href: i18n.ELEVATED_PLATFORM.ROUTE.URL,
-          },
-        ]}
-      />
-      <Section
-        heading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.TITLE}
-        subheading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.SUBTITLE}
-      >
-        <div
-          class="text-center text-2xl font-thin text-pretty"
-          set:html={i18n.ELEVATED_PLATFORM.FIRST_SECTION.DESCRIPTION}
-        />
-      </Section>
-      <Section
-        className="flex flex-col max-w-none my-14 p-0 lg:mb-0"
+    <Typography tag="div" className="text-center" text={i18n.ELEVATED_PLATFORM.FIRST_SECTION.DESCRIPTION} responsive />
+    </Section>
+    <Section
+      className="flex flex-col max-w-none my-14 p-0 lg:mb-0"
+      style="padding: 0; margin-left: 0; margin-right: 0;"
+    >
+      <div class="flex flex-col xl:flex-row max-w-none">
+        <div class="relative w-full flex-1">
+          <img
+            loading="lazy"
+            draggable={false}
+            id={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.id}
+            src={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.src}
+            alt={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.alt}
+            class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/12]"
+          />
+        </div>
+        <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE} type="secondary" responsive />
+          <Typography tag="h3" className="mb-8 font-thin uppercase" text={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE} type="primary" responsive />
+          <FeatureList list={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.LIST} />
+        </div>
+      </div>
+    </Section>
+    <Section
+        className="flex flex-col max-w-none p-0 lg:mb-0"
         style="padding: 0; margin-left: 0; margin-right: 0;"
       >
-        <div class="flex flex-col xl:flex-row max-w-none">
-          <div class="relative w-full flex-1">
-            <img
-              loading="lazy"
-              draggable={false}
-              id={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.id}
-              src={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.src}
-              alt={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.alt}
-              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/12]"
-            />
-          </div>
-          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-            <h2 class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase" set:html={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE} />
-            <h3 class="text-xl lg:text-2xl text-balance font-thin text-primary mb-8 uppercase">{i18n.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE}</h3>
-            <FeatureList list={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.LIST} />
+      <div class="flex flex-col-reverse xl:flex-row max-w-none">
+        <div class="w-full py-8 px-4 flex-1 md:px-8">
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.TITLE} type="secondary" responsive />
+          <Typography tag="p" text={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.DESCRIPTION} responsive />
+          <Typography tag="h3" className="mb-8 font-thin uppercase" text={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.SUBTITLE} type="primary" responsive />
+          <FeatureList list={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES} />
+        </div>
+        <div class="relative w-full flex-1">
+          <img
+            loading="lazy"
+            draggable={false}
+            id={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.id}
+            src={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.src}
+            alt={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.alt}
+            class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/15] image-reverse"
+          />
+        </div>
+      </div>
+    </Section>
+    <Section
+      className="flex flex-col max-w-none mb-14 p-0"
+      style="padding: 0; margin-left: 0; margin-right: 0;"
+    >
+      <div class="flex flex-col xl:flex-row max-w-none">
+        <div class="relative w-full flex-1">
+          <img
+            loading="lazy"
+            draggable={false}
+            id={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.id}
+            src={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.src}
+            alt={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.alt}
+            class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11]"
+          />
+        </div>
+        <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TITLE} type="secondary" responsive />
+          <Typography tag="div" text={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.DESCRIPTION} responsive />
+          <div class="flex gap-4">
+            {
+              i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TECHNICAL_FEATURES.map((item:string) => (
+                <div class="p-3 bg-black/70 rounded-xl border border-primary">
+                  {item}
+                </div>
+              ))
+            }
           </div>
         </div>
-      </Section>
-      <Section
-          className="flex flex-col max-w-none p-0 lg:mb-0"
-          style="padding: 0; margin-left: 0; margin-right: 0;"
-        >
-        <div class="flex flex-col-reverse xl:flex-row max-w-none">
-          <div class="w-full py-8 px-4 flex-1 md:px-8">
-            <h2
-              class="text-3xl text-balance mb-6 text-secondary font-bold uppercase"
-              set:html={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.TITLE}
-            />
-            <p
-              class="text-xl font-thin text-pretty"
-              set:html={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.DESCRIPTION}
-            />
-            <h3
-              class="text-xl lg:text-2xl text-balance font-thin text-primary mb-8 uppercase"
-            >
-              {i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.SUBTITLE}
-            </h3>
-            <FeatureList list={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES} />
-          </div>
-          <div class="relative w-full flex-1">
-            <img
-              loading="lazy"
-              draggable={false}
-              id={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.id}
-              src={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.src}
-              alt={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.alt}
-              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/15] image-reverse"
-            />
-          </div>
-        </div>
-      </Section>
-      <Section
-        className="flex flex-col max-w-none mb-14 p-0"
-        style="padding: 0; margin-left: 0; margin-right: 0;"
-      >
-        <div class="flex flex-col xl:flex-row max-w-none">
-          <div class="relative w-full flex-1">
-            <img
-              loading="lazy"
-              draggable={false}
-              id={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.id}
-              src={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.src}
-              alt={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.alt}
-              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11]"
-            />
-          </div>
-          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-            <h2
-              class="text-2xl lg:text-3xl text-balance font-bold text-secondary mb-8 uppercase" set:html={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TITLE}
-            />
-            <div
-              class="text-xl font-thin text-pretty"
-              set:html={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.DESCRIPTION}
-            />
-            <div class="flex gap-4">
-              {
-                i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TECHNICAL_FEATURES.map((item:string) => (
-                  <div class="p-3 bg-black/70 rounded-xl border border-primary">
-                    {item}
-                  </div>
-                ))
-              }
-            </div>
-          </div>
-        </div>
-      </Section>
-      <SectionCourtsGrid courts={compatibleCourts} heading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.TITLE} subheading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.DESCRIPTION} />
-      <SectionContact
-        hiddenSubject
-        subject={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.SUBJECT}
-        language={language}
-        bgImage={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.BG_IMAGE}
-      />
-    </div>
+      </div>
+    </Section>
+    <SectionCourtsGrid language={language} courts={compatibleCourts} heading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.TITLE} subheading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.DESCRIPTION} />
+    <SectionContact
+      hiddenSubject
+      subject={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.SUBJECT}
+      language={language}
+      bgImage={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.BG_IMAGE}
+    />
   </main>
 </Layout>
 
