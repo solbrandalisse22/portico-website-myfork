@@ -76,22 +76,23 @@ export default function CarouselImages({ images }: CarouselImagesProps) {
   }
 
   return (
-    <div class="wrapper w-full">
+    <div className="wrapper w-full">
       <ul
         onMouseDown={dragStart}
         onMouseUp={dragEnd}
         onMouseMove={dragging}
         ref={carouselRef}
-        class={`${Styles.carousel} list-none`}
+        className={`${Styles.carousel} list-none`}
       >
         {images.map((image, index) => (
           <li
-            class="rounded-xl aspect-video border-primary border overflow-hidden"
+            className="rounded-xl aspect-video border-primary border overflow-hidden"
             key={index}
           >
             <img
+              loading="lazy"
               draggable={false}
-              class="carousel-images__img"
+              className="carousel-images__img"
               src={image.src}
               alt={image.alt}
               width={image.width}
@@ -101,12 +102,13 @@ export default function CarouselImages({ images }: CarouselImagesProps) {
         ))}
         {images.map((image, index) => (
           <li
-            class="rounded-xl aspect-video border-primary border overflow-hidden"
+            className="rounded-xl aspect-video border-primary border overflow-hidden"
             key={index}
           >
             <img
+              loading="lazy"
               draggable={false}
-              class="carousel-images__img"
+              className="carousel-images__img"
               src={image.src}
               alt={image.alt}
               width={image.width}
@@ -116,12 +118,13 @@ export default function CarouselImages({ images }: CarouselImagesProps) {
         ))}
         {images.map((image, index) => (
           <li
-            class="rounded-xl aspect-video border-primary border overflow-hidden"
+            className="rounded-xl aspect-video border-primary border overflow-hidden"
             key={index}
           >
             <img
+              loading="lazy"
               draggable={false}
-              class="carousel-images__img"
+              className="carousel-images__img"
               src={image.src}
               alt={image.alt}
               width={image.width}

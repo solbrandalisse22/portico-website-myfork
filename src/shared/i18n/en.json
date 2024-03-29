@@ -97,7 +97,7 @@
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "A selection of projects we've turned into reality",
-        "PATH": "projects"
+        "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",

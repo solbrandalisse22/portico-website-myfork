@@ -97,7 +97,7 @@
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "A selection of projects we've turned into reality",
-        "PATH": "projects"
+        "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
@@ -330,6 +330,24 @@
         },{
           "id": "slide-3",
           "src": "/courts/mobile-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-4",
+          "src": "/courts/mobile-court-04.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-5",
+          "src": "/courts/mobile-court-05.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-6",
+          "src": "/courts/mobile-court-06.webp",
           "width": 574,
           "height": 323,
           "imgAlt": "Mobile court patented by Portico Sport"
