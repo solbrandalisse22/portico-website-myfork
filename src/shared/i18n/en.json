@@ -333,6 +333,24 @@
           "width": 574,
           "height": 323,
           "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-4",
+          "src": "/courts/mobile-court-04.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-5",
+          "src": "/courts/mobile-court-05.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
+        },{
+          "id": "slide-6",
+          "src": "/courts/mobile-court-06.webp",
+          "width": 574,
+          "height": 323,
+          "imgAlt": "Mobile court patented by Portico Sport"
         }]
       },
       "PANORAMIC_FLOW_COURT": {
