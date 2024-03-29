@@ -115,7 +115,7 @@ const LINKS = [
               data-dropdown-toggle="dropdownNavbar"
               class="relative gap-2 w-max group"
             >
-              <HeaderLink class={`flex justify-center items-center text__glowing ${href ? 'pointer-events-none' : ''}`} href={href ? href : '#'}>
+              <HeaderLink class={`flex justify-center items-center text__glowing ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
                 {`${capitalize(text)} `}
                 <svg
                   class="w-2.5 h-2.5 ms-2.5"
@@ -157,7 +157,7 @@ const LINKS = [
               </div>
             </div>
           ) : (
-            <HeaderLink class="w-max text__glowing" href={href}>
+            <HeaderLink class={`w-max text__glowing ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
               {capitalize(text)}
             </HeaderLink>
           )
