@@ -89,10 +89,6 @@ vectorLayer.getSource().on("change", function (e) {
     } else {
       map.getView().setCenter(fromLonLat([35, 15]));
     }
-    // Set centerConstraints
-    map.getView().setCenterConstraints([
-      [-200000, -1000000, 1200000, 7000000],
-    ]);
   }
 });
 

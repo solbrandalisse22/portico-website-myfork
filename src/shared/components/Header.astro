@@ -110,7 +110,7 @@ const LINKS = [
 
     <!-- Menú de navegación para pantallas grandes -->
     <nav
-      class="hidden md:flex flex-grow lg:basis-0 w-full gap-x-8 text-lg md:justify-center font-medium items-center"
+      class="hidden xl:flex flex-grow xl:basis-0 w-full gap-x-6 text-lg xl:justify-center font-medium items-center"
     >
       {
         LINKS.map(({ href, text, children = [] }) =>
@@ -173,7 +173,7 @@ const LINKS = [
     <!-- Botón de menú para pantallas pequeñas -->
     <button
       id="menu-toggle"
-      class="flex flex-grow basis-0 justify-end text-2xl md:hidden z-50"
+      class="flex flex-grow basis-0 justify-end text-2xl xl:hidden z-50"
     >
       <span id="menu-icon">☰</span>
     </button>
@@ -194,22 +194,25 @@ const LINKS = [
   <!-- Menú de navegación móvil para pantallas pequeñas -->
   <nav
     id="mobile-menu"
-    class="bg-background/90 -translate-y-full transition-transform md:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
+    class="bg-background/90 -translate-y-full gap-2 transition-transform xl:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
   >
     {
-      LINKS.map(({ href, text }) => (
-        <HeaderLink class="text__glowing item-link" href={href}>
-          {text}
-        </HeaderLink>
+      LINKS.map(({ href, text, children }) => (
+        text !== i18n.PAGES.CONTACT.ROUTE.LABEL ? 
+        <HeaderLink class="text__glowing item-link" href={href || '#'}>
+          {capitalize(text)}
+        </HeaderLink> : children?.map((item) => <HeaderLink class="text__glowing item-link" href={item.href || '#'}>
+          {capitalize(item.text)}
+        </HeaderLink>)
       ))
     }
-    <Button
+    <!-- <Button
       class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
       url={i18n.PAGES.CONTACT.ROUTE.URL}
       target="_self"
     >
       {i18n.PAGES.CONTACT.ROUTE.LABEL}
-    </Button>
+    </Button> -->
     <!-- <LanguageSelector /> -->
   </nav>
 </header>
