@@ -5,90 +5,161 @@
     "coordinates": [-3.74922, 40.4637],
     "projects": [
       {
-        "projectsCourts": "4 pistas móbiles, 5 pistas panorámicas",
-        "projectLogo": "/clubes/logo-cerrado-del-aguila.webp",
+        "projectId": "cerrado-del-aguila",
+        "projectsCourts": "13 panoramic courts (club and panoramic), 6 of them with canopies",
+        "projectLogo": "/clubes/Spain/cerrado-del-aguila/cerrado-del-aguila-logo.webp",
         "projectName": "Club Cerrado del Aguila",
         "projectCity": "Mijas",
         "description": "<p>Este proyecto da comienzo en mayo de 2009, con la instalación de cuatro pistas de pádel y actualmente cuenta con 13 pistas de pádel panorámicas, seis de ellas con cubiertas.</p><p>Club referente en la Costa del Sol, diseño y materiales de primera calidad en sus pistas cubiertas y al aire libre.</p>",
         "shortdescription": "Club referente en la Costa del Sol, diseño y materiales de primera calidad en sus pistas cubiertas y al aire libre.",
-        "route": "/club-cerrado-del-aguila",
+        "route": "/projects/cerrado-del-aguila",
         "website": "https://www.cerradodelaguila.es/",
         "images": [
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-84-1024x754.jpg",
-            "alt": "Pistas de pádel Club Cerrado del Aguila"
+            "src": "/clubes/Spain/cerrado-del-aguila/thumbnails/cerrado-del-aguila-1.webp",
+            "alt": "Courts in Club Cerrado del Aguila - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-43-1024x683.jpg",
-            "alt": "Estructuras de pistas de pádel Club Cerrado del Aguila"
+            "src": "/clubes/Spain/cerrado-del-aguila/thumbnails/cerrado-del-aguila-2.webp",
+            "alt": "Courts in Club Cerrado del Aguila - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-72-1-1024x660.jpg",
-            "alt": "Fachada exterior Club Cerrado del Aguila"
+            "src": "/clubes/Spain/cerrado-del-aguila/thumbnails/cerrado-del-aguila-3.webp",
+            "alt": "Courts in Club Cerrado del Aguila - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-70-1024x768.jpg",
-            "alt": "Detalle de la red de una de las pistas de pádel Club Cerrado del Aguila"
+            "src": "/clubes/Spain/cerrado-del-aguila/thumbnails/cerrado-del-aguila-4.webp",
+            "alt": "Courts in Club Cerrado del Aguila - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-47-1024x683.jpg",
-            "alt": "Detalle de la cubierta de una de las pistas de pádel Club Cerrado del Aguila"
+            "src": "/clubes/Spain/cerrado-del-aguila/thumbnails/cerrado-del-aguila-5.webp",
+            "alt": "Courts in Club Cerrado del Aguila - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-102-1024x672.jpg",
-            "alt": "Vista del interior de una de las pistas"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-96-1024x768.jpg",
-            "alt": "Vista del interior de una de las pistas"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/portico-octubre-sabado-118-1-1024x683.jpg",
-            "alt": "Vista de la entrada de una de las pistas"
+            "src": "/clubes/Spain/cerrado-del-aguila/thumbnails/cerrado-del-aguila-6.webp",
+            "alt": "Courts in Club Cerrado del Aguila - Spain"
           }
-        ]
+        ],
+        "items": 6
       },
       {
-        "projectsCourts": "6 pistas panorámicas y pistas club",
+        "projectId": "bapadel",
+        "projectsCourts": "4 club courts and 3 panoramic courts",
         "projectCity": "Barcelona",
-        "projectLogo": "/clubes/logo-bapadel.webp",
+        "projectLogo": "/clubes/Spain/bapadel/bapadel-logo.webp",
         "projectName": "Club Bapadel",
         "description": "<p>Instalación de cuatro pistas club y tres pistas panorámicas, todas con césped Mondo Supercourt XN azul, detalles de bancos de descanso en madera y perchas iluminadas, todo con materiales de la máxima calidad.</p><p>BaPadel Barcelona apuesta por la calidad y comodidad para  disfrutar del pádel  como una experiencia única.</p>",
         "shortdescription": "BaPadel Barcelona apuesta por la calidad y comodidad para  disfrutar del pádel  como una experiencia única.",
-        "route": "/club-bapadel",
+        "route": "/projects/bapadel",
         "website": "https://www.bapadel.com",
         "images": [
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_004-1024x768.jpg",
-            "alt": "Vista aerea de las pistas de pádel Club Bapadel"
+            "src": "/clubes/Spain/bapadel/thumbnails/bapadel-1.webp",
+            "alt": "Courts in Club Bapadel - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_056-1-1024x683.jpg",
-            "alt": "Acera entre dos pistas de pádel Club Bapadel"
+            "src": "/clubes/Spain/bapadel/thumbnails/bapadel-2.webp",
+            "alt": "Courts in Club Bapadel - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_018-1024x768.jpg",
-            "alt": "6 pistas panorámicas de pádel Club Bapadel"
+            "src": "/clubes/Spain/bapadel/thumbnails/bapadel-3.webp",
+            "alt": "Courts in Club Bapadel - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_064-1024x768.jpg",
-            "alt": "Una vista panorámica vista desde fuera"
+            "src": "/clubes/Spain/bapadel/thumbnails/bapadel-4.webp",
+            "alt": "Courts in Club Bapadel - Spain"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_053-1-1024x683.jpg",
-            "alt": "La entrada a una pista club"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_065-1024x768.jpg",
-            "alt": "Los focos de una pista de pádel"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/05/220920_PORTICO_002-1024x768.jpg",
-            "alt": "Vista aerea de las pistas de pádel Club Bapadel"
+            "src": "/clubes/Spain/bapadel/thumbnails/bapadel-5.webp",
+            "alt": "Courts in Club Bapadel - Spain"
           }
-        ]
+        ],
+        "items": 5
+      },
+      {
+        "projectId": "el-encinar",
+        "country": "Spain",
+        "projectName": "Club el Encinar",
+        "website": "https://clubencinarcaceres.com/",
+        "projectsCourts": "1 Panoramic Flow Court and 1 Club Court",
+        "shortDescription": "",
+        "projectCity": "Cáceres",
+        "projectLogo": "/clubes/Spain/el-encinar/el-encinar-logo.webp",
+        "route": "/projects/el-encinar",
+        "images": [
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-1.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-2.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-3.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-4.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-5.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-6.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-7.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-8.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-9.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-10.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-11.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-12.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-13.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-14.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-15.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-16.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+            "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-17.webp",
+            "alt": "Courts in Club el Encinar - Spain"
+          }
+        ],
+        "items": 17
       }
-    ]
+    ],
+    "route": "/projects/Spain"
   },
   {
     "country": "Portugal",
@@ -96,194 +167,2034 @@
     "coordinates": [-8.61099, 39.3999],
     "projects": [
       {
-        "projectName": "Blue padel Kourts",
-        "shortdescription": "Blue Padel Kourts es un club de pádel situado en la localidad de Albufeira, en el Algarve portugués. Cuenta con 4 pistas de pádel, 2 de ellas cubiertas, y una pista de tenis. Además, dispone de un bar-restaurante y una piscina.",
+        "projectId": "blue-padel-kourts",
+        "country": "Portugal",
+        "projectName": "Blue Padel Kourts",
+        "website": "https://www.instagram.com/bluepadelkourts/",
+        "projectsCourts": "1 panoramic court and 2 club courts",
+        "shortDescription": "",
+        "projectCity": "Sintra",
+        "projectLogo": "/clubes/Portugal/blue-padel-kourts/blue-padel-kourts-logo.webp",
+        "route": "/projects/blue-padel-kourts",
         "images": [
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/0cacd4bd-234c-47ab-ac4c-d7ae3a671eca.jpg",
-            "alt": "Blu ePadel Kourts"
+            "src": "/clubes/Portugal/blue-padel-kourts/thumbnails/blue-padel-kourts-1.webp",
+            "alt": "Courts in Blue Padel Kourts - Portugal"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/3f33918c-b75a-4781-bd71-7bf1a75ee0d8.jpg",
-            "alt": "Blu ePadel Kourts"
+            "src": "/clubes/Portugal/blue-padel-kourts/thumbnails/blue-padel-kourts-2.webp",
+            "alt": "Courts in Blue Padel Kourts - Portugal"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/9faa7535-a1c4-40b5-816c-a18b1a7238d8.jpg",
-            "alt": "Blu ePadel Kourts"
+            "src": "/clubes/Portugal/blue-padel-kourts/thumbnails/blue-padel-kourts-3.webp",
+            "alt": "Courts in Blue Padel Kourts - Portugal"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/55fe0e10-5adb-4b21-bb23-6ab75dac1e06.jpg",
-            "alt": "Blu ePadel Kourts"
+            "src": "/clubes/Portugal/blue-padel-kourts/thumbnails/blue-padel-kourts-4.webp",
+            "alt": "Courts in Blue Padel Kourts - Portugal"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/71df9e3c-4cd2-46f3-8022-57293150e033.jpg",
-            "alt": "Blu ePadel Kourts"
+            "src": "/clubes/Portugal/blue-padel-kourts/thumbnails/blue-padel-kourts-5.webp",
+            "alt": "Courts in Blue Padel Kourts - Portugal"
           },
           {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/76a35cc1-c4ab-4b94-b31c-5c2bba3628ee.jpg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/680d665f-a3dd-4dd2-9a18-87219ec96702.jpg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/9290ed45-2391-4eb0-bc55-2cee303bfeb0.jpg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/699139ac-6239-4d54-8fb6-c922f460f666.jpg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/ddf54120-f889-4606-95da-2f968fffd795.jpg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/f08d29bb-f6e6-4045-8349-e46452e546dd.jpg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/Image_PM.jpeg",
-            "alt": "Blu ePadel Kourts"
-          },
-          {
-            "src": "https://porticosport.com/wp-content/uploads/2023/06/WhatsApp-Image-2023-05-04-at-14.08.01.jpeg",
-            "alt": "Blu ePadel Kourts"
+            "src": "/clubes/Portugal/blue-padel-kourts/thumbnails/blue-padel-kourts-6.webp",
+            "alt": "Courts in Blue Padel Kourts - Portugal"
           }
-        ]
+        ],
+        "items": 6
+      },
+      {
+        "projectId": "novo-padel-club",
+        "country": "Portugal",
+        "projectName": "Novo Padel Club",
+        "website": "https://www.instagram.com/novopadel/",
+        "projectsCourts": "1 panoramic court, 3 club courts and canopies",
+        "shortDescription": "",
+        "projectCity": "Setubal",
+        "projectLogo": "/clubes/Portugal/novo-padel-club/novo-padel-club-logo.webp",
+        "route": "/projects/novo-padel-club",
+        "images": [
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-1.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-2.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-3.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-4.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-5.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-6.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-7.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-8.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-9.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-10.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-11.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-12.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-13.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-14.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-15.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-16.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-17.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-18.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-19.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-20.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-21.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-22.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/novo-padel-club/thumbnails/novo-padel-club-23.webp",
+            "alt": "Courts in Novo Padel Club - Portugal"
+          }
+        ],
+        "items": 23
       }
-    ]
+    ],
+    "route": "/projects/Portugal"
   },
   {
     "country": "Finland",
     "id": "Finland",
-    "coordinates": [25.7489, 61.9241]
+    "coordinates": [25.7489, 61.9241],
+    "projects": [
+      {
+        "projectId": "padel-club-finland",
+        "country": "Finland",
+        "projectName": "Padel Club Finland",
+        "website": "https://padelclub.fi/",
+        "projectsCourts": "Múltiples pistas en varios de sus clubes",
+        "shortDescription": "",
+        "projectCity": "",
+        "projectLogo": "/clubes/Finland/padel-club-finland/padel-club-finland-logo.webp",
+        "route": "/projects/padel-club-finland",
+        "images": [
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-1.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-2.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-3.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-4.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-5.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-6.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-7.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-8.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-9.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-10.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-club-finland/thumbnails/padel-club-finland-11.webp",
+            "alt": "Courts in Padel Club Finland - Finland"
+          }
+        ],
+        "items": 11
+      },
+      {
+        "projectId": "padel-majakka",
+        "country": "Finland",
+        "projectName": "Padel Majakka",
+        "website": "https://www.majakkawatersports.fi/padel/",
+        "projectsCourts": "1 Club Court",
+        "shortDescription": "The first and an original Floating Court in Finland",
+        "projectCity": "Espoo",
+        "projectLogo": "/clubes/Finland/padel-majakka/padel-majakka-logo.webp",
+        "route": "/projects/padel-majakka",
+        "images": [
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-1.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-2.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-3.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-4.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-5.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-6.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          },
+          {
+            "src": "/clubes/Finland/padel-majakka/thumbnails/padel-majakka-7.webp",
+            "alt": "Courts in Padel Majakka - Finland"
+          }
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Finland"
   },
   {
     "country": "South Africa",
     "id": "South_Africa",
-    "coordinates": [22.9375, -30.5595]
+    "coordinates": [22.9375, -30.5595],
+    "projects": [
+      {
+        "projectId": "virgin-active-padel-club-the-glen",
+        "country": "South Africa",
+        "projectName": "Virgin Active Padel Club The Glen",
+        "website": "https://virginactivepadelclub.co.za",
+        "projectsCourts": "1 Force 80",
+        "shortDescription": "",
+        "projectCity": "Clifton",
+        "projectLogo": "/clubes/South_Africa/virgin-active-padel-club-the-glen/virgin-active-padel-club-the-glen-logo.webp",
+        "route": "/projects/virgin-active-padel-club-the-glen",
+        "images": [
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-1.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-2.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-3.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-4.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-5.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-6.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-7.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-8.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          },
+          {
+            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-9.webp",
+            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
+          }
+        ],
+        "items": 9
+      }
+    ],
+    "route": "/projects/South_Africa"
   },
   {
     "country": "Colombia",
     "id": "Colombia",
-    "coordinates": [-74.2973, 4.5709]
+    "coordinates": [-74.2973, 4.5709],
+    "projects": [
+      {
+        "projectId": "padel-point",
+        "country": "Colombia",
+        "projectName": "Padel Point",
+        "website": "https://www.instagram.com/padelpoint.co/",
+        "projectsCourts": "3 Panoramics courts",
+        "shortDescription": "Soon 2 panoramic flow courts",
+        "projectCity": "Bogotá",
+        "projectLogo": "/clubes/Colombia/padel-point/padel-point-logo.webp",
+        "route": "/projects/padel-point",
+        "images": [
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-1.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-2.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-3.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-4.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-5.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-6.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-7.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/padel-point/thumbnails/padel-point-8.webp",
+            "alt": "Courts in Padel Point - Colombia"
+          }
+        ],
+        "items": 8
+      },
+      {
+        "projectId": "club-el-rincon-de-cajica",
+        "country": "Colombia",
+        "projectName": "Club el Rincon de Cajicá",
+        "website": "http://clubelrincon.com/",
+        "projectsCourts": "2 Panoramic Courts",
+        "shortDescription": "",
+        "projectCity": "Bogotá",
+        "projectLogo": "/clubes/Colombia/club-el-rincon-de-cajica/club-el-rincon-de-cajica-logo.webp",
+        "route": "/projects/club-el-rincon-de-cajica",
+        "images": [
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-1.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-2.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-3.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-4.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-5.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-6.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-7.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          },
+          {
+            "src": "/clubes/Colombia/club-el-rincon-de-cajica/thumbnails/club-el-rincon-de-cajica-8.webp",
+            "alt": "Courts in Club el Rincon de Cajicá - Colombia"
+          }
+        ],
+        "items": 8
+      }
+    ],
+    "route": "/projects/Colombia"
   },
   {
     "country": "Netherlands",
     "id": "Netherlands",
-    "coordinates": [4.897, 52.3779]
+    "coordinates": [4.897, 52.3779],
+    "projects": [
+      {
+        "projectId": "padel-mate-club",
+        "country": "Netherlands",
+        "projectName": "Padel Mate Club",
+        "website": "https://padelmateclub.nl/",
+        "projectsCourts": "",
+        "shortDescription": "Padel Mate Club Amstelveen is located in one of the most sporty places in Holland. Here you have the first Next-Gen Padel Mate Club. With more than 5 indoor and 4 outdoor venues, the main attractions are Padel Mate Club, one of the best padel locations in the Netherlands.",
+        "projectCity": "Amstelveen",
+        "projectLogo": "/clubes/Netherlands/padel-mate-club/padel-mate-club-logo.webp",
+        "route": "/projects/padel-mate-club",
+        "images": [
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-1.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-2.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-3.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-4.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-5.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-6.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-7.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-8.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-9.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-10.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-11.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },
+          {
+            "src": "/clubes/Netherlands/padel-mate-club/thumbnails/padel-mate-club-12.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          }
+        ],
+        "items": 12
+      }
+    ],
+    "route": "/projects/Netherlands"
   },
   {
     "country": "France",
     "id": "France",
-    "coordinates": [2.2137, 46.2276]
+    "coordinates": [2.2137, 46.2276],
+    "projects": [
+      {
+        "projectId": "big-padel",
+        "country": "France",
+        "projectName": "Big Padel",
+        "website": "https://www.bigpadel.fr/",
+        "projectsCourts": "2 Panoramics courts and 4 canopies",
+        "shortDescription": "",
+        "projectCity": "Mérignac-Bordeaux",
+        "projectLogo": "/clubes/France/big-padel/big-padel-logo.webp",
+        "route": "/projects/big-padel",
+        "images": [
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-1.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-2.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-3.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-4.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-5.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-6.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-7.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-8.webp",
+            "alt": "Courts in Big Padel - France"
+          },
+          {
+            "src": "/clubes/France/big-padel/thumbnails/big-padel-9.webp",
+            "alt": "Courts in Big Padel - France"
+          }
+        ],
+        "items": 9
+      }
+    ],
+    "route": "/projects/France"
   },
   {
     "country": "Greece",
     "id": "Greece",
-    "coordinates": [21.8243, 39.0742]
+    "coordinates": [21.8243, 39.0742],
+    "projects": [
+      {
+        "projectId": "costa-navarino-private-courts",
+        "country": "Greece",
+        "projectName": "Costa Navarino Private Courts",
+        "website": "",
+        "projectsCourts": "2 Club Courts",
+        "shortDescription": "",
+        "projectCity": "Costa Navarino",
+        "route": "/projects/costa-navarino-private-courts",
+        "images": [
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-1.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-2.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-3.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-4.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-5.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-6.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-7.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-8.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-9.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          },
+          {
+            "src": "/clubes/Greece/costa-navarino-private-courts/thumbnails/costa-navarino-private-courts-10.webp",
+            "alt": "Courts in Costa Navarino Private Courts - Greece"
+          }
+        ],
+        "items": 10
+      }
+    ],
+    "route": "/projects/Greece"
   },
   {
     "country": "Germany",
     "id": "Germany",
-    "coordinates": [10.4515, 51.1657]
+    "coordinates": [10.4515, 51.1657],
+    "projects": [
+      {
+        "projectId": "padelon-deutschland",
+        "country": "Germany",
+        "projectName": "Padelon Deutschland",
+        "website": "https://www.padelon.de/",
+        "projectsCourts": "Múltiples pistas en varios de sus clubes",
+        "shortDescription": "",
+        "projectCity": "Hamburg",
+        "projectLogo": "/clubes/Germany/padelon-deutschland/padelon-deutschland-logo.webp",
+        "route": "/projects/padelon-deutschland",
+        "images": [
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-1.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-2.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-3.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-4.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-5.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-6.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-7.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          },
+          {
+            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-8.webp",
+            "alt": "Courts in Padelon Deutschland - Germany"
+          }
+        ],
+        "items": 8
+      },
+      {
+        "projectId": "hannove-private-courts",
+        "country": "Germany",
+        "projectName": "Hannove Private Courts",
+        "website": "",
+        "projectsCourts": "2 panoramic courts",
+        "shortDescription": "",
+        "projectCity": "Hannove",
+        "route": "/projects/hannove-private-courts",
+        "images": [
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-1.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-2.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-3.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-4.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-5.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-6.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-7.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-8.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-9.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-10.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-11.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-12.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-13.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          },
+          {
+            "src": "/clubes/Germany/hannove-private-courts/thumbnails/hannove-private-courts-14.webp",
+            "alt": "Courts in Hannove Private Courts - Germany"
+          }
+        ],
+        "items": 14
+      },
+      {
+        "projectId": "tennis-halle-berg",
+        "country": "Germany",
+        "projectName": "Tennis Halle Berg",
+        "website": "https://www.tennishalle-berg.de/",
+        "projectsCourts": "1 Mobile Panoramic Flow Court and 1 canopy",
+        "shortDescription": "",
+        "projectCity": "Berg",
+        "projectLogo": "/clubes/Germany/tennis-halle-berg/tennis-halle-berg-logo.webp",
+        "route": "/projects/tennis-halle-berg",
+        "images": [
+          {
+            "src": "/clubes/Germany/tennis-halle-berg/thumbnails/tennis-halle-berg-1.webp",
+            "alt": "Courts in Tennis Halle Berg - Germany"
+          },
+          {
+            "src": "/clubes/Germany/tennis-halle-berg/thumbnails/tennis-halle-berg-2.webp",
+            "alt": "Courts in Tennis Halle Berg - Germany"
+          },
+          {
+            "src": "/clubes/Germany/tennis-halle-berg/thumbnails/tennis-halle-berg-3.webp",
+            "alt": "Courts in Tennis Halle Berg - Germany"
+          },
+          {
+            "src": "/clubes/Germany/tennis-halle-berg/thumbnails/tennis-halle-berg-4.webp",
+            "alt": "Courts in Tennis Halle Berg - Germany"
+          },
+          {
+            "src": "/clubes/Germany/tennis-halle-berg/thumbnails/tennis-halle-berg-5.webp",
+            "alt": "Courts in Tennis Halle Berg - Germany"
+          }
+        ],
+        "items": 5
+      },
+      {
+        "projectId": "top-tennis",
+        "country": "Germany",
+        "projectName": "Top Tennis",
+        "website": "https://toptennis-stuttgart.de/de/",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "stuttgart",
+        "projectLogo": "/clubes/Germany/top-tennis/top-tennis-logo.webp",
+        "route": "/projects/top-tennis",
+        "images": [
+          {
+            "src": "/clubes/Germany/top-tennis/thumbnails/top-tennis-1.webp",
+            "alt": "Courts in Top Tennis - Germany"
+          }
+        ],
+        "items": 1
+      }
+    ],
+    "route": "/projects/Germany"
   },
-  {
-    "country": "Italy",
-    "id": "Italy",
-    "coordinates": [12.5674, 41.8719]
-  },
+  { "country": "Italy", "id": "Italy", "coordinates": [12.5674, 41.8719] },
   {
     "country": "Sweden",
     "id": "Sweden",
-    "coordinates": [18.6435, 60.1282]
+    "coordinates": [18.6435, 60.1282],
+    "projects": [
+      {
+        "projectId": "sodertalje-padel",
+        "country": "Sweden",
+        "projectName": "Södertälje Padel",
+        "website": "https://sodertaljepadel.se/",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Blombacka",
+        "projectLogo": "/clubes/Sweden/sodertalje-padel/sodertalje-padel-logo.webp",
+        "route": "/projects/sodertalje-padel",
+        "images": [
+          {
+            "src": "/clubes/Sweden/sodertalje-padel/thumbnails/sodertalje-padel-1.webp",
+            "alt": "Courts in Södertälje Padel - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/sodertalje-padel/thumbnails/sodertalje-padel-2.webp",
+            "alt": "Courts in Södertälje Padel - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/sodertalje-padel/thumbnails/sodertalje-padel-3.webp",
+            "alt": "Courts in Södertälje Padel - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/sodertalje-padel/thumbnails/sodertalje-padel-4.webp",
+            "alt": "Courts in Södertälje Padel - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/sodertalje-padel/thumbnails/sodertalje-padel-5.webp",
+            "alt": "Courts in Södertälje Padel - Sweden"
+          }
+        ],
+        "items": 5
+      },
+      {
+        "projectId": "jonkoping",
+        "country": "Sweden",
+        "projectName": "Jönköping",
+        "website": "",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Jönköping",
+        "route": "/projects/jonkoping",
+        "images": [
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-1.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-2.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-3.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-4.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-5.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-6.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-7.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-8.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-9.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-10.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/jonkoping/thumbnails/jonkoping-11.webp",
+            "alt": "Courts in Jönköping - Sweden"
+          }
+        ],
+        "items": 11
+      },
+      {
+        "projectId": "falkenberg",
+        "country": "Sweden",
+        "projectName": "Falkenberg",
+        "website": "",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Falkenberg",
+        "route": "/projects/falkenberg",
+        "images": [
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-1.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-2.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-3.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-4.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-5.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-6.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-7.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-8.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-9.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-10.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/falkenberg/thumbnails/falkenberg-11.webp",
+            "alt": "Courts in Falkenberg - Sweden"
+          }
+        ],
+        "items": 11
+      },
+      {
+        "projectId": "stora-wasby",
+        "country": "Sweden",
+        "projectName": "Stora Wäsby",
+        "website": "https://www.rqt.se/padel/",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Upplandsvasby",
+        "projectLogo": "/clubes/Sweden/stora-wasby/stora-wasby-logo.webp",
+        "route": "/projects/stora-wasby",
+        "images": [
+          {
+            "src": "/clubes/Sweden/stora-wasby/thumbnails/stora-wasby-1.webp",
+            "alt": "Courts in Stora Wäsby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/stora-wasby/thumbnails/stora-wasby-2.webp",
+            "alt": "Courts in Stora Wäsby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/stora-wasby/thumbnails/stora-wasby-3.webp",
+            "alt": "Courts in Stora Wäsby - Sweden"
+          }
+        ],
+        "items": 3
+      },
+      {
+        "projectId": "danderyds-tennisklubb",
+        "country": "Sweden",
+        "projectName": "Danderyds Tennisklubb",
+        "website": "https://www.dtk.se/",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Danderyd",
+        "projectLogo": "/clubes/Sweden/danderyds-tennisklubb/danderyds-tennisklubb-logo.webp",
+        "route": "/projects/danderyds-tennisklubb",
+        "images": [
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-1.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-2.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-3.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-4.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-5.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-6.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-7.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-8.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/danderyds-tennisklubb/thumbnails/danderyds-tennisklubb-9.webp",
+            "alt": "Courts in Danderyds Tennisklubb - Sweden"
+          }
+        ],
+        "items": 9
+      },
+      {
+        "projectId": "kneippbyn-resort-visby",
+        "country": "Sweden",
+        "projectName": "Kneippbyn Resort Visby",
+        "website": "https://kneippbyn.se/",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Visby",
+        "projectLogo": "/clubes/Sweden/kneippbyn-resort-visby/kneippbyn-resort-visby-logo.webp",
+        "route": "/projects/kneippbyn-resort-visby",
+        "images": [
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-1.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-2.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-3.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-4.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-5.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-6.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/kneippbyn-resort-visby/thumbnails/kneippbyn-resort-visby-7.webp",
+            "alt": "Courts in Kneippbyn Resort Visby - Sweden"
+          }
+        ],
+        "items": 7
+      },
+      {
+        "projectId": "wap-oja-padel-park",
+        "country": "Sweden",
+        "projectName": "WAP Öja Padel Park",
+        "website": "https://wearepadel.com/se/oja-padel-park",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Ystad",
+        "projectLogo": "/clubes/Sweden/wap-oja-padel-park/wap-oja-padel-park-logo.webp",
+        "route": "/projects/wap-oja-padel-park",
+        "images": [
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-1.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-2.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-3.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-4.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-5.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-6.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/wap-oja-padel-park/thumbnails/wap-oja-padel-park-7.webp",
+            "alt": "Courts in WAP Öja Padel Park - Sweden"
+          }
+        ],
+        "items": 7
+      },
+      {
+        "projectId": "padel-i-markaryd",
+        "country": "Sweden",
+        "projectName": "Padel i Markaryd",
+        "website": "https://www.facebook.com/padelimarkaryd/about",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Markaryd",
+        "projectLogo": "/clubes/Sweden/padel-i-markaryd/padel-i-markaryd-logo.webp",
+        "route": "/projects/padel-i-markaryd",
+        "images": [
+          {
+            "src": "/clubes/Sweden/padel-i-markaryd/thumbnails/padel-i-markaryd-1.webp",
+            "alt": "Courts in Padel i Markaryd - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/padel-i-markaryd/thumbnails/padel-i-markaryd-2.webp",
+            "alt": "Courts in Padel i Markaryd - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/padel-i-markaryd/thumbnails/padel-i-markaryd-3.webp",
+            "alt": "Courts in Padel i Markaryd - Sweden"
+          },
+          {
+            "src": "/clubes/Sweden/padel-i-markaryd/thumbnails/padel-i-markaryd-4.webp",
+            "alt": "Courts in Padel i Markaryd - Sweden"
+          }
+        ],
+        "items": 4
+      }
+    ],
+    "route": "/projects/Sweden"
   },
   {
     "country": "Croatia",
     "id": "Croatia",
-    "coordinates": [15.2, 45.1]
+    "coordinates": [15.2, 45.1],
+    "projects": [
+      {
+        "projectId": "padel-centar-split",
+        "country": "Croatia",
+        "projectName": "Padel Centar Split",
+        "website": "https://www.padelcentarsplit.com/",
+        "projectsCourts": "3 club courts and 1 club plus court",
+        "shortDescription": "",
+        "projectCity": "Split",
+        "projectLogo": "/clubes/Croatia/padel-centar-split/padel-centar-split-logo.webp",
+        "route": "/projects/padel-centar-split",
+        "images": [
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-1.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-2.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-3.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-4.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-5.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-6.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-7.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-8.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-9.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-10.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-11.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-12.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-13.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-14.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-15.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-16.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-17.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          },
+          {
+            "src": "/clubes/Croatia/padel-centar-split/thumbnails/padel-centar-split-18.webp",
+            "alt": "Courts in Padel Centar Split - Croatia"
+          }
+        ],
+        "items": 18
+      }
+    ],
+    "route": "/projects/Croatia"
   },
   {
     "country": "Switzerland",
     "id": "Switzerland",
-    "coordinates": [8.2275, 46.8182]
+    "coordinates": [8.2275, 46.8182],
+    "projects": [
+      {
+        "projectId": "padel-sports",
+        "country": "Switzerland",
+        "projectName": "PADEL & SPORTS",
+        "website": "https://padelandsports.ch/",
+        "projectsCourts": "5 panoramic courts",
+        "shortDescription": "",
+        "projectCity": "Villmergen",
+        "projectLogo": "/clubes/Switzerland/padel-sports/padel-sports-logo.webp",
+        "route": "/projects/padel-sports",
+        "images": [
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-1.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-2.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-3.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-4.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-5.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-6.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/padel-sports/thumbnails/padel-sports-7.webp",
+            "alt": "Courts in PADEL & SPORTS - Switzerland"
+          }
+        ],
+        "items": 7
+      },
+      {
+        "projectId": "swiss-padel-arena",
+        "country": "Switzerland",
+        "projectName": "Swiss padel arena",
+        "website": "https://www.swisspadelarena.com/",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Reinach",
+        "projectLogo": "/clubes/Switzerland/swiss-padel-arena/swiss-padel-arena-logo.webp",
+        "route": "/projects/swiss-padel-arena",
+        "images": [
+          {
+            "src": "/clubes/Switzerland/swiss-padel-arena/thumbnails/swiss-padel-arena-1.webp",
+            "alt": "Courts in Swiss padel arena - Switzerland"
+          },
+          {
+            "src": "/clubes/Switzerland/swiss-padel-arena/thumbnails/swiss-padel-arena-2.webp",
+            "alt": "Courts in Swiss padel arena - Switzerland"
+          }
+        ],
+        "items": 2
+      }
+    ],
+    "route": "/projects/Switzerland"
   },
   {
     "country": "Belgium",
     "id": "Belgium",
-    "coordinates": [4.4699, 50.5039]
+    "coordinates": [4.4699, 50.5039],
+    "projects": [
+      {
+        "projectId": "tero-padel-club",
+        "country": "Belgium",
+        "projectName": "Tero Padel Club",
+        "website": "https://teropadelclub.be/en",
+        "projectsCourts": "2 Canopies",
+        "shortDescription": "",
+        "projectCity": "Waterloo",
+        "projectLogo": "/clubes/Belgium/tero-padel-club/tero-padel-club-logo.webp",
+        "route": "/projects/tero-padel-club",
+        "images": [
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-1.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-2.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-3.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-4.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-5.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-6.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/tero-padel-club/thumbnails/tero-padel-club-7.webp",
+            "alt": "Courts in Tero Padel Club - Belgium"
+          }
+        ],
+        "items": 7
+      },
+      {
+        "projectId": "huldenberg-private-court",
+        "country": "Belgium",
+        "projectName": "Huldenberg Private Court",
+        "website": "",
+        "projectsCourts": "1 Club Court",
+        "shortDescription": "",
+        "projectCity": "Huldenberg",
+        "route": "/projects/huldenberg-private-court",
+        "images": [
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-1.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-2.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-3.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-4.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-5.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-6.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-7.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-8.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/huldenberg-private-court/thumbnails/huldenberg-private-court-9.webp",
+            "alt": "Courts in Huldenberg Private Court - Belgium"
+          }
+        ],
+        "items": 9
+      },
+      {
+        "projectId": "wavre-private-court",
+        "country": "Belgium",
+        "projectName": "Wavre Private Court",
+        "website": "",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Private court",
+        "route": "/projects/wavre-private-court",
+        "images": [
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-1.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-2.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-3.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-4.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-5.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-6.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-7.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          },
+          {
+            "src": "/clubes/Belgium/wavre-private-court/thumbnails/wavre-private-court-8.webp",
+            "alt": "Courts in Wavre Private Court - Belgium"
+          }
+        ],
+        "items": 8
+      }
+    ],
+    "route": "/projects/Belgium"
   },
   {
     "country": "United Kingdom",
     "id": "United_kingdom",
-    "coordinates": [-0.1276, 51.5074]
+    "coordinates": [-0.1276, 51.5074],
+    "projects": [
+      {
+        "projectId": "club-de-padel",
+        "country": "United_kingdom",
+        "projectName": "Club de Padel",
+        "website": "https://www.clubdepadel.co.uk/",
+        "projectsCourts": "4 panoramic courts",
+        "shortDescription": "",
+        "projectCity": "Manchester",
+        "projectLogo": "/clubes/United_kingdom/club-de-padel/club-de-padel-logo.webp",
+        "route": "/projects/club-de-padel",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-1.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-2.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-3.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-4.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-5.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          }
+        ],
+        "items": 5
+      },
+      {
+        "projectId": "pure-padel-alderley-park",
+        "country": "United_kingdom",
+        "projectName": "Pure Padel Alderley Park",
+        "website": "https://www.purepadelclubs.co.uk/",
+        "projectsCourts": "3 Mobile club courts",
+        "shortDescription": "",
+        "projectCity": "Congleton-Macclesfield",
+        "projectLogo": "/clubes/United_kingdom/pure-padel-alderley-park/pure-padel-alderley-park-logo.webp",
+        "route": "/projects/pure-padel-alderley-park",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-1.webp",
+            "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-2.webp",
+            "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-3.webp",
+            "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-4.webp",
+            "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
+          }
+        ],
+        "items": 4
+      },
+      {
+        "projectId": "the-padel-club",
+        "country": "United_kingdom",
+        "projectName": "The padel club",
+        "website": "https://www.thepadelclub.co.uk/",
+        "projectsCourts": "4 Mobile club courts",
+        "shortDescription": "Soon 4 canopied courts",
+        "projectCity": "Handforth",
+        "projectLogo": "/clubes/United_kingdom/the-padel-club/the-padel-club-logo.webp",
+        "route": "/projects/the-padel-club",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-1.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-2.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-3.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-4.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-5.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-6.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-7.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-8.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-9.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-10.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-11.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-12.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-13.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-14.webp",
+            "alt": "Courts in The padel club - United_kingdom"
+          }
+        ],
+        "items": 14
+      },
+      {
+        "projectId": "battersea-power-station",
+        "country": "United_kingdom",
+        "projectName": "BatterSea Power Station",
+        "website": "https://batterseapowerstation.co.uk/",
+        "projectsCourts": "1 Mobile Panoramic court",
+        "shortDescription": "One of the UK´s most fun projects for the sport of padel. Rocket Padel's temporary project (https://www.rocketpadel.com/)",
+        "projectCity": "Skipton",
+        "projectLogo": "/clubes/United_kingdom/battersea-power-station/battersea-power-station-logo.webp",
+        "route": "/projects/battersea-power-station",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-1.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-2.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-3.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-4.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-5.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-6.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-7.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-8.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-9.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-10.webp",
+            "alt": "Courts in BatterSea Power Station - United_kingdom"
+          }
+        ],
+        "items": 10
+      },
+      {
+        "projectId": "skipton-tennis-centre",
+        "country": "United_kingdom",
+        "projectName": "Skipton Tennis Centre",
+        "website": "https://www.skiptontennis.com/",
+        "projectsCourts": "1 Club Court",
+        "shortDescription": "",
+        "projectCity": "Skipton",
+        "projectLogo": "/clubes/United_kingdom/skipton-tennis-centre/skipton-tennis-centre-logo.webp",
+        "route": "/projects/skipton-tennis-centre",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-1.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-2.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-3.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-4.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-5.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-6.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-7.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          }
+        ],
+        "items": 7
+      },
+      {
+        "projectId": "private-court",
+        "country": "United_kingdom",
+        "projectName": "Private Court",
+        "website": "",
+        "projectsCourts": "1 Mobile Club Court",
+        "shortDescription": "",
+        "projectCity": "Private court",
+        "route": "/projects/private-court",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/private-court/thumbnails/private-court-1.webp",
+            "alt": "Courts in Private Court - United_kingdom"
+          }
+        ],
+        "items": 1
+      },
+      {
+        "projectId": "harrogate-spa-tennis",
+        "country": "United_kingdom",
+        "projectName": "Harrogate Spa Tennis",
+        "website": "https://www.spatennis.org.uk/",
+        "projectsCourts": "2 Canopies and 2 Club Courts",
+        "shortDescription": "",
+        "projectCity": "Harrogate",
+        "projectLogo": "/clubes/United_kingdom/harrogate-spa-tennis/harrogate-spa-tennis-logo.webp",
+        "route": "/projects/harrogate-spa-tennis",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-1.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-2.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-3.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-4.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-5.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-6.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-7.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-8.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-9.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-10.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-11.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/harrogate-spa-tennis/thumbnails/harrogate-spa-tennis-12.webp",
+            "alt": "Courts in Harrogate Spa Tennis - United_kingdom"
+          }
+        ],
+        "items": 12
+      },
+      {
+        "projectId": "smash-padel",
+        "country": "United_kingdom",
+        "projectName": "Smash Padel",
+        "website": "https://www.smashpadel.co/",
+        "projectsCourts": "3 Mobile Club Courts",
+        "shortDescription": "",
+        "projectCity": "Bicester",
+        "projectLogo": "/clubes/United_kingdom/smash-padel/smash-padel-logo.webp",
+        "route": "/projects/smash-padel",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-1.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-2.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-3.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-4.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-5.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          }
+        ],
+        "items": 5
+      },
+      {
+        "projectId": "ilkley-lawn-tennis-squash-club",
+        "country": "United_kingdom",
+        "projectName": "Ilkley Lawn Tennis Squash Club",
+        "website": "https://www.iltsc.co.uk/",
+        "projectsCourts": "1 mobile court",
+        "shortDescription": "",
+        "projectCity": "Ilkley",
+        "projectLogo": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/ilkley-lawn-tennis-squash-club-logo.webp",
+        "route": "/projects/ilkley-lawn-tennis-squash-club",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/thumbnails/ilkley-lawn-tennis-squash-club-1.webp",
+            "alt": "Courts in Ilkley Lawn Tennis Squash Club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/thumbnails/ilkley-lawn-tennis-squash-club-2.webp",
+            "alt": "Courts in Ilkley Lawn Tennis Squash Club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/thumbnails/ilkley-lawn-tennis-squash-club-3.webp",
+            "alt": "Courts in Ilkley Lawn Tennis Squash Club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/thumbnails/ilkley-lawn-tennis-squash-club-4.webp",
+            "alt": "Courts in Ilkley Lawn Tennis Squash Club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/thumbnails/ilkley-lawn-tennis-squash-club-5.webp",
+            "alt": "Courts in Ilkley Lawn Tennis Squash Club - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/thumbnails/ilkley-lawn-tennis-squash-club-6.webp",
+            "alt": "Courts in Ilkley Lawn Tennis Squash Club - United_kingdom"
+          }
+        ],
+        "items": 6
+      }
+    ],
+    "route": "/projects/United_kingdom"
   },
   {
     "country": "Australia",
     "id": "Australia",
-    "coordinates": [133.7751, -25.2744]
+    "coordinates": [133.7751, -25.2744],
+    "projects": [
+      {
+        "projectId": "indoor-padel",
+        "country": "Australia",
+        "projectName": "Indoor Padel",
+        "website": "https://www.indoorpadel.com.au/",
+        "projectsCourts": "4 club courts indoor + 2 club courts outdoor",
+        "shortDescription": "",
+        "projectCity": "Sydney",
+        "projectLogo": "/clubes/Australia/indoor-padel/indoor-padel-logo.webp",
+        "route": "/projects/indoor-padel",
+        "images": [
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-1.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          },
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-2.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          },
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-3.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          },
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-4.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          },
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-5.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          },
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-6.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          },
+          {
+            "src": "/clubes/Australia/indoor-padel/thumbnails/indoor-padel-7.webp",
+            "alt": "Courts in Indoor Padel - Australia"
+          }
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Australia"
   },
   {
     "country": "Denmark",
     "id": "Denmark",
-    "coordinates": [9.5018, 56.2639]
+    "coordinates": [9.5018, 56.2639],
+    "projects": [
+      {
+        "projectId": "lets-padel",
+        "country": "Denmark",
+        "projectName": "Let's Padel",
+        "website": "https://letspadel.halbooking.dk/newlook/default.asp?f=skiftprefix",
+        "projectsCourts": "",
+        "shortDescription": "",
+        "projectCity": "Hillerød",
+        "projectLogo": "/clubes/Denmark/lets-padel/lets-padel-logo.webp",
+        "route": "/projects/lets-padel",
+        "images": [
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-1.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-2.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-3.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-4.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-5.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-6.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-7.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          },
+          {
+            "src": "/clubes/Denmark/lets-padel/thumbnails/lets-padel-8.webp",
+            "alt": "Courts in Let's Padel - Denmark"
+          }
+        ],
+        "items": 8
+      }
+    ],
+    "route": "/projects/Denmark"
   },
-  {
-    "country": "Norway",
-    "id": "Norway",
-    "coordinates": [8.4689, 60.472]
-  },
+  { "country": "Norway", "id": "Norway", "coordinates": [8.4689, 60.472] },
   {
     "country": "New Zealand",
     "id": "New_Zealand",
-    "coordinates": [174.8859, -40.9006]
+    "coordinates": [174.8859, -40.9006],
+    "projects": [
+      {
+        "projectId": "riverside-sports-club",
+        "country": "New_Zealand",
+        "projectName": "Riverside Sports Club",
+        "website": "https://www.riversidesports.co.nz/",
+        "projectsCourts": "1 club court",
+        "shortDescription": "the first Padel court in New Zealand",
+        "projectCity": "Auckland",
+        "projectLogo": "/clubes/New_Zealand/riverside-sports-club/riverside-sports-club-logo.webp",
+        "route": "/projects/riverside-sports-club",
+        "images": [
+          {
+            "src": "/clubes/New_Zealand/riverside-sports-club/thumbnails/riverside-sports-club-1.webp",
+            "alt": "Courts in Riverside Sports Club - New_Zealand"
+          },
+          {
+            "src": "/clubes/New_Zealand/riverside-sports-club/thumbnails/riverside-sports-club-2.webp",
+            "alt": "Courts in Riverside Sports Club - New_Zealand"
+          },
+          {
+            "src": "/clubes/New_Zealand/riverside-sports-club/thumbnails/riverside-sports-club-3.webp",
+            "alt": "Courts in Riverside Sports Club - New_Zealand"
+          },
+          {
+            "src": "/clubes/New_Zealand/riverside-sports-club/thumbnails/riverside-sports-club-4.webp",
+            "alt": "Courts in Riverside Sports Club - New_Zealand"
+          }
+        ],
+        "items": 4
+      }
+    ],
+    "route": "/projects/New_Zealand"
   },
   {
     "country": "Dominican Republic",
     "id": "Dominican_Republic",
     "coordinates": [-70.1627, 18.7357]
   },
-  {
-    "country": "Thailand",
-    "id": "Thailand",
-    "coordinates": [100.9925, 15.87]
-  },
-  {
-    "country": "Slovakia",
-    "id": "Slovakia",
-    "coordinates": [19.699, 48.669]
-  },
-  {
-    "country": "Andorra",
-    "id": "Andorra",
-    "coordinates": [1.5218, 42.5063]
-  },
-  {
-    "country": "Austria",
-    "id": "Austria",
-    "coordinates": [14.5501, 47.5162]
-  },
-  {
-    "country": "Cyprus",
-    "id": "Cyprus",
-    "coordinates": [33.4299, 35.1264]
-  },
+  { "country": "Thailand", "id": "Thailand", "coordinates": [100.9925, 15.87] },
+  { "country": "Slovakia", "id": "Slovakia", "coordinates": [19.699, 48.669] },
+  { "country": "Andorra", "id": "Andorra", "coordinates": [1.5218, 42.5063] },
+  { "country": "Austria", "id": "Austria", "coordinates": [14.5501, 47.5162] },
+  { "country": "Cyprus", "id": "Cyprus", "coordinates": [33.4299, 35.1264] },
   {
     "country": "New York",
     "id": "New_York",
     "coordinates": [-74.006, 40.7128]
   },
-  {
-    "country": "Florida",
-    "id": "Florida",
-    "coordinates": [-81.5158, 27.6648]
-  },
+  { "country": "Florida", "id": "Florida", "coordinates": [-81.5158, 27.6648] },
   {
     "country": "Texas",
     "id": "Texas",
-    "coordinates": [-99.9018, 31.9686]
+    "coordinates": [-99.9018, 31.9686],
+    "projects": [
+      {
+        "projectId": "houston",
+        "country": "Texas",
+        "projectName": "Houston",
+        "website": "https://www.riversidesports.co.nz/",
+        "projectsCourts": "2 panoramic courts",
+        "projectCity": "Houston",
+        "route": "/projects/houston",
+        "images": [
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-1.webp",
+            "alt": "Courts in Houston - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-2.webp",
+            "alt": "Courts in Houston - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-3.webp",
+            "alt": "Courts in Houston - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-4.webp",
+            "alt": "Courts in Houston - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-5.webp",
+            "alt": "Courts in Houston - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-6.webp",
+            "alt": "Courts in Houston - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-7.webp",
+            "alt": "Courts in Houston - Texas"
+          }
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Texas"
   },
   {
     "country": "Venezuela",
@@ -295,14 +2206,55 @@
     "id": "Puerto Rico",
     "coordinates": [-66.5901, 18.2208]
   },
-  {
-    "country": "Poland",
-    "id": "Poland",
-    "coordinates": [19.1451, 51.9194]
-  },
+  { "country": "Poland", "id": "Poland", "coordinates": [19.1451, 51.9194] },
   {
     "country": "Ireland",
     "id": "Ireland",
-    "coordinates": [-8.2439, 53.4129]
+    "coordinates": [-8.2439, 53.4129],
+    "projects": [
+      {
+        "projectId": "padel-tennis-ireland",
+        "country": "Ireland",
+        "projectName": "Padel Tennis Ireland",
+        "website": "https://padeltennisireland.ie/",
+        "projectsCourts": "4 panoramic flow courts",
+        "shortDescription": "",
+        "projectCity": "Cork",
+        "projectLogo": "/clubes/Ireland/padel-tennis-ireland/padel-tennis-ireland-logo.webp",
+        "route": "/projects/padel-tennis-ireland",
+        "images": [
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-1.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-2.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-3.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-4.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-5.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-6.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+          {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-7.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          }
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Ireland"
   }
 ]

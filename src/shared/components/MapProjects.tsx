@@ -29,30 +29,6 @@ const stroke = new Stroke({
   width: 1,
 });
 
-const style = new Style({
-  renderer(pixelCoordinates, state) {
-    const { context, pixelRatio } = state;
-    const geometry = state.geometry.clone();
-    geometry.setCoordinates(pixelCoordinates);
-    const grad = context.createLinearGradient(298, 200, 302, 1);
-    grad.addColorStop(0, "rgba(0, 255, 235, 1)");
-    grad.addColorStop(1, "rgba(7, 58, 187, 1)");
-
-    // Stitch out country shape from the blue canvas
-    context.save();
-    context.shadowBlur = 200;
-    context.shadowColor = "rgba(183, 253, 251, 1)";
-
-    const renderContext = toContext(context, { pixelRatio });
-
-    renderContext.setFillStrokeStyle(fill, stroke);
-    // context.fill();
-    renderContext.drawGeometry(geometry);
-    context.clip();
-    context.restore();
-  },
-});
-
 // Crear la capa vectorial
 const vectorLayer = new Vector({
   source: new VectorSource({
@@ -60,7 +36,6 @@ const vectorLayer = new Vector({
     format: new GeoJSON(),
     wrapX: false,
   }),
-  style,
 });
 
 // Crear el mapa
@@ -156,6 +131,13 @@ const selectInteraction = new Select({
 map.addInteraction(selectInteraction);
 map.addControl(new ZoomSlider());
 
+map.on('loadstart', function () {
+  map.getTargetElement().classList.add(Styles.spinner);
+});
+map.on('loadend', function () {
+  map.getTargetElement().classList.remove(Styles.spinner);
+});
+
 map.updateSize();
 
 export default function MapProjects() {
@@ -171,7 +153,7 @@ export default function MapProjects() {
     }
   };
 
-  const closePopoup = () => {
+  const closePopup = () => {
     const $popup = popupRef.current;
     $popup?.classList.remove(Styles.open);
     selectInteraction.getFeatures().clear();
@@ -273,13 +255,13 @@ export default function MapProjects() {
       </div>
       {countrySelected && (
         <div
-          onMouseDown={closePopoup}
-          className="fixed z-40 left-0 top-0 bottom-0 right-0"
+          onClick={() => closePopup}
+          className="backdrop fixed z-40 left-0 top-0 bottom-0 right-0"
         />
       )}
       <div
         ref={popupRef}
-        className={`${Styles.popup} fixed w-[90%] h-[90%] scale-0 bg-black/90 rounded-xl border border-primary origin-center z-50 flex flex-col`}
+        className={`${Styles.popup} fixed w-[90%] min-h-[400px] scale-0 bg-black/90 rounded-xl border border-primary origin-center z-50 flex flex-col`}
         style={{
           transform: "translate(-50%, -50%) scale(0)",
         }}
@@ -292,7 +274,7 @@ export default function MapProjects() {
             {countrySelected?.country}
           </h2>
           <button
-            onClick={closePopoup}
+            onClick={closePopup}
             className={`${Styles.close} flex justify-center items-center text-white border border-white aspect-square w-8 h-8 rounded-full text-2xl font-bold`}
           >
             x
@@ -313,23 +295,27 @@ export default function MapProjects() {
                 )}
                 <div class="flex flex-col gap-4">
                   <div>
-                    <span className="text-primary text-sm">
+                    {
+                      projectSelected.projectCountry && (<span className="text-primary text-sm">
                       {projectSelected.projectCity}
-                    </span>
+                    </span>)
+                    }
                     <h3 className="text-secondary text-2xl font-bold">
                       {projectSelected.projectName}
                     </h3>
                   </div>
-                  <p
-                    className="text-white pb-0 mb-0 max-w-[60ch] text-pretty"
-                    dangerouslySetInnerHTML={{
-                      __html: projectSelected.shortdescription,
-                    }}
-                  />
+                  {
+                    projectSelected.shortdescription && (<p
+                      className="text-white pb-0 mb-0 max-w-[60ch] text-pretty"
+                      dangerouslySetInnerHTML={{
+                        __html: projectSelected.shortdescription,
+                      }}
+                    />)
+                  }
                 </div>
               </div>
               <div
-                className={`flex-1 flex flex-col gap-2 justify-end max-w-80`}
+                className={`flex-1 flex flex-col gap-2 justify-end max-w-none lg:max-w-80`}
               >
                 {countrySelected?.projects?.length > 1 && (
                   <ActionButtons
@@ -367,7 +353,7 @@ export default function MapProjects() {
                   {projectSelected.website && (
                     <div className="flex flex-col gap-2">
                       <h4 className="text-white text-xl font-bold">Website</h4>
-                      <a href={projectSelected.website} className="text-white">
+                      <a href={projectSelected.website} target="_blank" className="text-white text__glowing">
                         {projectSelected.website}
                       </a>
                     </div>
