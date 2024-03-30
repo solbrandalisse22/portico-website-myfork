@@ -7,16 +7,15 @@ const projects = countries.filter(({ projects }) => projects).map(({ projects })
 ---
 
 <Section heading={title} subheading={subtitle}>
-  <div class="club-grid">
-    {projects.map(({projectLogo, projectName})=> <Image src={projectLogo} alt={projectName} width={180} height={180} class="rounded-full border-secondary border-4 object-cover" />)}
+  <div class="club-grid gap-3 lg:gap-6">
+    {projects.map(({projectLogo, projectName})=> <Image src={projectLogo} alt={projectName} width={160} height={160} class="rounded-full border-secondary border-4 object-cover" />)}
   </div>
 </Section>
 
 <style>
   .club-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   }
 
   .club-grid img:hover {

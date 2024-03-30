@@ -29,6 +29,13 @@ const stroke = new Stroke({
   width: 1,
 });
 
+
+  // Generate style for gradient or pattern fill
+  const style = new Style({
+    fill: fill,
+    stroke: stroke,
+  });
+
 // Crear la capa vectorial
 const vectorLayer = new Vector({
   source: new VectorSource({
@@ -36,6 +43,7 @@ const vectorLayer = new Vector({
     format: new GeoJSON(),
     wrapX: false,
   }),
+  style
 });
 
 // Crear el mapa
@@ -48,7 +56,6 @@ const map = new Map({
     maxZoom: 5, // Nivel máximo de zoom
     multiWorld: false,
     constrainOnlyCenter: true, // Restringe el desplazamiento solo al centro del mapa
-    // extent: [-200000, -1000000, 1200000, 7000000],
     // extent: [-180, -90, 180, 90],
     // enableRotation: false,
     constrainResolution: true,
@@ -82,6 +89,10 @@ vectorLayer.getSource().on("change", function (e) {
     } else {
       map.getView().setCenter(fromLonLat([35, 15]));
     }
+    // Set centerConstraints
+    map.getView().setCenterConstraints([
+      [-200000, -1000000, 1200000, 7000000],
+    ]);
   }
 });
 
@@ -130,13 +141,6 @@ const selectInteraction = new Select({
 
 map.addInteraction(selectInteraction);
 map.addControl(new ZoomSlider());
-
-map.on('loadstart', function () {
-  map.getTargetElement().classList.add(Styles.spinner);
-});
-map.on('loadend', function () {
-  map.getTargetElement().classList.remove(Styles.spinner);
-});
 
 map.updateSize();
 

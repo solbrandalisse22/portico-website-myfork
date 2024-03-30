@@ -148,24 +148,17 @@ const { description, title, currentLocale, language, bgImage, bgClass } = Astro.
         }
       }
 
-      /* #loading {
-        position: fixed;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        animation: blur linear both;
-        @apply text-4xl text-white;
+      .map {
+        background: radial-gradient(circle, rgba(21,26,52,1) 30%, rgba(60,160,215,1) 70%);
       }
 
-      .show {
-        display: flex!important;
-      } */
+      .ol-unselectable.ol-layers {
+        background: radial-gradient(circle, rgba(183,228,253,1) 0%, rgba(148,187,233,.5) 100%);
+      }
+
+      .ol-viewport {
+        background: radial-gradient(circle, rgb(46 49 48) 35%, rgb(1 25 21) 65%)
+      }
 
       @keyframes blur {
         to {

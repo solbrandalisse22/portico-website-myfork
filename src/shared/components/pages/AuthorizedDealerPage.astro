@@ -1,0 +1,149 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import MapProjects from "@/shared/components/MapProjects";
+import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import ItemNumbers from "@/shared/components/ItemNumbers.astro";
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import { CountUp } from "@/shared/components/CountUp";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import ContactForm from "@/shared/components/forms/ContactForm";
+import FeatureList from "@/shared/components/FeatureList.astro";
+
+interface Props {
+  language: string;
+}
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
+---
+
+<Layout
+  title={i18n.PAGES.AUTHORIZED_DEALER.SEO_TITLE}
+  description={i18n.PAGES.AUTHORIZED_DEALER.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/heros/background-factory.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.AUTHORIZED_DEALER.TITLE} responsive />
+      <Typography tag="div" className="text-center px-3" type="primary" text={i18n.PAGES.AUTHORIZED_DEALER.SUBTITLE} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.AUTHORIZED_DEALER.ROUTE.LABEL, href: i18n.PAGES.AUTHORIZED_DEALER.ROUTE.URL },
+        ]}
+      />
+      <Section>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-y-10">
+          <ItemNumbers title={i18n.PAGES.FACTORY.FEATURE_SECTION.COUNTRY_COUNTER.TITLE}>
+            + <CountUp client:visible initial={0} final={i18n.PAGES.FACTORY.FEATURE_SECTION.COUNTRY_COUNTER.NUMBER} />
+          </ItemNumbers>
+          <ItemNumbers title={i18n.PAGES.FACTORY.FEATURE_SECTION.COURTS_COUNTER.TITLE}>
+            + <CountUp client:visible initial={0} final={i18n.PAGES.FACTORY.FEATURE_SECTION.COURTS_COUNTER.NUMBER} />
+          </ItemNumbers>
+          <ItemNumbers title={i18n.PAGES.FACTORY.FEATURE_SECTION.FACTORY_COUNTER.TITLE}>
+            <CountUp client:visible initial={0} final={i18n.PAGES.FACTORY.FEATURE_SECTION.FACTORY_COUNTER.NUMBER} />M<sup>2</sup>
+          </ItemNumbers>
+        </div>
+      </Section>
+      <Section
+        className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+        <div class="p-4 md:p-8 flex flex-col gap-4 lg:flex-row lg:gap-8 flex-1 justify-center mx-auto max-w-[1400px]">
+          <div class="flex-1">
+            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.TITLE} className="mb-8" responsive type="secondary" />
+            <Typography tag="h3" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.SUBHEADING} className="mb-8 font-thin" responsive type="primary" size="small" />
+            <Typography tag="div" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.DESCRIPTION} className="mb-8" responsive />
+            <FeatureList list={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.FEATURE_LIST} />
+          </div>
+          <div class="flex-1">
+            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.CONTACT_SECTION.TITLE} className="mb-8" responsive type="secondary" />
+            <ContactForm client:visible language={language} sendText={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SEND_TEXT} />
+          </div>
+        </div>
+      </Section>
+      <section class="border-t border-primary mt-8 min-h-[500px]">
+        <MapProjects client:only />
+      </section>
+      <SectionInfiniteScroll language={language} />
+    </div>
+  </main>
+</Layout>
+
+<style>
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>
+
+<script is:inline define:vars={{ images }}>
+  const updateImages = (images) => {
+    // cambiar a la siguiente imagen cada 3 segundos
+
+    let index = 0;
+    setInterval(() => {
+      const currentImage = images[index];
+      const nextImage = images[index + 1] || images[0];
+
+      const currentImageElement = document.getElementById(currentImage.id);
+      const nextImageElement = document.getElementById(nextImage.id);
+
+      if (currentImageElement && nextImageElement) {
+        currentImageElement.classList.remove("opacity-100");
+        currentImageElement.classList.add("opacity-0");
+        nextImageElement.classList.remove("opacity-0");
+        nextImageElement.classList.add("opacity-100");
+      }
+
+      index = index + 1;
+      if (index === images.length) index = 0;
+    }, 3000);
+  };
+
+  updateImages(images);
+</script>

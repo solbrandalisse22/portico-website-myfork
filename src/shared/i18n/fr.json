@@ -1872,6 +1872,38 @@
         "EMAIL": "rrhh@porticosport.com"
       }
     },
+    "AUTHORIZED_DEALER": {
+      "ID": "authorized-dealer",
+      "SEO_TITLE": "Connect with Portico Sport: Your Global Partner for Padel Court Excellence",
+      "SEO_DESCRIPTION": "Get in touch with Portico Sport, your trusted global partner for premium padel court solutions. Contact us today to start building your dream padel court and elevate your game to new heights.",
+      "TITLE": "Would you Like to become a Portico Sport's distributor in your country?",
+      "SUBTITLE": "Join the leading company in the manufacturing and installation of padel courts and canopies.",
+      "ROUTE": {
+        "LABEL": "Authorized dealer",
+        "URL": "/authorized-dealer"
+      },
+      "INTRO_SECTION": {
+        "ID": "intro",
+        "TITLE": "What do we offer?",
+        "SUBHEADING": "Our 15 years of experience in the industry and our presence in various markets, supported by a great team,",
+        "DESCRIPTION": "<p>In its commitment to innovation, Portico Sport offers the highest quality and guarantee in its padel courts and canopies with state-of-the-art design and manufacturing, maximum resistance and durability.</p>",
+        "FEATURE_LIST": [
+          "Maximum quality and guarantees in all our products",
+          "Supported by our sales team",
+          "Professional support and corporate material. To lead the sales process. Support from the marketing department.",
+          "Continuous assistance",
+          "Strategic assistance",
+          "New opportunities"
+        ]
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "I would like to receive more information",
+        "TITLE": "Will help you achieve significant sales goals.",
+        "SEND_TEXT": "BE A AUTHORIZED LEADER IN PORTICO SPORT",
+        "BG_IMAGE": "client-contact/client-contact-bg.webp",
+        "IMAGE": "client-contact/client-contact.webp"
+      }
+    },
     "CLIENT_CONTACT": {
       "ID": "client-contact",
       "SEO_TITLE": "Connect with Portico Sport: Your Global Partner for Padel Court Excellence",
