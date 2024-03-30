@@ -75,7 +75,7 @@ const points = [
 ];
 
 let selected = points[0];
-const circleDiameter = 350; // Diámetro del círculo
+const circleDiameter = 340; // Diámetro del círculo
 const circleRadius = circleDiameter / 2; // Radio del círculo
 const centerX = circleDiameter / 2; // Centro X del círculo
 const centerY = circleDiameter / 2; // Centro Y del círculo
@@ -107,12 +107,12 @@ const lineLength = 50; // Longitud de las líneas
         {selected.name}
       </span>
     </div>
-    <RotateCircle class="w-[350px] h-[350px] absolute" />
+    <RotateCircle class="w-[340px] h-[340px] absolute" />
     <div
-      class="reference-circle absolute w-[350px] h-[350px] border-dashed border rounded-full"
+      class="reference-circle absolute w-[340px] h-[340px] border-dashed border rounded-full"
     >
     </div>
-    <div class="relative w-[350px] h-[350px] rounded-full">
+    <div class="relative w-[340px] h-[340px] rounded-full">
       {
         points.map(({ number, color, name, transform, subtitle }, i) => {
           const angle = (i / points.length - 0.25) * (2 * Math.PI); // Ajuste del ángulo inicial
