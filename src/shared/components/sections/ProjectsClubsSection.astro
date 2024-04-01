@@ -23,4 +23,21 @@ const projects = countries.filter(({ projects }) => projects).map(({ projects })
     filter: drop-shadow(1px 1px 5px rgb(183 228 253));
     transition: scale 0.2s ease-in-out, filter 0.2s ease-in-out;
   }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .club-grid img {
+      scale: 0.8;
+      opacity: 0;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry 100px;
+    }
+
+    @keyframes fade-in {
+      to {
+        scale: 1;
+        opacity: 1;
+      }
+    }
+  }
 </style>

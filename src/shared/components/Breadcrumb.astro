@@ -1,4 +1,6 @@
 ---
+import { capitalize } from "@/libraries/utils";
+
 const { crumbs } = Astro.props;
 
 interface Crumb {
@@ -16,9 +18,9 @@ interface Props {
     {
       crumbs
         .map((crumb, index) => (
-          <li class="flex gap-1 items-center">
+          <li class="flex gap-1 items-center py-10">
             {index < crumbs.length - 1 ? (
-              <a class="text-primary hover:text-secondary transition-colors lowercase" href={crumb.href}>{crumb.label}</a>
+              <a class="text-primary hover:text-current focus:text-current text__glowing transition-colors" href={crumb.href}>{capitalize(crumb.label)}</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -33,7 +35,7 @@ interface Props {
                 <path d="m9 18 6-6-6-6" />
               </svg>
             ) : (
-              <span class="line-clamp-1 lowercase" title={crumb.label}>{crumb.label}</span>
+              <span class="line-clamp-1 text__glowing" title={crumb.label}>{capitalize(crumb.label)}</span>
             )}
           </li>
         ))

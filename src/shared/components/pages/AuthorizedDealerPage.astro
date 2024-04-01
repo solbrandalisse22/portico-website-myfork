@@ -63,13 +63,13 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
       >
         <div class="p-4 md:p-8 flex flex-col gap-4 lg:flex-row lg:gap-8 flex-1 justify-center mx-auto max-w-[1400px]">
           <div class="flex-1">
-            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.TITLE} className="mb-8" responsive type="secondary" />
+            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.TITLE} className="mb-8 font-bold" responsive type="secondary" />
             <Typography tag="h3" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.SUBHEADING} className="mb-8 font-thin" responsive type="primary" size="small" />
             <Typography tag="div" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.DESCRIPTION} className="mb-8" responsive />
             <FeatureList list={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.FEATURE_LIST} />
           </div>
           <div class="flex-1">
-            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.CONTACT_SECTION.TITLE} className="mb-8" responsive type="secondary" />
+            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.CONTACT_SECTION.TITLE} className="mb-8 font-bold" responsive type="secondary" />
             <ContactForm client:visible language={language} sendText={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SEND_TEXT} />
           </div>
         </div>

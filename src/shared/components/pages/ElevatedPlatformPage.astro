@@ -125,9 +125,7 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
           <div class="flex gap-4">
             {
               i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TECHNICAL_FEATURES.map((item:string) => (
-                <div class="p-3 bg-black/70 rounded-xl border border-primary">
-                  {item}
-                </div>
+              <Typography tag="div" text={item} className="p-3 bg-black/70 rounded-xl border border-primary" responsive />
               ))
             }
           </div>

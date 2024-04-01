@@ -1,6 +1,7 @@
 ---
 import { getI18N } from "@/shared/i18n";
 import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 import ContactForm from "@/shared/components/forms/ContactForm";
 
 interface Props {
@@ -25,8 +26,8 @@ const i18n = getI18N({ language })
   <div class="w-full rounded-xl border-primary border bg-black/50 p-6 md:p-12 lg:p-20 flex flex-col-reverse lg:flex-row gap-8 max-w-[1240px] relative">
     <ContactForm client:visible language={language} sendText={sendText} subject={subject} hiddenSubject={hiddenSubject} />
     <div class="flex-1">
-      <h2 class="text-3xl text-primary pb-2 uppercase">{title || i18n.CONTACT_FORM.TITLE}</h2>
-      <div set:html={description || i18n.CONTACT_FORM.DESCRIPTION}></div>
+      <Typography tag="h2" className="pb-2 uppercase" text={title || i18n.CONTACT_FORM.TITLE} type="primary" responsive />
+      <Typography tag="div" text={description || i18n.CONTACT_FORM.DESCRIPTION} responsive className="mb-4" />
     </div>
     {
       image && <img src={image} loading="lazy" alt="hexagon court" class="-bottom-10 w-[500px] aspect-video -right-12 absolute hidden lg:block" />

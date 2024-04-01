@@ -1717,6 +1717,11 @@
         "TITLE": "Projects by Portico",
         "SUBTITLE": "Discover some projects we've turned into reality"
       },
+      "MAP_SECTION": {
+        "ID": "map",
+        "TITLE": "Projects map",
+        "SUBTITLE": "Click to unveil: Explore our court projects in detail!"
+      },
       "ROUTE": {
         "LABEL": "Projects",
         "URL": "/projects"

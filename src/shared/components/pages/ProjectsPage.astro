@@ -1,6 +1,7 @@
 ---
 import Layout from "@/shared/layouts/Layout.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 import ProjectsClubsSection from "@/shared/components/sections/ProjectsClubsSection.astro";
 import MapProjects from "@/shared/components/MapProjects";
 import countries from "@/shared/data/countries.json";
@@ -23,16 +24,11 @@ const currentLocale = getCurrentLocale({ language });
   bgImage="/heros/background-projects.webp"
   bgClass="brightness-50"
 >
-  <main class="flex flex-col gradient-bg relative">
+  <main>
     <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
-      <span class="uppercase text-balance">{i18n.PAGES.PROJECTS.SUBTITLE}</span>
-      <h1
-        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={i18n.PAGES.PROJECTS.TITLE}
-      />
-      <h2 class="text-base md:text-xl lg:text-2xl mb-2 text-secondary text-balance uppercase">
-        {i18n.PAGES.PROJECTS.POSTTITLE}
-      </h2>
+      <Typography tag="span" className="uppercase" type="primary" size="large" text={i18n.PAGES.PROJECTS.SUBTITLE} responsive />
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.TITLE} responsive />
+      <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.POSTTITLE} responsive />
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
@@ -46,8 +42,14 @@ const currentLocale = getCurrentLocale({ language });
         subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
         countries={countries}
       />
-      <section class="border-t border-primary mt-8 min-h-[500px]">
-        <MapProjects client:only />
+      <section 
+        id={i18n.PAGES.PROJECTS.MAP_SECTION.ID}
+      >
+        <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
+        <Typography tag="p" text={i18n.PAGES.PROJECTS.MAP_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
+        <div class="border-y border-primary mt-8">
+          <MapProjects client:only />
+        </div>
       </section>
     </div>
   </main>

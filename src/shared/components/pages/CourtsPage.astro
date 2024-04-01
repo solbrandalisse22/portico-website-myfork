@@ -1,6 +1,7 @@
 ---
 import Layout from "@/shared/layouts/Layout.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
 import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
@@ -22,12 +23,8 @@ const currentLocale = getCurrentLocale({ language });
     <div
       class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4"
     >
-      <span class="uppercase text-balance">{i18n.PAGES.COURTS.SUBTITLE}</span
-      >
-      <h1
-        class="text-xl md:text-2xl lg:text-4xl uppercase mb-6 text-balance"
-        set:html={i18n.PAGES.COURTS.TITLE}
-      />
+      <Typography tag="span" className="uppercase" type="primary" size="large" text={i18n.PAGES.COURTS.SUBTITLE} responsive />
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.COURTS.TITLE} responsive />
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
