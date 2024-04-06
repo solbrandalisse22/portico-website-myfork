@@ -1,6 +1,6 @@
 ---
 import Button from "./Button.astro";
-import ContactForm from "@/shared/components/forms/ContactForm";
+import ContactForm from "@/shared/components/forms/ContactForm.astro";
 import Typography from "@/shared/components/ui/Typography.astro"
 
 interface Props {
@@ -63,7 +63,7 @@ const type = getTipeFromVideo();
         {
           showContactForm && (
             <div class="p-4 bg-black/50 rounded-xl hidden lg:block">
-              <ContactForm language={language} hiddenSubject={true} subject />
+              <ContactForm language={language} hiddenSubject={true} subject="hola" />
             </div>
           )
         }
