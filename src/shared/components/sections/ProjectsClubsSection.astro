@@ -4,11 +4,14 @@ import { Image } from 'astro:assets';
 
 const { countries, title, subtitle } = Astro.props
 const projects = countries.filter(({ projects }) => projects).map(({ projects }) => projects.filter(({projectLogo}) => projectLogo)).flat()
+// mostrar un número de projectos múltiplo de 4
+const projectsLength = projects.length
+const projectsToShow = projects.slice(0, projectsLength - (projectsLength % 4))
 ---
 
 <Section heading={title} subheading={subtitle}>
   <div class="club-grid gap-3 lg:gap-6">
-    {projects.map(({projectLogo, projectName})=> <Image src={projectLogo} alt={projectName} width={160} height={160} class="rounded-full border-secondary border-4 object-cover" />)}
+    {projectsToShow.map(({projectLogo, projectName})=> <a href="#map"><Image src={projectLogo} alt={projectName} width={160} height={160} class="rounded-full border-secondary border-4 object-cover" /></a>)}
   </div>
 </Section>
 

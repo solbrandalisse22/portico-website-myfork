@@ -508,7 +508,7 @@
           "SUBJECT": "New petition from Panoramic Flow Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-contact-bg.webp",
-          "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp"
+          "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club",
         "HOME_IMAGES": [{
@@ -1233,7 +1233,7 @@
           "SUBJECT": "New petition from Force 80 Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/force-80/force-80-contact-bg.webp",
-          "IMAGE": "/courts-detail/force-80/force-80-perspective.webp"
+          "IMAGE": "/courts-detail/force-80/force-80-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Our Force 80 model was designed to withstand category 5 hurricane winds. The specifically designed structure coupled with a special anchoring systems allows for this court to be installed in the toughest locations anywhere in the world.",
         "HOME_IMAGES": [{
@@ -1424,7 +1424,7 @@
           "SUBJECT": "New petition from Single Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
-          "IMAGE": "/courts-detail/single/single-perspective.webp"
+          "IMAGE": "/courts-detail/single/single-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Same length, reduced width enabling padel to be enjoyed 1vs1. This court is also ideal for individual classes, specific training or to maximize utilization space in your club where a doubles court does not fit.",
         "HOME_IMAGES": [{
@@ -1606,7 +1606,7 @@
           "SUBJECT": "New petition from Mini Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
-          "IMAGE": "/courts-detail/mini/mini-perspective.webp"
+          "IMAGE": "/courts-detail/mini/mini-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Kids can learn padel from a very early age, however, the size of court can be overwhelming for them. With this court, kids can enjoy padel with a court adapted to their heigh and physical power.",
         "HOME_IMAGES": [{

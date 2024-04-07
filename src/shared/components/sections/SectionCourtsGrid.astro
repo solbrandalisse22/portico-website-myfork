@@ -24,7 +24,7 @@ const courtsToUse = courts || courtsGrid(i18n)
 >
   <div class="compatible-courts-wrapper grid gap-10">
     {
-      courtsToUse.map(({ title, description, url, image }) => (
+      courtsToUse.map(({ title, description, url, image, more }) => (
         <a
           href={url}
           class="compatible-court flex flex-col items-center rounded-xl bg-black/70 border-primary border relative h-96 outline-none w-[80%] md:w-full"
@@ -32,6 +32,9 @@ const courtsToUse = courts || courtsGrid(i18n)
           <div class="box-shadow absolute inset-0 rounded-xl border-primary border" />
           <Typography tag="h2" text={title} type="secondary" className="p-4 text-center font-bold uppercase" />
           <Typography tag="div" text={description} className="px-4 text-center font-thin" />
+          <span class="text__glowing p-2 rounded-full border absolute bottom-4 left-4 text-sm">
+            {more}
+          </span>
           {
             image && (
               <img
@@ -56,7 +59,7 @@ const courtsToUse = courts || courtsGrid(i18n)
     transition: filter 0.3s ease-in-out;
   }
 
-  .compatible-court:focus .box-shadow, .compatible-court:focus img, .compatible-court:hover img, .compatible-court:hover .box-shadow {
+  .compatible-court:focus .box-shadow, .compatible-court:focus img, .compatible-court:hover img, .compatible-court:hover .box-shadow, .compatible-court:hover span {
     filter: drop-shadow(1px 1px 5px rgb(183 228 253));
   }
 </style>
