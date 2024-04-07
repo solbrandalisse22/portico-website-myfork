@@ -6,6 +6,7 @@ import "@fontsource-variable/onest";
 import "@fontsource/prompt/100.css";
 import "@fontsource/prompt/300.css";
 import "@fontsource/prompt/500.css";
+import ScrollSvgAnimation from "../components/ScrollSvgAnimation.astro";
 
 interface Props {
   description: string;
@@ -14,9 +15,10 @@ interface Props {
   language: string;
   bgImage?: string;
   bgClass?: string;
+  showScrollImage?: boolean;
 }
 
-const { description, title, currentLocale, language, bgImage, bgClass } = Astro.props;
+const { description, title, currentLocale, language, bgImage, bgClass, showScrollImage } = Astro.props;
 ---
 
 <!doctype html>
@@ -44,6 +46,9 @@ const { description, title, currentLocale, language, bgImage, bgClass } = Astro.
       )
     }
     <Header language={language} />
+    {
+      showScrollImage && <ScrollSvgAnimation className="absolute right-10 top-1/2 -translate-y-1/2 z-20" width="30px" />
+    }
     <slot />
     <!-- <div id="loading">
       Loading...
