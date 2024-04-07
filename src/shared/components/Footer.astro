@@ -1,7 +1,7 @@
 ---
-import Logo from "@/shared/components/logos/Logo.astro"
 import { getI18N } from "../i18n/"
 import Link from "@/shared/components/Link.astro"
+import HeaderLink from "@/shared/components/HeaderLink.astro"
 import LogoWhite from "@/shared/components/logos/LogoWhite.astro"
 
 const { language } = Astro.props
@@ -98,5 +98,24 @@ const i18n = getI18N({ language })
       </span>
     </div>
   </div>
+  <HeaderLink
+    checkActive={false}
+    href="#top"
+    class="group fixed bottom-4 right-4 p-4 border rounded-full z-10"
+    aria-label={i18n.HEADER.LOGO}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-auto blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="18" y1="11" x2="12" y2="5" />
+      <line x1="6" y1="11" x2="12" y2="5" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="18" y1="11" x2="12" y2="5" />
+      <line x1="6" y1="11" x2="12" y2="5" />
+    </svg>
+  </HeaderLink>
 </footer>
  
