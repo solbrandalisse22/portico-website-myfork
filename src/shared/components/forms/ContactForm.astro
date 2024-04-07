@@ -20,7 +20,8 @@ const i18n = getI18N({ language });
 let status = undefined;
 
 if (Astro.request.method === 'POST') {
-  const resend = new Resend('re_3X1kNTwQ_7ByRkREutqgjnHeYaRPccEY5');
+  const apiKey = process.env.RESEND_API_KEY;
+  const resend = new Resend(apiKey);
   try{
     // Getting posted data from our contact form
     const form = await Astro.request.formData();
