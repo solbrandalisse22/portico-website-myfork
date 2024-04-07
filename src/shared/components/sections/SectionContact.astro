@@ -2,7 +2,7 @@
 import { getI18N } from "@/shared/i18n";
 import Section from "@/shared/components/Section.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
-import ContactForm from "@/shared/components/forms/ContactForm";
+import ContactForm from "@/shared/components/forms/ContactForm.astro";
 
 interface Props {
   id?: string;
@@ -24,7 +24,7 @@ const i18n = getI18N({ language })
   <img aria-hidden="true" src={bgImage} alt="Contact background" loading="lazy" class="w-full h-full object-cover absolute max-w-[1800px] mx-auto blur-3xl" />
   <img src={bgImage} alt="Contact background" loading="lazy" class="w-full h-full object-cover absolute max-w-[1800px] mx-auto" />
   <div class="w-full rounded-xl border-primary border bg-black/50 p-6 md:p-12 lg:p-20 flex flex-col-reverse lg:flex-row gap-8 max-w-[1240px] relative">
-    <ContactForm client:visible language={language} sendText={sendText} subject={subject} hiddenSubject={hiddenSubject} />
+    <ContactForm language={language} sendText={sendText} subject={subject} hiddenSubject />
     <div class="flex-1">
       <Typography tag="h2" className="pb-2 uppercase" text={title || i18n.CONTACT_FORM.TITLE} type="primary" responsive />
       <Typography tag="div" text={description || i18n.CONTACT_FORM.DESCRIPTION} responsive className="mb-4" />

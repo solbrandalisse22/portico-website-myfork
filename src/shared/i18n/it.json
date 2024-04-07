@@ -132,7 +132,7 @@
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "I want more information about Padel Courts",
+        "SUBJECT": "New petition from Home page",
         "TITLE": "Contact us",
         "BUTTON_TEXT": "I want more information",
         "BG_IMAGE": "/hexagon-contact-bg.webp",
@@ -161,7 +161,7 @@
         "LITTLE_DESCRIPTION": "<p>enjoy padel anywhere, temporarily or permanently, a court that will save you time and money.</p>",
         "MORE_INFO_URL": "https://porticosport.com/en/mobile-courts",
         "CONTACT_TITLE_1": "Do you want a Mobile Court?",
-        "CONTACT_SUBJECT": "New petition for a Mobile Court",
+        "CONTACT_SUBJECT": "New petition from Mobile Court",
         "CONTACT_BUTTON": "I want a Mobile Court",
         "ROUTE": {
           "LABEL": "More about mobile",
@@ -309,7 +309,7 @@
         },
         "CONTACT_SECTION": {
           "ID": "contact",
-          "SUBJECT": "New petition for a Mobile Court",
+          "SUBJECT": "New petition from Mobile Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
           "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
@@ -364,7 +364,7 @@
         "NAME": "Panoramic Flow court",
         "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
         "CONTACT_TITLE_1": "Do you want a Panoramic Flow court?",
-        "CONTACT_SUBJECT": "New petition for a Panoramic Flow Court",
+        "CONTACT_SUBJECT": "New petition from Panoramic Flow Court",
         "CONTACT_BUTTON": "I want a Panoramic Flow court",
         "ROUTE": {
           "LABEL": "More about panoramic flow court",
@@ -504,7 +504,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
-          "SUBJECT": "New petition for a Mobile Court",
+          "SUBJECT": "New petition from Panoramic Flow Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-contact-bg.webp",
           "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp"
@@ -542,7 +542,7 @@
         "DETAIL_TITLE": "<span>Panoramic court</span>",
         "MORE_INFO_URL": "https://porticosport.com/en/panoramic-courts",
         "CONTACT_TITLE_1": "Do you want a Panoramic Court?",
-        "CONTACT_SUBJECT": "New petition for a Panoramic Court",
+        "CONTACT_SUBJECT": "New petition from Panoramic Court",
         "CONTACT_BUTTON": "I want a Panoramic Court",
         "ROUTE": {
           "LABEL": "More about panoramic court",
@@ -678,7 +678,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
-          "SUBJECT": "New petition for a Panoramic Court",
+          "SUBJECT": "New petition from Panoramic Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
           "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
@@ -720,7 +720,7 @@
         "SUBTITLE": "Our most sought-after courts.",
         "NAME": "Club court",
         "CONTACT_TITLE_1": "Do you want a Club Court?",
-        "CONTACT_SUBJECT": "New petition for a Club Court",
+        "CONTACT_SUBJECT": "New petition from Club Court",
         "CONTACT_BUTTON": "I want a Club Court",
         "ROUTE": {
           "LABEL": "More about club court",
@@ -862,7 +862,7 @@
         },
         "CONTACT_SECTION": {
           "ID": "contact",
-          "SUBJECT": "New petition for a Club Court",
+          "SUBJECT": "New petition from Club Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
           "IMAGE": "/courts-detail/club/club-perspective.webp"
@@ -897,7 +897,7 @@
         "SUBTITLE": "You can enjoy padel in the evolution of our Club Court.",
         "LITTLE_DESCRIPTION": "<p>You can enjoy padel in the evolution of our Club Court.</p>",
         "CONTACT_TITLE_1": "Do you want a Club Plus Court?",
-        "CONTACT_SUBJECT": "New petition for a Club Plus Court",
+        "CONTACT_SUBJECT": "New petition from Club Plus Court",
         "CONTACT_BUTTON": "I want a Club Plus Court",
         "NAME": "Club Plus court",
         "ROUTE": {
@@ -1043,7 +1043,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
-          "SUBJECT": "New petition for a Club Plus Court",
+          "SUBJECT": "New petition from Club Plus Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/club-plus/club-plus-contact-bg.webp",
           "IMAGE": "/courts-detail/club-plus/club-plus-perspective.webp"
@@ -1084,7 +1084,7 @@
         "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
         "SUBTITLE": "Enjoy padel regardless of the challenging weather.",
         "CONTACT_TITLE_1": "Do you want a Force 80 Court?",
-        "CONTACT_SUBJECT": "New petition for a Force 80 Plus Court",
+        "CONTACT_SUBJECT": "New petition from Force 80 Plus Court",
         "CONTACT_BUTTON": "I want a Force 80 Court",
         "NAME": "Force 80 court",
         "ROUTE": {
@@ -1226,7 +1226,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
-          "SUBJECT": "New petition for a Force 80 Court",
+          "SUBJECT": "New petition from Force 80 Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/force-80/force-80-contact-bg.webp",
           "IMAGE": "/courts-detail/force-80/force-80-perspective.webp"
@@ -1267,7 +1267,7 @@
         "LITTLE_DESCRIPTION": "<p>Same strength in smaller dimensions for solo players.</p>",
         "SUBTITLE": "Same strength in smaller dimensions for solo players.",
         "CONTACT_TITLE_1": "Do you want a Single Court?",
-        "CONTACT_SUBJECT": "New petition for a Single Plus Court",
+        "CONTACT_SUBJECT": "New petition from Single Plus Court",
         "CONTACT_BUTTON": "I want a Single Court",
         "ROUTE": {
           "LABEL": "More about single court",
@@ -1416,7 +1416,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
-          "SUBJECT": "New petition for a Single Court",
+          "SUBJECT": "New petition from Single Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
           "IMAGE": "/courts-detail/single/single-perspective.webp"
@@ -1452,7 +1452,7 @@
         "LITTLE_DESCRIPTION": "<p>Our reduced-size padel court that fits anywhere.</p>",
         "SUBTITLE": "Our reduced-size padel court that fits anywhere.",
         "CONTACT_TITLE_1": "Do you want a Mini Court?",
-        "CONTACT_SUBJECT": "New petition for a Mini Plus Court",
+        "CONTACT_SUBJECT": "New petition from Mini Plus Court",
         "CONTACT_BUTTON": "I want a Mini Court",
         "ROUTE": {
           "LABEL": "More about mini court",
@@ -1597,7 +1597,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
-          "SUBJECT": "New petition for a Mini Court",
+          "SUBJECT": "New petition from Mini Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
           "IMAGE": "/courts-detail/mini/mini-perspective.webp"
@@ -1693,7 +1693,7 @@
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "I would like to receive more information about the canopies",
+        "SUBJECT": "New petition from Canopy",
         "TITLE": "Contact us",
         "BUTTON_TEXT": "I WANT MORE INFORMATION ABOUT CANOPIES",
         "BG_IMAGE": "canopies/canopies-contact-bg.webp",
@@ -1716,6 +1716,11 @@
         "ID": "projects-club",
         "TITLE": "Projects by Portico",
         "SUBTITLE": "Discover some projects we've turned into reality"
+      },
+      "MAP_SECTION": {
+        "ID": "map",
+        "TITLE": "Projects map",
+        "SUBTITLE": "Click to unveil: Explore our court projects in detail!"
       },
       "ROUTE": {
         "LABEL": "Projects",
@@ -1801,7 +1806,7 @@
       "CONTACT_SECTION": {
         "TITLE": "Visit our factory",
         "DESCRIPTION": "<p>Whether you are a potential client or a professional distributor interested in our courts and canopies, We extend a warm invitation to visit our facilities. Our team of experts eagerly awaits the opportunity to guide you through our design, production, manufacturing, and lacquering plants, providing an in-depth exploration of the entire construction process from inception to completion. You&#39;ll have the chance to delve into every aspect of our production process, from meticulous materials selection to the cutting-edge engineering techniques that enable us to craft the finest courts in the industry.</p><p>This exclusive opportunity offers insight into why our courts and canopies are so highly esteemed by professional players and club owners worldwide. Moreover, you&#39;ll have the firsthand experience of our court quality by partaking in a game on one of them.<br />We eagerly anticipate your visit to our facilities, where we can share our passion for padel and showcase the excellence of our craftsmanship.</p>",
-        "SUBJECT": "I would like visit your factory",
+        "SUBJECT": "New petition from Factory",
         "SUBTITLE": "We are happy to show you around",
         "BUTTON_TEXT": "Visit us",
         "BG_IMAGE": "factory/factory-contact-bg.webp"
@@ -1870,6 +1875,10 @@
         }],
         "SUBHEADING": "Send us your CV",
         "EMAIL": "rrhh@porticosport.com"
+      },
+      "CONTACT_SECTION": {
+        "SUBJECT": "New petition from work with us",
+        "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
     "AUTHORIZED_DEALER": {
@@ -1897,7 +1906,7 @@
         ]
       },
       "CONTACT_SECTION": {
-        "SUBJECT": "I would like to receive more information",
+        "SUBJECT": "New petition from Distributor",
         "TITLE": "Will help you achieve significant sales goals.",
         "SEND_TEXT": "BE A AUTHORIZED LEADER IN PORTICO SPORT",
         "BG_IMAGE": "client-contact/client-contact-bg.webp",
@@ -1966,7 +1975,7 @@
         ]
       },
       "CONTACT_SECTION": {
-        "SUBJECT": "I would like to receive more information",
+        "SUBJECT": "New petition from Client contact",
         "TITLE": "Let's Start Building Your Dream Padel Court",
         "DESCRIPTION": "<p>Ready to take the first step towards your ultimate padel court experience? Fill out the form below, and let's get the ball rolling. Whether you have questions, need a quote, or simply want to discuss your project, we're here to help.</p><p>Our team at Portico Sport is dedicated to providing personalized solutions that exceed your expectations. From design to installation and beyond, we're committed to making your padel court dreams a reality.</p>",
         "SEND_TEXT": "I WANT CONTACT WITH PORTICO SPORT",
@@ -2282,7 +2291,7 @@
       "TITLE": "Do you want an Elevated Platform?",
       "SUBTITLE": "Contact us and we will help you",
       "BUTTON": "I want an Elevated Platform",
-      "CONTACT_SUBJECT": "New petition for an Elevated Platform",
+      "CONTACT_SUBJECT": "New petition from Elevated Platform",
       "BG_IMAGE": "elevated-platform/elevated-platform-contact-bg.webp"
     },
     "URL": {
@@ -2326,7 +2335,9 @@
         "PLACEHOLDER": "Enter your message"
       },
       "SEND": "Send"
-    }
+    },
+    "SUCCESS": "Your message has been sent successfully!",
+    "ERROR": "An error occurred while sending your message. Please try again later."
   },
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Lighting types",
@@ -2395,5 +2406,12 @@
     "TITLE": "Padel courts that comply with regulations",
     "SUBTITLE": "Strength, durability and perfect integration",
     "DESCRIPTION": "<p>Our padel courts are meticulously designed to provide exceptional durability and outstanding performance, ensuring a fantastic gaming experience for players of all levels. Crafted with precision and built to last, our courts are engineered to withstand the test of time and deliver unparalleled resilience, even in the most demanding environments.</p><p>Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)</p>"
+  },
+  "CLIENT_SUBJECT_EMAIL": {
+    "TITLE": "We've received your message!",
+    "CONTACT_EMAIL_1": "Hello {name}. From PorticoSport we thank you for contacting us. We have received your request for information.",
+    "CONTACT_EMAIL_2": "We will contact you shortly to respond to your query.",
+    "GREATINGS": "Thank you for trusting us.",
+    "SIGNATURE": "The PorticoSport team"
   }
 }

@@ -1,85 +1,89 @@
 ---
 import InputText from '@/shared/components/forms/InputText';
 import InputArea from '@/shared/components/forms/InputArea';
-import { getI18N, getCountryListByLanguage } from "@/shared/i18n";
+import { getI18N } from "@/shared/i18n";
 import FormButton from '@/shared/components/forms/FormButton';
-import DataList from '@/shared/components/forms/DataList';
-
-console.log(`method is `, Astro.request.method)
-
-if (Astro.request.method === 'POST') {
-  try{
-    console.log('entrando...')
-    // Getting posted data from our contact form
-    const data = await Astro.request.formData();
-    const name = data.get('name');
-    const email = data.get('email');
-    const message = data.get('message');
-
-    // TODO: Do not forget to do validation and error handling over received data from your contact form.
-
-    // Sending email
-    const msg = {
-      to: 'test@example.com', // Change to your recipient
-      from: 'text@example.com', // Change to your verified sender
-      replyTo: {email:email, name:name},
-      subject: `Contact form submission from ${name}`,
-      text: message,
-    }
-    console.log(msg)
-    await fetch('https://porticosport.com/wp-admin/admin-ajax.php', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: new URLSearchParams({
-        'action': 'wp_mail',
-        'to': 'dmartin.alberto@gmail.com',
-        'subject': 'Asunto del correo electrónico',
-        'message': 'Este es un mensaje de prueba.',
-        'headers': 'From: remitente@example.com',
-      }),
-    })
-    .then(response => {
-      if (response.ok) {
-        console.log('Correo electrónico enviado correctamente');
-      } else {
-        console.error('Hubo un problema al enviar el correo electrónico');
-      }
-    })
-    .catch(error => {
-      console.error('Error al enviar el correo electrónico:', error);
-    });
-
-  } catch (error) {
-    console.error(error);
-  }
-}
+import EmailTemplate from '@/en/email-template/EmailTemplate';
+import CompanyEmailTemplate from '@/en/email-template/CompanyEmailTemplate';
+import { Resend } from 'resend';
 
 interface Props {
   language: string;
   sendText?: string;
-  subject?: string;
+  subject: string;
   hiddenSubject?: boolean;
 }
 
 const {language, hiddenSubject, subject, sendText} = Astro.props
 const i18n = getI18N({ language });
-const countryList = getCountryListByLanguage({ language });
+
+let status = undefined;
+
+if (Astro.request.method === 'POST') {
+  const resend = new Resend('re_3X1kNTwQ_7ByRkREutqgjnHeYaRPccEY5');
+  try{
+    // Getting posted data from our contact form
+    const form = await Astro.request.formData();
+    const name = form.get('name')?.toString();
+    const email = form.get('email')?.toString();
+    const message = form.get('message')?.toString();
+    const country = form.get('country')?.toString();
+    const phone = form.get('phone')?.toString();
+    const subject = form.get('subject')?.toString();
+    const title = i18n.CLIENT_SUBJECT_EMAIL.TITLE;
+    const content1 = i18n.CLIENT_SUBJECT_EMAIL.CONTACT_EMAIL_1.replace('{name}', name);
+    const content2 = i18n.CLIENT_SUBJECT_EMAIL.CONTACT_EMAIL_2;
+    const page = Astro.request.url
+
+    if (email) {
+      // Sending email to the user
+      resend.emails.send({
+        from: 'PorticoSport <clientes@porticogestion.com>',
+        to: [email],
+        subject: title,
+        react: EmailTemplate({ title, language, content1, content2 }),
+      });
+  
+      // Sending email to the company
+      resend.emails.send({
+        from: 'PorticoSport <clientes@porticogestion.com>',
+        to: ['clientes@porticogestion.com'],
+        subject: `<${name}> ${subject}`,
+        react: CompanyEmailTemplate({ page, name, subject, email, phone, country, message, language }),
+      });
+
+      status = 'success';
+    }
+  } catch (error) {
+    console.error(error);
+    status = 'error';
+  }
+}
 ---
 
 <form class="flex-1" method="POST">
-  <InputText name={i18n.CONTACT_FORM.FORM.NAME.ID} label={i18n.CONTACT_FORM.FORM.NAME.LABEL} placeholder={i18n.CONTACT_FORM.FORM.NAME.PLACEHOLDER} />
-  <InputText name={i18n.CONTACT_FORM.FORM.EMAIL.ID} label={i18n.CONTACT_FORM.FORM.EMAIL.LABEL} placeholder={i18n.CONTACT_FORM.FORM.EMAIL.PLACEHOLDER} />
+  <InputText name={i18n.CONTACT_FORM.FORM.NAME.ID} label={i18n.CONTACT_FORM.FORM.NAME.LABEL} placeholder={i18n.CONTACT_FORM.FORM.NAME.PLACEHOLDER} required />
+  <InputText name={i18n.CONTACT_FORM.FORM.EMAIL.ID} label={i18n.CONTACT_FORM.FORM.EMAIL.LABEL} placeholder={i18n.CONTACT_FORM.FORM.EMAIL.PLACEHOLDER} required />
   <div class="flex flex-col lg:flex-row lg:gap-3">
-    <DataList className='flex-1' name={i18n.CONTACT_FORM.FORM.COUNTRY.ID} label={i18n.CONTACT_FORM.FORM.COUNTRY.LABEL} placeholder={i18n.CONTACT_FORM.FORM.COUNTRY.PLACEHOLDER} options={countryList as { option: string; label: string; }[]} />
-    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.PHONE.ID} label={i18n.CONTACT_FORM.FORM.PHONE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.PHONE.PLACEHOLDER} />
+    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.COUNTRY.ID} label={i18n.CONTACT_FORM.FORM.COUNTRY.LABEL} placeholder={i18n.CONTACT_FORM.FORM.COUNTRY.PLACEHOLDER} required />
+    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.PHONE.ID} label={i18n.CONTACT_FORM.FORM.PHONE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.PHONE.PLACEHOLDER} required />
   </div>
   {
-    !hiddenSubject && (
-      <InputText name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} label={i18n.CONTACT_FORM.FORM.SUBJECT.LABEL} placeholder={i18n.CONTACT_FORM.FORM.SUBJECT.PLACEHOLDER} value={subject || ''} />
+    !hiddenSubject ? (
+      <InputText name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} label={i18n.CONTACT_FORM.FORM.SUBJECT.LABEL} placeholder={i18n.CONTACT_FORM.FORM.SUBJECT.PLACEHOLDER} value={subject || ''} required />
+    ) : (
+      <input type="hidden" name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} value={subject || ''} />
     )
   }
   <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} />
   <FormButton type="submit" text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
+
+  {
+    status === 'success' ? (
+      <div class="text-green
+      -500 p-2">{i18n.CONTACT_FORM.SUCCESS}</div>
+    ) : status === 'error' ? (
+      <div class="text-red-500 P-2">{i18n.CONTACT_FORM.ERROR}</div>
+    ) : null
+  }
 </form>

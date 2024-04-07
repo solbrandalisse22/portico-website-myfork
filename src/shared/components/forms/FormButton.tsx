@@ -3,10 +3,11 @@ import styles from '@/shared/styles/ContactForm.module.css';
 interface FormButtonProps {
   type?: 'submit' | 'reset' | 'button';
   text: string;
-  props?: any;
+  onClick?: () => void;
+  [key: string]: any;
 }
 
-export default function FormButton({type = 'submit', text, props}: FormButtonProps) {
+export default function FormButton({type = 'submit', text, onCLick, ...props}: FormButtonProps) {
   return (
     <button
       {...props}

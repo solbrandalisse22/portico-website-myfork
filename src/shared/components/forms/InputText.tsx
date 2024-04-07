@@ -27,9 +27,11 @@ interface InputTextProps {
   value?: string;
   props?: any;
   className?: string;
+  required?: boolean;
+  [key: string]: any;
 }
 
-export default function InputText({name, type = 'text', label, placeholder, value, className, ...props}: InputTextProps) {
+export default function InputText({name, type = 'text', label, placeholder, value, className, required, ...props}: InputTextProps) {
   return (
     <div class={`mb-5 ${className}`}>
       <label for={name} class="mb-3 pl-2 block text-base font-medium">
@@ -42,7 +44,7 @@ export default function InputText({name, type = 'text', label, placeholder, valu
         id={name}
         value={value}
         placeholder={placeholder}
-        required
+        required={required}
         class="w-full rounded-full border bg-white py-3 px-6 text-base font-medium text-[#6B7280] focus:border-primary focus:ring-2 focus:ring-primary outline-none autofill:bg-black/30 valid:bg-black/60 valid:text-white valid:border-primary"
       />
     </div>

@@ -8,7 +8,7 @@ import Section from "@/shared/components/Section.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
 import { CountUp } from "@/shared/components/CountUp";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
-import ContactForm from "@/shared/components/forms/ContactForm";
+import ContactForm from "@/shared/components/forms/ContactForm.astro";
 
 interface Props {
   language: string;
@@ -90,7 +90,7 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
           </div>
           <div class="flex-1">
             <Typography tag="h2" text={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.TITLE} className="mb-8" responsive type="secondary" />
-            <ContactForm client:visible language={language} sendText={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SEND_TEXT} />
+            <ContactForm subject={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SUBJECT} language={language} sendText={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SEND_TEXT} hiddenSubject />
           </div>
         </div>
       </Section>
