@@ -14,7 +14,7 @@ interface Props {
   hiddenSubject?: boolean;
 }
 
-const {language, hiddenSubject, subject, sendText} = Astro.props
+const {language, hiddenSubject, subject = '', sendText} = Astro.props
 const i18n = getI18N({ language });
 
 let status = undefined;
@@ -25,12 +25,12 @@ if (Astro.request.method === 'POST') {
   try{
     // Getting posted data from our contact form
     const form = await Astro.request.formData();
-    const name = form.get('name')?.toString();
-    const email = form.get('email')?.toString();
-    const message = form.get('message')?.toString();
-    const country = form.get('country')?.toString();
-    const phone = form.get('phone')?.toString();
-    const subject = form.get('subject')?.toString();
+    const name = form.get('name')?.toString() ?? '';
+    const email = form.get('email')?.toString() ?? '';
+    const message = form.get('message')?.toString() ?? '';
+    const country = form.get('country')?.toString() ?? '';
+    const phone = form.get('phone')?.toString() ?? '';
+    const subject = form.get('subject')?.toString() ?? '';
     const title = i18n.CLIENT_SUBJECT_EMAIL.TITLE;
     const content1 = i18n.CLIENT_SUBJECT_EMAIL.CONTACT_EMAIL_1.replace('{name}', name);
     const content2 = i18n.CLIENT_SUBJECT_EMAIL.CONTACT_EMAIL_2;

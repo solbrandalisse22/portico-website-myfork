@@ -504,6 +504,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition from Panoramic Flow Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-contact-bg.webp",
@@ -678,6 +679,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition from Panoramic Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
@@ -1043,6 +1045,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition from Club Plus Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/club-plus/club-plus-contact-bg.webp",
@@ -1226,6 +1229,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition from Force 80 Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/force-80/force-80-contact-bg.webp",
@@ -1416,6 +1420,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition from Single Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
@@ -1597,6 +1602,7 @@
           "DESCRIPTION": "Do you want something different? You can see other Padel Courts models"
         },
         "CONTACT_SECTION": {
+          "ID": "contact",
           "SUBJECT": "New petition from Mini Court",
           "TITLE": "News",
           "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",

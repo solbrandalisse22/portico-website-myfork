@@ -67,7 +67,7 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
         }}>
           <strong>Message:</strong> <p style={{paddingTop: '1rem'}}>{message}</p>
         </div>
-        <FooterEmailTemplate />
+        <FooterEmailTemplate language={language} />
       </div>
     </div>
   );
