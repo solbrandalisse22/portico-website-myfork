@@ -23,7 +23,7 @@ const category = getCategoryByLanguage({ language });
 
 const page = Number(Astro.url.searchParams.get("page") || 1);
 const response = await fetch(
-  `https://mobilepadelcourt.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=12&page=${page}&_embed`
+  `https://padelismore.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=12&page=${page}&_embed`
 );
 const totalPages = Number(response.headers.get("X-WP-TotalPages"));
 const posts = await response.json();
