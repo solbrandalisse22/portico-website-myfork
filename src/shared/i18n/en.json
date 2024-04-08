@@ -2335,6 +2335,11 @@
         "LABEL": "Subject",
         "PLACEHOLDER": "Enter your subject"
       },
+      "PAGE": {
+        "ID": "page",
+        "LABEL": "page",
+        "PLACEHOLDER": "Enter your subject"
+      },
       "MESSAGE": {
         "ID": "message",
         "LABEL": "Message",
@@ -2342,8 +2347,8 @@
       },
       "SEND": "Send"
     },
-    "SUCCESS": "Your message has been sent successfully!",
-    "ERROR": "An error occurred while sending your message. Please try again later."
+    "SUCCESS": "Thank you for contacting us! We've received your message and will get back to you shortly.",
+    "ERROR": "You have Missing required fields, you must complete all fields, them send the form."
   },
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Lighting types",

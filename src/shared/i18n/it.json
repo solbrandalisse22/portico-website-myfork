@@ -2335,6 +2335,11 @@
         "LABEL": "Subject",
         "PLACEHOLDER": "Enter your subject"
       },
+      "PAGE": {
+        "ID": "page",
+        "LABEL": "page",
+        "PLACEHOLDER": "Enter your subject"
+      },
       "MESSAGE": {
         "ID": "message",
         "LABEL": "Message",

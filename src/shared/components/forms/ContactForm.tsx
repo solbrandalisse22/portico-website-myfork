@@ -13,6 +13,9 @@ interface ContactFormProps {
   hiddenSubject?: boolean;
 }
 
+const randomId = Math.random().toString(36).substring(7);
+const formId = randomId;
+
 export default function ContactForm({language, hiddenSubject, subject, sendText}: ContactFormProps) {
   const i18n = getI18N({ language });
   const countryList = getCountryListByLanguage({ language });
@@ -61,7 +64,7 @@ export default function ContactForm({language, hiddenSubject, subject, sendText}
         )
       }
       <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} />
-      <FormButton onClick={() => sendEmail()} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
+      <FormButton formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
     </form>
   );
 }
