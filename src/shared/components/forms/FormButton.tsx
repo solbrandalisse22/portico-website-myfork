@@ -39,7 +39,7 @@ export default function FormButton({type = 'button', text, formId, ...props}: Fo
         {...props}
         disabled={loading}
         onClick={() => onClick()}
-        type="button"
+        type={type}
         class={`w-fit text-lg font-medium no-underline px-5 py-3 border border-solid border-white rounded-full uppercase ${styles['form-button']}`}
       >
         {loading ? 'Loading...' : text}

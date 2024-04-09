@@ -8,6 +8,6 @@ import auth from "auth-astro";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), preact(), auth()],
-  output: "hybrid",
+  output: "server",
   adapter: vercel()
 });

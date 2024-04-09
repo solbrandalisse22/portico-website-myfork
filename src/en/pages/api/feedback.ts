@@ -7,7 +7,7 @@ import CompanyEmailTemplate from '@/en/email-template/CompanyEmailTemplate';
 const language = 'en';
 const i18n = getI18N({ language });
 
-export const GET: APIRoute = async ({ request }) => {
+export const POST: APIRoute = async ({ request }) => {
   const apiKey = import.meta.env.RESEND_API_KEY;
   const resend = new Resend(apiKey);
   const form = await request.formData();
