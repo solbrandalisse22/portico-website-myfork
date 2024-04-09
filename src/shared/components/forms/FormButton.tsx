@@ -16,7 +16,7 @@ export default function FormButton({type = 'submit', text, formId, ...props}: Fo
   const onClick = async () => {
     setLoading(true);
     const formData = new FormData(document.getElementById(formId) as HTMLFormElement);
-    const response = await fetch("/api/feedback", {
+    const response = await fetch("/feedback", {
       method: "POST",
       body: formData,
     });
