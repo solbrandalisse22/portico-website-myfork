@@ -49,7 +49,8 @@ export default function FormButton({type = 'submit', text, formId, language, ...
         from: 'PorticoSport <clientes@porticogestion.com>',
         to: [email],
         subject: title,
-        react: EmailTemplate({ title, language, content1, content2 }),
+        // react: EmailTemplate({ title, language, content1, content2 }),
+        html: '<strong>Hola</strong>'
       });
     
       // Sending email to the company
@@ -57,7 +58,8 @@ export default function FormButton({type = 'submit', text, formId, language, ...
         from: 'PorticoSport <clientes@porticogestion.com>',
         to: ['clientes@porticogestion.com'],
         subject: `<${name}> ${subject}`,
-        react: CompanyEmailTemplate({ page, name, subject, email, phone, country, message, language }),
+        // react: CompanyEmailTemplate({ language, page, name, subject, email, phone, country, message }),
+        html: '<strong>Hola</strong>'
       });
       setResponseMessage(i18n.CONTACT_FORM.SUCCESS);
       setStatus(200);
