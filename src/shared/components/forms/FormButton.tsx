@@ -13,6 +13,12 @@ export default function FormButton({type = 'button', text, formId, ...props}: Fo
   const [status, setStatus] = useState(0 as 200 | 400);
   const [loading, setLoading] = useState(false);
 
+
+  const resetForm = () => {
+    const form = document.getElementById(formId) as HTMLFormElement;
+    form.reset();
+  }
+
   const onClick = async () => {
     setLoading(true);
     const formData = new FormData(document.getElementById(formId) as HTMLFormElement);
@@ -25,6 +31,7 @@ export default function FormButton({type = 'button', text, formId, ...props}: Fo
       setResponseMessage(data.message);
       setStatus(data.status);
     }
+    resetForm()
     setLoading(false);
     if (data.status === 200) {
       setTimeout(() => {
