@@ -64,7 +64,7 @@ export default function ContactForm({language, hiddenSubject, subject, sendText}
         )
       }
       <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} />
-      <FormButton formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
+      <FormButton language={language} formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
     </form>
   );
 }

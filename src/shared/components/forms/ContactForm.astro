@@ -35,5 +35,5 @@ const formId = randomId;
   }
   <input type="hidden" name={i18n.CONTACT_FORM.FORM.PAGE.ID} value={page} />
   <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} />
-  <FormButton client:visible formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
+  <FormButton language={language} client:visible formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
 </form>
