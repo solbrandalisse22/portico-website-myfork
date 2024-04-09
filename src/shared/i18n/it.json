@@ -1887,15 +1887,15 @@
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
-    "AUTHORIZED_DEALER": {
-      "ID": "authorized-dealer",
+    "AUTHORIZED_DISTRIBUTOR": {
+      "ID": "authorized-distributor",
       "SEO_TITLE": "Connect with Portico Sport: Your Global Partner for Padel Court Excellence",
       "SEO_DESCRIPTION": "Get in touch with Portico Sport, your trusted global partner for premium padel court solutions. Contact us today to start building your dream padel court and elevate your game to new heights.",
       "TITLE": "Would you Like to become a Portico Sport's distributor in your country?",
       "SUBTITLE": "Join the leading company in the manufacturing and installation of padel courts and canopies.",
       "ROUTE": {
-        "LABEL": "Authorized dealer",
-        "URL": "/authorized-dealer"
+        "LABEL": "Authorized distributor",
+        "URL": "/authorized-distributor"
       },
       "INTRO_SECTION": {
         "ID": "intro",

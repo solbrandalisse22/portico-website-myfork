@@ -23,8 +23,8 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
 ---
 
 <Layout
-  title={i18n.PAGES.AUTHORIZED_DEALER.SEO_TITLE}
-  description={i18n.PAGES.AUTHORIZED_DEALER.SEO_DESCRIPTION}
+  title={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.SEO_TITLE}
+  description={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage="/heros/background-authorized-dealer.webp"
@@ -34,14 +34,14 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
     <div
       class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
     >
-      <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.AUTHORIZED_DEALER.TITLE} responsive />
-      <Typography tag="div" className="text-center px-3" type="primary" text={i18n.PAGES.AUTHORIZED_DEALER.SUBTITLE} responsive />
+      <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.TITLE} responsive />
+      <Typography tag="div" className="text-center px-3" type="primary" text={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.SUBTITLE} responsive />
     </div>
     <div class="bg-main relative bg-background">
       <Breadcrumb
         crumbs={[
           { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
-          { label: i18n.PAGES.AUTHORIZED_DEALER.ROUTE.LABEL, href: i18n.PAGES.AUTHORIZED_DEALER.ROUTE.URL },
+          { label: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.LABEL, href: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.URL },
         ]}
       />
       <Section>
@@ -63,14 +63,14 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
       >
         <div class="p-4 md:p-8 flex flex-col gap-4 lg:flex-row lg:gap-8 flex-1 justify-center mx-auto max-w-[1400px]">
           <div class="flex-1">
-            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.TITLE} className="mb-8 font-bold" responsive type="secondary" />
-            <Typography tag="h3" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.SUBHEADING} className="mb-8 font-thin" responsive type="primary" size="small" />
-            <Typography tag="div" text={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.DESCRIPTION} className="mb-8" responsive />
-            <FeatureList list={i18n.PAGES.AUTHORIZED_DEALER.INTRO_SECTION.FEATURE_LIST} />
+            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.INTRO_SECTION.TITLE} className="mb-8 font-bold" responsive type="secondary" />
+            <Typography tag="h3" text={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.INTRO_SECTION.SUBHEADING} className="mb-8 font-thin" responsive type="primary" size="small" />
+            <Typography tag="div" text={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.INTRO_SECTION.DESCRIPTION} className="mb-8" responsive />
+            <FeatureList list={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.INTRO_SECTION.FEATURE_LIST} />
           </div>
           <div class="flex-1">
-            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DEALER.CONTACT_SECTION.TITLE} className="mb-8 font-bold" responsive type="secondary" />
-            <ContactForm subject={i18n.PAGES.AUTHORIZED_DEALER.CONTACT_SECTION.SUBJECT} language={language} sendText={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SEND_TEXT} hiddenSubject />
+            <Typography tag="h2" text={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.CONTACT_SECTION.TITLE} className="mb-8 font-bold" responsive type="secondary" />
+            <ContactForm subject={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.CONTACT_SECTION.SUBJECT} language={language} sendText={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.SEND_TEXT} hiddenSubject />
           </div>
         </div>
       </Section>
