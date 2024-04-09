@@ -8,7 +8,7 @@ const language = 'en';
 const i18n = getI18N({ language });
 
 export const POST: APIRoute = async ({ request }) => {
-  const apiKey = 're_848tb1So_PpssHN3WGekWfE2we6GPVFyo';
+  const apiKey = import.meta.env.RESEND_API_KEY;
   const resend = new Resend(apiKey);
   const form = await request.formData();
   const name = form.get('name')?.toString() ?? '';

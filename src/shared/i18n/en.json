@@ -146,7 +146,7 @@
       "TITLE": "Padel Courts",
       "SUBTITLE": "Discover all our Padel Courts",
       "ROUTE": {
-        "LABEL": "Courts",
+        "LABEL": "All courts",
         "URL": "/padel-courts"
       },
       "MOBILE_COURT": {
@@ -359,7 +359,7 @@
         "SEO_DESCRIPTION":"The Panoramic Flow court is an enhanced version of our Panoramic court. Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings. This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.",
         "TITLE": "<span>Panoramic FLOW court</span>",
         "DETAIL_TITLE": "<span>Panoramic FLOW court</span>",
-        "DESCRIPTION": "<p>Inspired by those courts you see on TV at professional events, the Panoramic Flow court is an evolution of our Panoramic court model.</p><p>Designed by Portico Sport's engineering department, this court model eliminates the corners of the metal structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings.</p><p>This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
+        "DESCRIPTION": "<p>Inspired by those courts you see on TV at professional events, the Panoramic Flow court is an evolution of our Panoramic court model.</p><p>Designed by Portico Sport's engineering department, this court model eliminates the corners of the steel structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings.</p><p>This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
         "SUBTITLE": "Enjoy padel with an unobstructed panoramic view of the surroundings.",
         "NAME": "Panoramic Flow court",
         "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
@@ -367,12 +367,12 @@
         "CONTACT_SUBJECT": "New petition from Panoramic Flow Court",
         "CONTACT_BUTTON": "I want a Panoramic Flow court",
         "ROUTE": {
-          "LABEL": "More about panoramic flow court",
+          "LABEL": "More about Panoramic Flow court",
           "URL": "/padel-courts/panoramic-flow"
         },
         "FIRST_SECTION": {
           "TITLE": "<span class=\"text-secondary\">Experience Padel Like Never Before!</span>",
-          "DESCRIPTION": "<p>Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club.</p><p>Perfectly adapted for any setting, indoor or outdoor, the Panoramic Flow court has no structural elements obstructing the views making it the perfect court for your club events and tournaments.</p><p>The Panoramic flow court is the best option for clubs looking to have the most pleasantly looking courts.</p>",
+          "DESCRIPTION": "<p>Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club.</p><p>Perfectly adapted for any setting, indoor or outdoor, the Panoramic Flow court has no structural elements obstructing the views making it the perfect court for your club events and tournaments.</p><p>The Panoramic Flow court is the best option for clubs looking to have the most pleasantly looking courts.</p>",
           "IMAGES": {
             "FRONT": {
               "src": "/courts-detail/panoramic-flow/panoramic-flow-front.webp",
@@ -909,7 +909,7 @@
         "FIRST_SECTION": {
           "ID": "courts-views",
           "TITLE": "<span class=\"text-secondary\">Unlock Unmatched Quality and Durability with our Club Plus Court!</span>",
-          "DESCRIPTION": "<p>Our Club Plus Court is the pinnacle of engineering excellence, meticulously crafted to meet industry standards and exceed the expectations of even the most discerning players.</p><p>Suitable for both indoor and outdoor use, its superior structure is specially designed to withstand high wind gusts and adverse weather conditions, making it ideal for outdoor environments.</p><p>Its classic design and extensive customization options ensure it blends into any setting, making it the ultimate choice for top-tier padel clubs seeking uniqueness and superiority.</p>",
+          "DESCRIPTION": "<p>Our Club Plus Court is the pinnacle of engineering excellence, meticulously crafted to meet industry standards and exceed the expectations of even the most discerning players.</p><p>Its reinforced structure is specially designed to withstand high wind gusts and adverse weather conditions, making it ideal for outdoor environments.</p><p>Its classic design and extensive customization options ensure it blends into any setting, making it the ultimate choice for top-tier padel clubs seeking uniqueness and superiority.</p>",
           "IMAGES": {
             "FRONT": {
               "src": "/courts-detail/club-plus/club-plus-front.webp",
@@ -1083,7 +1083,7 @@
         "SEO_TITLE": "Force 80 Court - Padel Court",
         "SEO_DESCRIPTION":"Our Force 80 court stands out as one of the most resilient padel courts on the market. Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s. The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions. If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.",
         "TITLE": "<span>Force 80 court</span>",
-        "DESCRIPTION": "<p>Since 2021, our Force 80 court created a category of its own. A court specially designed for areas with extreme weather conditions that stands out as the most resilient padel court on the market.</p><p>Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, enabling it to withstand hurricane-force winds of up to 80 m/s.</p><p>The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions.</p><p>If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.</p>",
+        "DESCRIPTION": "<p>Since 2021, our Force 80 court created a category of its own. A court specially designed for areas with extreme weather conditions that stands out as the most resilient padel court on the market.</p><p>Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, capable to withstand hurricane-force winds of up to 80 m/s (288.0km/h).</p><p>The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions.</p><p>If you want to enjoy padel regardless of the challenging weather, the Force 80 court is an excellent choice.</p>",
         "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
         "SUBTITLE": "Enjoy padel regardless of the challenging weather.",
         "CONTACT_TITLE_1": "Do you want a Force 80 Court?",
@@ -1637,7 +1637,7 @@
       "TITLE": "High-performance canopies",
       "TITLE_ALT": "High-performance canopies",
       "SUBTITLE": "Innovation, quality and high technology",
-      "SUBSUBTITLE": "Enhances play experience",
+      "SUBSUBTITLE": "Enhances your play experience",
       "DESCRIPTION": "Our canopies grant a significant increase in the long-term usage of the padel courts.",
       "ROUTE": {
         "LABEL": "Canopies",
@@ -1701,6 +1701,7 @@
         "ID": "contact",
         "SUBJECT": "New petition from Canopy",
         "TITLE": "Contact us",
+        "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts and canopies! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p>",
         "BUTTON_TEXT": "I WANT MORE INFORMATION ABOUT CANOPIES",
         "BG_IMAGE": "canopies/canopies-contact-bg.webp",
         "IMAGE": "canopies/canopy-contact.webp"
@@ -1715,7 +1716,7 @@
       "ID": "projects",
       "SEO_TITLE": "Projects - Padel Court",
       "SEO_DESCRIPTION":"Discover the latest projects of Portico Sport",
-      "SUBTITLE": "Discover the latest projects of Portico Sport",
+      "SUBTITLE": "Discover some of the latest",
       "TITLE": "Projects By <span class=\"text-primary\">Portico Sport</span>",
       "POSTTITLE": "Padel courts and Canopies clubs by Portico Sport",
       "PROJECTS_CLUB_SECTION": {
@@ -1739,7 +1740,7 @@
       "SEO_DESCRIPTION":"Our factory is the largest and most technologically advanced in the industry. We have a new manufacturing site expanding over 110k sqft. Our factory is equipped with the latest technology and machinery, allowing us to manufacture and install padel courts and canopies worldwide.",
       "TITLE": "<span class=\"block\">Portico Sport:</span> <span class=\"text-xl\">a Factory for the new era of Padel</span>",
       "SUBTITLE": "The largest padel courts and canopies manufacturing site",
-      "DESCRIPTION": "<p>The company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
+      "DESCRIPTION": "<p>Inaugurated in 2023, the company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
       "ROUTE": {
         "LABEL": "Our Factory",
         "URL": "/our-factory"
@@ -2202,7 +2203,7 @@
     "LEGAL": {
       "TITLE": "Legal",
       "NOTICE": "Aviso Legal",
-      "PRIVACY": "Privacidad",
+      "PRIVACY": "Privacy Policy",
       "COOKIES": "Cookies",
       "PRIVACY_POLICY": "Política de Privacidad",
       "TOS": "Términos y Condiciones"
@@ -2228,7 +2229,7 @@
     "FIRST_SECTION": {
       "TITLE": "Your padel court on any terrain",
       "SUBTITLE": "The perfect solution for you!",
-      "DESCRIPTION": "At Portico Sport, our engineering team has developed an innovative, elevated, modular and removable platform, specifically designed to adapt to any type of terrain.This platform provides a sturdy and reliable foundation for all our court models, enabling clients to establish their padel space irrespective of terrain conditions. Additionally, clients can save on ground preparation expenses and permit acquisition as only a soil test is necessary to place the platform."
+      "DESCRIPTION": "At Portico Sport, our engineering team has developed an innovative, elevated, modular and removable platform, specifically designed to fit to any type of terrain.This platform provides a sturdy and reliable foundation for all our court models, enabling clients to establish their padel space irrespective of terrain conditions. Additionally, clients can save on ground preparation expenses and permit acquisition as only a soil test is necessary to place the platform."
     },
     "FEATURE_SECTION": {
       "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Elevate your passion for padel to new heights with</span><br/> <span>our innovative elevated platform!</span>",
@@ -2241,7 +2242,7 @@
         "alt": "Elevate your passion for padel to new heights"
       },
       "LIST": [
-        "Same structural resistance as our Club court model, capable of withstanding wind speeds of 115 km/h (71.5 mph).",
+        "Same structural resistance as our Club court model, capable of withstanding wind speeds.",
         "Only a ground report is necessary to place the platform.",
         "Quick and easy assembly.",
         "Structural stability to ensure the best playing experience.",
