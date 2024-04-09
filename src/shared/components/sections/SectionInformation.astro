@@ -25,7 +25,7 @@ const { image, subtitle, title, text, buttonUrl, buttonText } = Astro.props;
           title && (<Typography tag="h2" type="secondary" className="flex items-center gap-5 lg:gap-20 px-4 text-center font-bold uppercase" responsive text={title} />)
         }
         {
-          text && (<Typography tag="div" className="text-center px-4 mb-0" responsive text={text} />)
+          text && (<Typography tag="div" className="text-center px-4 mb-0 lg:px-48" responsive text={text} />)
         }
         {
           buttonUrl && buttonText ? (
