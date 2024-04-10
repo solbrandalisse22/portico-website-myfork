@@ -3,102 +3,72 @@
     "src": "projects-1.webp",
     "height": 767,
     "width": 1152,
-    "alt": "Riverside Sports Club in New Zealand"
+    "alt": "Padelon Deuthschland in Germany"
+  },
+  {
+    "src": "projects-2.webp",
+    "height": 767,
+    "width": 1152,
+    "alt": "Let's Padel in Denmark"
+  },
+  {
+    "src": "projects-3.webp",
+    "height": 767,
+    "width": 1152,
+    "alt": "Harrogate Spa Tennis in the UK"
   },
   {
     "src": "projects-4.webp",
     "height": 767,
     "width": 1152,
-    "alt": "Harrogate Spa Tennis in the UK"
+    "alt": "El Rincón de Cajica in Colombia"
   },
   {
     "src": "projects-5.webp",
     "height": 767,
     "width": 1152,
-    "alt": "Harrogate Spa Tennis in the UK"
+    "alt": "Padel club in Houston, USA"
   },
   {
     "src": "projects-6.webp",
     "height": 767,
     "width": 1152,
-    "alt": "The Padel club in the UK"
+    "alt": "Majjaka Padel in Finland"
   },
   {
     "src": "projects-7.webp",
     "height": 767,
     "width": 1152,
-    "alt": "Ilkley Lawn tennis & squash club in th UK"
+    "alt": "Big Padel in France"
   },
   {
     "src": "projects-8.webp",
     "height": 768,
     "width": 1152,
-    "alt": "Skipton Tennis Centre in the UK"
+    "alt": "Bapadel Barcelona golf resort in Spain"
   },
   {
     "src": "projects-9.webp",
     "height": 1344,
     "width": 2016,
-    "alt": "Bapadel Barcelona golf resort in Spain"
+    "alt": "Riverside Sport Club in New Zealand"
+  },
+  {
+    "src": "projects-10.webp",
+    "height": 1344,
+    "width": 2016,
+    "alt": "The Padel Club in the UK"
   },
   {
     "src": "projects-11.webp",
     "height": 767,
     "width": 1152,
-    "alt": "Bapadel Barcelona golf resort in Spain"
+    "alt": "Virgin Active the Glen in South Africa"
   },
   {
     "src": "projects-12.webp",
     "height": 767,
     "width": 1152,
-    "alt": "Bapadel Barcelona golf resort in Spain"
-  },
-  {
-    "src": "projects-10.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Private court in th UK"
-  },
-  {
-    "src": "projects-13.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Club cerrado del Aguila in Spain"
-  },
-  {
-    "src": "projects-21.webp",
-    "height": 409,
-    "width": 614,
-    "alt": "Club cerrado del Aguila in Spain"
-  },
-  {
-    "src": "projects-14.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Blue Padel Kourts in Portugal"
-  },
-  {
-    "src": "projects-16.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Ocean Padel Club luz in Portugal"
-  },
-  {
-    "src": "projects-19.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Padel club court"
-  },
-  {
-    "src": "projects-20.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Padel Mate Club Amstelveen in the Netherlands"
-  },
-  {
-    "src": "projects-22.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "Kneippbyn Resort Visby in Sweden"
+    "alt": "Indoor Padel in Australia"
   }
 ]
