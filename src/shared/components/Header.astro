@@ -142,19 +142,14 @@ const LINKS = [
                 class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
               >
                 <ul
-                  class="py-2 text-sm flex flex-col gap-4 w-full"
+                  class="py-2 text-sm flex flex-col gap-4 w-full bg-background/90 rounded-xl border"
                   aria-labelledby="dropdownLargeButton"
                 >
                   {children.map(({ href, text }) => (
-                    <li>
-                      <Button
-                        size="sm"
-                        class="text__glowing bg-background/90 hover:text-black w-full flex justify-center items-center normal-case"
-                        url={href}
-                        target="_self"
-                      >
+                    <li class="text-center">
+                      <HeaderLink class={`text__glowing w-full text-lg`} href={href}>
                         {capitalize(text)}
-                      </Button>
+                      </HeaderLink>
                     </li>
                   ))}
                 </ul>
