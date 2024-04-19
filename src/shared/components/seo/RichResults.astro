@@ -1,0 +1,29 @@
+---
+/** https://developers.google.com/search/docs/appearance/structured-data/organization */
+const organizationSchema = {
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"url": "https://porticosport.com",
+	"image": "https://porticosport.com/og/og-portico.jpg",
+	"sameAs": [
+		"https://www.facebook.com/porticosport",
+		"https://x.com/portico_sport",
+		"https://www.instagram.com/portico.sport",
+		"https://www.linkedin.com/company/portico-sport/"
+	],
+	"logo": "https://porticosport.com/logo-portico-sport.svg",
+	"name": "Portico Sport: Padel Courts & Canopies Worldwide",
+	"description": "Portico Sport: Premier Padel court construction & canopy installation globally",
+  "email": "info@porticosport.com",
+  "telephone": "+34-628-818-913",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C/ Albañiles",
+    "addressLocality": "Badajoz",
+    "addressCountry": "ES",
+    "addressRegion": "Villafranca de los Barros",
+  },
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />

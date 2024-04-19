@@ -1,6 +1,7 @@
 ---
 import { ViewTransitions } from "astro:transitions";
 import Header from "../components/Header.astro";
+import Seo from "@/shared/components/seo/Seo.astro";
 import Footer from "@/shared/components/Footer.astro";
 import "@fontsource-variable/onest";
 import "@fontsource/prompt/100.css";
@@ -24,12 +25,7 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
 <!doctype html>
 <html lang={currentLocale}>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="robots" content="nofollow, noindex" />
-    <title>{title}</title>
+    <Seo title={title} description={description} currentLocale={currentLocale} />
     <slot name="preload" />
     <ViewTransitions />
   </head>
@@ -50,9 +46,6 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
       showScrollImage && <ScrollSvgAnimation className="absolute right-10 top-1/2 -translate-y-1/2 z-20" width="30px" />
     }
     <slot />
-    <!-- <div id="loading">
-      Loading...
-    </div> -->
     <Footer language={language} />
     <style is:global>
       :root {
@@ -175,12 +168,5 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
         }
       }
     </style>
-  </body><!-- <script is:inline>
-  document.addEventListener('astro:before-preparation', () => {
-    document.querySelector('#loading').classList.add('show');
-  });
-  document.addEventListener('astro:after-preparation', () => {
-    document.querySelector('#loading').classList.remove('show');
-  });
-</script> -->
+  </body>
 </html>

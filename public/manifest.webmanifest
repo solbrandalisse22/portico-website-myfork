@@ -1,0 +1,26 @@
+{
+    "name": "Portico Sport",
+    "short_name": "Portico Sport",
+    "description": "Premier Padel court construction & canopy installation globally. Explore our tailored solutions today!",
+    "theme_color": "#151a36",
+    "background_color": "#151a36",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "/logos/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/logos/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/logos/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

@@ -1,0 +1,64 @@
+---
+import RichResults from "@/shared/components/seo/RichResults.astro"
+
+interface Props {
+	title: string
+	description: string
+	canonical?: string
+	image?: string
+    keywords?: string
+    currentLocale: string
+    robots?: string
+}
+
+const {
+    title,
+	description,
+    currentLocale,
+	canonical,
+    robots = "index, follow",
+	image = "https://porticosport.com/og/og-portico.jpg",
+    keywords = "Padel Court, Padel, Padel Indoor, Padel Outdoor"
+} = Astro.props as Props
+
+const canonicalURL = canonical
+	? new URL(canonical, Astro.site)
+	: new URL(Astro.url.pathname, Astro.site)
+---
+
+<title>{title}</title>
+
+<meta charset="UTF-8" />
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
+<meta name="viewport" content="width=device-width" />
+<meta name="theme-color" content="#151a36" />
+<meta name="keywords" content={keywords} />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@portico_sport" />
+<meta name="twitter:creator" content="@portico_sport" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={new URL(image, Astro.url)} />
+
+<meta name="og:image" content={new URL(image, Astro.url)} />
+<meta name="og:title" content={title} />
+<meta name="og:description" content={description} />
+<meta name="og:url" content={Astro.url} />
+<meta name="og:site_name" content="Portico Sport" />
+<meta name="og:type" content="website" />
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta name="og:locale" content={currentLocale} />
+
+<meta name="robots" content={robots} />
+<meta name="googlebot" content={robots} />
+
+<link rel="apple-touch-icon" href="/logos/icon-512.png" />
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="msapplication-config" content="/browserconfig.xml" />
+
+<link rel="manifest" href="/manifest.webmanifest" />
+<RichResults />
