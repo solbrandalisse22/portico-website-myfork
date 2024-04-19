@@ -31,10 +31,10 @@ export const getCategoryByLanguage = ({
 }: {
   language: string | undefined
 }) => {
+  if (LANGUAGES[language.toUpperCase()] === 'en') return 3
   if (LANGUAGES[language.toUpperCase()] === 'it') return 12
   if (LANGUAGES[language.toUpperCase()] === 'fr') return 13
   if (LANGUAGES[language.toUpperCase()] === 'es') return 1
-  if (LANGUAGES[language.toUpperCase()] === 'fr') return 1
   return 1
 }
 
