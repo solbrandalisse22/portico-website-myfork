@@ -40,7 +40,7 @@
         },
         "POINT_5": {
           "TITLE": "Design, manufacturing, and installation according to each client's needs",
-          "SUBTITLE": "Based on the highest quality standards, our courts and covers are custom-designed to meet the specific needs of each client because we understand that every project is unique."
+          "SUBTITLE": "Based on the highest quality standards, our courts and canopies are custom-designed to meet the specific needs of each client because we understand that every project is unique."
         },
         "POINT_6": {
           "TITLE": "Installed courts",
@@ -1984,7 +1984,7 @@
           },
           {
             "TITLE": "Bespoke Design, Manufacturing, and Installation",
-            "DESCRIPTION": "Experience the pinnacle of quality with Portico Sport. Our courts and covers are meticulously designed, manufactured, and installed to meet your unique specifications. We understand that every project is different, and we're committed to delivering excellence tailored to your needs."
+            "DESCRIPTION": "Experience the pinnacle of quality with Portico Sport. Our courts and canopies are meticulously designed, manufactured, and installed to meet your unique specifications. We understand that every project is different, and we're committed to delivering excellence tailored to your needs."
           },
           {
             "TITLE": "Satisfaction Guaranteed",
@@ -2237,6 +2237,7 @@
   "ELEVATED_PLATFORM": {
     "SEO_TITLE": "Elevated Platform - Padel Court",
     "SEO_DESCRIPTION":"The elevated platform is a patented system designed for sports practice, offering mobility and stability. Find out more about our innovative solution!",
+    "OG_IMG": "https://porticosport.com/og/og-elevated-platform.jpg",
     "ID": "elevated-platform",
     "TITLE": "Elevated Platform",
     "SUBTITLE": "- Leaders in manufacture and installation of padel courts –",

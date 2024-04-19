@@ -17,15 +17,16 @@ interface Props {
   bgImage?: string;
   bgClass?: string;
   showScrollImage?: boolean;
+  ogImage?: string;
 }
 
-const { description, title, currentLocale, language, bgImage, bgClass, showScrollImage } = Astro.props;
+const { description, title, currentLocale, language, bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={currentLocale}>
   <head>
-    <Seo title={title} description={description} currentLocale={currentLocale} />
+    <Seo title={title} description={description} currentLocale={currentLocale} image={ogImage} />
     <slot name="preload" />
     <ViewTransitions />
   </head>
