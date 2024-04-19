@@ -7,7 +7,8 @@ import "@fontsource-variable/onest";
 import "@fontsource/prompt/100.css";
 import "@fontsource/prompt/300.css";
 import "@fontsource/prompt/500.css";
-import ScrollSvgAnimation from "../components/ScrollSvgAnimation.astro";
+import ScrollSvgAnimation from "@/shared/components/ScrollSvgAnimation.astro";
+import GoogleAnalytics from "@/shared/components/analytics/GoogleAnalytics.astro";
 
 interface Props {
   description: string;
@@ -27,6 +28,7 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
 <html lang={currentLocale}>
   <head>
     <Seo title={title} description={description} currentLocale={currentLocale} image={ogImage} />
+    <GoogleAnalytics id="G-0M1X7NMZ6B" />
     <slot name="preload" />
     <ViewTransitions />
   </head>
