@@ -2351,6 +2351,11 @@
         "LABEL": "Phone",
         "PLACEHOLDER": "Enter your phone number"
       },
+      "TERMS": {
+        "ID": "terms",
+        "LABEL": "I agree with the",
+        "LINK_TEXT": "terms and conditions"
+      },
       "SUBJECT": {
         "ID": "subject",
         "LABEL": "Subject",
@@ -2368,6 +2373,7 @@
       },
       "SEND": "Send"
     },
+    "ACCEPT_TERMS": "You must accept the terms and conditions",
     "SUCCESS": "Thank you for contacting us! We've received your message and will get back to you shortly.",
     "ERROR": "You have Missing required fields, you must complete all fields, them send the form."
   },

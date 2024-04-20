@@ -1,6 +1,7 @@
 ---
 import InputText from '@/shared/components/forms/InputText';
 import InputArea from '@/shared/components/forms/InputArea';
+import InputRadio from '@/shared/components/forms/InputRadio';
 import { getI18N } from "@/shared/i18n";
 import FormButton from '@/shared/components/forms/FormButton';
 
@@ -8,10 +9,11 @@ interface Props {
   language: string;
   sendText?: string;
   subject: string;
+  size?: 'mini' | 'normal';
   hiddenSubject?: boolean;
 }
 
-const {language, hiddenSubject, subject = '', sendText} = Astro.props
+const {language, hiddenSubject, subject = '', sendText, size='normal'} = Astro.props
 const i18n = getI18N({ language });
 
 const page = Astro.request.url
@@ -20,20 +22,21 @@ const formId = randomId;
 ---
 
 <form class="flex-1" id={formId}>
-  <InputText name={i18n.CONTACT_FORM.FORM.NAME.ID} label={i18n.CONTACT_FORM.FORM.NAME.LABEL} placeholder={i18n.CONTACT_FORM.FORM.NAME.PLACEHOLDER} required />
-  <InputText name={i18n.CONTACT_FORM.FORM.EMAIL.ID} label={i18n.CONTACT_FORM.FORM.EMAIL.LABEL} placeholder={i18n.CONTACT_FORM.FORM.EMAIL.PLACEHOLDER} required />
+  <InputText name={i18n.CONTACT_FORM.FORM.NAME.ID} label={i18n.CONTACT_FORM.FORM.NAME.LABEL} placeholder={i18n.CONTACT_FORM.FORM.NAME.PLACEHOLDER} required size={size} />
+  <InputText name={i18n.CONTACT_FORM.FORM.EMAIL.ID} label={i18n.CONTACT_FORM.FORM.EMAIL.LABEL} placeholder={i18n.CONTACT_FORM.FORM.EMAIL.PLACEHOLDER} required size={size} />
   <div class="flex flex-col lg:flex-row lg:gap-3">
-    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.COUNTRY.ID} label={i18n.CONTACT_FORM.FORM.COUNTRY.LABEL} placeholder={i18n.CONTACT_FORM.FORM.COUNTRY.PLACEHOLDER} required />
-    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.PHONE.ID} label={i18n.CONTACT_FORM.FORM.PHONE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.PHONE.PLACEHOLDER} required />
+    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.COUNTRY.ID} label={i18n.CONTACT_FORM.FORM.COUNTRY.LABEL} placeholder={i18n.CONTACT_FORM.FORM.COUNTRY.PLACEHOLDER} required size={size} />
+    <InputText className='flex-1' name={i18n.CONTACT_FORM.FORM.PHONE.ID} label={i18n.CONTACT_FORM.FORM.PHONE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.PHONE.PLACEHOLDER} required size={size} />
   </div>
   {
     !hiddenSubject ? (
-      <InputText name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} label={i18n.CONTACT_FORM.FORM.SUBJECT.LABEL} placeholder={i18n.CONTACT_FORM.FORM.SUBJECT.PLACEHOLDER} value={subject || ''} required />
+      <InputText name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} label={i18n.CONTACT_FORM.FORM.SUBJECT.LABEL} placeholder={i18n.CONTACT_FORM.FORM.SUBJECT.PLACEHOLDER} value={subject || ''} required size={size} />
     ) : (
-      <input type="hidden" name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} value={subject || ''} />
+      <input type="hidden" name={i18n.CONTACT_FORM.FORM.SUBJECT.ID} value={subject || ''} size={size} />
     )
   }
-  <input type="hidden" name={i18n.CONTACT_FORM.FORM.PAGE.ID} value={page} />
-  <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} />
-  <FormButton language={language} client:visible formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} />
+  <input type="hidden" name={i18n.CONTACT_FORM.FORM.PAGE.ID} value={page} size={size} />
+  <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} size={size} />
+  <InputRadio name={i18n.CONTACT_FORM.FORM.TERMS.ID} label={i18n.CONTACT_FORM.FORM.TERMS.LABEL} linkText={i18n.CONTACT_FORM.FORM.TERMS.LINK_TEXT} linkUrl={i18n.PAGES.PRIVACY.ROUTE.URL} required size={size} />
+  <FormButton language={language} client:visible formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} termsError={i18n.CONTACT_FORM.ACCEPT_TERMS} size={size} />
 </form>
