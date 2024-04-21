@@ -1,5 +1,3 @@
-import styles from '@/shared/styles/ContactForm.module.css';
-
 interface InputTextProps {
   name: string;
   label: string;
@@ -13,7 +11,7 @@ interface InputTextProps {
   [key: string]: any;
 }
 
-export default function InputText({name, label, value, className, required, linkUrl, linkText, size = 'normal', ...props}: InputTextProps) {
+export default function InputRadio({name, label, value, className, required, linkUrl, linkText, size = 'normal', ...props}: InputTextProps) {
   return (
     <div class={`flex items-center ${size === 'mini' ? 'mb-3' : 'mb-5'}`}>
       <label class={`relative flex items-center p-3 rounded-full cursor-pointer`} htmlFor={name}>
