@@ -356,45 +356,45 @@
           "imgAlt": "Mobile court patented by Portico Sport"
         }]
       },
-      "PANORAMIC_FLOW_COURT": {
-        "ID": "panoramic-flow",
-        "SEO_TITLE": "Panoramic Flow Court - Padel Court with Unobstructed Views",
-        "SEO_DESCRIPTION":"Discover the Panoramic Flow Court: No corners, clear panoramic views, the ultimate padel experience for players and spectators.",
-        "OG_IMG": "https://porticosport.com/og/og-panoramic-flow.jpg",
-        "TITLE": "<span>Panoramic FLOW court</span>",
-        "DETAIL_TITLE": "<span>Panoramic FLOW court</span>",
-        "DESCRIPTION": "<p>Inspired by those courts you see on TV at professional events, the Panoramic Flow court is an evolution of our Panoramic court model.</p><p>Designed by Portico Sport's engineering department, this court model eliminates the corners of the steel structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings.</p><p>This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
+      "FLOW_COURT": {
+        "ID": "flow",
+        "SEO_TITLE": "Flow Court - Padel Court with Unobstructed Views",
+        "SEO_DESCRIPTION":"Discover the Flow Court: No corners, clear panoramic views, the ultimate padel experience for players and spectators.",
+        "OG_IMG": "https://porticosport.com/og/og-flow.jpg",
+        "TITLE": "<span>Flow court</span>",
+        "DETAIL_TITLE": "<span>Flow court</span>",
+        "DESCRIPTION": "<p>Inspired by those courts you see on TV at professional events, the Flow court is an evolution of our Panoramic court model.</p><p>Designed by Portico Sport's engineering department, this court model eliminates the corners of the steel structure, allowing the continuous high-strength glass walls to provide an unobstructed panoramic view of the surroundings.</p><p>This magnificent design, coupled with meticulous aesthetics, makes this court the most attractive for those who want their spectators to enjoy an unparalleled padel experience.</p>",
         "SUBTITLE": "Enjoy padel with an unobstructed panoramic view of the surroundings.",
-        "NAME": "Panoramic Flow court",
+        "NAME": "Flow court",
         "LITTLE_DESCRIPTION": "<p>Enjoy padel with an unobstructed panoramic view of the surroundings.</p>",
-        "CONTACT_TITLE_1": "Do you want a Panoramic Flow court?",
-        "CONTACT_SUBJECT": "New petition from Panoramic Flow Court",
-        "CONTACT_BUTTON": "I want a Panoramic Flow court",
+        "CONTACT_TITLE_1": "Do you want a Flow court?",
+        "CONTACT_SUBJECT": "New petition from Flow Court",
+        "CONTACT_BUTTON": "I want a Flow court",
         "ROUTE": {
-          "LABEL": "More about Panoramic Flow court",
-          "URL": "/padel-courts/panoramic-flow"
+          "LABEL": "More about Flow court",
+          "URL": "/padel-courts/flow"
         },
         "FIRST_SECTION": {
           "TITLE": "<span class=\"text-secondary\">Experience Padel Like Never Before!</span>",
-          "DESCRIPTION": "<p>Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club.</p><p>Perfectly adapted for any setting, indoor or outdoor, the Panoramic Flow court has no structural elements obstructing the views making it the perfect court for your club events and tournaments.</p><p>The Panoramic Flow court is the best option for clubs looking to have the most pleasantly looking courts.</p>",
+          "DESCRIPTION": "<p>Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club.</p><p>Perfectly adapted for any setting, indoor or outdoor, the Flow court has no structural elements obstructing the views making it the perfect court for your club events and tournaments.</p><p>The Flow court is the best option for clubs looking to have the most pleasantly looking courts.</p>",
           "IMAGES": {
             "FRONT": {
-              "src": "/courts-detail/panoramic-flow/panoramic-flow-front.webp",
-              "alt": "Panoramic flow court front view"
+              "src": "/courts-detail/flow/flow-front.webp",
+              "alt": "Flow court front view"
             },
             "PERSPECTIVE": {
-              "src": "/courts-detail/panoramic-flow/panoramic-flow-perspective.webp",
-              "alt": "Panoramic flow court perspective view"
+              "src": "/courts-detail/flow/flow-perspective.webp",
+              "alt": "Flow court perspective view"
             },
             "TOP": {
-              "src": "/courts-detail/panoramic-flow/panoramic-flow-top.webp",
+              "src": "/courts-detail/flow/flow-top.webp",
               "alt": "Panoramic court top view"
             }
           }
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Flow court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -422,15 +422,15 @@
         },
         "SIZING_SECTION": {
           "ID": "measure-section",
-          "TITLE": "Panoramic Flow Court measurements",
+          "TITLE": "Flow Court measurements",
           "INDOOR_TITLE": "Interior",
           "OUTDOOR_TITLE": "Exterior",
           "OUTDOOR": "<p><strong>Length</strong>: 20,50 m </p><p><strong>Width</strong>: 10,46 m </p>",
           "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 10 m </p>",
           "IMAGE": {
             "id": "image-sizing",
-            "src": "/courts-detail/panoramic-flow/panoramic-flow-sizing.webp",
-            "alt": "Interior and exterior Panoramic Flow court sizes"
+            "src": "/courts-detail/flow/flow-sizing.webp",
+            "alt": "Interior and exterior Flow court sizes"
           }
         },
         "GLASS_SECTION": {
@@ -500,7 +500,7 @@
         },
         "GALLERY_SECTION": {
           "ID": "gallery",
-          "PATH": "courts-detail/panoramic-flow/gallery",
+          "PATH": "courts-detail/flow/gallery",
           "OFFSET": 17
         },
         "COURTS_SECTION": {
@@ -509,30 +509,30 @@
         },
         "CONTACT_SECTION": {
           "ID": "contact",
-          "SUBJECT": "New petition from Panoramic Flow Court",
+          "SUBJECT": "New petition from Flow Court",
           "TITLE": "News",
-          "BG_IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-contact-bg.webp",
-          "IMAGE": "/courts-detail/panoramic-flow/panoramic-flow-court-contact.webp"
+          "BG_IMAGE": "/courts-detail/flow/flow-contact-bg.webp",
+          "IMAGE": "/courts-detail/flow/flow-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club",
         "HOME_IMAGES": [{
           "id": "slide-1",
-          "src": "/courts/panoramic-flow-court-01.webp",
+          "src": "/courts/flow-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramic flow court"
+          "imgAlt": "Flow court"
         },{
           "id": "slide-2",
-          "src": "/courts/panoramic-flow-court-02.webp",
+          "src": "/courts/flow-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramic flow court"
+          "imgAlt": "Flow court"
         },{
           "id": "slide-3",
-          "src": "/courts/panoramic-flow-court-03.webp",
+          "src": "/courts/flow-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramic flow court"
+          "imgAlt": "Flow court"
         }]
       },
       "PANORAMIC_COURT": {
@@ -574,7 +574,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Panoramic court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -755,7 +755,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our club court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -934,7 +934,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Club plus court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -1123,7 +1123,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Club Force 80 court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -1308,7 +1308,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Panoramic Force 80 court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -1428,7 +1428,7 @@
           "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
           "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
         },
-        "HOME_DESCRIPTION": "Our Force 80 model was designed to withstand category 5 hurricane winds. The specifically designed structure coupled with a special anchoring systems allows for this court to be installed in the toughest locations anywhere in the world.",
+        "HOME_DESCRIPTION": "<p>The Panoramic Force 80 model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p><p>Its exclusive reinforcements system allows you to effortlessly switch from a standard panoramic court to an ultra-resistant fortress ahead of storms and hurricanes in no time.</p>",
         "HOME_IMAGES": [{
           "id": "slide-1",
           "src": "/courts/panoramic-force-80-court-01.webp",
@@ -1493,7 +1493,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Single court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
@@ -1680,7 +1680,7 @@
         },
         "BENEFITS_SECTION": {
           "ID": "benefits",
-          "TITLE": "Experience the benefits of our innovative mobile padel court system",
+          "TITLE": "Experience the benefits of our Mini court",
           "BENEFITS": [{
             "header": "10 years warranty",
             "icon": "WarrantyIcon",
