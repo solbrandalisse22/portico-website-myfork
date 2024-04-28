@@ -276,4 +276,19 @@ export default defineConfig({
     "/en/own-laquared-plant": "/news/own-laquared-plant",
     "/kneippbyn-isla-de-gotland-suecia-bella-perfeccion": "/news/kneippbyn-isla-de-gotland-suecia-bella-perfeccion",
   },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["es", "en", "fr", "it"],
+    routing: {
+      prefixDefaultLocale: false
+    },
+    domains: {
+      fr: "https://porticosport.fr",
+      es: "https://porticosport.es",
+      it: "https://porticosport.it"
+    }
+  },
+  experimental: {
+    i18nDomains: true
+  }
 });

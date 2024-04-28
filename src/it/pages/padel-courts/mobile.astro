@@ -1,0 +1,16 @@
+---
+import CourtDetailPage from "@/shared/components/pages/CourtDetailPage.astro";
+import { LANGUAGES } from "@/shared/i18n/constants";
+import { getI18N } from "@/shared/i18n";
+import gallery from "@/it/data/mobile-court-gallery.json"
+
+
+const language = LANGUAGES.IT;
+---
+
+<CourtDetailPage
+  language={language}
+  video="/courts-detail/mobile/mobile-court-video.mp4"
+  court="MOBILE_COURT"
+  gallery={gallery}
+/>

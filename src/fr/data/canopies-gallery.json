@@ -1,116 +1,134 @@
 [
   {
+    "src": "img-1.webp",
+    "width": 980,
+    "height": 827,
+    "alt": "Big padel Club in France"
+  },
+  {
     "src": "img-2.webp",
-    "width": 1252,
-    "height": 835,
-    "alt": "Vilshärads padel, Suède"
+    "width": 1024,
+    "height": 768,
+    "alt": "Cubierta Valdehornillos in Spain"
   },
   {
     "src": "img-3.webp",
-    "width": 1252,
-    "height": 835,
-    "alt": "Vilshärads padel, Suède"
+    "width": 1024,
+    "height": 574,
+    "alt": "Harrogate Spa Tennis in the UK"
   },
   {
-    "src": "img-22.webp",
+    "src": "img-4.webp",
     "width": 1024,
     "height": 682,
-    "alt": "Vilshärads padel, Suède"
+    "alt": "Club cerrado del Aguila in Spain"
   },
   {
     "src": "img-5.webp",
     "width": 768,
     "height": 432,
-    "alt": "Club cerrado del Aguila l'Espagne"
+    "alt": "Club cerrado del Aguila in Spain"
   },
   {
     "src": "img-6.webp",
     "width": 1024,
     "height": 576,
-    "alt": "Club cerrado del Aguila l'Espagne"
+    "alt": "Club cerrado del Aguila in Spain"
+  },
+  {
+    "src": "img-7.webp",
+    "width": 1024,
+    "height": 604,
+    "alt": "Club Padel i Markaryd in Sweden"
   },
   {
     "src": "img-8.webp",
     "width": 1170,
     "height": 1181,
-    "alt": "Harrogate Spa Tennis les Royaume-Uni"
+    "alt": "Harrogate Spa Tennis in the UK"
   },
   {
     "src": "img-9.webp",
-    "width": 1180,
-    "height": 792,
-    "alt": "Couvertures de padel"
+    "width": 1200,
+    "height": 675,
+    "alt": "Tero Padel Club in Belgium"
   },
   {
     "src": "img-10.webp",
     "width": 1180,
     "height": 787,
-    "alt": "Couverture détail de padel"
+    "alt": "Canopie detail"
   },
   {
     "src": "img-11.webp",
     "width": 1024,
     "height": 768,
-    "alt": "Öja Padel Park, Suède"
+    "alt": "Öja Padel Park in Sweden"
   },
   {
     "src": "img-12.webp",
     "width": 1024,
     "height": 768,
-    "alt": "Europadel Elvas, Portugal"
+    "alt": "Europadel Elvas in Portugal"
   },
   {
     "src": "img-13.webp",
-    "width": 750,
-    "height": 417,
-    "alt": "Club cerrado del Aguila l'Espagne"
+    "width": 1024,
+    "height": 768,
+    "alt": "NovoPadel in Portugal"
   },
   {
     "src": "img-14.webp",
     "width": 1024,
-    "height": 683,
-    "alt": "Blue Padel Kourts Sintra, Portugal"
+    "height": 574,
+    "alt": "Harrogate Spa Tennis in the UK"
   },
   {
     "src": "img-15.webp",
     "width": 1024,
     "height": 768,
-    "alt": "Öja Padel Park, Suède"
+    "alt": "Öja Padel Park in Sweden"
   },
   {
     "src": "img-16.webp",
-    "width": 1024,
-    "height": 498,
-    "alt": "Couvertures de padel"
+    "width": 1080,
+    "height": 710,
+    "alt": "Tennis Halle Berg in Germany"
   },
   {
     "src": "img-17.webp",
     "width": 678,
     "height": 437,
-    "alt": "Couvertures de padel"
+    "alt": "Club Padel i Markaryd in Sweden"
   },
   {
     "src": "img-18.webp",
     "width": 1024,
     "height": 768,
-    "alt": "Terrain de padel couvert à l'extérieur"
+    "alt": "Padel Court covered with canopy"
   },
   {
     "src": "img-19.webp",
     "width": 960,
     "height": 640,
-    "alt": "Terrain de padel couvert à l'extérieur"
+    "alt": "Padel club with canopies"
   },
   {
     "src": "img-20.webp",
     "width": 1024,
     "height": 768,
-    "alt": "Terrain de padel couvert à l'extérieur"
+    "alt": "Padel Court covered with canopy"
   },
   {
     "src": "img-21.webp",
     "width": 1024,
     "height": 731,
-    "alt": "Terrain de padel couvert à l'extérieur"
+    "alt": "Club cerrado del Aguila in Spain"
+  },
+  {
+    "src": "img-22.webp",
+    "width": 1024,
+    "height": 576,
+    "alt": "Harrogate Spa Tennis in the UK"
   }
 ]

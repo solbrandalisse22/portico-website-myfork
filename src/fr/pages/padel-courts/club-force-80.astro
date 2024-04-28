@@ -1,0 +1,16 @@
+---
+import CourtDetailPage from "@/shared/components/pages/CourtDetailPage.astro";
+import { LANGUAGES } from "@/shared/i18n/constants";
+import { getI18N } from "@/shared/i18n";
+import gallery from "@/fr/data/club-force-80-court-gallery.json"
+
+
+const language = LANGUAGES.FR;
+---
+
+<CourtDetailPage
+  language={language}
+  video="/courts-detail/club-force-80/force-court-video.mp4"
+  court="CLUB_FORCE_80_COURT"
+  gallery={gallery}
+/>

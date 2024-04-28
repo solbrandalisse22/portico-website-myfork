@@ -1,13 +1,13 @@
 {
   "PAGES": {
     "HOME": {
-      "SEO_TITLE": "Portico Sport: Padel Courts & Canopies Worldwide",
-      "SEO_DESCRIPTION": "Premier Padel court construction & canopy installation globally. Explore our tailored solutions today!",
+      "SEO_TITLE": "Portico Sport: Campi da Padel e Coperture in tutto il mondo",
+      "SEO_DESCRIPTION": "Costruzione di campi da Padel di prim'ordine e installazione di coperture a livello globale. Scopri oggi le nostre soluzioni su misura!",
       "OG_IMG": "https://porticosport.com/og/og-portico.jpg",
-      "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
-      "TITLE": "Thinking Padel, Thinking Portico Sport",
+      "SUBTITLE": "Costruzione e installazione di campi da Padel e coperture in tutto il mondo",
+      "TITLE": "Pensando al Padel, Pensando a Portico Sport",
       "CONTACT_BUTTON": {
-        "LABEL": "Contact us",
+        "LABEL": "Contattaci",
         "URL": "/#contact"
       },
       "ROUTE": {
@@ -16,126 +16,126 @@
       },
       "INTRO_SECTION": {
         "ID": "intro",
-        "TITLE": "Welcome to <br />Portico Sport",
-        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies</strong> manufacturer <strong>globally</strong>. The company counts with 15 yrs. track record in the industry, presence <strong>in over 35 countries and +3,500 courts installed</strong>.</p><p>Portico Sport stands for quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with <strong>100% in-house design</strong> and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong> expanding over 110k sqft making it the largest and most <strong>technologically advanced</strong> in the industry.</p>"
+        "TITLE": "Benvenuti su <br />Portico Sport",
+        "DESCRIPTION": "<p>Con sede in Spagna, Portico Sport è uno dei principali produttori di campi da Padel e coperture a livello globale. L'azienda vanta una tradizione di 15 anni nel settore, una presenza <strong>in oltre 35 paesi e oltre 3.500 campi installati</strong>.</p><p>Portico Sport è sinonimo di qualità ed eccellenza nel servizio clienti. Il nostro DNA ingegneristico ci consente di essere produttori con un'offerta chiavi in mano completa che combina campi e coperture con <strong>progettazione e produzione interna al 100%</strong>.</p><p>Nel 2023 l'azienda ha inaugurato un <strong>nuovo sito produttivo</strong> che si estende su oltre 110.000 piedi quadrati, diventando il più grande e tecnologicamente avanzato del settore.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
-        "TITLE": "With you throughout the entire process",
+        "TITLE": "Con te per tutto il processo",
         "POINT_1": {
-          "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
-          "SUBTITLE": "Starting a strong, lasting relationship based on trust and customer satisfaction."
+          "TITLE": "PENSANDO AL PADEL, PENSANDO A PORTICO SPORT",
+          "SUBTITLE": "Iniziare una relazione solida e duratura basata sulla fiducia e sulla soddisfazione del cliente."
         },
         "POINT_2": {
-          "TITLE": "Commercial agreement",
-          "SUBTITLE": "Design and drafting of a commercial proposal tailored to the needs, goals, and preferences of each client."
+          "TITLE": "Accordo commerciale",
+          "SUBTITLE": "Progettazione e redazione di una proposta commerciale su misura per le esigenze, gli obiettivi e le preferenze di ogni cliente."
         },
         "POINT_3": {
-          "TITLE": "Personalized Advice with Engineering and Architecture Departments",
-          "SUBTITLE": "Our technical team will be with you throughout the entire process, aiming to provide comprehensive and high-quality service that meets our clients' expectations. Our dedicated team is a guaranteed value for success."
+          "TITLE": "Consulenza personalizzata con i dipartimenti di Ingegneria e Architettura",
+          "SUBTITLE": "Il nostro team tecnico sarà con te per tutto il processo, mirando a fornire un servizio completo e di alta qualità che soddisfi le aspettative dei nostri clienti. Il nostro team dedicato è una garanzia di successo."
         },
         "POINT_4": {
-          "TITLE": "Financing if applicable",
-          "SUBTITLE": "Portico Sport has advantageous agreements with different entities to offer personalized financing services with excellent conditions to our clients. The goal is to provide tailored solutions according to their needs."
+          "TITLE": "Finanziamento se applicabile",
+          "SUBTITLE": "Portico Sport ha accordi vantaggiosi con diverse entità per offrire servizi di finanziamento personalizzati con condizioni eccellenti ai nostri clienti. L'obiettivo è fornire soluzioni su misura in base alle loro esigenze."
         },
         "POINT_5": {
-          "TITLE": "Design, manufacturing, and installation according to each client's needs",
-          "SUBTITLE": "Based on the highest quality standards, our courts and canopies are custom-designed to meet the specific needs of each client because we understand that every project is unique."
+          "TITLE": "Progettazione, produzione e installazione in base alle esigenze di ogni cliente",
+          "SUBTITLE": "Basati sui più alti standard di qualità, i nostri campi e le nostre coperture sono progettati su misura per soddisfare le esigenze specifiche di ogni cliente, perché comprendiamo che ogni progetto è unico."
         },
         "POINT_6": {
-          "TITLE": "Installed courts",
-          "SUBTITLE": "Portico Sport guarantees satisfaction and quality in all our projects. Quality, innovation, trust, and experience are our pillars."
+          "TITLE": "Campi installati",
+          "SUBTITLE": "Portico Sport garantisce soddisfazione e qualità in tutti i nostri progetti. Qualità, innovazione, fiducia ed esperienza sono i nostri pilastri."
         },
         "POINT_7": {
-          "TITLE": "After-Sales service",
-          "SUBTITLE": "Customer-oriented, we maintain a close relationship from the beginning to the after-sales service because with Portico Sport, you'll never walk alone. For our company, after-sales service is essential to ensure customer satisfaction by providing technical support, resolving any concerns, and establishing long-term relationships."
+          "TITLE": "Servizio post-vendita",
+          "SUBTITLE": "Orientati al cliente, manteniamo una stretta relazione dall'inizio al servizio post-vendita, perché con Portico Sport non camminerai mai da solo. Per la nostra azienda, il servizio post-vendita è essenziale per garantire la soddisfazione del cliente fornendo supporto tecnico, risolvendo eventuali problemi e stabilendo relazioni a lungo termine."
         },
         "POINT_8": {
-          "TITLE": "Growing together",
-          "SUBTITLE": "For Portico Sport, it is equally important to offer exceptional after-sales service as it is to strengthen and foster long-term relationships with all our clients."
+          "TITLE": "Crescere insieme",
+          "SUBTITLE": "Per Portico Sport, è altrettanto importante offrire un servizio post-vendita eccezionale quanto rafforzare e promuovere relazioni a lungo termine con tutti i nostri clienti."
         }
       },
       "COURTS_SECTION": {
         "ID": "padel-courts",
-        "TITLE": "Padel Courts",
-        "DESCRIPTION":"Discover all our Padel Courts"
+        "TITLE": "Campi da Padel",
+        "DESCRIPTION": "Scopri tutti i nostri campi da Padel"
       },
       "CANOPIES_SECTION": {
         "ID": "canopies",
-        "TITLE": "Canopies",
-        "SUBTITLE": "Strength, durability and perfect integration",
-        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
-        "BUTTON_TEXT": "More about canopies"
+        "TITLE": "Coperture",
+        "SUBTITLE": "Forza, durabilità e integrazione perfetta",
+        "TEXT": "<p>Portico Sport è l'unico produttore di campi da Padel che costruisce anche coperture appositamente progettate per gli sport di racchetta, offrendo ai nostri clienti un approccio olistico alle loro esigenze di progetto.</p> <p>La nostra esperienza come studio di ingegneria ci ha permesso di progettare coperture appositamente concepite per la pratica sportiva, in particolare per il PADEL, combinando caratteristiche differenzianti per questo sport difficili da eguagliare con altri tipi di coperture. PORTICO SPORT è un leader nella progettazione e installazione di coperture sportive in tutto il mondo.</p>",
+        "BUTTON_TEXT": "Maggiori informazioni sulle coperture"
       },
       "BENTO_SECTION": {
         "ID": "why-us",
-        "TITLE": "Why choose Portico Sport?",
+        "TITLE": "Perché scegliere Portico Sport?",
         "POINT_1": {
-          "TITLE": "EXPERIENCE",
-          "DESCRIPTION": "<strong>With over 15 years of experience in managing large projects</strong> across five continents, we have developed an international commercial network in each area to provide the best service to every client."
+          "TITLE": "ESPERIENZA",
+          "DESCRIPTION": "<strong>Con oltre 15 anni di esperienza nella gestione di grandi progetti</strong> su cinque continenti, abbiamo sviluppato una rete commerciale internazionale in ogni area per fornire il miglior servizio a ogni cliente."
         },
         "POINT_2": {
-          "TITLE": "INNOVATION",
-          "DESCRIPTION": "In our commitment to innovation, Portico Sport offers the best design and quality in our courts and canopies, with record delivery times and full warranties. We provide padel courts and canopies with maximum strength and durability."
+          "TITLE": "INNOVAZIONE",
+          "DESCRIPTION": "Nel nostro impegno per l'innovazione, Portico Sport offre il miglior design e qualità nei nostri campi e coperture, con tempi di consegna record e garanzie complete. Forniamo campi da Padel e coperture con massima resistenza e durata nel tempo."
         },
         "POINT_3": {
-          "TITLE": "PREMIUM QUALITY",
-          "SUBTITLE": "Padel courts that comply with regulations",
-          "DESCRIPTION": "Designed and developed by engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations (NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction (EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)."
+          "TITLE": "QUALITÀ PREMIUM",
+          "SUBTITLE": "Campi da Padel conformi alle normative",
+          "DESCRIPTION": "Progettati e sviluppati dal dipartimento di ingegneria di PORTICO SPORT per la pratica del padel al più alto livello, i nostri campi rispettano le normative sportive ufficiali (NIDE 2004 Padel), le regole e gli standard della FIP (Federazione Internazionale Padel) e il calcolo strutturale basato sullo Standard « Istruzione sull'acciaio strutturale (EAE) » e il Codice americano: AISC-360 AND ASCE SEI 7-16-. Tutti i nostri campi sono coperti da una garanzia di 10 anni (stabilità strutturale)."
         },
         "POINT_4": {
-          "TITLE": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
-          "DESCRIPTION": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique."
+          "TITLE": "TEAM - INGEGNERIA SPORTIVA E ARCHITETTURA",
+          "DESCRIPTION": "<strong>Come studio di ingegneria, Portico Sport fornisce un processo di costruzione completo dall'inizio alla fine</strong>, con un team di professionisti specializzati che ti guidano in ogni fase, riconoscendo che ogni progetto è unico."
         }
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Projects",
-        "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
+        "TITLE": "Progetti",
+        "SUBTITLE": "Clicca per scoprire: Esplora in dettaglio i nostri progetti di campi!",
         "URL": {
-          "LABEL": "Discover all our projects",
+          "LABEL": "Scopri tutti i nostri progetti",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "A selection of projects we've turned into reality",
+        "TITLE_GALLERY": "Una selezione di progetti che abbiamo trasformato in realtà",
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
-        "TITLE": "Quality, Innovation, Trust, Experience and Speed",
-        "SUBTITLE": "A leading company in the national and international landscape.",
+        "TITLE": "Qualità, Innovazione, Fiducia, Esperienza e Velocità",
+        "SUBTITLE": "Un'azienda leader nel panorama nazionale e internazionale.",
         "ITEMS": {
           "ITEM_1": {
-            "TITLE": "Foundation and platforms",
-            "DESCRIPTION": "We specialize in the construction and repair of asphalt and concrete slabs and structural foundations."
+            "TITLE": "Fondazioni e piattaforme",
+            "DESCRIPTION": "Siamo specializzati nella costruzione e riparazione di lastre di asfalto e cemento e fondazioni strutturali."
           },
           "ITEM_2": {
-            "TITLE": "Structures",
-            "DESCRIPTION": "Metallic structure made of galvanized steel, oven-baked with thermoplastic polyester paint. It features one layer for indoor courts and two layers for outdoor installations, manufactured to meet the highest market standards."
+            "TITLE": "Strutture",
+            "DESCRIPTION": "Struttura metallica in acciaio zincato, cotta in forno con vernice in poliestere termoplastico. Presenta uno strato per i campi interni e due strati per le installazioni esterne, realizzati per soddisfare gli standard di mercato più elevati."
           },
           "ITEM_3": {
-            "TITLE": "Glasses",
-            "DESCRIPTION": "All courts are equipped with tempered safety glass, 10 or 12 mm thick depending on each project, strictly complying with the regulations established for this type of facility."
+            "TITLE": "Vetri",
+            "DESCRIPTION": "Tutti i campi sono dotati di vetri di sicurezza temperati, spessi 10 o 12 mm a seconda di ogni progetto, rispettando rigorosamente le normative stabilite per questo tipo di impianto."
           },
           "ITEM_4": {
-            "TITLE": "Artifitial turf",
-            "DESCRIPTION": "ARTIFICIAL TURF SYSTEM brand MONDO, of the latest generation, with straight or curly fibers…"
+            "TITLE": "Erba sintetica",
+            "DESCRIPTION": "SISTEMA DI ERBA SINTETICA del marchio MONDO, di ultima generazione, con fibre dritte o ricciute…"
           },
           "ITEM_5": {
-            "TITLE": "Lighting",
-            "DESCRIPTION": "We install the best Led projectors, from the most renowned manufacturers on the market."
+            "TITLE": "Illuminazione",
+            "DESCRIPTION": "Installiamo i migliori proiettori a LED, dei produttori più rinomati sul mercato."
           },
           "ITEM_6": {
-            "TITLE": "Customize your court",
-            "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
+            "TITLE": "Personalizza il tuo campo",
+            "DESCRIPTION": "PERSONALIZZA IL TUO CAMPO: Panchine integrate nella struttura, angoli incisi con il logo del club, re serigrafata,..."
           }
         }
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "New petition from Home page",
-        "TITLE": "Contact us",
-        "BUTTON_TEXT": "I want more information",
+        "SUBJECT": "Nuova richiesta dalla pagina principale",
+        "TITLE": "Contattaci",
+        "BUTTON_TEXT": "Voglio maggiori informazioni",
         "BG_IMAGE": "/hexagon-contact-bg.webp",
         "IMAGE": "/pista-hexagon-contact.webp"
       }
@@ -143,7 +143,7 @@
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
-      "SEO_DESCRIPTION":"Discover all our Padel Courts",
+      "SEO_DESCRIPTION": "Discover all our Padel Courts",
       "OG_IMG": "https://porticosport.com/og/og-padel-courts.jpg",
       "TITLE": "Padel Courts",
       "SUBTITLE": "Discover all our Padel Courts",
@@ -154,7 +154,7 @@
       "MOBILE_COURT": {
         "ID": "mobile-court",
         "SEO_TITLE": "Mobile Court - Innovative Padel Court Solution",
-        "SEO_DESCRIPTION":"Discover the patented Mobile Court - a flexible Padel court solution by Portico Sport. Perfect for permanent or temporary installations!",
+        "SEO_DESCRIPTION": "Discover the patented Mobile Court - a flexible Padel court solution by Portico Sport. Perfect for permanent or temporary installations!",
         "OG_IMG": "https://porticosport.com/og/og-mobile.jpg",
         "NAME": "Mobile court",
         "SUBTITLE": "Introducing the latest innovation in padel court technology",
@@ -192,27 +192,33 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our innovative mobile padel court system",
-          "BENEFITS": [{
-            "header": "Saving with us",
-            "icon": "SavingsAstro",
-            "footer": "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time and expenses on ground works."
-          }, {
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our mobile courts, designed to withstand wind speeds like our anchored club court."
-          }, {
-            "header": "Versatile and adaptable",
-            "icon": "VersatileCourtIcon",
-            "footer": "Suitable for both indoor and outdoor installations, can be easily transported to various environments and locations, making it ideal for events or installations where drilling holes to anchor the court is not possible."
-          }, {
-            "header": "Leasing opportunities",
-            "icon": "RentIcon",
-            "footer": "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our mobile courts offer the same premium quality as a permanent court."
-          }]
+          "BENEFITS": [
+            {
+              "header": "Saving with us",
+              "icon": "SavingsAstro",
+              "footer": "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time and expenses on ground works."
+            },
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our mobile courts, designed to withstand wind speeds like our anchored club court."
+            },
+            {
+              "header": "Versatile and adaptable",
+              "icon": "VersatileCourtIcon",
+              "footer": "Suitable for both indoor and outdoor installations, can be easily transported to various environments and locations, making it ideal for events or installations where drilling holes to anchor the court is not possible."
+            },
+            {
+              "header": "Leasing opportunities",
+              "icon": "RentIcon",
+              "footer": "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our mobile courts offer the same premium quality as a permanent court."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -256,23 +262,28 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p>",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Exterior of a yellow mobile court"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-1",
+              "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-2",
+              "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-3",
+              "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-4",
+              "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+              "alt": "Exterior of a yellow mobile court"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -318,48 +329,55 @@
           "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
         },
         "HOME_DESCRIPTION": "Patented court system that avoids anchoring the court to the ground. The court can be placed in the same place for extended periods of time and enjoys the same structural robustness as a traditionally anchored court. Perfect to be placed on top of tennis courts, where ground works for traditional courts are costly or simply prefer not to do them!",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/mobile-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-2",
-          "src": "/courts/mobile-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-3",
-          "src": "/courts/mobile-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-4",
-          "src": "/courts/mobile-court-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-5",
-          "src": "/courts/mobile-court-05.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-6",
-          "src": "/courts/mobile-court-06.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/mobile-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/mobile-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/mobile-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-4",
+            "src": "/courts/mobile-court-04.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-5",
+            "src": "/courts/mobile-court-05.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-6",
+            "src": "/courts/mobile-court-06.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          }
+        ]
       },
       "FLOW_COURT": {
         "ID": "flow",
         "SEO_TITLE": "Flow Court - Padel Court with Unobstructed Views",
-        "SEO_DESCRIPTION":"Discover the Flow Court: No corners, clear panoramic views, the ultimate padel experience for players and spectators.",
+        "SEO_DESCRIPTION": "Discover the Flow Court: No corners, clear panoramic views, the ultimate padel experience for players and spectators.",
         "OG_IMG": "https://porticosport.com/og/og-flow.jpg",
         "TITLE": "<span>Flow court</span>",
         "DETAIL_TITLE": "<span>Flow court</span>",
@@ -395,19 +413,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Flow court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, ensuring they withstand even strong winds. Enjoy them without any worries!"
-          }, {
-            "header": "Versatile court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal for both indoor and outdoor setups, our courts are the top choice for clubs seeking aesthetically pleasing and versatile playing surfaces."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, ensuring they withstand even strong winds. Enjoy them without any worries!"
+            },
+            {
+              "header": "Versatile court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Ideal for both indoor and outdoor setups, our courts are the top choice for clubs seeking aesthetically pleasing and versatile playing surfaces."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -451,27 +473,33 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Whether you prefer a monochrome look or want to add a splash of color with a bicolor design, let your court reflect your style and personality while ensuring it catches everyone's eye on the court.</p>",
-          "IMAGES": [{
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Yellow painted mobile court"
-          },{
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-7",
-            "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-11",
-            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-            "alt": "Blue structure painted in interior"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-5",
+              "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+              "imgAlt": "Yellow painted mobile court"
+            },
+            {
+              "id": "slide-6",
+              "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-7",
+              "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-10",
+              "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-11",
+              "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+              "alt": "Blue structure painted in interior"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -515,30 +543,34 @@
           "IMAGE": "/courts-detail/flow/flow-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/flow-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Flow court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/flow-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Flow court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/flow-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Flow court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/flow-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Flow court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/flow-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Flow court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/flow-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Flow court"
+          }
+        ]
       },
       "PANORAMIC_COURT": {
         "ID": "panoramic-court",
         "SEO_TITLE": "Panoramic Court - Padel Court with Stunning Views",
-        "SEO_DESCRIPTION":"Elevate your padel experience with our panoramic court featuring high-strength glass walls offering unparalleled views.",
+        "SEO_DESCRIPTION": "Elevate your padel experience with our panoramic court featuring high-strength glass walls offering unparalleled views.",
         "OG_IMG": "https://porticosport.com/og/og-panoramic.jpg",
         "TITLE": "<span>Panoramic court</span>",
         "DESCRIPTION": "<p>Designed and manufactured by Portico Sport's engineering department, this court model features high-strength glass walls that provide a panoramic view of the surroundings, creating a unique and exciting playing experience both inside and outside the court.</p><p>Due to its visual appeal, this court is increasingly sought-after by clients aiming to offer a distinctive gaming experience to all their players.</p><p>If you're looking for a padel court that provides a unique and exciting gameplay experience, the panoramic courts are an excellent choice.</p>",
@@ -575,19 +607,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Panoramic court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, ensuring they withstand even strong winds. Enjoy them without any worries!"
-          }, {
-            "header": "Versatile court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal for both indoor and outdoor setups, our courts are the top choice for clubs seeking aesthetically pleasing and versatile playing surfaces."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, ensuring they withstand even strong winds. Enjoy them without any worries!"
+            },
+            {
+              "header": "Versatile court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Ideal for both indoor and outdoor setups, our courts are the top choice for clubs seeking aesthetically pleasing and versatile playing surfaces."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -631,23 +667,28 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Whether you prefer a monochrome look or want to add a splash of color with a bicolor design, let your court reflect your style and personality while ensuring it catches everyone's eye on the court.</p>",
-          "IMAGES": [{
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Yellow painted mobile court"
-          }, {
-            "id": "slide-11",
-            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-            "alt": "Blue structure painted in interior"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-3",
+              "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-4",
+              "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-5",
+              "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+              "imgAlt": "Yellow painted mobile court"
+            },
+            {
+              "id": "slide-11",
+              "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+              "alt": "Blue structure painted in interior"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -691,36 +732,41 @@
           "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
         },
         "HOME_DESCRIPTION": "12mm glass, minimalistic design, maximum robustness! Our panoramic court provides the perfect balance between functionality and aesthetics.",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/panoramic-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/panoramic-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/panoramic-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic court"
-        },{
-          "id": "slide-4",
-          "src": "/courts/panoramic-court-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/panoramic-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/panoramic-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/panoramic-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic court"
+          },
+          {
+            "id": "slide-4",
+            "src": "/courts/panoramic-court-04.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic court"
+          }
+        ]
       },
       "CLUB_COURT": {
         "ID": "club-court",
         "SEO_TITLE": "Club Court - Durable Padel Court",
-        "SEO_DESCRIPTION":"Discover the Club Court, an ideal option for superior quality and exceptional durability. Perfect for high-level padel practice with 3-meter pillars.",
+        "SEO_DESCRIPTION": "Discover the Club Court, an ideal option for superior quality and exceptional durability. Perfect for high-level padel practice with 3-meter pillars.",
         "OG_IMG": "https://porticosport.com/og/og-club.jpg",
         "TITLE": "<span>Club court</span>",
         "DESCRIPTION": "<p>For many years our most sought-after courts, the Club Court, stands out as an ideal option for those seeking superior quality and exceptional durability.</p><p>With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards.</p><p>If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
@@ -756,19 +802,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our club court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand wind speeds. Enjoy them without any worries!."
-          }, {
-            "header": "Versatile and resitant court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal for both indoor and outdoor setups, our courts are the best choice for clubs seeking unparalleled durability and versatility."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand wind speeds. Enjoy them without any worries!."
+            },
+            {
+              "header": "Versatile and resitant court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Ideal for both indoor and outdoor setups, our courts are the best choice for clubs seeking unparalleled durability and versatility."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -812,27 +862,33 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Whether you opt for a monochromatic appearance or desire to inject vibrant energy with a bicolor scheme, let your court mirror your unique style and personality, ensuring it captivates attention on the court.</p>",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-9",
-            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "A violet court"
-          },{
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blue structure painted"
-          }, {
-            "id": "slide-12",
-            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
-            "alt": "Gray structure painted in interior"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-1",
+              "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-2",
+              "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-9",
+              "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+              "alt": "A violet court"
+            },
+            {
+              "id": "slide-10",
+              "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-12",
+              "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+              "alt": "Gray structure painted in interior"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -876,30 +932,34 @@
           "IMAGE": "/courts-detail/club/club-perspective.webp"
         },
         "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court designed with padel clubs in mind, a court that will stand the test of time.",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/club-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club padel court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/club-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club padel court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/club-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club padel court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/club-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club padel court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/club-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club padel court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/club-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club padel court"
+          }
+        ]
       },
       "CLUB_PLUS_COURT": {
         "ID": "club-plus-court",
         "SEO_TITLE": "Club Plus Court - Enhanced Padel Court",
-        "SEO_DESCRIPTION":"Experience the evolution of our Club Court with the Club Plus Court. Enhanced durability and resistance for unparalleled padel practice. Learn more!",
+        "SEO_DESCRIPTION": "Experience the evolution of our Club Court with the Club Plus Court. Enhanced durability and resistance for unparalleled padel practice. Learn more!",
         "OG_IMG": "https://porticosport.com/og/og-club-plus.jpg",
         "TITLE": "<span>Club Plus court</span>",
         "DESCRIPTION": "<p>The Club Plus Court is an evolution of our Club Court. This enhanced court maintains the same premium quality while providing increased robustness.</p><p>These reinforced structures are built to withstand higher wind gusts and adverse weather conditions. In the Club Plus Court, you'll find seamlessly integrated durability and high resistance for an unparalleled padel practice experience.</p>",
@@ -935,19 +995,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Club plus court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand wind speeds. Enjoy them without any worries!"
-          }, {
-            "header": "Versatile and resitant court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Engineered for both indoor and outdoor, this court is built to withstand adverse weather conditions, making it ideal for outdoor settings."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand wind speeds. Enjoy them without any worries!"
+            },
+            {
+              "header": "Versatile and resitant court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Engineered for both indoor and outdoor, this court is built to withstand adverse weather conditions, making it ideal for outdoor settings."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -991,31 +1055,38 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Whether you opt for a monochromatic appearance or desire to inject vibrant energy with a bicolor scheme, let your court mirror your unique style and personality, ensuring it captivates attention on the court.</p>",
-          "IMAGES": [{
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Yellow painted mobile court"
-          },{
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-7",
-            "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-8",
-            "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
-            "alt": "Pink structure painted"
-          },{
-            "id": "slide-9",
-            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "A violet court"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-4",
+              "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-5",
+              "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+              "imgAlt": "Yellow painted mobile court"
+            },
+            {
+              "id": "slide-6",
+              "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-7",
+              "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-8",
+              "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
+              "alt": "Pink structure painted"
+            },
+            {
+              "id": "slide-9",
+              "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+              "alt": "A violet court"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -1059,36 +1130,41 @@
           "IMAGE": "/courts-detail/club-plus/club-plus-perspective.webp"
         },
         "HOME_DESCRIPTION": "This model brings a reinforced structure to the club model for those looking to install a court were particularly tough weather conditions are often found",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/club-plus-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club plus padel court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/club-plus-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club plus padel court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/club-plus-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club plus padel court"
-        },{
-          "id": "slide-4",
-          "src": "/courts/club-plus-court-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club plus padel court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/club-plus-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club plus padel court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/club-plus-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club plus padel court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/club-plus-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club plus padel court"
+          },
+          {
+            "id": "slide-4",
+            "src": "/courts/club-plus-court-04.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club plus padel court"
+          }
+        ]
       },
       "CLUB_FORCE_80_COURT": {
         "ID": "club-force-80-court",
         "SEO_TITLE": "Force 80 Court - Resilient Padel Court",
-        "SEO_DESCRIPTION":"Discover the Force 80 Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
+        "SEO_DESCRIPTION": "Discover the Force 80 Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
         "OG_IMG": "https://porticosport.com/og/og-club-force-80.jpg",
         "TITLE": "<span>Club Force 80 court</span>",
         "DESCRIPTION": "<p>Since 2021, our Club Force 80 court created a category of its own. A court specially designed for areas with extreme weather conditions that stands out as the most resilient padel court on the market.</p><p>Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, capable to withstand hurricane-force winds of up to 80 m/s (288.0km/h).</p><p>The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions.</p><p>If you want to enjoy padel regardless of the challenging weather, the Club Force 80 court is an excellent choice.</p>",
@@ -1124,19 +1200,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Club Force 80 court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Engineered specifically to endure hurricane-force winds, you can relax knowing our courts are backed by a 10-year warranty on structural integrity."
-          }, {
-            "header": "The most resilient padel court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Its original structural design and top-quality materials make it the sturdiest and most durable court, without compromising its aesthetics."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Engineered specifically to endure hurricane-force winds, you can relax knowing our courts are backed by a 10-year warranty on structural integrity."
+            },
+            {
+              "header": "The most resilient padel court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Its original structural design and top-quality materials make it the sturdiest and most durable court, without compromising its aesthetics."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -1180,27 +1260,33 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Whether you opt for a monochromatic appearance or desire to inject vibrant energy with a bicolor scheme, let your court mirror your unique style and personality, ensuring it captivates attention on the court.</p>",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange painted mobile court"
-          }, {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Yellow painted mobile court"
-          },{
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blue structure painted"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-1",
+              "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-2",
+              "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-5",
+              "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+              "imgAlt": "Yellow painted mobile court"
+            },
+            {
+              "id": "slide-6",
+              "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-10",
+              "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+              "alt": "Blue structure painted"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -1244,36 +1330,41 @@
           "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Our Club Force 80 model was designed to withstand category 5 hurricane winds. The specifically designed structure coupled with a special anchoring systems allows for this court to be installed in the toughest locations anywhere in the world.",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/club-force-80-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club Force 80 padel court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/club-force-80-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club Force 80 padel court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/club-force-80-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club Force 80 padel court"
-        },{
-          "id": "slide-4",
-          "src": "/courts/club-force-80-court-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Club Force 80 padel court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/club-force-80-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club Force 80 padel court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/club-force-80-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club Force 80 padel court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/club-force-80-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club Force 80 padel court"
+          },
+          {
+            "id": "slide-4",
+            "src": "/courts/club-force-80-court-04.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Club Force 80 padel court"
+          }
+        ]
       },
       "PANORAMIC_FORCE_80_COURT": {
         "ID": "panoramic-force-80-court",
         "SEO_TITLE": "Panoramic Force 80 Court - Resilient Padel Court",
-        "SEO_DESCRIPTION":"Discover the Panoramic Force 80 Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
+        "SEO_DESCRIPTION": "Discover the Panoramic Force 80 Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
         "OG_IMG": "https://porticosport.com/og/og-panoramic-force-80.jpg",
         "TITLE": "<span>Panoramic Force 80</span>",
         "DESCRIPTION": "<p>In 2021, Portico Sport introduced the Club Force 80 court, the first anti-hurricane court, creating a category of its own. Now, we are pleased to present the Panoramic Force 80. Capable to withstand winds of up to 80m/s in a panoramic frame.</p><p>Portico Sport engineering department continues to lead product innovation in the industry with this design that despite its panoramic glass walls and slimer steel structure than competing designs, remains steadfast under the most challenging weather conditions, making it ideal for outdoor installations in hurricane and heavy storms affected geographies.</p>",
@@ -1309,19 +1400,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Panoramic Force 80 court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Engineered specifically to endure hurricane-force winds, you can relax knowing our courts are backed by a 10-year warranty on structural integrity."
-          }, {
-            "header": "The most resilient padel court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Its original structural design and top-quality materials make it the sturdiest and most durable court, without compromising its aesthetics."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Engineered specifically to endure hurricane-force winds, you can relax knowing our courts are backed by a 10-year warranty on structural integrity."
+            },
+            {
+              "header": "The most resilient padel court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Its original structural design and top-quality materials make it the sturdiest and most durable court, without compromising its aesthetics."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality in every detail."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -1365,27 +1460,33 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Whether you opt for a monochromatic appearance or desire to inject vibrant energy with a bicolor scheme, let your court mirror your unique style and personality, ensuring it captivates attention on the court.</p>",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange painted mobile court"
-          }, {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Yellow painted mobile court"
-          },{
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blue structure painted"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-1",
+              "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-2",
+              "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-5",
+              "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+              "imgAlt": "Yellow painted mobile court"
+            },
+            {
+              "id": "slide-6",
+              "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-10",
+              "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+              "alt": "Blue structure painted"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -1429,36 +1530,41 @@
           "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
         },
         "HOME_DESCRIPTION": "<p>The Panoramic Force 80 model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p><p>Its exclusive reinforcements system allows you to effortlessly switch from a standard panoramic court to an ultra-resistant fortress ahead of storms and hurricanes in no time.</p>",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/panoramic-force-80-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic Force 80 padel court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/panoramic-force-80-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic Force 80 padel court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/panoramic-force-80-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic Force 80 padel court"
-        },{
-          "id": "slide-4",
-          "src": "/courts/panoramic-force-80-court-04.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Panoramic Force 80 padel court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/panoramic-force-80-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic Force 80 padel court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/panoramic-force-80-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic Force 80 padel court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/panoramic-force-80-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic Force 80 padel court"
+          },
+          {
+            "id": "slide-4",
+            "src": "/courts/panoramic-force-80-court-04.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Panoramic Force 80 padel court"
+          }
+        ]
       },
       "SINGLE_COURT": {
         "ID": "single-court",
         "SEO_TITLE": "Single Court - Tailored for Solo Players",
-        "SEO_DESCRIPTION":"Discover the Single Court, perfect for 1vs1 matches or individual training sessions. Same premium quality and durability in a smaller size. Learn more!",
+        "SEO_DESCRIPTION": "Discover the Single Court, perfect for 1vs1 matches or individual training sessions. Same premium quality and durability in a smaller size. Learn more!",
         "OG_IMG": "https://porticosport.com/og/og-single.jpg",
         "TITLE": "<span>Single court</span>",
         "DESCRIPTION": "<p>Same length, reduced width enabling padel to be enjoyed 1vs1. This court is also ideal for individual classes, specific training or to maximize utilization space in your club where a doubles court does not fit.</p><p>Despite its smaller size, it features the same premium quality and exceptional durability as the rest of our courts, making it a great choice for clubs looking to expand their offerings and provide this special court.</p>",
@@ -1494,19 +1600,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Single court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
-          }, {
-            "header": "Versatile and adaptability",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal for individual classes, specific training or to maximize utilization space  this court offers the same stability as conventional courts"
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
+            },
+            {
+              "header": "Versatile and adaptability",
+              "icon": "VersatileCourtIcon",
+              "footer": "Ideal for individual classes, specific training or to maximize utilization space  this court offers the same stability as conventional courts"
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -1550,35 +1660,43 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Let your court reflect your unique style and personality by opting for a monochromatic appearance or injecting vibrant energy with a bicolor scheme. With the right paint, even a smaller court will stand out.</p>",
-          "IMAGES": [{
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Yellow painted mobile court"
-          },{
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-7",
-            "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-11",
-            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-            "alt": "Blue structure painted in interior"
-          },{
-            "id": "slide-12",
-            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
-            "alt": "Gray structure painted in interior"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-3",
+              "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-4",
+              "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-5",
+              "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+              "imgAlt": "Yellow painted mobile court"
+            },
+            {
+              "id": "slide-6",
+              "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-7",
+              "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-11",
+              "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+              "alt": "Blue structure painted in interior"
+            },
+            {
+              "id": "slide-12",
+              "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+              "alt": "Gray structure painted in interior"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -1622,30 +1740,34 @@
           "IMAGE": "/courts-detail/single/single-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Same length, reduced width enabling padel to be enjoyed 1vs1. This court is also ideal for individual classes, specific training or to maximize utilization space in your club where a doubles court does not fit.",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/single-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Single court"
-        },{
-          "id": "slide-2",
-          "src": "/courts/single-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Single court"
-        },{
-          "id": "slide-3",
-          "src": "/courts/single-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Single court"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/single-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Single court"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/single-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Single court"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/single-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Single court"
+          }
+        ]
       },
       "MINI_COURT": {
         "ID": "mini-court",
         "SEO_TITLE": "Mini Court - Compact Padel Fun",
-        "SEO_DESCRIPTION":"Introduce children to padel with our Mini Court, perfect for smaller spaces. Same premium quality in a compact size. Learn more!",
+        "SEO_DESCRIPTION": "Introduce children to padel with our Mini Court, perfect for smaller spaces. Same premium quality in a compact size. Learn more!",
         "OG_IMG": "https://porticosport.com/og/og-mini.jpg",
         "TITLE": "<span>Mini court</span>",
         "DESCRIPTION": "<p>Our Mini Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players.</p><p>Designed by Portico Sport's engineering department, this court is manufactured with the same premium-quality materials as the rest of our padel courts.</p><p>Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
@@ -1681,19 +1803,23 @@
         "BENEFITS_SECTION": {
           "ID": "benefits",
           "TITLE": "Experience the benefits of our Mini court",
-          "BENEFITS": [{
-            "header": "10 years warranty",
-            "icon": "WarrantyIcon",
-            "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
-          }, {
-            "header": "Small and versatile court",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal for smaller spaces, home practice, or younger players, this court offers the same stability and resilience as the rest of our padel courts."
-          }, {
-            "header": "Premium materials",
-            "icon": "MaterialsIcon",
-            "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality."
-          }]
+          "BENEFITS": [
+            {
+              "header": "10 years warranty",
+              "icon": "WarrantyIcon",
+              "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
+            },
+            {
+              "header": "Small and versatile court",
+              "icon": "VersatileCourtIcon",
+              "footer": "Ideal for smaller spaces, home practice, or younger players, this court offers the same stability and resilience as the rest of our padel courts."
+            },
+            {
+              "header": "Premium materials",
+              "icon": "MaterialsIcon",
+              "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality."
+            }
+          ]
         },
         "STRUCTURE_SECTION": {
           "ID": "structure",
@@ -1737,31 +1863,38 @@
           "TITLE": "Structure paint",
           "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
           "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Allow your court to reflect your individual style, whether you choose a monochromatic look or decide to infuse vibrancy with a bicolor design. Even in a smaller court, the right paint can make it stand out and catch attention.</p>",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Exterior of a yellow mobile court"
-          }, {
-            "id": "slide-7",
-            "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
-            "alt": "Blue structure painted"
-          },{
-            "id": "slide-8",
-            "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
-            "alt": "Pink structure painted"
-          },{
-            "id": "slide-9",
-            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "A violet court"
-          }],
+          "IMAGES": [
+            {
+              "id": "slide-1",
+              "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-2",
+              "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+              "alt": "Orange painted mobile court"
+            },
+            {
+              "id": "slide-3",
+              "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+              "alt": "Exterior of a yellow mobile court"
+            },
+            {
+              "id": "slide-7",
+              "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
+              "alt": "Blue structure painted"
+            },
+            {
+              "id": "slide-8",
+              "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
+              "alt": "Pink structure painted"
+            },
+            {
+              "id": "slide-9",
+              "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+              "alt": "A violet court"
+            }
+          ],
           "LIST": [
             "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
             "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
@@ -1805,30 +1938,34 @@
           "IMAGE": "/courts-detail/mini/mini-court-contact.webp"
         },
         "HOME_DESCRIPTION": "Kids can learn padel from a very early age, however, the size of court can be overwhelming for them. With this court, kids can enjoy padel with a court adapted to their heigh and physical power.",
-        "HOME_IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts/mini-court-01.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-2",
-          "src": "/courts/mini-court-02.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        },{
-          "id": "slide-3",
-          "src": "/courts/mini-court-03.webp",
-          "width": 574,
-          "height": 323,
-          "imgAlt": "Mobile court patented by Portico Sport"
-        }]
+        "HOME_IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts/mini-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts/mini-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          },
+          {
+            "id": "slide-3",
+            "src": "/courts/mini-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "imgAlt": "Mobile court patented by Portico Sport"
+          }
+        ]
       }
     },
     "CANOPIES": {
       "SEO_TITLE": "High-Performance Padel Canopies",
-      "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
+      "SEO_DESCRIPTION": "Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
       "OG_IMG": "https://porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Leader in the manufacturing and installation of canopies",
       "TITLE": "High-performance canopies",
@@ -1863,31 +2000,33 @@
         ],
         "LIST_TITLE": "Excellence and experience",
         "LIST_DESCRIPTION": "We highlight the following features of our canopies:",
-        "IMAGES": [{
-          "id": "image-1",
-          "src": "canopies/section-canopies-01/canopies-section-01.webp",
-          "alt": "Canopies"
-        },
-        {
-          "id": "image-2",
-          "src": "canopies/section-canopies-01/canopies-section-02.webp",
-          "alt": "Canopies"
-        },
-        {
-          "id": "image-3",
-          "src": "canopies/section-canopies-01/canopies-section-03.webp",
-          "alt": "Canopies"
-        },
-        {
-          "id": "image-4",
-          "src": "canopies/section-canopies-01/canopies-section-04.webp",
-          "alt": "Canopies"
-        },
-        {
-          "id": "image-5",
-          "src": "canopies/section-canopies-01/canopies-section-05.webp",
-          "alt": "Canopies"
-        }]
+        "IMAGES": [
+          {
+            "id": "image-1",
+            "src": "canopies/section-canopies-01/canopies-section-01.webp",
+            "alt": "Canopies"
+          },
+          {
+            "id": "image-2",
+            "src": "canopies/section-canopies-01/canopies-section-02.webp",
+            "alt": "Canopies"
+          },
+          {
+            "id": "image-3",
+            "src": "canopies/section-canopies-01/canopies-section-03.webp",
+            "alt": "Canopies"
+          },
+          {
+            "id": "image-4",
+            "src": "canopies/section-canopies-01/canopies-section-04.webp",
+            "alt": "Canopies"
+          },
+          {
+            "id": "image-5",
+            "src": "canopies/section-canopies-01/canopies-section-05.webp",
+            "alt": "Canopies"
+          }
+        ]
       },
       "ADVANTAGE_SECTION": {
         "TITLE": "Installation of padel canopies",
@@ -1912,7 +2051,7 @@
     "PROJECTS": {
       "ID": "projects",
       "SEO_TITLE": "Portico Sport's Latest Projects",
-      "SEO_DESCRIPTION":"Explore the latest projects by Portico Sport, showcasing our innovative padel courts and canopies. See our work now!",
+      "SEO_DESCRIPTION": "Explore the latest projects by Portico Sport, showcasing our innovative padel courts and canopies. See our work now!",
       "OG_IMG": "https://porticosport.com/og/og-projects.jpg",
       "SUBTITLE": "Discover some of the latest",
       "TITLE": "Projects By <span class=\"text-primary\">Portico Sport</span>",
@@ -1935,7 +2074,7 @@
     "FACTORY": {
       "ID": "our-factory",
       "SEO_TITLE": "Explore Portico Sport's Cutting-Edge Factory",
-      "SEO_DESCRIPTION":"Discover Portico Sport's state-of-the-art factory, spanning over 8,000 square meters and equipped with the latest technology. See how we lead in padel court manufacturing!",
+      "SEO_DESCRIPTION": "Discover Portico Sport's state-of-the-art factory, spanning over 8,000 square meters and equipped with the latest technology. See how we lead in padel court manufacturing!",
       "OG_IMG": "https://porticosport.com/og/og-portico.jpg",
       "TITLE": "<span class=\"block\">Portico Sport:</span> <span class=\"text-xl\">a Factory for the new era of Padel</span>",
       "SUBTITLE": "The largest padel courts and canopies manufacturing site",
@@ -1944,7 +2083,7 @@
         "LABEL": "Our Factory",
         "URL": "/our-factory"
       },
-      "FACTORY_SECTION":{
+      "FACTORY_SECTION": {
         "PREFOOTER_VIDEO_TITLE": "Visit our factory",
         "PREFOOTER_SUBTITLE": "The largest padel courts and canopies manufacturing site"
       },
@@ -1963,51 +2102,63 @@
           "TITLE": "Factory size",
           "NUMBER": 8000
         },
-        "IMAGES": [{
-          "id": "feature-section-1",
-          "src": "/factory/factory-feature-section-01.webp",
-          "alt": "Worker operating in our factory."
-        }, {
-          "id": "feature-section-2",
-          "src": "/factory/factory-feature-section-02.webp",
-          "alt": "Robot operating in our structures"
-        }, {
-          "id": "feature-section-3",
-          "src": "/factory/factory-feature-section-03.webp",
-          "alt": "Robot operating in our structures"
-        }, {
-          "id": "feature-section-4",
-          "src": "/factory/factory-feature-section-04.webp",
-          "alt": "Worker operating in our factory."
-        }, {
-          "id": "feature-section-5",
-          "src": "/factory/factory-feature-section-05.webp",
-          "alt": "Worker operating in our factory."
-        }]
+        "IMAGES": [
+          {
+            "id": "feature-section-1",
+            "src": "/factory/factory-feature-section-01.webp",
+            "alt": "Worker operating in our factory."
+          },
+          {
+            "id": "feature-section-2",
+            "src": "/factory/factory-feature-section-02.webp",
+            "alt": "Robot operating in our structures"
+          },
+          {
+            "id": "feature-section-3",
+            "src": "/factory/factory-feature-section-03.webp",
+            "alt": "Robot operating in our structures"
+          },
+          {
+            "id": "feature-section-4",
+            "src": "/factory/factory-feature-section-04.webp",
+            "alt": "Worker operating in our factory."
+          },
+          {
+            "id": "feature-section-5",
+            "src": "/factory/factory-feature-section-05.webp",
+            "alt": "Worker operating in our factory."
+          }
+        ]
       },
       "INFORMATION_SECTION": {
         "DESCRIPTION": "<p>Today, Portico Sport has established its presence in over 35 countries worldwide. With the inauguration of this new factory, the company is poised to embrace a new era of padel growth with optimism within an increasingly demanding international industry landscape. This state-of-the-art facility stands as one of the largest and the most technologically advanced in the sector. It is equipped with distinct areas dedicated to design, manufacturing, welding, and paint &amp; lacquering. Its innovative design and robust capacity enable us to maintain a 100% in-house manufacturing process, ensuring complete traceability of every material used and rigorous quality control measures. We have no excuses to make nothing but the best padel courts in the industry.</p>",
-        "IMAGES": [{
-          "id": "information-section-1",
-          "src": "/factory/factory-information-section-1.webp",
-          "alt": "Factory overview"
-        }, {
-          "id": "information-section-2",
-          "src": "/factory/factory-information-section-2.webp",
-          "alt": "Factory overview"
-        }, {
-          "id": "information-section-3",
-          "src": "/factory/factory-information-section-3.webp",
-          "alt": "Factory overview"
-        }, {
-          "id": "information-section-4",
-          "src": "/factory/factory-information-section-4.webp",
-          "alt": "Factory overview"
-        }, {
-          "id": "information-section-5",
-          "src": "/factory/factory-information-section-5.webp",
-          "alt": "Factory overview"
-        }]
+        "IMAGES": [
+          {
+            "id": "information-section-1",
+            "src": "/factory/factory-information-section-1.webp",
+            "alt": "Factory overview"
+          },
+          {
+            "id": "information-section-2",
+            "src": "/factory/factory-information-section-2.webp",
+            "alt": "Factory overview"
+          },
+          {
+            "id": "information-section-3",
+            "src": "/factory/factory-information-section-3.webp",
+            "alt": "Factory overview"
+          },
+          {
+            "id": "information-section-4",
+            "src": "/factory/factory-information-section-4.webp",
+            "alt": "Factory overview"
+          },
+          {
+            "id": "information-section-5",
+            "src": "/factory/factory-information-section-5.webp",
+            "alt": "Factory overview"
+          }
+        ]
       },
       "CONTACT_SECTION": {
         "TITLE": "Visit our factory",
@@ -2021,7 +2172,7 @@
     "NEWS": {
       "ID": "news",
       "SEO_TITLE": "Stay Updated with Portico Sport's Latest News",
-      "SEO_DESCRIPTION":"Keep informed with the latest news from Portico Sport, covering innovations, events, and developments in the world of padel courts. Read more to stay ahead!",
+      "SEO_DESCRIPTION": "Keep informed with the latest news from Portico Sport, covering innovations, events, and developments in the world of padel courts. Read more to stay ahead!",
       "OG_IMG": "https://porticosport.com/og/og-portico.jpg",
       "TITLE": "News",
       "TITLE_ALT": "Our last news",
@@ -2066,22 +2217,28 @@
         "ID": "intro",
         "TITLE": "Work with us",
         "DESCRIPTION": "Are you passionate about the world of padel and seeking an exciting career opportunity? Look no further than Portico Sport, a leading name in the global padel industry. We're constantly on the lookout for talented individuals who share our commitment to excellence and innovation.",
-        "SECTIONS": [{
-          "TITLE": "Why Work with Us?",
-          "DESCRIPTION": "At Portico Sport, we believe in fostering a dynamic and supportive work environment where every team member is valued and empowered to thrive. When you join our team, you become part of a family that's dedicated to pushing the boundaries of what's possible in the padel world."
-        }, {
-          "TITLE": "Opportunities for Growth",
-          "DESCRIPTION": "We're committed to helping our employees reach their full potential. Whether you're just starting your career or looking to take the next step, we offer opportunities for growth and development that will challenge and inspire you."
-        }, {
-          "TITLE": "Collaborative Culture",
-          "DESCRIPTION": "At Portico Sport, collaboration is key. We believe in the power of teamwork and actively encourage open communication and idea-sharing among our employees. Together, we strive to achieve excellence in everything we do."
-        }, {
-          "TITLE": "Making a Difference",
-          "DESCRIPTION": "Joining Portico Sport isn't just about building a career; it's about making a difference in the world of padel. We're passionate about what we do, and we're looking for individuals who share that passion and want to be part of something meaningful."
-        }, {
-          "TITLE": "Ready to Join Us?",
-          "DESCRIPTION": "If you're ready to take your career to the next level and be part of a team that's shaping the future of padel, we want to hear from you."
-        }],
+        "SECTIONS": [
+          {
+            "TITLE": "Why Work with Us?",
+            "DESCRIPTION": "At Portico Sport, we believe in fostering a dynamic and supportive work environment where every team member is valued and empowered to thrive. When you join our team, you become part of a family that's dedicated to pushing the boundaries of what's possible in the padel world."
+          },
+          {
+            "TITLE": "Opportunities for Growth",
+            "DESCRIPTION": "We're committed to helping our employees reach their full potential. Whether you're just starting your career or looking to take the next step, we offer opportunities for growth and development that will challenge and inspire you."
+          },
+          {
+            "TITLE": "Collaborative Culture",
+            "DESCRIPTION": "At Portico Sport, collaboration is key. We believe in the power of teamwork and actively encourage open communication and idea-sharing among our employees. Together, we strive to achieve excellence in everything we do."
+          },
+          {
+            "TITLE": "Making a Difference",
+            "DESCRIPTION": "Joining Portico Sport isn't just about building a career; it's about making a difference in the world of padel. We're passionate about what we do, and we're looking for individuals who share that passion and want to be part of something meaningful."
+          },
+          {
+            "TITLE": "Ready to Join Us?",
+            "DESCRIPTION": "If you're ready to take your career to the next level and be part of a team that's shaping the future of padel, we want to hear from you."
+          }
+        ],
         "SUBHEADING": "Send us your CV",
         "EMAIL": "rrhh@porticosport.com"
       },
@@ -2324,7 +2481,7 @@
     "PRIVACY": {
       "ID": "privacy",
       "SEO_TITLE": "Privacy Policy",
-      "SEO_DESCRIPTION":"Explore our Privacy Policy and General Conditions at Portico Sport. Learn about data protection, user rights, intellectual property, and more.",
+      "SEO_DESCRIPTION": "Explore our Privacy Policy and General Conditions at Portico Sport. Learn about data protection, user rights, intellectual property, and more.",
       "ROUTE": {
         "LABEL": "Privacy Policy",
         "URL": "/privacy"
@@ -2391,7 +2548,7 @@
     "NO_FOUND": {
       "ID": "not-found",
       "SEO_TITLE": "Page not found",
-      "SEO_DESCRIPTION":"The page you are looking for does not exist. Please, go to the home page or contact us.",
+      "SEO_DESCRIPTION": "The page you are looking for does not exist. Please, go to the home page or contact us.",
       "TITLE": "Page not found",
       "TITLE_ALT": "Page not found",
       "SUBTITLE": "The page you are looking for does not exist",
@@ -2421,7 +2578,7 @@
   },
   "ELEVATED_PLATFORM": {
     "SEO_TITLE": "Elevated Platform - Padel Court",
-    "SEO_DESCRIPTION":"The elevated platform is a patented system designed for sports practice, offering mobility and stability. Find out more about our innovative solution!",
+    "SEO_DESCRIPTION": "The elevated platform is a patented system designed for sports practice, offering mobility and stability. Find out more about our innovative solution!",
     "OG_IMG": "https://porticosport.com/og/og-elevated-platform.jpg",
     "ID": "elevated-platform",
     "TITLE": "Elevated Platform",
@@ -2566,64 +2723,83 @@
     "TYPES_TITLE": "Lighting types",
     "MASTS_TITLE": "Lighting masts",
     "MASTS_DESCRIPTION": "<p>Our masts, attached and anchored to the court structure, are crafted from galvanized and lacquered S275 JR steel profiles, ensuring durability and reliability. Standing at an impressive height of 6 meters, each mast provides support for 2 projectors, illuminating your court with precision and clarity.</p><p>Choose from our range of aesthetic options to complement your court design:</p>",
-    "LIGHTING_TYPES": [{
-      "title": "PV: 8 X 180W",
-      "description": "Proven technology endorsed by our experience and the vast majority of professional players.",
-      "image": "/courts-detail/pv-8-180w.webp"
-    },{
-      "title": "PV-D: 12 X 180W",
-      "description": "Lighting for clubs that want to be at the level of the best and with top-notch conditions.",
-      "image": "/courts-detail/pv-d-12-x-180.webp"
-    }],
-    "LIGHTING_MASTS": [{
-      "title": "Straight Mast",
-      "description": "For a sleek and linear look.",
-      "image": "/courts-detail/mast-straight.webp"
-    }, {
-      "title": "V-shaped Mast",
-      "description": "Adding a touch of aggressiveness to your court.",
-      "image": "/courts-detail/mast-v.webp"
-    },{
-      "title": "Curved Mast",
-      "description": "Offering a fluid and elegant solution.",
-      "image": "/courts-detail/mast-curved.webp"
-    }]
+    "LIGHTING_TYPES": [
+      {
+        "title": "PV: 8 X 180W",
+        "description": "Proven technology endorsed by our experience and the vast majority of professional players.",
+        "image": "/courts-detail/pv-8-180w.webp"
+      },
+      {
+        "title": "PV-D: 12 X 180W",
+        "description": "Lighting for clubs that want to be at the level of the best and with top-notch conditions.",
+        "image": "/courts-detail/pv-d-12-x-180.webp"
+      }
+    ],
+    "LIGHTING_MASTS": [
+      {
+        "title": "Straight Mast",
+        "description": "For a sleek and linear look.",
+        "image": "/courts-detail/mast-straight.webp"
+      },
+      {
+        "title": "V-shaped Mast",
+        "description": "Adding a touch of aggressiveness to your court.",
+        "image": "/courts-detail/mast-v.webp"
+      },
+      {
+        "title": "Curved Mast",
+        "description": "Offering a fluid and elegant solution.",
+        "image": "/courts-detail/mast-curved.webp"
+      }
+    ]
   },
   "TURF_SECTION": {
-    "MODELS": [{
-      "COLORS": [{
-        "color": "blue",
-        "name": "Blue"
-        }, {
-        "color": "green",
-        "name": "Green"
-        }, {
-        "color": "red",
-        "name": "Red"
-      }],
-      "ID": "curled-turf",
-      "TITLE": "Curled turf",
-      "DESCRIPTION": "A system of artificial turf that combines curled textured fibers",
-      "IMAGE": "/courts-detail/turf-XN.webp"
-    }, {
-      "COLORS": [{
-        "color": "blue",
-        "name": "Blue"
-        }, {
-        "color": "green",
-        "name": "Green"
-        }, {
-        "color": "violet",
-        "name": "Violet"
-      }, {
-        "color": "orange",
-        "name": "Orange"
-      }],
-      "ID": "straight-turf",
-      "TITLE": "Straight Turf",
-      "DESCRIPTION": "Cutting-edge artificial turf system composed of straight fibers",
-      "IMAGE": "/courts-detail/turf-STX.webp"
-    }]
+    "MODELS": [
+      {
+        "COLORS": [
+          {
+            "color": "blue",
+            "name": "Blue"
+          },
+          {
+            "color": "green",
+            "name": "Green"
+          },
+          {
+            "color": "red",
+            "name": "Red"
+          }
+        ],
+        "ID": "curled-turf",
+        "TITLE": "Curled turf",
+        "DESCRIPTION": "A system of artificial turf that combines curled textured fibers",
+        "IMAGE": "/courts-detail/turf-XN.webp"
+      },
+      {
+        "COLORS": [
+          {
+            "color": "blue",
+            "name": "Blue"
+          },
+          {
+            "color": "green",
+            "name": "Green"
+          },
+          {
+            "color": "violet",
+            "name": "Violet"
+          },
+          {
+            "color": "orange",
+            "name": "Orange"
+          }
+        ],
+        "ID": "straight-turf",
+        "TITLE": "Straight Turf",
+        "DESCRIPTION": "Cutting-edge artificial turf system composed of straight fibers",
+        "IMAGE": "/courts-detail/turf-STX.webp"
+      }
+    ]
   },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Padel courts that comply with regulations",

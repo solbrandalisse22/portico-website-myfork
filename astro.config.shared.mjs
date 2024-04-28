@@ -4,11 +4,9 @@ import vercel from "@astrojs/vercel/serverless";
 import preact from "@astrojs/preact";
 import sitemap from '@astrojs/sitemap';
 
-import auth from "auth-astro";
-
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), preact(), auth(), sitemap()],
+  integrations: [tailwind(), preact(), sitemap()],
   output: "server",
-  adapter: vercel()
+  adapter: vercel(),
 });

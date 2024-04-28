@@ -1,36 +1,53 @@
 ---
+import { getI18N } from "@/shared/i18n";
 import SpainFlag from "@/shared/components/flags/Spain.astro"
-import AndorraFlag from "@/shared/components/flags/Andorra.astro"
+import FrenchFlag from "@/shared/components/flags/French.astro"
+import UkFlag from "@/shared/components/flags/UkFlag.astro"
+import ItalianFlag from "@/shared/components/flags/Italy.astro"
+import GermanyFlag from "@/shared/components/flags/Germany.astro"
 import ChevronIcon from "@/shared/components/icons/Chevron.astro"
 
-const { currentLocale = "es", url } = Astro
+const { currentLocale = "en", url, props } = Astro
+const { language } = props
 
+const i18n = getI18N({ language });
 const pathname = url.pathname
 
-let restUrl
-
-if (pathname.startsWith("/ca")) {
-  const segments = pathname.split("/").slice(2)
-  restUrl = "/" + segments.join("/").replace(/\/+$/, "")
-} else {
-  restUrl = pathname.replace(/\/+$/, "")
-}
+const restUrl = ''
 
 const LOCALES: Record<
   string,
   { code: string; name: string; href: string; flag: typeof SpainFlag }
 > = {
-  ca: {
-    code: "ca",
-    href: `/ca${restUrl}`,
-    name: "Català",
-    flag: AndorraFlag,
+  en: {
+    code: "en",
+    href: `porticosport.com${restUrl}`,
+    name: "English",
+    flag: UkFlag,
   },
   es: {
     code: "es",
-    href: restUrl,
+    href: `https://porticosport.es${restUrl}`,
     name: "Español",
     flag: SpainFlag,
+  },
+  fr: {
+    code: "fr",
+    name: "French",
+    href: `https://porticosport.fr${restUrl}`,
+    flag: FrenchFlag,
+  },
+  it: {
+    code: "it",
+    name: "Italian",
+    href: `https://porticosport.it${restUrl}`,
+    flag: ItalianFlag,
+  },
+  ge: {
+    code: "ge",
+    name: "Germany",
+    href: `https://porticosport.de${restUrl}`,
+    flag: GermanyFlag,
   },
 }
 
