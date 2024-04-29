@@ -1,0 +1,16 @@
+---
+import CourtDetailPage from "@/shared/components/pages/CourtDetailPage.astro";
+import { LANGUAGES } from "@/shared/i18n/constants";
+import { getI18N } from "@/shared/i18n";
+import gallery from "@/es/data/club-court-gallery.json"
+
+
+const language = LANGUAGES.ES;
+---
+
+<CourtDetailPage
+  language={language}
+  video="/courts-detail/club/club-court.mp4"
+  court="CLUB_COURT"
+  gallery={gallery}
+/>

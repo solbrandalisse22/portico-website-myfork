@@ -31,7 +31,7 @@ const featureImages = [] as Photo[];
 const { language, video, heroImage, court, gallery } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
-const locale = i18n.PAGES.COURTS[court];
+const locale = i18n.PAGES[court];
 const isPaintSection = (locale as { PAINT_SECTION?: FeatureCourt }).PAINT_SECTION;
 const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_SECTION;
 const isBenefitsSection = (locale as { BENEFITS_SECTION?: BenefitsSectionCourt }).BENEFITS_SECTION;
@@ -54,13 +54,13 @@ if (isPaintSection) {
   });
 }
 
-const title = i18n.PAGES.COURTS[court].TITLE
-const isMobile = title === i18n.PAGES.COURTS.MOBILE_COURT.TITLE
-const force80 = i18n.PAGES.COURTS.CLUB_FORCE_80_COURT.TITLE
+const title = i18n.PAGES[court].TITLE
+const isMobile = title === i18n.PAGES.MOBILE_COURT.TITLE
+const force80 = i18n.PAGES.CLUB_FORCE_80_COURT.TITLE
 const courts = courtsGrid(i18n);
 const compatibleCourts = isMobile 
   ? courts.filter((item) => item.title !== title && item.title !== force80)
-  : courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.COURTS.MOBILE_COURT.TITLE);
+  : courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.MOBILE_COURT.TITLE);
 
 ---
 

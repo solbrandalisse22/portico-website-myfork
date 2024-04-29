@@ -12,8 +12,12 @@ const { language } = props
 
 const i18n = getI18N({ language });
 const pathname = url.pathname
-
-const restUrl = ''
+console.log(pathname)
+console.log([Object.keys(i18n.PAGES)])
+const key = Object.keys(i18n.PAGES).find((key) => {
+  const page = i18n.PAGES[key]
+  return page.ROUTE.URL === pathname
+}) || "HOME"
 
 const LOCALES: Record<
   string,
@@ -21,32 +25,32 @@ const LOCALES: Record<
 > = {
   en: {
     code: "en",
-    href: `porticosport.com${restUrl}`,
+    href: `https://porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
     name: "English",
     flag: UkFlag,
   },
   es: {
     code: "es",
-    href: `https://porticosport.es${restUrl}`,
+    href: `https://porticosport.es${getI18N({ language: "es" }).PAGES?.[key]?.ROUTE?.URL}`,
     name: "Español",
     flag: SpainFlag,
   },
   fr: {
     code: "fr",
     name: "French",
-    href: `https://porticosport.fr${restUrl}`,
+    href: `https://porticosport.fr${getI18N({ language: "fr" }).PAGES?.[key]?.ROUTE?.URL}`,
     flag: FrenchFlag,
   },
   it: {
     code: "it",
     name: "Italian",
-    href: `https://porticosport.it${restUrl}`,
+    href: `https://porticosport.it${getI18N({ language: "it" }).PAGES?.[key]?.ROUTE?.URL}`,
     flag: ItalianFlag,
   },
   ge: {
     code: "ge",
     name: "Germany",
-    href: `https://porticosport.de${restUrl}`,
+    href: `https://porticosport.de${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
     flag: GermanyFlag,
   },
 }
@@ -69,7 +73,6 @@ const currentPath = url.pathname.replace(currentLocaleData.href, "")
       aria-haspopup="true"
     >
       <currentLocaleData.flag />
-      {currentLocaleData.name}
       <ChevronIcon />
     </button>
     <ul
@@ -80,10 +83,9 @@ const currentPath = url.pathname.replace(currentLocaleData.href, "")
           <li class="">
             <a
               class="rounded-md bg-black/30 hover:bg-black/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
-              href={`${locale.href}${currentPath}`}
+              href={`${locale.href}`}
             >
               <locale.flag />
-              {locale.name}
             </a>
           </li>
         ))

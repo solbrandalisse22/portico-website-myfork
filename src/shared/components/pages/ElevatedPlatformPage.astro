@@ -24,9 +24,9 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
 ---
 
 <Layout
-  title={i18n.ELEVATED_PLATFORM.SEO_TITLE}
-  description={i18n.ELEVATED_PLATFORM.SEO_DESCRIPTION}
-  ogImage={i18n.ELEVATED_PLATFORM.OG_IMG}
+  title={i18n.PAGES.ELEVATED_PLATFORM.SEO_TITLE}
+  description={i18n.PAGES.ELEVATED_PLATFORM.SEO_DESCRIPTION}
+  ogImage={i18n.PAGES.ELEVATED_PLATFORM.OG_IMG}
   currentLocale={currentLocale}
   language={language}
 >
@@ -35,12 +35,12 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
     <Section className="absolute z-10 animate-fade-up flex flex-col xl:flex-row max-w-none h-full justify-between md:justify-center">
       <div class="lg:p-16 flex flex-col md:gap-8 flex-1 justify-center max-w-[1400]">
         <header class="text-center md:pt-20">
-          <Typography tag="p" type="primary" size="large" text={i18n.ELEVATED_PLATFORM.SUBTITLE} responsive />
-          <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.ELEVATED_PLATFORM.TITLE} responsive />
+          <Typography tag="p" type="primary" size="large" text={i18n.PAGES.ELEVATED_PLATFORM.SUBTITLE} responsive />
+          <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.ELEVATED_PLATFORM.TITLE} responsive />
         </header>
       </div>
-      <Button target="_self" class="xl:hidden self-center" url={`#/${i18n.ELEVATED_PLATFORM.CONTACT_SECTION.ID}`}>
-        {i18n.ELEVATED_PLATFORM.CONTACT_BUTTON}
+      <Button target="_self" class="xl:hidden self-center" url={`#/${i18n.PAGES.ELEVATED_PLATFORM.CONTACT_SECTION.ID}`}>
+        {i18n.PAGES.ELEVATED_PLATFORM.CONTACT_BUTTON}
       </Button>
     </Section>
   </Video>
@@ -49,16 +49,16 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
       crumbs={[
         { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
         {
-          label: i18n.ELEVATED_PLATFORM.ROUTE.LABEL,
-          href: i18n.ELEVATED_PLATFORM.ROUTE.URL,
+          label: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.LABEL,
+          href: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.URL,
         },
       ]}
     />
     <Section
-      heading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.TITLE}
-      subheading={i18n.ELEVATED_PLATFORM.FIRST_SECTION.SUBTITLE}
+      heading={i18n.PAGES.ELEVATED_PLATFORM.FIRST_SECTION.TITLE}
+      subheading={i18n.PAGES.ELEVATED_PLATFORM.FIRST_SECTION.SUBTITLE}
     >
-    <Typography tag="div" className="text-center" text={i18n.ELEVATED_PLATFORM.FIRST_SECTION.DESCRIPTION} responsive />
+    <Typography tag="div" className="text-center" text={i18n.PAGES.ELEVATED_PLATFORM.FIRST_SECTION.DESCRIPTION} responsive />
     </Section>
     <Section
       className="flex flex-col max-w-none my-14 p-0 lg:mb-0"
@@ -69,16 +69,16 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
           <img
             loading="lazy"
             draggable={false}
-            id={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.id}
-            src={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.src}
-            alt={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.alt}
+            id={i18n.PAGES.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.id}
+            src={i18n.PAGES.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.src}
+            alt={i18n.PAGES.ELEVATED_PLATFORM.FEATURE_SECTION.IMAGE.alt}
             class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/12]"
           />
         </div>
         <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE} type="secondary" responsive />
-          <Typography tag="h3" className="mb-8 font-thin uppercase" text={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE} type="primary" responsive />
-          <FeatureList list={i18n.ELEVATED_PLATFORM.FEATURE_SECTION.LIST} />
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.ELEVATED_PLATFORM.FEATURE_SECTION.TITLE} type="secondary" responsive />
+          <Typography tag="h3" className="mb-8 font-thin uppercase" text={i18n.PAGES.ELEVATED_PLATFORM.FEATURE_SECTION.SUBTITLE} type="primary" responsive />
+          <FeatureList list={i18n.PAGES.ELEVATED_PLATFORM.FEATURE_SECTION.LIST} />
         </div>
       </div>
     </Section>
@@ -88,18 +88,18 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
       >
       <div class="flex flex-col-reverse xl:flex-row max-w-none">
         <div class="w-full py-8 px-4 flex-1 md:px-8">
-          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.TITLE} type="secondary" responsive />
-          <Typography tag="p" text={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.DESCRIPTION} responsive />
-          <Typography tag="h3" className="mb-8 font-thin uppercase" text={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.SUBTITLE} type="primary" responsive />
-          <FeatureList list={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES} />
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.TITLE} type="secondary" responsive />
+          <Typography tag="p" text={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.DESCRIPTION} responsive />
+          <Typography tag="h3" className="mb-8 font-thin uppercase" text={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.SUBTITLE} type="primary" responsive />
+          <FeatureList list={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.ADVANTAGES} />
         </div>
         <div class="relative w-full flex-1">
           <img
             loading="lazy"
             draggable={false}
-            id={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.id}
-            src={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.src}
-            alt={i18n.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.alt}
+            id={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.id}
+            src={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.src}
+            alt={i18n.PAGES.ELEVATED_PLATFORM.ADVANTAGE_SECTION.IMAGE.alt}
             class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/15] image-reverse"
           />
         </div>
@@ -114,18 +114,18 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
           <img
             loading="lazy"
             draggable={false}
-            id={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.id}
-            src={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.src}
-            alt={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.alt}
+            id={i18n.PAGES.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.id}
+            src={i18n.PAGES.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.src}
+            alt={i18n.PAGES.ELEVATED_PLATFORM.INFORMATION_SECTION.IMAGE.alt}
             class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11]"
           />
         </div>
         <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TITLE} type="secondary" responsive />
-          <Typography tag="div" text={i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.DESCRIPTION} responsive />
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.ELEVATED_PLATFORM.INFORMATION_SECTION.TITLE} type="secondary" responsive />
+          <Typography tag="div" text={i18n.PAGES.ELEVATED_PLATFORM.INFORMATION_SECTION.DESCRIPTION} responsive />
           <div class="flex gap-4">
             {
-              i18n.ELEVATED_PLATFORM.INFORMATION_SECTION.TECHNICAL_FEATURES.map((item:string) => (
+              i18n.PAGES.ELEVATED_PLATFORM.INFORMATION_SECTION.TECHNICAL_FEATURES.map((item:string) => (
               <Typography tag="div" text={item} className="p-3 bg-black/70 rounded-xl border border-primary" responsive />
               ))
             }
@@ -133,12 +133,12 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
         </div>
       </div>
     </Section>
-    <SectionCourtsGrid language={language} courts={compatibleCourts} heading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.TITLE} subheading={i18n.ELEVATED_PLATFORM.COURTS_SECTION.DESCRIPTION} />
+    <SectionCourtsGrid language={language} courts={compatibleCourts} heading={i18n.PAGES.ELEVATED_PLATFORM.COURTS_SECTION.TITLE} subheading={i18n.PAGES.ELEVATED_PLATFORM.COURTS_SECTION.DESCRIPTION} />
     <SectionContact
       hiddenSubject
-      subject={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.CONTACT_SUBJECT}
+      subject={i18n.PAGES.ELEVATED_PLATFORM.CONTACT_SECTION.CONTACT_SUBJECT}
       language={language}
-      bgImage={i18n.ELEVATED_PLATFORM.CONTACT_SECTION.BG_IMAGE}
+      bgImage={i18n.PAGES.ELEVATED_PLATFORM.CONTACT_SECTION.BG_IMAGE}
     />
   </main>
 </Layout>
