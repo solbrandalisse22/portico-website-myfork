@@ -28,15 +28,15 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
       }}>
         <HeaderEmailTemplate />
         <h1>{subject}</h1>
-        <p>We have been received a new email from page <a href={`https://porticosport.com/${page}`}>{page}</a></p>
-        <p>This is the email</p>
+        <p>Nous avons reçu un nouvel e-mail de la page <a href={`https://porticosport.com/${page}`}>{page}</a></p>
+        <p>C'est l'email</p>
         <div style={{
           display: 'flex',
           gap: '1rem',
           padding: '1rem 0',
           borderBottom: '1px solid white'
         }}>
-          <strong>Name:</strong> <span>{name}</span>
+          <strong>Nom:</strong> <span>{name}</span>
         </div>
         <div style={{
           display: 'flex',
@@ -52,7 +52,7 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
           padding: '1rem 0',
           borderBottom: '1px solid white'
         }}>
-          <strong>Phone:</strong> <span>{phone}</span>
+          <strong>Téléphone:</strong> <span>{phone}</span>
         </div>
         <div style={{
           display: 'flex',
@@ -60,7 +60,7 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
           padding: '1rem 0',
           borderBottom: '1px solid white'
         }}>
-          <strong>Country:</strong> <span>{country}</span>
+          <strong>Pays:</strong> <span>{country}</span>
         </div>
         <div style={{
           padding: '1rem 0',
