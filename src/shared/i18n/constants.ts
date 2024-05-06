@@ -9,6 +9,7 @@ export const LANGUAGES = {
   ES: 'es',
   FR: 'fr',
   IT: 'it',
+  DE: 'de',
   DEFAULT: 'en',
 } as ILanguages
 

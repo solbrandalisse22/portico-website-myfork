@@ -169,7 +169,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Mobile Court",
       "ROUTE": {
         "LABEL": "Mehr über Mobile",
-        "URL": "/padel-plätze/mobile"
+        "URL": "/padel-plaetze/mobile"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -335,11 +335,11 @@
         "LINKS": [
           {
             "LABEL": "Club court",
-            "URL": "/padel-plätze/club"
+            "URL": "/padel-plaetze/club"
           },
           {
             "LABEL": "Pro court",
-            "URL": "/padel-plätze/pro"
+            "URL": "/padel-plaetze/pro"
           }
         ]
       }
@@ -360,7 +360,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Flow Court",
       "ROUTE": {
         "LABEL": "Mehr über den Flow Court erfahren",
-        "URL": "/padel-plätze/flow"
+        "URL": "/padel-plaetze/flow"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erleben Sie Padel wie nie zuvor!</span>",
@@ -2093,7 +2093,7 @@
         "BUTTON": "Entdecken Sie mehr",
         "URL": {
           "label": "Mehr über Padelplätze",
-          "href": "/padel-courts"
+          "href": "/padel-plaetze"
         }
       },
       "CONTACT_SECTION": {
