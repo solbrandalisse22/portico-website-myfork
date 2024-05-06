@@ -2,10 +2,12 @@ import english from './en.json'
 import spanish from './es.json'
 import french from './fr.json'
 import italian from './it.json'
+import german from './de.json'
 import EnglishCountriesList from './en-countries-list.json'
 import ItalianCountriesList from './en-countries-list.json'
 import SpanishCountriesList from './en-countries-list.json'
 import FrenchCountriesList from './en-countries-list.json'
+import GermanCountriesList from './en-countries-list.json'
 import { LANGUAGES } from './constants'
 
 export const getI18N = ({
@@ -17,6 +19,7 @@ export const getI18N = ({
   if (LANGUAGES[language.toUpperCase()] === 'es') return spanish
   if (LANGUAGES[language.toUpperCase()] === 'fr') return french
   if (LANGUAGES[language.toUpperCase()] === 'it') return italian
+  if (LANGUAGES[language.toUpperCase()] === 'de') return german
   return english
 }
 
@@ -35,6 +38,7 @@ export const getCategoryByLanguage = ({
   if (LANGUAGES[language.toUpperCase()] === 'it') return 12
   if (LANGUAGES[language.toUpperCase()] === 'fr') return 13
   if (LANGUAGES[language.toUpperCase()] === 'es') return 1
+  if (LANGUAGES[language.toUpperCase()] === 'de') return 1
   return 1
 }
 
@@ -47,5 +51,6 @@ export const getCountryListByLanguage = ({
   if (LANGUAGES[language.toUpperCase()] === 'fr') return FrenchCountriesList
   if (LANGUAGES[language.toUpperCase()] === 'es') return SpanishCountriesList
   if (LANGUAGES[language.toUpperCase()] === 'fr') return EnglishCountriesList
+  if (LANGUAGES[language.toUpperCase()] === 'de') return GermanCountriesList
   return EnglishCountriesList
 }
