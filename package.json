@@ -15,15 +15,20 @@
     "dl": "bun ./scripts/download-all-images.ts",
     "dl:voting": "bun ./scripts/dl-voting.ts",
     "dev-en": "astro dev --config astro.config.en.mjs",
-    "dev-es": "astro dev --config astro.config.es.mjs",
     "build-en": "astro build --config astro.config.en.mjs",
     "preview-en": "astro preview --config astro.config.en.mjs",
+    "dev-es": "astro dev --config astro.config.es.mjs",
+    "build-es": "astro build --config astro.config.es.mjs",
+    "preview-es": "astro preview --config astro.config.es.mjs",
     "dev-fr": "astro dev --config astro.config.fr.mjs",
     "build-fr": "astro build --config astro.config.fr.mjs",
     "preview-fr": "astro preview --config astro.config.fr.mjs",
     "dev-it": "astro dev --config astro.config.it.mjs",
     "build-it": "astro build --config astro.config.it.mjs",
-    "preview-it": "astro preview --config astro.config.it.mjs"
+    "preview-it": "astro preview --config astro.config.it.mjs",
+    "dev-de": "astro dev --config astro.config.de.mjs",
+    "build-de": "astro build --config astro.config.de.mjs",
+    "preview-de": "astro preview --config astro.config.de.mjs"
   },
   "dependencies": {
     "@appnest/masonry-layout": "2.2.3",
