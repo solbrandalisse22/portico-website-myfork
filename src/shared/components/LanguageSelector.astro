@@ -12,11 +12,9 @@ const { language } = props
 
 const i18n = getI18N({ language });
 const pathname = url.pathname
-console.log(pathname)
-console.log([Object.keys(i18n.PAGES)])
 const key = Object.keys(i18n.PAGES).find((key) => {
   const page = i18n.PAGES[key]
-  return page.ROUTE.URL === pathname
+  return page?.ROUTE?.URL === pathname
 }) || "HOME"
 
 const LOCALES: Record<

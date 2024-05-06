@@ -278,11 +278,12 @@ export default defineConfig({
   },
   i18n: {
     defaultLocale: "en",
-    locales: ["es", "en", "fr", "it"],
+    locales: ["es", "en", "fr", "it", "de"],
     routing: {
       prefixDefaultLocale: false
     },
     domains: {
+      de: "https://porticosport.de",
       fr: "https://porticosport.fr",
       es: "https://porticosport.es",
       it: "https://porticosport.it"
