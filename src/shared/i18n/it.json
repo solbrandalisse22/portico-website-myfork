@@ -2611,19 +2611,31 @@
         "DESCRIPTION_1": "Il proprietario del portale non è responsabile, in nessun caso, dei danni e delle perdite di qualsiasi natura che potrebbero causare, a titolo esemplificativo: errori o omissioni nei contenuti, mancanza di disponibilità del portale o trasmissione di virus o programmi dannosi nel contenuto, nonostante aver adottato tutte le misure tecniche necessarie per evitarlo.",
         "DESCRIPTION_2": "Inoltre, il proprietario del portale si riserva il diritto di apportare modifiche senza preavviso che ritiene appropriate nel suo portale, potendo cambiare, eliminare o aggiungere sia i contenuti che i servizi forniti attraverso di esso, come la modalità in cui vengono presentati o localizzati sui loro server."
       },
-      "LINKS": {
-        "TITLE": "7. LINKS",
-        "DESCRIPTION_1": "In caso di collegamento ipertestuale a siti Web esterni che si trovano sul proprio sito web, il proprietario del portale non eserciterà alcun controllo sui siti e i contenuti collegati. In nessun caso il proprietario del portale assuma la responsabilità dei contenuti di un collegamento appartenente a un sito Web esterno, né garantisce la disponibilità tecnica, la qualità, l'affidabilità, l'accuratezza, l'esattezza, l'ampiezza, la veridicità, la validità e la costituzionalità di qualsiasi materiale o informazione contenuta in tali collegamenti ipertestuali o altri siti Web.",
-        "DESCRIPTION_2": "Inoltre, l'inclusione di queste connessioni esterne non comporterà alcun tipo di associazione, fusione o partecipazione con le entità collegate."
+      "MODIFICATIONS": {
+        "TITLE": "7. MODIFICHE",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. si riserva il diritto di apportare le modifiche che ritiene opportune sul suo portale senza preavviso, potendo cambiare, eliminare o aggiungere sia i contenuti che i servizi forniti attraverso di esso, come la modalità in cui vengono presentati o localizzati sul suo portale."
       },
-      "RIGHT": {
-        "TITLE": "8. DIRITTO DI ESCLUSIONE",
-        "DESCRIPTION_1": "Il proprietario del portale si riserva il diritto di negare o ritirare l'accesso al portale e/o ai servizi offerti senza preavviso, su richiesta o di propria iniziativa, a tutti gli utenti che non rispettano il presente Avviso Legale."
+      "LINKS": {
+        "TITLE": "8. LINK",
+        "DESCRIPTION_1": "Nel caso in cui siano disponibili collegamenti o collegamenti ipertestuali ad altri siti Internet su porticosport.net, non eserciterà alcun tipo di controllo su tali siti e contenuti. In nessun caso PÓRTICO GESTIÓN E INGENIERÍA, S.L. si assumerà alcuna responsabilità per i contenuti di qualsiasi collegamento appartenente a un sito web di terzi, né garantirà la disponibilità tecnica, la qualità, l'affidabilità, l'accuratezza, l'ampiezza, la veridicità, la validità e la costituzionalità di qualsiasi materiale o informazione contenuta in uno di tali collegamenti ipertestuali o altri siti Internet. In caso di utilizzo dei collegamenti, si prega di accedere all'informativa sulla privacy e all'avviso legale della pagina visitata.",
+        "DESCRIPTION_2": "Allo stesso modo, l'inclusione di questi collegamenti esterni non implicherà alcun tipo di associazione, fusione o partecipazione con le entità collegate."
+      },
+      "RIGHT_OF_EXCLUSION": {
+        "TITLE": "9. DIRITTO DI ESCLUSIONE",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. si riserva il diritto di negare o ritirare l'accesso al portale e/o ai servizi offerti senza preavviso, a propria richiesta o di un terzo, agli utenti che non rispettano queste Condizioni Generali d'Uso."
       },
       "GENERAL": {
-        "TITLE": "9. GENERALITÀ",
-        "DESCRIPTION_1": "Il proprietario del portale perseguirà la violazione del presente Avviso Legale, nonché qualsiasi uso improprio del proprio sito web, esercitando tutte le azioni civili e penali a cui ha diritto per legge.",
-        "DESCRIPTION_2": "Il diritto spagnolo regola il presente Avviso Legale. In caso di controversia che potrebbe sorgere in relazione all'interpretazione e all'esecuzione del presente Avviso Legale, l'utente accetta espressamente di sottoporsi alla giurisdizione dei Tribunali della città di Badajoz."
+        "TITLE": "10. GENERALE",
+        "DESCRIPTION_1": "Il mancato rispetto di queste condizioni sarà perseguito, così come qualsiasi uso improprio del suo portale, esercitando tutte le azioni civili e penali che possono corrispondergli in diritto."
+      },
+      "MODIFICATION_PRESENT": {
+        "TITLE": "11. MODIFICA DELLE PRESENTI CONDIZIONI E DURATA",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. si riserva il diritto di apportare le modifiche che ritiene opportune sul suo portale senza preavviso, potendo cambiare, eliminare o aggiungere sia i contenuti che i servizi forniti attraverso di esso, come la modalità in cui vengono presentati o localizzati sul suo portale.",
+        "DESCRIPTION_2": "La validità delle suddette condizioni sarà basata sulla loro esposizione e sarà valida fino a quando non saranno debitamente pubblicate. che vengono modificate da altre."
+      },
+      "LEGISLATION": {
+        "TITLE": "12. LEGISLAZIONE APPLICABILE E GIURISDIZIONE",
+        "DESCRIPTION_1": "Il rapporto tra PÓRTICO GESTIÓN E INGENIERÍA, S.L. e l'UTENTE sarà regolato dalla normativa spagnola vigente e qualsiasi controversia sarà sottoposta all'autorità competente."
       }
     },
     "NO_FOUND": {
