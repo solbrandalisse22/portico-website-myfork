@@ -94,7 +94,7 @@
         "SUBTITLE": "Klicken Sie, um zu enthüllen: Entdecken Sie unsere Platzprojekte im Detail!",
         "URL": {
           "LABEL": "Entdecken Sie alle unsere Projekte",
-          "SRC": "/projects"
+          "SRC": "/projekte"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Eine Auswahl an Projekten, die wir verwirklicht haben",
@@ -2106,7 +2106,7 @@
       },
       "URL": {
         "label": "Mehr über erhöht",
-        "href": "elevated-platform"
+        "href": "erhohte-plattform"
       }
     },
     "PROJECTS": {
@@ -2569,19 +2569,42 @@
         "DESCRIPTION_2": "<ul><li>Warum fragen wir nach Ihren Daten? Wir benötigen Ihre Daten, um einen Datensatz zu erstellen und anschließend unsere Kunden zu kontaktieren.</li><li>Welche Art von Daten erfassen wir? Persönliche Informationen.</li><li>Wie werden sie gesammelt? Über Webformular und Blogkommentare.</li><li>Gemeinsame Nutzung mit Dritten: Nicht zutreffend.</li><li>Wie lange werden die gesammelten personenbezogenen Daten aufbewahrt? Die bereitgestellten personenbezogenen Daten werden so lange aufbewahrt, wie die Geschäftsbeziehung aufrechterhalten wird oder Sie deren Löschung beantragen, und während des Zeitraums, für den rechtliche Verantwortlichkeiten für die erbrachten Dienstleistungen entstehen können.</li></ul>",
         "DESCRIPTION_3": "Rechte: Sie haben das Recht, jederzeit auf Ihre Daten zuzugreifen, diese zu berichtigen, zu löschen, ihre Verarbeitung einzuschränken und ihr zu widersprechen, Sie können auch die erteilte Einwilligung widerrufen und bei der Kontrollbehörde (Spanische Datenschutzbehörde C/ Jorge Juan Nr. 6 28001 Madrid) Beschwerde einlegen. Um Ihre Rechte auszuüben, haben Sie einen direkten Kanal zu unserem Unternehmen unter der E-Mail info@porticosport.com und unter der Postanschrift C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ)."
       },
-      "INTELLECTUAL_PROPERTY": {
+      "INTELLECTUAL": {
         "TITLE": "5. GEISTIGES EIGENTUM UND MARKEN",
         "DESCRIPTION_1": "Der Eigentümer des Portals verfügt über alle Rechte an geistigem und gewerblichem Eigentum seiner Website und der darin enthaltenen Elemente, einschließlich Bildern, Tönen, Audio, Video, Marken oder Logos, Struktur und Design der Website.",
         "DESCRIPTION_2": "Der BENUTZER verpflichtet sich, die Rechte an geistigem und gewerblichem Eigentum, die dem Eigentümer der Website gehören, zu respektieren. Sie können Anzeigen der Elemente der Website anzeigen und sogar kopieren, drucken oder auf die Festplatte Ihres Computers oder auf ein anderes physisches Medium herunterladen, solange es ausschließlich für den persönlichen und privaten Gebrauch des Benutzers bestimmt ist. Der Benutzer darf ohne die schriftliche Genehmigung des Eigentümers der Website keine der Eigenschaften ändern, reproduzieren, umgehen, anpassen, veröffentlichen, übersetzen, verbreiten oder verkaufen.",
         "DESCRIPTION_3": "Der unbefugte Gebrauch der auf der Website enthaltenen Informationen oder des Schadens an den geistigen und gewerblichen Eigentumsrechten des Eigentümers des Portals kann zur Einleitung der gesetzlich vorgesehenen rechtlichen Maßnahmen und, falls zutreffend, zu den Haftungen führen, die sich aus dieser aus der Nutzung ergeben können."
       },
-      "APPLICABLE_LAW": {
+      "EXCLUSION": {
         "TITLE": "6. ANWENDBARES RECHT UND GERICHTSSTAND",
-        "DESCRIPTION_1": "Diese allgemeinen Nutzungsbedingungen unterliegen den spanischen Gesetzen. Für alle Streitigkeiten, die sich aus der Interpretation oder Ausführung dieser Nutzungsbedingungen ergeben, sind die Parteien, sofern dies gesetzlich zulässig ist, berechtigt, auf ihren Willen zu verzichten und sich den Gerichten und Gerichten der Stadt Badajoz zu unterwerfen."
+        "DESCRIPTION_1": "Diese allgemeinen Nutzungsbedingungen unterliegen den spanischen Gesetzen. Für alle Streitigkeiten, die sich aus der Interpretation oder Ausführung dieser Nutzungsbedingungen ergeben, sind die Parteien, sofern dies gesetzlich zulässig ist, berechtigt, auf ihren Willen zu verzichten und sich den Gerichten und Gerichten der Stadt Badajoz zu unterwerfen.",
+        "DESCRIPTION_2": "Darüber hinaus behält sich der Eigentümer des Portals das Recht vor, zivil- oder strafrechtliche Maßnahmen zu ergreifen, die er für angemessen hält, wenn er feststellt, dass der Benutzer gegen diese Bedingungen verstößt."
       },
-      "ACCEPTANCE": {
-        "TITLE": "7. AKZEPTANZ UND ZUSTIMMUNG",
-        "DESCRIPTION_1": "Der BENUTZER erklärt, über die Bedingungen zum Schutz personenbezogener Daten informiert zu sein und akzeptiert deren Behandlung durch PÓRTICO GESTIÓN E INGENIERÍA, S.L. in der in dieser Datenschutzrichtlinie für die Zwecke angegebenen Weise. Bestimmte Dienstleistungen, die über das Portal angeboten werden, können besondere Bedingungen enthalten, die die Nutzung personenbezogener Daten und die Übermittlung an Dritte regeln."
+      "MODIFICATIONS": {
+        "TITLE": "7. ÄNDERUNGEN",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. behält sich das Recht vor, die Änderungen vorzunehmen, die es für angemessen hält, ohne vorherige Ankündigung an die Nutzer vorzunehmen. Diese Änderungen können auf ihrer Website veröffentlicht werden, um die Nutzer über sie zu informieren."
+      },
+      "LINKS": {
+        "TITLE": "8. LINKS",
+        "DESCRIPTION_1": "Im Falle, dass auf porticosport.net Links oder Hyperlinks zu anderen Internetseiten verfügbar sind, wird keine Kontrolle über diese Websites und Inhalte ausgeübt. In keinem Fall übernimmt PÓRTICO GESTIÓN E INGENIERÍA, S.L. die Verantwortung für die Inhalte eines Links, der zu einer Website eines Dritten gehört, noch garantiert sie die technische Verfügbarkeit, Qualität, Zuverlässigkeit, Genauigkeit, Reichweite, Wahrheit, Gültigkeit und Verfassung des Materials oder der Informationen, die in einem dieser Hyperlinks oder anderen Websites des Internets enthalten sind. Bei Verwendung der Links greifen Sie bitte auf die Datenschutzrichtlinie und das Impressum der besuchten Seite zu.",
+        "DESCRIPTION_2": "Ebenso bedeutet die Aufnahme dieser externen Verbindungen keine Art von Assoziation, Fusion oder Beteiligung mit den verbundenen Einheiten."
+      },
+      "RIGHT_OF_EXCLUSION": {
+        "TITLE": "9. AUSSCHLUSSRECHT",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. behält sich das Recht vor, den Zugriff auf das Portal und/oder die angebotenen Dienste ohne vorherige Ankündigung auf eigene Anfrage oder auf Anfrage eines Dritten zu verweigern oder zu entziehen, an die Benutzer, die diese Allgemeinen Nutzungsbedingungen nicht einhalten."
+      },
+      "GENERAL": {
+        "TITLE": "10. ALLGEMEINES",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. wird die Nichterfüllung dieser Bedingungen sowie den Missbrauch seines Portals verfolgen und alle zivil- und strafrechtlichen Maßnahmen ergreifen, die ihm nach dem Gesetz zustehen."
+      },
+      "MODIFICATION_PRESENT": {
+        "TITLE": "11. ÄNDERUNG DER VORLIEGENDEN BEDINGUNGEN UND DAUER",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. kann die hier festgelegten Bedingungen jederzeit ändern, wobei sie ordnungsgemäß veröffentlicht werden, wie sie hier erscheinen.",
+        "DESCRIPTION_2": "Die Gültigkeit der genannten Bedingungen basiert auf ihrer Exposition und ist gültig, bis sie ordnungsgemäß veröffentlicht werden, die von anderen geändert werden."
+      },
+      "LEGISLATION": {
+        "TITLE": "12. ANWENDBARES RECHT UND GERICHTSSTAND",
+        "DESCRIPTION_1": "Die Beziehung zwischen PÓRTICO GESTIÓN E INGENIERÍA, S.L. und dem BENUTZER unterliegt den aktuellen spanischen Vorschriften, und bei Streitigkeiten wird die zuständige Behörde angerufen."
       }
     },
     "NO_FOUND": {

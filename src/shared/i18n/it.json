@@ -94,7 +94,7 @@
         "SUBTITLE": "Clicca per scoprire: Esplora in dettaglio i nostri progetti di campi!",
         "URL": {
           "LABEL": "Scopri tutti i nostri progetti",
-          "SRC": "/projects"
+          "SRC": "/progetti"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Una selezione di progetti che abbiamo trasformato in realtà",
@@ -2124,7 +2124,7 @@
         "BUTTON": "Scopri di più",
         "URL": {
           "label": "Maggiori informazioni sui campi",
-          "href": "/campi-padel"
+          "href": "/campi-da-padel"
         }
       },
       "CONTACT_SECTION": {

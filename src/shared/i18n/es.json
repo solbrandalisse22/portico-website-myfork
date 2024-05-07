@@ -94,7 +94,7 @@
         "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
-          "SRC": "/projects"
+          "SRC": "/proyectos"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Una selección de proyectos que hemos convertido en realidad",

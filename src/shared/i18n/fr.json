@@ -94,7 +94,7 @@
         "SUBTITLE": "Cliquez pour découvrir : Explorez en détail nos projets de courts !",
         "URL": {
           "LABEL": "Découvrir tous nos projets",
-          "SRC": "/projects"
+          "SRC": "/projets"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Une sélection de projets que nous avons concrétisés",
@@ -169,7 +169,7 @@
       "CONTACT_BUTTON": "Je veux un Mobile Court",
       "ROUTE": {
         "LABEL": "En savoir plus sur mobile",
-        "URL": "/padel-courts/mobile"
+        "URL": "/terrains-de-padel/mobile"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -585,7 +585,7 @@
       "CONTACT_BUTTON": "Je veux un Court panoramique",
       "ROUTE": {
         "LABEL": "En savoir plus sur le court panoramique",
-        "URL": "/courts-de-padel/panoramique"
+        "URL": "/terrains-de-padel/panoramique"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Rehaussez votre jeu avec des vues incomparables !</span>",
@@ -2124,7 +2124,7 @@
         "BUTTON": "Découvrir plus",
         "URL": {
           "label": "Plus sur les courts",
-          "href": "/courts-de-padel"
+          "href": "/terrains-de-padel"
         }
       },
       "CONTACT_SECTION": {
