@@ -119,7 +119,7 @@
           },
           "ITEM_4": {
             "TITLE": "Artifitial turf",
-            "DESCRIPTION": "ARTIFICIAL TURF SYSTEM brand MONDO, of the latest generation, with straight or curly fibers…"
+            "DESCRIPTION": "Premium quality artificial turf in parnertship with top tur companies, of the latest generation, with straight or curly fibers…"
           },
           "ITEM_5": {
             "TITLE": "Lighting",
@@ -168,7 +168,7 @@
       "CONTACT_SUBJECT": "New petition from Mobile Court",
       "CONTACT_BUTTON": "I want a Mobile Court",
       "ROUTE": {
-        "LABEL": "More about mobile",
+        "LABEL": "More about mobile court",
         "URL": "/padel-courts/mobile"
       },
       "FIRST_SECTION": {
@@ -1100,7 +1100,7 @@
       "CONTACT_BUTTON": "I want a Club Force 80 Court",
       "NAME": "Club Force 80 court",
       "ROUTE": {
-        "LABEL": "More about Club Force 80",
+        "LABEL": "More about Club Force 80 court",
         "URL": "/padel-courts/club-force-80"
       },
       "FIRST_SECTION": {
@@ -1285,7 +1285,7 @@
       "CONTACT_BUTTON": "I want a Panoramic Force 80 Court",
       "NAME": "Panoramic Force 80 court",
       "ROUTE": {
-        "LABEL": "More about Panoramic Force 80",
+        "LABEL": "More about Panoramic Force 80 court",
         "URL": "/padel-courts/panoramic-force-80"
       },
       "FIRST_SECTION": {
