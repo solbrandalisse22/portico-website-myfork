@@ -166,9 +166,7 @@ const LINKS = [
           )
         )
       }
-      {
-        language !== 'en' && language !== 'EN' && <LanguageSelector language={language} />
-      }
+      <LanguageSelector language={language} />
     </nav>
 
     <!-- Botón de menú para pantallas pequeñas -->
@@ -214,9 +212,7 @@ const LINKS = [
     >
       {i18n.PAGES.CONTACT.ROUTE.LABEL}
     </Button> -->
-    {
-      language !== 'en' && language !== 'EN' && <LanguageSelector language={language} />
-    }
+    <LanguageSelector language={language} />
   </nav>
 </header>
 
