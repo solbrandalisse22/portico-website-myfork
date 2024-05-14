@@ -1,10 +1,10 @@
 {
   "PAGES": {
     "HOME": {
-      "SEO_TITLE": "Portico Sport : Courts de Padel et Coubertures dans le monde entier",
-      "SEO_DESCRIPTION": "Construction de premier plan de courts de Padel et installation de coubertures à l'échelle mondiale. Découvrez dès aujourd'hui nos solutions sur mesure !",
+      "SEO_TITLE": "Portico Sport : Courts de Padel et Auvents dans le monde entier",
+      "SEO_DESCRIPTION": "Construction de premier plan de courts de Padel et installation de auvents à l'échelle mondiale. Découvrez dès aujourd'hui nos solutions sur mesure !",
       "OG_IMG": "https://porticosport.com/og/og-portico.jpg",
-      "SUBTITLE": "Construction et Installation de Courts de Padel et d'Coubertures dans le monde entier",
+      "SUBTITLE": "Construction et Installation de Courts de Padel et d'Auvents dans le monde entier",
       "TITLE": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contactez-nous",
@@ -17,7 +17,7 @@
       "INTRO_SECTION": {
         "ID": "intro",
         "TITLE": "Bienvenue chez <br />Portico Sport",
-        "DESCRIPTION": "<p>Basé en Espagne, Portico Sport est l'un des fabricants <strong>leaders de courts de Padel et de coubertures</strong> à l'échelle mondiale. La société compte 15 ans d'expérience dans l'industrie, est présente <strong>dans plus de 35 pays et a installé plus de 3 500 courts</strong>.</p><p>Portico Sport est synonyme de qualité et d'excellence dans le service client. Notre ADN en ingénierie nous permet d'être fabricant avec une offre clé en main complète combinant courts et coubertures avec <strong>une conception et une fabrication 100% internes</strong>.</p><p>En 2023, l'entreprise a inauguré un <strong>nouveau site de fabrication</strong> s'étendant sur plus de 110 000 pieds carrés, ce qui en fait le plus grand et le plus <strong>technologiquement avancé</strong> de l'industrie.</p>"
+        "DESCRIPTION": "<p>Basé en Espagne, Portico Sport est l'un des fabricants <strong>leaders de courts de Padel et de auvents</strong> à l'échelle mondiale. La société compte 15 ans d'expérience dans l'industrie, est présente <strong>dans plus de 35 pays et a installé plus de 3 500 courts</strong>.</p><p>Portico Sport est synonyme de qualité et d'excellence dans le service client. Notre ADN en ingénierie nous permet d'être fabricant avec une offre clé en main complète combinant courts et auvents avec <strong>une conception et une fabrication 100% internes</strong>.</p><p>En 2023, l'entreprise a inauguré un <strong>nouveau site de fabrication</strong> s'étendant sur plus de 110 000 pieds carrés, ce qui en fait le plus grand et le plus <strong>technologiquement avancé</strong> de l'industrie.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
@@ -40,7 +40,7 @@
         },
         "POINT_5": {
           "TITLE": "Conception, fabrication et installation selon les besoins de chaque client",
-          "SUBTITLE": "Conformément aux normes de qualité les plus élevées, nos courts et nos coubertures sont conçus sur mesure pour répondre aux besoins spécifiques de chaque client, car nous comprenons que chaque projet est unique."
+          "SUBTITLE": "Conformément aux normes de qualité les plus élevées, nos courts et nos auvents sont conçus sur mesure pour répondre aux besoins spécifiques de chaque client, car nous comprenons que chaque projet est unique."
         },
         "POINT_6": {
           "TITLE": "Courts installés",
@@ -62,10 +62,10 @@
       },
       "CANOPIES_SECTION": {
         "ID": "canopies",
-        "TITLE": "Coubertures",
+        "TITLE": "Auvents",
         "SUBTITLE": "Force, durabilité et intégration parfaite",
-        "TEXT": "<p>Portico Sport est le seul fabricant de courts de Padel qui construit également des coubertures spécialement conçus pour les sports de raquette, offrant à nos clients une approche holistique de leurs besoins de projet.</p> <p>Notre expertise en tant que cabinet d'ingénierie nous a permis de concevoir des coubertures spécifiquement conçus pour la pratique sportive, notamment pour le PADEL, combinant des caractéristiques différenciantes pour ce sport difficiles à égaler par d'autres types de coubertures. PORTICO SPORT est un leader dans la conception et l'installation de coubertures sportifs dans le monde entier.</p>",
-        "BUTTON_TEXT": "En savoir plus sur les coubertures"
+        "TEXT": "<p>Portico Sport est le seul fabricant de courts de Padel qui construit également des auvents spécialement conçus pour les sports de raquette, offrant à nos clients une approche holistique de leurs besoins de projet.</p> <p>Notre expertise en tant que cabinet d'ingénierie nous a permis de concevoir des auvents spécifiquement conçus pour la pratique sportive, notamment pour le PADEL, combinant des caractéristiques différenciantes pour ce sport difficiles à égaler par d'autres types de auvents. PORTICO SPORT est un leader dans la conception et l'installation de auvents sportifs dans le monde entier.</p>",
+        "BUTTON_TEXT": "En savoir plus sur les auvents"
       },
       "BENTO_SECTION": {
         "ID": "why-us",
@@ -76,7 +76,7 @@
         },
         "POINT_2": {
           "TITLE": "INNOVATION",
-          "DESCRIPTION": "Dans notre engagement envers l'innovation, Portico Sport propose le meilleur design et la meilleure qualité dans nos courts et coubertures, avec des délais de livraison records et des garanties complètes. Nous fournissons des courts de Padel et des coubertures avec une résistance et une durabilité maximales."
+          "DESCRIPTION": "Dans notre engagement envers l'innovation, Portico Sport propose le meilleur design et la meilleure qualité dans nos courts et auvents, avec des délais de livraison records et des garanties complètes. Nous fournissons des courts de Padel et des auvents avec une résistance et une durabilité maximales."
         },
         "POINT_3": {
           "TITLE": "QUALITÉ PREMIUM",
@@ -1964,18 +1964,18 @@
       ]
     },
     "CANOPIES": {
-      "SEO_TITLE": "Coubertures de padel haute performance",
-      "SEO_DESCRIPTION": "Rehaussez votre jeu avec nos coubertures haute performance, conçus pour la durabilité et une expérience de jeu inégalée. En savoir plus!",
+      "SEO_TITLE": "Auvents de padel haute performance",
+      "SEO_DESCRIPTION": "Rehaussez votre jeu avec nos auvents haute performance, conçus pour la durabilité et une expérience de jeu inégalée. En savoir plus!",
       "OG_IMG": "https://porticosport.com/og/og-canopies.jpg",
-      "PRETITLE": "Leader dans la fabrication et l'installation de coubertures",
-      "TITLE": "Coubertures haute performance",
-      "TITLE_ALT": "Coubertures haute performance",
+      "PRETITLE": "Leader dans la fabrication et l'installation de auvents",
+      "TITLE": "Auvents haute performance",
+      "TITLE_ALT": "Auvents haute performance",
       "SUBTITLE": "Innovation, qualité et haute technologie",
       "SUBSUBTITLE": "Améliorez votre expérience de jeu",
-      "DESCRIPTION": "Nos coubertures garantissent une augmentation significative de l'utilisation à long terme des courts de padel.",
+      "DESCRIPTION": "Nos auvents garantissent une augmentation significative de l'utilisation à long terme des courts de padel.",
       "ROUTE": {
-        "LABEL": "Coubertures",
-        "URL": "/coubertures"
+        "LABEL": "Auvents",
+        "URL": "/auvents"
       },
       "FIRST_SECTION": {
         "TITLE": "Ingénierie sportive spécifique",
@@ -1987,9 +1987,9 @@
       },
       "FEATURE_SECTION": {
         "TITLE": "Équipe professionnelle spécialisée",
-        "DESCRIPTION": "Nos ingénieurs développent des systèmes de construction et d'installation de coubertures de padel adaptés aux besoins de nos clients, ainsi qu'aux normes et réglementations de chaque pays.",
+        "DESCRIPTION": "Nos ingénieurs développent des systèmes de construction et d'installation de auvents de padel adaptés aux besoins de nos clients, ainsi qu'aux normes et réglementations de chaque pays.",
         "LIST": [
-          "<strong>Projection de chaleur réduite</strong> par rapport aux coubertures en tôle métallique.",
+          "<strong>Projection de chaleur réduite</strong> par rapport aux auvents en tôle métallique.",
           "<strong>Ombres et contrastes réduits</strong> par rapport aux matériaux opaques.",
           "<strong>Luminosité accrue</strong> qui optimise l'utilisation de l'éclairage artificiel.",
           "<strong>Effet d'écho réduit</strong> pendant le jeu.",
@@ -1999,45 +1999,45 @@
           "<strong>Atténue les expansions et contractions potentielles</strong> causées par la lumière du soleil sur la structure et la pelouse."
         ],
         "LIST_TITLE": "Excellence et expérience",
-        "LIST_DESCRIPTION": "Nous mettons en avant les caractéristiques suivantes de nos coubertures :",
+        "LIST_DESCRIPTION": "Nous mettons en avant les caractéristiques suivantes de nos auvents :",
         "IMAGES": [
           {
             "id": "image-1",
             "src": "canopies/section-canopies-01/canopies-section-01.webp",
-            "alt": "Coubertures"
+            "alt": "Auvents"
           },
           {
             "id": "image-2",
             "src": "canopies/section-canopies-01/canopies-section-02.webp",
-            "alt": "Coubertures"
+            "alt": "Auvents"
           },
           {
             "id": "image-3",
             "src": "canopies/section-canopies-01/canopies-section-03.webp",
-            "alt": "Coubertures"
+            "alt": "Auvents"
           },
           {
             "id": "image-4",
             "src": "canopies/section-canopies-01/canopies-section-04.webp",
-            "alt": "Coubertures"
+            "alt": "Auvents"
           },
           {
             "id": "image-5",
             "src": "canopies/section-canopies-01/canopies-section-05.webp",
-            "alt": "Coubertures"
+            "alt": "Auvents"
           }
         ]
       },
       "ADVANTAGE_SECTION": {
-        "TITLE": "Installation des coubertures de padel",
+        "TITLE": "Installation des auvents de padel",
         "DESCRIPTION": "<p><strong>PORTICO SPORT possède de nombreuses années d'expérience en ingénierie</strong>, et gère l'ensemble du processus de construction, avec une équipe de professionnels spécialisés dans chaque étape, de la <strong>conception à la fabrication et l'installation.</strong></p><p>Ils sont très conscients de la nature unique de chaque client et gèrent leurs projets avec le respect et l'attention personnalisée que chacun exige. Tout cela, <strong>garantit le succès</strong> de leur travail, basé sur la qualité, l'innovation, la confiance et l'expérience.</p><p><strong>Fabriqué avec des profilés en acier structurel laminé à chaud</strong> de différentes dimensions selon les besoins de l'installation.</p><p><strong>Le toit de la structure</strong> est réalisé avec des plaques de polycarbonate alvéolaire de différentes épaisseurs selon les exigences du projet et de la situation.</p><p><strong>Le matériau confère au toit des caractéristiques idéales pour la pratique de ce sport</strong>, testé par des joueurs de haut niveau.</p><p>En option, <strong>nous proposons la possibilité d'installer des panneaux latéraux</strong> jusqu'à une hauteur de 3 mètres du sol, pour empêcher les vents latéraux et/ou les pluies qui pourraient gêner le jeu.</p>",
-        "BUTTON_TEXT": "Découvrir plus de coubertures"
+        "BUTTON_TEXT": "Découvrir plus de auvents"
       },
       "CONTACT_SECTION": {
         "ID": "contact",
         "SUBJECT": "Nouvelle demande de couberture",
         "TITLE": "Contactez-nous",
-        "DESCRIPTION": "<p>N'hésitez pas à contacter notre équipe d'experts pour plus d'informations sur les courts de padel et les coubertures ! Nous sommes là pour répondre à toutes vos questions et vous aider à trouver le court qui correspond le mieux à vos besoins. De plus, si vous le souhaitez, nous pouvons également concevoir et construire votre propre court personnalisé selon vos préférences et spécifications. Nous avons hâte de vous entendre bientôt !</p>",
+        "DESCRIPTION": "<p>N'hésitez pas à contacter notre équipe d'experts pour plus d'informations sur les courts de padel et les auvents ! Nous sommes là pour répondre à toutes vos questions et vous aider à trouver le court qui correspond le mieux à vos besoins. De plus, si vous le souhaitez, nous pouvons également concevoir et construire votre propre court personnalisé selon vos préférences et spécifications. Nous avons hâte de vous entendre bientôt !</p>",
         "BUTTON_TEXT": "JE VEUX PLUS D'INFORMATIONS SUR LES AUVENTS",
         "BG_IMAGE": "canopies/canopies-contact-bg.webp",
         "IMAGE": "canopies/canopy-contact.webp"
@@ -2143,7 +2143,7 @@
     "PROJECTS": {
       "ID": "projets",
       "SEO_TITLE": "Derniers Projets de Portico Sport",
-      "SEO_DESCRIPTION": "Explorez les derniers projets de Portico Sport, mettant en valeur nos courts de padel et nos coubertures innovants. Découvrez notre travail dès maintenant !",
+      "SEO_DESCRIPTION": "Explorez les derniers projets de Portico Sport, mettant en valeur nos courts de padel et nos auvents innovants. Découvrez notre travail dès maintenant !",
       "OG_IMG": "https://porticosport.com/og/og-projects.jpg",
       "SUBTITLE": "Découvrez certains des derniers",
       "TITLE": "Projets Par <span class=\"text-primary\">Portico Sport</span>",
@@ -2169,7 +2169,7 @@
       "SEO_DESCRIPTION": "Découvrez l'usine de pointe de Portico Sport, s'étendant sur plus de 8 000 mètres carrés et équipée des dernières technologies. Voyez comment nous sommes leaders dans la fabrication de courts de padel !",
       "OG_IMG": "https://porticosport.com/og/og-portico.jpg",
       "TITLE": "<span class=\"block\">Portico Sport :</span> <span class=\"text-xl\">une Usine pour la nouvelle ère du Padel</span>",
-      "SUBTITLE": "Le plus grand site de fabrication de courts de padel et de coubertures",
+      "SUBTITLE": "Le plus grand site de fabrication de courts de padel et de auvents",
       "DESCRIPTION": "<p>Inaugurée en 2023, l'entreprise dispose d'une <strong class=\"text-secondary\">usine de pointe s'étendant sur plus de 8 000 mètres carrés</strong>, qui intègre une technologie industrielle de pointe, une ligne d'assemblage robotisée par soudage et des processus industriels précédemment appliqués dans des industries plus avancées.</p><p>En conséquence, Portico Sport a augmenté sa capacité de production, amélioré sa qualité, modernisé son système de production et réduit les délais de livraison dans le monde entier.</p>",
       "ROUTE": {
         "LABEL": "Notre Usine",
@@ -2177,7 +2177,7 @@
       },
       "FACTORY_SECTION": {
         "PREFOOTER_VIDEO_TITLE": "Visitez notre usine",
-        "PREFOOTER_SUBTITLE": "Le plus grand site de fabrication de courts de padel et de coubertures"
+        "PREFOOTER_SUBTITLE": "Le plus grand site de fabrication de courts de padel et de auvents"
       },
       "FEATURE_SECTION": {
         "TITLE": "Engagement pour l'excellence",
@@ -2254,7 +2254,7 @@
       },
       "CONTACT_SECTION": {
         "TITLE": "Visitez notre usine",
-        "DESCRIPTION": "<p>Que vous soyez un client potentiel ou un distributeur professionnel intéressé par nos courts et nos coubertures, nous vous invitons chaleureusement à visiter nos installations. Notre équipe d'experts attend avec impatience l'opportunité de vous guider à travers nos usines de conception, de production, de fabrication et de laquage, en explorant en profondeur tout le processus de construction, de l'idée à la réalisation. Vous aurez l'occasion de plonger dans tous les aspects de notre processus de production, de la sélection minutieuse des matériaux aux techniques d'ingénierie de pointe qui nous permettent de fabriquer les meilleurs courts de l'industrie.</p><p>Cette opportunité exclusive offre un aperçu de la raison pour laquelle nos courts et nos coubertures sont si appréciés par les joueurs professionnels et les propriétaires de clubs du monde entier. De plus, vous pourrez découvrir la qualité de nos courts en participant à une partie sur l'un d'entre eux.<br />Nous attendons avec impatience votre visite dans nos installations, où nous pourrons partager notre passion pour le padel et présenter l'excellence de notre savoir-faire.</p>",
+        "DESCRIPTION": "<p>Que vous soyez un client potentiel ou un distributeur professionnel intéressé par nos courts et nos auvents, nous vous invitons chaleureusement à visiter nos installations. Notre équipe d'experts attend avec impatience l'opportunité de vous guider à travers nos usines de conception, de production, de fabrication et de laquage, en explorant en profondeur tout le processus de construction, de l'idée à la réalisation. Vous aurez l'occasion de plonger dans tous les aspects de notre processus de production, de la sélection minutieuse des matériaux aux techniques d'ingénierie de pointe qui nous permettent de fabriquer les meilleurs courts de l'industrie.</p><p>Cette opportunité exclusive offre un aperçu de la raison pour laquelle nos courts et nos auvents sont si appréciés par les joueurs professionnels et les propriétaires de clubs du monde entier. De plus, vous pourrez découvrir la qualité de nos courts en participant à une partie sur l'un d'entre eux.<br />Nous attendons avec impatience votre visite dans nos installations, où nous pourrons partager notre passion pour le padel et présenter l'excellence de notre savoir-faire.</p>",
         "SUBJECT": "Nouvelle demande d'Usine",
         "SUBTITLE": "Nous sommes heureux de vous faire visiter",
         "BUTTON_TEXT": "Visitez-nous",
@@ -2345,7 +2345,7 @@
       "SEO_DESCRIPTION": "Rejoignez-nous en tant que distributeur agréé et accédez à des solutions premium de courts de padel. Dynamisez votre entreprise avec nos produits de qualité et notre support.",
       "OG_IMG": "https://porticosport.com/og/og-distributed.jpg",
       "TITLE": "Souhaitez-vous devenir distributeur agréé de Portico Sport dans votre pays ?",
-      "SUBTITLE": "Rejoignez la première entreprise dans la fabrication et l'installation de courts de padel et de coubertures.",
+      "SUBTITLE": "Rejoignez la première entreprise dans la fabrication et l'installation de courts de padel et de auvents.",
       "ROUTE": {
         "LABEL": "Distributeur",
         "URL": "/distributeur-agree"
@@ -2354,7 +2354,7 @@
         "ID": "intro",
         "TITLE": "Que proposons-nous ?",
         "SUBHEADING": "Nos 15 ans d'expérience dans l'industrie et notre présence sur différents marchés, soutenus par une excellente équipe,",
-        "DESCRIPTION": "<p>Dans son engagement pour l'innovation, Portico Sport offre la plus haute qualité et garantie dans ses courts de padel et ses coubertures avec un design et une fabrication de pointe, une résistance et une durabilité maximales.</p>",
+        "DESCRIPTION": "<p>Dans son engagement pour l'innovation, Portico Sport offre la plus haute qualité et garantie dans ses courts de padel et ses auvents avec un design et une fabrication de pointe, une résistance et une durabilité maximales.</p>",
         "FEATURE_LIST": [
           "Qualité maximale et garanties sur tous nos produits",
           "Soutenu par notre équipe de vente",
@@ -2418,7 +2418,7 @@
           },
           {
             "TITLE": "Conception, Fabrication et Installation Sur Mesure",
-            "DESCRIPTION": "Découvrez le summum de la qualité avec Portico Sport. Nos courts et nos coubertures sont méticuleusement conçus, fabriqués et installés pour répondre à vos spécifications uniques. Nous comprenons que chaque projet est différent, et nous nous engageons à fournir une excellence adaptée à vos besoins."
+            "DESCRIPTION": "Découvrez le summum de la qualité avec Portico Sport. Nos courts et nos auvents sont méticuleusement conçus, fabriqués et installés pour répondre à vos spécifications uniques. Nous comprenons que chaque projet est différent, et nous nous engageons à fournir une excellence adaptée à vos besoins."
           },
           {
             "TITLE": "Satisfaction Garantie",
