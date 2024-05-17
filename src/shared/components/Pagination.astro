@@ -1,4 +1,5 @@
 ---
+import Chevron from './icons/Chevron.astro';
 const { page, totalPages  } = Astro.props
 interface Props {
   page: number;
@@ -8,33 +9,42 @@ interface Props {
 const array = new Array(totalPages).fill(0).map((_, i) => i + 1)
 ---
 
-<nav aria-label="Page navigation" class="mx-auto">
+<nav aria-label="Page navigation" class="flex items-center justify-center mb-14">
   <ul class="inline-flex -space-x-px text-base h-10">
     <li>
-      <a
-        href={`?page=${page - 1}`}
-        class="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-        >Previous</a
-      >
+      {
+        page === 1 || page === 0
+          ? <span class="text-white flex items-center justify-center px-4 h-10"><Chevron className="rotate-90" /></span>
+          : <a
+              href={`?page=${page - 1}`}
+              class="text__glowing flex items-center justify-center px-4 h-10"
+              ><Chevron className="rotate-90" /></a>
+      }
     </li>
 
     {
       array.map((i) => (
         <li>
-          <a
-            href={`?page=${i}`}
-            aria-current={i === page ? 'page' : undefined}
-            class={`${i === page ? 'text-primary bg-black/25' : ''} flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`}
-            >{i}</a>
+          {
+            i === page ? <span class="text-white flex items-center justify-center px-4 h-10">{i}</span> :
+            <a
+              href={`?page=${i}`}
+              aria-current={i === page ? 'page' : undefined}
+              class={`${i === page ? 'text-primary bg-black/25' : 'text__glowing transition-colors'} flex items-center justify-center px-4 h-10`}
+              >{i}</a>
+          }
         </li>
       ))
     }
     <li>
-      <a
-        href={`?page=${page + 1}`}
-        class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-        >Next</a
-      >
+      {
+        page === totalPages
+          ? <span class="text-white flex items-center justify-center px-4 h-10"><Chevron className="-rotate-90" /></span>
+          : <a
+              href={`?page=${page + 1}`}
+              class="text__glowing transition flex items-center justify-center px-4 h-10 hover:scale-110"
+              ><Chevron className="-rotate-90" /></a>
+      }
     </li>
   </ul>
 </nav>
