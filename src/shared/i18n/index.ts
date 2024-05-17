@@ -34,11 +34,11 @@ export const getCategoryByLanguage = ({
 }: {
   language: string | undefined
 }) => {
-  if (LANGUAGES[language.toUpperCase()] === 'en') return 3
-  if (LANGUAGES[language.toUpperCase()] === 'it') return 12
-  if (LANGUAGES[language.toUpperCase()] === 'fr') return 13
-  if (LANGUAGES[language.toUpperCase()] === 'es') return 1
-  if (LANGUAGES[language.toUpperCase()] === 'de') return 1
+  if (LANGUAGES[language.toUpperCase()] === 'en') return 51
+  if (LANGUAGES[language.toUpperCase()] === 'it') return 60
+  if (LANGUAGES[language.toUpperCase()] === 'fr') return 61
+  if (LANGUAGES[language.toUpperCase()] === 'es') return 59
+  if (LANGUAGES[language.toUpperCase()] === 'de') return 62
   return 1
 }
 

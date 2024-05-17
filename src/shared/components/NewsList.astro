@@ -1,6 +1,5 @@
 ---
 import { getI18N } from "@/shared/i18n";
-import NewsItem from "./NewsItem.astro";
 import CardItem from "./CardItem.astro";
 import Section from "@/shared/components/Section.astro";
 
@@ -28,7 +27,7 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
 >
   <div class="list flex flex-col gap-16 lg:flex-row lg:gap-8">
     {
-      posts.map((post) => (
+      posts?.length ? posts.map((post) => (
         <CardItem
           title={post.title.rendered}
           excerpt={post.excerpt.rendered.replace(/<[^>]+>|\\n|\[&hellip;\]/g, '')}
@@ -39,7 +38,7 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
           date={transformedDate(post.date)}
           description={post.description}
         />
-      ))
+      )) : null
     }
   </div>
 </Section>
