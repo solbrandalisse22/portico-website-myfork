@@ -2594,12 +2594,27 @@
       "COLORS": [{
         "color": "blue",
         "name": "Blue"
-        }, {
+      }, {
         "color": "green",
         "name": "Green"
-        }, {
+      }, {
         "color": "red",
         "name": "Red"
+      }, {
+        "color": "violet",
+        "name": "Violet"
+      }, {
+        "color": "black",
+        "name": "Black"
+      }, {
+        "color": "clay",
+        "name": "Clay"
+      }, {
+        "color": "pink",
+        "name": "Pink"
+      }, {
+        "color": "orange",
+        "name": "Orange"
       }],
       "ID": "curled-turf",
       "TITLE": "Curled turf",
@@ -2613,9 +2628,6 @@
         "color": "green",
         "name": "Green"
         }, {
-        "color": "violet",
-        "name": "Violet"
-      }, {
         "color": "orange",
         "name": "Orange"
       }],

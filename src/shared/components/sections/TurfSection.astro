@@ -10,13 +10,16 @@ const i18n = getI18N({ language })
 const colors = {
   blue: "bg-blue-500 hover:bg-blue-700",
   red: "bg-red-500 hover:bg-red-700",
-  green: "bg-green-500 hover:bg-green-700",
+  green: "bg-green-800 hover:bg-green-900",
   violet: "bg-violet-500 hover:bg-violet-700",
   orange: "bg-orange-500 hover:bg-orange-700",
+  black: "bg-black hover:bg-gray-900",
+  clay: "bg-amber-800 hover:bg-amber-900",
+  pink: "bg-pink-500 hover:bg-pink-700",
 } as any;
 ---
 
-<Section className="max-w-none border-b-4">
+<Section className="max-w-none border-b-4 bg-pi">
   <div class="flex flex-col lg:flex-row gap-8 max-w-[1400px] mx-auto">
     <div class="flex-col gap-4 flex-1 text-center">
       <Typography tag="h2" text={title} type="secondary" className="uppercase text-center font-bold" />
@@ -30,7 +33,7 @@ const colors = {
           <div class="flex items-center flex-col justify-center">
             <Typography tag="h3" text={model.TITLE} type="primary" className="font-bold mb-4" />
             <Typography tag="p" text={model.DESCRIPTION} />
-            <div class="flex gap-1 md:gap-4 justify-center items-center mb-4">
+            <div class="flex gap-1 md:gap-4 justify-center items-center mb-4 max-w-[28rem] flex-wrap">
               {
                 model.COLORS.map((item) => (
                   <button name={`${model.ID}_${item.color}`} class={`rounded-full w-20 md:w-24 ${colors[item.color]} border text-white text-center text-sm md:text-base px-2 md:px-4 py-1`}>
@@ -57,8 +60,8 @@ const colors = {
       const $imageTurf = document.querySelector(id)
       const $turf = document.querySelector('.turf-image');
       if (!$imageTurf || !$turf) return;
-      $imageTurf.classList.remove('blue', 'violet', 'red', 'orange', 'green');
-      $turf.classList.remove('blue', 'violet', 'red', 'orange', 'green');
+      $imageTurf.classList.remove('blue', 'violet', 'red', 'orange', 'green', 'clay', 'pink', 'black');
+      $turf.classList.remove('blue', 'violet', 'red', 'orange', 'green', 'clay', 'pink', 'black');
       $imageTurf.classList.add(color);
       $turf.classList.add(color);
     }
@@ -79,6 +82,15 @@ const colors = {
     filter:hue-rotate(150deg);
   }
   .green {
-    filter:hue-rotate(240deg);
+    filter:hue-rotate(280deg);
+  }
+  .clay {
+    filter:hue-rotate(176deg);
+  }
+  .pink {
+    filter:hue-rotate(100deg);
+  }
+  .black {
+    filter:contrast(1.5) grayscale(1);;
   }
 </style>
