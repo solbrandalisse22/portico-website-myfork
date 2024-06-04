@@ -2755,52 +2755,52 @@
     ]
   },
   "TURF_SECTION": {
-    "MODELS": [
-      {
-        "COLORS": [
-          {
-            "color": "blu",
-            "name": "Blu"
-          },
-          {
-            "color": "verde",
-            "name": "Verde"
-          },
-          {
-            "color": "rosso",
-            "name": "Rosso"
-          }
-        ],
+    "MODELS": [{
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blu"
+      }, {
+        "color": "green",
+        "name": "Verde"
+      }, {
+        "color": "red",
+        "name": "Rosso"
+      }, {
+        "color": "violet",
+        "name": "Viola"
+      }, {
+        "color": "black",
+        "name": "Nero"
+      }, {
+        "color": "clay",
+        "name": "Clay"
+      }, {
+        "color": "pink",
+        "name": "Rosa"
+      }, {
+        "color": "orange",
+        "name": "Arancione"
+      }],
         "ID": "erba-ricciolata",
         "TITLE": "Erba ricciolata",
         "DESCRIPTION": "Un sistema di erba artificiale che combina fibre testurizzate ricciolate",
         "IMAGE": "/courts-detail/turf-XN.webp"
-      },
-      {
-        "COLORS": [
-          {
-            "color": "blu",
-            "name": "Blu"
-          },
-          {
-            "color": "verde",
-            "name": "Verde"
-          },
-          {
-            "color": "viola",
-            "name": "Viola"
-          },
-          {
-            "color": "arancione",
-            "name": "Arancione"
-          }
-        ],
+    }, {
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blu"
+        }, {
+        "color": "green",
+        "name": "Verde"
+        }, {
+        "color": "orange",
+        "name": "Arancione"
+      }],
         "ID": "erba-dritta",
         "TITLE": "Erba dritta",
         "DESCRIPTION": "Sistema di erba artificiale all'avanguardia composto da fibre dritte",
         "IMAGE": "/courts-detail/turf-STX.webp"
-      }
-    ]
+    }]
   },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Campi da padel conformi alle normative",

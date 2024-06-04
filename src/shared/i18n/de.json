@@ -2724,52 +2724,52 @@
     ]
   },
   "TURF_SECTION": {
-    "MODELS": [
-      {
-        "COLORS": [
-          {
-            "color": "blue",
-            "name": "Blau"
-          },
-          {
-            "color": "green",
-            "name": "Grün"
-          },
-          {
-            "color": "red",
-            "name": "Rot"
-          }
-        ],
+    "MODELS": [{
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blue"
+      }, {
+        "color": "green",
+        "name": "Grün"
+      }, {
+        "color": "red",
+        "name": "Red"
+      }, {
+        "color": "violet",
+        "name": "Violett"
+      }, {
+        "color": "black",
+        "name": "Schwarz"
+      }, {
+        "color": "clay",
+        "name": "Clay"
+      }, {
+        "color": "pink",
+        "name": "Rosa"
+      }, {
+        "color": "orange",
+        "name": "Orange"
+      }],
         "ID": "curled-turf",
         "TITLE": "Gekräuselter Rasen",
         "DESCRIPTION": "Ein System künstlichen Rasens, das gekräuselte strukturierte Fasern kombiniert.",
         "IMAGE": "/courts-detail/turf-XN.webp"
-      },
-      {
-        "COLORS": [
-          {
-            "color": "blue",
-            "name": "Blau"
-          },
-          {
-            "color": "green",
-            "name": "Grün"
-          },
-          {
-            "color": "violet",
-            "name": "Violett"
-          },
-          {
-            "color": "orange",
-            "name": "Orange"
-          }
-        ],
+    }, {
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blau"
+        }, {
+        "color": "green",
+        "name": "Grün"
+        }, {
+        "color": "orange",
+        "name": "Orange"
+      }],
         "ID": "straight-turf",
         "TITLE": "Gerader Rasen",
         "DESCRIPTION": "Modernes künstliches Rasensystem, bestehend aus geraden Fasern.",
         "IMAGE": "/courts-detail/turf-STX.webp"
-      }
-    ]
+    }]
   },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Padelplätze, die den Vorschriften entsprechen",

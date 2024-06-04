@@ -19,18 +19,6 @@ const i18n = getI18N({ language })
     <Typography tag="h2" text={title} type="secondary" className="mb-6 font-bold uppercase" />
     <Typography tag="h3" text={subtitle} type="primary" className="font-thin mb-4" />
     <Typography tag="div" text={description} className="pb-2 shadow-glass" />
-    <Typography tag="h3" text={i18n.LIGHTING_SECTION.TYPES_TITLE} type="primary" className="font-thin mb-4 mt-6" />
-    <div class="flex flex-col lg:flex-row gap-8 pb-2 shadow-glass">
-      {
-        i18n.LIGHTING_SECTION.LIGHTING_TYPES.map((type) => (
-          <div class="flex-1 flex flex-col justify-center items-center gap-2">
-            <Typography tag="h4" text={type.title} type="secondary" className="font-bold" />
-            <img loading="lazy" src={type.image} alt={type.title} class="w-full rounded-xl aspect-[4/1] object-cover max-w-[350px]" />
-            <Typography tag="p" text={type.description} type="primary" className="text-center" />
-          </div>
-          ))
-      }
-    </div>
     <div>
       <Typography tag="h3" text={i18n.LIGHTING_SECTION.MASTS_TITLE} type="primary" className="font-thin mt-6 mb-4" />
       <Typography tag="div" text={i18n.LIGHTING_SECTION.MASTS_DESCRIPTION} className="pb-2" />

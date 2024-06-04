@@ -2754,52 +2754,52 @@
     ]
   },
   "TURF_SECTION": {
-    "MODELS": [
-      {
-        "COLORS": [
-          {
-            "color": "blue",
-            "name": "Bleu"
-          },
-          {
-            "color": "green",
-            "name": "Vert"
-          },
-          {
-            "color": "red",
-            "name": "Rouge"
-          }
-        ],
+    "MODELS": [{
+      "COLORS": [{
+        "color": "blue",
+        "name": "Bleu"
+      }, {
+        "color": "green",
+        "name": "Vert"
+      }, {
+        "color": "red",
+        "name": "Rouge"
+      }, {
+        "color": "violet",
+        "name": "Violet"
+      }, {
+        "color": "black",
+        "name": "Noi"
+      }, {
+        "color": "clay",
+        "name": "Clay"
+      }, {
+        "color": "pink",
+        "name": "Rose"
+      }, {
+        "color": "orange",
+        "name": "Orange"
+      }],
         "ID": "curled-turf",
         "TITLE": "Pelouse frisée",
         "DESCRIPTION": "Un système de gazon artificiel qui combine des fibres texturées frisées",
         "IMAGE": "/courts-detail/turf-XN.webp"
-      },
-      {
-        "COLORS": [
-          {
-            "color": "blue",
-            "name": "Bleu"
-          },
-          {
-            "color": "green",
-            "name": "Vert"
-          },
-          {
-            "color": "violet",
-            "name": "Violet"
-          },
-          {
-            "color": "orange",
-            "name": "Orange"
-          }
-        ],
-        "ID": "straight-turf",
-        "TITLE": "Pelouse droite",
-        "DESCRIPTION": "Système de gazon artificiel de pointe composé de fibres droites",
-        "IMAGE": "/courts-detail/turf-STX.webp"
-      }
-    ]
+    }, {
+      "COLORS": [{
+        "color": "blue",
+        "name": "Bleu"
+        }, {
+        "color": "green",
+        "name": "Vert"
+        }, {
+        "color": "orange",
+        "name": "Orange"
+      }],
+      "ID": "straight-turf",
+      "TITLE": "Straight Turf",
+      "DESCRIPTION": "Cutting-edge artificial turf system composed of straight fibers",
+      "IMAGE": "/courts-detail/turf-STX.webp"
+    }]
   },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Terrains de padel conformes à la réglementation",

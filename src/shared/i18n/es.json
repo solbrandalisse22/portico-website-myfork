@@ -947,42 +947,42 @@
     "CLUB_PLUS_COURT": {
       "ID": "club-plus-court",
       "SEO_TITLE": "Club Plus Court - Pista de Pádel Mejorada",
-      "SEO_DESCRIPTION": "Experimenta la evolución de nuestra Pista de Club con el Club Plus Court. Durabilidad y resistencia mejoradas para una práctica de pádel sin igual. ¡Obtén más información!",
+      "SEO_DESCRIPTION": "Experimenta la evolución de nuestra Pista Club con la pista Club Plus. Durabilidad y resistencia mejoradas para una práctica de pádel sin igual. ¡Obtén más información!",
       "OG_IMG": "https://porticosport.com/og/og-club-plus.jpg",
-      "TITLE": "<span>Pista de Pádel Club Plus</span>",
-      "DESCRIPTION": "<p>La Pista de Pádel Club Plus es una evolución de nuestra Pista de Club. Esta pista mejorada mantiene la misma calidad premium mientras proporciona una robustez aumentada.</p><p>Estas estructuras reforzadas están construidas para resistir ráfagas de viento más fuertes y condiciones climáticas adversas. En el Club Plus Court, encontrarás durabilidad integrada de manera impecable y alta resistencia para una experiencia de práctica de pádel sin igual.</p>",
+      "TITLE": "<span>Pista Club Plus</span>",
+      "DESCRIPTION": "<p>La Pista de pádel Club Plus es una evolución de nuestra Pista Club. Esta pista mejorada mantiene la misma calidad premium mientras proporciona una robustez aumentada.</p><p>Estas estructuras reforzadas están construidas para resistir ráfagas de viento más fuertes y condiciones climáticas adversas. En la pista Club Plus, encontrarás durabilidad integrada de manera impecable y alta resistencia para una experiencia de práctica de pádel sin igual.</p>",
       "SUBTITLE": "Puedes disfrutar del pádel en la evolución de nuestra Pista de Club.",
       "LITTLE_DESCRIPTION": "<p>Puedes disfrutar del pádel en la evolución de nuestra Pista de Club.</p>",
-      "CONTACT_TITLE_1": "¿Quieres una Pista de Pádel Club Plus?",
+      "CONTACT_TITLE_1": "¿Quieres una Pista de pádel Club Plus?",
       "CONTACT_SUBJECT": "Nueva petición del Club Plus Court",
-      "CONTACT_BUTTON": "Quiero una Pista de Pádel Club Plus",
-      "NAME": "Pista de Pádel Club Plus",
+      "CONTACT_BUTTON": "Quiero una Pista de pádel Club Plus",
+      "NAME": "Pista de pádel Club Plus",
       "ROUTE": {
-        "LABEL": "Más sobre la pista de Club Plus",
+        "LABEL": "Más sobre la pista Club Plus",
         "URL": "/pistas-de-padel/club-plus"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
-        "TITLE": "<span class=\"text-secondary\">¡Desbloquea Calidad y Durabilidad Inigualables con nuestra Pista de Pádel Club Plus!</span>",
-        "DESCRIPTION": "<p>Nuestra Pista de Pádel Club Plus es el pináculo de la excelencia en ingeniería, meticulosamente elaborada para cumplir con los estándares de la industria y superar las expectativas incluso de los jugadores más exigentes.</p><p>Su estructura reforzada está especialmente diseñada para resistir ráfagas de viento fuertes y condiciones climáticas adversas, lo que la hace ideal para entornos exteriores.</p><p>Su diseño clásico y opciones extensas de personalización aseguran que se integre en cualquier entorno, convirtiéndola en la elección definitiva para clubes de pádel de primera categoría que buscan singularidad y superioridad.</p>",
+        "TITLE": "<span class=\"text-secondary\">¡Desbloquea Calidad y Durabilidad Inigualables con nuestra Pista de pádel Club Plus!</span>",
+        "DESCRIPTION": "<p>Nuestra Pista de pádel Club Plus es el pináculo de la excelencia en ingeniería, meticulosamente elaborada para cumplir con los estándares de la industria y superar las expectativas incluso de los jugadores más exigentes.</p><p>Su estructura reforzada está especialmente diseñada para resistir ráfagas de viento fuertes y condiciones climáticas adversas, lo que la hace ideal para entornos exteriores.</p><p>Su diseño clásico y opciones extensas de personalización aseguran que se integre en cualquier entorno, convirtiéndola en la elección definitiva para clubes de pádel de primera categoría que buscan singularidad y superioridad.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/club-plus/club-plus-front.webp",
-            "alt": "Vista frontal de la Pista de Pádel Club Plus"
+            "alt": "Vista frontal de la Pista de pádel Club Plus"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/club-plus/club-plus-perspective.webp",
-            "alt": "Vista perspectiva de la Pista de Pádel Club Plus"
+            "alt": "Vista perspectiva de la Pista de pádel Club Plus"
           },
           "TOP": {
             "src": "/courts-detail/club-plus/club-plus-top.webp",
-            "alt": "Vista superior de la Pista de Pádel Club Plus"
+            "alt": "Vista superior de la Pista de pádel Club Plus"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra Pista de Pádel Club Plus",
+        "TITLE": "Experimenta los beneficios de nuestra Pista de pádel Club Plus",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -1014,7 +1014,7 @@
       },
       "SIZING_SECTION": {
         "ID": "seccion-de-medidas",
-        "TITLE": "Medidas de la Pista de Pádel Club Plus",
+        "TITLE": "Medidas de la Pista de pádel Club Plus",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,47 m </p><p><strong>Ancho</strong>: 10,47 m </p>",
@@ -2741,52 +2741,52 @@
     ]
   },
   "TURF_SECTION": {
-    "MODELS": [
-      {
-        "COLORS": [
-          {
-            "color": "azul",
-            "name": "Azul"
-          },
-          {
-            "color": "verde",
-            "name": "Verde"
-          },
-          {
-            "color": "rojo",
-            "name": "Rojo"
-          }
-        ],
-        "ID": "cesped-rizado",
-        "TITLE": "Césped rizado",
-        "DESCRIPTION": "Un sistema de césped artificial que combina fibras texturizadas rizadas.",
-        "IMAGE": "/courts-detail/turf-XN.webp"
-      },
-      {
-        "COLORS": [
-          {
-            "color": "azul",
-            "name": "Azul"
-          },
-          {
-            "color": "verde",
-            "name": "Verde"
-          },
-          {
-            "color": "violeta",
-            "name": "Violeta"
-          },
-          {
-            "color": "naranja",
-            "name": "Naranja"
-          }
-        ],
+    "MODELS": [{
+      "COLORS": [{
+        "color": "blue",
+        "name": "Azul"
+      }, {
+        "color": "green",
+        "name": "Verde"
+      }, {
+        "color": "red",
+        "name": "Rojo"
+      }, {
+        "color": "violet",
+        "name": "Violeta"
+      }, {
+        "color": "black",
+        "name": "Negro"
+      }, {
+        "color": "clay",
+        "name": "Arcilla"
+      }, {
+        "color": "pink",
+        "name": "Rosa"
+      }, {
+        "color": "orange",
+        "name": "Naranja"
+      }],
+      "ID": "cesped-rizado",
+      "TITLE": "Césped rizado",
+      "DESCRIPTION": "Un sistema de césped artificial que combina fibras texturizadas rizadas.",
+      "IMAGE": "/courts-detail/turf-XN.webp"
+    }, {
+      "COLORS": [{
+        "color": "blue",
+        "name": "Azul"
+        }, {
+        "color": "green",
+        "name": "Verde"
+        }, {
+        "color": "orange",
+        "name": "Naranja"
+      }],
         "ID": "cesped-recto",
         "TITLE": "Césped Recto",
         "DESCRIPTION": "Sistema de césped artificial de vanguardia compuesto por fibras rectas",
         "IMAGE": "/courts-detail/turf-STX.webp"
-      }
-    ]
+    }]
   },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Pistas de pádel que cumplen con las regulaciones",
