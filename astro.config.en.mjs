@@ -274,10 +274,6 @@ export default defineConfig({
     "/en/portico-sport-high-engineering": "/news/los-ingenieros-de-portico-sport",
     "/en/own-laquared-plant": "/news/own-laquared-plant",
     "/kneippbyn-isla-de-gotland-suecia-bella-perfeccion": "/news/kneippbyn-isla-de-gotland-suecia-bella-perfeccion",
-    "https://porticosport.com/:path*": {
-      status: 301,
-      destination: "https://www.porticosport.com/:path*"
-    }
   },
   i18n: {
     defaultLocale: "en",

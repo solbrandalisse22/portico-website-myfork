@@ -21,10 +21,4 @@ export default defineConfig({
   experimental: {
     i18nDomains: true,
   },
-  redirects: {
-    'https://porticosport.it/:path*': {
-      status: 301,
-      destination: 'https://www.porticosport.it/:path*'
-    }
-  }
 });
