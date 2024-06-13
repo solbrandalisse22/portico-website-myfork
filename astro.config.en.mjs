@@ -45,8 +45,7 @@ export default defineConfig({
     "/impresionantes-vistas-de-las-pistas-de-padel-y-cubiertas": "/news/impresionantes-vistas-de-las-pistas-de-padel-y-cubiertas",
     "/nuevo-proyecto-de-construccion-de-pistas-de-padel-en-finlandia": "/news/nuevo-proyecto-de-construccion-de-pistas-de-padel-en-finlandia",
     "/portico-sport-alta-ingenieria": "/news",
-    "/portico-sport-contara-en-2022-con-una-gran-fabrica-de-cubiertas-y-pistas-de-padel-con-la-tecnologia-mas-puntera-del-mercado":
-      "/news/portico-sport-contara-en-2022-con-una-gran-fabrica-de-cubiertas-y-pistas-de-padel-con-la-tecnologia-mas-puntera-del-mercado",
+    "/portico-sport-contara-en-2022-con-una-gran-fabrica-de-cubiertas-y-pistas-de-padel-con-la-tecnologia-mas-puntera-del-mercado": "/news/portico-sport-contara-en-2022-con-una-gran-fabrica-de-cubiertas-y-pistas-de-padel-con-la-tecnologia-mas-puntera-del-mercado",
     "/pistas-de-padel-en-madrid-club-urban-padel-alcobendas": "/news/pistas-de-padel-en-madrid-club-urban-padel-alcobendas",
     "/hexagon-cup-signs-portico-sport-as-court-supplier": "/news/hexagon-cup-signs-portico-sport-as-court-supplier",
     "/contacto": "/client-contact",
@@ -275,12 +274,11 @@ export default defineConfig({
     "/en/portico-sport-high-engineering": "/news/los-ingenieros-de-portico-sport",
     "/en/own-laquared-plant": "/news/own-laquared-plant",
     "/kneippbyn-isla-de-gotland-suecia-bella-perfeccion": "/news/kneippbyn-isla-de-gotland-suecia-bella-perfeccion",
+    "https://porticosport.com/:path*": {
+      status: 301,
+      destination: "https://www.porticosport.com/:path*"
+    }
   },
-  redirects: [{
-    source: "https://porticosport.com/:path*",
-    destination: "https://www.porticosport.com/:path*",
-    permanent: true
-  }],
   i18n: {
     defaultLocale: "en",
     locales: ["es", "en", "fr", "it", "de"],
