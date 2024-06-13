@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   ...shared,
-  site: "https://porticosport.com",
+  site: "https://www.porticosport.com",
   srcDir: "./src/en",
   redirects: {
     "/ru/новости": "/",

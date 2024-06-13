@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   ...shared,
-  site: "https://porticosport.de",
+  site: "https://www.porticosport.de",
   srcDir: "./src/de",
   i18n: {
     defaultLocale: "de",
