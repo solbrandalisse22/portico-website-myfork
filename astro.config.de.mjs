@@ -21,4 +21,11 @@ export default defineConfig({
   experimental: {
     i18nDomains: true,
   },
+  redirects: [
+    {
+      source: "https://porticosport.de/:path*",
+      destination: "https://www.porticosport.de/:path*",
+      permanent: true
+    },
+  ],
 });
