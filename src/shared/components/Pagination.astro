@@ -1,10 +1,13 @@
 ---
 import Chevron from './icons/Chevron.astro';
-const { page, totalPages  } = Astro.props
+
 interface Props {
   page: number;
   totalPages: number;
+  principalRoute: string;
 }
+
+const { page, totalPages, principalRoute  } = Astro.props
 
 const array = new Array(totalPages).fill(0).map((_, i) => i + 1)
 ---
@@ -16,7 +19,7 @@ const array = new Array(totalPages).fill(0).map((_, i) => i + 1)
         page === 1 || page === 0
           ? <span class="text-white flex items-center justify-center px-4 h-10"><Chevron className="rotate-90" /></span>
           : <a
-              href={`?page=${page - 1}`}
+              href={page - 1 === 1 ? principalRoute : `?page=${page - 1}`}
               class="text__glowing flex items-center justify-center px-4 h-10"
               ><Chevron className="rotate-90" /></a>
       }
@@ -28,7 +31,7 @@ const array = new Array(totalPages).fill(0).map((_, i) => i + 1)
           {
             i === page ? <span class="text-white flex items-center justify-center px-4 h-10">{i}</span> :
             <a
-              href={`?page=${i}`}
+              href={i === 1 ? principalRoute : `?page=${i}`}
               aria-current={i === page ? 'page' : undefined}
               class={`${i === page ? 'text-primary bg-black/25' : 'text__glowing transition-colors'} flex items-center justify-center px-4 h-10`}
               >{i}</a>

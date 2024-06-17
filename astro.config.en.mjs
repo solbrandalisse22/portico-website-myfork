@@ -282,10 +282,10 @@ export default defineConfig({
       prefixDefaultLocale: false
     },
     domains: {
-      de: "https://porticosport.de",
-      fr: "https://porticosport.fr",
-      es: "https://porticosport.es",
-      it: "https://porticosport.it"
+      de: "https://www.porticosport.de",
+      fr: "https://www.porticosport.fr",
+      es: "https://www.porticosport.es",
+      it: "https://www.porticosport.it"
     }
   },
   experimental: {
