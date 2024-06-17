@@ -116,7 +116,7 @@ features.forEach((feature) => {
 // Crear la capa vectorial de marcadores
 const markerStyle = new Style({
   image: new Icon({
-    src: "https://porticosport.com/wp-content/uploads/2023/05/padel-ball.png",
+    src: "https://www.porticosport.com/wp-content/uploads/2023/05/padel-ball.png",
   }),
 });
 
@@ -251,8 +251,7 @@ export default function MapProjects() {
         ref={mapRef}
         className={`map relative w-full h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px]`}
         tabindex={0}
-      >
-      </div>
+      />
       {countrySelected && (
         <div
           onClick={() => closePopup}

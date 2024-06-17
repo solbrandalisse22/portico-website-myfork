@@ -28,7 +28,7 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
       }}>
         <HeaderEmailTemplate />
         <h1>{subject}</h1>
-        <p>Hemos recibido un nuevo email desde la página <a href={`https://porticosport.com/${page}`}>{page}</a></p>
+        <p>Hemos recibido un nuevo email desde la página <a href={`https://www.porticosport.com/${page}`}>{page}</a></p>
         <p>Este es el email</p>
         <div style={{
           display: 'flex',
