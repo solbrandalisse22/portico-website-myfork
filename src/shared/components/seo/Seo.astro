@@ -35,7 +35,15 @@ const key = Object.keys(i18n.PAGES).find((key) => {
 
 const canonicalURL = canonical
 	? new URL(canonical, Astro.site)
-	: new URL(Astro.url.pathname, Astro.site)
+	: new URL(url.pathname, Astro.site)
+
+if (url.search) {
+    // add url searchParams to canonical url from url.search
+    const searchParams = new URLSearchParams(url.search)
+    searchParams.forEach((value, key) => {
+        canonicalURL.searchParams.append(key, value)
+    })
+}
 
 const hrefLang = {
 en: `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,

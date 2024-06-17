@@ -27,7 +27,6 @@ const response = await fetch(
   // `https://portico.porticosport.com/wp-json/wp/v2/posts?per_page=12&page=${page}&_embed`
 );
 const totalPages = Number(response.headers.get("X-WP-TotalPages"));
-console.log(totalPages)
 const posts = await response.json();
 ---
 
@@ -71,7 +70,7 @@ const posts = await response.json();
       />
 
       <NewsList posts={posts} language={language} />
-      {!hidePagination && <Pagination page={page} totalPages={totalPages} />}
+      {!hidePagination && <Pagination page={page} totalPages={totalPages} principalRoute={i18n.PAGES.NEWS.ROUTE.URL} />}
     </div>
   </main>
 </Layout>
