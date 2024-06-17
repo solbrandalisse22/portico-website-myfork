@@ -28,7 +28,7 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
 <!doctype html>
 <html lang={currentLocale}>
   <head>
-    <Seo title={title} description={description} currentLocale={currentLocale} image={ogImage} />
+    <Seo title={title} description={description} currentLocale={currentLocale} image={ogImage} language={language} />
     <GoogleTagManager id="GTM-K2ZJ388S" />
     <slot name="preload" />
     <ViewTransitions />

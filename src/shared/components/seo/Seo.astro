@@ -1,5 +1,6 @@
 ---
 import RichResults from "@/shared/components/seo/RichResults.astro"
+import { getI18N } from "@/shared/i18n";
 
 interface Props {
 	title: string
@@ -9,7 +10,10 @@ interface Props {
     keywords?: string
     currentLocale: string
     robots?: string
+	language: string
 }
+
+const { url } = Astro
 
 const {
     title,
@@ -18,13 +22,31 @@ const {
 	canonical,
     robots = "index, follow",
 	image = "https://www.porticosport.com/og/og-portico.jpg",
-    keywords = "Padel Court, Padel, Padel Indoor, Padel Outdoor"
+    keywords = "Padel Court, Padel, Padel Indoor, Padel Outdoor",
+	language = 'es'
 } = Astro.props as Props
+
+const i18n = getI18N({ language });
+const pathname = url.pathname
+const key = Object.keys(i18n.PAGES).find((key) => {
+  const page = i18n.PAGES[key]
+  return page?.ROUTE?.URL === pathname
+}) || "HOME"
 
 const canonicalURL = canonical
 	? new URL(canonical, Astro.site)
 	: new URL(Astro.url.pathname, Astro.site)
+
+const hrefLang = {
+en: `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
+  es: `https://www.porticosport.es${getI18N({ language: "es" }).PAGES?.[key]?.ROUTE?.URL}`,
+  fr: `https://www.porticosport.fr${getI18N({ language: "fr" }).PAGES?.[key]?.ROUTE?.URL}`,
+  /*it: `https://www.porticosport.it${getI18N({ language: "it" }).PAGES?.[key]?.ROUTE?.URL}` */
+  de: `https://www.porticosport.de${getI18N({ language: "de" }).PAGES?.[key]?.ROUTE?.URL}`,
+  "x-default": `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
+}
 ---
+
 
 <title>{title}</title>
 
@@ -64,10 +86,7 @@ const canonicalURL = canonical
 <meta name="msapplication-config" content="/browserconfig.xml" />
 
 <link rel="manifest" href="/manifest.webmanifest" />
-
-<link rel="alternate" href="https://www.porticosport.com/" hreflang="en" />
-<link rel="alternate" href="https://www.porticosport.es/" hreflang="es" />
-<link rel="alternate" href="https://www.porticosport.fr/" hreflang="fr" />
-<link rel="alternate" href="https://www.porticosport.de/" hreflang="de" />
-<link rel="alternate" href="https://www.porticosport.com/" hreflang="x-default" />
+{
+	Object.keys(hrefLang).map((lang) => <link rel="alternate" href={hrefLang[lang]} hreflang={lang} />)
+}
 <RichResults />
