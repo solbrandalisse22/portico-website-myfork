@@ -5,6 +5,9 @@ export default defineConfig({
   ...shared,
   site: "https://www.porticosport.fr",
   srcDir: "./src/fr",
+  redirects: {
+    "/terrains-de-padel/panoramique": "/terrains-de-padel/panoramique",
+  },
   i18n: {
     defaultLocale: "fr",
     locales: ["es", "en", "fr", "it", "de"],
