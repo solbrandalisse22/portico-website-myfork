@@ -1,135 +1,39 @@
-<div align="center">
-<img src="public/favicon.svg" height="50px" width="auto" /> 
-<h3>
- The ESLAND page reimagined
-</h3>
-<p>Created for didactic and educational purposes.</p>
-</div>
+# Pórtico Sport
 
-<div align="center">
-    <a href="#" target="_blank">
-        Preview
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-getting-started">
-        Getting Started
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-commands">
-        Commands
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-license">
-        License
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://www.youtube.com/c/midudev">
-        YouTube
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://twitter.com/midudev">
-        Twitter
-    </a>
-</div>
+Welcome to **Pórtico Sport**, a global leader in the manufacturing and installation of padel courts and sports canopies. This README provides a guide on the functionalities and content of our website, as well as instructions for contributing and contacting us.
 
-<p></p>
+## Table of Contents
 
-<div align="center">
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [Technologies Used](#technologies-used)
+4. [Using the Site](#using-the-site)
+5. [Resources](#resources)
 
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/esland-web)
-![GitHub issues](https://img.shields.io/github/issues/midudev/esland-web)
-![GitHub forks](https://img.shields.io/github/forks/midudev/esland-web)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/esland-web)
-![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
+## Overview
 
-</div>
+[Pórtico Sport](https://www.porticosport.com) specializes in the construction and installation of padel courts and sports canopies worldwide. With over 15 years of experience, we have installed more than 3,500 courts in 35 countries, known for quality, innovation, and excellent customer service.
 
-> [!WARNING]
-> This page is not official. The official page is [**premiosesland.com**](https://premiosesland.com/).
+## Key Features
 
-## 🛠️ Stack
+- **Variety of Padel Courts**: From mobile and panoramic courts to specific models like Club Force 80 and Mini court.
+- **Sports Canopies**: Design and construction of specialized canopies for racket sports.
+- **Comprehensive Process**: From design and manufacturing to installation and after-sales service.
+- **Customization**: Options to meet specific customer needs.
+- **Financing**: Personalized financing options through agreements with various entities.
 
-- [**Astro**](https://astro.build/) - The web framework for content-driven websites.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
-- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
-- [**tailwindcss-animated**](https://github.com/new-data-services/tailwindcss-animated) - Extended animation utilities for Tailwind CSS.
-- [**fontsource**](https://fontsource.org/) - Self-host Open Source fonts in neatly bundled NPM packages.
+## Technologies Used
 
-## 🚀 Getting Started
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Version Control**: Git
 
-1. [Fork](https://github.com/midudev/esland-web/fork) or clone this repository.
+## Using the Site
 
-```bash
-git clone git@github.com:midudev/esland-web.git
-```
+- **Explore Products**: Browse different sections to see all types of courts and canopies available.
+- **Contact**: Use the contact form for inquiries or personalized assistance.
+- **Projects**: View examples of projects completed around the world.
+- **News**: Stay updated with the latest news and company updates.
 
-2. Install the dependencies:
+## Resources
 
-- We use [bun](https://bun.sh) to install and manage the dependencies.
-
-```bash
-# Install bun for MacOS, WSL & Linux:
-curl -fsSL https://bun.sh/install | bash
-
-# Install bun for Windows:
-powershell -c "iwr bun.sh/install.ps1|iex"
-
-# Install with bun:
-bun install
-```
-
-- or you can use [pnpm](https://pnpm.io):
-
-```bash
-# Install pnpm globally if you don't have it:
-npm install -g pnpm
-
-# Install dependencies:
-pnpm install
-```
-
-3. Run the development server:
-
-```bash
-# Run with bun:
-bun dev
-
-# Run with pnpm:
-pnpm dev
-```
-
-4. Open [**http://localhost:4321**](http://localhost:4321/) with your browser to see the result 🚀
-
-### 🤝 Contributing
-
-<a href="https://github.com/midudev/esland-web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=midudev/esland-web" />
-</a>
-
-## 🧞 Commands
-
-|     | Command          | Action                                        |
-| :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` or `start` | Starts local dev server at `localhost:3000`.  |
-| ⚙️  | `build`          | Build your production site to `./dist/`.      |
-| ⚙️  | `preview`        | Preview your build locally, before deploying. |
-
-## 🔑 License
-
-[MIT](#) - Created by [**midu.dev**](https://midu.dev).
-
-## ✅ Por hacer...
-
-- [ ] Crear página de Aviso Legal
-- [ ] Crear página de Privacidad
-- [ ] Mejorar diseño de la página "Info"
-- [ ] Añadir secciones que faltan de la página "Info"
-- [ ] Mejorar el contador para tener efecto "ease"
-- [ ] Mejorar la precarga de las imágenes de las siguientes secciones en idle
-
-### Lo haremos en directo
-
-- [ ] Sección de votaciones y base de datos
-- [ ] Añadir sección "Ganadores" en la página "Archivo"
-- [ ] Pestaña para cambiar entre ediciones en la página "Archivo"
+This web is based in original website Created by [**midu.dev**](https://midu.dev) [Esland web](https://github.com/midudev/esland-web).
