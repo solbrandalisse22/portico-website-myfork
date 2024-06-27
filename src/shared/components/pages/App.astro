@@ -66,9 +66,7 @@ const posts = await response.json();
     >
       <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
       <Typography tag="p" text={i18n.PAGES.HOME.PROJECTS_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
-      <div class="border-y border-primary mt-8">
-        <MapProjects client:only />
-      </div>
+      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
     </section>
     <Gallery
       heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}

@@ -3,7 +3,7 @@ import Layout from "@/shared/layouts/Layout.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
 import ProjectsClubsSection from "@/shared/components/sections/ProjectsClubsSection.astro";
-import MapProjects from "@/shared/components/MapProjects";
+import ProjectsDetailed from "@/shared/components/ProjectsDetailed";
 import countries from "@/shared/data/countries.json";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 
@@ -27,18 +27,18 @@ const currentLocale = getCurrentLocale({ language });
   ogImage={i18n.PAGES.PROJECTS.OG_IMG}
 >
   <main>
-    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
+    <!-- <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
       <Typography tag="span" className="uppercase" type="primary" size="large" text={i18n.PAGES.PROJECTS.SUBTITLE} responsive />
       <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.TITLE} responsive />
       <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.POSTTITLE} responsive />
-    </div>
+    </div> -->
     <div class="bg-main relative bg-background">
-      <Breadcrumb
+      <!-- <Breadcrumb
         crumbs={[
           { label: i18n.PAGES.HOME.ROUTE.LABEL, href: i18n.PAGES.HOME.ROUTE.URL },
           { label: i18n.PAGES.PROJECTS.ROUTE.LABEL, href: i18n.PAGES.PROJECTS.ROUTE.URL },
         ]}
-      />
+      /> -->
       <ProjectsClubsSection
         title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
         subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
@@ -49,9 +49,11 @@ const currentLocale = getCurrentLocale({ language });
       >
         <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
         <Typography tag="p" text={i18n.PAGES.PROJECTS.MAP_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
-        <div class="border-y border-primary mt-8">
-          <MapProjects client:only />
-        </div>
+        <!-- <div class="border-y border-primary mt-8"> -->
+          <!-- <MapProjects client:only /> -->
+          <ProjectsDetailed client:load />
+          <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+        <!-- </div> -->
       </section>
     </div>
   </main>
