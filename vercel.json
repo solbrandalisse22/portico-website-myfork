@@ -4,6 +4,25 @@
       "source": "/(.*)/",
       "destination": "/$1",
       "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1",
+      "has": [{ "type": "header", "key": "x-lowercase", "value": "true" }],
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1",
+      "has": [{ "type": "header", "key": "x-lowercase", "value": "true" }]
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "x-lowercase", "value": "true" }]
     }
   ]
 }
