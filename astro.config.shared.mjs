@@ -7,7 +7,15 @@ import cookieconsent from "@jop-software/astro-cookieconsent";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), preact(), sitemap(), cookieconsent({
+  integrations: [tailwind(), preact(), sitemap({
+    serialize(item) {
+      const lastCharacter = item.url.slice(-1);
+      if (lastCharacter === "/") {
+        item.url = item.url.slice(0, -1);
+      }
+      return item;
+    },
+  }), cookieconsent({
     guiOptions: {
       consentModal: {
         layout: 'cloud',
