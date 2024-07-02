@@ -2647,7 +2647,8 @@
       "DESCRIPTION": "La page que vous recherchez n'existe pas. Veuillez vous rendre sur la page d'accueil ou nous contacter."
     }
   },
-  "LOCALE_DATE": "en-US",
+  "LOCALE_DATE": "fr-FR",
+  "SITE": "https://www.porticosport.fr",
   "HEADER": {
     "LOGO": "Logo de Portico Sport"
   },

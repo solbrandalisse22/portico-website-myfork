@@ -1,4 +1,3 @@
-import { type CourtItem } from "@/types/types";
 
 interface ILanguages {
   [key: string]: string
@@ -114,5 +113,5 @@ export const courtsGrid = (i18n: any) => {
         alt: i18n.PAGES.MINI_COURT.NAME,
       }
     }
-  ] as CourtItem[];
+  ];
 }

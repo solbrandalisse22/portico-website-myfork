@@ -2635,6 +2635,7 @@
     }
   },
   "LOCALE_DATE": "es-ES",
+  "SITE": "https://www.porticosport.es",
   "HEADER": {
     "LOGO": "Ir a la página de inicio"
   },

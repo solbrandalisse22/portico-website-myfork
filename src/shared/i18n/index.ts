@@ -54,3 +54,17 @@ export const getCountryListByLanguage = ({
   if (LANGUAGES[language.toUpperCase()] === 'de') return GermanCountriesList
   return EnglishCountriesList
 }
+
+export const getCustomPages = async ({
+  language = LANGUAGES.DEFAULT
+}: {
+  language: string | undefined
+}) => {
+  // get post from 'portico.porticosport.com'
+  const category = getCategoryByLanguage({ language })
+  const i18n = getI18N({ language })
+  const res = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=100`);
+  const posts = await res.json();
+  const initialUrl = i18n.PAGES.NEWS.ROUTE.URL;
+  return posts.map((post: { slug: string }) => `${i18n.SITE}${initialUrl}/${post.slug}`);
+}
