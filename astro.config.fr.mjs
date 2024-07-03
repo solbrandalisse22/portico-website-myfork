@@ -7,7 +7,7 @@ import { defineConfig } from "astro/config";
 import { getCustomPages, getI18N } from "./src/shared/i18n/index";
 
 const language = 'fr';
-const i18n = getI18N(language);
+const i18n = getI18N({language});
 const customPages = await getCustomPages({ language })
 
 export default defineConfig({
@@ -35,7 +35,6 @@ export default defineConfig({
   },
   integrations: [tailwind(), preact(), sitemap({
     serialize(item) {
-      console.log(item);
       const lastCharacter = item.url.slice(-1);
       if (lastCharacter === "/") {
         item.url = item.url.slice(0, -1);

@@ -7,7 +7,7 @@ import { defineConfig } from "astro/config";
 import { getCustomPages, getI18N } from "./src/shared/i18n/index";
 
 const language = 'de';
-const i18n = getI18N(language);
+const i18n = getI18N({language});
 const customPages = await getCustomPages({ language })
 
 export default defineConfig({
@@ -21,6 +21,7 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
     domains: {
+      de: "https://www.porticosport.de",
       fr: "https://www.porticosport.fr",
       es: "https://www.porticosport.es",
       en: "https://www.porticosport.com",

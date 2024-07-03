@@ -7,7 +7,7 @@ import { defineConfig } from "astro/config";
 import { getCustomPages, getI18N } from "./src/shared/i18n/index";
 
 const language = 'it';
-const i18n = getI18N(language);
+const i18n = getI18N({language});
 const customPages = await getCustomPages({ language })
 
 export default defineConfig({
