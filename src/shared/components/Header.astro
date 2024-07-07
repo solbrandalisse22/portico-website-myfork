@@ -198,7 +198,48 @@ const LINKS = [
     {
       LINKS.map(({ href, text, children }) => (
         text !== i18n.PAGES.CONTACT.ROUTE.LABEL ? 
-        <HeaderLink class="text__glowing item-link" href={href || '#'}>
+        i18n.PAGES.COURTS.ROUTE.LABEL === text ?
+          <div
+            data-dropdown-toggle="dropdownMobileNavbar"
+            class="relative gap-2 w-max group"
+          >
+            <HeaderLink class={`flex justify-center items-center text__glowing pointer-events-none`} href={href || '#'}>
+              {`${capitalize(text)} `}
+              <svg
+                class="w-2.5 h-2.5 ms-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </HeaderLink>
+            <div
+              id="dropdownMobileNavbar"
+              class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block w-[300px] ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
+            >
+              <ul
+                class="py-2 text-sm flex flex-col gap-4 w-full bg-background rounded-xl border"
+                aria-labelledby="dropdownLargeButton"
+              >
+                {children.map(({ href, text }) => (
+                  <li class="text-center">
+                    <HeaderLink class={`text__glowing w-full text-lg`} href={href}>
+                      {capitalize(text)}
+                    </HeaderLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        : <HeaderLink class="text__glowing item-link" href={href || '#'}>
           {capitalize(text)}
         </HeaderLink> : children?.map((item) => <HeaderLink class="text__glowing item-link" href={item.href || '#'}>
           {capitalize(item.text)}
