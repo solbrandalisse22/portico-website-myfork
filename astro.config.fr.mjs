@@ -2,7 +2,6 @@ import shared from "./astro.config.shared.mjs";
 import tailwind from "@astrojs/tailwind";
 import preact from "@astrojs/preact";
 import sitemap from '@astrojs/sitemap';
-import cookieconsent from "@jop-software/astro-cookieconsent";
 import { defineConfig } from "astro/config";
 import { getCustomPages, getI18N } from "./src/shared/i18n/index";
 
@@ -42,20 +41,5 @@ export default defineConfig({
       return item;
     },
     customPages,
-  }), cookieconsent({
-    guiOptions: {
-      consentModal: {
-        layout: 'cloud',
-        position: 'bottom center',
-        equalWeightButtons: true,
-        flipButtons: false,
-      },
-      preferencesModal: {
-        layout: "box",
-        position: "right",
-        equalWeightButtons: true,
-        flipButtons: false,
-      },
-    },
   }),],
 });

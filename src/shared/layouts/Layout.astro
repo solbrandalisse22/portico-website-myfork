@@ -3,12 +3,12 @@ import { ViewTransitions } from "astro:transitions";
 import Header from "../components/Header.astro";
 import Seo from "@/shared/components/seo/Seo.astro";
 import Footer from "@/shared/components/Footer.astro";
+import CookieConsent from "@/shared/components/CookieConsent/CookieConsent.astro";
 import "@fontsource-variable/onest";
 import "@fontsource/prompt/100.css";
 import "@fontsource/prompt/300.css";
 import "@fontsource/prompt/500.css";
 import ScrollSvgAnimation from "@/shared/components/ScrollSvgAnimation.astro";
-import GoogleAnalytics from "@/shared/components/analytics/GoogleAnalytics.astro";
 import GoogleTagManager from "@/shared/components/analytics/GoogleTagManager.astro";
 
 interface Props {
@@ -50,6 +50,7 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
       showScrollImage && <ScrollSvgAnimation className="absolute right-10 top-1/2 -translate-y-1/2 z-20" width="30px" />
     }
     <slot />
+    <CookieConsent />
     <Footer language={language} />
     <style is:global>
       :root {
