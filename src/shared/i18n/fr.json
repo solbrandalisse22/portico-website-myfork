@@ -2813,5 +2813,44 @@
     "CONTACT_EMAIL_2": "Nous vous contacterons sous peu pour répondre à votre demande.",
     "GREATINGS": "Merci de nous faire confiance.",
     "SIGNATURE": "L'équipe PorticoSport"
+  },
+  "COOKIE_CONSENT": {
+    "consentModal": {
+      "title": "C'est l'heure des cookies !",
+      "description": "Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site web.",
+      "acceptAllBtn": "Tout accepter",
+      "acceptNecessaryBtn": "Tout refuser",
+      "showPreferencesBtn": "Gérer les préférences",
+      "footer": "<a href=/privacy>Politique de confidentialité</a>\n<a href=/Cookies>Cookies</a>"
+    },
+    "preferencesModal": {
+      "title": "Centre de préférences de consentement",
+      "acceptAllBtn": "Tout accepter",
+      "acceptNecessaryBtn": "Tout refuser",
+      "savePreferencesBtn": "Enregistrer les préférences",
+      "closeIconLabel": "Fermer la modal",
+      "serviceCounterLabel": "Service|Services",
+      "sections": [
+        {
+          "title": "Utilisation des cookies",
+          "description": "Les cookies sur ce site web sont utilisés pour améliorer l'expérience utilisateur, fournir des fonctionnalités spécifiques et analyser le trafic du site. Vous pouvez choisir les types de cookies à accepter ci-dessous."
+        },
+        {
+          "title": "Cookies strictement nécessaires <span class=pm__badge>Toujours activés</span>",
+          "description": "Ces cookies sont essentiels au fonctionnement du site web et ne peuvent pas être désactivés dans nos systèmes. Ils permettent la navigation sur le site et l'accès aux zones sécurisées. Sans ces cookies, les services demandés ne peuvent pas être fournis.",
+          "linkedCategory": "necessary"
+        },
+        {
+          "title": "Cookies de fonctionnalité",
+          "description": "Ces cookies permettent au site web de fournir des fonctionnalités améliorées et de la personnalisation. Ils peuvent être définis par nous ou par des fournisseurs tiers dont les services ont été ajoutés à nos pages. Si vous n'autorisez pas ces cookies, certains services peuvent ne pas fonctionner correctement.",
+          "linkedCategory": "functionality"
+        },
+        {
+          "title": "Cookies d'analyse",
+          "description": "Ces cookies nous permettent de compter les visites et les sources de trafic afin que nous puissions mesurer et améliorer les performances de notre site. Ils nous aident à savoir quelles pages sont les plus et les moins populaires et à voir comment les visiteurs se déplacent sur le site. Toutes les informations collectées par ces cookies sont agrégées et donc anonymes.",
+          "linkedCategory": "analytics"
+        }
+      ]
+    }
   }
 }

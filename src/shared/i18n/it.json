@@ -2814,5 +2814,44 @@
     "CONTACT_EMAIL_2": "Ti contatteremo a breve per rispondere alla tua domanda.",
     "GREATINGS": "Grazie per averci scelto.",
     "SIGNATURE": "Il team di PorticoSport"
+  },
+  "COOKIE_CONSENT": {
+    "consentModal": {
+      "title": "È l'ora dei cookie!",
+      "description": "Utilizziamo i cookie per offrirti la migliore esperienza sul nostro sito web.",
+      "acceptAllBtn": "Accetta tutti",
+      "acceptNecessaryBtn": "Rifiuta tutti",
+      "showPreferencesBtn": "Gestisci preferenze",
+      "footer": "<a href=/privacy>Informativa sulla privacy</a>\n<a href=/Cookies>Cookie</a>"
+    },
+    "preferencesModal": {
+      "title": "Centro preferenze di consenso",
+      "acceptAllBtn": "Accetta tutti",
+      "acceptNecessaryBtn": "Rifiuta tutti",
+      "savePreferencesBtn": "Salva preferenze",
+      "closeIconLabel": "Chiudi modale",
+      "serviceCounterLabel": "Servizio|Servizi",
+      "sections": [
+        {
+          "title": "Utilizzo dei cookie",
+          "description": "I cookie su questo sito web vengono utilizzati per migliorare l'esperienza dell'utente, fornire funzionalità specifiche e analizzare il traffico del sito. Puoi scegliere quali tipi di cookie accettare di seguito."
+        },
+        {
+          "title": "Cookie strettamente necessari <span class=pm__badge>Sempre abilitati</span>",
+          "description": "Questi cookie sono essenziali per il funzionamento del sito web e non possono essere disabilitati nei nostri sistemi. Consentono la navigazione sul sito e l'accesso alle aree protette. Senza questi cookie, i servizi richiesti non possono essere forniti.",
+          "linkedCategory": "necessary"
+        },
+        {
+          "title": "Cookie di funzionalità",
+          "description": "Questi cookie consentono al sito web di fornire funzionalità migliorate e personalizzazione. Possono essere impostati da noi o da fornitori terzi i cui servizi sono stati aggiunti alle nostre pagine. Se non consenti questi cookie, alcuni servizi potrebbero non funzionare correttamente.",
+          "linkedCategory": "functionality"
+        },
+        {
+          "title": "Cookie analitici",
+          "description": "Questi cookie ci consentono di contare le visite e le sorgenti di traffico in modo da poter misurare e migliorare le prestazioni del nostro sito. Ci aiutano a sapere quali pagine sono le più e le meno popolari e a vedere come i visitatori si muovono nel sito. Tutte le informazioni raccolte da questi cookie sono aggregate e quindi anonime.",
+          "linkedCategory": "analytics"
+        }
+      ]
+    }
   }
 }
