@@ -8,6 +8,12 @@ import LogoHexagonCupWhite from "@/shared/components/logos/LogoHexagonCupWhite.a
 import LogoJutagrass from "@/shared/components/logos/LogoJutagrass.astro";
 import LogoFutwallWhite from "@/shared/components/logos/LogoFutwallWhite.astro";
 import Section from "@/shared/components/Section.astro";
+
+interface Props {
+  uk: boolean;
+}
+
+const { uk } = Astro.props
 ---
 
 <Section className="max-w-none relative">
@@ -24,6 +30,13 @@ import Section from "@/shared/components/Section.astro";
     <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
     <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
     <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
+    <li><img src="/logos/expo-padel-world.png" alt="Expo Padel World" loading="lazy" /></li>
+    {
+      uk ?
+        <li><img src="/logos/Leigh-Spinners-Logo.png" alt="Leigh Spinners" loading="lazy" /></li>
+        <li><img src="/logos/tvitecglass.png" alt="Tvitec Glass" loading="lazy" /></li>
+      : null
+    }
   </ul>
 </Section>
 
