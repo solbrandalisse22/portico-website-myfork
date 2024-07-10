@@ -368,7 +368,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
       "TITLE": "<span>Pista Flow</span>",
       "DETAIL_TITLE": "<span>Pista Flow</span>",
-      "DESCRIPTION": "<p>Inspirada en esas pistas de pádel que ves en la televisión en eventos profesionales, la Pista Flow es una evolución de nuestro modelo de pista Panorámica.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, este modelo de pista elimina las esquinas de la estructura de acero, permitiendo que las paredes de vidrio de alta resistencia proporcionen una vista panorámica sin obstrucciones del entorno.</p><p>Este magnífico diseño, junto con una estética meticulosa, hace que esta pista sea la más atractiva para aquellos que desean que sus espectadores disfruten de una experiencia de pádel inigualable.</p>",
+      "DESCRIPTION": "<p>Inspirada en esas pistas de pádel que ves en la televisión en eventos profesionales, la Pista Flow es una evolución de nuestro modelo de pista Panoramic.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, este modelo de pista elimina las esquinas de la estructura de acero, permitiendo que las paredes de vidrio de alta resistencia proporcionen una vista panorámica sin obstrucciones del entorno.</p><p>Este magnífico diseño, junto con una estética meticulosa, hace que esta pista sea la más atractiva para aquellos que desean que sus espectadores disfruten de una experiencia de pádel inigualable.</p>",
       "SUBTITLE": "Disfruta del pádel con una vista panorámica sin obstrucciones del entorno.",
       "NAME": "Pista Flow",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel con una vista panorámica sin obstrucciones del entorno.</p>",
@@ -394,7 +394,7 @@
           },
           "TOP": {
             "src": "/courts-detail/flow/flow-top.webp",
-            "alt": "Vista superior de la Pista Panorámica"
+            "alt": "Vista superior de la Pista Panoramic"
           }
         }
       },
@@ -557,44 +557,44 @@
     },
     "PANORAMIC_COURT": {
       "ID": "panoramic-court",
-      "SEO_TITLE": "Pista Panorámica - Pista de Pádel con Vistas Impresionantes",
-      "SEO_DESCRIPTION": "Eleva tu experiencia de pádel con nuestra pista panorámica que cuenta con paredes de vidrio de alta resistencia que ofrecen vistas incomparables.",
+      "SEO_TITLE": "Pista Panoramic - Pista de Pádel con Vistas Impresionantes",
+      "SEO_DESCRIPTION": "Eleva tu experiencia de pádel con nuestra pista panoramic que cuenta con paredes de vidrio de alta resistencia que ofrecen vistas incomparables.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
-      "TITLE": "<span>Pista panorámica</span>",
+      "TITLE": "<span>Pista panoramic</span>",
       "DESCRIPTION": "<p>Diseñada y fabricada por el departamento de ingeniería de Portico Sport, este modelo de pista presenta paredes de vidrio de alta resistencia que ofrecen una vista panorámica del entorno, creando una experiencia de juego única y emocionante tanto dentro como fuera de la pista.</p><p>Debido a su atractivo visual, esta pista es cada vez más buscada por clientes que buscan ofrecer una experiencia de juego distintiva a todos sus jugadores.</p><p>Si buscas una pista de pádel que brinde una experiencia de juego única y emocionante, las pistas panorámicas son una excelente elección.</p>",
-      "NAME": "Pista panorámica",
-      "SUBTITLE": "Presentamos la Pista Panorámica de Portico Sport",
+      "NAME": "Pista panoramic",
+      "SUBTITLE": "Presentamos la Pista Panoramic de Portico Sport",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel con una vista panorámica del entorno.</p>",
-      "DETAIL_TITLE": "<span>Pista panorámica</span>",
+      "DETAIL_TITLE": "<span>Pista panoramic</span>",
       "MORE_INFO_URL": "https://www.porticosport.com/en/panoramic-courts",
-      "CONTACT_TITLE_1": "¿Quieres una Pista Panorámica?",
-      "CONTACT_SUBJECT": "Nueva petición de Pista Panorámica",
-      "CONTACT_BUTTON": "Quiero una Pista Panorámica",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Panoramic?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Panoramic",
+      "CONTACT_BUTTON": "Quiero una Pista Panoramic",
       "ROUTE": {
-        "LABEL": "Más sobre la pista panorámica",
+        "LABEL": "Más sobre la pista panoramic",
         "URL": "/pistas-de-padel/panoramic"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">¡Eleva tu Juego con Vistas Inigualables!</span>",
-        "DESCRIPTION": "<p>Poco a poco, nuestra pista panorámica se está convirtiendo en el modelo de pista más solicitado.</p><p>A pesar de su vidrio panorámico, el diseño garantiza un mayor refuerzo y una estructura robusta. Ideal tanto para entornos exteriores como interiores, sobresale en diversos entornos, proporcionando una excelente experiencia de juego.</p><p>Además, ofrece amplias opciones de personalización para asegurar que se integre perfectamente con su entorno de instalación.</p>",
+        "DESCRIPTION": "<p>Poco a poco, nuestra pista panoramic se está convirtiendo en el modelo de pista más solicitado.</p><p>A pesar de su vidrio panorámico, el diseño garantiza un mayor refuerzo y una estructura robusta. Ideal tanto para entornos exteriores como interiores, sobresale en diversos entornos, proporcionando una excelente experiencia de juego.</p><p>Además, ofrece amplias opciones de personalización para asegurar que se integre perfectamente con su entorno de instalación.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Vista frontal de la pista panorámica"
+            "alt": "Vista frontal de la pista panoramic"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic/panoramic-perspective.webp",
-            "alt": "Vista panorámica de la pista panorámica"
+            "alt": "Vista panorámica de la pista panoramic"
           },
           "TOP": {
             "src": "/courts-detail/panoramic/panoramic-top.webp",
-            "alt": "Vista superior de la pista panorámica"
+            "alt": "Vista superior de la pista panoramic"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista panorámica",
+        "TITLE": "Experimenta los beneficios de nuestra pista panoramic",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -626,7 +626,7 @@
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Mediciones de la Pista Panorámica",
+        "TITLE": "Mediciones de la Pista Panoramic",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,50 m </p><p><strong>Ancho</strong>: 10,46 m </p>",
@@ -634,7 +634,7 @@
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic/panoramic-sizing.webp",
-          "alt": "Tamaños de la pista panorámica interior y exterior"
+          "alt": "Tamaños de la pista panoramic interior y exterior"
         }
       },
       "GLASS_SECTION": {
@@ -648,7 +648,7 @@
         },
         "TITLE": "Vidrios",
         "SUBTITLE": "¡Vidrio de Seguridad Templado en Cada Pista!",
-        "DESCRIPTION": "<p>Descubre seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en grosores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas para instalaciones de este tipo. En colaboración con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primer nivel en cada aspecto de nuestra construcción.</p><p>Descubre este diseño espectacular, con paredes de vidrio de alta resistencia que ofrecen una vista panorámica del entorno. Nuestra Pista Panorámica ofrece vistas claras con vidrio de seguridad templado, garantizando tanto durabilidad como seguridad.</p><p>La <strong>CRISTALERÍA</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura de metal mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida la resistencia al impacto y la planitud óptima.</p>"
+        "DESCRIPTION": "<p>Descubre seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en grosores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas para instalaciones de este tipo. En colaboración con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primer nivel en cada aspecto de nuestra construcción.</p><p>Descubre este diseño espectacular, con paredes de vidrio de alta resistencia que ofrecen una vista panorámica del entorno. Nuestra Pista Panoramic ofrece vistas claras con vidrio de seguridad templado, garantizando tanto durabilidad como seguridad.</p><p>La <strong>CRISTALERÍA</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura de metal mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida la resistencia al impacto y la planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
@@ -714,40 +714,40 @@
       },
       "CONTACT_SECTION": {
         "ID": "contacto",
-        "SUBJECT": "Nueva petición de Pista Panorámica",
+        "SUBJECT": "Nueva petición de Pista Panoramic",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
       },
-      "HOME_DESCRIPTION": "¡Vidrio de 12mm, diseño minimalista, máxima robustez! Nuestra pista panorámica ofrece el equilibrio perfecto entre funcionalidad y estética.",
+      "HOME_DESCRIPTION": "¡Vidrio de 12mm, diseño minimalista, máxima robustez! Nuestra pista panoramic ofrece el equilibrio perfecto entre funcionalidad y estética.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
           "src": "/courts/panoramic-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panorámica"
+          "imgAlt": "Pista panoramic"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panorámica"
+          "imgAlt": "Pista panoramic"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panorámica"
+          "imgAlt": "Pista panoramic"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panorámica"
+          "imgAlt": "Pista panoramic"
         }
       ]
     },
@@ -1146,43 +1146,43 @@
     },
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
-      "SEO_TITLE": "Pista Panorámica Force 80 - Pista de Pádel Resistente",
-      "SEO_DESCRIPTION": "Descubre la Pista Panorámica Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
+      "SEO_TITLE": "Pista Panoramic Force 80 - Pista de Pádel Resistente",
+      "SEO_DESCRIPTION": "Descubre la Pista Panoramic Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
-      "TITLE": "<span>Pista Panorámica Force 80</span>",
+      "TITLE": "<span>Pista Panoramic Force 80</span>",
       "DESCRIPTION": "<p>En 2021, Portico Sport presentó la pista Club Force 80, la primera pista anti-huracanes, creando una categoría propia. Ahora, nos complace presentar la Panorámica Force 80. Capaz de resistir vientos de hasta 80m/s en un marco panorámico.</p><p>El departamento de ingeniería de Portico Sport continúa liderando la innovación de productos en la industria con este diseño que, a pesar de sus paredes de cristal panorámicas y su estructura de acero más delgada que los diseños competidores, permanece firme bajo las condiciones climáticas más desafiantes, lo que lo hace ideal para instalaciones al aire libre en geografías afectadas por huracanes y fuertes tormentas.</p>",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel sin importar las condiciones climáticas desafiantes.</p>",
       "SUBTITLE": "Disfruta del pádel sin importar las condiciones climáticas desafiantes.",
-      "CONTACT_TITLE_1": "¿Quieres una Pista Panorámica Force 80?",
-      "CONTACT_SUBJECT": "Nueva petición de Pista Panorámica Force 80",
-      "CONTACT_BUTTON": "Quiero una Pista Panorámica Force 80",
-      "NAME": "Pista Panorámica Force 80",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Panoramic Force 80?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Panoramic Force 80",
+      "CONTACT_BUTTON": "Quiero una Pista Panoramic Force 80",
+      "NAME": "Pista Panoramic Force 80",
       "ROUTE": {
-        "LABEL": "Más sobre la pista Panorámica Force 80",
+        "LABEL": "Más sobre la pista Panoramic Force 80",
         "URL": "/pistas-de-padel/panoramic-force-80"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-las-pistas",
         "TITLE": "<span class=\"text-secondary\">¡La pista de pádel más resistente y emocionante del mercado!</span>",
-        "DESCRIPTION": "<p>Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Lo que la diferencia es nuestro innovador y exclusivo sistema de 8 refuerzos que se pueden quitar y añadir según las necesidades del cliente y las condiciones climáticas esperadas. Con este sistema, puedes disfrutar de una pista panorámica estándar que se transforma en una pista ultra resistente antes de las tormentas y huracanes, con un esfuerzo mínimo y en poco tiempo.</p><p>Capaz de resistir vientos huracanados de hasta 273,6 km/h (80 m/s), con nuestra Panorámica Force 80, no solo obtendrás la máxima resistencia contra cualquier condición climática, sino que también agregarás un toque de elegancia y modernidad a tu club.</p>",
+        "DESCRIPTION": "<p>Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Lo que la diferencia es nuestro innovador y exclusivo sistema de 8 refuerzos que se pueden quitar y añadir según las necesidades del cliente y las condiciones climáticas esperadas. Con este sistema, puedes disfrutar de una pista panoramic estándar que se transforma en una pista ultra resistente antes de las tormentas y huracanes, con un esfuerzo mínimo y en poco tiempo.</p><p>Capaz de resistir vientos huracanados de hasta 273,6 km/h (80 m/s), con nuestra Panorámica Force 80, no solo obtendrás la máxima resistencia contra cualquier condición climática, sino que también agregarás un toque de elegancia y modernidad a tu club.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
-            "alt": "Vista frontal de la pista Panorámica Force 80"
+            "alt": "Vista frontal de la pista Panoramic Force 80"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-perspective.webp",
-            "alt": "Vista panorámica de la pista Panorámica Force 80"
+            "alt": "Vista panorámica de la pista Panoramic Force 80"
           },
           "TOP": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-top.webp",
-            "alt": "Vista superior de la pista Panorámica Force 80"
+            "alt": "Vista superior de la pista Panoramic Force 80"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista Panorámica Force 80",
+        "TITLE": "Experimenta los beneficios de nuestra pista Panoramic Force 80",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -1214,7 +1214,7 @@
       },
       "SIZING_SECTION": {
         "ID": "seccion-de-medidas",
-        "TITLE": "Medidas de la Pista Panorámica Force 80",
+        "TITLE": "Medidas de la Pista Panoramic Force 80",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 22,70 m </p><p><strong>Anchura</strong>: 12,66 m </p>",
@@ -1307,12 +1307,12 @@
       },
       "CONTACT_SECTION": {
         "ID": "contacto",
-        "SUBJECT": "Nueva petición de Pista Panorámica Force 80",
+        "SUBJECT": "Nueva petición de Pista Panoramic Force 80",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>El modelo Panorámico Force 80 está diseñado para resistir vientos huracanados de categoría 5. Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Su exclusivo sistema de refuerzos te permite cambiar sin esfuerzo, y en poco tiempo, de una pista panorámica estándar a una fortaleza ultra resistente antes de las tormentas y huracanes.</p>",
+      "HOME_DESCRIPTION": "<p>El modelo Panorámico Force 80 está diseñado para resistir vientos huracanados de categoría 5. Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Su exclusivo sistema de refuerzos te permite cambiar sin esfuerzo, y en poco tiempo, de una pista panoramic estándar a una fortaleza ultra resistente antes de las tormentas y huracanes.</p>",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
