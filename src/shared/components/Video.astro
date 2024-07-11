@@ -13,9 +13,10 @@ interface Props {
   buttonText?: string;
   classVideo?: string;
   subject?: string;
+  uk?: boolean;
 }
 
-const { video, classVideo, subtitle, title, buttonUrl, buttonText, language, showContactForm, subject } = Astro.props;
+const { video, classVideo, subtitle, title, buttonUrl, buttonText, language, showContactForm, subject, uk } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -63,7 +64,7 @@ const type = getTipeFromVideo();
         {
           showContactForm && subject && (
             <div class="p-4 bg-black/50 rounded-xl hidden lg:block">
-              <ContactForm size="mini" language={language} hiddenSubject={true} subject={subject} />
+              <ContactForm uk={uk} size="mini" language={language} hiddenSubject={true} subject={subject} />
             </div>
           )
         }

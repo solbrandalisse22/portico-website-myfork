@@ -8,6 +8,9 @@ import LogoHexagonCupWhite from "@/shared/components/logos/LogoHexagonCupWhite.a
 import LogoJutagrass from "@/shared/components/logos/LogoJutagrass.astro";
 import LogoFutwallWhite from "@/shared/components/logos/LogoFutwallWhite.astro";
 import Section from "@/shared/components/Section.astro";
+import LogoIspoMunich from "@/shared/components/logos/LogoIspoMunich.astro";
+import LogoPadelSummit from "@/shared/components/logos/LogoPadelSummit.astro";
+import LogoRacquetx from "@/shared/components/logos/LogoRacquetx.astro";
 
 interface Props {
   uk: boolean;
@@ -27,10 +30,13 @@ const { uk } = Astro.props
     <li><LogoHexagonCupWhite /></li>
     <li><LogoFutwallWhite /></li>
     <li><LogoJutagrass /></li>
+    <li><LogoIspoMunich /></li>
+    <li><LogoRacquetx /></li>
     <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
     <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
     <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
     <li><img src="/logos/expo-padel-world.png" alt="Expo Padel World" loading="lazy" /></li>
+    <li><LogoPadelSummit /></li>
     {
       uk ?
         <li><img src="/logos/Leigh-Spinners-Logo.png" alt="Leigh Spinners" loading="lazy" /></li>

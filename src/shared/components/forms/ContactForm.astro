@@ -11,9 +11,10 @@ interface Props {
   subject: string;
   size?: 'mini' | 'normal';
   hiddenSubject?: boolean;
+  uk?: boolean;
 }
 
-const {language, hiddenSubject, subject = '', sendText, size='normal'} = Astro.props
+const {language, hiddenSubject, subject = '', sendText, size='normal', uk} = Astro.props
 const i18n = getI18N({ language });
 
 const page = Astro.request.url
@@ -38,5 +39,6 @@ const formId = randomId;
   <input type="hidden" name={i18n.CONTACT_FORM.FORM.PAGE.ID} value={page} size={size} />
   <InputArea name={i18n.CONTACT_FORM.FORM.MESSAGE.ID} label={i18n.CONTACT_FORM.FORM.MESSAGE.LABEL} placeholder={i18n.CONTACT_FORM.FORM.MESSAGE.PLACEHOLDER} size={size} />
   <InputRadio name={i18n.CONTACT_FORM.FORM.TERMS.ID} label={i18n.CONTACT_FORM.FORM.TERMS.LABEL} linkText={i18n.CONTACT_FORM.FORM.TERMS.LINK_TEXT} linkUrl={i18n.PAGES.PRIVACY.ROUTE.URL} required size={size} />
+  <input type="hidden" name="isUk" value={uk ? 'on' : 'off'} size={size} />
   <FormButton language={language} client:visible formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} termsError={i18n.CONTACT_FORM.ACCEPT_TERMS} size={size} />
 </form>
