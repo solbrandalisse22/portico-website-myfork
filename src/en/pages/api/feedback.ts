@@ -18,7 +18,6 @@ export const POST: APIRoute = async ({ request }) => {
   const phone = form.get('phone')?.toString() ?? '';
   const subject = form.get('subject')?.toString() ?? '';
   const page = form.get('page')?.toString() ?? '';
-  const isUk = form.get('isUk')?.toString() ?? '';
   const title = i18n.CLIENT_SUBJECT_EMAIL.TITLE;
   const content1 = i18n.CLIENT_SUBJECT_EMAIL.CONTACT_EMAIL_1.replace('{name}', name);
   const content2 = i18n.CLIENT_SUBJECT_EMAIL.CONTACT_EMAIL_2;
@@ -32,12 +31,8 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  const pEmail = isUk === 'on' ? 'dmartin.alberto@gmail.com' : 'clientes@porticogestion.com';
-
-  console.log(pEmail);
-
   resend.emails.send({
-    from: `PorticoSport <${pEmail}>`,
+    from: 'PorticoSport <clientes@porticogestion.com>',
     to: [email],
     subject: title,
     react: EmailTemplate({ title, language, content1, content2 }),
@@ -45,8 +40,8 @@ export const POST: APIRoute = async ({ request }) => {
 
   // Sending email to the company
   resend.emails.send({
-    from: `PorticoSport <${pEmail}>`,
-    to: [pEmail],
+    from: 'PorticoSport <clientes@porticogestion.com>',
+    to: ['clientes@porticogestion.com'],
     subject: `<${name}> ${subject}`,
     react: CompanyEmailTemplate({ page, name, subject, email, phone, country, message, language }),
   });
