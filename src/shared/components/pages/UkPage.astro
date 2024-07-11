@@ -8,9 +8,7 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionComplements from "@/shared/components/sections/SectionComplements.astro"
-import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
-import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
@@ -35,7 +33,7 @@ const posts = await response.json();
 
 <Layout title={i18n.PAGES.HOME.SEO_TITLE} description={i18n.PAGES.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
 
-  <Video language={language} video="/movie-UK.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE_UK} title={i18n.PAGES.HOME.TITLE} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}>
+  <Video language={language} video="/movie-UK.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE_UK} title={i18n.PAGES.HOME.TITLE} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
     <div
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
@@ -83,6 +81,7 @@ const posts = await response.json();
       language={language}
       bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
       image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+      uk
     />
     <SectionPartnerLogos uk />
   </main>

@@ -22,7 +22,6 @@ export default function ProjectsDetailedCountry({
     );
     const nextIndex = index + 1;
     if (nextIndex < projects.length) {
-      debugger
       popupRef.current?.classList.add("opacity-0");
       setTimeout(() => {
         setProjectSelected(projects[nextIndex]);
