@@ -157,7 +157,7 @@
       "SEO_TITLE": "Mobile Court - Innovative Padel Court Solution",
       "SEO_DESCRIPTION": "Entdecken Sie den patentierten Mobile Court - eine flexible Padelplatzlösung von Portico Sport. Perfekt für dauerhafte oder temporäre Installationen!",
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
-      "NAME": "Mobile court",
+      "NAME": "Mobile",
       "SUBTITLE": "Vorstellung der neuesten Innovation in der Padelplatztechnologie",
       "TITLE": "<span class=\"text-secondary block\">Mobile court</span> <span class=\"text-white text-lg\">system patentiert von Portico Sport</span>",
       "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl\">System patentiert von Portico Sport</span>",
@@ -353,7 +353,7 @@
       "DETAIL_TITLE": "<span>Flow Court</span>",
       "DESCRIPTION": "<p>Inspiriert von den Plätzen, die Sie im Fernsehen bei professionellen Veranstaltungen sehen, ist der Flow Court eine Weiterentwicklung unseres Panoramaplatzmodells.</p><p>Entworfen von der Ingenieurabteilung von Portico Sport, eliminiert dieses Platzmodell die Ecken der Stahlstruktur, sodass die durchgehenden Glaswände eine ungehinderte Panoramaaussicht auf die Umgebung bieten können.</p><p>Dieses großartige Design, gepaart mit akribischer Ästhetik, macht diesen Platz am attraktivsten für diejenigen, die möchten, dass ihre Zuschauer ein unvergleichliches Padel-Erlebnis genießen.</p>",
       "SUBTITLE": "Genießen Sie Padel mit uneingeschränkter Panoramaaussicht auf die Umgebung.",
-      "NAME": "Flow Court",
+      "NAME": "Flow",
       "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel mit uneingeschränkter Panoramaaussicht auf die Umgebung.</p>",
       "CONTACT_TITLE_1": "Möchten Sie einen Flow Court?",
       "CONTACT_SUBJECT": "Neue Anfrage vom Flow Court",
@@ -742,7 +742,7 @@
       "DESCRIPTION": "<p>Seit vielen Jahren unsere begehrtesten Plätze, zeichnet sich der Club Court als ideale Option für diejenigen aus, die überragende Qualität und außergewöhnliche Haltbarkeit suchen.</p><p>Mit Säulen von 3 Metern Höhe, ist dieser Platz vom Engineering-Team von Portico Sport konzipiert und hergestellt, um ein optimales Umfeld für das Padeltraining auf hohem Niveau zu bieten und die höchsten Qualitätsstandards sicherzustellen.</p><p>Wenn Sie einen Padelplatz suchen, der Langlebigkeit und Widerstandsfähigkeit kombiniert, ist der Club Court eine ausgezeichnete Wahl.</p>",
       "LITTLE_DESCRIPTION": "<p>Sie können Padel auf einem unserer begehrtesten Plätze spielen.</p>",
       "SUBTITLE": "Unsere begehrtesten Plätze.",
-      "NAME": "Club court",
+      "NAME": "Club",
       "CONTACT_TITLE_1": "Möchten Sie einen Club Court?",
       "CONTACT_SUBJECT": "Neue Anfrage vom Club Court",
       "CONTACT_BUTTON": "Ich möchte einen Club Court",
@@ -938,7 +938,7 @@
       "CONTACT_TITLE_1": "Möchten Sie einen Club Force 80 Court?",
       "CONTACT_SUBJECT": "Neue Anfrage vom Club Force 80 Court",
       "CONTACT_BUTTON": "Ich möchte einen Club Force 80 Court",
-      "NAME": "Club Force 80 Court",
+      "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "Mehr über Club Force 80 erfahren",
         "URL": "/padel-plaetze/club-force-80"
@@ -1138,7 +1138,7 @@
       "CONTACT_TITLE_1": "Möchten Sie ein Panoramisches Force 80 Gericht?",
       "CONTACT_SUBJECT": "Neue Petition vom Panoramischen Force 80 Gericht",
       "CONTACT_BUTTON": "Ich möchte ein Panoramisches Force 80 Gericht",
-      "NAME": "Panoramisches Force 80 Gericht",
+      "NAME": "Panoramisches Force 80",
       "ROUTE": {
         "LABEL": "Mehr über Panoramisches Force 80",
         "URL": "/padel-plaetze/panoramic-force-80"
@@ -1536,7 +1536,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Mini Court</span>",
       "DESCRIPTION": "<p>Unser Mini Court ist ein verkleinerter Padelplatz (10,47x5,47 m) mit reduzierter Höhe (1 m), ideal für kleinere Räume, das Üben zu Hause oder jüngere Spieler.</p><p>Entwickelt von der Ingenieurabteilung von Portico Sport, wird dieser Platz mit den gleichen hochwertigen Materialien hergestellt wie der Rest unserer Padelplätze.</p><p>Trotz seiner geringeren Größe bietet er die gleiche Stabilität, Haltbarkeit und Widerstandsfähigkeit. Wenn Sie nach einem kompakten Padelplatz suchen, ist der Mini Court eine ausgezeichnete Wahl.</p>",
-      "NAME": "Mini Court",
+      "NAME": "Mini",
       "LITTLE_DESCRIPTION": "<p>Unser verkleinerter Padelplatz, der überall passt.</p>",
       "SUBTITLE": "Unser verkleinerter Padelplatz, der überall passt.",
       "CONTACT_TITLE_1": "Möchten Sie einen Mini Court?",
