@@ -23,7 +23,11 @@
       "INTRO_SECTION_UK": {
         "ID": "intro",
         "TITLE": "Welcome to <br />Portico Sport UK",
-        "DESCRIPTION": "<p>Located in Congleton, near Manchester, our office and warehouse serve as the hub for our operations. From here, we collaborate with our team on growing padel to every corner of the UK.</p><p>Our strategically located warehouse facilitates efficient material shipping processes, both domestically and to neighboring countries. This enables us to swiftly deliver our products and services to our clients.</p>Based in Spain, our company is one of the <strong>leading Padel courts & canopies</strong> manufacturer <strong>globally</strong> counting with 15 yrs. track record in the industry, presence <strong>in over 35 countries and +3,500 courts installed</strong>.<p>At Portico Sport UK, our commitment to excellence drives us to continually enhance our offerings ensuring quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with <strong>100% in-house design</strong> and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong>, in Spain, expanding over 10,000 square meters making it the largest and most <strong>technologically advanced</strong> in the industry.</p>"
+        "DESCRIPTION": "<p>Located in Congleton, near Manchester, our office and warehouse serve as the hub for our operations. From here, we collaborate with our team on growing padel to every corner of the UK.</p><p>Our strategically located warehouse facilitates efficient material shipping processes, both domestically and to neighboring countries. This enables us to swiftly deliver our products and services to our clients.</p>Based in Spain, our company is one of the <strong>leading Padel courts & canopies</strong> manufacturer <strong>globally</strong> counting with 15 yrs. track record in the industry, presence <strong>in over 35 countries and +3,500 courts installed</strong>.<p>At Portico Sport UK, our commitment to excellence drives us to continually enhance our offerings ensuring quality and excellence in customer service. Our engineering DNA enable us to be manufacturer with a complete turnkey offering combining courts and canopies with <strong>100% in-house design</strong> and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong>, in Spain, expanding over 10,000 square meters making it the largest and most <strong>technologically advanced</strong> in the industry.</p>",
+        "EMAIL_CONTACT_TITLE": "Our team at your disposal",
+        "INVOICING_EMAIL": "For invoicing queries please contact <a class=text__glowing href=mailto:account@porticosport.uk class=text-primary>account@porticosport.uk</a>",
+        "SALES_EMAIL": "For sales queries please contact <a class=text__glowing href=mailto:sales@porticosport.uk class=text-primary>sales@porticosport.uk</a>",
+        "GENERAL_EMAIL": "For general enquiries please contact <a class=text__glowing href=mailto:paul@porticosport.uk class=text-primary>paul@porticosport.uk</a>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
@@ -2478,6 +2482,9 @@
     "TITLE": "Padel courts that comply with regulations",
     "SUBTITLE": "Strength, durability and perfect integration",
     "DESCRIPTION": "<p>Our padel courts are meticulously designed to provide exceptional durability and outstanding performance, ensuring a fantastic gaming experience for players of all levels. Crafted with precision and built to last, our courts are engineered to withstand the test of time and deliver unparalleled resilience, even in the most demanding environments.</p><p>Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)</p>"
+  },
+  "INFINITE_SCROLL": {
+    "TITLE": "Comercial partners"
   },
   "CLIENT_SUBJECT_EMAIL": {
     "TITLE": "We've received your message!",

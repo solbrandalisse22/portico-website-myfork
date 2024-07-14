@@ -75,8 +75,10 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
           </div>
         </div>
       </Section>
-      <section class="border-t border-primary mt-8 min-h-[500px]">
-        <MapProjects client:only />
+      <section 
+        id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}
+      >
+        <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
       </section>
       <SectionInfiniteScroll language={language} />
     </div>

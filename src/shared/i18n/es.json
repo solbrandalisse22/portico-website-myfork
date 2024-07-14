@@ -2584,6 +2584,9 @@
         "IMAGE": "/courts-detail/turf-STX.webp"
     }]
   },
+  "INFINITE_SCROLL": {
+    "TITLE": "Socios comerciales"
+  },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Pistas de pádel que cumplen con las regulaciones",
     "SUBTITLE": "Fuerza, durabilidad y perfecta integración",

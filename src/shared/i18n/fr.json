@@ -2597,6 +2597,9 @@
       "IMAGE": "/courts-detail/turf-STX.webp"
     }]
   },
+  "INFINITE_SCROLL": {
+    "TITLE": "Partenaires commerciaux"
+  },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Terrains de padel conformes à la réglementation",
     "SUBTITLE": "Force, durabilité et intégration parfaite",

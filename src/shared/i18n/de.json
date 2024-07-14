@@ -2567,6 +2567,9 @@
         "IMAGE": "/courts-detail/turf-STX.webp"
     }]
   },
+  "INFINITE_SCROLL": {
+    "TITLE": "Kommerzielle Partner"
+  },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Padelplätze, die den Vorschriften entsprechen",
     "SUBTITLE": "Stärke, Haltbarkeit und perfekte Integration",
