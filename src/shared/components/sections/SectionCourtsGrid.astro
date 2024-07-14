@@ -38,6 +38,7 @@ const courtsToUse = courts || courtsGrid(i18n)
           {
             image && (
               <img
+                loading="lazy"
                 src={image.src}
                 alt={image.alt}
                 class="lg:w-96 w-60 absolute -right-4 -bottom-5 lg:-right-8 lg:-bottom-10"
