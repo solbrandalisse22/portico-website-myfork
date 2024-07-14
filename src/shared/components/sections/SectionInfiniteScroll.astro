@@ -5,9 +5,15 @@ import LogoRepsol from "@/shared/components/logos/LogoRepsol.astro";
 import LogoEvenPadel from "@/shared/components/logos/LogoEvenPadel.astro";
 import LogoFutwall from "@/shared/components/logos/LogoFutwall.astro";
 import Section from "@/shared/components/Section.astro";
+import Typography from "../ui/Typography.astro";
+import { getI18N } from "@/shared/i18n";
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
 ---
 
 <Section>
+  <Typography tag="h2"  className="mx-auto text-center font-semibold">{i18n.INFINITE_SCROLL.TITLE}</Typography>
   <div class="scroller">
     <ul class="tag-list scroller_inner items-center">
       <li><LogoFep /></li>
