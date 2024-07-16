@@ -167,6 +167,9 @@
         "BUTTON_TEXT": "I want more information",
         "BG_IMAGE": "/hexagon-contact-bg.webp",
         "IMAGE": "/pista-hexagon-contact.webp"
+      },
+      "CONTACT_SECTION_UK": {
+        "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts and canopies! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For invoicing queries please contact <a class=text__glowing href=mailto:account@porticosport.uk>account@porticosport.uk</a></p><p class=text-lg text-pretty font-thin text-current text-left>For sales queries please contact <a class=text__glowing href=mailto:sales@porticosport.uk>sales@porticosport.uk</a></p><p class=text-lg text-pretty font-thin text-current text-left>For general enquiries please contact <a class=text__glowing href=mailto:paul@porticosport.uk>paul@porticosport.uk</a></p>"
       }
     },
     "COURTS": {
