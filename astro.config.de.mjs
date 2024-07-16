@@ -20,7 +20,6 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
     domains: {
-      de: "https://www.porticosport.de",
       fr: "https://www.porticosport.fr",
       es: "https://www.porticosport.es",
       en: "https://www.porticosport.com",
