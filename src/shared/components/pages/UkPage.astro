@@ -3,7 +3,7 @@ import Layout from "@/shared/layouts/Layout.astro"
 import Video from "@/shared/components/Video.astro"
 import Typography from "@/shared/components/ui/Typography.astro"
 import SectionIntroUK from "@/shared/components/sections/SectionIntroUK.astro"
-import SectionBento from "@/shared/components/sections/SectionBento.astro"
+import SectionBentoUK from "@/shared/components/sections/SectionBentoUK.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
@@ -15,6 +15,8 @@ import NewsList from "../NewsList.astro"
 import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import { type Photo } from "@/types/types.ts";
+import LogoFep from "@/shared/components/logos/LogoFep.astro";
+import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 
 interface Props {
   language: string,
@@ -38,8 +40,13 @@ const posts = await response.json();
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
     >
-      <div class="flex flex-col gap-2 bg-white/70 p-2 rounded-xl">
-        <img src="/logos/sapca.png" alt="Sapca logo" />
+
+      <div class="flex flex-col gap-2">
+        <div class="bg-white/70 p-2 rounded-xl">
+          <img src="/logos/sapca.png" alt="Sapca logo" />
+        </div>
+        <LogoFep />
+        <HexagonCupLogo />
       </div>
     </div>
   </Video>
@@ -56,7 +63,7 @@ const posts = await response.json();
       buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
       buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_UK.BUTTON_TEXT}
     />
-    <SectionBento language={language} />
+    <SectionBentoUK language={language} />
     <section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_UK.ID}
     >
