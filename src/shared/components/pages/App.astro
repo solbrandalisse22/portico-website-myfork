@@ -16,6 +16,7 @@ import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
 import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
+import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import { type Photo } from "@/types/types.ts";
 
 interface Props {
@@ -50,6 +51,7 @@ const posts = await response.json();
     <SectionIntro language={language} />
     <SectionGraphicProcess language={language} />
     <SectionInfiniteScroll language={language} />
+    <NormativeLogos language={language} showInfo />
     <SectionCourts language={language} />
     <SectionCanopies
       video="/cubiertas-spot.webm"
