@@ -42,9 +42,9 @@ const i18n = getI18N({ language })
       <UEBanner />
       <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
         <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-white">
+          <span class="mb-6 block text-sm font-semibold uppercase text-white">
             {i18n.FOOTER.LEGAL.TITLE}
-          </h2>
+          </span>
           <ul class="flex flex-col gap-2 font-medium text-gray-400">
             <li>
               <a
@@ -63,34 +63,6 @@ const i18n = getI18N({ language })
             </li>
           </ul>
         </div>
-        <!-- <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-white">
-            {i18n.FOOTER.WEB_MAP.TITLE}
-          </h2>
-          <ul class="flex flex-col gap-2 font-medium text-gray-400">
-            <li>
-              <a
-                href="/"
-                class="hover:underline hover:text-primary duration-300"
-                >{i18n.FOOTER.WEB_MAP.HOME}</a
-              >
-            </li>
-            <li>
-              <a
-                href="/info"
-                class="hover:underline hover:text-primary duration-300"
-                >{i18n.FOOTER.WEB_MAP.INFO}</a
-              >
-            </li>
-            <li>
-              <a
-                href="/archivo"
-                class="hover:underline hover:text-primary duration-300"
-                >{i18n.FOOTER.WEB_MAP.ARCHIVE}</a
-              >
-            </li>
-          </ul>
-        </div> -->
       </div>
     </div>
     <hr class="my-6 border-white/10 sm:mx-auto lg:my-8" />
