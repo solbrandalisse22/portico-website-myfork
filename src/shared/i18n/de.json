@@ -170,7 +170,8 @@
       "CONTACT_BUTTON": "Ich möchte einen Mobile Court",
       "ROUTE": {
         "LABEL": "Mehr über Mobile",
-        "URL": "/mobile"
+        "URL": "/mobile",
+        "TITLE": "Padel plaetze Mobile"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -348,7 +349,8 @@
       "CONTACT_BUTTON": "Ich möchte einen Flow Court",
       "ROUTE": {
         "LABEL": "Mehr über den Flow Court erfahren",
-        "URL": "/flow"
+        "URL": "/flow",
+        "TITLE": "Padelplatz Flow"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erleben Sie Padel wie nie zuvor!</span>",
@@ -542,7 +544,8 @@
       "CONTACT_BUTTON": "Ich möchte einen Panoramaplatz",
       "ROUTE": {
         "LABEL": "Mehr über Panoramaplatz",
-        "URL": "/panoramic"
+        "URL": "/panoramic",
+        "TITLE": "Panoramaplatz"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erweitern Sie Ihr Spiel mit unvergleichlichen Aussichten!</span>",
@@ -736,7 +739,8 @@
       "CONTACT_BUTTON": "Ich möchte einen Club Court",
       "ROUTE": {
         "LABEL": "Mehr über Club court",
-        "URL": "/club"
+        "URL": "/club",
+        "TITLE": "Club court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -931,7 +935,8 @@
       "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "Mehr über Club Force 80 erfahren",
-        "URL": "/club-force-80"
+        "URL": "/club-force-80",
+        "TITLE": "Club Force 80 Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1131,7 +1136,8 @@
       "NAME": "Panoramisches Force 80",
       "ROUTE": {
         "LABEL": "Mehr über Panoramisches Force 80",
-        "URL": "/panoramic-force-80"
+        "URL": "/panoramic-force-80",
+        "TITLE": "Panoramisches Force 80 Gericht"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1331,7 +1337,8 @@
       "CONTACT_BUTTON": "Ich möchte einen Einzelplatz",
       "ROUTE": {
         "LABEL": "Mehr über Einzelplatz erfahren",
-        "URL": "/single"
+        "URL": "/single",
+        "TITLE": "Einzelplatz"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1534,7 +1541,8 @@
       "CONTACT_BUTTON": "Ich möchte einen Mini Court",
       "ROUTE": {
         "LABEL": "Mehr über den Mini Court erfahren",
-        "URL": "/mini"
+        "URL": "/mini",
+        "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",

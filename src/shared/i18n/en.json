@@ -221,7 +221,8 @@
       "CONTACT_BUTTON": "I want a Mobile Court",
       "ROUTE": {
         "LABEL": "More about mobile court",
-        "URL": "/mobile"
+        "URL": "/mobile",
+        "TITLE": "Mobile Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -425,7 +426,8 @@
       "CONTACT_BUTTON": "I want a Flow court",
       "ROUTE": {
         "LABEL": "More about Flow court",
-        "URL": "/flow"
+        "URL": "/flow",
+        "TITLE": "Flow Court"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Experience Padel Like Never Before!</span>",
@@ -605,7 +607,8 @@
       "CONTACT_BUTTON": "I want a Panoramic Court",
       "ROUTE": {
         "LABEL": "More about panoramic court",
-        "URL": "/panoramic"
+        "URL": "/panoramic",
+        "TITLE": "Panoramic Court"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Elevate Your Game with Unmatched Views!</span>",
@@ -785,7 +788,8 @@
       "CONTACT_BUTTON": "I want a Club Court",
       "ROUTE": {
         "LABEL": "More about club court",
-        "URL": "/club"
+        "URL": "/club",
+        "TITLE": "Club Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -966,7 +970,8 @@
       "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "More about Club Force 80 court",
-        "URL": "/club-force-80"
+        "URL": "/club-force-80",
+        "TITLE": "Club Force 80 Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1151,7 +1156,8 @@
       "NAME": "Panoramic Force 80",
       "ROUTE": {
         "LABEL": "More about Panoramic Force 80 court",
-        "URL": "/panoramic-force-80"
+        "URL": "/panoramic-force-80",
+        "TITLE": "Panoramic Force 80 Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1336,7 +1342,8 @@
       "CONTACT_BUTTON": "I want a Single Court",
       "ROUTE": {
         "LABEL": "More about single court",
-        "URL": "/single"
+        "URL": "/single",
+        "TITLE": "Single Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1523,7 +1530,8 @@
       "CONTACT_BUTTON": "I want a Mini Court",
       "ROUTE": {
         "LABEL": "More about mini court",
-        "URL": "/mini"
+        "URL": "/mini",
+        "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
