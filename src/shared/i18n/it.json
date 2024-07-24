@@ -12,6 +12,7 @@
       },
       "ROUTE": {
         "LABEL": "Home",
+        "BREADCRUMB": "Campi da padel",
         "URL": "/"
       },
       "INTRO_SECTION": {
@@ -169,7 +170,8 @@
       "CONTACT_BUTTON": "Voglio un Mobile Court",
       "ROUTE": {
         "LABEL": "Maggiori informazioni sul mobile",
-        "URL": "/campi-da-padel/mobile"
+        "URL": "/mobile",
+        "TITLE": "Campi da padel mobile"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -391,7 +393,8 @@
       "CONTACT_BUTTON": "Voglio un Campo Flow",
       "ROUTE": {
         "LABEL": "Scopri di più su Campo Flow",
-        "URL": "/campi-da-padel/flow"
+        "URL": "/flow",
+        "TITLE": "Campo Flow"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Vivi il Padel Come Mai Prima d'Ora!</span>",
@@ -585,7 +588,8 @@
       "CONTACT_BUTTON": "Voglio un Campo Panoramico",
       "ROUTE": {
         "LABEL": "Maggiori informazioni sul campo panoramico",
-        "URL": "/campi-padel/panoramico"
+        "URL": "/panoramic",
+        "TITLE": "Campo Panoramico"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Eleva il tuo gioco con vedute senza pari!</span>",
@@ -779,7 +783,8 @@
       "CONTACT_BUTTON": "Voglio un Campo Club",
       "ROUTE": {
         "LABEL": "Scopri di più sul campo club",
-        "URL": "/campi-da-padel/club"
+        "URL": "/club",
+        "TITLE": "Campo Club"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -974,7 +979,8 @@
       "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "Scopri di più su Club Force 80",
-        "URL": "/campi-da-padel/club-force-80"
+        "URL": "/club-force-80",
+        "TITLE": "Campo Club Force 80"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1174,7 +1180,8 @@
       "NAME": "Panoramic Force 80",
       "ROUTE": {
         "LABEL": "Scopri di più su Panoramic Force 80",
-        "URL": "/campi-da-padel/panoramic-force-80"
+        "URL": "/panoramic-force-80",
+        "TITLE": "Campo Panoramico Force 80"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1374,7 +1381,8 @@
       "CONTACT_BUTTON": "Voglio un campo singolo",
       "ROUTE": {
         "LABEL": "Scopri di più sul campo singolo",
-        "URL": "/campi-da-padel/single"
+        "URL": "/single",
+        "TITLE": "Campo singolo"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1577,7 +1585,8 @@
       "CONTACT_BUTTON": "Voglio un Mini Court",
       "ROUTE": {
         "LABEL": "Scopri di più sul mini court",
-        "URL": "/campi-da-padel/mini"
+        "URL": "/mini",
+        "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",

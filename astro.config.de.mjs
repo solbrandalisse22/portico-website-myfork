@@ -13,6 +13,17 @@ export default defineConfig({
   ...shared,
   site: i18n.SITE,
   srcDir: "./src/de",
+  redirects: {
+    "/padel-plaetze": "/",
+    "/padel-plaetze/panoramique": "/panoramic",
+    "/padel-plaetze/flow": "/flow",
+    "/padel-plaetze/club": "/club",
+    "/padel-plaetze/club-force-80": "/club-force-80",
+    "/padel-plaetze/mini": "/mini",
+    "/padel-plaetze/mobile": "/mobile",
+    "/padel-plaetze/panoramic-force-80": "/panoramic-force-80",
+    "/padel-plaetze/single": "/single",
+  },
   i18n: {
     defaultLocale: "de",
     locales: ["es", "en", "fr", "it", "de"],

@@ -13,6 +13,7 @@
       },
       "ROUTE": {
         "LABEL": "Home",
+        "BREADCRUMB": "Padel Court",
         "URL": "/"
       },
       "INTRO_SECTION": {
@@ -220,7 +221,8 @@
       "CONTACT_BUTTON": "I want a Mobile Court",
       "ROUTE": {
         "LABEL": "More about mobile court",
-        "URL": "/padel-courts/mobile"
+        "URL": "/mobile",
+        "TITLE": "Mobile Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -424,7 +426,8 @@
       "CONTACT_BUTTON": "I want a Flow court",
       "ROUTE": {
         "LABEL": "More about Flow court",
-        "URL": "/padel-courts/flow"
+        "URL": "/flow",
+        "TITLE": "Flow Court"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Experience Padel Like Never Before!</span>",
@@ -604,7 +607,8 @@
       "CONTACT_BUTTON": "I want a Panoramic Court",
       "ROUTE": {
         "LABEL": "More about panoramic court",
-        "URL": "/padel-courts/panoramic"
+        "URL": "/panoramic",
+        "TITLE": "Panoramic Court"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Elevate Your Game with Unmatched Views!</span>",
@@ -784,7 +788,8 @@
       "CONTACT_BUTTON": "I want a Club Court",
       "ROUTE": {
         "LABEL": "More about club court",
-        "URL": "/padel-courts/club"
+        "URL": "/club",
+        "TITLE": "Club Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -965,7 +970,8 @@
       "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "More about Club Force 80 court",
-        "URL": "/padel-courts/club-force-80"
+        "URL": "/club-force-80",
+        "TITLE": "Club Force 80 Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1150,7 +1156,8 @@
       "NAME": "Panoramic Force 80",
       "ROUTE": {
         "LABEL": "More about Panoramic Force 80 court",
-        "URL": "/padel-courts/panoramic-force-80"
+        "URL": "/panoramic-force-80",
+        "TITLE": "Panoramic Force 80 Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1335,7 +1342,8 @@
       "CONTACT_BUTTON": "I want a Single Court",
       "ROUTE": {
         "LABEL": "More about single court",
-        "URL": "/padel-courts/single"
+        "URL": "/single",
+        "TITLE": "Single Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1522,7 +1530,8 @@
       "CONTACT_BUTTON": "I want a Mini Court",
       "ROUTE": {
         "LABEL": "More about mini court",
-        "URL": "/padel-courts/mini"
+        "URL": "/mini",
+        "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",

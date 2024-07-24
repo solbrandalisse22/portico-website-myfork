@@ -11,43 +11,50 @@ const i18n = getI18N({ language });
 const LINKS = [
   {
     href: i18n.PAGES.HOME.ROUTE.URL,
-    text: i18n.PAGES.HOME.ROUTE.LABEL,
+    text: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
   },
   {
-    href: i18n.PAGES.COURTS.ROUTE.URL,
     text: i18n.PAGES.COURTS.ROUTE.LABEL,
     children: [
       {
         href: i18n.PAGES.MOBILE_COURT.ROUTE.URL,
         text: i18n.PAGES.MOBILE_COURT.NAME,
+        title: i18n.PAGES.MOBILE_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.PANORAMIC_COURT.ROUTE.URL,
         text: i18n.PAGES.PANORAMIC_COURT.NAME,
+        title: i18n.PAGES.PANORAMIC_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.FLOW_COURT.ROUTE.URL,
         text: i18n.PAGES.FLOW_COURT.NAME,
+        title: i18n.PAGES.FLOW_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.CLUB_COURT.ROUTE.URL,
         text: i18n.PAGES.CLUB_COURT.NAME,
+        title: i18n.PAGES.CLUB_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.URL,
         text: i18n.PAGES.CLUB_FORCE_80_COURT.NAME,
+        title: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.URL,
         text: i18n.PAGES.PANORAMIC_FORCE_80_COURT.NAME,
+        title: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.SINGLE_COURT.ROUTE.URL,
         text: i18n.PAGES.SINGLE_COURT.NAME,
+        title: i18n.PAGES.SINGLE_COURT.ROUTE.TITLE,
       },
       {
         href: i18n.PAGES.MINI_COURT.ROUTE.URL,
         text: i18n.PAGES.MINI_COURT.NAME,
+        title: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
       },
     ],
   },
@@ -144,9 +151,9 @@ const LINKS = [
                   class="py-2 text-sm flex flex-col gap-4 w-full bg-background/90 rounded-xl border"
                   aria-labelledby="dropdownLargeButton"
                 >
-                  {children.map(({ href, text }) => (
+                  {children.map(({ href, text, title }) => (
                     <li class="text-center">
-                      <HeaderLink class={`text__glowing w-full text-lg`} href={href}>
+                      <HeaderLink class={`text__glowing w-full text-lg`} href={href} title={title}>
                         {capitalize(text)}
                       </HeaderLink>
                     </li>

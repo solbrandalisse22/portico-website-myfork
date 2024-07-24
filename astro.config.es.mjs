@@ -13,6 +13,17 @@ export default defineConfig({
   ...shared,
   site: i18n.SITE,
   srcDir: "./src/es",
+  redirects: {
+    "/pistas-de-padel": "/",
+    "/pistas-de-padel/panoramique": "/panoramic",
+    "/pistas-de-padel/flow": "/flow",
+    "/pistas-de-padel/club": "/club",
+    "/pistas-de-padel/club-force-80": "/club-force-80",
+    "/pistas-de-padel/mini": "/mini",
+    "/pistas-de-padel/mobile": "/mobile",
+    "/pistas-de-padel/panoramic-force-80": "/panoramic-force-80",
+    "/pistas-de-padel/single": "/single",
+  },
   i18n: {
     defaultLocale: "es",
     locales: ["es", "en", "fr", "it", "de"],
