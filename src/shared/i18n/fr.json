@@ -12,6 +12,7 @@
       },
       "ROUTE": {
         "LABEL": "Accueil",
+        "BREADCRUMB": "Terrains de Padel",
         "URL": "/"
       },
       "INTRO_SECTION": {

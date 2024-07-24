@@ -12,6 +12,7 @@
       },
       "ROUTE": {
         "LABEL": "Home",
+        "BREADCRUMB": "Campi da padel",
         "URL": "/"
       },
       "INTRO_SECTION": {

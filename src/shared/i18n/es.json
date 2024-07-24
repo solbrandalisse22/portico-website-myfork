@@ -12,6 +12,7 @@
       },
       "ROUTE": {
         "LABEL": "Inicio",
+        "BREADCRUMB": "Pistas de padel",
         "URL": "/"
       },
       "INTRO_SECTION": {

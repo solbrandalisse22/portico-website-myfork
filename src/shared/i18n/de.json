@@ -12,6 +12,7 @@
       },
       "ROUTE": {
         "LABEL": "Startseite",
+        "BREADCRUMB": "Padel plaetze",
         "URL": "/"
       },
       "INTRO_SECTION": {

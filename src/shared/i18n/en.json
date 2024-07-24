@@ -13,6 +13,7 @@
       },
       "ROUTE": {
         "LABEL": "Home",
+        "BREADCRUMB": "Padel Court",
         "URL": "/"
       },
       "INTRO_SECTION": {
