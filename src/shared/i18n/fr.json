@@ -169,7 +169,7 @@
       "CONTACT_BUTTON": "Je veux un Mobile Court",
       "ROUTE": {
         "LABEL": "En savoir plus sur mobile",
-        "URL": "/terrains-de-padel/mobile"
+        "URL": "/mobile"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -391,7 +391,7 @@
       "CONTACT_BUTTON": "Je veux un Court Flow",
       "ROUTE": {
         "LABEL": "En savoir plus sur le Court Flow",
-        "URL": "/terrains-de-padel/flow"
+        "URL": "/flow"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Découvrez le padel comme jamais auparavant !</span>",
@@ -585,7 +585,7 @@
       "CONTACT_BUTTON": "Je veux un Court panoramique",
       "ROUTE": {
         "LABEL": "En savoir plus sur le court panoramique",
-        "URL": "/terrains-de-padel/panoramique"
+        "URL": "/panoramique"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Rehaussez votre jeu avec des vues incomparables !</span>",
@@ -779,7 +779,7 @@
       "CONTACT_BUTTON": "Je veux un Court de Club",
       "ROUTE": {
         "LABEL": "Plus sur le court de club",
-        "URL": "/terrains-de-padel/club"
+        "URL": "/club"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -974,7 +974,7 @@
       "NAME": "Force 80",
       "ROUTE": {
         "LABEL": "En savoir plus sur le Court Force 80",
-        "URL": "/terrains-de-padel/club-force-80"
+        "URL": "/club-force-80"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1174,7 +1174,7 @@
       "NAME": "Panoramic Force 80",
       "ROUTE": {
         "LABEL": "En savoir plus sur le Panoramic Force 80",
-        "URL": "/terrains-de-padel/panoramic-force-80"
+        "URL": "/panoramic-force-80"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1374,7 +1374,7 @@
       "CONTACT_BUTTON": "Je veux un Court individuel",
       "ROUTE": {
         "LABEL": "En savoir plus sur le court individuel",
-        "URL": "/terrains-de-padel/single"
+        "URL": "/single"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1577,7 +1577,7 @@
       "CONTACT_BUTTON": "Je veux un Mini Court",
       "ROUTE": {
         "LABEL": "En savoir plus sur le mini court",
-        "URL": "/terrains-de-padel/mini"
+        "URL": "/mini"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",

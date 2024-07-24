@@ -169,7 +169,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Mobile Court",
       "ROUTE": {
         "LABEL": "Mehr über Mobile",
-        "URL": "/padel-plaetze/mobile"
+        "URL": "/mobile"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -329,20 +329,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
-      "HOME_DESCRIPTION": "<p><strong>Der Mobile Court</strong> ist das neueste und innovativste Produkt von Portico Sport, das eine völlig neue Dimension der Flexibilität in der Padelplatztechnologie bietet. Entwickelt, um Padel auf nahezu jedem ebenen Untergrund zu ermöglichen, revolutioniert dieser Platz die Art und Weise, wie Padelplätze installiert und genutzt werden.</p><p>Unser patentiertes System vereint robuste Konstruktion mit Mobilität und kann problemlos für temporäre Veranstaltungen oder dauerhafte Installationen genutzt werden. Mit minimalem Platzbedarf und maximaler Flexibilität bietet der Mobile Court eine kostengünstige Lösung für alle, die Padel genießen möchten, egal wo sie sind.</p>",
-      "RELATED_LINKS": {
-        "TITLE": "Erfahren Sie mehr über unsere Padelplatzmodelle",
-        "LINKS": [
-          {
-            "LABEL": "Club court",
-            "URL": "/padel-plaetze/club"
-          },
-          {
-            "LABEL": "Pro court",
-            "URL": "/padel-plaetze/pro"
-          }
-        ]
-      }
+      "HOME_DESCRIPTION": "<p><strong>Der Mobile Court</strong> ist das neueste und innovativste Produkt von Portico Sport, das eine völlig neue Dimension der Flexibilität in der Padelplatztechnologie bietet. Entwickelt, um Padel auf nahezu jedem ebenen Untergrund zu ermöglichen, revolutioniert dieser Platz die Art und Weise, wie Padelplätze installiert und genutzt werden.</p><p>Unser patentiertes System vereint robuste Konstruktion mit Mobilität und kann problemlos für temporäre Veranstaltungen oder dauerhafte Installationen genutzt werden. Mit minimalem Platzbedarf und maximaler Flexibilität bietet der Mobile Court eine kostengünstige Lösung für alle, die Padel genießen möchten, egal wo sie sind.</p>"
     },
     "FLOW_COURT": {
       "ID": "flow",
@@ -360,7 +347,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Flow Court",
       "ROUTE": {
         "LABEL": "Mehr über den Flow Court erfahren",
-        "URL": "/padel-plaetze/flow"
+        "URL": "/flow"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erleben Sie Padel wie nie zuvor!</span>",
@@ -554,7 +541,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Panoramaplatz",
       "ROUTE": {
         "LABEL": "Mehr über Panoramaplatz",
-        "URL": "/padel-plaetze/panoramic"
+        "URL": "/panoramic"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erweitern Sie Ihr Spiel mit unvergleichlichen Aussichten!</span>",
@@ -748,7 +735,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Club Court",
       "ROUTE": {
         "LABEL": "Mehr über Club court",
-        "URL": "/padel-plaetze/club"
+        "URL": "/club"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -943,7 +930,7 @@
       "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "Mehr über Club Force 80 erfahren",
-        "URL": "/padel-plaetze/club-force-80"
+        "URL": "/club-force-80"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1143,7 +1130,7 @@
       "NAME": "Panoramisches Force 80",
       "ROUTE": {
         "LABEL": "Mehr über Panoramisches Force 80",
-        "URL": "/padel-plaetze/panoramic-force-80"
+        "URL": "/panoramic-force-80"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1343,7 +1330,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Einzelplatz",
       "ROUTE": {
         "LABEL": "Mehr über Einzelplatz erfahren",
-        "URL": "/padel-plaetze/single"
+        "URL": "/single"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
@@ -1546,7 +1533,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Mini Court",
       "ROUTE": {
         "LABEL": "Mehr über den Mini Court erfahren",
-        "URL": "/padel-plaetze/mini"
+        "URL": "/mini"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",

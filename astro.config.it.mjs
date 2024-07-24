@@ -13,6 +13,9 @@ export default defineConfig({
   ...shared,
   site: i18n.SITE,
   srcDir: "./src/it",
+  redirects: {
+    "/campi-da-padel": "/",
+  },
   i18n: {
     defaultLocale: "it",
     locales: ["es", "en", "fr", "it", "de"],

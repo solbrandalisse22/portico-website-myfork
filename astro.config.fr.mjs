@@ -14,7 +14,15 @@ export default defineConfig({
   site: i18n.SITE,
   srcDir: "./src/fr",
   redirects: {
-    "/terrains-de-padel/panoramique": "/terrains-de-padel/panoramique",
+    "/terrains-de-padel": "/",
+    "/terrains-de-padel/panoramique": "/panoramique",
+    "/terrains-de-padel/flow": "/flow",
+    "/terrains-de-padel/club": "/club",
+    "/terrains-de-padel/club-force-80": "/club-force-80",
+    "/terrains-de-padel/mini": "/mini",
+    "/terrains-de-padel/mobile": "/mobile",
+    "/terrains-de-padel/panoramic-force-80": "/panoramic-force-80",
+    "/terrains-de-padel/single": "/single",
   },
   i18n: {
     defaultLocale: "fr",

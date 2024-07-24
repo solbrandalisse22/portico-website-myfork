@@ -169,7 +169,7 @@
       "CONTACT_BUTTON": "Quiero una Pista Móvil",
       "ROUTE": {
         "LABEL": "Más sobre la pista móvil",
-        "URL": "/pistas-de-padel/mobile"
+        "URL": "/mobile"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
@@ -377,7 +377,7 @@
       "CONTACT_BUTTON": "Quiero una Pista Flow",
       "ROUTE": {
         "LABEL": "Más sobre la pista Flow",
-        "URL": "/pistas-de-padel/flow"
+        "URL": "/flow"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
@@ -572,7 +572,7 @@
       "CONTACT_BUTTON": "Quiero una Pista Panoramic",
       "ROUTE": {
         "LABEL": "Más sobre la pista panoramic",
-        "URL": "/pistas-de-padel/panoramic"
+        "URL": "/panoramic"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">¡Eleva tu Juego con Vistas Inigualables!</span>",
@@ -766,7 +766,7 @@
       "CONTACT_BUTTON": "Quiero una Pista Club",
       "ROUTE": {
         "LABEL": "Más sobre la pista club",
-        "URL": "/pistas-de-padel/club"
+        "URL": "/club"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
@@ -961,7 +961,7 @@
       "NAME": "Club Force 80",
       "ROUTE": {
         "LABEL": "Más sobre la pista Club Force 80",
-        "URL": "/pistas-de-padel/club-force-80"
+        "URL": "/club-force-80"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
@@ -1161,7 +1161,7 @@
       "NAME": "Panoramic Force 80",
       "ROUTE": {
         "LABEL": "Más sobre la pista Panoramic Force 80",
-        "URL": "/pistas-de-padel/panoramic-force-80"
+        "URL": "/panoramic-force-80"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-las-pistas",
@@ -1361,7 +1361,7 @@
       "CONTACT_BUTTON": "Quiero una Pista Single",
       "ROUTE": {
         "LABEL": "Más sobre la pista single",
-        "URL": "/pistas-de-padel/single"
+        "URL": "/single"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
@@ -1564,7 +1564,7 @@
       "CONTACT_BUTTON": "Quiero un Mini Court",
       "ROUTE": {
         "LABEL": "Más sobre la pista mini",
-        "URL": "/pistas-de-padel/mini"
+        "URL": "/mini"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
