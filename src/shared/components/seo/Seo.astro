@@ -46,7 +46,7 @@ if (url.search) {
 }
 
 const hrefLang = {
-en: `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
+  en: `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
   es: `https://www.porticosport.es${getI18N({ language: "es" }).PAGES?.[key]?.ROUTE?.URL}`,
   fr: `https://www.porticosport.fr${getI18N({ language: "fr" }).PAGES?.[key]?.ROUTE?.URL}`,
   /*it: `https://www.porticosport.it${getI18N({ language: "it" }).PAGES?.[key]?.ROUTE?.URL}` */
@@ -97,4 +97,4 @@ en: `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROU
 {
 	Object.keys(hrefLang).map((lang) => <link rel="alternate" href={hrefLang[lang]} hreflang={lang} />)
 }
-<RichResults />
+<RichResults language={language} key={key} />

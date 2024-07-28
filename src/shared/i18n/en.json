@@ -207,6 +207,7 @@
     "MOBILE_COURT": {
       "ID": "mobile-court",
       "SEO_TITLE": "Mobile Court - Innovative Padel Court Solution",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the patented Mobile Court - a flexible Padel court solution by Portico Sport. Perfect for permanent or temporary installations!",
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
       "NAME": "Mobile",
@@ -413,6 +414,7 @@
     "FLOW_COURT": {
       "ID": "flow",
       "SEO_TITLE": "Flow Court - Padel Court with Unobstructed Views",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Flow Court: No corners, clear panoramic views, the ultimate padel experience for players and spectators.",
       "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
       "TITLE": "<span>Flow court</span>",
@@ -593,6 +595,7 @@
     "PANORAMIC_COURT": {
       "ID": "panoramic-court",
       "SEO_TITLE": "Panoramic Court - Padel Court with Stunning Views",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Elevate your padel experience with our panoramic court featuring high-strength glass walls offering unparalleled views.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "<span>Panoramic court</span>",
@@ -776,6 +779,7 @@
     "CLUB_COURT": {
       "ID": "club-court",
       "SEO_TITLE": "Club Court - Durable Padel Court",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Club Court, an ideal option for superior quality and exceptional durability. Perfect for high-level padel practice with 3-meter pillars.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Club court</span>",
@@ -958,6 +962,7 @@
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
       "SEO_TITLE": "Force 80 Court - Resilient Padel Court",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Force 80 Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Club Force 80 court</span>",
@@ -1144,6 +1149,7 @@
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Panoramic Force 80 Court - Resilient Padel Court",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Panoramic Force 80 Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Panoramic Force 80</span>",
@@ -1330,6 +1336,7 @@
     "SINGLE_COURT": {
       "ID": "single-court",
       "SEO_TITLE": "Single Court - Tailored for Solo Players",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Single Court, perfect for 1vs1 matches or individual training sessions. Same premium quality and durability in a smaller size. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Single court</span>",
@@ -1518,6 +1525,7 @@
     "MINI_COURT": {
       "ID": "mini-court",
       "SEO_TITLE": "Mini Court - Compact Padel Fun",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Introduce children to padel with our Mini Court, perfect for smaller spaces. Same premium quality in a compact size. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Mini court</span>",
@@ -1701,6 +1709,7 @@
     },
     "CANOPIES": {
       "SEO_TITLE": "High-Performance Padel Canopies",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Leader in the manufacturing and installation of canopies",
@@ -1784,6 +1793,7 @@
     },
     "ELEVATED_PLATFORM": {
       "SEO_TITLE": "Elevated Platform - Padel Court",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"The elevated platform is a patented system designed for sports practice, offering mobility and stability. Find out more about our innovative solution!",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
       "ID": "elevated-platform",
@@ -1876,6 +1886,7 @@
     },
     "PROJECTS": {
       "ID": "projects",
+      "TYPE": "PROJECTS",
       "SEO_TITLE": "Portico Sport's Latest Projects",
       "SEO_DESCRIPTION":"Explore the latest projects by Portico Sport, showcasing our innovative padel courts and canopies. See our work now!",
       "OG_IMG": "https://www.porticosport.com/og/og-projects.jpg",

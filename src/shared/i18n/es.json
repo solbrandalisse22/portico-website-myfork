@@ -156,6 +156,7 @@
     "MOBILE_COURT": {
       "ID": "mobile-court",
       "SEO_TITLE": "Pista Móvil - Solución Innovadora de Pistas de Pádel",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Descubre la Pista Móvil patentada: una solución flexible de pistas de Pádel por Portico Sport. ¡Perfecta para instalaciones permanentes o temporales!",
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
       "NAME": "Móvil",
@@ -366,6 +367,7 @@
     "FLOW_COURT": {
       "ID": "flow",
       "SEO_TITLE": "Pista Flow - Pista de Pádel con Vistas Despejadas",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Descubre la Pista Flow: Sin esquinas, vistas panorámicas claras, la experiencia de pádel definitiva para jugadores y espectadores.",
       "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
       "TITLE": "<span>Pista Flow</span>",
@@ -561,6 +563,7 @@
     "PANORAMIC_COURT": {
       "ID": "panoramic-court",
       "SEO_TITLE": "Pista Panoramic - Pista de Pádel con Vistas Impresionantes",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Eleva tu experiencia de pádel con nuestra pista panoramic que cuenta con paredes de vidrio de alta resistencia que ofrecen vistas incomparables.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "<span>Pista panoramic</span>",
@@ -758,6 +761,7 @@
     "CLUB_COURT": {
       "ID": "club-court",
       "SEO_TITLE": "Pista Club - Pista de Pádel Duradera",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Descubre la Pista Club, una opción ideal por su calidad superior y durabilidad excepcional. Perfecta para prácticas de pádel de alto nivel con pilares de 3 metros.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Pista Club</span>",
@@ -954,6 +958,7 @@
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
       "SEO_TITLE": "Pista Force 80 - Pista de pádel resistente",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Descubre la Pista Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Pista Club Force 80</span>",
@@ -1155,6 +1160,7 @@
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Pista Panoramic Force 80 - Pista de Pádel Resistente",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Descubre la Pista Panoramic Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Pista Panoramic Force 80</span>",
@@ -1356,6 +1362,7 @@
     "SINGLE_COURT": {
       "ID": "single-court",
       "SEO_TITLE": "Pista Single - Diseñada para Jugadores Solitarios",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Descubre la Pista Single, perfecta para partidos 1 contra 1 o sesiones de entrenamiento individual. La misma calidad premium y durabilidad en un tamaño más pequeño. ¡Obtén más información!",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Pista Single</span>",
@@ -1560,6 +1567,7 @@
     "MINI_COURT": {
       "ID": "mini-court",
       "SEO_TITLE": "Mini Court - Diversión Compacta de Pádel",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Presenta a los niños al pádel con nuestro Mini Court, perfecto para espacios más pequeños. La misma calidad premium en un tamaño compacto. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Pista Mini</span>",
@@ -1758,6 +1766,7 @@
     },
     "CANOPIES": {
       "SEO_TITLE": "Cubiertas de pádel de alto rendimiento",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Eleva tu juego con nuestras cubiertas de alto rendimiento, diseñadas para durabilidad y una experiencia de juego sin igual. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Líder en la fabricación e instalación de cubiertas",
@@ -1843,6 +1852,7 @@
     },
     "ELEVATED_PLATFORM": {
       "SEO_TITLE": "Plataforma Elevada - Pista de Pádel",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "La plataforma elevada es un sistema patentado diseñado para la práctica deportiva, que ofrece movilidad y estabilidad. ¡Descubre más sobre nuestra solución innovadora!",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
       "ID": "plataforma-elevada",

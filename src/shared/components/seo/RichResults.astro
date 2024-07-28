@@ -1,4 +1,12 @@
 ---
+import { getI18N } from "@/shared/i18n";
+
+interface Props {
+  key: string,
+  language: string,
+  pathname: string
+}
+
 /** https://developers.google.com/search/docs/appearance/structured-data/organization */
 const organizationSchema = {
 	"@context": "https://schema.org",
@@ -24,6 +32,32 @@ const organizationSchema = {
     "addressRegion": "Villafranca de los Barros",
   },
 }
+
+const { language, key } = Astro.props
+
+const i18n = getI18N({ language });
+const { TYPE, ROUTE, SEO_DESCRIPTION, OG_IMG } = i18n.PAGES[key]
+
+const TYPES = {
+  PRODUCT: {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": ROUTE.TITLE,
+    "image": OG_IMG,
+    "description": SEO_DESCRIPTION,
+    "brand": {
+      "@type": "Brand",
+      "name": "PorticoSport"
+    }
+  },
+  DEFAULT: organizationSchema
+}
+
+let schema = TYPES.DEFAULT
+
+if (TYPE) {
+  schema = TYPES[TYPE] || TYPES.DEFAULT;
+}
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
