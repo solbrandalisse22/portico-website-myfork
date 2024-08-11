@@ -1958,6 +1958,7 @@
     },
     "PROJECTS": {
       "ID": "projets",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Derniers Projets de Portico Sport",
       "SEO_DESCRIPTION": "Explorez les derniers projets de Portico Sport, mettant en valeur nos courts de padel et nos auvents innovants. Découvrez notre travail dès maintenant !",
       "OG_IMG": "https://www.porticosport.com/og/og-projects.jpg",
@@ -1981,6 +1982,7 @@
     },
     "FACTORY": {
       "ID": "notre-usine",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Explorez l'Usine de Pointe de Portico Sport",
       "SEO_DESCRIPTION": "Découvrez l'usine de pointe de Portico Sport, s'étendant sur plus de 8 000 mètres carrés et équipée des dernières technologies. Voyez comment nous sommes leaders dans la fabrication de courts de padel !",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2112,6 +2114,7 @@
     },
     "WORK_WITH_US": {
       "ID": "travailler-avec-nous",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Rejoignez notre équipe chez Portico Sport",
       "SEO_DESCRIPTION": "Explorez les opportunités de carrière chez Portico Sport, un leader dans l'industrie mondiale du padel. Envoyez-nous votre CV et dynamisez votre carrière avec nous !",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
@@ -2157,6 +2160,7 @@
     },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "distributeur-agree",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Devenez distributeur agréé de Portico Sport",
       "SEO_DESCRIPTION": "Rejoignez-nous en tant que distributeur agréé et accédez à des solutions premium de courts de padel. Dynamisez votre entreprise avec nos produits de qualité et notre support.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
@@ -2190,6 +2194,7 @@
     },
     "CLIENT_CONTACT": {
       "ID": "contact-client",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Connectez-vous avec Portico Sport",
       "SEO_DESCRIPTION": "Contactez Portico Sport pour des solutions premium de courts de padel. Commencez à construire votre court de padel de rêve avec notre expertise et notre support.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2388,6 +2393,7 @@
     },
     "PRIVACY": {
       "ID": "privacy",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Politique de confidentialité",
       "SEO_DESCRIPTION": "Explorez notre Politique de confidentialité et nos Conditions générales chez Portico Sport. Apprenez-en davantage sur la protection des données, les droits des utilisateurs, la propriété intellectuelle, et plus encore.",
       "ROUTE": {

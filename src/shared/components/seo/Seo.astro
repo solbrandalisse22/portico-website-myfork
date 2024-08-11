@@ -97,4 +97,4 @@ const hrefLang = {
 {
 	Object.keys(hrefLang).map((lang) => <link rel="alternate" href={hrefLang[lang]} hreflang={lang} />)
 }
-<RichResults language={language} key={key} />
+<RichResults language={language} key={key} pathname={pathname} />

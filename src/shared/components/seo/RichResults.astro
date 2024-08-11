@@ -32,24 +32,28 @@ const organizationSchema = {
     "addressRegion": "Villafranca de los Barros",
   },
 }
-
-const { language, key } = Astro.props
+const { site } = Astro
+const { language, key, pathname } = Astro.props
 
 const i18n = getI18N({ language });
 const { TYPE, ROUTE, SEO_DESCRIPTION, OG_IMG } = i18n.PAGES[key]
 
 const TYPES = {
   PRODUCT: {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    "name": ROUTE.TITLE,
-    "image": OG_IMG,
-    "description": SEO_DESCRIPTION,
-    "brand": {
-      "@type": "Brand",
-      "name": "PorticoSport"
-    }
-  },
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+    "item": site
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": ROUTE.TITLE || ROUTE.LABEL,
+    "item": `${site}${pathname.slice(0,1) === '/' ? pathname.slice(1) : pathname}`
+  }]
+},
   DEFAULT: organizationSchema
 }
 

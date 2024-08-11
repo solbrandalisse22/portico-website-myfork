@@ -1945,6 +1945,7 @@
     },
     "PROJECTS": {
       "ID": "proyectos",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Últimos Proyectos de Portico Sport",
       "SEO_DESCRIPTION": "Explora los últimos proyectos de Portico Sport, mostrando nuestras innovadoras pistas de pádel y cubiertas. ¡Mira nuestro trabajo ahora!",
       "OG_IMG": "https://www.porticosport.com/og/og-projects.jpg",
@@ -1968,6 +1969,7 @@
     },
     "FACTORY": {
       "ID": "nuestra-fabrica",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Explora la Fábrica de Vanguardia de Portico Sport",
       "SEO_DESCRIPTION": "Descubre la fábrica de última generación de Portico Sport, con una superficie de más de 8.000 metros cuadrados y equipada con la tecnología más avanzada. ¡Descubre cómo lideramos en la fabricación de pistas de pádel!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2099,6 +2101,7 @@
     },
     "WORK_WITH_US": {
       "ID": "trabaja-con-nosotros",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Únete a Nuestro Equipo en Portico Sport",
       "SEO_DESCRIPTION": "Explora oportunidades laborales en Portico Sport, líder en la industria global del pádel. ¡Envíanos tu CV y potencia tu carrera con nosotros!",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
@@ -2144,6 +2147,7 @@
     },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "distribuidor-autorizado",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Conviértete en Distribuidor Autorizado de Portico Sport",
       "SEO_DESCRIPTION": "Únete a nosotros como distribuidor autorizado y accede a soluciones premium de pistas de pádel. Eleva tu negocio con nuestros productos de calidad y soporte.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
@@ -2177,6 +2181,7 @@
     },
     "CLIENT_CONTACT": {
       "ID": "contacto-cliente",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Conéctate con Portico Sport",
       "SEO_DESCRIPTION": "Comunícate con Portico Sport para soluciones premium de pistas de pádel. Comienza a construir la pista de pádel de tus sueños con nuestra guía y soporte experto.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2375,6 +2380,7 @@
     },
     "PRIVACY": {
       "ID": "privacidad",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Política de privacidad",
       "SEO_DESCRIPTION": "Explora nuestra Política de Privacidad y Condiciones Generales en Portico Sport. Aprende sobre protección de datos, derechos de usuario, propiedad intelectual y más.",
       "ROUTE": {

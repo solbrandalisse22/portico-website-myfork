@@ -1914,6 +1914,7 @@
     },
     "PROJECTS": {
       "ID": "projects",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Neueste Projekte von Portico Sport",
       "SEO_DESCRIPTION": "Erkunden Sie die neuesten Projekte von Portico Sport und sehen Sie unsere innovativen Padelplätze und Überdachungen. Sehen Sie jetzt unsere Arbeit!",
       "OG_IMG": "https://www.porticosport.com/og/og-projects.jpg",
@@ -1937,6 +1938,7 @@
     },
     "FACTORY": {
       "ID": "our-factory",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Entdecken Sie die hochmoderne Fabrik von Portico Sport",
       "SEO_DESCRIPTION": "Erfahren Sie mehr über die hochmoderne Fabrik von Portico Sport, die über 8.000 Quadratmeter groß ist und mit modernster Technologie ausgestattet ist. Sehen Sie, wie wir bei der Herstellung von Padelplätzen führend sind!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2035,6 +2037,7 @@
     },
     "NEWS": {
       "ID": "news",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten von Portico Sport",
       "SEO_DESCRIPTION": "Bleiben Sie informiert über die neuesten Nachrichten von Portico Sport, die Innovationen, Veranstaltungen und Entwicklungen in der Welt der Padelplätze abdecken. Lesen Sie weiter, um immer auf dem neuesten Stand zu bleiben!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2068,6 +2071,7 @@
     },
     "WORK_WITH_US": {
       "ID": "work-with-us",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Werden Sie Teil unseres Teams bei Portico Sport",
       "SEO_DESCRIPTION": "Entdecken Sie Karrieremöglichkeiten bei Portico Sport, einem führenden Unternehmen in der globalen Padel-Branche. Senden Sie uns Ihren Lebenslauf und stärken Sie Ihre Karriere mit uns!",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
@@ -2113,6 +2117,7 @@
     },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "authorized-distributor",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Werden Sie ein autorisierter Distributor von Portico Sport",
       "SEO_DESCRIPTION": "Werden Sie unser autorisierter Distributor und erhalten Sie Zugang zu Premium-Padelplatzlösungen. Steigern Sie Ihr Geschäft mit unseren hochwertigen Produkten und Unterstützung.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
@@ -2146,6 +2151,7 @@
     },
     "CLIENT_CONTACT": {
       "ID": "client-contact",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Kontaktieren Sie Portico Sport",
       "SEO_DESCRIPTION": "Kontaktieren Sie Portico Sport für hochwertige Padelplatzlösungen. Beginnen Sie mit unserer Expertenberatung und Unterstützung den Bau Ihres Traum-Padelplatzes.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2344,6 +2350,7 @@
     },
     "PRIVACY": {
       "ID": "privacy",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Datenschutzrichtlinie",
       "SEO_DESCRIPTION": "Entdecken Sie unsere Datenschutzrichtlinie und Allgemeinen Geschäftsbedingungen bei Portico Sport. Erfahren Sie mehr über Datenschutz, Benutzerrechte, geistiges Eigentum und mehr.",
       "ROUTE": {
