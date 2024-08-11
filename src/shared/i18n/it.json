@@ -155,6 +155,7 @@
     },
     "MOBILE_COURT": {
       "ID": "mobile-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Mobile Court - Soluzione innovativa per campi da Padel",
       "SEO_DESCRIPTION": "Scopri il Mobile Court brevettato - una flessibile soluzione per campi da Padel di Portico Sport. Perfetto per installazioni permanenti o temporanee!",
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
@@ -379,6 +380,7 @@
     },
     "FLOW_COURT": {
       "ID": "flow",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Flow Court - Campo da Padel con Vista Panoramica",
       "SEO_DESCRIPTION": "Scopri il Flow Court: Senza angoli, chiare viste panoramiche, l'esperienza di padel definitiva per giocatori e spettatori.",
       "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
@@ -573,6 +575,7 @@
     },
     "PANORAMIC_COURT": {
       "ID": "panoramic-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Campo Panoramico - Campo da Padel con Vedute Mozzafiato",
       "SEO_DESCRIPTION": "Eleva la tua esperienza di padel con il nostro campo panoramico dotato di pareti in vetro ad alta resistenza che offrono vedute impareggiabili.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
@@ -770,6 +773,7 @@
     },
     "CLUB_COURT": {
       "ID": "club-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Campo Club - Campo da Padel Durevole",
       "SEO_DESCRIPTION": "Scopri il Campo Club, un'opzione ideale per una qualità superiore e una durabilità eccezionale. Perfetto per la pratica di padel di alto livello con pilastri da 3 metri.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
@@ -966,6 +970,7 @@
     },
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Campo Force 80 - Campo da Padel Resistente",
       "SEO_DESCRIPTION": "Scopri il campo Force 80, progettato per resistere a venti di uragano fino a 80 m/s. Ideale per aree con condizioni meteorologiche estreme. Scopri di più!",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
@@ -1167,6 +1172,7 @@
     },
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Campo Panoramico Force 80 - Campo da Padel Resistente",
       "SEO_DESCRIPTION": "Scopri il Campo Panoramico Force 80, progettato per resistere a venti di categoria 5 fino a 80 m/s. Ideale per aree con condizioni meteorologiche estreme. Scopri di più!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
@@ -1368,6 +1374,7 @@
     },
     "SINGLE_COURT": {
       "ID": "single-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Single Court - Su misura per i giocatori singoli",
       "SEO_DESCRIPTION": "Scopri il Single Court, perfetto per partite 1 contro 1 o sessioni di allenamento individuali. Stessa qualità premium e durabilità in dimensioni più ridotte. Scopri di più!",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
@@ -1572,6 +1579,7 @@
     },
     "MINI_COURT": {
       "ID": "mini-court",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Mini Court - Divertimento padel compatto",
       "SEO_DESCRIPTION": "Introduci i bambini al padel con il nostro Mini Court, perfetto per spazi più piccoli. Stessa qualità premium in una dimensione compatta. Scopri di più!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
@@ -1771,6 +1779,7 @@
     },
     "CANOPIES": {
       "SEO_TITLE": "Coperture da Padel ad Alto Rendimento",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Eleva il tuo gioco con le nostre coperture ad alte prestazioni, progettate per resistenza e un'esperienza di gioco senza pari. Scopri di più!",
       "OG_IMG": "https://www.porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Leader nella produzione e installazione di coperture",
@@ -1856,6 +1865,7 @@
     },
     "ELEVATED_PLATFORM": {
       "SEO_TITLE": "Piattaforma Elevata - Campo da Padel",
+      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "La piattaforma elevata è un sistema brevettato progettato per la pratica sportiva, offrendo mobilità e stabilità. Scopri di più sulla nostra soluzione innovativa!",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
       "ID": "piattaforma-elevata",
@@ -1948,6 +1958,7 @@
     },
     "PROJECTS": {
       "ID": "progetti",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Ultimi Progetti di Portico Sport",
       "SEO_DESCRIPTION": "Esplora gli ultimi progetti di Portico Sport, mostrando i nostri innovativi campi da padel e tettoie. Scopri il nostro lavoro ora!",
       "OG_IMG": "https://www.porticosport.com/og/og-progetti.jpg",
@@ -1971,6 +1982,7 @@
     },
     "FACTORY": {
       "ID": "la-nostra-fabbrica",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Esplora la Fabbrica All'avanguardia di Portico Sport",
       "SEO_DESCRIPTION": "Scopri la fabbrica all'avanguardia di Portico Sport, che si estende su oltre 8.000 metri quadrati e dotata delle ultime tecnologie. Scopri come guidiamo nella produzione di campi da padel!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2102,6 +2114,7 @@
     },
     "WORK_WITH_US": {
       "ID": "lavora-con-noi",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Unisciti al nostro team presso Portico Sport",
       "SEO_DESCRIPTION": "Esplora opportunità di carriera presso Portico Sport, leader nell'industria globale del padel. Invia il tuo CV e potenzia la tua carriera con noi!",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
@@ -2147,6 +2160,7 @@
     },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "distributore-autorizzato",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Diventa un Distributore Autorizzato di Portico Sport",
       "SEO_DESCRIPTION": "Unisciti a noi come distributore autorizzato e accedi a soluzioni premium per campi da padel. Eleva la tua attività con i nostri prodotti di qualità e supporto.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
@@ -2180,6 +2194,7 @@
     },
     "CLIENT_CONTACT": {
       "ID": "client-contact",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Contattare Portico Sport",
       "SEO_DESCRIPTION": "Contatta Portico Sport per soluzioni premium per campi da padel. Inizia a costruire il campo da padel dei tuoi sogni con la nostra guida esperta e supporto.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2378,6 +2393,7 @@
     },
     "PRIVACY": {
       "ID": "privacy",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Informativa sulla privacy",
       "SEO_DESCRIPTION": "Esplora la nostra Informativa sulla privacy e le Condizioni generali su Portico Sport. Scopri la protezione dei dati, i diritti dell'utente, la proprietà intellettuale e altro ancora.",
       "ROUTE": {

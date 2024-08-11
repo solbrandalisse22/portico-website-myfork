@@ -157,6 +157,7 @@
       "ID": "mobile-court",
       "SEO_TITLE": "Mobile Court - Solution de terrain de padel innovante",
       "SEO_DESCRIPTION": "Découvrez le Mobile Court breveté - une solution de terrain de padel flexible proposée par Portico Sport. Parfait pour des installations permanentes ou temporaires !",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
       "NAME": "Mobile",
       "SUBTITLE": "Présentation de la dernière innovation en matière de technologie de terrain de padel",
@@ -381,6 +382,7 @@
       "ID": "flow",
       "SEO_TITLE": "Flow Court - Terrain de padel avec vue dégagée",
       "SEO_DESCRIPTION": "Découvrez le Flow Court : Pas de coins, vue panoramique dégagée, l'expérience ultime de padel pour les joueurs et les spectateurs.",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
       "TITLE": "<span>Court Flow</span>",
       "DETAIL_TITLE": "<span>Court Flow</span>",
@@ -575,6 +577,7 @@
       "ID": "panoramic-court",
       "SEO_TITLE": "Court panoramique - Court de padel avec des vues époustouflantes",
       "SEO_DESCRIPTION": "Élevez votre expérience de padel avec notre court panoramique doté de parois en verre ultra-résistant offrant des vues incomparables.",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "<span>Court panoramique</span>",
       "DESCRIPTION": "<p>Conçu et fabriqué par le département d'ingénierie de Portico Sport, ce modèle de court est doté de parois en verre ultra-résistant offrant une vue panoramique sur les environs, créant une expérience de jeu unique et excitante à l'intérieur et à l'extérieur du court.</p><p>En raison de son attrait visuel, ce court est de plus en plus recherché par les clients désireux d'offrir une expérience de jeu distinctive à tous leurs joueurs.</p><p>Si vous recherchez un court de padel offrant une expérience de jeu unique et excitante, les courts panoramiques sont un excellent choix.</p>",
@@ -772,6 +775,7 @@
       "ID": "club-court",
       "SEO_TITLE": "Court de Club - Court de Padel Durable",
       "SEO_DESCRIPTION": "Découvrez le Court de Club, une option idéale pour une qualité supérieure et une durabilité exceptionnelle. Parfait pour la pratique du padel de haut niveau avec des piliers de 3 mètres.",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Court de Club</span>",
       "DESCRIPTION": "<p>Pendant de nombreuses années, nos courts les plus recherchés, le Court de Club, se démarquent comme une option idéale pour ceux qui recherchent une qualité supérieure et une durabilité exceptionnelle.</p><p>Avec des piliers mesurant 3 mètres de hauteur, ce court est conçu et fabriqué par le département d'ingénierie de Portico Sport pour fournir un environnement optimal pour la pratique du padel de haut niveau, garantissant les normes de qualité les plus élevées.</p><p>Si vous recherchez un court de padel qui combine durabilité et résistance, le Court de Club est un excellent choix.</p>",
@@ -968,6 +972,7 @@
       "ID": "club-force-80-court",
       "SEO_TITLE": "Court Force 80 - Court de padel résistant",
       "SEO_DESCRIPTION": "Découvrez le Court Force 80, conçu pour résister à des vents de force ouragan allant jusqu'à 80 m/s. Idéal pour les zones avec des conditions météorologiques extrêmes. En savoir plus !",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Court Force 80</span>",
       "DESCRIPTION": "<p>Depuis 2021, notre Court Force 80 a créé une catégorie à part. Un court spécialement conçu pour les zones avec des conditions météorologiques extrêmes, se démarquant comme le court de padel le plus résistant sur le marché.</p><p>Conçu par les ingénieurs de Portico Sport, la structure de ce court présente une conception supérieure de contreforts et un système d'ancrage spécial, capable de résister à des vents de force ouragan allant jusqu'à 80 m/s (288,0 km/h).</p><p>La combinaison de son design original avec des matériaux de haute qualité en fait le court le plus solide et le plus durable, idéal pour les zones avec des conditions météorologiques extrêmement adverses.</p><p>Si vous voulez profiter du padel quel que soit le temps, le Court Force 80 est un excellent choix.</p>",
@@ -1169,6 +1174,7 @@
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Panoramic Force 80 Court - Court de padel résistant",
       "SEO_DESCRIPTION": "Découvrez le Panoramic Force 80 Court, conçu pour résister à des vents de force ouragan allant jusqu'à 80 m/s. Idéal pour les régions aux conditions météorologiques extrêmes. En savoir plus!",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Panoramic Force 80</span>",
       "DESCRIPTION": "<p>En 2021, Portico Sport a introduit le court Club Force 80, le premier court anti-ouragan, créant ainsi une catégorie à part entière. Maintenant, nous sommes heureux de vous présenter le Panoramic Force 80. Capable de résister à des vents allant jusqu'à 80m/s dans un cadre panoramique.</p><p>Le département d'ingénierie de Portico Sport continue de mener l'innovation produit dans l'industrie avec ce design qui, malgré ses murs en verre panoramiques et sa structure en acier plus mince que les conceptions concurrentes, reste ferme dans les conditions météorologiques les plus difficiles, ce qui en fait idéal pour les installations extérieures dans les géographies affectées par les ouragans et les fortes tempêtes.</p>",
@@ -1370,6 +1376,7 @@
       "ID": "single-court",
       "SEO_TITLE": "Court individuel - Adapté aux joueurs solitaires",
       "SEO_DESCRIPTION": "Découvrez le Court individuel, parfait pour des matchs en 1 contre 1 ou des séances d'entraînement individuelles. Même qualité premium et durabilité dans un format plus petit. En savoir plus !",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Court individuel</span>",
       "DESCRIPTION": "<p>Même longueur, largeur réduite permettant de profiter du padel en 1 contre 1. Ce court est également idéal pour des cours individuels, des entraînements spécifiques ou pour maximiser l'espace d'utilisation dans votre club lorsque qu'un court double ne convient pas.</p><p>Malgré sa taille réduite, il offre la même qualité premium et une durabilité exceptionnelle que le reste de nos courts, ce qui en fait un excellent choix pour les clubs souhaitant élargir leur offre et proposer ce court spécial.</p>",
@@ -1574,6 +1581,7 @@
       "ID": "mini-court",
       "SEO_TITLE": "Mini Court - Compact Padel Fun",
       "SEO_DESCRIPTION": "Initiez les enfants au padel avec notre Mini Court, parfait pour les espaces plus petits. Même qualité premium dans une taille compacte. En savoir plus !",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Mini court</span>",
       "DESCRIPTION": "<p>Notre Mini Court est un court de padel de taille réduite (10,47x5,47m) avec une hauteur abaissée (1m), idéal pour les espaces plus petits, la pratique à domicile ou les joueurs plus jeunes.</p><p>Conçu par le département d'ingénierie de Portico Sport, ce court est fabriqué avec les mêmes matériaux de qualité premium que le reste de nos courts de padel.</p><p>Malgré sa petite taille, il offre la même stabilité, durabilité et résistance. Si vous recherchez un court de padel compact, le Mini Court est un excellent choix.</p>",
@@ -1772,6 +1780,7 @@
     "CANOPIES": {
       "SEO_TITLE": "Auvents de padel haute performance",
       "SEO_DESCRIPTION": "Rehaussez votre jeu avec nos auvents haute performance, conçus pour la durabilité et une expérience de jeu inégalée. En savoir plus!",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Leader dans la fabrication et l'installation de auvents",
       "TITLE": "Auvents haute performance",
@@ -1857,6 +1866,7 @@
     "ELEVATED_PLATFORM": {
       "SEO_TITLE": "Plateforme surélevée - Court de padel",
       "SEO_DESCRIPTION": "La plateforme surélevée est un système breveté conçu pour la pratique sportive, offrant mobilité et stabilité. Découvrez notre solution innovante!",
+      "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
       "ID": "plateforme-surélevée",
       "TITLE": "Plateforme surélevée",
@@ -1948,6 +1958,7 @@
     },
     "PROJECTS": {
       "ID": "projets",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Derniers Projets de Portico Sport",
       "SEO_DESCRIPTION": "Explorez les derniers projets de Portico Sport, mettant en valeur nos courts de padel et nos auvents innovants. Découvrez notre travail dès maintenant !",
       "OG_IMG": "https://www.porticosport.com/og/og-projects.jpg",
@@ -1971,6 +1982,7 @@
     },
     "FACTORY": {
       "ID": "notre-usine",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Explorez l'Usine de Pointe de Portico Sport",
       "SEO_DESCRIPTION": "Découvrez l'usine de pointe de Portico Sport, s'étendant sur plus de 8 000 mètres carrés et équipée des dernières technologies. Voyez comment nous sommes leaders dans la fabrication de courts de padel !",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2102,6 +2114,7 @@
     },
     "WORK_WITH_US": {
       "ID": "travailler-avec-nous",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Rejoignez notre équipe chez Portico Sport",
       "SEO_DESCRIPTION": "Explorez les opportunités de carrière chez Portico Sport, un leader dans l'industrie mondiale du padel. Envoyez-nous votre CV et dynamisez votre carrière avec nous !",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
@@ -2147,6 +2160,7 @@
     },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "distributeur-agree",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Devenez distributeur agréé de Portico Sport",
       "SEO_DESCRIPTION": "Rejoignez-nous en tant que distributeur agréé et accédez à des solutions premium de courts de padel. Dynamisez votre entreprise avec nos produits de qualité et notre support.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
@@ -2180,6 +2194,7 @@
     },
     "CLIENT_CONTACT": {
       "ID": "contact-client",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Connectez-vous avec Portico Sport",
       "SEO_DESCRIPTION": "Contactez Portico Sport pour des solutions premium de courts de padel. Commencez à construire votre court de padel de rêve avec notre expertise et notre support.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2378,6 +2393,7 @@
     },
     "PRIVACY": {
       "ID": "privacy",
+      "TYPE": "PRODUCT",
       "SEO_TITLE": "Politique de confidentialité",
       "SEO_DESCRIPTION": "Explorez notre Politique de confidentialité et nos Conditions générales chez Portico Sport. Apprenez-en davantage sur la protection des données, les droits des utilisateurs, la propriété intellectuelle, et plus encore.",
       "ROUTE": {
