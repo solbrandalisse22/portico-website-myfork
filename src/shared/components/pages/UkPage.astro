@@ -46,8 +46,12 @@ const posts = await response.json();
         <div class="bg-white/70 p-2 rounded-xl">
           <img src="/logos/sapca.png" alt="Sapca logo" />
         </div>
-        <LogoFep />
-        <HexagonCupLogo />
+        <button id="logo-fep">
+          <LogoFep />
+        </button>
+        <button id="logo-hexagon-cup">
+          <HexagonCupLogo />
+        </button>
       </div>
     </div>
   </Video>
@@ -97,3 +101,17 @@ const posts = await response.json();
   </main>
 
 </Layout>
+
+<script>
+  const logoFep = document.getElementById('logo-fep');
+  const logoHexagonCup = document.getElementById('logo-hexagon-cup');
+
+  logoFep?.addEventListener('click', () => {
+    window.open('https://www.padelfederacion.es/Home', '_blank');
+  });
+
+  logoHexagonCup?.addEventListener('click', () => {
+    window.open('https://www.hexagoncup.com/', '_blank');
+  });
+
+</script>
