@@ -9,6 +9,8 @@ interface Props {
   video: string;
   subtitle?: string;
   title?: string;
+  titleH2?: string;
+  titleH3?: string;
   buttonUrl?: string;
   buttonText?: string;
   classVideo?: string;
@@ -16,7 +18,7 @@ interface Props {
   uk?: boolean;
 }
 
-const { video, classVideo, subtitle, title, buttonUrl, buttonText, language, showContactForm, subject, uk } = Astro.props;
+const { video, classVideo, subtitle, title, titleH2, titleH3, buttonUrl, buttonText, language, showContactForm, subject, uk } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -48,6 +50,12 @@ const type = getTipeFromVideo();
           }
           {
             title && (<Typography tag="h1" className="items-center gap-5 lg:gap-20 px-4 text-center" text={title} responsive />)
+          }
+          {
+            titleH2 && (<Typography tag="h2" className="items-center gap-5 lg:gap-20 px-4 text-center" text={titleH2} responsive />)
+          }
+          {
+            titleH3 && (<Typography tag="h3" className="items-center gap-5 lg:gap-20 px-4 text-center" text={titleH3} responsive />)
           }
           {
             buttonUrl && buttonText ? (
