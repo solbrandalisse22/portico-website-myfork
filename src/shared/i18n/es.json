@@ -60,7 +60,7 @@
       },
       "COURTS_SECTION": {
         "ID": "padel-courts",
-        "TITLE": "Pistas de Pádel",
+        "TITLE": "Tipos de Pistas de Pádel de Portico Sport",
         "DESCRIPTION": "Descubre todas nuestras pistas de pádel"
       },
       "CANOPIES_SECTION": {
@@ -178,8 +178,8 @@
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
-        "TITLE": "<span class=\"text-secondary\">¡Colócala en cualquier lugar!</span>",
-        "DESCRIPTION": "<p>Lo que diferencia nuestra pista es su innovador sistema de contrapeso, que garantiza un soporte resistente sin necesidad de anclaje al suelo.</p><p>Esto significa que puedes instalar esta pista en un lugar particular durante años, o trasladarla fácilmente cuando sea necesario sin dañar el suelo donde estaba instalada.</p><p>Pero eso no es todo: a diferencia de otras soluciones “móviles”, nuestro sistema permite la misma experiencia de juego que las pistas tradicionales ancladas, la misma robustez y resistencia al viento que nuestro modelo de pista de club, por eso ofrecemos la misma garantía estructural de 10 años</p>",
+        "TITLE": "<span class=\"text-secondary\">¡Coloca la pista de pádel Móvil en cualquier lugar!</span>",
+        "DESCRIPTION": "<p>En Portico Sport, nos especializamos en la construcción de pistas de pádel móviles de alta calidad, adaptadas a tus necesidades específicas. Nuestro sistema de pista de pádel Móvil está diseñado tanto para instalaciones temporales como permanentes, lo que te permite montar tu pista donde sea necesario. Ya sea que estés organizando un torneo o quieras añadir una pista de pádel en una ubicación específica, nuestras soluciones móviles te ofrecen la flexibilidad y durabilidad que necesitas.</p><p>Nuestro equipo de expertos en construcción de pistas de pádel se asegura de que cada aspecto de tu pista Móvil cumpla con los más altos estándares. Desde la base hasta el vallado, la iluminación y la superficie de juego, ofrecemos un paquete completo diseñado para un rendimiento óptimo.</p><p>Lo que diferencia nuestra pista es su innovador sistema de contrapeso, que garantiza un soporte resistente sin necesidad de anclaje al suelo.</p><p>Esto significa que puedes instalar esta pista en un lugar particular durante años, o trasladarla fácilmente cuando sea necesario sin dañar el suelo donde estaba instalada.</p><p>Pero eso no es todo: a diferencia de otras soluciones “móviles”, nuestro sistema permite la misma experiencia de juego que las pistas tradicionales ancladas, la misma robustez y resistencia al viento que nuestro modelo de pista de club, por eso ofrecemos la misma garantía estructural de 10 años</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mobile/mobile-front.webp",
@@ -197,27 +197,27 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestro innovador sistema de pistas de pádel móviles",
+        "TITLE": "Experimenta los beneficios de nuestro innovador sistema de pista de pádel Móvil",
         "BENEFITS": [
           {
-            "header": "Ahorro con nosotros",
+            "header": "Ahorra con nosotros",
             "icon": "SavingsAstro",
             "footer": "Menos problemas burocráticos y procesos simplificados, puedes disfrutar de concesiones más rápidas, ahorrando tiempo y gastos valiosos en trabajos de suelo."
           },
           {
             "header": "Garantía de 10 años",
             "icon": "WarrantyIcon",
-            "footer": "Descanse tranquilo con nuestra garantía de 10 años sobre la integridad estructural de nuestras pistas móviles, diseñadas para soportar velocidades de viento como nuestra pista de club anclada."
+            "footer": "Descanse tranquilo con nuestra garantía de 10 años sobre la integridad estructural de nuestras pistas móviles, diseñadas para soportar velocidades de viento como nuestra pista de pádel Club anclada."
           },
           {
             "header": "Versátil y adaptable",
             "icon": "VersatileCourtIcon",
-            "footer": "Adecuado para instalaciones tanto en interiores como en exteriores, puede transportarse fácilmente a diversos entornos y ubicaciones, lo que lo hace ideal para eventos o instalaciones donde no es posible perforar agujeros para anclar la pista."
+            "footer": "Adecuada para instalaciones tanto en interiores como en exteriores, puede transportarse fácilmente a diversos entornos y ubicaciones, lo que lo hace ideal para eventos o instalaciones donde no es posible perforar agujeros para anclar la pista de pádel."
           },
           {
             "header": "Oportunidades de arrendamiento",
             "icon": "RentIcon",
-            "footer": "Nuestra Pista Móvil ofrece atractivo para oportunidades de arrendamiento, reduciendo el riesgo y el compromiso."
+            "footer": "Nuestra pista Móvil ofrece atractivo para oportunidades de arrendamiento, reduciendo el riesgo y el compromiso."
           },
           {
             "header": "Materiales premium",
@@ -234,12 +234,13 @@
           "alt": "Render de una pista móvil"
         },
         "TITLE": "Estructuras",
-        "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de calidad premium",
+        "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de pádel de calidad premium",
         "TEXT": "<p>Elaborada con estructura de acero galvanizado, nuestra pista garantiza una resistencia máxima a la abrasión y la oxidación.</p><p>La estructura de la pista consta de perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje. Los marcos laterales y superiores se complementan con malla electro soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios.</p><p>La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medida M8X80 mm. Además, su proceso de montaje es impecable, gracias a los tornillos y tuercas de seguridad autoblocantes fabricados en acero galvanizado.</p><p>La estructura de las pistas depádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte por láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de montaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, previniendo posibles oxidaciones en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Medidas de la Pista Móvil",
+        "TITLE": "Medidas de la Pista de pádel Móvil",
+        "DESCRIPTION": "<p>Las dimensiones estándar de una pista de pádel Móvil son de 20 metros de largo por 10 metros de ancho. Este es el tamaño oficial para las pistas de pádel profesionales, proporcionando un espacio adecuado para el juego competitivo. También ofrecemos tamaños personalizados según el espacio disponible y el uso previsto. Nuestras pistas de pádel móviles están construidas para cumplir con los más altos estándares de calidad y seguridad, garantizando una experiencia de primera para todos los jugadores.</p>",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>12 cajas de contrapeso de acero</strong> ubicadas en los lados.</p><p><strong>Longitud</strong>: 20 m (mediciones interiores) / 20,96 m (mediciones exteriores de la pista).</p><p><strong>Ancho</strong>: 10 m (mediciones interiores) / 11,45 m (mediciones exteriores de la pista).</p>",
@@ -261,13 +262,13 @@
         },
         "TITLE": "Vidrios",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre la seguridad y durabilidad incomparables en nuestras pistas depádel. Cada pista cuenta con vidrio de seguridad templado, disponible en un grosor de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos una calidad excepcional en todos los aspectos de nuestra construcción.</p><p>El <strong>ENMARCADO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un perfecto soporte vidrio/metal, con un total de 6 orificios de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida la resistencia al impacto y la planitud óptima.</p>"
+        "DESCRIPTION": "<p>Descubre la seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en un grosor de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos una calidad excepcional en todos los aspectos de nuestra construcción.</p><p>El <strong>ENMARCADO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un perfecto soporte vidrio/metal, con un total de 6 orificios de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida la resistencia al impacto y la planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura de la estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de distinción en la construcción de pistas depádel con una gama de tipos de laca, que ofrecen infinitas opciones para pintar las estructuras de tu pista en tonos vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece una resistencia máxima a la abrasión y la oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p>",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Descubre el epítome de distinción en la personalización de pistas de pádel con una gama de tipos de pintura lacada, que ofrecen infinitas opciones para pintar las estructuras de tu pista en tonos vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece una resistencia máxima a la abrasión y la oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -302,9 +303,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped para garantizar que tu pista reciba césped de la mejor calidad. Cada pista está equipada con césped de última generación, diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy bajo en abrasión, fabricado de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a las fluctuaciones extremas del clima.</p><p>Estabilización y lastre con arena de sílice redondeada, lavada y seca, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores depádel una velocidad de juego optimizada y un mejor rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped artificial para garantizar que tu pista de pádel reciba césped de la mejor calidad. Cada pista está equipada con césped de última generación, diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy bajo en abrasión, fabricado de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a las fluctuaciones extremas del clima.</p><p>Estabilización y lastre con arena de sílice redondeada, lavada y seca, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores depádel una velocidad de juego optimizada y un mejor rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "luces",
@@ -313,9 +314,8 @@
           "alt": "Iluminación de la pista móvil"
         },
         "TITLE": "Iluminación LED",
-        "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas depádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas depádel, ofrecida exclusivamente por Portico Sport en colaboración con destacados especialistas en el campo.</p><p>Nuestra iluminación de pistas depádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, el fondo, las líneas laterales y las zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea para iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p>"
-      },
+        "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas de pádel de Portico Sport!",
+        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con destacados especialistas en el campo.</p><p>Nuestra iluminación de pistas depádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, el fondo, las líneas laterales y las zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea para iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p>"  },
       "GALLERY_SECTION": {
         "ID": "galeria",
         "PATH": "courts-detail/mobile/gallery",
@@ -334,7 +334,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
-      "HOME_DESCRIPTION": "Sistema de pista móvil patentado que evita anclar la pista de pádel al suelo. La pista de pádel se puede colocar en el mismo lugar durante períodos prolongados y disfruta de la misma robustez estructural que una pista tradicionalmente anclada. ¡Perfecta para colocarla encima de las pistas de tenis, donde los trabajos de suelo para las pistas tradicionales son costosos o simplemente prefieren no hacerlos!",
+      "HOME_DESCRIPTION": "Sistema de pista Móvil patentado que evita anclar la pista de pádel al suelo. La pista de pádel Móvil se puede colocar en el mismo lugar durante períodos prolongados y disfruta de la misma robustez estructural que una pista tradicionalmente anclada. ¡Perfecta para colocarla encima de las pistas de tenis, donde los trabajos de suelo para las pistas tradicionales son costosos o simplemente prefieren no hacerlos!",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
@@ -407,7 +407,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra Pista Flow",
+        "TITLE": "Experimenta los beneficios de nuestra Pista de pádel Flow",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -417,7 +417,7 @@
           {
             "header": "Pista versátil",
             "icon": "VersatileCourtIcon",
-            "footer": "Ideal tanto para configuraciones en interiores como en exteriores, nuestras pistas son la opción principal para clubes que buscan superficies de juego estéticamente agradables y versátiles."
+            "footer": "Ideal tanto para configuraciones en interiores como en exteriores, nuestras pistas de pádel son la opción principal para clubes que buscan superficies de juego estéticamente agradables y versátiles."
           },
           {
             "header": "Materiales de primera calidad",
@@ -434,12 +434,12 @@
           "alt": "Representación de una pista móvil"
         },
         "TITLE": "Estructuras",
-        "SUBTITLE": "Experimenta la excelencia de la estructura de alta calidad de nuestras pistas",
+        "SUBTITLE": "Experimenta la excelencia de la estructura de alta calidad de nuestras pistas de pádel",
         "TEXT": "<p>Elaborada con estructura de acero galvanizado, nuestra pista garantiza una resistencia máxima a la abrasión y oxidación.</p><p>La estructura de la pista consta de perfiles de acero galvanizado S275JR, anclados de forma segura al suelo utilizando placas de anclaje. Los marcos laterales y superiores se complementan con malla electro soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios.</p><p>La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de 8 mm x 80 mm. Además, su proceso de ensamblaje es perfecto, gracias a los tornillos de seguridad autoblocantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando la oxidación potencial en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Mediciones de la Pista Flow",
+        "TITLE": "Medidas de la Pista de Pádel Flow",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,50 m </p><p><strong>Ancho</strong>: 10,46 m </p>",
@@ -460,14 +460,14 @@
           "alt": "Pista móvil patentada por Portico Sport"
         },
         "TITLE": "Vidrios",
-        "SUBTITLE": "¡Vidrio de Seguridad Templado en Cada Pista!",
+        "SUBTITLE": "¡Vidrio de Seguridad Templado en Cada Pista de Pádel!",
         "DESCRIPTION": "<p>Descubre seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en espesores de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todos los estándares regulatorios para instalaciones de este tipo. En asociación con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad excepcional en todos los aspectos de nuestra construcción.</p><p>Descubre este diseño Flow, con una pared de vidrio de alta resistencia sin costuras que ofrece una vista panorámica del entorno. Gracias a su vidrio de seguridad templado, este modelo garantiza una vista despejada manteniendo la durabilidad y seguridad.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica con casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte de vidrio/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con propiedades físicas y mecánicas excepcionales, incluida resistencia al impacto y planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura de la Estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una variedad de tipos de lacas, que ofrecen infinitas opciones para pintar las estructuras de tu pista con colores vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece resistencia máxima a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que prefieras un aspecto monocromático o quieras agregar un toque de color con un diseño bicolor, deja que tu pista refleje tu estilo y personalidad mientras aseguras que capte la atención de todos en la pista.</p>",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la personalización de pistas de pádel con una variedad de tipos de lacas, que ofrecen infinitas opciones para pintar las estructuras de tu pista con colores vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece resistencia máxima a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que prefieras un aspecto monocromático o quieras agregar un toque de color con un diseño bicolor, deja que tu pista refleje tu estilo y personalidad mientras aseguras que capte la atención de todos en la pista.</p>",
         "IMAGES": [
           {
             "id": "slide-5",
@@ -507,9 +507,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un rendimiento inigualable en nuestro césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped para garantizar que tu pista reciba césped de calidad premium. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, hecho de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redonda, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento inigualable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped artificial para garantizar que tu pista reciba césped de calidad premium. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, hecho de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redonda, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "luces",
@@ -566,9 +566,9 @@
       "ID": "panoramic-court",
       "SEO_TITLE": "Pista Panoramic - Pista de Pádel con Vistas Impresionantes",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Eleva tu experiencia de pádel con nuestra pista panoramic que cuenta con paredes de vidrio de alta resistencia que ofrecen vistas incomparables.",
+      "SEO_DESCRIPTION": "Eleva tu experiencia de pádel con nuestra pista Panoramic que cuenta con paredes de vidrio de alta resistencia que ofrecen vistas incomparables.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
-      "TITLE": "<span>Pista panoramic</span>",
+      "TITLE": "<span>Pista de pádel Panoramic</span>",
       "DESCRIPTION": "<p>Diseñada y fabricada por el departamento de ingeniería de Portico Sport, este modelo de pista presenta paredes de vidrio de alta resistencia que ofrecen una vista panorámica del entorno, creando una experiencia de juego única y emocionante tanto dentro como fuera de la pista.</p><p>Debido a su atractivo visual, esta pista es cada vez más buscada por clientes que buscan ofrecer una experiencia de juego distintiva a todos sus jugadores.</p><p>Si buscas una pista de pádel que brinde una experiencia de juego única y emocionante, las pistas panorámicas son una excelente elección.</p>",
       "NAME": "Panoramic",
       "SUBTITLE": "Presentamos la Pista Panoramic de Portico Sport",
@@ -585,7 +585,7 @@
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">¡Eleva tu Juego con Vistas Inigualables!</span>",
-        "DESCRIPTION": "<p>Poco a poco, nuestra pista panoramic se está convirtiendo en el modelo de pista más solicitado.</p><p>A pesar de su vidrio panorámico, el diseño garantiza un mayor refuerzo y una estructura robusta. Ideal tanto para entornos exteriores como interiores, sobresale en diversos entornos, proporcionando una excelente experiencia de juego.</p><p>Además, ofrece amplias opciones de personalización para asegurar que se integre perfectamente con su entorno de instalación.</p>",
+        "DESCRIPTION": "<p>Poco a poco, nuestra pista Panoramic se está convirtiendo en el modelo de pista más solicitado.</p><p>A pesar de su vidrio panorámico, el diseño garantiza un mayor refuerzo y una estructura robusta. Ideal tanto para entornos exteriores como interiores, sobresale en diversos entornos, proporcionando una excelente experiencia de juego.</p><p>Además, ofrece amplias opciones de personalización para asegurar que se integre perfectamente con su entorno de instalación.</p><p>En Portico Sport, como fabricantes e instaladores de pistas de pádel, ofrecemos pistas panorámicas de pádel de alta calidad, diseñadas para brindar una experiencia de juego inigualable. Nuestra pista de pádel Panoramic cuentan con paredes de cristal transparente que no solo mejoran la estética, sino que también ofrecen vistas sin obstrucciones, ideales tanto para jugadores como para espectadores.</p><p>Ya sea que desees adquirir una pista de pádel con una vista para una instalación deportiva, una residencia privada o un espacio comercial, nuestro equipo de expertos está aquí para asistirte de principio a fin. Nos encargamos de todo, desde el diseño hasta la instalación, garantizando que tu pista cumpla con todos los estándares internacionales y expectativas personales.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic/panoramic-front.webp",
@@ -603,7 +603,9 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista panoramic",
+        "TITLE": "Experimenta los beneficios de nuestra pista Panoramic",
+        "SUBTITLE": "¿Por qué elegir una pista de pádel Panoramic?",
+        "DESCRIPTION": "<p>Las pistas de pádel panorámicas están ganando popularidad debido a su diseño moderno y la visibilidad mejorada que ofrecen. La ausencia de estructuras metálicas alrededor de los paneles de cristal proporciona una sensación de amplitud y elegancia que es tanto atractiva visualmente como funcional. Estas pistas de pádel son perfectas para eventos de alto perfil, clubes que buscan atraer a más miembros, o cualquier persona que valore un entorno deportivo de primera calidad.</p>",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -630,12 +632,12 @@
           "alt": "Representación de una pista móvil"
         },
         "TITLE": "Estructuras",
-        "SUBTITLE": "Experimenta la excelencia de la estructura de calidad premium de nuestra pista",
+        "SUBTITLE": "Experimenta la excelencia de la estructura de calidad premium de nuestra pista de pádel Panoramic",
         "TEXT": "<p>Elaborada con estructura de acero galvanizado, nuestra pista garantiza máxima resistencia a la abrasión y oxidación.</p><p>La estructura de la pista está compuesta por perfiles de acero galvanizado S275JR, anclados de manera segura al suelo mediante placas de anclaje. Los marcos laterales y superiores se complementan con malla electro-soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios.</p><p>La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medida M8X80 mm. Además, su proceso de montaje es impecable, gracias a tornillos de seguridad autotravantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport pasa por procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando la oxidación potencial en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Mediciones de la Pista Panoramic",
+        "TITLE": "Medidas de la Pista de pádel Panoramic",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,50 m </p><p><strong>Ancho</strong>: 10,46 m </p>",
@@ -656,13 +658,13 @@
           "alt": "Pista móvil patentada por Portico Sport"
         },
         "TITLE": "Vidrios",
-        "SUBTITLE": "¡Vidrio de Seguridad Templado en Cada Pista!",
+        "SUBTITLE": "¡Vidrio de Seguridad Templado en Cada Pista de Pádel!",
         "DESCRIPTION": "<p>Descubre seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en grosores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas para instalaciones de este tipo. En colaboración con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primer nivel en cada aspecto de nuestra construcción.</p><p>Descubre este diseño espectacular, con paredes de vidrio de alta resistencia que ofrecen una vista panorámica del entorno. Nuestra Pista Panoramic ofrece vistas claras con vidrio de seguridad templado, garantizando tanto durabilidad como seguridad.</p><p>La <strong>CRISTALERÍA</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura de metal mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida la resistencia al impacto y la planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura de la Estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista?",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel panorámica?",
         "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una variedad de tipos de lacas, que ofrecen infinitas opciones para pintar las estructuras de tu pista en tonos vibrantes. Nuestra PINTURA LACADA ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tu preferencia y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que prefieras un aspecto monocromático o quieras agregar un toque de color con un diseño bicolor, deja que tu pista refleje tu estilo y personalidad mientras aseguras que llame la atención de todos en la pista.</p>",
         "IMAGES": [
           {
@@ -698,9 +700,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de una pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en nuestro Césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped para garantizar que tu pista reciba césped de la más alta calidad. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado con polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones extremas del clima.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redonda, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en nuestro Césped artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped artificial para garantizar que tu pista reciba césped de la más alta calidad. Cada pista de pádel está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado con polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones extremas del clima.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redonda, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "luces",
@@ -762,11 +764,11 @@
     },
     "CLUB_COURT": {
       "ID": "club-court",
-      "SEO_TITLE": "Pista Club - Pista de Pádel Duradera",
+      "SEO_TITLE": "Pista de pádel Club - Pista de Pádel Duradera",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Descubre la Pista Club, una opción ideal por su calidad superior y durabilidad excepcional. Perfecta para prácticas de pádel de alto nivel con pilares de 3 metros.",
+      "SEO_DESCRIPTION": "Descubre la Pista de pádel Club, una opción ideal por su calidad superior y durabilidad excepcional. Perfecta para prácticas de pádel de alto nivel con pilares de 3 metros.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
-      "TITLE": "<span>Pista Club</span>",
+      "TITLE": "<span>Pista de pádel Club</span>",
       "DESCRIPTION": "<p>Durante muchos años nuestras pistas más solicitadas, la Pista Club, destacan como una opción ideal para aquellos que buscan calidad superior y durabilidad excepcional.</p><p>Con pilares de 3 metros de altura, esta pista está diseñada y fabricada por el departamento de ingeniería de Portico Sport para proporcionar un entorno óptimo para la práctica de pádel de alto nivel, asegurando los más altos estándares de calidad.</p><p>Si buscas una pista de pádel que combine durabilidad y resistencia, la Pista Club es una excelente elección.</p>",
       "LITTLE_DESCRIPTION": "<p>Puedes jugar pádel en una de nuestras pistas más solicitadas.</p>",
       "SUBTITLE": "Nuestras pistas más solicitadas.",
@@ -782,7 +784,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\">¡Pista Club: Donde la Calidad se Encuentra con la Durabilidad!</span>",
-        "DESCRIPTION": "<p>¡Descubre nuestra Pista Club, una opción principal para clubes de pádel de todo el mundo! Construida para resistir fuertes vientos y adecuada tanto para interior como exterior, nuestra Pista Club ofrece una durabilidad y versatilidad incomparables.</p><p>Con una amplia gama de opciones de personalización disponibles, nos aseguramos de que se integre perfectamente en cualquier entorno. Reconocida por su diseño atemporal y su construcción robusta, no es de extrañar que la Pista Club siga siendo una de nuestras ofertas más solicitadas.</p>",
+        "DESCRIPTION": "<p>¡Descubre nuestra pista de pádel Club, una opción principal para clubes de pádel de todo el mundo! Construida para resistir fuertes vientos y adecuada tanto para interior como exterior, nuestra Pista Club ofrece una durabilidad y versatilidad incomparables.</p><p>Con una amplia gama de opciones de personalización disponibles, nos aseguramos de que se integre perfectamente en cualquier entorno. Reconocida por su diseño atemporal y su construcción robusta, no es de extrañar que la Pista Club siga siendo una de nuestras ofertas más solicitadas.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/club/club-front.webp",
@@ -800,7 +802,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista club",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel club",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -810,7 +812,7 @@
           {
             "header": "Pista versátil y resistente",
             "icon": "VersatileCourtIcon",
-            "footer": "Ideal tanto para configuraciones interiores como exteriores, nuestras pistas son la mejor opción para clubes que buscan una durabilidad y versatilidad incomparables."
+            "footer": "Ideal tanto para configuraciones interiores como exteriores, nuestras pistas de pádel son la mejor opción para clubes que buscan una durabilidad y versatilidad incomparables."
           },
           {
             "header": "Materiales premium",
@@ -829,12 +831,12 @@
         "TITLE": "Estructuras",
         "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de calidad premium",
         "TEXT": "<p>Fabricada con estructura de acero galvanizado, nuestra pista garantiza resistencia máxima a la abrasión y oxidación.</p><p>La estructura de la pista consiste en perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje. Los marcos laterales y superiores se complementan con malla electro-soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios.</p><p>La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medidas M8X80 mm. Además, su proceso de montaje es impecable, gracias a tornillos de seguridad autoblocantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y ofrece un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>",
-        "SUBTEXT_TITLE": "¡Actualiza a CLUB PLUS!",
-        "SUBTEXT": "<p>Si necesitas tu pista Club en condiciones climáticas adversas, puedes mejorar su estructura y transformarla en una Pista Club Plus con refuerzos adicionales utilizando perfiles de acero, perfecta para áreas propensas a condiciones climáticas extremas.</p><p>Disfruta de la Pista Club Plus, que ofrece la misma calidad premium pero con una robustez adicional perfecta para resistir ráfagas de viento más fuertes (131,40 km/h) y condiciones climáticas adversas, garantizando una durabilidad perfecta y una alta resistencia.</p>"
+        "SUBTEXT_TITLE": "¡Mejora tu pista de pádel Club a Club+!",
+        "SUBTEXT": "<p>Si necesitas instalar tu pista de pádel Club en condiciones climáticas adversas, puedes mejorar su estructura y transformarla en una pista Club+ con refuerzos adicionales utilizando perfiles de acero, perfecta para áreas propensas a condiciones climáticas extremas.</p><p>Disfruta de la Pista Club+, que ofrece la misma calidad premium pero con una robustez adicional perfecta para resistir ráfagas de viento más fuertes (131,40 km/h) y condiciones climáticas adversas, garantizando una durabilidad perfecta y una alta resistencia.</p>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Mediciones de la Pista Club",
+        "TITLE": "Medidas de la Pista de pádel Club",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,47 m </p><p><strong>Ancho</strong>: 10,47 m </p>",
@@ -854,15 +856,15 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Cristales",
-        "SUBTITLE": "¡Cristal de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con cristal de seguridad templado, disponible en espesores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro cristal cumple con todos los estándares regulatorios para instalaciones de este tipo. Al asociarnos con prestigiosos fabricantes españoles que cuentan con la marca CE, garantizamos una calidad excepcional en todos los aspectos de nuestra construcción.</p><p>El <strong>EMPLAZAMIENTO</strong> se realiza utilizando cristal templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte cristal/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de cristal ofrecen propiedades físicas y mecánicas sobresalientes, incluida resistencia al impacto y planitud óptima.</p>"
+        "TITLE": "Vidrios",
+        "SUBTITLE": "¡Vidrio templado de alta seguridad en cada pista de pádel!",
+        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con cristal de seguridad templado, disponible en espesores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro cristal cumple con todos los estándares regulatorios para instalaciones de este tipo. Al asociarnos con prestigiosos fabricantes españoles que cuentan con la marca CE, garantizamos una calidad excepcional en todos los aspectos de nuestra construcción.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte cristal/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de cristal ofrecen propiedades físicas y mecánicas sobresalientes, incluida resistencia al impacto y planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura de la estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una variedad de tipos de laca, que ofrecen infinitas opciones para pintar las estructuras de tu pista en tonos vibrantes. Nuestra PINTURA LACADA ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que optes por un aspecto monocromático o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurándote de captar la atención en la pista.</p>",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la personalización de pistas de pádel con una variedad de tipos de lacado, que ofrecen infinitas opciones para pintar las estructuras de tu pista en tonos vibrantes. Nuestra PINTURA LACADA ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que optes por un aspecto monocromático o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurándote de captar la atención en la pista.</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -902,9 +904,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped para garantizar que tu pista reciba césped de calidad premium. Cada pista está equipada con césped de última generación fabricado con monofilamentos texturizados, con diferentes espesores y alturas de pelo, muy baja abrasión, fabricado en polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y fluctuaciones climáticas extremas.</p><p>Relleno de estabilización y lastre con arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un rebote de la pelota mejorado y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\"> Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped artificial para garantizar que tu pista reciba césped de calidad premium. Cada pista está equipada con césped de última generación fabricado con monofilamentos texturizados, con diferentes espesores y alturas de pelo, muy baja abrasión, fabricado en polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y fluctuaciones climáticas extremas.</p><p>Relleno de estabilización y lastre con arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un rebote de la pelota mejorado y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "luces",
@@ -914,7 +916,7 @@
         },
         "TITLE": "Iluminación LED",
         "SUBTITLE": "¡Ilumina tu juego con la iluminación de pista de pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con los principales especialistas en el campo.</p><p>Nuestra iluminación de pistas de pádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil extendida de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todos los tipos de pistas especificados en la norma europea para iluminación deportiva (UNE-EN-12193:2020), que van desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - estándar NIDE).</p><p>Fabricados con perfiles de acero S275 JR galvanizado y lacado, nuestros mástiles están firmemente sujetos y anclados a la estructura de la pista, garantizando durabilidad y confiabilidad. Con una altura impresionante de 6 metros, cada mástil proporciona soporte para 2 proyectores, iluminando tu pista con precisión y claridad.</p>"
+        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con los principales especialistas en el campo.</p><p>Nuestra iluminación de pistas de pádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil extendida de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todos los tipos de pistas especificados en la norma europea para iluminación deportiva (UNE-EN-12193:2020), que van desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - estándar NIDE).</p><p>Fabricados con perfiles de acero S275 JR galvanizado y lacado, nuestros postes de iluminación están firmemente sujetos y anclados a la estructura de la pista, garantizando durabilidad y confiabilidad. Con una altura impresionante de 6 metros, cada mástil proporciona soporte para 2 proyectores, iluminando tu pista con precisión y claridad.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
@@ -959,12 +961,12 @@
     },
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
-      "SEO_TITLE": "Pista Force 80 - Pista de pádel resistente",
+      "SEO_TITLE": "Pista Club Force 80 - Pista de pádel resistente",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Descubre la Pista Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
+      "SEO_DESCRIPTION": "Descubre la Pista de pádel Club Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Pista Club Force 80</span>",
-      "DESCRIPTION": "<p>Desde 2021, nuestra pista Club Force 80 ha creado una categoría propia. Una pista diseñada especialmente para áreas con condiciones climáticas extremas que destaca como la pista de pádel más resistente del mercado.</p><p>Diseñada por ingenieros de Portico Sport, la estructura de esta pista presenta un diseño superior de contrafuertes y un sistema de anclaje especial, capaz de resistir vientos huracanados de hasta 80 m/s (288,0 km/h).</p><p>La combinación de su diseño original con materiales de alta calidad la convierte en la pista más robusta y duradera, ideal para áreas con condiciones climáticas extremadamente adversas.</p><p>Si quieres disfrutar del pádel independientemente del clima desafiante, la pista Club Force 80 es una excelente elección.</p>",
+      "DESCRIPTION": "<p>Desde 2021, nuestra pista de pádel Club Force 80 ha creado una categoría propia. Una pista diseñada especialmente para áreas con condiciones climáticas extremas que destaca como la pista de pádel más resistente del mercado.</p><p>Diseñada por ingenieros de Portico Sport, la estructura de esta pista presenta un diseño superior de contrafuertes y un sistema de anclaje especial, capaz de resistir vientos huracanados de hasta 80 m/s (288,0 km/h).</p><p>La combinación de su diseño original con materiales de alta calidad la convierte en la pista más robusta y duradera, ideal para áreas con condiciones climáticas extremadamente adversas.</p><p>Si quieres disfrutar del pádel independientemente del clima desafiante, la pista Club Force 80 es una excelente elección.</p>",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel independientemente del clima desafiante.</p>",
       "SUBTITLE": "Disfruta del pádel independientemente del clima desafiante.",
       "CONTACT_TITLE_1": "¿Quieres una Pista Club Force 80?",
@@ -978,7 +980,7 @@
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
-        "TITLE": "<span class=\"text-secondary\">¡Libera el Poder de la Resiliencia con la Pista Club Force 80!</span>",
+        "TITLE": "<span class=\"text-secondary\">¡Libera el Poder de la Resiliencia con la Pista de pádel Club Force 80!</span>",
         "DESCRIPTION": "<p>Construida meticulosamente para resistir vientos huracanados sin comprometer su estética estructural.</p><p>Diseñada para proporcionar un juego cómodo incluso ante condiciones climáticas extremas, respaldada por cálculos de velocidad del viento adaptados para satisfacer las demandas de mercados técnicamente exigentes.</p><p>En comparación con otros modelos en el mercado, nuestra pista destaca por su robustez y resistencia mientras mantiene una estética atractiva que asegura que el acero no reste valor al atractivo visual general.</p>",
         "IMAGES": {
           "FRONT": {
@@ -997,7 +999,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista Club Force 80",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Club Force 80",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -1012,7 +1014,7 @@
           {
             "header": "Materiales premium",
             "icon": "MaterialsIcon",
-            "footer": "Elaboradas con materiales premium para máxima resistencia y durabilidad, nuestras pistas ofrecen calidad premium en cada detalle."
+            "footer": "Elaborada con materiales premium para máxima resistencia y durabilidad, nuestra pista de pádel ofrecen calidad premium en cada detalle."
           }
         ]
       },
@@ -1024,12 +1026,12 @@
           "alt": "Render de una pista móvil"
         },
         "TITLE": "Estructuras",
-        "SUBTITLE": "Experimenta la excelencia de la estructura de nuestra pista de máxima calidad",
-        "TEXT": "<p>Diseñada para resistir vientos huracanados, nuestra pista cuenta con refuerzos adicionales con un diseño de contrafuertes de acero, asegurando máxima resistencia a la abrasión y oxidación con su estructura de acero galvanizado.</p><p>La estructura de la pista consiste en perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante un sistema de anclaje especial. Los marcos laterales y superiores se complementan con malla electro-soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios. La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medidas M8X80 mm. Además, su proceso de montaje es impecable, gracias a tornillos de seguridad auto bloqueantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport atraviesa procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica completamente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
+        "SUBTITLE": "Experimenta la excelencia de la estructura de nuestra pista de pádel de máxima calidad",
+        "TEXT": "<p>Diseñada para resistir vientos huracanados, nuestra pista de pádel Club Force 80 cuenta con refuerzos adicionales con un diseño de contrafuertes de acero, asegurando máxima resistencia a la abrasión y oxidación con su estructura de acero galvanizado.</p><p>La estructura de la pista consiste en perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante un sistema de anclaje especial. Los marcos laterales y superiores se complementan con malla electro-soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios. La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medidas M8X80 mm. Además, su proceso de montaje es impecable, gracias a tornillos de seguridad auto bloqueantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport atraviesa procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica completamente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "seccion-de-medidas",
-        "TITLE": "Medidas de la Pista Club Force 80",
+        "TITLE": "Medidas de la Pista de pádel Club Force 80",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,87 m </p><p><strong>Anchura</strong>: 10,87 m </p>",
@@ -1049,15 +1051,15 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Cristales",
-        "SUBTITLE": "¡Cristal de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con cristal de seguridad templado, disponible en grosores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro cristal cumple con todos los estándares regulatorios para instalaciones de este tipo. Al asociarnos con prestigiosos fabricantes españoles con marca CE, garantizamos calidad de primera en cada aspecto de nuestra construcción.</p><p>El <strong>ENMARCADO</strong> se realiza con vidrio templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida resistencia al impacto y planitud óptima.</p>"
+        "TITLE": "Vidrios",
+        "SUBTITLE": "¡Cristal templado de seguridad en cada pista de pádel!",
+        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con cristal de seguridad templado, disponible en grosores de 10 o 12 mm, adaptados a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro cristal cumple con todos los estándares regulatorios para instalaciones de este tipo. Al asociarnos con prestigiosos fabricantes españoles con marca CE, garantizamos calidad de primera en cada aspecto de nuestra construcción.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza con vidrio templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida resistencia al impacto y planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "seccion-de-pintura",
         "TITLE": "Pintura de la estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes añadir un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una gama de tipos de lacado, que ofrece infinitas opciones para pintar las estructuras de tu pista en colores vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que optes por una apariencia monocromática o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurándote de que capte la atención en la pista.</p>",
+        "SUBTITLE": "¿Sabías que ahora puedes añadir un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la customización de pistas de pádel con una gama de tipos de lacado, que ofrece infinitas opciones para pintar las estructuras de tu pista en colores vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Ya sea que optes por una apariencia monocromática o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurándote de que capte la atención en la pista.</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -1097,9 +1099,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en Nuestro Césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped para garantizar que tu pista reciba césped de máxima calidad. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado en polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y lastre se realiza con arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y una mejor capacidad de rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en Nuestro Césped Artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped artificial para garantizar que tu pista reciba césped de máxima calidad. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado en polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y lastre se realiza con arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y una mejor capacidad de rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "seccion-de-iluminacion",
@@ -1109,7 +1111,7 @@
         },
         "TITLE": "Iluminación LED",
         "SUBTITLE": "¡Ilumina tu Juego con la Iluminación de Pista de Pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la última solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con los principales especialistas en el campo.</p><p>Nuestra iluminación para pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas altas de la pelota, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento sin igual.</p><p>La calidad de nuestros proyectores, diseñados para resistir impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p><p>Fabricados con perfiles de acero galvanizado y lacado S275 JR, nuestros mástiles están firmemente sujetos y anclados a la estructura de la pista, garantizando durabilidad y confiabilidad.</p><p>Para resistir condiciones climáticas extremas, esta pista cuenta con mástiles de iluminación reforzados con dobles pilares, protegiendo su impresionante altura de 6 metros cada uno. Cada mástil soporta dos proyectores, proporcionando una iluminación precisa y clara para tu pista.</p>"
+        "DESCRIPTION": "<p>Disfruta de la última solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con los principales especialistas en el campo.</p><p>Nuestra iluminación para pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas altas de la pelota, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento sin igual.</p><p>La calidad de nuestros proyectores, diseñados para resistir impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p><p>Fabricados con perfiles de acero galvanizado y lacado S275 JR, nuestros postes de  iluminación están firmemente sujetos y anclados a la estructura de la pista, garantizando durabilidad y confiabilidad.</p><p>Para resistir condiciones climáticas extremas, esta pista cuenta con postes de iluminación reforzados con dobles pilares, protegiendo su impresionante altura de 6 metros cada uno. Cada mástil soporta dos proyectores, proporcionando una iluminación precisa y clara para tu pista.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
@@ -1163,10 +1165,10 @@
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Pista Panoramic Force 80 - Pista de Pádel Resistente",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Descubre la Pista Panoramic Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
+      "SEO_DESCRIPTION": "Descubre la pista de pádel Panoramic Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
-      "TITLE": "<span>Pista Panoramic Force 80</span>",
-      "DESCRIPTION": "<p>En 2021, Portico Sport presentó la pista Club Force 80, la primera pista anti-huracanes, creando una categoría propia. Ahora, nos complace presentar la Panorámica Force 80. Capaz de resistir vientos de hasta 80m/s en un marco panorámico.</p><p>El departamento de ingeniería de Portico Sport continúa liderando la innovación de productos en la industria con este diseño que, a pesar de sus paredes de cristal panorámicas y su estructura de acero más delgada que los diseños competidores, permanece firme bajo las condiciones climáticas más desafiantes, lo que lo hace ideal para instalaciones al aire libre en geografías afectadas por huracanes y fuertes tormentas.</p>",
+      "TITLE": "<span>Pista de pádel Panoramic Force 80</span>",
+      "DESCRIPTION": "<p>En 2021, Portico Sport presentó la pista de pádel Club Force 80, la primera pista anti-huracanes, creando una categoría propia. Ahora, nos complace presentar la pista de pádel Panoramic Force 80. Capaz de resistir vientos de hasta 80m/s en un marco panorámico.</p><p>El departamento de ingeniería de Portico Sport continúa liderando la innovación de productos en la industria con este diseño que, a pesar de sus paredes de cristal panorámicas y su estructura de acero más delgada que los diseños competidores, permanece firme bajo las condiciones climáticas más desafiantes, lo que lo hace ideal para instalaciones al aire libre en geografías afectadas por huracanes y fuertes tormentas.</p>",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel sin importar las condiciones climáticas desafiantes.</p>",
       "SUBTITLE": "Disfruta del pádel sin importar las condiciones climáticas desafiantes.",
       "CONTACT_TITLE_1": "¿Quieres una Pista Panoramic Force 80?",
@@ -1181,7 +1183,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-las-pistas",
         "TITLE": "<span class=\"text-secondary\">¡La pista de pádel más resistente y emocionante del mercado!</span>",
-        "DESCRIPTION": "<p>Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Lo que la diferencia es nuestro innovador y exclusivo sistema de 8 refuerzos que se pueden quitar y añadir según las necesidades del cliente y las condiciones climáticas esperadas. Con este sistema, puedes disfrutar de una pista panoramic estándar que se transforma en una pista ultra resistente antes de las tormentas y huracanes, con un esfuerzo mínimo y en poco tiempo.</p><p>Capaz de resistir vientos huracanados de hasta 273,6 km/h (80 m/s), con nuestra Panorámica Force 80, no solo obtendrás la máxima resistencia contra cualquier condición climática, sino que también agregarás un toque de elegancia y modernidad a tu club.</p>",
+        "DESCRIPTION": "<p>Esta pista de pádel combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Lo que la diferencia es nuestro innovador y exclusivo sistema de 8 refuerzos que se pueden quitar y añadir según las necesidades del cliente y las condiciones climáticas esperadas. Con este sistema, puedes disfrutar de una pista panoramic estándar que se transforma en una pista ultra resistente antes de las tormentas y huracanes, con un esfuerzo mínimo y en poco tiempo.</p><p>Capaz de resistir vientos huracanados de hasta 273,6 km/h (80 m/s), con nuestra Panorámica Force 80, no solo obtendrás la máxima resistencia contra cualquier condición climática, sino que también agregarás un toque de elegancia y modernidad a tu club.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
@@ -1199,7 +1201,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista Panoramic Force 80",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Panoramic Force 80",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -1209,7 +1211,7 @@
           {
             "header": "La pista de pádel más resistente",
             "icon": "VersatileCourtIcon",
-            "footer": "Su diseño estructural original y materiales de primera calidad la convierten en la pista más resistente y duradera, sin comprometer su estética."
+            "footer": "Su diseño estructural original y materiales de primera calidad la convierten en la pista de pádel más resistente y duradera, sin comprometer su estética."
           },
           {
             "header": "Materiales premium",
@@ -1227,7 +1229,7 @@
         },
         "TITLE": "Estructuras",
         "SUBTITLE": "¡Experimenta la fusión perfecta de resistencia estructural y brillantez estética!",
-        "TEXT": "<p>Experimenta la excelencia de nuestra estructura de pista de calidad premium diseñada para resistir vientos huracanados. Nuestra pista cuenta con 8 refuerzos que incluyen un diseño exclusivo de contrafuertes de acero, asegurando la máxima resistencia a la abrasión y oxidación con su estructura de acero galvanizado. Además, estos refuerzos están diseñados para ser removibles, ofreciendo flexibilidad y adaptabilidad según sea necesario.</p><p>La estructura de la pista, con perfiles de acero galvanizado S275JR firmemente anclados al suelo con un sistema de anclaje especializado, se fabrica meticulosamente para cumplir con las regulaciones deportivas oficiales (NIDE 2004 Pádel), así como con los estándares y regulaciones de la FIP (Federación Internacional de Pádel). Además, los marcos laterales y superiores están reforzados con malla electro-soldada, alineándose con los estándares UNE-EN-10223-4, asegurando la integridad estructural y el cumplimiento de los estándares de la industria.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
+        "TEXT": "<p>Experimenta la excelencia de nuestra estructura de pista de pádel de calidad premium diseñada para resistir vientos huracanados. Nuestra pista Panoramic Force 80 cuenta con 8 refuerzos que incluyen un diseño exclusivo de contrafuertes de acero, asegurando la máxima resistencia a la abrasión y oxidación con su estructura de acero galvanizado. Además, estos refuerzos están diseñados para ser removibles, ofreciendo flexibilidad y adaptabilidad según sea necesario.</p><p>La estructura de la pista, con perfiles de acero galvanizado S275JR firmemente anclados al suelo con un sistema de anclaje especializado, se fabrica meticulosamente para cumplir con las regulaciones deportivas oficiales (NIDE 2004 Pádel), así como con los estándares y regulaciones de la FIP (Federación Internacional de Pádel). Además, los marcos laterales y superiores están reforzados con malla electro-soldada, alineándose con los estándares UNE-EN-10223-4, asegurando la integridad estructural y el cumplimiento de los estándares de la industria.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "seccion-de-medidas",
@@ -1251,15 +1253,15 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Cristales",
-        "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en grosores de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con distinguidos fabricantes españoles con marcado CE, garantizamos calidad de primera en cada aspecto de nuestra construcción.</p><p>La <strong>CRISTALERÍA</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica utilizando casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte de vidrio/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con propiedades físicas y mecánicas excepcionales, incluida la resistencia al impacto y la planitud óptima.</p>"
+        "TITLE": "Vidrios",
+        "SUBTITLE": "¡Vidrio de seguridad templado en cada pista de pádel!",
+        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en grosores de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con distinguidos fabricantes españoles con marcado CE, garantizamos calidad de primera en cada aspecto de nuestra construcción.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica utilizando casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte de vidrio/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con propiedades físicas y mecánicas excepcionales, incluida la resistencia al impacto y la planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "seccion-de-pintura",
         "TITLE": "Pintura de la estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una variedad de tipos de laca, que ofrecen opciones infinitas para pintar las estructuras de tu pista en colores vibrantes. Nuestra LACA LACADA ofrece resistencia máxima a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destácate con nuestras opciones de color personalizables.</p><p>Ya sea que optes por una apariencia monocromática o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurando que capte la atención en la pista.</p>",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una variedad de tipos de lacado, que ofrecen opciones infinitas para pintar las estructuras de tu pista en colores vibrantes. Nuestra PINTURA LACADA ofrece resistencia máxima a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destácate con nuestras opciones de color personalizables.</p><p>Ya sea que optes por una apariencia monocromática o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurando que capte la atención en la pista.</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -1299,9 +1301,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped para garantizar que tu pista reciba césped de la más alta calidad. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado con polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redondeada, lavada y seca, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un rebote de bola mejorado, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped artificial para garantizar que tu pista reciba césped de la más alta calidad. Cada pista de pádel está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado con polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redondeada, lavada y seca, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un rebote de bola mejorado, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "seccion-de-iluminacion",
@@ -1310,8 +1312,8 @@
           "alt": "Iluminación de la pista móvil"
         },
         "TITLE": "Iluminación LED",
-        "SUBTITLE": "¡Ilumina tu juego con la iluminación de Pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en asociación con los principales especialistas en el campo.</p><p>Nuestra iluminación para pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas altas de la bola, nuestra solución de iluminación elimina los reflejos y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para resistir impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde uso recreativo (Clase III) hasta competiciones profesionales o transmisiones televisadas (Clase I - estándar NIDE).</p><p>Fabricados con perfiles de acero galvanizado y lacado S275 JR, nuestros mástiles están sujetos y anclados de forma segura a la estructura de la pista, garantizando durabilidad y fiabilidad.</p><p>Para resistir condiciones climáticas extremas, esta pista cuenta con mástiles de iluminación reforzados con doble pilar, protegiendo su impresionante altura de 6 metros cada uno. Cada mástil soporta dos proyectores, proporcionando iluminación precisa y clara para tu pista.</p>"
+        "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas de pádel de Portico Sport!",
+        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en asociación con los principales especialistas en el campo.</p><p>Nuestra iluminación para pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas altas de la bola, nuestra solución de iluminación elimina los reflejos y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para resistir impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde uso recreativo (Clase III) hasta competiciones profesionales o transmisiones televisadas (Clase I - estándar NIDE).</p><p>Fabricados con perfiles de acero galvanizado y lacado S275 JR, nuestros postes de iluminación están sujetos y anclados de forma segura a la estructura de la pista, garantizando durabilidad y fiabilidad.</p><p>Para resistir condiciones climáticas extremas, esta pista cuenta con postes de iluminación reforzados con doble pilar, protegiendo su impresionante altura de 6 metros cada uno. Cada mástil soporta dos proyectores, proporcionando iluminación precisa y clara para tu pista.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
@@ -1329,7 +1331,7 @@
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>El modelo Panorámico Force 80 está diseñado para resistir vientos huracanados de categoría 5. Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Su exclusivo sistema de refuerzos te permite cambiar sin esfuerzo, y en poco tiempo, de una pista panoramic estándar a una fortaleza ultra resistente antes de las tormentas y huracanes.</p>",
+      "HOME_DESCRIPTION": "<p>El modelo Panoramic Force 80 está diseñado para resistir vientos huracanados de categoría 5. Esta pista combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Su exclusivo sistema de refuerzos te permite cambiar sin esfuerzo, y en poco tiempo, de una pista panoramic estándar a una fortaleza ultra resistente antes de las tormentas y huracanes.</p>",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
@@ -1365,13 +1367,13 @@
       "ID": "single-court",
       "SEO_TITLE": "Pista Single - Diseñada para Jugadores Solitarios",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Descubre la Pista Single, perfecta para partidos 1 contra 1 o sesiones de entrenamiento individual. La misma calidad premium y durabilidad en un tamaño más pequeño. ¡Obtén más información!",
+      "SEO_DESCRIPTION": "Descubre la pista de pádel Single, perfecta para partidos 1 contra 1 o sesiones de entrenamiento individual. La misma calidad premium y durabilidad en un tamaño más pequeño. ¡Obtén más información!",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
-      "TITLE": "<span>Pista Single</span>",
-      "DESCRIPTION": "<p>Misma longitud, ancho reducido que permite disfrutar del pádel 1 contra 1. Esta pista también es ideal para clases individuales, entrenamiento específico o para maximizar el espacio de utilización en tu club donde no cabe una pista doble.</p><p>A pesar de su tamaño más pequeño, cuenta con la misma calidad premium y durabilidad excepcional que el resto de nuestras pistas, lo que la convierte en una excelente opción para clubes que buscan ampliar su oferta y proporcionar esta pista especial.</p>",
+      "TITLE": "<span>Pista de pádel Single</span>",
+      "DESCRIPTION": "<p>Misma longitud, ancho reducido que permite disfrutar del pádel 1 contra 1. Esta pista de pádel también es ideal para clases individuales, entrenamiento específico o para maximizar el espacio de utilización en tu club donde no cabe una pista doble.</p><p>A pesar de su tamaño más pequeño, cuenta con la misma calidad premium y durabilidad excepcional que el resto de nuestras pistas, lo que la convierte en una excelente opción para clubes que buscan ampliar su oferta y proporcionar esta pista especial.</p>",
       "NAME": "Single",
-      "LITTLE_DESCRIPTION": "<p>Misma resistencia en dimensiones más pequeñas para jugadores solitarios.</p>",
-      "SUBTITLE": "Misma resistencia en dimensiones más pequeñas para jugadores solitarios.",
+      "LITTLE_DESCRIPTION": "<p>Misma resistencia en dimensiones más pequeñas para jugadores en solitario.</p>",
+      "SUBTITLE": "Misma resistencia en dimensiones más pequeñas para jugadores en solitario.",
       "CONTACT_TITLE_1": "¿Quieres una Pista Single?",
       "CONTACT_SUBJECT": "Nueva petición de Pista Single",
       "CONTACT_BUTTON": "Quiero una Pista Single",
@@ -1382,8 +1384,8 @@
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
-        "TITLE": "<span class=\"text-secondary\">¡Pista Single: Diseñada para Jugadores Solitarios!</span>",
-        "DESCRIPTION": "<p>La elección perfecta para perfeccionar habilidades específicas y mejorar la precisión en tu juego de pádel.</p><p>Con su ancho reducido, esta pista permite intensos partidos uno a uno, siendo ideal para sesiones de entrenamiento individuales o para <strong>maximizar el uso del espacio en tu club.</strong></p><p>Personalizable para satisfacer tus preferencias, nuestra Pista Single ofrece versatilidad y adaptabilidad para cubrir tus necesidades.</p>",
+        "TITLE": "<span class=\"text-secondary\">¡Pista de pádel Single: Diseñada para Jugadores en Solitario!</span>",
+        "DESCRIPTION": "<p>La elección perfecta para perfeccionar habilidades específicas y mejorar la precisión en tu juego de pádel.</p><p>Con su ancho reducido, esta pista de pádel permite intensos partidos uno a uno, siendo ideal para sesiones de entrenamiento individuales o para <strong>maximizar el uso del espacio en tu club de pádel.</strong></p><p>Personalizable para satisfacer tus preferencias, nuestra pista Single ofrece versatilidad y adaptabilidad para cubrir tus necesidades.</p><p>Portico Sport ofrece pistas de pádel Single de primera calidad, diseñadas para satisfacer las necesidades tanto de jugadores individuales profesionales como amateurs. Nuestras pistas de pádel Single son ideales para espacios más reducidos, ofreciendo la experiencia completa del pádel. Ya sea que necesites una pista para una residencia privada, un club o un resort, contamos con la experiencia necesaria para proporcionar una solución de alta calidad que se ajuste a tus necesidades.</p><p>Nuestras pistas de pádel Single están elaboradas con precisión, utilizando los mejores materiales para garantizar durabilidad y rendimiento. Cada pista de pádel está diseñada según los estándares internacionales, asegurando un producto funcional y estéticamente atractivo.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/single/single-front.webp",
@@ -1401,7 +1403,9 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra Pista Single",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Single",
+        "SUBTITLE": "¿Por qué elegir una pista de pádel Single?",
+        "DESCRIPTION": "<p>Las pistas de pádel Single son ideales para quienes disponen de un espacio limitado pero desean disfrutar del juego. Estas pistas de pádel mantienen todas las características clave de una pista de pádel estándar, pero están diseñadas para adaptarse a áreas más pequeñas gracias a sus medidas especiales, lo que las convierte en una opción versátil para entornos urbanos, hogares privados y clubes más pequeños, haciendo que sean una solución rentable que no compromete la calidad ni la jugabilidad.</p>",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -1428,12 +1432,12 @@
           "alt": "Render de una pista móvil"
         },
         "TITLE": "Estructuras",
-        "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de calidad premium",
-        "TEXT": "<p>Elaborada con estructura de acero galvanizado, esta pista ofrece la misma longitud pero con ancho reducido, garantizando siempre máxima resistencia a la abrasión y oxidación.</p><p>La estructura de la pista está compuesta por perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje.</p><p>Los marcos laterales y superiores se complementan con malla electro-soldada según los estándares UNE-EN-10223-4. Para mitigar las vibraciones de la malla, la estructura incorpora andamios intermedios. La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medidas M8X80 mm. Además, su proceso de ensamblaje es impecable, gracias a tornillos de seguridad autoblocantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte por láser garantiza cortes precisos y ofrece un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de montaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
+        "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de pádel Single de calidad premium",
+        "TEXT": "<p>Elaborada con estructura de acero galvanizado, esta pista de pádel ofrece la misma longitud pero con ancho reducido, garantizando siempre máxima resistencia a la abrasión y oxidación.</p><p>La estructura de la pista está compuesta por perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje.</p><p>Los marcos laterales y superiores se complementan con malla electro-soldada según los estándares UNE-EN-10223-4. Para mitigar las vibraciones de la malla, la estructura incorpora andamios intermedios. La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medidas M8X80 mm. Además, su proceso de ensamblaje es impecable, gracias a tornillos de seguridad autoblocantes y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte por láser garantiza cortes precisos y ofrece un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de montaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Medidas de la Pista Single",
+        "TITLE": "Medidas de la pista de pádel Single",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,47 m </p><p><strong>Ancho</strong>: 6,47 m </p>",
@@ -1453,15 +1457,15 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Cristales",
+        "TITLE": "Vidrios",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. A pesar de su tamaño, nuestra pista Single cuenta con el mismo atractivo estético que el resto de nuestras pistas y presenta vidrio de seguridad templado, disponible en espesores de 10 o 12 mm, adaptados a los requisitos específicos de esta pista. Puedes estar seguro de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En colaboración con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primera en todos los aspectos de nuestra construcción.</p><p>El <strong>ENMARCADO</strong> se realiza con vidrio templado claro con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte vidrio/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluyendo resistencia al impacto y planitud óptima.</p>"
+        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. A pesar de su tamaño, nuestra pista de pádel Single cuenta con el mismo atractivo estético que el resto de nuestras pistas y presenta vidrio de seguridad templado, disponible en espesores de 10 o 12 mm, adaptados a los requisitos específicos de esta pista. Puedes estar seguro de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En colaboración con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primera en todos los aspectos de nuestra construcción.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza con vidrio templado claro con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte vidrio/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluyendo resistencia al impacto y planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura de la estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes añadir un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una gama de tipos de laca, que ofrece infinitas opciones para pintar las estructuras de tu pista en colores vibrantes. Nuestra <strong>LACA LACADA</strong> ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tu preferencia y destaca con nuestras opciones de color personalizables.</p><p>Deja que tu pista refleje tu estilo y personalidad únicos optando por un aspecto monocromático o inyectando energía vibrante con un esquema bicolor. Con la pintura adecuada, incluso una pista más pequeña destacará.</p>",
+        "SUBTITLE": "¿Sabías que ahora puedes añadir un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una gama de tipos de lacado, que ofrece infinitas opciones para pintar las estructuras de tu pista en colores vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tu preferencia y destaca con nuestras opciones de color personalizables.</p><p>Deja que tu pista refleje tu estilo y personalidad únicos optando por un aspecto monocromático o inyectando energía vibrante con un esquema bicolor. Con la pintura adecuada, incluso una pista más pequeña destacará.</p>",
         "IMAGES": [
           {
             "id": "slide-3",
@@ -1511,9 +1515,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de una pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped para garantizar que tu pista reciba césped de la más alta calidad. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, hecho de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones extremas del clima.</p><p>La estabilización del relleno y el lastre se realiza con arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y una mejor rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las mejores empresas de césped artificial para garantizar que tu pista reciba césped de la más alta calidad. Cada pista está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, hecho de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones extremas del clima.</p><p>La estabilización del relleno y el lastre se realiza con arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y una mejor rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "luces",
@@ -1541,7 +1545,7 @@
         "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
         "IMAGE": "/courts-detail/single/single-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "Misma longitud, ancho reducido que permite disfrutar del pádel 1 contra 1. Esta pista también es ideal para clases individuales, entrenamiento específico o para maximizar el espacio de utilización en tu club donde no cabe una pista doble.",
+      "HOME_DESCRIPTION": "Misma longitud, ancho reducido que permite disfrutar del pádel 1 contra 1. Esta pista de pádel también es ideal para clases individuales, entrenamiento específico o para maximizar el espacio de utilización en tu club donde no cabe una pista doble.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
@@ -1568,18 +1572,18 @@
     },
     "MINI_COURT": {
       "ID": "mini-court",
-      "SEO_TITLE": "Mini Court - Diversión Compacta de Pádel",
+      "SEO_TITLE": "Pista de pádel Mini - Diversión Compacta de Pádel",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Presenta a los niños al pádel con nuestro Mini Court, perfecto para espacios más pequeños. La misma calidad premium en un tamaño compacto. ¡Aprende más!",
+      "SEO_DESCRIPTION": "Introduce a los niños al pádel con nuestra pista de pádel Mini, perfecta para los espacios más pequeños. La misma calidad premium en un tamaño compacto. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
-      "TITLE": "<span>Pista Mini</span>",
-      "DESCRIPTION": "<p>Nuestro Mini Court es una pista de pádel de tamaño reducido (10.47x5.47m) con una altura más baja (1m), ideal para espacios más pequeños, práctica en casa o jugadores más jóvenes.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, esta pista está fabricada con los mismos materiales de alta calidad que el resto de nuestras pistas de pádel.</p><p>A pesar de ser la pista más pequeña, ofrece la misma estabilidad, durabilidad y resistencia. Si buscas una pista de pádel compacta, el Mini Court es una excelente elección.</p>",
+      "TITLE": "<span>Pista de pádel Mini</span>",
+      "DESCRIPTION": "<p>Nuestra pista Mini es una pista de pádel de tamaño reducido (10.47x5.47m) con una altura más baja (1m), ideal para espacios más pequeños, práctica en casa o para los jugadores más jóvenes.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, esta pista de pádel está fabricada con los mismos materiales de alta calidad que el resto de nuestras pistas de pádel.</p><p>A pesar de ser la pista más pequeña, ofrece la misma estabilidad, durabilidad y resistencia. Si buscas una pista de pádel compacta, la pista Mini es una excelente elección.</p><p>Portico Sport, como fabricante e instalador de pistas de pádel, también ofrece pistas de pádel Mini de alta calidad, perfectas para aquellos que desean disfrutar del deporte en espacios más reducidos o para los más pequeños deportistas. Nuestras pistas de pádel Mini están diseñadas para ofrecer el mismo nivel de diversión y competencia que las pistas de pádel estándar, pero en una escala reducida, lo que las hace ideales para viviendas particulares, colegios y zonas recreativas.</p><p>Nuestras pistas de pádel Mini se construyen en nuestra fábrica con la misma atención al detalle y calidad que el resto de nuestras pistas de pádel. Utilizamos materiales de primera calidad para garantizar que cada pista sea duradera, segura y ofrezca una excelente experiencia de juego.</p>",
       "NAME": "Mini",
       "LITTLE_DESCRIPTION": "<p>Nuestra pista de pádel de tamaño reducido que cabe en cualquier lugar.</p>",
       "SUBTITLE": "Nuestra pista de pádel de tamaño reducido que cabe en cualquier lugar.",
-      "CONTACT_TITLE_1": "¿Quieres un Mini Court?",
-      "CONTACT_SUBJECT": "Nueva petición de Mini Court Plus",
-      "CONTACT_BUTTON": "Quiero un Mini Court",
+      "CONTACT_TITLE_1": "¿Quieres una pista de pádel Mini?",
+      "CONTACT_SUBJECT": "Nueva petición de pista de pádel Mini",
+      "CONTACT_BUTTON": "Quiero una pista Mini",
       "ROUTE": {
         "LABEL": "Más sobre la pista mini",
         "URL": "/mini",
@@ -1587,8 +1591,8 @@
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
-        "TITLE": "<span class=\"text-secondary\">Compacto pero Poderoso: Descubre Nuestro Mini Court</span>",
-        "DESCRIPTION": "<p>Nuestro Mini Court, diseñado especialmente para introducir a los niños en la alegría del pádel desde una edad temprana.</p><p>El tamaño más pequeño de esta pista asegura que los niños puedan disfrutar cómodamente del juego, adaptado a su altura y habilidades físicas.</p><p>No solo proporciona un entorno seguro y agradable para que los niños jueguen, sino que también ofrece numerosos beneficios para los clubes: los padres pueden jugar al pádel mientras sus hijos participan en el deporte, fomentando una atmósfera única y acogedora en el club.</p><p>A pesar de su tamaño compacto, nuestro Mini Court ofrece el mismo atractivo estético que las pistas convencionales y ofrece una resistencia excepcional al viento. Además, con opciones personalizables disponibles, los jóvenes jugadores pueden sentirse como campeones en la pista.</p>",
+        "TITLE": "<span class=\"text-secondary\">Compacta pero Poderosa: Descubre Nuestra pista de pádel Mini</span>",
+        "DESCRIPTION": "<p>Nuestra pista Mini, diseñada especialmente para introducir a los niños en la alegría del deporte del pádel desde una edad temprana.</p><p>El tamaño reducido de esta pista de pádel asegura que los niños puedan disfrutar cómodamente del juego, gracias a que la pista de pádel está adaptada a su altura y habilidades físicas.</p><p>No solo proporciona un entorno seguro y agradable para que los niños jueguen, sino que también ofrece numerosos beneficios para los clubes: los padres pueden jugar al pádel mientras sus hijos participan en el deporte, fomentando una atmósfera única y acogedora en el club.</p><p>A pesar de su tamaño compacto, nuestro Mini Court ofrece el mismo atractivo estético que las pistas convencionales y ofrece una resistencia excepcional al viento. Además, con nuestras opciones personalizables disponibles, los jóvenes jugadores pueden sentirse como campeones en la pista.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -1606,12 +1610,14 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestro Mini Court",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Mini",
+        "SUBTITLE":"¿Por qué elegir una pista de pádel Mini?",
+        "DESCRIPTION":"<p>Las pistas de pádel Mini son una excelente opción para quienes tienen un espacio limitado pero aún desean participar en el deporte. Estas pistas son especialmente populares en entornos urbanos, donde el espacio es escaso, y en lugares como colegios o centros comunitarios, donde los jugadores más jóvenes aprenden a jugar a este deporte. A pesar de su tamaño más reducido, las pistas de pádel Mini mantienen todas las características esenciales de una pista de pádel estándar, garantizando un juego divertido y competitivo para todas las edades.</p>",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
             "icon": "WarrantyIcon",
-            "footer": "Descanse tranquilo con nuestra garantía de 10 años sobre la integridad estructural de nuestras pistas, diseñadas para resistir altas velocidades de viento."
+            "footer": "Puedes estar tranquilo con nuestra garantía de 10 años sobre la integridad estructural de nuestras pistas, diseñadas para resistir altas velocidades de viento."
           },
           {
             "header": "Pista pequeña y versátil",
@@ -1633,12 +1639,12 @@
           "alt": "Render de una pista móvil"
         },
         "TITLE": "Estructuras",
-        "SUBTITLE": "Experimenta la excelencia de la estructura de alta calidad de nuestras pistas",
-        "TEXT": "<p>Una pista de pádel de tamaño reducido fabricada con estructura de acero galvanizado que garantiza una resistencia máxima a la abrasión y oxidación.</p><p>La estructura de la pista consiste en perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje.</p><p>Los marcos laterales y superiores se complementan con malla electro-soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para mitigar las vibraciones de la malla, la estructura incorpora andamios intermedios. La fijación de la estructura al pavimento se logra con anclajes de metal avellanados de medidas M8X80 mm. Además, su proceso de ensamblaje es perfecto, gracias a los tornillos de seguridad autotrancables y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport pasa por procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y ofrece un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
+        "SUBTITLE": "Experimenta la excelencia de la estructura de alta calidad de nuestras pistas de pádel",
+        "TEXT": "<p>Una pista de pádel de tamaño reducido fabricada con estructura de acero galvanizado que garantiza una resistencia máxima a la abrasión y oxidación.</p><p>La estructura de la pista Mini consiste en perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje.</p><p>Los marcos laterales y superiores se complementan con malla electro-soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para mitigar las vibraciones de la malla, la estructura incorpora andamios intermedios. La fijación de la estructura al pavimento se logra con anclajes de metal avellanados de medidas M8X80 mm. Además, su proceso de ensamblaje es perfecto, gracias a los tornillos de seguridad autotrancables y tuercas de acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport pasa por procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y ofrece un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "sección-de-medidas",
-        "TITLE": "Medidas de la Pista Mini",
+        "TITLE": "Medidas de la Pista de pádel Mini",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 10,47 m </p><p><strong>Ancho</strong>: 5,47 m </p>",
@@ -1658,15 +1664,15 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Cristales",
+        "TITLE": "Vidrios",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre la seguridad y durabilidad incomparables en nuestras pistas de pádel. A pesar de su tamaño compacto, nuestro Mini Court ofrece el mismo atractivo estético que las pistas convencionales y cuenta con vidrio de seguridad templado, disponible en espesores de 10 o 12 mm, adaptado a los requisitos específicos de esta pista.</p><p>Descanse tranquilo, nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primera en todos los aspectos de nuestra construcción.</p><p>La <strong>ENMARCACIÓN</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura de metal mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluyendo resistencia al impacto y planitud óptima.</p>"
+        "DESCRIPTION": "<p>Descubre la seguridad y durabilidad incomparables en nuestras pistas de pádel. A pesar de su tamaño compacto, nuestra pista de pádel Mini ofrece el mismo atractivo estético que las pistas convencionales y cuenta con vidrio de seguridad templado, disponible en espesores de 10 o 12 mm, adaptado a los requisitos específicos de esta pista.</p><p>Descanse tranquilo, nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos calidad de primera en todos los aspectos de nuestra construcción.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura de metal mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte perfecto de vidrio/metal, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluyendo resistencia al impacto y planitud óptima.</p>"
       },
       "PAINT_SECTION": {
         "ID": "sección-de-pintura",
-        "TITLE": "Pintura de Estructuras",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una gama de tipos de laca, que brindan infinitas opciones para pintar las estructuras de tu pista en colores vibrantes. Nuestra LACA LACADA ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Permite que tu pista refleje tu estilo individual, ya sea que elijas un aspecto monocromático o decidas infundir vitalidad con un diseño bicolor. Incluso en una pista más pequeña, la pintura adecuada puede hacer que destaque y llame la atención.</p>",
+        "TITLE": "Pintura de Estructura",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel Mini?",
+        "DESCRIPTION": "<p>Descubre cómo destacar entre la multitud de pistas de pádel con nuestra gama de tipos de lacado, que brindan infinitas opciones para pintar las estructuras de tu pista en colores vibrantes. Nuestra PINTURA LACADA ofrece máxima resistencia a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p><p>Permite que tu pista de pádel refleje tu estilo individual, ya sea que elijas un aspecto monocromático o decidas infundir vitalidad con un diseño bicolor. Incluso en una pista más pequeña, la pintura adecuada puede hacer que destaque y llame la atención.</p>",
         "IMAGES": [
           {
             "id": "diapositiva-1",
@@ -1711,9 +1717,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped</span>",
-        "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en Nuestro Césped!",
-        "DESCRIPTION": "<p>Nos asociamos con las mejores compañías de césped para garantizar que tu pista reciba césped de calidad premium. Cada pista está equipada con césped de última generación fabricado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, hecho de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a las fluctuaciones climáticas extremas.</p><p>Relleno de estabilización y lastre usando arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
+        "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en Nuestro Césped Artificial!",
+        "DESCRIPTION": "<p>Nos asociamos con las mejores compañías de césped artificial para garantizar que tu pista de pádel reciba césped de calidad premium. Cada pista está equipada con césped de última generación fabricado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, hecho de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a las fluctuaciones climáticas extremas.</p><p>Relleno de estabilización y lastre usando arena de sílice redondeada, lavada y secada, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped artificial de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "sección-de-iluminación",
@@ -2533,8 +2539,8 @@
   },
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Tipos de iluminación",
-    "MASTS_TITLE": "Mástiles de iluminación",
-    "MASTS_DESCRIPTION": "<p>Nuestros mástiles, sujetos y anclados a la estructura de la pista, están fabricados con perfiles de acero S275 JR galvanizado y lacado, garantizando durabilidad y fiabilidad. Con una impresionante altura de 6 metros, cada mástil proporciona soporte para 2 proyectores, iluminando tu pista con precisión y claridad.</p><p>Elige entre nuestra gama de opciones estéticas para complementar el diseño de tu pista:</p>",
+    "MASTS_TITLE": "Postes de iluminación",
+    "MASTS_DESCRIPTION": "<p>Nuestros postes de iluminación, sujetos y anclados a la estructura de la pista, están fabricados con perfiles de acero S275 JR galvanizado y lacado, garantizando durabilidad y fiabilidad. Con una impresionante altura de 6 metros, cada mástil proporciona soporte para 2 proyectores, iluminando tu pista con precisión y claridad.</p><p>Elige entre nuestra gama de opciones estéticas para complementar el diseño de tu pista:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
@@ -2549,17 +2555,17 @@
     ],
     "LIGHTING_MASTS": [
       {
-        "title": "Mástil Recto",
+        "title": "Poste Recto",
         "description": "Para un aspecto elegante y lineal.",
         "image": "/courts-detail/mast-straight.webp"
       },
       {
-        "title": "Mástil en forma de V",
+        "title": "Poste en forma de V",
         "description": "Agregando un toque de agresividad a tu pista.",
         "image": "/courts-detail/mast-v.webp"
       },
       {
-        "title": "Mástil Curvado",
+        "title": "Poste Curvado",
         "description": "Ofreciendo una solución fluida y elegante.",
         "image": "/courts-detail/mast-curved.webp"
       }
