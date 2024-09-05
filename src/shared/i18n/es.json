@@ -6,7 +6,6 @@
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construcción e Instalación de Pistas de Pádel y Cubiertas en Todo el Mundo",
       "TITLE": "Thinking Padel, Thinking Portico Sport",
-      "TITLE_H3" : "Beneficios de nuestra construcción de pistas de pádel",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contáctanos",
@@ -25,6 +24,7 @@
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
         "TITLE": "Contigo durante todo el proceso",
+        "SUBTITLE" : "Beneficios de nuestra construcción de pistas de pádel",
         "POINT_1": {
           "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
           "SUBTITLE": "Iniciando una relación sólida y duradera basada en la confianza y la satisfacción del cliente."

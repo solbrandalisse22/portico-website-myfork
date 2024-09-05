@@ -6,7 +6,6 @@
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction et Installation de Courts de Padel et d'Auvents dans le monde entier",
       "TITLE": "Thinking Padel, Thinking Portico Sport",
-      "TITLE_H3" : "Avantages de notre construction de courts de padel",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contactez-nous",
@@ -25,6 +24,7 @@
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
         "TITLE": "Avec vous tout au long du processus",
+        "SUBTITLE" : "Avantages de notre construction de courts de padel",
         "POINT_1": {
           "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
           "SUBTITLE": "Établir une relation forte et durable basée sur la confiance et la satisfaction du client."
