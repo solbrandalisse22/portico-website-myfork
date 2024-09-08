@@ -618,6 +618,7 @@
         "ID": "benefits",
         "TITLE": "Découvrez les avantages de notre Court panoramique",
         "SUBTITLE": "Pourquoi choisir un terrain de padel panoramique ?",
+        "DESCRIPTION": "Les courts de padel panoramiques deviennent de plus en plus populaires en raison de leur design moderne et de la visibilité accrue qu'ils offrent. L'absence de structures métalliques autour des panneaux de verre offre une sensation élégante et ouverte, à la fois visuellement attrayante et fonctionnelle. Ces courts de padel sont parfaits pour les événements de haut niveau, les clubs cherchant à attirer plus de membres ou toute personne qui valorise un environnement sportif haut de gamme.",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",
@@ -1417,6 +1418,7 @@
         "ID": "benefits",
         "TITLE": "Découvrez les avantages de notre Court individuel",
         "SUBTITLE":"Pourquoi choisir un terrain de padel unique ?",
+        "DESCRIPTION": "Les courts de padel simples sont idéaux pour ceux qui disposent d’un espace limité mais qui souhaitent tout de même profiter du jeu. Ces terrains de padel conservent toutes les caractéristiques clés d'un terrain de padel standard, mais sont conçus pour s'adapter à des zones plus petites, ce qui en fait une option polyvalente pour les environnements urbains, les maisons privées et les petits clubs. Il s'agit d'une solution rentable qui ne fait aucun compromis sur la qualité ou la jouabilité.",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",
@@ -1623,6 +1625,7 @@
         "ID": "benefits",
         "TITLE": "Découvrez les avantages de notre Mini court",
         "SUBTITLE": "Pourquoi choisir un mini terrain de padel ?",
+        "DESCRIPTION": "Les mini terrains de padel sont un excellent choix pour ceux qui disposent d’un espace limité mais souhaitent néanmoins pratiquer ce sport. Ces terrains de padel sont particulièrement populaires dans les environnements urbains, où l'espace est limité, et dans des contextes tels que les écoles ou les centres communautaires où les jeunes joueurs apprennent le jeu. Malgré leur taille réduite, les terrains de Mini Padel conservent toutes les caractéristiques essentielles d'un terrain de Padel standard, garantissant un jeu amusant et compétitif.",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",
