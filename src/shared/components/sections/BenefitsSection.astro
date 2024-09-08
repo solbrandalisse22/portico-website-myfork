@@ -11,14 +11,16 @@ import { type Benefit } from "@/types/types";
 
 interface Props {
   title: string;
+  subtitle: string;
   Benefits: Benefit[];
 }
 
-const { title, Benefits } = Astro.props;
+const { title, subtitle, Benefits } = Astro.props;
 ---
 
 <Section>
   <Typography tag="h2" className="font-bold text-secondary mb-12 uppercase text-center" text={title} type="secondary" />
+  <Typography tag="h3" className="font-bold text-secondary mb-12 uppercase text-center" text={subtitle} type="secondary" />
   <div class="flex flex-col md:flex-row gap-10 justify-center flex-wrap items-center">
     {
       Benefits.map(({header, icon, footer}) => (

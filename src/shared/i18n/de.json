@@ -573,6 +573,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Erleben Sie die Vorteile unseres Panoramaplatzes",
+        "SUBTITLE": "Warum einen Panorama-Padelplatz wählen?",
         "BENEFITS": [
           {
             "header": "10 Jahre Garantie",
@@ -1371,6 +1372,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Erleben Sie die Vorteile unseres Einzelplatzes",
+        "SUBTITLE":"Warum einen Single-Padel-Platz wählen?",
         "BENEFITS": [
           {
             "header": "10 Jahre Garantie",
@@ -1576,6 +1578,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Erleben Sie die Vorteile unseres Mini Courts",
+        "SUBTITLE": "Warum einen Mini-Padel-Platz wählen?",
         "BENEFITS": [
           {
             "header": "10 Jahre Garantie",

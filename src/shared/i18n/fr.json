@@ -617,6 +617,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Découvrez les avantages de notre Court panoramique",
+        "SUBTITLE": "Pourquoi choisir un terrain de padel panoramique ?",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",
@@ -1415,6 +1416,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Découvrez les avantages de notre Court individuel",
+        "SUBTITLE":"Pourquoi choisir un terrain de padel unique ?",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",
@@ -1620,6 +1622,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Découvrez les avantages de notre Mini court",
+        "SUBTITLE": "Pourquoi choisir un mini terrain de padel ?",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",

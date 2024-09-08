@@ -617,6 +617,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Scopri i vantaggi del nostro Campo Panoramico",
+        "SUBTITLE": "Perché scegliere un campo da paddle panoramico?",
         "BENEFITS": [
           {
             "header": "Garanzia di 10 anni",
@@ -1415,6 +1416,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Scopri i vantaggi del nostro campo singolo",
+        "SUBTITLE":"Perché scegliere un campo da paddle singolo?",
         "BENEFITS": [
           {
             "header": "Garanzia di 10 anni",
@@ -1620,6 +1622,7 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Esperienza i vantaggi del nostro Mini court",
+        "SUBTITLE": "Perché scegliere un campo da mini paddle?",
         "BENEFITS": [
           {
             "header": "Garanzia di 10 anni",
