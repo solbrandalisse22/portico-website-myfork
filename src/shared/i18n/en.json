@@ -183,6 +183,36 @@
           }
         }
       },
+      "FAQS_SECTION": {
+        "ID": "faqs",
+        "TITLE": "Frequently Asked Questions",
+        "SUBTITLE": "Find answers to the most common questions about Padel courts and canopies",
+        "QUESTIONS": [{
+          "question": "What is the standard size of a Padel court?",
+          "answer": "The standard size of a Padel court is 20 meters long by 10 meters wide."
+        }, {
+          "question": "What materials are used to build a Padel court?",
+          "answer": "Common materials used to build Padel courts include concrete, glass, artificial turf, and metal structures."
+        }, {
+          "question": "How much does it cost to install a Padel court?",
+          "answer": "The cost to install a Padel court can vary depending on several factors such as size, materials used, geographic location, and additional services. Typically, the price ranges from €18,000 (EXWORK)."
+        }, {
+          "question": "What maintenance does a Padel court require?",
+          "answer": "A Padel court requires regular maintenance to keep it in good condition. This includes cleaning surfaces, maintaining structures, replacing artificial turf when necessary, and repairing any damage or wear."
+        }, {
+          "question": "Do I need special permits to install a Padel court?",
+          "answer": "You may need to obtain permits or licenses depending on local regulations and urban planning laws in your area. It is recommended to consult with local authorities or a professional specialized in Padel court construction for precise information."
+        }, {
+          "question": "Can I customize the design of a padel court?",
+          "answer": "Portico Sport offers customization options for padel courts, such as color choices, logos, and additional components."
+        }, {
+          "question": "Is financing available for purchasing and installing a padel court?",
+          "answer": "Portico Sport offers financing options through various agreements with different entities to help customers acquire and pay for a padel court. This may include installment payment plans or leasing agreements."
+        }, {
+          "question": "How much does it cost to build a padel court?",
+          "answer": "The cost to build a padel court can vary widely depending on several factors including the type of court, materials used, location, and additional features like lighting or seating Typically, the price ranges from €18,000 (EXWORK), but custom designs and premium materials can increase the total price. For a precise quote, it's best to consult with a professional padel court builder who can assess your specific needs and location."
+        }
+      ]},
       "CONTACT_SECTION": {
         "ID": "contact",
         "SUBJECT": "New petition from Home page",

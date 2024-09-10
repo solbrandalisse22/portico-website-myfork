@@ -135,6 +135,36 @@
           }
         }
       },
+      "FAQS_SECTION": {
+        "ID": "faqs",
+        "TITLE": "Häufig gestellte Fragen",
+        "SUBTITLE": "Finden Sie Antworten auf die häufigsten Fragen zu Padelplätzen und Überdachungen",
+        "QUESTIONS": [{
+          "question": "Wie groß ist ein Padelplatz standardmäßig?",
+          "answer": "Die Standardgröße eines Padelplatzes beträgt 20 Meter Länge und 10 Meter Breite."
+        }, {
+          "question": "Welche Materialien werden zum Bau eines Padelplatzes verwendet?",
+          "answer": "Gängige Materialien für den Bau von Padelplätzen sind Beton, Glas, Kunstrasen und Metallkonstruktionen."
+        }, {
+          "question": "Wie viel kostet es, einen Padelplatz zu installieren?",
+          "answer": "Die Kosten für die Installation eines Padelplatzes können je nach Größe, verwendeten Materialien, geografischem Standort und zusätzlichen Dienstleistungen variieren. Typischerweise liegt der Preis bei etwa 18.000 € (EXWORK)."
+        }, {
+          "question": "Welche Wartung erfordert ein Padelplatz?",
+          "answer": "Ein Padelplatz erfordert regelmäßige Wartung, um ihn in gutem Zustand zu halten. Dazu gehören die Reinigung der Oberflächen, Wartung der Strukturen, der Austausch von Kunstrasen bei Bedarf und die Reparatur von Schäden oder Abnutzungen."
+        }, {
+          "question": "Benötige ich spezielle Genehmigungen, um einen Padelplatz zu installieren?",
+          "answer": "Es kann erforderlich sein, Genehmigungen oder Lizenzen zu erhalten, abhängig von den örtlichen Vorschriften und Baugesetzen. Es wird empfohlen, die örtlichen Behörden oder einen Fachmann für den Bau von Padelplätzen zu konsultieren, um genaue Informationen zu erhalten."
+        }, {
+          "question": "Kann ich das Design eines Padelplatzes anpassen?",
+          "answer": "Portico Sport bietet Anpassungsoptionen für Padelplätze an, wie zum Beispiel Farbwahl, Logos und zusätzliche Komponenten."
+        }, {
+          "question": "Gibt es Finanzierungsmöglichkeiten für den Kauf und die Installation eines Padelplatzes?",
+          "answer": "Portico Sport bietet Finanzierungsmöglichkeiten durch verschiedene Vereinbarungen mit unterschiedlichen Institutionen, um Kunden beim Erwerb und der Bezahlung eines Padelplatzes zu unterstützen. Dies kann Ratenzahlungspläne oder Leasingvereinbarungen umfassen."
+        }, {
+          "question": "Wie viel kostet es, einen Padelplatz zu bauen?",
+          "answer": "Die Kosten für den Bau eines Padelplatzes können stark variieren, je nach Art des Platzes, den verwendeten Materialien, dem Standort und zusätzlichen Merkmalen wie Beleuchtung oder Sitzplätzen. In der Regel beginnen die Preise bei etwa 18.000 € (EXWORK), aber individuelle Designs und hochwertige Materialien können den Gesamtpreis erhöhen. Für ein genaues Angebot ist es am besten, einen professionellen Padelplatzbauer zu konsultieren, der Ihre spezifischen Bedürfnisse und den Standort bewerten kann."
+        }]
+      },      
       "CONTACT_SECTION": {
         "ID": "contact",
         "SUBJECT": "Neue Anfrage von der Startseite",

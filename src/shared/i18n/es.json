@@ -135,6 +135,36 @@
           }
         }
       },
+      "FAQS_SECTION": {
+        "ID": "faqs",
+        "TITLE": "Preguntas Frecuentes",
+        "SUBTITLE": "Encuentra respuestas a las preguntas más comunes sobre pistas de pádel y cubiertas",
+        "QUESTIONS": [{
+          "question": "¿Cuál es el tamaño estándar de una pista de pádel?",
+          "answer": "El tamaño estándar de una pista de pádel es de 20 metros de largo por 10 metros de ancho."
+        }, {
+          "question": "¿Qué materiales se utilizan para construir una pista de pádel?",
+          "answer": "Los materiales comunes para construir pistas de pádel incluyen hormigón, vidrio, césped artificial y estructuras metálicas."
+        }, {
+          "question": "¿Cuánto cuesta instalar una pista de pádel?",
+          "answer": "El costo de instalar una pista de pádel puede variar según varios factores, como el tamaño, los materiales utilizados, la ubicación geográfica y los servicios adicionales. Generalmente, el precio oscila desde los 18,000 € (EXWORK)."
+        }, {
+          "question": "¿Qué mantenimiento requiere una pista de pádel?",
+          "answer": "Una pista de pádel requiere mantenimiento regular para mantenerla en buenas condiciones. Esto incluye la limpieza de superficies, el mantenimiento de las estructuras, la sustitución del césped artificial cuando sea necesario y la reparación de cualquier daño o desgaste."
+        }, {
+          "question": "¿Necesito permisos especiales para instalar una pista de pádel?",
+          "answer": "Es posible que necesites obtener permisos o licencias dependiendo de las regulaciones locales y las leyes de urbanismo en tu área. Se recomienda consultar con las autoridades locales o un profesional especializado en la construcción de pistas de pádel para obtener información precisa."
+        }, {
+          "question": "¿Puedo personalizar el diseño de una pista de pádel?",
+          "answer": "Portico Sport ofrece opciones de personalización para las pistas de pádel, como elección de colores, logotipos y componentes adicionales."
+        }, {
+          "question": "¿Hay opciones de financiación para la compra e instalación de una pista de pádel?",
+          "answer": "Portico Sport ofrece opciones de financiación a través de varios acuerdos con diferentes entidades para ayudar a los clientes a adquirir y pagar una pista de pádel. Esto puede incluir planes de pago a plazos o acuerdos de leasing."
+        }, {
+          "question": "¿Cuánto cuesta construir una pista de pádel?",
+          "answer": "El costo de construir una pista de pádel puede variar considerablemente dependiendo de varios factores, como el tipo de pista, los materiales utilizados, la ubicación y las características adicionales como iluminación o asientos. Generalmente, el precio comienza en 18,000 € (EXWORK), pero los diseños personalizados y materiales de alta calidad pueden aumentar el costo total. Para obtener un presupuesto exacto, lo mejor es consultar con un constructor profesional de pistas de pádel que pueda evaluar tus necesidades específicas y la ubicación."
+        }]
+      },      
       "CONTACT_SECTION": {
         "ID": "contacto",
         "SUBJECT": "Nueva petición desde la página de inicio",

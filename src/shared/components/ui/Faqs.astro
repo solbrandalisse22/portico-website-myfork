@@ -1,0 +1,103 @@
+---
+import Typography from './Typography.astro'
+
+interface Props {
+  items: {
+    question: string
+    answer: string
+  }[]
+}
+
+const { items } = Astro.props
+---
+
+<div class="accordion">
+  {
+    items.map(({ question, answer }) => (
+      <div class="border-b border-primary">
+        <button class="relative bg-transparent cursor-pointer hover:text-secondary focus:text-secondary block text-left w-full py-4 px-0 text-primary text-xl" id="accordion-button-1" aria-expanded="false">
+          <Typography tag="h3" size="small" responsive text={question} />
+          <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <Typography tag="p" size="small" responsive text={answer} className='text-left' />
+        </div>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  button {
+    color: $text;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  button[aria-expanded='true'] {
+    .icon {
+      &::after {
+        width: 0;
+      }
+    }
+    + .accordion-content {
+      opacity: 1;
+      max-height: 9em;
+      transition: all 200ms linear;
+      will-change: opacity, max-height;
+    }
+  }
+  .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+</style>
+
+<script>
+  const items = document.querySelectorAll(".accordion button");
+  function toggleAccordion() {
+    const itemToggle = this.getAttribute('aria-expanded');
+    [...new Set(items)].forEach(item => item.setAttribute('aria-expanded', 'false'));
+    
+    if (itemToggle === 'false') {
+      this.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>

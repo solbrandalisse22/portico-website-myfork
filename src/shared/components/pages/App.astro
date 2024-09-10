@@ -16,6 +16,7 @@ import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
 import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
+import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import { type Photo } from "@/types/types.ts";
 
@@ -82,6 +83,7 @@ const posts = await response.json();
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
     />
     <SectionComplements language={language} />
+    <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
     <NewsList language={language} posts={posts} />
     <SectionContact
       id={i18n.PAGES.HOME.CONTACT_SECTION.ID}

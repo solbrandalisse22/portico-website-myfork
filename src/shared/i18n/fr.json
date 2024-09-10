@@ -135,6 +135,36 @@
           }
         }
       },
+      "FAQS_SECTION": {
+        "ID": "faqs",
+        "TITLE": "Foire Aux Questions",
+        "SUBTITLE": "Trouvez les réponses aux questions les plus fréquentes sur les terrains de padel et les couvertures",
+        "QUESTIONS": [{
+          "question": "Quelle est la taille standard d'un terrain de padel ?",
+          "answer": "La taille standard d'un terrain de padel est de 20 mètres de long sur 10 mètres de large."
+        }, {
+          "question": "Quels matériaux sont utilisés pour construire un terrain de padel ?",
+          "answer": "Les matériaux couramment utilisés pour construire des terrains de padel incluent le béton, le verre, le gazon synthétique et les structures métalliques."
+        }, {
+          "question": "Combien coûte l'installation d'un terrain de padel ?",
+          "answer": "Le coût d'installation d'un terrain de padel peut varier en fonction de plusieurs facteurs, tels que la taille, les matériaux utilisés, la localisation géographique et les services supplémentaires. En général, le prix varie à partir de 18 000 € (EXWORK)."
+        }, {
+          "question": "Quel entretien nécessite un terrain de padel ?",
+          "answer": "Un terrain de padel nécessite un entretien régulier pour le maintenir en bon état. Cela comprend le nettoyage des surfaces, l'entretien des structures, le remplacement du gazon synthétique si nécessaire et la réparation des dommages ou de l'usure."
+        }, {
+          "question": "Ai-je besoin de permis spéciaux pour installer un terrain de padel ?",
+          "answer": "Il se peut que vous deviez obtenir des permis ou des licences en fonction des réglementations locales et des lois d'urbanisme dans votre région. Il est recommandé de consulter les autorités locales ou un professionnel spécialisé dans la construction de terrains de padel pour obtenir des informations précises."
+        }, {
+          "question": "Puis-je personnaliser le design d'un terrain de padel ?",
+          "answer": "Portico Sport propose des options de personnalisation pour les terrains de padel, telles que des choix de couleurs, des logos et des composants supplémentaires."
+        }, {
+          "question": "Y a-t-il des options de financement pour l'achat et l'installation d'un terrain de padel ?",
+          "answer": "Portico Sport propose des options de financement via divers accords avec différentes entités pour aider les clients à acquérir et payer un terrain de padel. Cela peut inclure des plans de paiement échelonnés ou des accords de leasing."
+        }, {
+          "question": "Combien coûte la construction d'un terrain de padel ?",
+          "answer": "Le coût de construction d'un terrain de padel peut varier considérablement en fonction de plusieurs facteurs, notamment le type de terrain, les matériaux utilisés, l'emplacement et les caractéristiques supplémentaires comme l'éclairage ou les sièges. En général, le prix commence à 18 000 € (EXWORK), mais les designs personnalisés et les matériaux haut de gamme peuvent augmenter le prix total. Pour obtenir un devis précis, il est préférable de consulter un constructeur professionnel de terrains de padel qui pourra évaluer vos besoins spécifiques et votre emplacement."
+        }]
+      },      
       "CONTACT_SECTION": {
         "ID": "contact",
         "SUBJECT": "Nouvelle demande depuis la page d'accueil",

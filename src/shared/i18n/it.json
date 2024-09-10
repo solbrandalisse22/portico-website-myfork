@@ -135,6 +135,36 @@
           }
         }
       },
+      "FAQS_SECTION": {
+        "ID": "faqs",
+        "TITLE": "Domande Frequenti",
+        "SUBTITLE": "Trova le risposte alle domande più comuni sui campi da padel e coperture",
+        "QUESTIONS": [{
+          "question": "Qual è la dimensione standard di un campo da padel?",
+          "answer": "La dimensione standard di un campo da padel è di 20 metri di lunghezza per 10 metri di larghezza."
+        }, {
+          "question": "Quali materiali vengono utilizzati per costruire un campo da padel?",
+          "answer": "I materiali comunemente utilizzati per costruire campi da padel includono cemento, vetro, erba artificiale e strutture metalliche."
+        }, {
+          "question": "Quanto costa installare un campo da padel?",
+          "answer": "Il costo per installare un campo da padel può variare a seconda di diversi fattori come dimensioni, materiali utilizzati, posizione geografica e servizi aggiuntivi. In genere, il prezzo varia a partire da 18.000 € (EXWORK)."
+        }, {
+          "question": "Quale manutenzione richiede un campo da padel?",
+          "answer": "Un campo da padel richiede una manutenzione regolare per mantenerlo in buone condizioni. Ciò include la pulizia delle superfici, la manutenzione delle strutture, la sostituzione dell'erba artificiale quando necessario e la riparazione di eventuali danni o segni di usura."
+        }, {
+          "question": "Ho bisogno di permessi speciali per installare un campo da padel?",
+          "answer": "Potrebbe essere necessario ottenere permessi o licenze a seconda delle normative locali e delle leggi urbanistiche nella tua zona. Si consiglia di consultare le autorità locali o un professionista specializzato nella costruzione di campi da padel per informazioni precise."
+        }, {
+          "question": "Posso personalizzare il design di un campo da padel?",
+          "answer": "Portico Sport offre opzioni di personalizzazione per i campi da padel, come la scelta dei colori, loghi e componenti aggiuntivi."
+        }, {
+          "question": "Sono disponibili opzioni di finanziamento per l'acquisto e l'installazione di un campo da padel?",
+          "answer": "Portico Sport offre opzioni di finanziamento attraverso diversi accordi con diverse entità per aiutare i clienti ad acquistare e pagare un campo da padel. Ciò può includere piani di pagamento rateizzati o accordi di leasing."
+        }, {
+          "question": "Quanto costa costruire un campo da padel?",
+          "answer": "Il costo per costruire un campo da padel può variare notevolmente a seconda di diversi fattori, come il tipo di campo, i materiali utilizzati, la posizione e le caratteristiche aggiuntive come l'illuminazione o le sedute. Generalmente, il prezzo parte da 18.000 € (EXWORK), ma i design personalizzati e i materiali premium possono aumentare il costo totale. Per un preventivo preciso, è meglio consultare un costruttore professionale di campi da padel che possa valutare le tue esigenze specifiche e la posizione."
+        }]
+      },      
       "CONTACT_SECTION": {
         "ID": "contact",
         "SUBJECT": "Nuova richiesta dalla pagina principale",
