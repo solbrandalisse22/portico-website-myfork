@@ -1,11 +1,11 @@
 {
   "PAGES": {
     "HOME": {
-      "SEO_TITLE": "Portico Sport: Pistas de pádel y cubiertas en todo el mundo",
-      "SEO_DESCRIPTION": "Construcción de pistas de pádel de primera calidad e instalación de cubiertas a nivel global. ¡Explora nuestras soluciones a medida hoy mismo!",
+      "SEO_TITLE": "Fabricantes de pistas de pádel | Portico Sport",
+      "SEO_DESCRIPTION": "Fabricantes de pistas de pádel de primera calidad e instalación de cubiertas a nivel global. ¡Descubre nuestras pistas!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construcción e Instalación de Pistas de Pádel y Cubiertas en Todo el Mundo",
-      "TITLE": "Construcción de pistas de padel",
+      "TITLE": "Fabricantes de pistas de pádel",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contáctanos",
@@ -13,18 +13,19 @@
       },
       "ROUTE": {
         "LABEL": "Inicio",
-        "BREADCRUMB": "Pistas de padel",
+        "BREADCRUMB": "Pistas de pádel",
         "URL": "/"
       },
       "INTRO_SECTION": {
         "ID": "intro",
-        "TITLE": "Bienvenido a Portico Sport<br />Fabricantes e instaladores de pistas de pádel",
-        "DESCRIPTION": "<p>Con sede en España, Portico Sport es uno de los principales fabricantes de <strong>pistas de pádel y cubiertas</strong> a nivel <strong>global</strong>. La empresa cuenta con 15 años de experiencia en la industria, presencia en más de 35 países y más de 3.500 pistas instaladas.</p><p>Portico Sport se destaca por la calidad y excelencia en el servicio al cliente. Nuestro ADN de ingeniería nos permite ser fabricantes con una oferta completa llave en mano, combinando pistas y cubiertas con un <strong>diseño y fabricación 100% internos</strong>.</p><p>En 2023, la empresa inauguró un <strong>nuevo sitio de fabricación</strong> que se expande sobre más de 10.000 metros cuadrados, convirtiéndolo en el más grande y avanzado tecnológicamente en la industria.</p>"
+        "TITLE": "Fabricantes e instaladores de pistas de pádel",
+        "DESCRIPTION": "<p>Con sede en España, Portico Sport es uno de los <strong>principales constructores de pistas de pádel de primera categoría y de instalación de cubiertas a nivel mundial</strong>. La empresa cuenta con más de 15 años de experiencia en la industria, presencia <strong>en más de 35 países y más de 3,500 pistas instaladas</strong>.</p><p>Portico Sport se destaca por la calidad y la excelencia en el servicio al cliente. Nuestro ADN de ingeniería nos permite ser fabricantes con una oferta integral llave en mano, combinando pistas y cubiertas con <strong>diseño y fabricación 100% propios</strong>.</p><p>En 2023, la empresa inauguró un nuevo sitio de fabricación que se extiende por más de 110,000 pies cuadrados. Este nuevo sitio ha posicionado a la empresa como el mayor y más avanzado fabricante de pistas de pádel tecnológicamente en la industria. Con la última tecnología y producción completamente interna, entregamos pistas de pádel a medida que cumplen con los más altos estándares de calidad y durabilidad.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
         "TITLE": "Contigo durante todo el proceso",
         "SUBTITLE" : "Beneficios de nuestra construcción de pistas de pádel",
+        "DESCRIPTION": "Como expertos fabricantes de pistas de pádel, nos enfocamos en crear relaciones duraderas con nuestros clientes al ofrecer soluciones personalizadas de principio a fin. Nuestro equipo proporciona diseños a medida, opciones de financiación y pistas de pádel de calidad premium, construidas para satisfacer sus necesidades específicas. Con Portico Sport, siempre contará con nuestro apoyo, incluso después de la instalación, garantizando satisfacción y éxito a largo plazo.",
         "POINT_1": {
           "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
           "SUBTITLE": "Iniciando una relación sólida y duradera basada en la confianza y la satisfacción del cliente."
