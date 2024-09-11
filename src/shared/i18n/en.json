@@ -1623,6 +1623,16 @@
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
         "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Custom Single Padel Court Installation",
+        "DESCRIPTION": "At Portico Sport, we offer custom Single Padel court installation tailored to your specific needs. From choosing the right surface to selecting the appropriate fencing and lighting, our team will work with you every step of the way to ensure that your court meets your expectations. We prioritize quality and safety in all our installations, providing you with a court that will last for years to come."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "How Much Does a Single Padel Court Cost?",
+        "DESCRIPTION": "The cost of installing a Single Padel court can vary depending on factors such as the size of the court, the materials used, and any additional features like lighting or seating. We recommend contacting our team for a detailed quote tailored to your specific project."
+      },
       "GALLERY_SECTION": {
         "ID": "gallery",
         "PATH": "courts-detail/single/gallery",

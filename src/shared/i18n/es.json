@@ -1583,6 +1583,16 @@
         "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas de pádel de Portico Sport!",
         "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con los principales especialistas en el campo.</p><p>Nuestra iluminación de pistas de pádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas de bola alta, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento sin igual.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todos los tipos de pistas especificados en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisadas (Clase I - norma NIDE).</p>"
       },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Instalación Personalizada de Pista de Pádel Individual",
+        "DESCRIPTION": "En Portico Sport, ofrecemos instalaciones personalizadas de pistas de pádel individual adaptadas a tus necesidades específicas. Desde la elección de la superficie adecuada hasta la selección de las cercas y la iluminación apropiadas, nuestro equipo trabajará contigo en cada paso del proceso para asegurarse de que tu pista cumpla con tus expectativas. Priorizamos la calidad y la seguridad en todas nuestras instalaciones, brindándote una pista que durará muchos años."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "¿Cuánto cuesta una pista de pádel individual?",
+        "DESCRIPTION": "El costo de instalar una pista de pádel individual puede variar según factores como el tamaño de la pista, los materiales utilizados y cualquier característica adicional, como iluminación o asientos. Te recomendamos que contactes con nuestro equipo para obtener una cotización detallada adaptada a tu proyecto específico."
+      },
       "GALLERY_SECTION": {
         "ID": "galeria",
         "PATH": "courts-detail/single/gallery",
