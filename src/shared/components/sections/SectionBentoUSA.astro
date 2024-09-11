@@ -1,0 +1,129 @@
+---
+import BentoItem from "@/shared/components/BentoItem.astro";
+import { getI18N } from "@/shared/i18n/";
+import Section from "@/shared/components/Section.astro";
+
+interface Props {
+  language: string;
+}
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+---
+
+<Section
+  id={i18n.PAGES.HOME.BENTO_SECTION_USA.ID}
+  heading={i18n.PAGES.HOME.BENTO_SECTION_USA.TITLE}
+>
+  <div class="grid lg:grid-cols-10 auto-rows-[30rem] gap-4">
+    <BentoItem
+      class="col-span-10 lg:col-span-4"
+      title={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_1.TITLE}
+    >
+      <div
+        slot="image"
+        class="background transition-scale absolute bottom-0 left-0 top-0
+        -z-10 h-full w-full bg-blue-950
+        bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+        data-src="/experience.webp"
+      >
+      </div>
+
+      <p
+        slot="content"
+        class="max-w-xl text-base md:text-lg"
+        set:html={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_1.DESCRIPTION}
+      />
+    </BentoItem>
+    <BentoItem
+      class="col-span-10 lg:col-span-6"
+      title={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_2.TITLE}
+    >
+      <div
+        slot="image"
+        class="background transition-scale absolute bottom-0 left-0 top-0
+    -z-10 h-full w-full bg-blue-800
+    bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+        data-src="/innovation.webp"
+      >
+      </div>
+      <p
+        slot="content"
+        class="max-w-xl text-base md:text-lg"
+        set:html={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_2.DESCRIPTION}
+      />
+    </BentoItem>
+    <BentoItem
+      class="col-span-10 lg:col-span-6"
+      title={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_3.TITLE}
+      subtitle={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_3.SUBTITLE}
+    >
+      <div
+        slot="image"
+        class="background transition-scale absolute bottom-0 left-0 top-0
+        -z-10 h-full w-full bg-blue-900
+        bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+        data-src="/quality.webp"
+      >
+      </div>
+      <p
+        slot="content"
+        class="max-w-xl text-base md:text-lg"
+        set:html={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_3.DESCRIPTION}
+      />
+    </BentoItem>
+    <BentoItem
+      class="col-span-10 lg:col-span-4"
+      title={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_4.TITLE}
+    >
+      <div
+        slot="image"
+        class="background transition-scale absolute bottom-0 left-0 top-0
+        -z-10 h-full w-full bg-blue-950
+        bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+        data-src="/team.webp"
+      >
+      </div>
+      <p
+        slot="content"
+        class="max-w-xl text-base md:text-lg"
+        set:html={i18n.PAGES.HOME.BENTO_SECTION_USA.POINT_4.DESCRIPTION}
+      />
+    </BentoItem>
+  </div>
+</Section>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const backgrounds = document.querySelectorAll(
+      ".background"
+    ) as NodeListOf<HTMLElement>;
+
+    if (window.IntersectionObserver == null) {
+      backgrounds.forEach((bkg) => {
+        bkg.style.backgroundImage = "url('" + bkg.dataset.src + "')";
+      });
+      return;
+    }
+
+    function handleIntersection(entries: IntersectionObserverEntry[]) {
+      entries.map((entry) => {
+        if (entry.isIntersecting) {
+          const target = entry.target as HTMLElement;
+          const { style, dataset } = target;
+          // Item has crossed our observation
+          // threshold - load src from data-src
+          style.backgroundImage = "url('" + dataset.src + "')";
+          // Job done for this item - no need to watch it!
+          observer.unobserve(entry.target);
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(handleIntersection, {
+      rootMargin: "100px",
+    });
+
+    backgrounds.forEach((bkg) => observer.observe(bkg));
+  });
+</script>

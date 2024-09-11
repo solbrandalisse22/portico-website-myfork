@@ -89,15 +89,17 @@ const { items } = Astro.props
 </style>
 
 <script>
-  const items = document.querySelectorAll(".accordion button");
-  function toggleAccordion() {
-    const itemToggle = this.getAttribute('aria-expanded');
-    [...new Set(items)].forEach(item => item.setAttribute('aria-expanded', 'false'));
-    
-    if (itemToggle === 'false') {
-      this.setAttribute('aria-expanded', 'true');
+  document.addEventListener('astro:page-load', () => {
+    const items = document.querySelectorAll(".accordion button");
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+      [...new Set(items)].forEach(item => item.setAttribute('aria-expanded', 'false'));
+      
+      if (itemToggle === 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
     }
-  }
 
-  items.forEach(item => item.addEventListener('click', toggleAccordion));
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+  });
 </script>

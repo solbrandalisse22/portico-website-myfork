@@ -29,6 +29,11 @@
         "EMAIL_CONTACT_TITLE": "Our team at your disposal",
         "SALES_EMAIL": "For sales queries please contact <a class=text__glowing href=mailto:sales@porticosport.uk class=text-primary>sales@porticosport.uk</a>"
       },
+      "INTRO_SECTION_USA": {
+        "ID": "intro",
+        "TITLE": "Padel Court Manufacturers and installers",
+        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies manufacturers globally</strong>. With 15 years of experience in the industry, we have a <strong>presence in over 35 countries and have installed more than 3,500 courts worldwide</strong>. From Europe to the USA and beyond, we deliver our world-class Padel solutions across the globe, bringing our expertise from Spain to clients in every corner of the world.</p><p>Portico Sport is synonymous with quality and excellence in customer service. Our engineering expertise allows us to offer a complete turnkey solution, combining courts and canopies with <strong>100% in-house</strong> design and manufacturing.</p><p>In 2023, we inaugurated <strong>a new manufacturing site</strong> spanning over 110,000 square feet, making it the largest and most <strong>technologically advanced</strong> in the industry. We are also expanding our presence in the USA, bringing our world-class Padel solutions to a new and growing market with a special focus on Padel court construction in the USA.</p><p>Portico Sport has been operating in the United States since 2021 when the first court was shipped to New York. Today, we have established several facilities in New York, Texas, and Florida, and we are continuing to expand our presence across the country.</p>"
+      },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
         "TITLE": "With you throughout the entire process",
@@ -79,11 +84,18 @@
         "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
         "BUTTON_TEXT": "More about canopies"
       },
-      "CANOPIES_SECTION_UK": {
+      "CANOPIES_SECTION_USA": {
         "ID": "canopies",
         "TITLE": "Canopies",
         "SUBTITLE": "Strength, durability and perfect integration",
-        "TEXT": "<p>Portico Sport UK is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT UK is a leader in design and installation of sports canopies IN UK.</p>",
+        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
+        "BUTTON_TEXT": "More about canopies"
+      },
+      "CANOPIES_SECTION_UK": {
+        "ID": "canopies",
+        "TITLE": "Canopies",
+        "SUBTITLE": "perfect integration",
+        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p><p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for Padel, combining differentiating features for this sport that are hard to match by other types of canopies. Whether you're looking for Padel court construction in the USA or internationally, Portico Sport is a leader in the design and installation of sports canopies.</p>",
         "BUTTON_TEXT": "More about canopies"
       },
       "BENTO_SECTION": {
@@ -105,6 +117,27 @@
         "POINT_4": {
           "TITLE": "TEAM - SPORTS ENGINEERING AND ARCHITECTURE",
           "DESCRIPTION": "<strong>As an engineering firm, Portico Sport provides a comprehensive construction process from start to finish</strong>, with a team of specialized professionals who guide you through every step, recognizing that each project is unique."
+        }
+      },
+      "BENTO_SECTION_USA": {
+        "ID": "why-us",
+        "TITLE": "Benefits of Our Padel Court Construction",
+        "POINT_1": {
+          "TITLE": "EXPERIENCE",
+          "DESCRIPTION": "<strong>With over 15 years of expertise in managing large-scale projects</strong> across five continents, Portico Sport has built a robust international network to deliver top-notch service to each client in every corner of the world, including the USA."
+        },
+        "POINT_2": {
+          "TITLE": "INNOVATION",
+          "DESCRIPTION": "We are dedicated to pushing the boundaries of innovation. Our Padel courts and canopies feature cutting-edge design and superior quality, with rapid delivery times and comprehensive warranties. We ensure our Padel courts and canopies are built to the highest standards of strength and durability."
+        },
+        "POINT_3": {
+          "TITLE": "PREMIUM QUALITY",
+          "SUBTITLE": "Padel courts that comply with regulations",
+          "DESCRIPTION": "Our padel courts are engineered to meet official sports regulations, including NIDE 2004 Padel, FIP (International Padel Federation) standards, and structural calculations based on the American codes AISC-360 and ASCE SEI 7-16. Each court comes with a 10-year guarantee for structural stability."
+        },
+        "POINT_4": {
+          "TITLE": "EXPERT USA TEAM",
+          "DESCRIPTION": "At Portico Sport, as Padel court builders, we offer a complete construction process, supported by a team of specialised professionals in sports engineering and architecture. <strong>Our experts guide you through every phase of the project</strong>, recognising the unique aspects of each one. Additionally, we have a dedicated team of experts based in the USA to ensure seamless service and support for our clients in North America."
         }
       },
       "BENTO_SECTION_UK": {
@@ -152,6 +185,18 @@
         "TITLE_GALLERY": "A selection of projects we've turned into reality",
         "PATH": "projectsuk/gallery"
       },
+      "PROJECTS_SECTION_USA": {
+        "ID": "projects",
+        "TITLE": "Projects",
+        "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
+        "URL": {
+          "LABEL": "Discover all our projects",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "project-gallery",
+        "TITLE_GALLERY": "A showcase of projects we've successfully brought to life",
+        "PATH": "projectsusa/gallery"
+      },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
         "TITLE": "Quality, Innovation, Trust, Experience and Speed",
@@ -180,6 +225,37 @@
           "ITEM_6": {
             "TITLE": "Customize your court",
             "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
+          }
+        }
+      },
+      "COMPLEMENTS_SECTION_USA": {
+        "ID": "complements",
+        "TITLE": "Quality, Innovation, Trust, Experience and Speed",
+        "SUBTITLE": "A Padel court builder leader in both the national and international markets.",
+        "ITEMS": {
+          "ITEM_1": {
+            "TITLE": "Foundation and platforms",
+            "DESCRIPTION": "We are experts in the construction and repair of asphalt and concrete slabs, as well as structural foundations, ensuring a solid base for all our installations. With a dedicated team of specialists in the USA, we also provide tailored solutions to meet local regulations and standards."
+          },
+          "ITEM_2": {
+            "TITLE": "Structures",
+            "DESCRIPTION": "Our metallic structures are crafted from galvanized steel and coated with oven-baked thermoplastic polyester paint. For indoor courts, we apply a single layer, while outdoor installations receive two layers, all designed to meet the highest industry standards."
+          },
+          "ITEM_3": {
+            "TITLE": "Glasses",
+            "DESCRIPTION": "Each Padel court is equipped with tempered safety glass, either 10 or 12 mm thick, depending on the project’s requirements. All glass installations strictly adhere to the regulations established for these types of facilities."
+          },
+          "ITEM_4": {
+            "TITLE": "Artifitial turf",
+            "DESCRIPTION": "We offer premium quality artificial turf in collaboration with leading turf companies. Our latest-generation turf comes with straight or curly fibers, designed to enhance gameplay and durability."
+          },
+          "ITEM_5": {
+            "TITLE": "Lighting",
+            "DESCRIPTION": "Our LED projectors are sourced from the most reputable manufacturers, providing optimal lighting for every Padel court, both indoors and outdoors."
+          },
+          "ITEM_6": {
+            "TITLE": "Customize your court",
+            "DESCRIPTION": "Personalize your court with integrated benches, engraved corners featuring your club's logo, and screen-printed nets to create a unique playing experience tailored to your brand."
           }
         }
       },
@@ -223,6 +299,9 @@
       },
       "CONTACT_SECTION_UK": {
         "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts and canopies! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales queries please contact <a class=text__glowing href=mailto:sales@porticosport.uk>sales@porticosport.uk</a></p>"
+      },
+      "CONTACT_SECTION_USA": {
+        "DESCRIPTION": "<p>Feel free to reach out to our team of experts for any information on Padel courts and canopies! We’re here to answer all your questions and guide you in finding the perfect court to suit your needs. Moreover, we specialize in Padel court construction in the USA, with a dedicated team of professionals ready to design and build a customized court tailored to your preferences and specifications. If you're curious about Padel court construction cost in the USA, we can provide detailed estimates to help you plan your project effectively. We look forward to assisting you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales queries please contact <a class=text__glowing href=mailto:info@porticosport.us>info@porticosport.us</a></p>"
       }
     },
     "COURTS": {
@@ -2571,6 +2650,11 @@
     "TITLE": "Padel courts that comply with regulations",
     "SUBTITLE": "Strength, durability and perfect integration",
     "DESCRIPTION": "<p>Our padel courts are meticulously designed to provide exceptional durability and outstanding performance, ensuring a fantastic gaming experience for players of all levels. Crafted with precision and built to last, our courts are engineered to withstand the test of time and deliver unparalleled resilience, even in the most demanding environments.</p><p>Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)</p>"
+  },
+  "NORMATIVE_SECTION_LOGOS_UK": {
+    "TITLE": "Padel courts that comply with regulations",
+    "SUBTITLE": "Strength and durability",
+    "DESCRIPTION": "<p>Our padel courts are expertly crafted to offer remarkable durability and top-tier performance, guaranteeing an excellent playing experience for athletes of all skill levels. Designed with meticulous attention to detail and built for longevity, our courts are engineered to endure and maintain their exceptional quality, even under the toughest conditions in the USA. As one of the leading padel court manufacturers in the USA, we are committed to delivering premium-quality courts that meet the highest standards of design and performance.</p><p>Designed and developed by the engineering department of PORTICO SPORT for the practice of padel at the highest level, our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. All our courts come with a 10-year guarantee (structural stability)</p>"
   },
   "INFINITE_SCROLL": {
     "TITLE": "Commercial partners"

@@ -2,12 +2,12 @@
 import Layout from "@/shared/layouts/Layout.astro"
 import Video from "@/shared/components/Video.astro"
 import Typography from "@/shared/components/ui/Typography.astro"
-import SectionIntroUK from "@/shared/components/sections/SectionIntroUK.astro"
-import SectionBentoUK from "@/shared/components/sections/SectionBentoUK.astro"
+import SectionIntroUSA from "@/shared/components/sections/SectionIntroUSA.astro"
+import SectionBentoUSA from "@/shared/components/sections/SectionBentoUSA.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
-import SectionComplements from "@/shared/components/sections/SectionComplements.astro"
+import SectionComplementsUSA from "@/shared/components/sections/SectionComplementsUSA.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
@@ -18,7 +18,7 @@ import { type Photo } from "@/types/types.ts";
 import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
-import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
+import NormativeLogos from "@/shared/components/sections/NormativeLogosUSA.astro";
 
 interface Props {
   language: string,
@@ -57,20 +57,20 @@ const posts = await response.json();
     </div>
   </Video>
   <main>
-    <SectionIntroUK language={language} />
+    <SectionIntroUSA language={language} />
     <SectionGraphicProcess language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
     <NormativeLogos language={language} showInfo />
     <SectionCanopies
       video="/cubiertas-spot.webm"
-      subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_UK.SUBTITLE}
-      title={i18n.PAGES.HOME.CANOPIES_SECTION_UK.TITLE}
-      text={i18n.PAGES.HOME.CANOPIES_SECTION_UK.TEXT}
+      subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_USA.SUBTITLE}
+      title={i18n.PAGES.HOME.CANOPIES_SECTION_USA.TITLE}
+      text={i18n.PAGES.HOME.CANOPIES_SECTION_USA.TEXT}
       buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
-      buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_UK.BUTTON_TEXT}
+      buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_USA.BUTTON_TEXT}
     />
-    <SectionBentoUK language={language} />
+    <SectionBentoUSA language={language} />
     <section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_UK.ID}
     >
@@ -78,15 +78,15 @@ const posts = await response.json();
       <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
     </section>
     <Gallery
-      heading={i18n.PAGES.HOME.PROJECTS_SECTION_UK.TITLE_GALLERY}
-      id={i18n.PAGES.HOME.PROJECTS_SECTION_UK.ID_GALLERY}
+      heading={i18n.PAGES.HOME.PROJECTS_SECTION_USA.TITLE_GALLERY}
+      id={i18n.PAGES.HOME.PROJECTS_SECTION_USA.ID_GALLERY}
       photos={projectsGallery}
       offset={12}
-      path={i18n.PAGES.HOME.PROJECTS_SECTION_UK.PATH}
-      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_UK.URL.SRC}
-      urlText={i18n.PAGES.HOME.PROJECTS_SECTION_UK.URL.LABEL}
+      path={i18n.PAGES.HOME.PROJECTS_SECTION_USA.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_USA.URL.SRC}
+      urlText={i18n.PAGES.HOME.PROJECTS_SECTION_USA.URL.LABEL}
     />
-    <SectionComplements language={language} />
+    <SectionComplementsUSA language={language} />
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
     <NewsList language={language} posts={posts} />
     <SectionContact
@@ -96,7 +96,7 @@ const posts = await response.json();
       language={language}
       bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
       image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
-      description={i18n.PAGES.HOME.CONTACT_SECTION_UK.DESCRIPTION}
+      description={i18n.PAGES.HOME.CONTACT_SECTION_USA.DESCRIPTION}
       uk
     />
     <SectionPartnerLogos uk />
