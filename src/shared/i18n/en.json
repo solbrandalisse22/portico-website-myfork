@@ -467,6 +467,16 @@
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
         "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "How Much Does It Cost to Build a Mobile Padel Court?",
+        "DESCRIPTION": "The cost to build a Mobile Padel court varies depending on several factors, such as the materials used, size of the court, and the location of installation. Typically, the price ranges from €18,000 (EXWORK). This includes not only the Padel court itself but also additional features like professional-grade glass panels, lighting systems, and anti-slip surfaces. Our team can provide a custom quote based on your specific requirements."
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Why Choose Portico Sport for Your Mobile Padel Court?",
+        "DESCRIPTION": "At Portico Sport, we pride ourselves on delivering top-quality Padel courts that are both durable and easy to install. Our Mobile Padel courts are designed with flexibility in mind, allowing for quick assembly and disassembly without compromising on quality. Whether you need a Padel court for an event, a temporary installation, or even a semi-permanent structure, our Mobile solutions are the best in the market."
+      },
       "GALLERY_SECTION": {
         "ID": "gallery",
         "PATH": "courts-detail/mobile/gallery",
@@ -848,6 +858,16 @@
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
         "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Custom Panoramic Padel Court Installation",
+        "DESCRIPTION": "We understand that every Padel project is unique, which is why we offer customized Panoramic Padel court solutions. From the size of the court to the choice of materials, lighting, and additional features, we work closely with our clients to create a court that fits their specific needs and budget. Our Padel courts are built using high-quality materials to ensure durability, safety, and excellent playing conditions."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "How Much Does a Panoramic Padel Court Cost?",
+        "DESCRIPTION": "The cost of installing a Panoramic Padel court can vary depending on several factors including the size, materials, and any additional features you choose. For a more precise estimate, we recommend scheduling a consultation with our team, who can provide a detailed quote based on your specific requirements."
+      },
       "GALLERY_SECTION": {
         "ID": "gallery",
         "PATH": "courts-detail/panoramic/gallery",
@@ -862,6 +882,7 @@
         "SUBJECT": "New petition from Panoramic Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
+        "DESCRIPTION": "Ready to invest in a panoramic padel court? Contact Portico Sport today to discuss your project with one of our experts. We are committed to delivering high-quality courts that exceed your expectations. Whether you're looking to upgrade an existing facility or build a new one from scratch, we are here to help.",
         "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
       },
       "HOME_DESCRIPTION": "12mm glass, minimalistic design, maximum robustness! Our panoramic court provides the perfect balance between functionality and aesthetics.",
@@ -1646,7 +1667,7 @@
       "SEO_DESCRIPTION":"Introduce children to padel with our Mini Padel Court, perfect for smaller spaces. Same premium quality in a compact size. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Mini Padel court</span>",
-      "DESCRIPTION": "<p>Our Mini Padel Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players.</p><p>Designed by Portico Sport's engineering department, this Padel court is manufactured with the same premium-quality materials as the rest of our Padel courts.</p><p>Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p><p>Portico Sport, as a manufacturer and installer of Padel courts, also provide premium quality Mini Padel courts, perfect for those who want to enjoy the sport in smaller spaces. Our Mini Padel courts are designed to deliver the same level of enjoyment and competition as standard Padel courts but on a reduced scale, making them ideal for private homes, schools, and recreational areas.</p><p>Our Mini Padel courts are built with the same attention to detail and quality as our full-sized courts. We use top-grade materials to ensure that each court is durable, safe, and offers an excellent playing experience.</p>",
+      "DESCRIPTION": "<p>Our Mini Padel Court is a reduced-size padel court (10.47x5.47m) with a lowered height (1m), ideal for smaller spaces, home practice, or younger players.</p><p>Designed by Portico Sport's engineering department, this Padel court is manufactured with the same premium-quality materials as the rest of our Padel courts.</p><p>Despite being the smallest court, it offers the same stability, durability, and resistance. If you're looking for a compact padel court, the Mini Court is an excellent choice.</p>",
       "NAME": "Mini",
       "LITTLE_DESCRIPTION": "<p>Our reduced-size Padel court that fits anywhere.</p>",
       "SUBTITLE": "Our reduced-size padel court that fits anywhere.",
@@ -1661,7 +1682,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Compact yet Mighty: Discover Our Mini Padel Court</span>",
-        "DESCRIPTION": "<p>Our Mini Padel Court, specially designed to introduce children to the joy of padel from an early age.</p><p>The smaller size of this court ensures that kids can comfortably enjoy the game, tailored to their height and physical abilities.</p><p>Not only does it provide a safe and enjoyable environment for kids to play, but it also offers numerous benefits for clubs: parents can play padel while their children engage in the sport, fostering a unique and welcoming atmosphere in the club.</p><p>Despite its compact size, our Mini Court boasts the same aesthetic appeal as conventional courts and offers exceptional wind resistance. Plus, with customizable options available, young players can feel like champions on the court.</p>",
+        "DESCRIPTION": "<p>Our Mini Padel Court, specially designed to introduce children to the joy of padel from an early age.</p><p>The smaller size of this court ensures that kids can comfortably enjoy the game, tailored to their height and physical abilities.</p><p>Not only does it provide a safe and enjoyable environment for kids to play, but it also offers numerous benefits for clubs: parents can play padel while their children engage in the sport, fostering a unique and welcoming atmosphere in the club.</p><p>Despite its compact size, our Mini Court boasts the same aesthetic appeal as conventional courts and offers exceptional wind resistance. Plus, with customizable options available, young players can feel like champions on the court.</p><p>Portico Sport, as a manufacturer and installer of Padel courts, also provide premium quality Mini Padel courts, perfect for those who want to enjoy the sport in smaller spaces. Our Mini Padel courts are designed to deliver the same level of enjoyment and competition as standard Padel courts but on a reduced scale, making them ideal for private homes, schools, and recreational areas.</p><p>Our Mini Padel courts are built with the same attention to detail and quality as our full-sized courts. We use top-grade materials to ensure that each court is durable, safe, and offers an excellent playing experience.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -1681,7 +1702,7 @@
         "ID": "benefits",
         "TITLE": "Experience the benefits of our Mini court",
         "SUBTITLE": "Why Choose a Mini Padel Court?",
-        "DESCRIPTION": "Mini padel courts are an excellent choice for those who have limited space but still want to engage in the sport. These Padel courts are particularly popular in urban environments, where space is at a premium, and in settings like schools or community centers where young players are learning the game. Despite their smaller size, Mini Padel courts maintain all the essential features of a standard Padel court, ensuring a fun and competitive game.",
+        "DESCRIPTION": "Mini padel courts are an excellent choice for those who have limited space but still want to engage in the sport. These courts are particularly popular in urban environments, where space is at a premium, and in settings like schools or community centers where young players are learning the game. Despite their smaller size, mini padel courts maintain all the essential features of a standard court, ensuring a fun and competitive game.",
         "BENEFITS": [{
           "header": "10 years warranty",
           "icon": "WarrantyIcon",
@@ -1789,6 +1810,16 @@
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
         "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Custom Mini Padel Court Installation",
+        "DESCRIPTION": "At Portico Sport, we offer custom mini padel court installation to suit your specific needs. Our team can design and install a mini padel court that fits perfectly in your space. We work closely with you to select the right materials, design, and features to create a court that meets your expectations."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "How Much Does a Mini Padel Court Cost?",
+        "DESCRIPTION": "The cost of installing a mini padel court is generally lower than that of a full-sized court due to its smaller size. Typically, the cost ranges depending on the materials used and any additional features you might want. For a detailed estimate, we recommend getting in touch with our team for a customized quote."
+      },
       "GALLERY_SECTION": {
         "ID": "gallery",
         "PATH": "courts-detail/mini/gallery",
@@ -1803,7 +1834,8 @@
         "SUBJECT": "New petition from Mini Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
-        "IMAGE": "/courts-detail/mini/mini-court-contact.webp"
+        "IMAGE": "/courts-detail/mini/mini-court-contact.webp",
+        "DESCRIPTION": "<p>Interested in installing a mini padel court? Contact Portico Sport today to discuss your project. Our experts are ready to help you create a custom mini padel court that fits your space and meets your needs. Whether for personal use or as an addition to a facility, we are here to deliver top-quality courts that enhance your sporting experience.</p>"
       },
       "HOME_DESCRIPTION": "Kids can learn padel from a very early age, however, the size of court can be overwhelming for them. With this court, kids can enjoy padel with a court adapted to their heigh and physical power.",
       "HOME_IMAGES": [{

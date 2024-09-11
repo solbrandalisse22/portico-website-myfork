@@ -120,6 +120,18 @@ export interface GallerySection {
   BUTTON_TEXT: string;
 }
 
+export interface InstallationSection {
+  ID: string;
+  TITLE: string;
+  DESCRIPTION: string
+}
+
+export interface CostSection {
+  ID: string;
+  TITLE: string;
+  DESCRIPTION: string
+}
+
 export interface ContactSection {
   ID: string;
   TITLE?: string;

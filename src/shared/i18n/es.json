@@ -229,6 +229,8 @@
       "BENEFITS_SECTION": {
         "ID": "beneficios",
         "TITLE": "Experimenta los beneficios de nuestro innovador sistema de pista de pádel Móvil",
+        "SUBTITLE": "¿Por qué elegir una pista de pádel Mini?",
+        "DESCRIPTION": "Las pistas de pádel Mini son una excelente opción para quienes tienen un espacio limitado pero aún desean participar en el deporte. Estas pistas son especialmente populares en entornos urbanos, donde el espacio es escaso, y en lugares como colegios o centros comunitarios, donde los jugadores más jóvenes aprenden a jugar a este deporte. A pesar de su tamaño más reducido, las pistas de pádel Mini mantienen todas las características esenciales de una pista de pádel estándar, garantizando un juego divertido y competitivo para todas las edades.",
         "BENEFITS": [
           {
             "header": "Ahorra con nosotros",
@@ -346,7 +348,18 @@
         },
         "TITLE": "Iluminación LED",
         "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas de pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con destacados especialistas en el campo.</p><p>Nuestra iluminación de pistas depádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, el fondo, las líneas laterales y las zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea para iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p>"  },
+        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con destacados especialistas en el campo.</p><p>Nuestra iluminación de pistas depádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, el fondo, las líneas laterales y las zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea para iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p>"
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "¿Cuánto cuesta construir una pista de pádel móvil?",
+        "DESCRIPTION": "El costo para construir una pista de pádel móvil varía dependiendo de varios factores, como los materiales utilizados, el tamaño de la pista y la ubicación de la instalación. Generalmente, el precio oscila a partir de 18.000 € (EXWORK). Esto incluye no solo la pista de pádel en sí, sino también características adicionales como paneles de vidrio de calidad profesional, sistemas de iluminación y superficies antideslizantes. Nuestro equipo puede proporcionar una cotización personalizada basada en tus requisitos específicos."
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "¿Por qué elegir Portico Sport para tu pista de pádel móvil?",
+        "DESCRIPTION": "En Portico Sport, nos enorgullecemos de ofrecer pistas de pádel de alta calidad que son duraderas y fáciles de instalar. Nuestras pistas de pádel móviles están diseñadas con flexibilidad en mente, lo que permite un montaje y desmontaje rápidos sin comprometer la calidad. Ya sea que necesites una pista de pádel para un evento, una instalación temporal o incluso una estructura semipermanente, nuestras soluciones móviles son las mejores del mercado."
+      },
       "GALLERY_SECTION": {
         "ID": "galeria",
         "PATH": "courts-detail/mobile/gallery",
@@ -744,6 +757,16 @@
         "TITLE": "Iluminación LED",
         "SUBTITLE": "¡Ilumina tu Juego con la Iluminación de Pista de Pádel de Portico Sport!",
         "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con los principales especialistas en el campo.</p><p>Nuestra iluminación de pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas altas de la pelota, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento incomparables.</p><p>La calidad de nuestros proyectores, diseñados para resistir impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde uso recreativo (Clase III) hasta competiciones profesionales o transmisiones televisivas (Clase I - estándar NIDE).</p>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Instalación Personalizada de Pistas de Pádel Panorámicas",
+        "DESCRIPTION": "Entendemos que cada proyecto de pádel es único, por lo que ofrecemos soluciones personalizadas para pistas de pádel panorámicas. Desde el tamaño de la pista hasta la elección de materiales, iluminación y características adicionales, trabajamos estrechamente con nuestros clientes para crear una pista que se ajuste a sus necesidades y presupuesto específicos. Nuestras pistas de pádel están construidas con materiales de alta calidad para garantizar durabilidad, seguridad y excelentes condiciones de juego."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "¿Cuánto cuesta una pista de pádel panorámica?",
+        "DESCRIPTION": "El costo de instalar una pista de pádel panorámica puede variar dependiendo de varios factores, como el tamaño, los materiales y las características adicionales que elijas. Para obtener una estimación más precisa, te recomendamos programar una consulta con nuestro equipo, que puede proporcionar una cotización detallada basada en tus requisitos específicos."
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
@@ -1608,7 +1631,7 @@
       "SEO_DESCRIPTION": "Introduce a los niños al pádel con nuestra pista de pádel Mini, perfecta para los espacios más pequeños. La misma calidad premium en un tamaño compacto. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Pista de pádel Mini</span>",
-      "DESCRIPTION": "<p>Nuestra pista Mini es una pista de pádel de tamaño reducido (10.47x5.47m) con una altura más baja (1m), ideal para espacios más pequeños, práctica en casa o para los jugadores más jóvenes.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, esta pista de pádel está fabricada con los mismos materiales de alta calidad que el resto de nuestras pistas de pádel.</p><p>A pesar de ser la pista más pequeña, ofrece la misma estabilidad, durabilidad y resistencia. Si buscas una pista de pádel compacta, la pista Mini es una excelente elección.</p><p>Portico Sport, como fabricante e instalador de pistas de pádel, también ofrece pistas de pádel Mini de alta calidad, perfectas para aquellos que desean disfrutar del deporte en espacios más reducidos o para los más pequeños deportistas. Nuestras pistas de pádel Mini están diseñadas para ofrecer el mismo nivel de diversión y competencia que las pistas de pádel estándar, pero en una escala reducida, lo que las hace ideales para viviendas particulares, colegios y zonas recreativas.</p><p>Nuestras pistas de pádel Mini se construyen en nuestra fábrica con la misma atención al detalle y calidad que el resto de nuestras pistas de pádel. Utilizamos materiales de primera calidad para garantizar que cada pista sea duradera, segura y ofrezca una excelente experiencia de juego.</p>",
+      "DESCRIPTION": "<p>Nuestra pista Mini es una pista de pádel de tamaño reducido (10.47x5.47m) con una altura más baja (1m), ideal para espacios más pequeños, práctica en casa o para los jugadores más jóvenes.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, esta pista de pádel está fabricada con los mismos materiales de alta calidad que el resto de nuestras pistas de pádel.</p><p>A pesar de ser la pista más pequeña, ofrece la misma estabilidad, durabilidad y resistencia. Si buscas una pista de pádel compacta, la pista Mini es una excelente elección.</p>",
       "NAME": "Mini",
       "LITTLE_DESCRIPTION": "<p>Nuestra pista de pádel de tamaño reducido que cabe en cualquier lugar.</p>",
       "SUBTITLE": "Nuestra pista de pádel de tamaño reducido que cabe en cualquier lugar.",
@@ -1623,7 +1646,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\">Compacta pero Poderosa: Descubre Nuestra pista de pádel Mini</span>",
-        "DESCRIPTION": "<p>Nuestra pista Mini, diseñada especialmente para introducir a los niños en la alegría del deporte del pádel desde una edad temprana.</p><p>El tamaño reducido de esta pista de pádel asegura que los niños puedan disfrutar cómodamente del juego, gracias a que la pista de pádel está adaptada a su altura y habilidades físicas.</p><p>No solo proporciona un entorno seguro y agradable para que los niños jueguen, sino que también ofrece numerosos beneficios para los clubes: los padres pueden jugar al pádel mientras sus hijos participan en el deporte, fomentando una atmósfera única y acogedora en el club.</p><p>A pesar de su tamaño compacto, nuestro Mini Court ofrece el mismo atractivo estético que las pistas convencionales y ofrece una resistencia excepcional al viento. Además, con nuestras opciones personalizables disponibles, los jóvenes jugadores pueden sentirse como campeones en la pista.</p>",
+        "DESCRIPTION": "<p>Nuestra pista Mini, diseñada especialmente para introducir a los niños en la alegría del deporte del pádel desde una edad temprana.</p><p>El tamaño reducido de esta pista de pádel asegura que los niños puedan disfrutar cómodamente del juego, gracias a que la pista de pádel está adaptada a su altura y habilidades físicas.</p><p>No solo proporciona un entorno seguro y agradable para que los niños jueguen, sino que también ofrece numerosos beneficios para los clubes: los padres pueden jugar al pádel mientras sus hijos participan en el deporte, fomentando una atmósfera única y acogedora en el club.</p><p>A pesar de su tamaño compacto, nuestro Mini Court ofrece el mismo atractivo estético que las pistas convencionales y ofrece una resistencia excepcional al viento. Además, con nuestras opciones personalizables disponibles, los jóvenes jugadores pueden sentirse como campeones en la pista.</p><p>Portico Sport, como fabricante e instalador de pistas de pádel, también ofrece pistas de pádel Mini de alta calidad, perfectas para aquellos que desean disfrutar del deporte en espacios más reducidos o para los más pequeños deportistas. Nuestras pistas de pádel Mini están diseñadas para ofrecer el mismo nivel de diversión y competencia que las pistas de pádel estándar, pero en una escala reducida, lo que las hace ideales para viviendas particulares, colegios y zonas recreativas.</p><p>Nuestras pistas de pádel Mini se construyen en nuestra fábrica con la misma atención al detalle y calidad que el resto de nuestras pistas de pádel. Utilizamos materiales de primera calidad para garantizar que cada pista sea duradera, segura y ofrezca una excelente experiencia de juego.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -1761,6 +1784,16 @@
         "TITLE": "Iluminación LED",
         "SUBTITLE": "¡Ilumina tu Juego con la Iluminación de Pistas de Pádel de Portico Sport!",
         "DESCRIPTION": "<p>Disfruta de la solución de iluminación LED definitiva para pistas de pádel, ofrecida exclusivamente por Portico Sport en asociación con los principales especialistas en el campo.</p><p>Nuestra iluminación de pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas de alto impacto, nuestra solución de iluminación elimina los deslumbramientos y las sombras, proporcionando a los jugadores una visibilidad y rendimiento incomparables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil extendida de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todos los tipos de pistas especificadas en la norma europea para iluminación deportiva (UNE-EN-12193:2020), que van desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Instalación Personalizada de Pistas de Pádel Mini",
+        "DESCRIPTION": "En Portico Sport, ofrecemos instalaciones personalizadas de pistas de pádel mini para adaptarnos a tus necesidades específicas. Nuestro equipo puede diseñar e instalar una pista de pádel mini que se ajuste perfectamente a tu espacio. Trabajamos estrechamente contigo para seleccionar los materiales, el diseño y las características adecuadas, creando una pista que cumpla con tus expectativas."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "¿Cuánto cuesta una pista de pádel mini?",
+        "DESCRIPTION": "El costo de instalar una pista de pádel mini es generalmente más bajo que el de una pista de tamaño completo debido a su tamaño reducido. Normalmente, el costo varía según los materiales utilizados y las características adicionales que desees. Para una estimación detallada, te recomendamos ponerte en contacto con nuestro equipo para obtener una cotización personalizada."
       },
       "GALLERY_SECTION": {
         "ID": "galería",

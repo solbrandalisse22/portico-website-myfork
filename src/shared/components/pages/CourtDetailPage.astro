@@ -15,7 +15,7 @@ import Section from "@/shared/components/Section.astro";
 import Video from "@/shared/components/Video.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
-import { type Photo, type FeatureCourt, type FirstSectionCourt, type BenefitsSectionCourt, type SizingSectionCourt, type InformationSection, type ContactSection, type GallerySection } from "@/types/types";
+import { type Photo, type FeatureCourt, type FirstSectionCourt, type BenefitsSectionCourt, type SizingSectionCourt, type InformationSection, type InstallationSection, type CostSection, type ContactSection, type GallerySection } from "@/types/types";
 import FeatureList from "@/shared/components/FeatureList.astro";
 import { courtsGrid } from "@/shared/i18n/constants";
 
@@ -43,6 +43,8 @@ const isLightningSection = (locale as { LIGHTING_SECTION?: InformationSection })
 const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLERY_SECTION;
 const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
+const isInstallationSection = (locale as { INSTALLATION_SECTION?: InstallationSection }).INSTALLATION_SECTION;
+const isCostSection = (locale as { COST_SECTION?: CostSection }).COST_SECTION;
 
 if (isPaintSection) {
   isPaintSection.IMAGES.forEach((image: Photo) => {
@@ -225,6 +227,18 @@ const compatibleCourts = isMobile
       /> : null
     }
     {
+      isInstallationSection ?
+      <Section id={isInstallationSection.ID} heading={isInstallationSection.TITLE}>
+        <Typography tag="p" className="text-center" text={isInstallationSection.DESCRIPTION} responsive />
+      </Section> : null
+    }
+    {
+      isCostSection ?
+      <Section id={isCostSection.ID} heading={isCostSection.TITLE}>
+        <Typography tag="p" className="text-center" text={isCostSection.DESCRIPTION} responsive />
+      </Section> : null
+    }
+    {
       isGallerySection ? (<Gallery
         id={isGallerySection.ID}
         path={isGallerySection.PATH}
@@ -237,13 +251,24 @@ const compatibleCourts = isMobile
       isCourtsSection ? (<SectionCourtsGrid language={language} courts={compatibleCourts} heading={isCourtsSection.TITLE} subheading={isCourtsSection.DESCRIPTION} />) : null
     }
     {
-      isContactSection ? (<SectionContact
-        hiddenSubject
-        subject={isContactSection.SUBJECT}
-        language={language}
-        bgImage={isContactSection.BG_IMAGE}
-        image={isContactSection.IMAGE}
-      />) : null
+      isContactSection ? (
+        isContactSection.DESCRIPTION ? 
+        <SectionContact
+          hiddenSubject
+          subject={isContactSection.SUBJECT}
+          language={language}
+          bgImage={isContactSection.BG_IMAGE}
+          image={isContactSection.IMAGE}
+          description={isContactSection.DESCRIPTION}
+        /> : 
+        <SectionContact
+          hiddenSubject
+          subject={isContactSection.SUBJECT}
+          language={language}
+          bgImage={isContactSection.BG_IMAGE}
+          image={isContactSection.IMAGE}
+        />
+      ) : null
     }
     
   </main>
