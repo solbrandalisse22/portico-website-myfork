@@ -73,21 +73,23 @@ const i18n = getI18N({ language })
 </style>
 
 <script type="module">
-  const scroller = document.querySelector(".scroller");
-
-  function addAnimation() {
-    scroller.setAttribute("data-animated", true)
-    const scrollerInner = scroller.querySelector(".scroller_inner")
-    const scrollerContent = Array.from(scrollerInner.children)
-
-    scrollerContent.forEach((item) => {
-      const clone = item.cloneNode(true)
-      clone.setAttribute("aria-hidden", true)
-      scrollerInner.appendChild(clone)
-    })
-  }
-
-  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    addAnimation()
-  }
+  document.addEventListener('astro:page-load', () => {
+    const scroller = document.querySelector(".scroller");
+  
+    function addAnimation() {
+      scroller.setAttribute("data-animated", true)
+      const scrollerInner = scroller.querySelector(".scroller_inner")
+      const scrollerContent = Array.from(scrollerInner.children)
+  
+      scrollerContent.forEach((item) => {
+        const clone = item.cloneNode(true)
+        clone.setAttribute("aria-hidden", true)
+        scrollerInner.appendChild(clone)
+      })
+    }
+  
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation()
+    }
+  })
 </script>

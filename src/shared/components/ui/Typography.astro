@@ -180,63 +180,63 @@ const classes = `${processedSize} ${TAGS[tag].extra} ${TYPES[type]} ${className}
 ---
 
 {
-  text && tag === "h1" && (
+  tag === "h1" && (
     <h1 class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </h1>
   )
 }
 {
-  text && tag === "h2" && (
+  tag === "h2" && (
     <h2 class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </h2>
   )
 }
 {
-  text && tag === "h3" && (
+  tag === "h3" && (
     <h3 class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </h3>
   )
 }
 {
-  text && tag === "h4" && (
+  tag === "h4" && (
     <h4 class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </h4>
   )
 }
 {
-  text && tag === "h5" && (
+  tag === "h5" && (
     <h5 class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </h5>
   )
 }
 {
-  text && tag === "h6" && (
+  tag === "h6" && (
     <h6 class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </h6>
   )
 }
 {
-  text && tag === "p" && (
+  tag === "p" && (
     <p class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </p>
   )
 }
 {
-  text && tag === "span" && (
+  tag === "span" && (
     <span class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </span>
   )
 }
 {
-  text && tag === "div" && (
+  tag === "div" && (
     <div class={`${classes}`} set:html={text}>
       {!text && <slot>{text}</slot>}
     </div>

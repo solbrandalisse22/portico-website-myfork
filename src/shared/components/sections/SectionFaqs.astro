@@ -5,11 +5,11 @@ import Faqs from "@/shared/components/ui/Faqs.astro"
 
 import { getI18N } from "../../i18n";
 
-const { language } = Astro.props
+const { language, items, title } = Astro.props
 const i18n = getI18N({ language })
 ---
 
 <Section id={i18n.PAGES.HOME.FAQS_SECTION.ID} className="text-center">
-  <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.HOME.FAQS_SECTION.TITLE} />
-  <Faqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} />
+  <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={title} />
+  <Faqs items={items} />
 </Section>
