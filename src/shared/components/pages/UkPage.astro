@@ -7,18 +7,18 @@ import SectionBentoUK from "@/shared/components/sections/SectionBentoUK.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
-import SectionComplements from "@/shared/components/sections/SectionComplements.astro"
+import SectionComplementsUK from "@/shared/components/sections/SectionComplementsUK.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
-import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
+import SectionGraphicProcessUK from "@/shared/components/sections/SectionGraphicProcessUK.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import { type Photo } from "@/types/types.ts";
 import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
-import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
+import NormativeLogosUK from "@/shared/components/sections/NormativeLogosUK.astro";
 
 interface Props {
   language: string,
@@ -58,10 +58,10 @@ const posts = await response.json();
   </Video>
   <main>
     <SectionIntroUK language={language} />
-    <SectionGraphicProcess language={language} />
+    <SectionGraphicProcessUK language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
-    <NormativeLogos language={language} showInfo />
+    <NormativeLogosUK language={language} showInfo />
     <SectionCanopies
       video="/cubiertas-spot.webm"
       subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_UK.SUBTITLE}
@@ -86,7 +86,7 @@ const posts = await response.json();
       urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_UK.URL.SRC}
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION_UK.URL.LABEL}
     />
-    <SectionComplements language={language} />
+    <SectionComplementsUK language={language} />
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
     <NewsList language={language} posts={posts} />
     <SectionContact

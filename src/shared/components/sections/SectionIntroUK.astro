@@ -10,9 +10,7 @@ const i18n = getI18N({ language })
 ---
 
 <Section id={i18n.PAGES.HOME.INTRO_SECTION_UK.ID} className="text-center">
-  <div class="flex justify-center items-center mb-6">
-    <LogoWhiteUK width={350} />
-  </div>
+  <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.HOME.INTRO_SECTION_UK.TITLE} />
   <div class="flex flex-col md:flex-row gap-2">
     <div class="flex-1">
       <Typography tag="div" className="max-w-[60ch] mx-auto" text={i18n.PAGES.HOME.INTRO_SECTION_UK.DESCRIPTION} />
