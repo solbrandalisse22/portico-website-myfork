@@ -86,7 +86,7 @@ const lineLength = 50; // Longitud de las líneas
   <Typography tag="h2" className="mx-auto mb-6 text-center font-semibold" text={i18n.PAGES.HOME.GRAPHIC_PROCESS_SECTION.TITLE} />
   <Typography tag="h3" className="mx-auto mb-12 text-center font-semibold" text={i18n.PAGES.HOME.GRAPHIC_PROCESS_SECTION.SUBTITLE} />
   <Typography tag="p" className="max-w-[60ch] mx-auto" text={i18n.PAGES.HOME.GRAPHIC_PROCESS_SECTION.DESCRIPTION} />
-  <div class="flex items-center justify-center h-[400px] lg:h-[600px] relative">
+  <div class="flex items-center justify-center h-[400px] lg:h-[600px] relative mt-16">
     <img
       src="/logo-portico-sport-circular-white.svg"
       alt="Portico Sport"
@@ -164,16 +164,16 @@ const lineLength = 50; // Longitud de las líneas
                   transform,
                 }}
               >
-                <Typography tag="h2" className="flex justify-center gap-2 items-center text-center font-bold" customSize="text-sm">
+                <Typography tag="span" className="flex justify-center gap-2 items-center text-center font-bold" customSize="text-sm">
                   <span
-                    class="text-xl"
+                    class="text-xl font-bold"
                     style={{
                       color,
                     }}
                   >
                     {number}.
                   </span>{" "}
-                  <span class={`name-${number}`}>{name}</span>
+                  <span class={`name-${number} font-bold`}>{name}</span>
                 </Typography>
                 <p class={`subtitle text-xs text-gray-300 text-pretty subtitle-${number}`}>
                   {subtitle}
