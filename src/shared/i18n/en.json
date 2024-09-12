@@ -2082,7 +2082,6 @@
     },
     "PROJECTS": {
       "ID": "projects",
-      "TYPE": "PRODUCT",
       "SEO_TITLE": "Portico Sport's Latest Projects",
       "SEO_DESCRIPTION":"Explore the latest projects by Portico Sport, showcasing our innovative padel courts and canopies. See our work now!",
       "OG_IMG": "https://www.porticosport.com/og/og-projects.jpg",
@@ -2106,7 +2105,6 @@
     },
     "FACTORY": {
       "ID": "our-factory",
-      "TYPE": "PRODUCT",
       "SEO_TITLE": "Explore Portico Sport's Cutting-Edge Factory",
       "SEO_DESCRIPTION":"Discover Portico Sport's state-of-the-art factory, spanning over 8,000 square meters and equipped with the latest technology. See how we lead in padel court manufacturing!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2226,7 +2224,6 @@
     },
     "WORK_WITH_US": {
       "ID": "work-with-us",
-      "TYPE": "PRODUCT",
       "SEO_TITLE": "Join Our Team at Portico Sport",
       "SEO_DESCRIPTION": "Explore career opportunities at Portico Sport, a leader in the global padel industry. Send us your CV and empower your career with us!",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
@@ -2267,7 +2264,6 @@
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "authorized-distributor",
       "SEO_TITLE": "Become a Portico Sport Distributor",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION": "Join us as an authorized distributor and access premium padel court solutions. Elevate your business with our quality products and support.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
       "TITLE": "Would you Like to become a Portico Sport's distributor in your country?",
@@ -2300,7 +2296,6 @@
     },
     "CLIENT_CONTACT": {
       "ID": "client-contact",
-      "TYPE": "PRODUCT",
       "SEO_TITLE": "Connect with Portico Sport",
       "SEO_DESCRIPTION": "Reach out to Portico Sport for premium padel court solutions. Start building your dream padel court with our expert guidance and support.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -2500,7 +2495,6 @@
     "PRIVACY": {
       "ID": "privacy",
       "SEO_TITLE": "Privacy Policy",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Explore our Privacy Policy and General Conditions at Portico Sport. Learn about data protection, user rights, intellectual property, and more.",
       "ROUTE": {
         "LABEL": "Privacy Policy",

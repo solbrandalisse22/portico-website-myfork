@@ -9,28 +9,52 @@ interface Props {
 
 /** https://developers.google.com/search/docs/appearance/structured-data/organization */
 const organizationSchema = {
-	"@context": "https://schema.org",
-	"@type": "Organization",
-	"url": "https://www.porticosport.com",
-	"image": "https://www.porticosport.com/og/og-portico.jpg",
-	"sameAs": [
-		"https://www.facebook.com/porticosport",
-		"https://x.com/portico_sport",
-		"https://www.instagram.com/portico.sport",
-		"https://www.linkedin.com/company/portico-sport/"
-	],
-	"logo": "https://www.porticosport.com/logo-portico-sport.svg",
-	"name": "Portico Sport: Padel Courts & Canopies Worldwide",
-	"description": "Portico Sport: Premier Padel court construction & canopy installation globally",
-  "email": "info@porticosport.com",
-  "telephone": "+34-628-818-913",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "C/ Albañiles",
-    "addressLocality": "Badajoz",
-    "addressCountry": "ES",
-    "addressRegion": "Villafranca de los Barros",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PorticoSport",
+  "url": "https://www.porticosport.com/",
+  "logo": "https://www.porticosport.com/logo-portico-sport.svg",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "email": "info@porticosport.com",
+      "telephone": "+34-628-818-913",
+      "contactType": "customer service"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+44-01619899842",
+      "contactType": "customer service"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/porticosport",
+    "https://x.com/portico_sport",
+    "https://www.instagram.com/portico.sport",
+    "https://www.linkedin.com/company/portico-sport/"
+  ],
+  "hasMap": [
+    "https://www.google.com/maps?cid=8349762402457104078",
+    "https://www.google.com/maps?cid=15007644733581332228"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "83"
   },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Padel Court Builders",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      }
+    }
+  }
 }
 const { site } = Astro
 const { language, key, pathname } = Astro.props
@@ -40,27 +64,45 @@ const { TYPE, ROUTE, SEO_DESCRIPTION, OG_IMG } = i18n.PAGES[key]
 
 const TYPES = {
   PRODUCT: {
-  "@context": "https://schema.org/",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": i18n.PAGES.HOME.ROUTE.BREADCRUMB,
-    "item": site
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": ROUTE.TITLE || ROUTE.LABEL,
-    "item": `${site}${pathname.slice(0,1) === '/' ? pathname.slice(1) : pathname}`
-  }]
-},
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": i18n.PAGES[key].ROUTE.BREADCRUMB,
+    "image": i18n.PAGES[key].OG_IMG,
+    "description": i18n.PAGES[key].SEO_DESCRIPTION,
+    "brand": {
+      "@type": "Brand",
+      "name": "PorticoSport"
+    }
+  },
+  UK: {
+    "@context": "https://schema.org",
+    "@type": "ConstructionCompany",
+    "name": "Portico Sport UK",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Unit 2, Norse Trade Park, Barn Rd, Viking Wy., Congleton CW12 1LB",
+      "addressLocality": "Somford",
+      "addressRegion": "-",
+      "postalCode": "CW12 1LB",
+      "addressCountry": "UK"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.17183062119886,
+      "longitude": -2.22275553069014
+    },
+    "telephone": "01619899842",
+    "url": "https://www.porticosport.com/",
+    "email": "info@porticosport.com",
+    "description": "Premier Padel court construction & canopy installation globally. Explore our tailored solutions today!"
+  },
   DEFAULT: organizationSchema
 }
 
-let schema = TYPES.DEFAULT
+let schema = pathname === '/uk' ? TYPES.UK : TYPES.DEFAULT
 
 if (TYPE) {
-  schema = TYPES[TYPE] || TYPES.DEFAULT;
+  schema = TYPES[TYPE] || schema;
 }
 ---
 
