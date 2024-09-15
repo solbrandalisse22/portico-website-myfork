@@ -1,0 +1,35 @@
+---
+import ArticleCard from '@/shared/components/ArticleCard.astro';
+import AuthorBoxContent from './AuthorBoxContent.astro';
+
+const { name, description, avatar, socialMedia, isBox, slug, className = '' } = Astro.props;
+
+const wrapperWidth = 'max-w-[1200px] mx-auto';
+---
+{ isBox ? (
+  <ArticleCard
+    className={`mb-4 ${wrapperWidth}`}
+  >
+    <div slot="body">
+      <AuthorBoxContent
+        name={name}
+        description={description}
+        avatar={avatar}
+        socialMedia={socialMedia}
+        isBox={isBox}
+        slug={slug}
+      />
+    </div>
+  </ArticleCard>
+) : (
+  <div class={`mb-4 ${wrapperWidth} ${className}`}>
+    <AuthorBoxContent
+      name={name}
+      description={description}
+      avatar={avatar}
+      socialMedia={socialMedia}
+      isBox={isBox}
+    />
+  </div>
+)
+}

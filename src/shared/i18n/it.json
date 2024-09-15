@@ -2141,6 +2141,23 @@
         "SUBTITLE": "Le ultime notizie da Portico Sport"
       }
     },
+    "AUTHOR": {
+      "ID": "author",
+      "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
+      "TITLE": "Tutti i nostri Autori",
+      "SUBTITLE": "Scopri gli Autori di Portico Sport",
+      "TITLE_ALT": "Articoli di %author%",
+      "BUTTON": "Leggi di più",
+      "ROUTE": {
+        "LABEL": "autori",
+        "URL": "/autori"
+      },
+      "LIST": {
+        "TITLE": "Articoli di %author%",
+        "SUBTITLE": "Gli ultimi articoli di %author%",
+        "NOT_FOUND": "L'autore non esiste o non ha ancora pubblicato articoli."
+      }
+    },
     "CONTACT": {
       "ID": "contatto",
       "SEO_TITLE": "Contatta Portico Sport",

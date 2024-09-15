@@ -1,0 +1,14 @@
+---
+import AuthorPage from "@/shared/components/pages/AuthorPage.astro"
+import { LANGUAGES } from "@/shared/i18n/constants"
+const { slug } = Astro.params;
+
+interface Props {
+  language: string;
+}
+
+export const prerender = false
+
+---
+
+<AuthorPage slug={slug || ''} language={LANGUAGES.EN} />

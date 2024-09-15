@@ -37,7 +37,7 @@
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
-        "TITLE": "With you throughout the entire process",
+        "TITLE": "Padel court builders worldwide",
         "SUBTITLE": "Benefits of our construction of padel courts",
         "DESCRIPTION": "As expert Padel court builders, we focus on creating lasting relationships with our clients by delivering tailored solutions from start to finish. Our team provides personalized designs, financing options, and premium quality Padel courts built to meet your specific needs. With Portico Sport, you’ll always have support, even after installation, ensuring long-term satisfaction and success.",
         "POINT_1": {
@@ -74,7 +74,12 @@
         }
       },
       "GRAPHIC_PROCESS_SECTION_UK": {
+        "TITLE": "Padel court builders in UK",
         "DESCRIPTION": "<p>As experienced Padel court builders in the UK, our team focus on creating strong, lasting relationships with our clients by offering bespoke solutions from start to finish. Thanks to our dedication and expertise, we've established key partnerships with some of the uks market leaders such as Rocket Padel, Game4Padel and The Padel Club.</p><p>Our team provides customised designs, tailored financing options, and premium quality Padel courts that meet your unique requirements. With Portico Sport UK, you’ll always have support, including post-installation, ensuring long-term satisfaction and success.</p>"
+      },
+      "GRAPHIC_PROCESS_SECTION_USA": {
+        "TITLE": "Padel court builders in USA",
+        "DESCRIPTION": "<p>As experienced Padel court builders in the USA, our team focus on creating strong, lasting relationships with our clients by offering bespoke solutions from start to finish.</p><p>Our team provides customised designs, tailored financing options, and premium quality Padel courts that meet your unique requirements. With Portico Sport, you’ll always have support, including post-installation, ensuring long-term satisfaction and success.</p>"
       },
       "COURTS_SECTION": {
         "ID": "padel-courts",
@@ -91,8 +96,8 @@
       "CANOPIES_SECTION_USA": {
         "ID": "canopies",
         "TITLE": "Canopies",
-        "SUBTITLE": "Strength, durability and perfect integration",
-        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
+        "SUBTITLE": "Perfect integration",
+        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p><p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for Padel, combining differentiating features for this sport that are hard to match by other types of canopies. Whether you're looking for Padel court construction in the USA or internationally, Portico Sport is a leader in the design and installation of sports canopies.</p>",
         "BUTTON_TEXT": "More about canopies"
       },
       "CANOPIES_SECTION_UK": {
@@ -430,7 +435,7 @@
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Mobile Padel Court dimensions",
-        "DESCRIPTION": "<p>The standard dimensions for a Mobile Padel court are 20 meters long by 10 meters wide. This is the official size for professional Padel courts, providing ample space for competitive play. We also offer customized sizes depending on the available space and intended use. Our Mobile Padel courts are built to meet the highest standards of quality and safety, ensuring a premium experience for all players.</p>",
+        "DESCRIPTION": "The standard dimensions for a Mobile Padel court are 20 meters long by 10 meters wide. This is the official size for professional Padel courts, providing ample space for competitive play. We also offer customized sizes depending on the available space and intended use. Our Mobile Padel courts are built to meet the highest standards of quality and safety, ensuring a premium experience for all players.",
         "INDOOR_TITLE": "Indoor",
         "OUTDOOR_TITLE": "Outdoor",
         "OUTDOOR": "<p><strong>12 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,96 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
@@ -2208,6 +2213,23 @@
       "LIST": {
         "TITLE": "Our last News",
         "SUBTITLE": "The latest news from Portico Sport"
+      }
+    },
+    "AUTHOR": {
+      "ID": "author",
+      "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
+      "TITLE": "All our Authors",
+      "SUBTITLE": "Discover the Authors of Portico Sport",
+      "TITLE_ALT": "Articles of %author%",
+      "BUTTON": "Read more",
+      "ROUTE": {
+        "LABEL": "authors",
+        "URL": "/authors"
+      },
+      "LIST": {
+        "TITLE": "Articles of %author%",
+        "SUBTITLE": "The latest articles of %author%",
+        "NOT_FOUND": "The author not exist or does not have any articles yet."
       }
     },
     "CONTACT": {

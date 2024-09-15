@@ -2098,6 +2098,23 @@
         "SUBTITLE": "Die neuesten Nachrichten von Portico Sport"
       }
     },
+    "AUTHOR": {
+      "ID": "author",
+      "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
+      "TITLE": "Alle unsere Autoren",
+      "SUBTITLE": "Entdecken Sie die Autoren von Portico Sport",
+      "TITLE_ALT": "Artikel von %author%",
+      "BUTTON": "Mehr lesen",
+      "ROUTE": {
+        "LABEL": "autoren",
+        "URL": "/autoren"
+      },
+      "LIST": {
+        "TITLE": "Artikel von %author%",
+        "SUBTITLE": "Die neuesten Artikel von %author%",
+        "NOT_FOUND": "Der Autor existiert nicht oder hat noch keine Artikel."
+      }
+    },
     "CONTACT": {
       "ID": "contact",
       "SEO_TITLE": "Kontaktieren Sie Portico Sport",

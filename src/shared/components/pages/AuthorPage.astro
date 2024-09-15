@@ -1,0 +1,112 @@
+---
+import wapapi from 'wpapi';
+import Layout from "@/shared/layouts/Layout.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import AuthorBox from "@/shared/components/AuthorBox.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Pagination from "@/shared/components/Pagination.astro";
+import NewsList from "@/shared/components/NewsList.astro";
+import Typography from '../ui/Typography.astro';
+
+const WPAPI = wapapi.default || wapapi;
+const { language, slug } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const credentials = {
+  username: 'Portico',  // Reemplaza con tu nombre de usuario
+  password: '$b*IiBMFWxV%3!GfqAhzW$q^'  // Reemplaza con tu contraseña
+};
+
+const wp = new WPAPI({
+  endpoint: 'https://portico.porticosport.com/wp-json',
+  username: credentials.username,
+  password: credentials.password
+});
+
+const [user] = await wp.users().slug(slug).get().then((data) => {
+  return data;
+})
+
+const { id, name, description, simple_local_avatar, yoast_head_json } = user || {};
+const avatar = simple_local_avatar?.full;
+const { schema } = yoast_head_json || {}
+const [ person ] = schema?.['@graph']?.slice(-1) || [];
+const socialMedia = person?.sameAs
+
+const page = Number(Astro.url.searchParams.get("page") || 1);
+
+// https://portico.porticosport.com/wp-json/wp/v2/posts?author=3500&per_page=12&page=1&_embed
+const posts = await wp.posts().author(id).perPage(12).page(page).embed().then((data) => {
+  return data;
+})
+
+const totalPages = Number(posts?._paging?.totalPages || 0);
+const hidePagination = totalPages <= 1;
+
+const title = i18n.PAGES.AUTHOR.LIST.TITLE.replace('%author%', name);
+const subtitle = i18n.PAGES.AUTHOR.LIST.SUBTITLE.replace('%author%', name);
+---
+
+<Layout
+  title={title}
+  description={description}
+  currentLocale={currentLocale}
+  language={language}
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:min-h-[20rem] lg:aspect-[16/7] flex justify-center items-center flex-col gap-4 px-4 z-10"
+    >
+      {
+        id && posts?.length ? 
+        <AuthorBox name={name} description={description} avatar={avatar} socialMedia={socialMedia} />
+        : <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.AUTHOR.LIST.NOT_FOUND} responsive />
+      }
+    </div>
+    {
+      id && posts?.length ? <div class="bg-main relative bg-background">
+        <Breadcrumb
+          crumbs={[
+            {
+              label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+              href: i18n.PAGES.HOME.ROUTE.URL,
+            },
+            {
+              label: i18n.PAGES.AUTHOR.ROUTE.LABEL,
+              href: i18n.PAGES.AUTHOR.ROUTE.URL,
+            },
+            {
+              label: name,
+              href: `${i18n.PAGES.HOME.ROUTE.URL}${i18n.PAGES.NEWS.ROUTE.URL}/${slug}`,
+            },
+          ]}
+        />
+
+        <NewsList posts={posts} language={language} heading={title} subheading={subtitle} />
+        {!hidePagination && <Pagination page={page} totalPages={totalPages} principalRoute={`${i18n.PAGES.AUTHOR.ROUTE.URL}/${slug}`} />}
+      </div> : null
+    }
+  </main>
+</Layout>
+
+<style>
+  .date::before {
+    content: " - ";
+  }
+</style>
+<style is:global>
+  .content a {
+    @apply text-primary;
+    @apply transition-colors;
+  }
+
+  .content a:hover {
+    @apply text-secondary;
+  }
+
+  .wp-block-image {
+    @apply my-8;
+  }
+</style>

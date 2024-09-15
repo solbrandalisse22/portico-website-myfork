@@ -1,0 +1,98 @@
+---
+import wapapi from 'wpapi';
+import Layout from "@/shared/layouts/Layout.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import AuthorBox from "@/shared/components/AuthorBox.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Pagination from "@/shared/components/Pagination.astro";
+import NewsList from "@/shared/components/NewsList.astro";
+import Typography from '../ui/Typography.astro';
+
+const WPAPI = wapapi.default || wapapi;
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const credentials = {
+  username: 'Portico',  // Reemplaza con tu nombre de usuario
+  password: '$b*IiBMFWxV%3!GfqAhzW$q^'  // Reemplaza con tu contraseña
+};
+
+const wp = new WPAPI({
+  endpoint: 'https://portico.porticosport.com/wp-json',
+  username: credentials.username,
+  password: credentials.password
+});
+
+// https://portico.porticosport.com/wp-json/wp/v2/users?roles=contributor,administrator
+const [users] = await wp.users().roles('contributor', 'administrator').get().then((data) => {
+  return data;
+})
+
+console.log(JSON.stringify(users, null, 2))
+
+---
+
+<Layout
+  title={i18n.PAGES.AUTHOR.TITLE}
+  description={i18n.PAGES.AUTHOR.SUBTITLE}
+  currentLocale={currentLocale}
+  language={language}
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col">
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4">
+      <Typography
+        tag="h1"
+        className="uppercase mb-6 font-bold"
+        text={i18n.PAGES.NEWS.TITLE}
+        responsive
+      />
+      <Typography
+        tag="div"
+        className="text-center px-3 md:px-6 lg:px-24 xl:px-48"
+        text={i18n.PAGES.NEWS.SUBTITLE}
+        responsive
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          {
+            label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+            href: i18n.PAGES.HOME.ROUTE.URL,
+          },
+          {
+            label: i18n.PAGES.AUTHOR.ROUTE.LABEL,
+            href: i18n.PAGES.AUTHOR.ROUTE.URL,
+          },
+          {
+            label: name,
+            href: `${i18n.PAGES.HOME.ROUTE.URL}${i18n.PAGES.NEWS.ROUTE.URL}/${slug}`,
+          },
+        ]}
+      />
+
+      <!-- <NewsList posts={posts} language={language} heading={title} subheading={subtitle} /> -->
+  </main>
+</Layout>
+
+<style>
+  .date::before {
+    content: " - ";
+  }
+</style>
+<style is:global>
+  .content a {
+    @apply text-primary;
+    @apply transition-colors;
+  }
+
+  .content a:hover {
+    @apply text-secondary;
+  }
+
+  .wp-block-image {
+    @apply my-8;
+  }
+</style>
