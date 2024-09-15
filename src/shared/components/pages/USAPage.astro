@@ -12,7 +12,7 @@ import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogo
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import Gallery from "../Gallery.astro"
 import NewsList from "../NewsList.astro"
-import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
+import SectionGraphicProcessUSA from "@/shared/components/sections/SectionGraphicProcessUSA.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import { type Photo } from "@/types/types.ts";
 import LogoFep from "@/shared/components/logos/LogoFep.astro";
@@ -55,7 +55,7 @@ const posts = await response.json();
   </Video>
   <main>
     <SectionIntroUSA language={language} />
-    <SectionGraphicProcess language={language} />
+    <SectionGraphicProcessUSA language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
     <NormativeLogos language={language} showInfo />

@@ -7,6 +7,7 @@ import { type Photo } from "@/types/types.ts";
 interface Props {
   id: string;
   title: string;
+  description?: string;
   outdoorText: string;
   indoorText: string;
   outdoorTitle: string;
@@ -14,7 +15,7 @@ interface Props {
   imageSizing: Photo;
 }
 
-const { title, outdoorText, indoorText, imageSizing, id, indoorTitle, outdoorTitle } = Astro.props
+const { title, outdoorText, indoorText, imageSizing, id, indoorTitle, outdoorTitle, description } = Astro.props
 ---
 
 <Section id={id} className="max-w-none relative border-b-4 border-white">
@@ -23,6 +24,9 @@ const { title, outdoorText, indoorText, imageSizing, id, indoorTitle, outdoorTit
     <img loading="lazy" src={imageSizing.src} alt={imageSizing.alt} class="aspect-video md:h-72 xl:h-96 z-10" />
     <div class=" z-10">
       <Typography tag="h2" type="secondary" className="font-bold mb-8 uppercase" text={title} />
+      {
+        description ? <Typography tag="p" className="mt-4 text-left" text={description} responsive /> : null
+      }
       {
         outdoorText ? 
         <Typography tag="h3" type="primary" className="font-bold mt-2" text={outdoorTitle} />

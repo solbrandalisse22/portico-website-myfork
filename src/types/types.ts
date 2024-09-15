@@ -98,6 +98,9 @@ export interface BenefitsSectionCourt {
 export interface SizingSectionCourt {
   ID: string;
   TITLE: string;
+  INDOOR_TITLE: string;
+  OUTDOOR_TITLE: string;
+  DESCRIPTION?: string;
   OUTDOOR: string;
   INDOOR: string;
   IMAGE: Photo;
