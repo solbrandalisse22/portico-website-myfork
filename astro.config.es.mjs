@@ -16,7 +16,7 @@ export default defineConfig({
   redirects: {
     "/pistas-de-padel": "/",
     "/pistas-de-padel/panoramique": "/panoramic",
-    "/pistas-de-padel/flow": "/flow",
+    "/pistas-de-padel/flow": "/tournament",
     "/pistas-de-padel/club": "/club",
     "/pistas-de-padel/club-force-80": "/club-force-80",
     "/pistas-de-padel/mini": "/mini",

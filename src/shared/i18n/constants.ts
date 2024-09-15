@@ -26,14 +26,14 @@ export const courtsGrid = (i18n: any) => {
       }
     },
     {
-      title: i18n.PAGES.FLOW_COURT.TITLE,
-      description: i18n.PAGES.FLOW_COURT.LITTLE_DESCRIPTION,
-      url: i18n.PAGES.FLOW_COURT.ROUTE.URL,
-      label: i18n.PAGES.FLOW_COURT.ROUTE.LABEL,
-      more: i18n.PAGES.FLOW_COURT.ROUTE.LABEL,
+      title: i18n.PAGES.TOURNAMENT_COURT.TITLE,
+      description: i18n.PAGES.TOURNAMENT_COURT.LITTLE_DESCRIPTION,
+      url: i18n.PAGES.TOURNAMENT_COURT.ROUTE.URL,
+      label: i18n.PAGES.TOURNAMENT_COURT.ROUTE.LABEL,
+      more: i18n.PAGES.TOURNAMENT_COURT.ROUTE.LABEL,
       image: {
-        src: i18n.PAGES.FLOW_COURT.CONTACT_SECTION.IMAGE,
-        alt: i18n.PAGES.FLOW_COURT.NAME,
+        src: i18n.PAGES.TOURNAMENT_COURT.CONTACT_SECTION.IMAGE,
+        alt: i18n.PAGES.TOURNAMENT_COURT.NAME,
       }
     },
     {

@@ -369,47 +369,47 @@
       },
       "HOME_DESCRIPTION": "<p><strong>Der Mobile Court</strong> ist das neueste und innovativste Produkt von Portico Sport, das eine völlig neue Dimension der Flexibilität in der Padelplatztechnologie bietet. Entwickelt, um Padel auf nahezu jedem ebenen Untergrund zu ermöglichen, revolutioniert dieser Platz die Art und Weise, wie Padelplätze installiert und genutzt werden.</p><p>Unser patentiertes System vereint robuste Konstruktion mit Mobilität und kann problemlos für temporäre Veranstaltungen oder dauerhafte Installationen genutzt werden. Mit minimalem Platzbedarf und maximaler Flexibilität bietet der Mobile Court eine kostengünstige Lösung für alle, die Padel genießen möchten, egal wo sie sind.</p>"
     },
-    "FLOW_COURT": {
-      "ID": "flow",
-      "SEO_TITLE": "Flow Court - Padelplatz mit uneingeschränkter Aussicht",
-      "SEO_DESCRIPTION": "Entdecken Sie den Flow Court: Keine Ecken, klare Panoramablicke, das ultimative Padel-Erlebnis für Spieler und Zuschauer.",
+    "TOURNAMENT_COURT": {
+      "ID": "tournament",
+      "SEO_TITLE": "Tournament Court - Padelplatz mit uneingeschränkter Aussicht",
+      "SEO_DESCRIPTION": "Entdecken Sie den Tournament Court: Keine Ecken, klare Panoramablicke, das ultimative Padel-Erlebnis für Spieler und Zuschauer.",
       "TYPE": "PRODUCT",
-      "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
-      "TITLE": "<span>Flow Court</span>",
-      "DETAIL_TITLE": "<span>Flow Court</span>",
-      "DESCRIPTION": "<p>Inspiriert von den Plätzen, die Sie im Fernsehen bei professionellen Veranstaltungen sehen, ist der Flow Court eine Weiterentwicklung unseres Panoramaplatzmodells.</p><p>Entworfen von der Ingenieurabteilung von Portico Sport, eliminiert dieses Platzmodell die Ecken der Stahlstruktur, sodass die durchgehenden Glaswände eine ungehinderte Panoramaaussicht auf die Umgebung bieten können.</p><p>Dieses großartige Design, gepaart mit akribischer Ästhetik, macht diesen Platz am attraktivsten für diejenigen, die möchten, dass ihre Zuschauer ein unvergleichliches Padel-Erlebnis genießen.</p>",
+      "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+      "TITLE": "<span>Tournament Court</span>",
+      "DETAIL_TITLE": "<span>Tournament Court</span>",
+      "DESCRIPTION": "<p>Inspiriert von den Plätzen, die Sie im Fernsehen bei professionellen Veranstaltungen sehen, ist der Tournament Court eine Weiterentwicklung unseres Panoramaplatzmodells.</p><p>Entworfen von der Ingenieurabteilung von Portico Sport, eliminiert dieses Platzmodell die Ecken der Stahlstruktur, sodass die durchgehenden Glaswände eine ungehinderte Panoramaaussicht auf die Umgebung bieten können.</p><p>Dieses großartige Design, gepaart mit akribischer Ästhetik, macht diesen Platz am attraktivsten für diejenigen, die möchten, dass ihre Zuschauer ein unvergleichliches Padel-Erlebnis genießen.</p>",
       "SUBTITLE": "Genießen Sie Padel mit uneingeschränkter Panoramaaussicht auf die Umgebung.",
-      "NAME": "Flow",
+      "NAME": "Tournament",
       "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel mit uneingeschränkter Panoramaaussicht auf die Umgebung.</p>",
-      "CONTACT_TITLE_1": "Möchten Sie einen Flow Court?",
-      "CONTACT_SUBJECT": "Neue Anfrage vom Flow Court",
-      "CONTACT_BUTTON": "Ich möchte einen Flow Court",
+      "CONTACT_TITLE_1": "Möchten Sie einen Tournament Court?",
+      "CONTACT_SUBJECT": "Neue Anfrage vom Tournament Court",
+      "CONTACT_BUTTON": "Ich möchte einen Tournament Court",
       "ROUTE": {
-        "LABEL": "Mehr über den Flow Court erfahren",
-        "URL": "/flow",
-        "TITLE": "Padelplatz Flow"
+        "LABEL": "Mehr über den Tournament Court erfahren",
+        "URL": "/tournament",
+        "TITLE": "Padelplatz Tournament"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erleben Sie Padel wie nie zuvor!</span>",
-        "DESCRIPTION": "<p>Unvergleichliche Ästhetik, uneingeschränkte Aussicht, fühlen Sie sich wie ein Profi! Design, um den Spielern ein Spielerlebnis auf Profiniveau zu bieten, während die regulären starken Nutzungbedingungen eines Padel-Clubs standhalten.</p><p>Perfekt an jede Umgebung angepasst, drinnen oder draußen, hat der Flow Court keine Strukturelemente, die die Aussicht behindern, was ihn zum perfekten Platz für Ihre Clubveranstaltungen und Turniere macht.</p><p>Der Flow Court ist die beste Option für Clubs, die die am angenehmsten aussehenden Plätze haben möchten.</p>",
+        "DESCRIPTION": "<p>Unvergleichliche Ästhetik, uneingeschränkte Aussicht, fühlen Sie sich wie ein Profi! Design, um den Spielern ein Spielerlebnis auf Profiniveau zu bieten, während die regulären starken Nutzungbedingungen eines Padel-Clubs standhalten.</p><p>Perfekt an jede Umgebung angepasst, drinnen oder draußen, hat der Tournament Court keine Strukturelemente, die die Aussicht behindern, was ihn zum perfekten Platz für Ihre Clubveranstaltungen und Turniere macht.</p><p>Der Tournament Court ist die beste Option für Clubs, die die am angenehmsten aussehenden Plätze haben möchten.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/flow/flow-front.webp",
-            "alt": "Frontansicht des Flow Courts"
+            "src": "/courts-detail/tournament/tournament-front.webp",
+            "alt": "Frontansicht des Tournament Courts"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/flow/flow-perspective.webp",
-            "alt": "Perspektivansicht des Flow Courts"
+            "src": "/courts-detail/tournament/tournament-perspective.webp",
+            "alt": "Perspektivansicht des Tournament Courts"
           },
           "TOP": {
-            "src": "/courts-detail/flow/flow-top.webp",
+            "src": "/courts-detail/tournament/tournament-top.webp",
             "alt": "Panoramablick auf den Platz von oben"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Flow Courts",
+        "TITLE": "Erleben Sie die Vorteile unseres Tournament Courts",
         "BENEFITS": [
           {
             "header": "10 Jahre Garantie",
@@ -441,15 +441,15 @@
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Maße des Flow Courts",
+        "TITLE": "Maße des Tournament Courts",
         "INDOOR_TITLE": "Innenbereich",
         "OUTDOOR_TITLE": "Außenbereich",
         "OUTDOOR": "<p><strong>Länge</strong>: 20,50 m </p><p><strong>Breite</strong>: 10,46 m </p>",
         "INDOOR": "<p><strong>Länge</strong>: 20 m </p><p><strong>Breite</strong>: 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/flow/flow-sizing.webp",
-          "alt": "Innen- und Außenmaße des Flow Courts"
+          "src": "/courts-detail/tournament/tournament-sizing.webp",
+          "alt": "Innen- und Außenmaße des Tournament Courts"
         }
       },
       "GLASS_SECTION": {
@@ -525,7 +525,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
-        "PATH": "courts-detail/flow/gallery",
+        "PATH": "courts-detail/tournament/gallery",
         "OFFSET": 17
       },
       "COURTS_SECTION": {
@@ -534,33 +534,33 @@
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "Neue Anfrage vom Flow Court",
+        "SUBJECT": "Neue Anfrage vom Tournament Court",
         "TITLE": "Neuigkeiten",
-        "BG_IMAGE": "/courts-detail/flow/flow-contact-bg.webp",
-        "IMAGE": "/courts-detail/flow/flow-court-contact.webp"
+        "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
       },
       "HOME_DESCRIPTION": "Unvergleichliche Ästhetik, uneingeschränkte Aussicht, fühlen Sie sich wie ein Profi! Design, um den Spielern ein Spielerlebnis auf Profiniveau zu bieten, während die regulären starken Nutzungbedingungen eines Padel-Clubs standhalten",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
-          "src": "/courts/flow-court-01.webp",
+          "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Flow Court"
+          "imgAlt": "Tournament Court"
         },
         {
           "id": "slide-2",
-          "src": "/courts/flow-court-02.webp",
+          "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Flow Court"
+          "imgAlt": "Tournament Court"
         },
         {
           "id": "slide-3",
-          "src": "/courts/flow-court-03.webp",
+          "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Flow Court"
+          "imgAlt": "Tournament Court"
         }
       ]
     },

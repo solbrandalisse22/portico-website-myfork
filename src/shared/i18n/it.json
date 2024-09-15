@@ -413,47 +413,47 @@
         }
       ]
     },
-    "FLOW_COURT": {
-      "ID": "flow",
+    "TOURNAMENT_COURT": {
+      "ID": "tournament",
       "TYPE": "PRODUCT",
-      "SEO_TITLE": "Flow Court - Campo da Padel con Vista Panoramica",
-      "SEO_DESCRIPTION": "Scopri il Flow Court: Senza angoli, chiare viste panoramiche, l'esperienza di padel definitiva per giocatori e spettatori.",
-      "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
-      "TITLE": "<span>Campo Flow</span>",
-      "DETAIL_TITLE": "<span>Campo Flow</span>",
-      "DESCRIPTION": "<p>Ispirato ai campi che vedi in TV durante eventi professionali, il Campo Flow è un'evoluzione del nostro modello di campo Panoramico.</p><p>Progettato dal dipartimento di ingegneria di Portico Sport, questo modello di campo elimina gli angoli della struttura in acciaio, consentendo alle pareti continue in vetro ad alta resistenza di fornire una vista panoramica senza ostacoli dell'ambiente circostante.</p><p>Questo magnifico design, unito a un'estetica meticolosa, rende questo campo il più attraente per coloro che vogliono che i loro spettatori godano di un'esperienza di padel senza eguali.</p>",
+      "SEO_TITLE": "Tournament Court - Campo da Padel con Vista Panoramica",
+      "SEO_DESCRIPTION": "Scopri il Tournament Court: Senza angoli, chiare viste panoramiche, l'esperienza di padel definitiva per giocatori e spettatori.",
+      "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+      "TITLE": "<span>Campo Tournament</span>",
+      "DETAIL_TITLE": "<span>Campo Tournament</span>",
+      "DESCRIPTION": "<p>Ispirato ai campi che vedi in TV durante eventi professionali, il Campo Tournament è un'evoluzione del nostro modello di campo Panoramico.</p><p>Progettato dal dipartimento di ingegneria di Portico Sport, questo modello di campo elimina gli angoli della struttura in acciaio, consentendo alle pareti continue in vetro ad alta resistenza di fornire una vista panoramica senza ostacoli dell'ambiente circostante.</p><p>Questo magnifico design, unito a un'estetica meticolosa, rende questo campo il più attraente per coloro che vogliono che i loro spettatori godano di un'esperienza di padel senza eguali.</p>",
       "SUBTITLE": "Goditi il padel con una vista panoramica senza ostacoli dell'ambiente circostante.",
-      "NAME": "Flow",
+      "NAME": "Tournament",
       "LITTLE_DESCRIPTION": "<p>Goditi il padel con una vista panoramica senza ostacoli dell'ambiente circostante.</p>",
-      "CONTACT_TITLE_1": "Vuoi un Campo Flow?",
-      "CONTACT_SUBJECT": "Nuova richiesta da Campo Flow",
-      "CONTACT_BUTTON": "Voglio un Campo Flow",
+      "CONTACT_TITLE_1": "Vuoi un Campo Tournament?",
+      "CONTACT_SUBJECT": "Nuova richiesta da Campo Tournament",
+      "CONTACT_BUTTON": "Voglio un Campo Tournament",
       "ROUTE": {
-        "LABEL": "Scopri di più su Campo Flow",
-        "URL": "/flow",
-        "TITLE": "Campo Flow"
+        "LABEL": "Scopri di più su Campo Tournament",
+        "URL": "/tournament",
+        "TITLE": "Campo Tournament"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Vivi il Padel Come Mai Prima d'Ora!</span>",
-        "DESCRIPTION": "<p>Estetica senza pari, viste non ostacolate, sentiti come un professionista! Progettato per offrire ai giocatori un'esperienza di gioco di grado professionale, resistendo alle condizioni regolarmente intense di un club di padel.</p><p>Perfettamente adattato a qualsiasi contesto, interno o esterno, il Campo Flow non ha elementi strutturali che ostruiscono le viste, rendendolo il campo perfetto per eventi e tornei del tuo club.</p><p>Il Campo Flow è la migliore opzione per i club che cercano di avere i campi più piacevoli da vedere.</p>",
+        "DESCRIPTION": "<p>Estetica senza pari, viste non ostacolate, sentiti come un professionista! Progettato per offrire ai giocatori un'esperienza di gioco di grado professionale, resistendo alle condizioni regolarmente intense di un club di padel.</p><p>Perfettamente adattato a qualsiasi contesto, interno o esterno, il Campo Tournament non ha elementi strutturali che ostruiscono le viste, rendendolo il campo perfetto per eventi e tornei del tuo club.</p><p>Il Campo Tournament è la migliore opzione per i club che cercano di avere i campi più piacevoli da vedere.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/flow/flow-front.webp",
-            "alt": "Vista frontale del Campo Flow"
+            "src": "/courts-detail/tournament/tournament-front.webp",
+            "alt": "Vista frontale del Campo Tournament"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/flow/flow-perspective.webp",
-            "alt": "Vista prospettica del Campo Flow"
+            "src": "/courts-detail/tournament/tournament-perspective.webp",
+            "alt": "Vista prospettica del Campo Tournament"
           },
           "TOP": {
-            "src": "/courts-detail/flow/flow-top.webp",
-            "alt": "Vista dall'alto del Campo Flow"
+            "src": "/courts-detail/tournament/tournament-top.webp",
+            "alt": "Vista dall'alto del Campo Tournament"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Vivi i vantaggi del nostro Campo Flow",
+        "TITLE": "Vivi i vantaggi del nostro Campo Tournament",
         "BENEFITS": [
           {
             "header": "Garanzia di 10 anni",
@@ -485,15 +485,15 @@
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Misure del Campo Flow",
+        "TITLE": "Misure del Campo Tournament",
         "INDOOR_TITLE": "Interni",
         "OUTDOOR_TITLE": "Esterni",
         "OUTDOOR": "<p><strong>Lunghezza</strong>: 20,50 m </p><p><strong>Larghezza</strong>: 10,46 m </p>",
         "INDOOR": "<p><strong>Lunghezza</strong>: 20 m </p><p><strong>Larghezza</strong>: 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/flow/flow-sizing.webp",
-          "alt": "Misure del Campo Flow interno ed esterno"
+          "src": "/courts-detail/tournament/tournament-sizing.webp",
+          "alt": "Misure del Campo Tournament interno ed esterno"
         }
       },
       "GLASS_SECTION": {
@@ -569,7 +569,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
-        "PATH": "courts-detail/flow/gallery",
+        "PATH": "courts-detail/tournament/gallery",
         "OFFSET": 17
       },
       "COURTS_SECTION": {
@@ -578,33 +578,33 @@
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "Nuova richiesta da Campo Flow",
+        "SUBJECT": "Nuova richiesta da Campo Tournament",
         "TITLE": "Notizie",
-        "BG_IMAGE": "/courts-detail/flow/flow-contact-bg.webp",
-        "IMAGE": "/courts-detail/flow/flow-court-contact.webp"
+        "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
       },
       "HOME_DESCRIPTION": "Estetica senza pari, viste non ostacolate, sentiti come un professionista! Progettato per offrire ai giocatori un'esperienza di gioco di grado professionale, resistendo alle condizioni regolarmente intense di un club di padel",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
-          "src": "/courts/flow-court-01.webp",
+          "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Campo Flow"
+          "imgAlt": "Campo Tournament"
         },
         {
           "id": "slide-2",
-          "src": "/courts/flow-court-02.webp",
+          "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Campo Flow"
+          "imgAlt": "Campo Tournament"
         },
         {
           "id": "slide-3",
-          "src": "/courts/flow-court-03.webp",
+          "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Campo Flow"
+          "imgAlt": "Campo Tournament"
         }
       ]
     },

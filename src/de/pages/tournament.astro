@@ -2,15 +2,15 @@
 import CourtDetailPage from "@/shared/components/pages/CourtDetailPage.astro";
 import { LANGUAGES } from "@/shared/i18n/constants";
 import { getI18N } from "@/shared/i18n";
-import gallery from "@/fr/data/flow-court-gallery.json"
+import gallery from "@/de/data/tournament-court-gallery.json"
 
 
-const language = LANGUAGES.FR;
+const language = LANGUAGES.DE;
 ---
 
 <CourtDetailPage
   language={language}
-  video="/courts-detail/flow/flow-video.mp4"
-  court="FLOW_COURT"
+  video="/courts-detail/tournament/tournament-video.mp4"
+  court="TOURNAMENT_COURT"
   gallery={gallery}
 />

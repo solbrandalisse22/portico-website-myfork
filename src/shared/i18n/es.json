@@ -408,48 +408,48 @@
         }
       ]
     },
-    "FLOW_COURT": {
-      "ID": "flow",
-      "SEO_TITLE": "Pista Flow - Pista de Pádel con Vistas Despejadas",
+    "TOURNAMENT_COURT": {
+      "ID": "tournament",
+      "SEO_TITLE": "Pista Tournament - Pista de Pádel con Vistas Despejadas",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Descubre la Pista Flow: Sin esquinas, vistas panorámicas claras, la experiencia de pádel definitiva para jugadores y espectadores.",
-      "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
-      "TITLE": "<span>Pista Flow</span>",
-      "DETAIL_TITLE": "<span>Pista Flow</span>",
-      "DESCRIPTION": "<p>Inspirada en esas pistas de pádel que ves en la televisión en eventos profesionales, la Pista Flow es una evolución de nuestro modelo de pista Panoramic.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, este modelo de pista elimina las esquinas de la estructura de acero, permitiendo que las paredes de vidrio de alta resistencia proporcionen una vista panorámica sin obstrucciones del entorno.</p><p>Este magnífico diseño, junto con una estética meticulosa, hace que esta pista sea la más atractiva para aquellos que desean que sus espectadores disfruten de una experiencia de pádel inigualable.</p>",
+      "SEO_DESCRIPTION": "Descubre la Pista Tournament: Sin esquinas, vistas panorámicas claras, la experiencia de pádel definitiva para jugadores y espectadores.",
+      "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+      "TITLE": "<span>Pista Tournament</span>",
+      "DETAIL_TITLE": "<span>Pista Tournament</span>",
+      "DESCRIPTION": "<p>Inspirada en esas pistas de pádel que ves en la televisión en eventos profesionales, la Pista Tournament es una evolución de nuestro modelo de pista Panoramic.</p><p>Diseñada por el departamento de ingeniería de Portico Sport, este modelo de pista elimina las esquinas de la estructura de acero, permitiendo que las paredes de vidrio de alta resistencia proporcionen una vista panorámica sin obstrucciones del entorno.</p><p>Este magnífico diseño, junto con una estética meticulosa, hace que esta pista sea la más atractiva para aquellos que desean que sus espectadores disfruten de una experiencia de pádel inigualable.</p>",
       "SUBTITLE": "Disfruta del pádel con una vista panorámica sin obstrucciones del entorno.",
-      "NAME": "Flow",
+      "NAME": "Tournament",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel con una vista panorámica sin obstrucciones del entorno.</p>",
-      "CONTACT_TITLE_1": "¿Quieres una Pista Flow?",
-      "CONTACT_SUBJECT": "Nueva petición de Pista Flow",
-      "CONTACT_BUTTON": "Quiero una Pista Flow",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Tournament?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Tournament",
+      "CONTACT_BUTTON": "Quiero una Pista Tournament",
       "ROUTE": {
-        "LABEL": "Más sobre la pista Flow",
-        "URL": "/flow",
-        "TITLE": "Pista Flow"
+        "LABEL": "Más sobre la pista Tournament",
+        "URL": "/tournament",
+        "TITLE": "Pista Tournament"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\">¡Experimenta el Pádel como nunca antes!</span>",
-        "DESCRIPTION": "<p>Estética incomparable, vistas despejadas, ¡siéntete como un profesional! Diseñada para proporcionar a los jugadores una experiencia de juego de grado profesional mientras resisten las condiciones regulares de uso intensivo de un club de pádel.</p><p>Perfectamente adaptada para cualquier entorno, tanto en interiores como en exteriores, la Pista Flow no tiene elementos estructurales que obstruyan las vistas, lo que la convierte en la pista perfecta para tus eventos y torneos de club.</p><p>La Pista Flow es la mejor opción para los clubes que buscan tener las pistas más agradables visualmente.</p>",
+        "DESCRIPTION": "<p>Estética incomparable, vistas despejadas, ¡siéntete como un profesional! Diseñada para proporcionar a los jugadores una experiencia de juego de grado profesional mientras resisten las condiciones regulares de uso intensivo de un club de pádel.</p><p>Perfectamente adaptada para cualquier entorno, tanto en interiores como en exteriores, la Pista Tournament no tiene elementos estructurales que obstruyan las vistas, lo que la convierte en la pista perfecta para tus eventos y torneos de club.</p><p>La Pista Tournament es la mejor opción para los clubes que buscan tener las pistas más agradables visualmente.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/flow/flow-front.webp",
-            "alt": "Vista frontal de la Pista Flow"
+            "src": "/courts-detail/tournament/tournament-front.webp",
+            "alt": "Vista frontal de la Pista Tournament"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/flow/flow-perspective.webp",
-            "alt": "Vista panorámica de la Pista Flow"
+            "src": "/courts-detail/tournament/tournament-perspective.webp",
+            "alt": "Vista panorámica de la Pista Tournament"
           },
           "TOP": {
-            "src": "/courts-detail/flow/flow-top.webp",
+            "src": "/courts-detail/tournament/tournament-top.webp",
             "alt": "Vista superior de la Pista Panoramic"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra Pista de pádel Flow",
+        "TITLE": "Experimenta los beneficios de nuestra Pista de pádel Tournament",
         "BENEFITS": [
           {
             "header": "Garantía de 10 años",
@@ -481,15 +481,15 @@
       },
       "SIZING_SECTION": {
         "ID": "medidas",
-        "TITLE": "Medidas de la Pista de Pádel Flow",
+        "TITLE": "Medidas de la Pista de Pádel Tournament",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 20,50 m </p><p><strong>Ancho</strong>: 10,46 m </p>",
         "INDOOR": "<p><strong>Longitud</strong>: 20 m </p><p><strong>Ancho</strong>: 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/flow/flow-sizing.webp",
-          "alt": "Tamaños de la Pista Flow en interiores y exteriores"
+          "src": "/courts-detail/tournament/tournament-sizing.webp",
+          "alt": "Tamaños de la Pista Tournament en interiores y exteriores"
         }
       },
       "GLASS_SECTION": {
@@ -565,7 +565,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "galería",
-        "PATH": "courts-detail/flow/gallery",
+        "PATH": "courts-detail/tournament/gallery",
         "OFFSET": 17
       },
       "COURTS_SECTION": {
@@ -574,33 +574,33 @@
       },
       "CONTACT_SECTION": {
         "ID": "contacto",
-        "SUBJECT": "Nueva petición de Pista Flow",
+        "SUBJECT": "Nueva petición de Pista Tournament",
         "TITLE": "Noticias",
-        "BG_IMAGE": "/courts-detail/flow/flow-contact-bg.webp",
-        "IMAGE": "/courts-detail/flow/flow-court-contact.webp"
+        "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
       },
       "HOME_DESCRIPTION": "Estética incomparable, vistas despejadas, ¡siéntete como un profesional! Diseñada para proporcionar a los jugadores una experiencia de juego de grado profesional mientras resisten las condiciones regulares de uso intensivo de un club de pádel.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
-          "src": "/courts/flow-court-01.webp",
+          "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Flow"
+          "imgAlt": "Pista Tournament"
         },
         {
           "id": "slide-2",
-          "src": "/courts/flow-court-02.webp",
+          "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Flow"
+          "imgAlt": "Pista Tournament"
         },
         {
           "id": "slide-3",
-          "src": "/courts/flow-court-03.webp",
+          "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Flow"
+          "imgAlt": "Pista Tournament"
         }
       ]
     },

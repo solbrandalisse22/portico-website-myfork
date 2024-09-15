@@ -16,7 +16,7 @@ export default defineConfig({
   redirects: {
     "/terrains-de-padel": "/",
     "/terrains-de-padel/panoramique": "/panoramique",
-    "/terrains-de-padel/flow": "/flow",
+    "/terrains-de-padel/flow": "/tournament",
     "/terrains-de-padel/club": "/club",
     "/terrains-de-padel/club-force-80": "/club-force-80",
     "/terrains-de-padel/mini": "/mini",

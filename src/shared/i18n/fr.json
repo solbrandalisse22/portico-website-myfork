@@ -413,47 +413,47 @@
         }
       ]
     },
-    "FLOW_COURT": {
-      "ID": "flow",
-      "SEO_TITLE": "Flow Court - Terrain de padel avec vue dégagée",
-      "SEO_DESCRIPTION": "Découvrez le Flow Court : Pas de coins, vue panoramique dégagée, l'expérience ultime de padel pour les joueurs et les spectateurs.",
+    "TOURNAMENT_COURT": {
+      "ID": "tournament",
+      "SEO_TITLE": "Tournament Court - Terrain de padel avec vue dégagée",
+      "SEO_DESCRIPTION": "Découvrez le Tournament Court : Pas de coins, vue panoramique dégagée, l'expérience ultime de padel pour les joueurs et les spectateurs.",
       "TYPE": "PRODUCT",
-      "OG_IMG": "https://www.porticosport.com/og/og-flow.jpg",
-      "TITLE": "<span>Court Flow</span>",
-      "DETAIL_TITLE": "<span>Court Flow</span>",
-      "DESCRIPTION": "<p>Inspiré par les terrains que vous voyez à la télévision lors d'événements professionnels, le Flow court est une évolution de notre modèle de court panoramique.</p><p>Conçu par le département d'ingénierie de Portico Sport, ce modèle de court élimine les coins de la structure en acier, permettant aux parois en verre haute résistance continues d'offrir une vue panoramique dégagée sur les environs.</p><p>Ce design magnifique, associé à une esthétique méticuleuse, fait de ce court le plus attractif pour ceux qui veulent que leurs spectateurs profitent d'une expérience de padel inégalée.</p>",
+      "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+      "TITLE": "<span>Court Tournament</span>",
+      "DETAIL_TITLE": "<span>Court Tournament</span>",
+      "DESCRIPTION": "<p>Inspiré par les terrains que vous voyez à la télévision lors d'événements professionnels, le Tournament court est une évolution de notre modèle de court panoramique.</p><p>Conçu par le département d'ingénierie de Portico Sport, ce modèle de court élimine les coins de la structure en acier, permettant aux parois en verre haute résistance continues d'offrir une vue panoramique dégagée sur les environs.</p><p>Ce design magnifique, associé à une esthétique méticuleuse, fait de ce court le plus attractif pour ceux qui veulent que leurs spectateurs profitent d'une expérience de padel inégalée.</p>",
       "SUBTITLE": "Profitez du padel avec une vue panoramique dégagée sur les environs.",
-      "NAME": "Flow",
+      "NAME": "Tournament",
       "LITTLE_DESCRIPTION": "<p>Profitez du padel avec une vue panoramique dégagée sur les environs.</p>",
-      "CONTACT_TITLE_1": "Voulez-vous un Court Flow ?",
-      "CONTACT_SUBJECT": "Nouvelle pétition de Court Flow",
-      "CONTACT_BUTTON": "Je veux un Court Flow",
+      "CONTACT_TITLE_1": "Voulez-vous un Court Tournament ?",
+      "CONTACT_SUBJECT": "Nouvelle pétition de Court Tournament",
+      "CONTACT_BUTTON": "Je veux un Court Tournament",
       "ROUTE": {
-        "LABEL": "En savoir plus sur le Court Flow",
-        "URL": "/flow",
-        "TITLE": "Terrain de padel Flow"
+        "LABEL": "En savoir plus sur le Court Tournament",
+        "URL": "/tournament",
+        "TITLE": "Terrain de padel Tournament"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Découvrez le padel comme jamais auparavant !</span>",
-        "DESCRIPTION": "<p>Esthétique inégalée, vues dégagées, sentez-vous comme un pro ! Conçu pour offrir aux joueurs une expérience de jeu de qualité professionnelle tout en résistant aux conditions d'utilisation intensives régulières d'un club de padel.</p><p>Parfaitement adapté à tout environnement, intérieur ou extérieur, le Flow court n'a aucun élément structurel obstruant la vue, ce qui en fait le court parfait pour vos événements et tournois de club.</p><p>Le Flow court est la meilleure option pour les clubs qui veulent avoir les courts les plus agréables à regarder.</p>",
+        "DESCRIPTION": "<p>Esthétique inégalée, vues dégagées, sentez-vous comme un pro ! Conçu pour offrir aux joueurs une expérience de jeu de qualité professionnelle tout en résistant aux conditions d'utilisation intensives régulières d'un club de padel.</p><p>Parfaitement adapté à tout environnement, intérieur ou extérieur, le Tournament court n'a aucun élément structurel obstruant la vue, ce qui en fait le court parfait pour vos événements et tournois de club.</p><p>Le Tournament court est la meilleure option pour les clubs qui veulent avoir les courts les plus agréables à regarder.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/flow/flow-front.webp",
-            "alt": "Vue de face du Court Flow"
+            "src": "/courts-detail/tournament/tournament-front.webp",
+            "alt": "Vue de face du Court Tournament"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/flow/flow-perspective.webp",
-            "alt": "Vue perspective du Court Flow"
+            "src": "/courts-detail/tournament/tournament-perspective.webp",
+            "alt": "Vue perspective du Court Tournament"
           },
           "TOP": {
-            "src": "/courts-detail/flow/flow-top.webp",
-            "alt": "Vue de dessus du Court Flow"
+            "src": "/courts-detail/tournament/tournament-top.webp",
+            "alt": "Vue de dessus du Court Tournament"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Découvrez les avantages de notre Court Flow",
+        "TITLE": "Découvrez les avantages de notre Court Tournament",
         "BENEFITS": [
           {
             "header": "Garantie de 10 ans",
@@ -485,15 +485,15 @@
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Mesures du Court Flow",
+        "TITLE": "Mesures du Court Tournament",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
         "OUTDOOR": "<p><strong>Longueur</strong> : 20,50 m </p><p><strong>Largeur</strong> : 10,46 m </p>",
         "INDOOR": "<p><strong>Longueur</strong> : 20 m </p><p><strong>Largeur</strong> : 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/flow/flow-sizing.webp",
-          "alt": "Tailles intérieure et extérieure du Court Flow"
+          "src": "/courts-detail/tournament/tournament-sizing.webp",
+          "alt": "Tailles intérieure et extérieure du Court Tournament"
         }
       },
       "GLASS_SECTION": {
@@ -569,7 +569,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
-        "PATH": "courts-detail/flow/gallery",
+        "PATH": "courts-detail/tournament/gallery",
         "OFFSET": 17
       },
       "COURTS_SECTION": {
@@ -578,33 +578,33 @@
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "Nouvelle pétition de Court Flow",
+        "SUBJECT": "Nouvelle pétition de Court Tournament",
         "TITLE": "Nouvelles",
-        "BG_IMAGE": "/courts-detail/flow/flow-contact-bg.webp",
-        "IMAGE": "/courts-detail/flow/flow-court-contact.webp"
+        "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
       },
       "HOME_DESCRIPTION": "Esthétique inégalée, vues dégagées, sentez-vous comme un pro ! Conçu pour offrir aux joueurs une expérience de jeu de qualité professionnelle tout en résistant aux conditions d'utilisation intensives régulières d'un club de padel",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
-          "src": "/courts/flow-court-01.webp",
+          "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Court Flow"
+          "imgAlt": "Court Tournament"
         },
         {
           "id": "slide-2",
-          "src": "/courts/flow-court-02.webp",
+          "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Court Flow"
+          "imgAlt": "Court Tournament"
         },
         {
           "id": "slide-3",
-          "src": "/courts/flow-court-03.webp",
+          "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Court Flow"
+          "imgAlt": "Court Tournament"
         }
       ]
     },
