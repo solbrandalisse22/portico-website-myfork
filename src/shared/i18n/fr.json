@@ -2534,6 +2534,10 @@
   },
   "FOOTER": {
     "DISCLAIMER": "© 2024 Portico Sport.",
+    "ETHIC": {
+      "LABEL": "Canal éthique",
+      "ROUTE": "https://www.suiteadeplus.com/web/canal-etico/registro?id=6401"
+    },
     "LEGAL": {
       "TITLE": "Mentions légales",
       "NOTICE": "Aviso Legal",
