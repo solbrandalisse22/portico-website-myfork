@@ -2330,124 +2330,102 @@
         "LABEL": "Cookies",
         "URL": "/cookies"
       },
-      "POLICIES": {
-        "TITLE": "Politique en matière de cookies",
-        "DESCRIPTION_1": "Cette Politique en matière de cookies fait partie intégrante des Mentions légales et de la Politique de confidentialité de www.porticosport.com (ci-après, le Site Web), propriété de PÓRTICO GESTIÓN E INGENIERÍA, S.L. avec siège social situé à C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) Numéro CIF: B-06585897 inscrit au registre commercial de Badajoz, tome 504, folio 31, feuille BA-22562, et responsable des cookies et du traitement des données personnelles obtenues grâce à ses propres cookies et à ceux de tiers utilisés sur ce Site Web.",
-        "DESCRIPTION_2": "Ce Site Web utilise des cookies tiers, en particulier des cookies analytiques Google Analytics, pour analyser l'activité des utilisateurs lorsqu'ils visitent le site Web à des fins statistiques.",
-        "DESCRIPTION_3": "Vous pouvez accepter tous les cookies, les refuser ou configurer vos préférences dans le panneau de paramètres des cookies. À tout moment, vous pouvez révoquer votre consentement ou modifier vos préférences de paramètres de cookies en accédant à nouveau au panneau de configuration. Vous pouvez également empêcher le téléchargement de cookies ou supprimer ceux installés via les paramètres de votre navigateur, empêchant ainsi les cookies d'être stockés sur votre appareil. Il est très important que vous lisiez cette politique en matière de cookies.",
-        "DESCRIPTION_4": "Nous vous informons que la possibilité de refuser et de désactiver les cookies peut affecter ou entraver la navigation ou la fourniture de services offerts sur ce Site Web."
-      },
-      "WHAT_IS": {
-        "TITLE": "Qu'est-ce que les cookies?",
-        "DESCRIPTION_1": "Les cookies sont des identifiants alphanumériques contenant des informations qui sont installées sur le dispositif de l'utilisateur et téléchargées dans le navigateur Web de l'utilisateur lorsqu'il visite et accède à une page Web. Leur objectif principal est d'identifier et de reconnaître de manière unique le dispositif de l'utilisateur à chaque fois qu'il accède au Site Web, ainsi que d'améliorer la qualité et d'offrir une meilleure utilisation du Site Web.",
-        "DESCRIPTION_2": "Ce sont de petits fichiers texte qui sont stockés sur le disque dur de l'ordinateur et servent à identifier l'utilisateur lorsqu'il se connecte à nouveau au site Web. Leur but est d'enregistrer la visite de l'utilisateur et de sauvegarder certaines informations. Leur utilisation est courante et fréquente sur le Web car ils permettent aux pages de fonctionner de manière plus efficace et d'obtenir une plus grande personnalisation et analyse du comportement de l'utilisateur."
-      },
-      "TYPES": {
-        "TITLE": "Quels sont les types de cookies?",
-        "DESCRIPTION_1_TITLE": "1.- Selon l'entité qui les gère :",
-        "DESCRIPTION_1": "Les cookies propres sont ceux qui sont installés sur le terminal de l'utilisateur à partir du domaine géré par la personne responsable du Site Web et les cookies tiers sont ceux qui sont installés sur le terminal de l'utilisateur à partir d'un domaine géré par des tiers qui traitent les données obtenues par le biais de ces cookies.",
-        "DESCRIPTION_2_TITLE": "2.- Selon la durée pendant laquelle ils restent actifs :",
-        "DESCRIPTION_2": "Les cookies de session sont ceux qui restent actifs et collectent des données pendant que l'utilisateur accède à un site Web et disparaissent lorsque la session se termine, et les cookies permanents sont ceux qui restent actifs et à partir desquels des données sont collectées pendant une période définie par la personne responsable du cookie ou jusqu'à ce qu'ils soient désactivés ou supprimés par l'utilisateur.",
-        "DESCRIPTION_3_TITLE": "3.- Cookies techniques :",
-        "DESCRIPTION_3": "Ce sont ceux qui permettent à l'utilisateur de naviguer sur une page Web et d'utiliser les différentes options ou services proposés, tels que le contrôle du trafic et de la communication de données, l'identification de la session, l'accès aux parties à accès restreint, la demande d'inscription, l'utilisation d'éléments de sécurité pendant la navigation, etc. Comme ils sont nécessaires au fonctionnement du site Web, ces cookies seront activés et ne pourront pas être refusés.",
-        "DESCRIPTION_4_TITLE": "4.- Cookies de performance ou opérationnels :",
-        "DESCRIPTION_4": "Ce type de cookie mémorise vos préférences de navigation sur le Web afin que vous n'ayez pas à reconfigurer le service chaque fois que vous visitez le Web. À titre d'exemple, ce type comprend : les paramètres de volume pour les lecteurs vidéo ou audio. Les vitesses de transmission vidéo compatibles avec votre navigateur. Ces cookies peuvent être désactivés par l'utilisateur, bien que cela puisse affecter le bon fonctionnement des services Web.",
-        "DESCRIPTION_5_TITLE": "5.- Cookies analytiques ou de mesure :",
-        "DESCRIPTION_5": "Ce sont ceux qui permettent le suivi et l'analyse du comportement des utilisateurs du Web afin d'obtenir des données statistiques et d'améliorer le fonctionnement du Web. Chaque fois qu'un utilisateur visite un site Web, un outil d'un fournisseur externe génère un cookie analytique sur l'ordinateur de l'utilisateur.",
-        "DESCRIPTION_6_TITLE": "6.- Cookies publicitaires :",
-        "DESCRIPTION_6": "Ce type de cookies permet d'obtenir des informations sur la durée ou la fréquence de visualisation des positions publicitaires, l'interaction avec elles, ou les modèles de navigation et/ou de comportement de l'utilisateur car ils aident à façonner un profil d'intérêts publicitaires. De cette manière, ils permettent d'offrir de la publicité liée aux intérêts de l'utilisateur.",
-        "DESCRIPTION_7_TITLE": "7.- Cookies de réseaux sociaux :",
-        "DESCRIPTION_7": "Ce sont ceux qui permettent à l'utilisateur d'interagir avec le contenu de différentes plateformes sociales (Facebook, YouTube, Twitter, LinkedIn, etc.) et qui sont générés uniquement pour les utilisateurs desdits réseaux sociaux. Les conditions d'utilisation de ces cookies et les informations collectées sont régies par la politique de confidentialité de la plateforme sociale correspondante."
-      },
-      "BLOCK": {
-        "TITLE": "Comment bloquer ou supprimer les cookies?",
-        "DESCRIPTION_1": "Vous pouvez autoriser, bloquer ou supprimer les cookies installés sur votre ordinateur en configurant les options du navigateur installé sur votre ordinateur. Si vous n'autorisez pas l'installation de cookies dans votre navigateur, il se peut que vous ne puissiez pas accéder à certains des services et que votre expérience sur notre site Web soit moins satisfaisante.",
-        "DESCRIPTION_2": "Dans les liens suivants, vous avez à votre disposition toutes les informations pour configurer ou désactiver vos cookies dans chaque navigateur :",
-        "DESCRIPTION_3": "Chrome :",
-        "DESCRIPTION_3_URL": "https://support.google.com/chrome/answer/95647?hl=fr",
-        "DESCRIPTION_4": "Pour plus d'informations sur la gestion des cookies dans Internet Explorer :",
-        "DESCRIPTION_4_URL": "http://windows.microsoft.com/fr-fr/windows-vista/cookies-frequently-asked-questions",
-        "DESCRIPTION_5": "Pour plus d'informations sur la gestion des cookies dans Mozilla Firefox :",
-        "DESCRIPTION_5_URL": "https://support.mozilla.org/fr/kb/activer-desactiver-cookies-preferences",
-        "DESCRIPTION_6": "Pour plus d'informations sur la gestion des cookies dans Safari :",
-        "DESCRIPTION_6_URL": "http://www.apple.com/fr/privacy/use-of-cookies",
-        "DESCRIPTION_7": "Pour plus d'informations sur la gestion des cookies dans Opera :",
-        "DESCRIPTION_7_URL": "http://help.opera.com/Windows/11.50/fr-FR/cookies.html",
-        "DESCRIPTION_8": "Si vous souhaitez cesser d'être suivi par Google Analytics, visitez :",
-        "DESCRIPTION_8_URL": "http://tools.google.com/dlpage/gaoptout",
-        "DESCRIPTION_9": "Chrome :",
-        "DESCRIPTION_9_URL": "https://support.google.com/chrome/answer/95647?hl=fr",
-        "DESCRIPTION_10": "Pour plus d'informations sur la gestion des cookies dans Internet Explorer :",
-        "DESCRIPTION_10_URL": "http://windows.microsoft.com/fr-fr/windows-vista/cookies-frequently-asked-questions",
-        "DESCRIPTION_11": "Chrome :"
-      },
-      "MORE_INFO": {
-        "TITLE": "Plus d'informations sur les cookies",
-        "DESCRIPTION_1": "Vous pouvez obtenir plus d'informations sur la publicité comportementale en ligne et la vie privée en ligne en suivant le lien suivant :",
-        "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/fr",
-        "DESCRIPTION_2": "Protection des données Google Analytics",
-        "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
-        "DESCRIPTION_3": "Comment Google Analytics utilise les cookies :",
-        "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=fr#analyticsjs"
-      },
-      "THIRD_PARTY": {
-        "TITLE": "Cookies tiers",
-        "DESCRIPTION": "Ce site Web utilise des cookies tiers, en particulier des cookies analytiques Google Analytics, pour analyser l'activité des utilisateurs lorsqu'ils visitent le site Web à des fins statistiques."
-      },
-      "UPDATES": {
-        "TITLE": "Mises à jour et modifications de la politique en matière de cookies",
-        "DESCRIPTION": "Portico Sport peut modifier cette Politique en matière de cookies conformément aux exigences législatives ou réglementaires, ou afin d'adapter cette politique aux instructions émises par l'Agence espagnole de protection des données et le Comité européen de protection des données, par conséquent, les utilisateurs sont invités à la visiter périodiquement.",
-        "DATE": "Date de la dernière mise à jour : 12 décembre 2023."
-      },
-      "SITE_COOKIES": {
-        "TITLE": "Cookies utilisés sur ce site Web",
-        "THEAD_NAME": "Nom",
-        "THEAD_CADUCITY": "Caducité",
-        "THEAD_PROVIDER": "Fournisseur",
-        "THEAD_FINALITY": "Finalité",
-        "ANALYTICS": [
-          {
-            "NAME": "_ga",
-            "EXPIRE": "2 ans",
-            "PROVIDER": {
-              "NAME": "Google",
-              "URL": "https://google.com/"
-            },
-            "OBJECTIVE": "Il est utilisé pour distinguer les utilisateurs.",
-            "OBJECTIVE_URL": ""
+      
+        "POLICIES": {
+          "TITLE": "1. Objectif",
+          "DESCRIPTION_1": "Cette politique de cookies fait partie intégrante des Conditions d'utilisation et de la Politique de confidentialité du site web www.porticosport.com (ci-après, le « Site Web »). L'accès et la navigation sur le Site Web, ou l'utilisation de ses services, impliquent l'acceptation des termes et conditions contenus dans les Conditions d'utilisation et la Politique de confidentialité, y compris la Politique de cookies.",
+          "DESCRIPTION_2": "Pour faciliter votre navigation sur le Site Web, le propriétaire, dont le siège social est situé à POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), vous informe qu'il utilise des cookies ou des Dispositifs de Stockage et de Récupération de Données (DARD) ou d'autres fichiers de fonctionnalité similaire (ci-après, les « cookies »).",
+          "DESCRIPTION_3": "À cet égard, et afin de fournir à l'utilisateur toutes les informations nécessaires pour une navigation correcte, nous fournissons le texte informatif suivant sur ce que sont les cookies, quels types de cookies existent sur notre Site Web, et comment vous pouvez les configurer ou les désactiver."
+        },
+          "WHAT_IS": {
+            "TITLE": "2. Qu'est-ce que les cookies?",
+            "DESCRIPTION_1": "Actuellement, la plupart des sites web, quel que soit le service qu'ils fournissent, utilisent des cookies. Les cookies sont de petits fichiers texte ou dispositifs qui sont téléchargés sur le terminal de l'utilisateur lorsqu'il navigue sur des sites web afin de stocker des données qui peuvent ensuite être récupérées par l'entité responsable de leur installation, facilitant ainsi la navigation et l'expérience utilisateur.",
+            "DESCRIPTION_2": "Comme indiqué dans le considérant 30 du RGPD, les individus peuvent être liés à des identifiants en ligne fournis par leurs dispositifs, applications, outils et protocoles, tels que les adresses IP ou les identifiants de session sous forme de ou d'autres identifiants à des fins similaires. Cela peut laisser des traces qui, en particulier lorsqu'elles sont combinées avec des identifiants uniques et d'autres données reçues par les serveurs, peuvent être utilisées pour créer des profils d'individus et les identifier.",
+            "DESCRIPTION_3": "Pour cette raison, le propriétaire du site web a une politique de cookies qui respecte les réglementations applicables.",
+            "DESCRIPTION_4": "En général, lorsque l'installation et/ou l'utilisation de cookies implique le traitement de données personnelles, qu'il s'agisse de cookies de première partie ou de cookies tiers, de cookies de session ou persistants, le responsable du traitement fournira les informations nécessaires dans ce domaine et obtiendra le consentement éclairé préalable de l'utilisateur pour les installer et/ou les utiliser, sauf dans les cas où des cookies strictement nécessaires doivent être installés. Seuls les cookies permettant la communication entre le dispositif de l'utilisateur et le réseau ou ceux utilisés pour fournir un service demandé par l'utilisateur sont exemptés de ce consentement. Par exemple, les « cookies techniques » (par exemple, ceux nécessaires à la navigation sur la plateforme), les « cookies de personnalisation ou de configuration » (par exemple, ceux permettant à la page de reconnaître la langue de l'utilisateur) et les « cookies de sécurité » (par exemple, ceux utilisés pour détecter les tentatives de connexion échouées répétées)."
+        },
+        "TYPES": {
+          "TITLE": "3. Types, objectifs et fonctionnement des cookies",
+          "DESCRIPTION_1_TITLE": "3.1. Par entité responsable de la gestion",
+          "DESCRIPTION_1": "Cookies de première partie : Envoyés à votre appareil depuis le serveur ou le domaine du propriétaire du site web à partir duquel le service demandé est fourni.",
+          "DESCRIPTION_2": "Cookies de tiers : Envoyés à votre appareil depuis un serveur ou un domaine non géré par nous, mais par une entité partenaire, comme des réseaux sociaux ou des fournisseurs de contenu externes comme Google.",
+          "DESCRIPTION_3_TITLE": "3.2. Par durée d'activité",
+          "DESCRIPTION_3": "Cookies de session : Cookies temporaires stockés dans le fichier cookies de votre navigateur jusqu'à ce que vous quittiez le site web. Aucune information n'est stockée sur le disque dur de votre ordinateur.",
+          "DESCRIPTION_4": "Cookies persistants : Stockés sur le disque dur et lus par notre site web chaque fois que vous le revisitez. Ils ont une date d'expiration, après laquelle ils cessent de fonctionner. Ils sont généralement utilisés pour les services d'achat ou d'inscription.",
+          "DESCRIPTION_5_TITLE": "3.3. Par objectif",
+          "DESCRIPTION_5": "Cookies techniques : Nécessaires pour la navigation et le bon fonctionnement du site web (par exemple, contrôle du trafic, sécurité ou processus d'achat).",
+          "DESCRIPTION_6": "Cookies de personnalisation : Vous permettent d'accéder au service avec des fonctionnalités prédéfinies (par exemple, langue ou type de navigateur).",
+          "DESCRIPTION_7": "Cookies d'analyse : Aident à quantifier les utilisateurs et à analyser comment les services sont utilisés pour améliorer le site web.",
+          "DESCRIPTION_8": "Cookies publicitaires : Gèrent les espaces publicitaires sur le site web.",
+          "DESCRIPTION_9": "Cookies publicitaires comportementaux : Stockent des informations sur le comportement des utilisateurs pour afficher des annonces basées sur les habitudes de navigation.",
+          "DESCRIPTION_10": "Cookies sociaux : Utilisés pour partager du contenu sur des plateformes de médias sociaux."
+},
+
+        "SITE_COOKIES": {
+                "TITLE": "4. Cookies utilisés sur le site web",
+                "DESCRIPTION_1": "L'identification de ceux qui utilisent les cookies sur ce site web et leurs détails sont les suivants :",
+                "THEAD_NAME": "Entité",
+                "THEAD_TYPE": "Type",
+                "THEAD_PURPOSE": "Objectif",
+                "ANALYTICS": [
+                  {
+                    "NAME": "Google Analytics",
+                    "TYPE": "Tiers",
+                    "OBJECTIVE": "Collecte des informations sur la navigation des utilisateurs pour suivre les sources de visite et afficher des publicités liées aux préférences des utilisateurs.",
+                    "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=fr"
+                  },
+                  {
+                    "NAME": "Facebook",
+                    "TYPE": "Tiers",
+                    "OBJECTIVE": "Partager du contenu sur le réseau social",
+                    "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/"
+                  },
+                  {
+                    "NAME": "Instagram",
+                    "TYPE": "Tiers",
+                    "OBJECTIVE": "Partager du contenu sur le réseau social",
+                    "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370"
+                  },
+                  {
+                    "NAME": "Twitter",
+                    "TYPE": "Tiers",
+                    "OBJECTIVE": "Partager du contenu sur le réseau social",
+                    "OBJECTIVE_URL": "https://twitter.com/en/privacy"
+                  }
+                ]
+        },
+        "BLOCK": {
+            "TITLE": "5. Comment désactiver les cookies dans les navigateurs populaires ?",
+            "DESCRIPTION_1": "Les cookies peuvent être bloqués ou désactivés à l'aide des outils de configuration de votre navigateur. Vous pouvez refuser l'installation de tous les cookies ou de certains cookies.",
+            "DESCRIPTION_2": "Voici des liens vers les outils de paramètres des principaux navigateurs pour apprendre comment désactiver les cookies :",
+            "DESCRIPTION_3": "Désactivation ou suppression des cookies de Google Analytics",
+            "DESCRIPTION_4": "Si vous acceptez l'utilisation des cookies de Google Analytics, vous pouvez les désinstaller ultérieurement via les paramètres de votre navigateur comme mentionné, ou en installant le module complémentaire de désactivation de Google Analytics :",
+            "DESCRIPTION_4_URL": "https://tools.google.com/dlpage/gaoptout?hl=fr",
+            "DESCRIPTION_5": "Veuillez noter que si vous supprimez les cookies de personnalisation, vous devrez mettre à jour vos préférences chaque fois que vous vous connectez avec nous, ou si vous utilisez un autre appareil, un autre profil d'ordinateur ou un autre navigateur, vous devrez à nouveau définir vos préférences.",
+            "DESCRIPTION_6": "Google Chrome : ",
+            "DESCRIPTION_6_URL": "https://support.google.com/chrome/answer/95647?hl=fr",
+            "DESCRIPTION_7": "Mozilla Firefox : ",
+            "DESCRIPTION_7_URL": "https://support.mozilla.org/fr/kb/activer-et-desactiver-les-cookies",
+            "DESCRIPTION_8": "Apple Safari : ",
+            "DESCRIPTION_8_URL": "https://support.apple.com/fr-fr/HT201265",
+            "DESCRIPTION_9": "Microsoft Explorer : ",
+            "DESCRIPTION_9_URL": "https://support.microsoft.com/fr-fr/help/278835/how-to-delete-cookie-files-in-internet-explorer"
           },
-          {
-            "NAME": "_gid",
-            "EXPIRE": "24 heures",
-            "PROVIDER": {
-              "NAME": "Google",
-              "URL": "https://google.com/"
+          "DISABLE": {
+              "TITLE": "6. Que se passe-t-il si les cookies sont désactivés ?",
+              "DESCRIPTION_1": "Si vous refusez les cookies, vous pourrez toujours utiliser notre site web, mais certains services et/ou liens peuvent cesser de fonctionner. Il se peut que vous ne puissiez pas commencer ou maintenir une session interactive avec les services du site web, et nous ne pourrons pas obtenir des informations précieuses de votre part pour offrir un contenu adapté à vos intérêts et vous aider à accéder rapidement et facilement aux informations qui vous intéressent.",
+              "DESCRIPTION_2": "Le propriétaire du site web décline toute responsabilité en cas de problèmes juridiques ou techniques causés par le non-respect des recommandations incluses. Cette communication est faite pour la connaissance et l'utilisation des utilisateurs et ne doit donc pas être utilisée à d'autres fins.",
+              "DESCRIPTION_3": "Nous vous informons également que nous ne pouvons être tenus responsables du contenu et de l'exactitude des politiques de confidentialité tierces incluses dans cette politique de cookies."
             },
-            "OBJECTIVE": "Il est utilisé pour distinguer les utilisateurs.",
-            "OBJECTIVE_URL": ""
-          },
-          {
-            "NAME": "_ga_J8PJQBXG7J",
-            "EXPIRE": "2 ans",
-            "PROVIDER": {
-              "NAME": "Google",
-              "URL": "https://google.com/"
+            "CHANGES": {
+              "TITLE": "7. Modifications de la Politique de Cookies",
+              "DESCRIPTION": "Cette politique de cookies, version 2.0, est en vigueur à partir du 1er octobre 2020. Le propriétaire du site web peut modifier cette politique pour inclure de nouveaux cookies ou en fonction des exigences légales. Il est recommandé que les utilisateurs consultent cette politique périodiquement. Le site web peut également informer les utilisateurs des changements avant qu'ils ne prennent effet lorsque cela est possible."
             },
-            "OBJECTIVE": "Il est utilisé pour déterminer l'état de l'utilisateur",
-            "OBJECTIVE_URL": ""
-          },
-          {
-            "NAME": "_gac_gb_J8PJQBXG7J",
-            "EXPIRE": "90 jours",
-            "PROVIDER": {
-              "NAME": "Google",
-              "URL": "https://google.com/"
-            },
-            "OBJECTIVE": "Il est utilisé pour stocker des informations sur la campagne afin de fournir à Google Ads une conversion plus efficace.",
-            "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=fr"
-          }
-        ]
-      }
+            "UPDATES": {
+              "TITLE": "8. Exercice de vos droits concernant les cookies",
+              "DESCRIPTION": "Vous pouvez en savoir plus et exercer vos droits de protection des données en consultant la Politique de Confidentialité de ce site web.",
+              "DESCRIPTION_1":"Si vous avez des questions concernant cette politique de cookies, vous pouvez nous contacter."
+            }
     },
     "PRIVACY": {
       "ID": "privacy",
@@ -2458,64 +2436,76 @@
         "LABEL": "Politique de confidentialité",
         "URL": "/privacy"
       },
-      "TITLE": "Politique de confidentialité et Conditions générales",
-      "IDENTIFICATION": {
-        "TITLE": "1. DONNÉES D'IDENTIFICATION",
-        "DESCRIPTION_1": "Conformément au devoir d'information contenu à l'article 10 de la loi 34/2002 du 11 juillet sur les services de la société de l'information et du commerce électronique, les données suivantes sont reflétées ci-dessous :",
-        "DESCRIPTION_2": "La société propriétaire de ce domaine web est PÓRTICO GESTIÓN E INGENIERÍA, S.L., domiciliée à C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) Numéro de CIF : B-06585897 inscrite au registre commercial de Badajoz, tome 504, folio 31, feuille BA-22562 Adresse e-mail de contact : info@porticosport.com"
-      },
+        "TITLE": "Politique de Confidentialité et Conditions Générales",
+        "IDENTIFICATION": {
+          "TITLE": "1. DONNÉES D'IDENTIFICATION",
+          "DESCRIPTION_1": "Conformément au Règlement Général sur la Protection des Données (UE) 2016/679 du Parlement Européen et du Conseil du 27 avril 2016, ainsi qu'à la Loi Organique 3/2018 du 5 décembre sur la Protection des Données Personnelles et la Garantie des Droits Numériques, les informations suivantes sont fournies :",
+          "DESCRIPTION_2": "Le propriétaire du domaine web www.porticosport.com est PÓRTICO GESTIÓN E INGENIERÍA, S.L., numéro CIF B-06585897, dont l'adresse enregistrée est POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ). Email pour la Protection des Données : info@porticosport.com. Enregistré au Registre du Commerce de BADAJOZ."
+        },
+      
       "USERS": {
         "TITLE": "2. UTILISATEURS",
-        "DESCRIPTION_1": "L'accès et/ou l'utilisation de ce portail ou site web confère la qualité d'UTILISATEUR, qui accepte, dès l'accès et/ou l'utilisation, les Conditions générales d'utilisation reflétées dans cet avis. Les Conditions seront appliquées indépendamment des Conditions générales de vente qui, le cas échéant, sont obligatoires. En tout état de cause, pour toute finalité spécifique, votre consentement exprès sera demandé."
-      },
-      "USES": {
+        "DESCRIPTION_1": "L'accès et/ou l'utilisation de ce portail ou site web confère le statut d'UTILISATEUR, ce qui implique l'acceptation des Conditions Générales d'Utilisation décrites dans cet avis légal dès le moment de l'accès et/ou de l'utilisation. Ces Conditions s'appliqueront indépendamment de toutes Conditions Générales de Contractation qui pourraient être obligatoires. Dans tous les cas, un consentement explicite sera demandé pour des finalités spécifiques."
+},
+"USES": {
         "TITLE": "3. UTILISATION DU PORTAIL",
-        "DESCRIPTION_1": "Notre site web donne accès à des informations, services, programmes ou données (nous les désignerons désormais sous le nom de « contenus ») sur Internet appartenant à info@porticosport.com ou à ses concédants de licence auxquels l'UTILISATEUR peut avoir accès. L'UTILISATEUR assume la responsabilité de l'utilisation correcte du portail. Cette responsabilité s'étend à l'inscription nécessaire pour accéder à certains services ou contenus.",
-        "DESCRIPTION_2": "Dans ladite inscription, l'UTILISATEUR sera responsable de fournir des informations vraies et licites sur ses données. En conséquence de cette inscription, l'UTILISATEUR peut se voir attribuer un mot de passe dont il sera responsable, s'engageant à en faire un usage diligent, éthique et confidentiel. L'UTILISATEUR s'engage à faire un usage approprié des contenus et services (tels que les services de chat, les forums de discussion ou les groupes de discussion) proposés via son portail et à titre d'exemple, mais sans limitation, à ne pas les utiliser pour :",
-        "DESCRIPTION_3": "<ul><li>Participer à des activités illégales, illicites ou contraires à la bonne foi et à l'ordre public ;</li><li>Diffuser du contenu ou de la propagande d'une nature raciste, xénophobe, pornographique-illicite, en soutien au terrorisme ou portant atteinte aux droits de l'homme ;</li><li>Causer des dommages aux systèmes physiques et logiques du propriétaire, de ses fournisseurs ou de tiers, en introduisant ou en propageant des virus informatiques ou tout autre système physique ou logique susceptible de causer lesdits dommages ;</li><li>Essayer d'accéder et, le cas échéant, d'utiliser les comptes de messagerie d'autres utilisateurs et de modifier ou de manipuler leurs messages. Le propriétaire du portail se réserve le droit de retirer tous les commentaires et contributions qui portent atteinte au respect de la dignité de la personne, qui sont discriminatoires, xénophobes, racistes, pornographiques, qui menacent la jeunesse ou l'enfance, l'ordre public ou la sécurité. publique ou qui, à son avis, n'étaient pas adaptés ou convenables pour publication. En tout état de cause, le propriétaire du portail ne sera pas responsable des opinions exprimées par les utilisateurs via les forums, les chats ou autres outils de participation.</li></ul>"
-      },
-      "DATA_PROTECTION": {
-        "TITLE": "4. PROTECTION DES DONNÉES ET UTILISATION DES COOKIES",
-        "DESCRIPTION_1": "L'utilisation des données personnelles est définie sur la base du Règlement général sur la protection des données et de la législation espagnole en vigueur. Afin d'assurer une transparence maximale et sur la base de notre politique proactive, nous vous informons :",
-        "DESCRIPTION_2": "<ul><li>Pourquoi demandons-nous vos données ? Nous avons besoin de vos données pour créer un dossier et vous contacter ultérieurement en tant que client.</li><li>Quel type de données collectons-nous ? Informations personnelles.</li><li>Comment sont-elles collectées ? Par le biais de formulaires web et de commentaires sur le blog.</li><li>Partage avec des tiers : Non applicable.</li><li>Combien de temps les données personnelles collectées sont-elles conservées ? Les données personnelles fournies seront conservées aussi longtemps que la relation commerciale sera maintenue ou que vous ne demanderez pas leur suppression et pendant la période pendant laquelle des responsabilités légales pour les services fournis peuvent être engagées.</li></ul>",
-        "DESCRIPTION_3": "Droits : Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer, de les limiter et de vous opposer à leur traitement à tout moment, vous pouvez également retirer le consentement donné et faire une réclamation auprès de l'autorité de contrôle (Agence espagnole de protection des données, C/ Jorge Juan nº6 28001 Madrid). Pour exercer vos droits, vous disposez d'un canal direct avec notre entreprise à l'adresse e-mail info@porticosport.com et à l'adresse postale C/ ALBAÑILES. POL. IND. LOS VARALES 06220 – VILLAFRANCA DE LOS BARROS. (BADAJOZ) en indiquant dans l'objet « protection des données »."
-      },
+        "DESCRIPTION_1": "Notre site web fournit un accès à des informations, services, programmes ou données (ci-après dénommés \"contenu\") sur Internet appartenant à PÓRTICO GESTIÓN E INGENIERÍA, S.L. ou à ses concédants de licence, que l'UTILISATEUR peut consulter.",
+        "DESCRIPTION_2": "L'UTILISATEUR assume la responsabilité de la bonne utilisation du portail. Cette responsabilité s'étend à toute inscription requise pour accéder à certains services ou contenus. Dans le cadre de cette inscription, l'UTILISATEUR sera responsable de fournir des informations véridiques et légales. À la suite de cette inscription, l'UTILISATEUR peut recevoir un mot de passe, pour lequel il sera responsable, s'engageant à l'utiliser avec diligence, éthique et confidentialité. L'UTILISATEUR s'engage à utiliser de manière appropriée le contenu et les services (tels que les services de chat, les forums de discussion ou les groupes de nouvelles) fournis par le portail et, à titre d'exemple mais sans s'y limiter, s'engage à ne pas les utiliser pour :",
+        "DESCRIPTION_3": "- Participer à des activités ou actions illégales ou contraires à la bonne foi et à l'ordre public ;",
+        "DESCRIPTION_4": "- Diffuser du contenu ou de la propagande de nature raciste, xénophobe, pornographique-illégale, ou qui promeut le terrorisme ou viole les droits de l'homme ;",
+        "DESCRIPTION_5": "- Causer des dommages aux systèmes physiques et logiques du propriétaire, de ses fournisseurs ou de tiers, introduire ou diffuser des virus informatiques ou tout autre système physique ou logique capable de causer les dommages mentionnés ;",
+        "DESCRIPTION_6": "- Tenter d'accéder et, le cas échéant, d'utiliser les comptes de messagerie d'autres utilisateurs et de modifier ou manipuler leurs messages. Le propriétaire du portail se réserve le droit de supprimer tout commentaire ou contribution qui viole la dignité humaine, qui est discriminatoire, xénophobe, raciste, pornographique, qui nuit aux jeunes ou aux enfants, qui perturbe l'ordre ou la sécurité publics, ou qui, à son jugement, n'est pas approprié ou adapté à la publication. Dans tous les cas, le propriétaire du portail n'est pas responsable des opinions exprimées par les utilisateurs à travers des forums, des chats ou d'autres outils de participation."
+},
+
+        "DATA_PROTECTION": {
+        "TITLE": "4. PROTECTION DES DONNÉES",
+        "DESCRIPTION_1": "L'utilisation des données personnelles est définie selon le Règlement Général sur la Protection des Données et la législation espagnole en vigueur. Pour garantir une transparence maximale et suivant notre politique proactive, nous vous informons :",
+        "DESCRIPTION_2": "Pourquoi demandons-nous vos données ? PÓRTICO GESTIÓN E INGENIERÍA, S.L. informe le client que le traitement des données est effectué pour les finalités suivantes : gérer toutes les tâches liées à la préparation de devis, à la contractualisation et à la fourniture de services par PÓRTICO GESTIÓN E INGENIERÍA, S.L. à l'entreprise ou à la partie intéressée qui en fait la demande. De plus, gérer et répondre aux communications reçues et pour la prospection commerciale afin de tenir les utilisateurs informés des promotions potentielles.",
+        "DESCRIPTION_3": "Quel type de données collectons-nous ? Des données personnelles correspondant à votre identité qui sont appropriées, pertinentes, à jour, exactes et véridiques. L'utilisateur sera seul responsable de tout dommage, direct ou indirect, causé à des tiers ou à PÓRTICO GESTIÓN E INGENIERÍA, S.L. en raison de l'utilisation des données personnelles d'autrui ou des siennes lorsqu'elles sont fausses, erronées, obsolètes, inappropriées ou non pertinentes. L'utilisateur utilisant les données personnelles d'une autre personne sera responsable de les informer conformément au RGPD lorsque les données personnelles n'ont pas été collectées auprès de la personne concernée, et/ou des conséquences de ce manquement à l'information.",
+        "DESCRIPTION_4": "Comment les données sont-elles collectées ? Par le biais de formulaires de collecte de données personnelles. Dans les formulaires de contact sur le site web, où des données personnelles sont collectées, l'utilisateur doit consentir expressément, avant de soumettre le formulaire, en acceptant la politique de confidentialité en cochant la case \"J'ai lu et j'accepte la politique de confidentialité\". Le contenu peut être consulté via le lien fourni dans cet avis légal. Si l'utilisateur ne coche pas la case, le formulaire ne sera pas soumis.",
+        "DESCRIPTION_5": "Partage avec des tiers : Les données ne seront pas partagées avec des tiers sauf dans les cas où il y a une obligation légale. Aucun transfert de données vers des pays tiers n'est prévu.",
+        "DESCRIPTION_6": "Droits : Vous avez le droit d'accéder, de rectifier, de supprimer, de restreindre et de vous opposer au traitement de vos données à tout moment. Vous pouvez également retirer le consentement donné et déposer une plainte auprès de l'autorité de contrôle (Agence espagnole de protection des données, c/ Jorge Juan nº6 28001 Madrid). Pour exercer vos droits, vous pouvez nous contacter directement via l'email de protection des données info@porticosport.com ou à l'adresse postale POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), en indiquant \"protection des données\" dans l'objet. De plus, PÓRTICO GESTIÓN E INGENIERÍA, S.L. informe qu'elle se conforme à la Loi 34/2002 du 11 juillet, sur les services de la société de l'information et le commerce électronique, et demandera votre consentement pour traiter votre email à des fins commerciales lorsque cela sera nécessaire."
+},
+
+      
       "INTELLECTUAL": {
         "TITLE": "5. PROPRIÉTÉ INTELLECTUELLE ET INDUSTRIELLE",
-        "DESCRIPTION_1": "Le propriétaire lui-même ou en tant que cessionnaire, est propriétaire de tous les droits de propriété intellectuelle et industrielle de son site web, ainsi que des éléments qui y sont contenus (par exemple, images, son, audio, vidéo, logiciels ou textes ; marques ou logos, combinaisons de couleurs, structure et design, sélection des matériaux utilisés, programmes informatiques nécessaires à son fonctionnement, accès et utilisation, etc.).",
-        "DESCRIPTION_2": "Tous droits réservés. En vertu des dispositions des articles 8 et 32.1, deuxième paragraphe, de la loi sur la propriété intellectuelle, la reproduction, la distribution et la communication publique, y compris la manière de les rendre disponibles, de tout ou partie du contenu de ce site web, à des fins commerciales, sur quelque support et par quelque moyen technique que ce soit, sans l'autorisation de PÓRTICO GESTIÓN E INGENIERÍA, SL",
-        "DESCRIPTION_3": "L'UTILISATEUR s'engage à respecter les droits de propriété intellectuelle et industrielle détenus par PÓRTICO GESTIÓN E INGENIERÍA, S.L. Vous pouvez consulter les éléments du portail et même les imprimer, les copier et les stocker sur le disque dur de votre ordinateur ou sur tout autre support physique aussi longtemps que cela est, uniquement et exclusivement, pour votre usage personnel et privé. L'UTILISATEUR doit s'abstenir de supprimer, modifier, éluder ou manipuler tout dispositif de protection ou système de sécurité installé sur les pages de PÓRTICO GESTIÓN E INGENIERÍA, S.L."
-      },
-      "EXCLUSION": {
-        "TITLE": "6. EXCLUSION DE GARANTIES ET RESPONSABILITÉ",
-        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. n'est en aucun cas responsable des dommages de quelque nature que ce soit pouvant être causés, par exemple : erreurs ou omissions dans les contenus, indisponibilité du portail ou transmission de virus ou de programmes malveillants ou nuisibles dans les contenus, malgré avoir pris toutes les mesures technologiques nécessaires pour l'éviter."
+        "DESCRIPTION_1": "Le propriétaire, soit en son nom, soit en tant que licencié, détient tous les droits de propriété intellectuelle et industrielle sur son site web et les éléments qui y sont contenus (par exemple, images, son, audio, vidéo, logiciels, textes ; marques ou logos, combinaisons de couleurs, structure, design, sélection des matériaux utilisés, programmes informatiques nécessaires à son fonctionnement, accès et utilisation, etc.).",
+        "DESCRIPTION_2": "Tous droits réservés. Conformément aux dispositions des articles 8 et 32.1, deuxième paragraphe, de la loi sur la propriété intellectuelle, la reproduction, la distribution et la communication publique, y compris la mise à disposition, de tout ou partie du contenu de ce site web, à des fins commerciales, sur tout support et par tout moyen technique, sans l'autorisation de PÓRTICO GESTIÓN E INGENIERÍA, S.L. est expressément interdite.",
+        "DESCRIPTION_3": "L'UTILISATEUR s'engage à respecter les droits de propriété intellectuelle et industrielle de PÓRTICO GESTIÓN E INGENIERÍA, S.L. Il peut visualiser, imprimer, copier et stocker les éléments du portail sur le disque dur de son ordinateur ou sur tout autre support physique, à condition que ce soit uniquement pour un usage personnel et privé. L'UTILISATEUR doit s'abstenir de supprimer, modifier, contourner ou manipuler tout dispositif de protection ou système de sécurité installé sur le site web www.porticosport.com."
+},
+"EXCLUSION": {
+        "TITLE": "6. EXCLUSION DE GARANTIES ET DE RESPONSABILITÉ",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. ne sera pas responsable des dommages de toute nature qui pourraient être causés, y compris, mais sans s'y limiter : des erreurs ou omissions dans le contenu, l'indisponibilité du portail, ou la transmission de virus ou de programmes malveillants ou nuisibles dans le contenu, malgré les mesures technologiques nécessaires prises pour les prévenir."
       },
       "MODIFICATIONS": {
         "TITLE": "7. MODIFICATIONS",
-        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. se réserve le droit d'apporter les modifications qu'elle juge appropriées sur son portail sans préavis, pouvant modifier, supprimer ou ajouter à la fois le contenu et les services fournis via celui-ci et la manière dont ils sont présentés ou situés dans son portail."
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. se réserve le droit d'apporter toutes modifications qu'elle jugera appropriées à son portail sans préavis, y compris la possibilité de changer, supprimer ou ajouter du contenu et des services fournis par le biais du portail, ainsi que la façon dont ils sont présentés ou situés."
       },
-      "LINKS": {
-        "LINKS": "8. LIENS",
-        "DESCRIPTION_1": "Dans le cas où des liens ou des hyperliens vers d'autres sites Internet sont disponibles sur porticosport.net, il n'exercera aucun type de contrôle sur lesdits sites et contenus. En aucun cas PÓRTICO GESTIÓN E INGENIERÍA, S.L. ne sera responsable du contenu de tout lien appartenant à un site web tiers, ni ne garantira la disponibilité technique, la qualité, la fiabilité, l'exactitude, l'étendue, la véracité, la validité et la constitutionnalité de tout matériel ou information contenu dans l'un de ces hyperliens ou autres sites Internet. En cas d'utilisation des liens, veuillez accéder à la politique de confidentialité et à l'avis juridique de la page visitée.",
-        "DESCRIPTION_2": "De même, l'inclusion de ces liens externes n'impliquera aucun type d'association, fusion ou participation avec les entités connectées."
+"LINKS": {
+        "TITLE": "8. LIENS",
+        "DESCRIPTION_1": "Si www.porticosport.com contient des liens ou hyperliens vers d'autres sites web, il n'exercera aucun contrôle sur ces sites et leur contenu. En aucun cas, PÓRTICO GESTIÓN E INGENIERÍA, S.L. n'assumera de responsabilité pour le contenu de tout site externe lié à celui-ci, ni ne garantira la disponibilité technique, la qualité, la fiabilité, l'exactitude, l'ampleur, la véracité, la validité ou la constitutionnalité de tout matériel ou information contenu dans ces hyperliens ou autres sites web. Lors de l'utilisation de tels liens, nous vous recommandons de consulter la politique de confidentialité et l'avis juridique de la page visitée.",
+        "DESCRIPTION_2": "L'inclusion de ces connexions externes n'implique aucune association, fusion ou partenariat avec les entités liées."
       },
       "RIGHT_OF_EXCLUSION": {
         "TITLE": "9. DROIT D'EXCLUSION",
-        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. se réserve le droit de refuser ou de retirer l'accès au portail et/ou aux services offerts sans préavis, à sa demande ou à celle d'un tiers, à ceux qui ne respectent pas ces Conditions générales d'utilisation."
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. se réserve le droit de refuser ou de retirer l'accès au portail et/ou aux services offerts sans préavis, à sa discrétion ou à celle d'un tiers, aux utilisateurs qui enfreignent ces Conditions Générales d'Utilisation."
       },
+
       "GENERAL": {
-        "TITLE": "10. GÉNÉRALITÉS",
-        "DESCRIPTION_1": "Le non-respect de ces conditions sera poursuivi, ainsi que toute utilisation abusive de son portail, en exerçant toutes les actions civiles et pénales qui pourraient lui correspondre en droit."
+        "TITLE": "10. GÉNÉRAL",
+        "DESCRIPTION_1": "La violation de ces conditions, ainsi que toute utilisation inappropriée du portail, sera poursuivie par toutes les actions civiles et pénales disponibles en droit."
       },
       "MODIFICATION_PRESENT": {
-        "TITLE": "11. MODIFICATION DES CONDITIONS PRÉSENTES ET DURÉE",
-        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. peut modifier les conditions déterminées ici à tout moment, étant publiées comme elles apparaissent ici.",
-        "DESCRIPTION_2": "La validité desdites conditions sera basée sur leur exposition et sera valide jusqu'à ce qu'elles soient dûment publiées. qui sont modifiés par d'autres."
+        "TITLE": "11. MODIFICATION DE CES CONDITIONS ET DURÉE",
+        "DESCRIPTION_1": "PÓRTICO GESTIÓN E INGENIERÍA, S.L. peut modifier ces conditions à tout moment, qui seront dûment publiées comme elles apparaissent ici.",
+        "DESCRIPTION_2": "La validité des conditions mentionnées dépendra de leur affichage et restera en vigueur jusqu'à ce qu'elles soient modifiées par d'autres."
       },
       "LEGISLATION": {
-        "TITLE": "12. LÉGISLATION APPLICABLE ET JURIDICTION",
-        "DESCRIPTION_1": "La relation entre PÓRTICO GESTIÓN E INGENIERÍA, S.L. et l'UTILISATEUR sera régie par la réglementation espagnole en vigueur et tout litige sera soumis à l'autorité compétente."
+        "TITLE": "12. LOI APPLICABLE ET JURIDICTION",
+        "DESCRIPTION_1": "La relation entre PÓRTICO GESTIÓN E INGENIERÍA, S.L. et l'UTILISATEUR sera régie par la législation espagnole en vigueur, et tout litige sera soumis à l'autorité compétente."
       }
+
     },
     "NO_FOUND": {
       "ID": "not-found",
