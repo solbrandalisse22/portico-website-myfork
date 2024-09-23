@@ -23,6 +23,7 @@ export default defineConfig({
     "/pistas-de-padel/mobile": "/mobile",
     "/pistas-de-padel/panoramic-force-80": "/panoramic-force-80",
     "/pistas-de-padel/single": "/single",
+    "/flow": "/tournament",
   },
   i18n: {
     defaultLocale: "es",
