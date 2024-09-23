@@ -2374,25 +2374,29 @@
             "NAME": "Google Analytics",
             "TYPE": "Terza parte",
             "OBJECTIVE": "Raccoglie informazioni sulla navigazione degli utenti per tracciare le fonti di visita e mostrare pubblicità in relazione alle preferenze degli utenti.",
-            "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=it"
+            "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=it",
+            "URL_TITLE":"Ulteriori Informazioni"
           },
           {
             "NAME": "Facebook",
             "TYPE": "Terza parte",
             "OBJECTIVE": "Condividere contenuti sulla rete sociale",
-            "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/"
+            "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/",
+            "URL_TITLE":"Ulteriori Informazioni"
           },
           {
             "NAME": "Instagram",
             "TYPE": "Terza parte",
             "OBJECTIVE": "Condividere contenuti sulla rete sociale",
-            "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370"
+            "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370",
+            "URL_TITLE":"Ulteriori Informazioni"
           },
           {
             "NAME": "Twitter",
             "TYPE": "Terza parte",
             "OBJECTIVE": "Condividere contenuti sulla rete sociale",
-            "OBJECTIVE_URL": "https://twitter.com/en/privacy"
+            "OBJECTIVE_URL": "https://twitter.com/en/privacy",
+            "URL_TITLE":"Ulteriori Informazioni"
           }
         ]
       },
