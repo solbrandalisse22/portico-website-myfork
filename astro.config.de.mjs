@@ -23,6 +23,7 @@ export default defineConfig({
     "/padel-plaetze/mobile": "/mobile",
     "/padel-plaetze/panoramic-force-80": "/panoramic-force-80",
     "/padel-plaetze/single": "/single",
+    "/flow": "/tournament",
   },
   i18n: {
     defaultLocale: "de",
