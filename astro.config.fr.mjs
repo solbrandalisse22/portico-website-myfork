@@ -23,6 +23,7 @@ export default defineConfig({
     "/terrains-de-padel/mobile": "/mobile",
     "/terrains-de-padel/panoramic-force-80": "/panoramic-force-80",
     "/terrains-de-padel/single": "/single",
+    "/flow": "/tournament",
   },
   i18n: {
     defaultLocale: "fr",
