@@ -2329,25 +2329,30 @@
                     "NAME": "Google Analytics",
                     "TYPE": "Dritte Partei",
                     "OBJECTIVE": "Sammelt Informationen über die Benutzer-Navigation, um Besuchsquellen nachzuverfolgen und Werbung im Zusammenhang mit den Vorlieben der Benutzer anzuzeigen.",
-                    "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=de"
+                    "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=de",
+                    "URL_TITLE":"Weitere Informationen"
+            
                   },
                   {
                     "NAME": "Facebook",
                     "TYPE": "Dritte Partei",
                     "OBJECTIVE": "Teilt Inhalte im sozialen Netzwerk",
-                    "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/"
+                    "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/",
+                    "URL_TITLE":"Weitere Informationen"
                   },
                   {
                     "NAME": "Instagram",
                     "TYPE": "Dritte Partei",
                     "OBJECTIVE": "Teilt Inhalte im sozialen Netzwerk",
-                    "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370"
+                    "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370",
+                    "URL_TITLE":"Weitere Informationen"
                   },
                   {
                     "NAME": "Twitter",
                     "TYPE": "Dritte Partei",
                     "OBJECTIVE": "Teilt Inhalte im sozialen Netzwerk",
-                    "OBJECTIVE_URL": "https://twitter.com/de/privacy"
+                    "OBJECTIVE_URL": "https://twitter.com/de/privacy",
+                    "URL_TITLE":"Weitere Informationen"
                   }
                 ]
               },
