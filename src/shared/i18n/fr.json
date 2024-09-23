@@ -2372,25 +2372,29 @@
                     "NAME": "Google Analytics",
                     "TYPE": "Tiers",
                     "OBJECTIVE": "Collecte des informations sur la navigation des utilisateurs pour suivre les sources de visite et afficher des publicités liées aux préférences des utilisateurs.",
-                    "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=fr"
+                    "OBJECTIVE_URL": "https://policies.google.com/technologies/types?hl=fr",
+                    "URL_TITLE": "plus d'informations"
                   },
                   {
                     "NAME": "Facebook",
                     "TYPE": "Tiers",
                     "OBJECTIVE": "Partager du contenu sur le réseau social",
-                    "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/"
+                    "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/",
+                    "URL_TITLE": "plus d'informations"
                   },
                   {
                     "NAME": "Instagram",
                     "TYPE": "Tiers",
                     "OBJECTIVE": "Partager du contenu sur le réseau social",
-                    "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370"
+                    "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370",
+                    "URL_TITLE": "plus d'informations"
                   },
                   {
                     "NAME": "Twitter",
                     "TYPE": "Tiers",
                     "OBJECTIVE": "Partager du contenu sur le réseau social",
-                    "OBJECTIVE_URL": "https://twitter.com/en/privacy"
+                    "OBJECTIVE_URL": "https://twitter.com/en/privacy",
+                    "URL_TITLE": "plus d'informations"
                   }
                 ]
         },
