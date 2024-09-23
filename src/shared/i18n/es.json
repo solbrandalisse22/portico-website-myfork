@@ -2399,25 +2399,29 @@
             "NAME": "Google Analytics",
             "TYPE": "De terceros",
             "OBJECTIVE": "Recoger información sobre la navegación de los usuarios por el sitio web con el fin de conocer el origen de las visitas y otros datos similares a nivel estadístico, así como, en su caso, mostrar a los usuarios publicidad relacionada con sus preferencias en base a un perfil elaborado a partir de sus hábitos de navegación (por ejemplo, páginas visitadas).",
-            "OBJECTIVE_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+            "OBJECTIVE_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage",
+            "URL_TITLE":"Mas información"
           },
           {
             "NAME": "Facebook",
             "TYPE": "De terceros",
             "OBJECTIVE": "Compartir contenido en la red social.",
-            "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/"
+            "OBJECTIVE_URL": "https://www.facebook.com/policies/cookies/",
+            "URL_TITLE":"Mas información"
           },
           {
             "NAME": "Instagram",
             "TYPE": "De terceros",
             "OBJECTIVE": "Compartir contenido en la red social.",
-            "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370"
+            "OBJECTIVE_URL": "https://help.instagram.com/1896641480634370",
+            "URL_TITLE":"Mas información"
           },
           {
             "NAME": "Twitter",
             "EXPIRE": "De terceros",
             "OBJECTIVE": "Compartir contenido en la red social",
-            "OBJECTIVE_URL": "https://twitter.com/es/privacy"
+            "OBJECTIVE_URL": "https://twitter.com/es/privacy",
+            "URL_TITLE":"Mas información"
           }
         ]
       },
