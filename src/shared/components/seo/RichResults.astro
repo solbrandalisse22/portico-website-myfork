@@ -75,31 +75,91 @@ const TYPES = {
     }
   },
   UK: {
+   "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Portico Sport UK",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Unit 2, Norse Trade Park, Barn Rd, Viking Wy., Congleton CW12 1LB",
+    "addressLocality": "Somford",
+    "addressRegion": "-",
+    "postalCode": "CW12 1LB",
+    "addressCountry": "UK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 53.17183062119886,
+    "longitude": -2.22275553069014
+  },
+  "telephone": "+44 161 989 9842",
+  "url": "https://www.porticosport.com/uk",
+  "email": "info@porticosport.com",
+  "description": "Portico Sport UK is a leading provider of Padel court construction and canopy installation services across the UK. We offer customized solutions tailored to meet the needs of the British market, ensuring top-quality materials and superior craftsmanship. Contact us for expert installations and reliable service.",
+  "image": "https://www.porticosport.com/porticoSportUK_home.webp",
+  "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
+  "priceRange": "££",
+  "openingHours": [
+    "Mo-Fr 09:00-18:00",
+    "Su 09:00-18:00"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/porticosport",
+    "https://www.instagram.com/porticosport",
+    "https://www.facebook.com/porticosport",
+    "https://twitter.com/portico_sport"
+  ],
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "David Smith"
+    },
+    "datePublished": "2023-08-14",
+    "reviewBody": "Portico Sport UK provided exceptional service and high-quality Padel courts for our sports club. Their expertise and professionalism were outstanding.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    }
+  }
+  },
+  USA:{
     "@context": "https://schema.org",
-    "@type": "ConstructionCompany",
-    "name": "Portico Sport UK",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Unit 2, Norse Trade Park, Barn Rd, Viking Wy., Congleton CW12 1LB",
-      "addressLocality": "Somford",
-      "addressRegion": "-",
-      "postalCode": "CW12 1LB",
-      "addressCountry": "UK"
+  "@type": "LocalBusiness",
+  "name": "Padel Court Builders USA",
+  "url": "https://www.porticosport.com/padel-court-usa",
+  "email": "info@porticosport.com",
+  "description": "Padel Court Builders USA specializes in the construction of high-quality Padel courts, offering top-notch services across the United States. With tailored solutions for the American market, we ensure durability, precision, and excellence in every project.",
+  "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
+  "priceRange": "$$",
+  "openingHours": [
+    "Mo-Fr 09:00-18:00",
+    "Su 09:00-18:00"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/porticosport",
+    "https://www.instagram.com/porticosport",
+    "https://twitter.com/portico_sport"
+  ],
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Michael Johnson"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 53.17183062119886,
-      "longitude": -2.22275553069014
-    },
-    "telephone": "01619899842",
-    "url": "https://www.porticosport.com/",
-    "email": "info@porticosport.com",
-    "description": "Premier Padel court construction & canopy installation globally. Explore our tailored solutions today!"
+    "datePublished": "2024-09-15",
+    "reviewBody": "Padel Court Builders USA delivered outstanding service. The team was highly professional, and the court they built exceeded our expectations. I highly recommend them for their quality and expertise.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    }
+  }
   },
   DEFAULT: organizationSchema
 }
 
-let schema = pathname === '/uk' ? TYPES.UK : TYPES.DEFAULT
+let schema = pathname === '/UK' ? TYPES.UK : pathname === '/USA' ? TYPES.USA : TYPES.DEFAULT;
 
 if (TYPE) {
   schema = TYPES[TYPE] || schema;
