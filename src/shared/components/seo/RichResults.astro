@@ -159,7 +159,7 @@ const TYPES = {
   DEFAULT: organizationSchema
 }
 
-let schema = pathname === '/UK' ? TYPES.UK : pathname === '/USA' ? TYPES.USA : TYPES.DEFAULT;
+let schema = pathname === i18n.PAGES.HOME.UK_ROUTE.ROUTE.URL ? TYPES.UK : pathname === i18n.PAGES.HOME.USA_ROUTE.ROUTE.URL ? TYPES.USA  : TYPES.DEFAULT;
 
 if (TYPE) {
   schema = TYPES[TYPE] || schema;
