@@ -159,19 +159,8 @@ const TYPES = {
   DEFAULT: organizationSchema
 }
 
-let schema;
+let schema = pathname === "/uk" ? TYPES.UK : pathname === "/padel-court-usa" ? TYPES.USA : TYPES.DEFAULT;
 
-switch (pathname) {
-  case i18n.PAGES.HOME.UK_ROUTE.ROUTE.URL:
-    schema = TYPES.UK;
-    break;
-  case i18n.PAGES.HOME.USA_ROUTE.ROUTE.URL:
-    schema = TYPES.USA;
-    break;
-  default:
-    schema = TYPES.DEFAULT;
-    break;
-}
 if (TYPE) {
   schema = TYPES[TYPE] || schema;
 }
