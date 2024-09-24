@@ -2437,14 +2437,14 @@
       }
 
     },
-    "PRIVACY": {
-      "ID": "privacy",
-      "TYPE": "PRODUCT",
-      "SEO_TITLE": "Informativa sulla privacy",
-      "SEO_DESCRIPTION": "Esplora la nostra Informativa sulla privacy e le Condizioni generali su Portico Sport. Scopri la protezione dei dati, i diritti dell'utente, la proprietà intellettuale e altro ancora.",
+    
+      "LEGAL_ADVICE": {
+      "ID": "advice",
+      "SEO_TITLE": "Consulenza legale",
+      "SEO_DESCRIPTION":"Esplora la nostra consulenza legale",
       "ROUTE": {
-        "LABEL": "Informativa sulla privacy",
-        "URL": "/privacy"
+        "LABEL": "Consulenza legale",
+        "URL": "/legal-advice"
       },
       "TITLE": "Informativa sulla Privacy e Condizioni Generali",
       "IDENTIFICATION": {
@@ -2518,6 +2518,27 @@
       }
 
     },
+    "PRIVACY": {
+      "ID": "privacy",
+      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Informativa sulla privacy",
+      "SEO_DESCRIPTION": "Esplora la nostra Informativa sulla privacy e le Condizioni generali su Portico Sport. Scopri la protezione dei dati, i diritti dell'utente, la proprietà intellettuale e altro ancora.",
+      "ROUTE": {
+        "LABEL": "Informativa sulla privacy",
+        "URL": "/privacy"
+      },
+      "POLICY":{
+      "TITLE":"Politica sulla privacy del sito web",
+"DESCRIPTION":"In conformità con il Regolamento generale sulla protezione dei dati (UE) 2016/679 del Parlamento europeo e del Consiglio del 27 aprile 2016 e con la Legge organica 3/2018 del 5 dicembre sulla protezione dei dati personali e la garanzia dei diritti digitali, vi informiamo che:",
+"DESCRIPTION_1":"La società che possiede questo dominio e responsabile del trattamento dei dati sul sito www.porticosport.com è PÓRTICO GESTIÓN E INGENIERÍA, S.L., con sede legale in POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), numero di identificazione fiscale: B-06585897. Email per la protezione dei dati: info@porticosport.com.",
+"DESCRIPTION_2":"Il titolare dei dati, PÓRTICO GESTIÓN E INGENIERÍA, S.L., gestisce la raccolta dei tuoi dati attraverso l’uso dei nostri moduli. Nei moduli di contatto disponibili sul sito, dove vengono raccolti dati personali, l’utente deve esprimere esplicitamente il consenso, prima di inviare il modulo, all’accettazione e alla comprensione della politica sulla privacy selezionando la casella “Ho letto e accetto la politica sulla privacy,” accessibile tramite un link che rimanda a questo avviso legale. Se la casella non è selezionata dall’utente, i dati forniti nei moduli non verranno inviati. Comprendo che sto dando il permesso per l’uso e il trattamento dei miei dati personali e per le informazioni richieste o contrattate.",
+"DESCRIPTION_3":"La base legale per il trattamento dei tuoi dati è il consenso che hai fornito. Tu o il tuo rappresentante legale potete revocare questo consenso in qualsiasi momento. Conserveremo i tuoi dati per il periodo strettamente necessario a soddisfare i requisiti legali.",
+"DESCRIPTION_4":"I dati non saranno condivisi con terzi, a meno che non ci sia un obbligo legale di farlo. Non sono previsti trasferimenti di dati verso paesi terzi.",
+"DESCRIPTION_5":"Puoi esercitare i tuoi diritti di accesso, rettifica, cancellazione e trasferimento dei tuoi dati, nonché limitare o opporsi al loro trattamento inviando un’email a info@porticosport.com o scrivendo a POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ).",
+"DESCRIPTION_6":"Inoltre, puoi presentare un reclamo all’autorità di controllo competente su www.aepd.es.",
+"DESCRIPTION_7":"I tuoi dati sono stati forniti direttamente da te tramite il sito web. Trattiamo le tue informazioni identificative, il tuo indirizzo postale, il tuo indirizzo email e i servizi commerciali che hai richiesto."
+     
+}},
     "NO_FOUND": {
       "ID": "non-trovato",
       "SEO_TITLE": "Pagina non trovata",
