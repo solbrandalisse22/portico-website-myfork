@@ -2431,14 +2431,13 @@
               "DESCRIPTION_1":"Si vous avez des questions concernant cette politique de cookies, vous pouvez nous contacter."
             }
     },
-    "PRIVACY": {
-      "ID": "privacy",
-      "TYPE": "PRODUCT",
-      "SEO_TITLE": "Politique de confidentialité",
-      "SEO_DESCRIPTION": "Explorez notre Politique de confidentialité et nos Conditions générales chez Portico Sport. Apprenez-en davantage sur la protection des données, les droits des utilisateurs, la propriété intellectuelle, et plus encore.",
+      "LEGAL_ADVICE": {
+      "ID": "advice",
+      "SEO_TITLE": "Conseil juridique",
+      "SEO_DESCRIPTION":"Découvrez notre conseil juridique",
       "ROUTE": {
-        "LABEL": "Politique de confidentialité",
-        "URL": "/privacy"
+        "LABEL": "Conseil juridique",
+        "URL": "/conseil-juridique"
       },
         "TITLE": "Politique de Confidentialité et Conditions Générales",
         "IDENTIFICATION": {
@@ -2511,6 +2510,26 @@
       }
 
     },
+    "PRIVACY": {
+      "ID": "privacy",
+      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Politique de confidentialité",
+      "SEO_DESCRIPTION": "Explorez notre Politique de confidentialité et nos Conditions générales chez Portico Sport. Apprenez-en davantage sur la protection des données, les droits des utilisateurs, la propriété intellectuelle, et plus encore.",
+      "ROUTE": {
+        "LABEL": "Politique de confidentialité",
+        "URL": "/privacy"
+      },
+      "POLICY":{
+      "TITLE":"Politique de confidentialité du site web",
+      "DESCRIPTION":"Conformément au Règlement général sur la protection des données (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, et à la Loi organique 3/2018 du 5 décembre sur la protection des données personnelles et la garantie des droits numériques, nous vous informons que :",
+"DESCRIPTION_1":"La société qui possède ce domaine et est responsable du traitement des données sur le site www.porticosport.com est PÓRTICO GESTIÓN E INGENIERÍA, S.L., dont le siège social est situé à POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), numéro d'identification fiscale : B-06585897. E-mail pour la protection des données : info@porticosport.com.",
+"DESCRIPTION_2":"Le responsable des données, PÓRTICO GESTIÓN E INGENIERÍA, S.L., gère la collecte de vos données par l'utilisation de nos formulaires. Sur les formulaires de contact disponibles sur le site, où des données personnelles sont collectées, l'utilisateur doit consentir expressément, avant de soumettre le formulaire, à l'acceptation et à la compréhension de la politique de confidentialité en cochant la case « J'ai lu et j'accepte la politique de confidentialité », à laquelle on peut accéder par un lien renvoyant à cet avis légal. Si la case n'est pas cochée par l'utilisateur, les données fournies dans les formulaires ne seront pas envoyées. Je comprends que je donne la permission pour l'utilisation et le traitement de mes données personnelles ainsi que pour les informations demandées ou contractées.",
+"DESCRIPTION_3":"La base légale du traitement de vos données est le consentement que vous avez fourni. Vous ou votre représentant légal pouvez révoquer ce consentement à tout moment. Nous conserverons vos données pendant la durée strictement nécessaire pour satisfaire aux exigences légales.",
+"DESCRIPTION_4":"Les données ne seront pas partagées avec des tiers, sauf s'il existe une obligation légale de le faire. Aucun transfert de données vers des pays tiers n'est prévu.",
+"DESCRIPTION_5":"Vous pouvez exercer vos droits d'accès, de rectification, de suppression et de transfert de vos données, ainsi que de limitation ou d'opposition à leur traitement en envoyant un e-mail à info@porticosport.com ou en écrivant à POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ).",
+"DESCRIPTION_6":"De plus, vous pouvez déposer une plainte auprès de l'autorité de contrôle compétente sur www.aepd.es.",
+"DESCRIPTION_7":"Vos données ont été fournies directement par vous via le site web. Nous traitons vos informations d'identification, votre adresse postale, votre adresse e-mail et les services commerciaux que vous avez demandés."
+     } },
     "NO_FOUND": {
       "ID": "not-found",
       "SEO_TITLE": "Page non trouvée",
