@@ -2214,7 +2214,7 @@
         "URL": "/news"
       },
       "POST_PAGE": {
-        "WRITE": "Write by"
+        "WRITE": "Written by"
       },
       "LIST": {
         "TITLE": "Our last News",
