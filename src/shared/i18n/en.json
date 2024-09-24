@@ -2502,13 +2502,13 @@
        "DESCRIPTION_1":"If you have any questions about this cookie policy, you can contact us."
       }
     },
-    "PRIVACY": {
-      "ID": "privacy",
-      "SEO_TITLE": "Privacy Policy",
-      "SEO_DESCRIPTION":"Explore our Privacy Policy and General Conditions at Portico Sport. Learn about data protection, user rights, intellectual property, and more.",
+      "LEGAL_ADVICE": {
+      "ID": "advice",
+      "SEO_TITLE": "Legal Advice",
+      "SEO_DESCRIPTION":"Explore our Legal Advice",
       "ROUTE": {
-        "LABEL": "Privacy Policy",
-        "URL": "/privacy"
+        "LABEL": "Legal Advice",
+        "URL": "/legal-advice"
       },
       "TITLE": "Privacy Policy And General Conditions",
       "IDENTIFICATION": {
@@ -2576,6 +2576,25 @@
       }
       
     },
+    "PRIVACY": {
+      "ID": "privacy",
+      "SEO_TITLE": "Privacy Policy",
+      "SEO_DESCRIPTION":"Explore our Privacy Policy and General Conditions at Portico Sport. Learn about data protection, user rights, intellectual property, and more.",
+      "ROUTE": {
+        "LABEL": "Privacy Policy",
+        "URL": "/privacy"
+      },
+      "POLICY":{
+      "TITLE":"Web Privacy Policy",
+      "DESCRIPTION":"In compliance with the General Data Protection Regulation (EU) 2016/679 of the European Parliament and Council of 27 April 2016, and Organic Law 3/2018 of 5th December on the Protection of Personal Data and Guarantee of Digital Rights, we inform you that:",
+"DESCRIPTION_1":"The company that owns this domain and is responsible for the processing of data on the website www.porticosport.com is PÓRTICO GESTIÓN E INGENIERÍA, S.L., with its registered address at POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), Tax ID number: B-06585897. Data Protection email: info@porticosport.com",
+"DESCRIPTION_2":"The data controller, PÓRTICO GESTIÓN E INGENIERÍA, S.L., manages the collection of your data through the use of our forms. On the contact forms available on the website, where personal data is collected, the user must expressly consent, prior to submitting the form, to the acceptance and understanding of the privacy policy by checking the box “I have read and accept the privacy policy,” with access provided through a link that refers to this legal notice. If the box is not checked by the user, the data provided in the forms will not be sent. I understand that I am granting permission for the use and processing of my personal data as well as for the information requested or contracted.",
+"DESCRIPTION_3":"The legal basis for processing your data is the consent you have provided. You or your legal representative may revoke this consent at any time. We will retain your data for the period strictly necessary to meet legal requirements.",
+"DESCRIPTION_4":"Data will not be shared with third parties unless there is a legal obligation to do so. No data transfers to third countries are planned.",
+"DESCRIPTION_5":"You may exercise your rights to access, rectify, delete, and transfer your data, and limit or object to its processing by emailing info@porticosport.com or writing to POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ).",
+"DESCRIPTION_6":"Additionally, you can file a complaint with the relevant supervisory authority at www.aepd.es.",
+"DESCRIPTION_7":"Your data has been provided directly by you through the website. We process your identifying information, postal address, email address, and the commercial services you have requested."
+     } },
     "NO_FOUND": {
       "ID": "not-found",
       "SEO_TITLE": "Page not found",
