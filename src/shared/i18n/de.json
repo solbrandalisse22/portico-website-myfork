@@ -2393,14 +2393,13 @@
         }
       
     },
-    "PRIVACY": {
-      "ID": "privacy",
-      "TYPE": "PRODUCT",
-      "SEO_TITLE": "Datenschutzrichtlinie",
-      "SEO_DESCRIPTION": "Entdecken Sie unsere Datenschutzrichtlinie und Allgemeinen Geschäftsbedingungen bei Portico Sport. Erfahren Sie mehr über Datenschutz, Benutzerrechte, geistiges Eigentum und mehr.",
+      "LEGAL_ADVICE": {
+      "ID": "advice",
+      "SEO_TITLE": "Rechtsberatung",
+      "SEO_DESCRIPTION":"Entdecken Sie unsere Rechtsberatung",
       "ROUTE": {
-        "LABEL": "Datenschutzrichtlinie",
-        "URL": "/datenschutzrichtlinie"
+        "LABEL": "Rechtsberatung",
+        "URL": "/rechtsberatung"
       },
       "TITLE": "Datenschutzrichtlinie und Allgemeine Geschäftsbedingungen",
       "IDENTIFICATION": {
@@ -2476,6 +2475,26 @@
       }
 
     },
+    "PRIVACY": {
+      "ID": "privacy",
+      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Datenschutzrichtlinie",
+      "SEO_DESCRIPTION": "Entdecken Sie unsere Datenschutzrichtlinie und Allgemeinen Geschäftsbedingungen bei Portico Sport. Erfahren Sie mehr über Datenschutz, Benutzerrechte, geistiges Eigentum und mehr.",
+      "ROUTE": {
+        "LABEL": "Datenschutzrichtlinie",
+        "URL": "/datenschutzrichtlinie"
+      },
+      "POLICY":{
+      "TITLE":"Datenschutzerklärung der Website",
+      "DESCRIPTION":"Im Einklang mit der Datenschutz-Grundverordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 sowie dem Organgesetz 3/2018 vom 5. Dezember zum Schutz personenbezogener Daten und zur Gewährleistung digitaler Rechte informieren wir Sie darüber, dass",
+"DESCRIPTION_1":"Das Unternehmen, das diese Domain besitzt und für die Datenverarbeitung auf der Website www.porticosport.com verantwortlich ist, ist PÓRTICO GESTIÓN E INGENIERÍA, S.L., mit Sitz in POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), Steuernummer: B-06585897. E-Mail für Datenschutzanfragen: info@porticosport.com",
+"DESCRIPTION_2":"Der Datenverantwortliche, PÓRTICO GESTIÓN E INGENIERÍA, S.L., verwaltet die Erfassung Ihrer Daten durch die Nutzung unserer Formulare. In den auf der Website verfügbaren Kontaktformularen, in denen personenbezogene Daten erfasst werden, muss der Nutzer vor dem Absenden des Formulars ausdrücklich seine Zustimmung zur Kenntnisnahme und Annahme der Datenschutzerklärung durch Ankreuzen des Kästchens „Ich habe die Datenschutzerklärung gelesen und akzeptiere sie“ erteilen. Ein Zugang zu dieser wird über einen Link bereitgestellt, der auf diesen rechtlichen Hinweis verweist. Wenn das Kästchen vom Nutzer nicht angekreuzt wird, werden die in den Formularen angegebenen Daten nicht übermittelt. Ich verstehe, dass ich die Erlaubnis zur Nutzung und Verarbeitung meiner personenbezogenen Daten sowie für die angeforderten oder beauftragten Informationen erteile.",
+"DESCRIPTION_3":"Die Rechtsgrundlage für die Verarbeitung Ihrer Daten ist die von Ihnen erteilte Einwilligung. Sie oder Ihr gesetzlicher Vertreter können diese Einwilligung jederzeit widerrufen. Wir werden Ihre Daten für den Zeitraum aufbewahren, der unbedingt erforderlich ist, um den gesetzlichen Anforderungen zu entsprechen.",
+"DESCRIPTION_4":"Daten werden nicht an Dritte weitergegeben, es sei denn, es besteht eine gesetzliche Verpflichtung dazu. Es sind keine Datenübermittlungen in Drittländer geplant.",
+"DESCRIPTION_5":"Sie können Ihre Rechte auf Auskunft, Berichtigung, Löschung und Übertragbarkeit Ihrer Daten sowie die Einschränkung oder den Widerspruch gegen deren Verarbeitung ausüben, indem Sie eine E-Mail an info@porticosport.com senden oder an POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ) schreiben.",
+"DESCRIPTION_6":"Zusätzlich können Sie eine Beschwerde bei der zuständigen Aufsichtsbehörde unter www.aepd.es einreichen.",
+"DESCRIPTION_7":"Ihre Daten wurden direkt von Ihnen über die Website bereitgestellt. Wir verarbeiten Ihre Identifikationsdaten, Ihre postalische Adresse, Ihre E-Mail-Adresse und die von Ihnen angeforderten kommerziellen Dienstleistungen."
+     } },
     "NO_FOUND": {
       "ID": "not-found",
       "SEO_TITLE": "Seite nicht gefunden",
