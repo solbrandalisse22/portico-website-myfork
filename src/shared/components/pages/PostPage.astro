@@ -80,7 +80,12 @@ const finalDate = convertDate(date);
       <Section>
         <p class="text-gray-500">
           {i18n.PAGES.NEWS.POST_PAGE.WRITE}
-          {authorName}
+          <a
+          href =  {`${i18n.PAGES.AUTHOR.ROUTE.URL}/${authorSlug}`}
+          class="hover:underline hover:text-primary duration-300"
+           >
+            <span>{authorName}</span>
+            </a>
           <span class="date">{finalDate}</span>
         </p>
         <article set:html={content} class="content" />
