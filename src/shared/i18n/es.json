@@ -2460,14 +2460,14 @@
         
       }
     },
-    "PRIVACY": {
-      "ID": "privacidad",
+      "LEGAL_ADVICE": {
+      "ID": "advice",
       "TYPE": "PRODUCT",
-      "SEO_TITLE": "Política de privacidad",
-      "SEO_DESCRIPTION": "Explora nuestra Política de Privacidad y Condiciones Generales en Portico Sport. Aprende sobre protección de datos, derechos de usuario, propiedad intelectual y más.",
+      "SEO_TITLE": "Aviso Legal",
+      "SEO_DESCRIPTION": "Explora nuestro Aviso Legal",
       "ROUTE": {
-        "LABEL": "Política de privacidad",
-        "URL": "/privacidad"
+        "LABEL": "Aviso Legal",
+        "URL": "/aviso-legal"
       },
       "TITLE": "Política de Privacidad y Condiciones Generales",
       "IDENTIFICATION": {
@@ -2536,6 +2536,26 @@
         "DESCRIPTION_1": "La relación entre PÓRTICO GESTIÓN E INGENIERÍA, S.L. y el USUARIO se regirá por la normativa española vigente y cualquier controversia se someterá a la autoridad pertinente."
       }
     },
+    "PRIVACY": {
+      "ID": "privacy",
+      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Política de privacidad",
+      "SEO_DESCRIPTION": "Explora nuestra Política de Privacidad y Condiciones Generales en Portico Sport. Aprende sobre protección de datos, derechos de usuario, propiedad intelectual y más.",
+      "ROUTE": {
+        "LABEL": "Política de privacidad",
+        "URL": "/privacidad"
+      },
+       "POLICY":{
+      "TITLE":"Política de Privacidad Web",
+      "DESCRIPTION":"El contenido de la política de privacidad, en cumplimiento del Reglamento General de Protección de Datos (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 y la ley orgánica 3/2018 de 5 de diciembre de Protección de Datos Personales y de Garantía de los Derechos Digitales, le informamos que:",
+"DESCRIPTION_1":"La empresa titular del presente dominio y Responsanble del Tratamiento de la web www.porticosport.es es PÓRTICO GESTIÓN E INGENIERÍA, S.L, con domicilio a estos efectos en POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ), número de C.I.F.: B-06585897. Correo electrónico de Protección de Datos: info@porticosport.com",
+"DESCRIPTION_2":"El Responsable del tratamiento, PÓRTICO GESTIÓN E INGENIERÍA, S.L, con la finalidad de gestionar la recogida de sus datos en el uso de nuestros formularios. En los formularios de contacto existentes en la web, donde se recogen datos de carácter personal, el usuario deberá consentir de manera expresa y con carácter previo al envío de los mismos, la aceptación y conocimiento de la política de privacidad mediante la cumplimentación del check «he leído y acepto la política de privacidad» y a cuyo contenido podrá tener acceso mediante el enlace adjunto que le remitirá el presente aviso legal. Si el campo check no fuere marcado por el usuario, no se realizará el envío de los datos contenidos en dichos formularios. Entiendo que estoy dando mi permiso para el uso y tratamiento de mis datos personales así como de la información solicitada o a contratar.",
+"DESCRIPTION_3":"La base legal para el tratamiento de sus datos es el consentimiento por usted prestado, su consentimiento se podrá revocar en   cualquier   momento   por   usted   o   su   representante legal. Conservaremos sus datos el tiempo estrictamente necesario para responder a exigencias legales.",
+"DESCRIPTION_4":"Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal. No están previstas las transferencias de datos a terceros países.",
+"DESCRIPTION_5":"Puede ejercer sus derechos de acceso, rectificación, supresión y portabilidad de sus datos, y la limitación u oposición a su tratamiento a través del correo electrónico info@porticosport.es o en la dirección postal POLÍGONO INDUSTRIAL EL PRADO, C/ VALENCIA, 28, 06800, MÉRIDA (BADAJOZ)",
+"DESCRIPTION_6":"De igual modo, podría interponer una reclamación ante la Autoridad de Control en www.aepd.es.",
+"DESCRIPTION_7":"Sus datos han sido directamente proporcionados por el usted a través de la web, tratamos sus datos identificativos, dirección postal, dirección electrónica, comercial de nuestros servicios solicitados."
+     } },
     "NO_FOUND": {
       "ID": "not-found",
       "SEO_TITLE": "Página no encontrada",
