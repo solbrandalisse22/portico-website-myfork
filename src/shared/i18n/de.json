@@ -94,14 +94,14 @@
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Projekte",
+        "TITLE": "Projekte für Padelplätze und Vordächer",
         "SUBTITLE": "Klicken Sie, um zu enthüllen: Entdecken Sie unsere Platzprojekte im Detail!",
         "URL": {
           "LABEL": "Entdecken Sie alle unsere Projekte",
           "SRC": "/projekte"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "Eine Auswahl an Projekten, die wir verwirklicht haben",
+        "TITLE_GALLERY": "Padelplätze weltweit bauen",
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
