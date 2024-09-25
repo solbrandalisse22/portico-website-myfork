@@ -94,14 +94,14 @@
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Projets",
+        "TITLE": "Projets de Courts de Padel et Auvents",
         "SUBTITLE": "Cliquez pour découvrir : Explorez en détail nos projets de courts !",
         "URL": {
           "LABEL": "Découvrir tous nos projets",
           "SRC": "/projets"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "Une sélection de projets que nous avons concrétisés",
+        "TITLE_GALLERY": "Construire des Courts de Padel dans le monde",
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
