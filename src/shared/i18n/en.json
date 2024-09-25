@@ -172,38 +172,38 @@
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Projects",
+        "TITLE": "Padel Court and Canopies Projects",
         "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "A selection of projects we've turned into reality",
+        "TITLE_GALLERY": "Building Padel Courts Around the World",
         "PATH": "projects/gallery"
       },
       "PROJECTS_SECTION_UK": {
         "ID": "projects",
-        "TITLE": "Projects",
+        "TITLE": "Padel Court and Canopies Projects",
         "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "A selection of projects we've turned into reality",
+        "TITLE_GALLERY": "Expertise in Building Padel Courts Across the UK",
         "PATH": "projectsuk/gallery"
       },
       "PROJECTS_SECTION_USA": {
         "ID": "projects",
-        "TITLE": "Projects",
+        "TITLE": "Padel Court and Canopies Projects",
         "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "A showcase of projects we've successfully brought to life",
+        "TITLE_GALLERY": "Building Padel Courts with Precision in the USA",
         "PATH": "projectsusa/gallery"
       },
       "COMPLEMENTS_SECTION": {
