@@ -94,14 +94,14 @@
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Progetti",
+        "TITLE": "Progetti di Campi da Padel e Tettucci",
         "SUBTITLE": "Clicca per scoprire: Esplora in dettaglio i nostri progetti di campi!",
         "URL": {
           "LABEL": "Scopri tutti i nostri progetti",
           "SRC": "/progetti"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "Una selezione di progetti che abbiamo trasformato in realtà",
+        "TITLE_GALLERY": "Costruire Campi da Padel in tutto il mondo",
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
