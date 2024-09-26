@@ -137,8 +137,8 @@
       },
       "FAQS_SECTION": {
         "ID": "faqs",
-        "TITLE": "Häufig gestellte Fragen",
-        "SUBTITLE": "Finden Sie Antworten auf die häufigsten Fragen zu Padelplätzen und Überdachungen",
+        "TITLE": "Fragen zu Padelplatzbauern stellen",
+        "SUBTITLE": "Häufig gestellte Fragen",
         "QUESTIONS": [{
           "question": "Wie groß ist ein Padelplatz standardmäßig?",
           "answer": "Die Standardgröße eines Padelplatzes beträgt 20 Meter Länge und 10 Meter Breite."
