@@ -137,8 +137,8 @@
       },
       "FAQS_SECTION": {
         "ID": "faqs",
-        "TITLE": "Preguntas Frecuentes",
-        "SUBTITLE": "Encuentra respuestas a las preguntas más comunes sobre pistas de pádel y cubiertas",
+        "TITLE": "Preguntas sobre constructores de Pistas de Pádel",
+        "SUBTITLE": "Preguntas Frecuentes",
         "QUESTIONS": [{
           "question": "¿Cuál es el tamaño de una pista de pádel estándar?",
           "answer": "El tamaño estándar de una pista de pádel es de 20 metros de largo por 10 metros de ancho."
