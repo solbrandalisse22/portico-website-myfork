@@ -301,10 +301,10 @@
       },
       "FAQS_SECTION": {
         "ID": "faqs",
-        "TITLE": "Frequently Asked Questions",
+        "TITLE": "ASK Question about Padel Court Builders",
         "SUBTITLE_USA": "ASK Question about Padel court manufacturers in USA",
         "SUBTITLE_UK":"ASK Question about build a padel court in UK",
-        "SUBTITLE": "Find answers to the most common questions about Padel courts and canopies",
+        "SUBTITLE": "Frequently Asked Questions",
         "QUESTIONS": [{
           "question": "What is the standard size of a Padel court?",
           "answer": "The standard size of a Padel court is 20 meters long by 10 meters wide."
