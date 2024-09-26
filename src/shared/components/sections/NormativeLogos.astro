@@ -19,7 +19,7 @@ interface Props {
 const { showInfo, language, title, subtitle, description } = Astro.props
 const i18n = getI18N({ language })
 
-const heading = showInfo ? title || i18n.NORMATIVE_SECTION_LOGOS.TITLE : null
+const heading2 = showInfo ? title || i18n.NORMATIVE_SECTION_LOGOS.TITLE : null
 const subheading = showInfo ? subtitle || i18n.NORMATIVE_SECTION_LOGOS.SUBTITLE : null
 const descriptionText = showInfo ? description || i18n.NORMATIVE_SECTION_LOGOS.DESCRIPTION : null
 ---
