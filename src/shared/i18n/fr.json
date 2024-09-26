@@ -137,8 +137,8 @@
       },
       "FAQS_SECTION": {
         "ID": "faqs",
-        "TITLE": "Foire Aux Questions",
-        "SUBTITLE": "Trouvez les réponses aux questions les plus fréquentes sur les terrains de padel et les couvertures",
+        "TITLE": "Poser des questions sur les constructeurs de Courts de Padel",
+        "SUBTITLE": "Foire Aux Questions",
         "QUESTIONS": [{
           "question": "Quelle est la taille standard d'un terrain de padel ?",
           "answer": "La taille standard d'un terrain de padel est de 20 mètres de long sur 10 mètres de large."
