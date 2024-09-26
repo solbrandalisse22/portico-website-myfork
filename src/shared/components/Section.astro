@@ -5,13 +5,14 @@ interface Props {
   id?: string;
   className?: string;
   heading?: string;
+  heading2?: string;
   subheading?: string;
   classNameHeading?: string;
   classNameSubHeading?: string;
   style?: string;
 }
 
-const { className, heading, subheading, id, style, classNameHeading = '', classNameSubHeading = '' } = Astro.props;
+const { className, heading, heading2, subheading, id, style, classNameHeading = '', classNameSubHeading = '', classNameHeading2 = ' ' } = Astro.props;
 ---
 
 <section
@@ -22,6 +23,9 @@ const { className, heading, subheading, id, style, classNameHeading = '', classN
   {
     heading && <Typography tag="h3" className={`mx-auto mb-8 text-center font-semibold ${classNameHeading}`} text={heading} />
   }
+{
+heading2 && <Typography tag="h2" className={`mx-auto mb-8 text-center font-semibold ${classNameHeading2}`} text={heading2} />
+}
   {
     subheading && <Typography tag="p" className={`text-center mb-8  ${classNameSubHeading}`} text={subheading} type="primary"/>
   }
