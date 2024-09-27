@@ -341,6 +341,7 @@ export default defineConfig({
     "/wp-content/plugins/gtranslate/url_addon/gtranslate.php?glang=ru&gurl=customizacion": "/",
     "/mantenimiento": "/",
     "/privacy-policy": "/privacy",
+    "/outdoor-padel-courts":"/outdoor",
     "/fr/portico-sport-belgica": "/news/portico-sport-belgica",
     "/pistas-de-padel/amp": "/",
     "/pt/trabajos-integrados-en-pista-de-padel-de-hotel-spa-rural": "/news/trabajos-integrados-en-pista-de-padel-de-hotel-spa-rural",
@@ -484,7 +485,6 @@ export default defineConfig({
     "/ru/vidrios": "/",
     "/tag/padel-court": "/",
     "/flow":"/tournament",
-    "/outdoor-padel-courts":"/outdoor",
   },
   i18n: {
     defaultLocale: "en",
