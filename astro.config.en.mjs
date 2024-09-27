@@ -484,6 +484,7 @@ export default defineConfig({
     "/ru/vidrios": "/",
     "/tag/padel-court": "/",
     "/flow":"/tournament",
+    "/outdoor-padel-courts":"/outdoor",
   },
   i18n: {
     defaultLocale: "en",
