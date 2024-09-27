@@ -11,3 +11,6 @@ const { language } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
 ---
+<Layout title={i18n.PAGES.SECTION_OUTDOOR.SEO_TITLE} description={i18n.PAGES.SECTION_OUTDOOR.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
+
+</Layout>
