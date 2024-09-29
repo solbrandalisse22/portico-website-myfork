@@ -11,8 +11,8 @@ const { language } = Astro.props
 const i18n = getI18N({ language })
 ---
 
-<Section>
-  < subheading ={i18n.INFINITE_SCROLL.TITLE}>
+<Section
+  subheading ={i18n.INFINITE_SCROLL.TITLE}>
   <div class="scroller">
     <ul class="tag-list scroller_inner items-center">
       <li><LogoFep /></li>
