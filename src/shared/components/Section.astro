@@ -10,9 +10,11 @@ interface Props {
   classNameHeading?: string;
   classNameSubHeading?: string;
   style?: string;
+  heading1?: string;
+classNameHeading1?: string;
 }
 
-const { className, heading, heading2, subheading, id, style, classNameHeading = '', classNameSubHeading = '', classNameHeading2 = ' ' } = Astro.props;
+const { className, heading, heading1 ,heading2, subheading, id, style, classNameHeading = '', classNameHeading1 = '', classNameSubHeading = '', classNameHeading2 = ' ' } = Astro.props;
 ---
 
 <section
@@ -26,6 +28,9 @@ const { className, heading, heading2, subheading, id, style, classNameHeading = 
 {
 heading2 && <Typography tag="h2" className={`mx-auto mb-8 text-center font-semibold ${classNameHeading2}`} text={heading2} />
 }
+{
+  heading1 && <Typography tag="h1" className={`mx-auto mb-8 text-center font-semibold ${classNameHeading1}`} text={heading1} />
+  }
   {
     subheading && <Typography tag="p" className={`text-center mb-8  ${classNameSubHeading}`} text={subheading} type="primary"/>
   }
