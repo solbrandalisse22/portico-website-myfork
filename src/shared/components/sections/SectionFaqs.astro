@@ -9,8 +9,8 @@ const { language, items, title, subtitle } = Astro.props
 const i18n = getI18N({ language })
 ---
 
-<Section id={i18n.PAGES.HOME.FAQS_SECTION.ID} className="text-center">
-  <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={title} />
- <Typography tag="p" className="text-center px-4 font-thin mb-12 " text={subtitle} />  
+<Section id={i18n.PAGES.HOME.FAQS_SECTION.ID} className="text-center"
+  heading2 = {title || i18n.PAGES.HOME.FAQS_SECTION.TITLE} 
+subheading ={subtitle || i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} >  
 <Faqs items={items} />
 </Section>
