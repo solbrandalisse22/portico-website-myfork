@@ -38,18 +38,7 @@ const i18n = getI18N({ language })
             <span class="sr-only">Linkdin</span>
           </a>
         </div>
-      
-<div class="mt-6 flex justify-center gap-x-4">
-<a href="https://www.porticosport.com/uk" target="_blank" class="text-white hover:text-primary duration-300">
-<span> Padel Court Builders UK </span>
-</a>
-<a href="https://www.porticosport.com/padel-court-usa">
-<span> Padel Court Builders USA</span></a>   
-<a href={i18n.PAGES.SECTION_OUTDOOR.ROUTE.URL}
-  class="hover:underline hover:text-primary duration-300"
-                ><span>{i18n.PAGES.SECTION_OUTDOOR.ROUTE.LABEL}</span></a>
-</div>
-</div>
+      </div>
       <UEBanner />
       <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
         <div>
@@ -65,32 +54,13 @@ const i18n = getI18N({ language })
               >
             </li>
             <li>
-              <a
+              <Link
                 href={i18n.PAGES.COOKIES.ROUTE.URL}
                 class="hover:underline hover:text-primary duration-300"
               >
                 {i18n.FOOTER.LEGAL.COOKIES}
-              </a>
+              </Link>
             </li>
-           <li>
-              <a
-              href = {i18n.PAGES.LEGAL_ADVICE.ROUTE.URL}
-              class="hover:underline hover:text-primary duration-300"
-
-              >
-              {i18n.FOOTER.LEGAL.NOTICE}
-            </a>
-            </li>
-          <li>
-            <a
-              href = {i18n.FOOTER.ETHIC.ROUTE};
-              class = "hover:underline hover:text-primary duration-300"
-              >
-              {i18n.FOOTER.ETHIC.LABEL}
-            </a>
-            
-          </li>
-
           </ul>
         </div>
       </div>
@@ -100,7 +70,9 @@ const i18n = getI18N({ language })
       <span class="text-sm text-gray-400 sm:text-center"
         >{i18n.FOOTER.DISCLAIMER}
       </span>
-     
+      <a href={i18n.FOOTER.ETHIC.ROUTE} target="_blank" class="hover:underline hover:text-primary duration-300">
+        {i18n.FOOTER.ETHIC.LABEL}
+      </a>
     </div>
   </div>
   <HeaderLink
@@ -123,4 +95,3 @@ const i18n = getI18N({ language })
     </svg>
   </HeaderLink>
 </footer>
- 
