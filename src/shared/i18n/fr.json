@@ -186,6 +186,43 @@
         "URL": "/terrains-de-padel"
       }
     },
+    "SECTION_OUTDOOR": {
+    "ID": "outdoor",
+    "SEO_TITLE": "Terrains de Padel en Extérieur",
+    "SEO_DESCRIPTION": "Vivez le padel en extérieur avec Portico Sport",
+    "OG_IMG": "https://www.porticosport.com/og/og-outdoor-padel.jpg",
+    "TITLE": "Terrains de Padel en Extérieur",
+    "ROUTE": {
+        "LABEL": "Terrains extérieurs",
+        "URL": "/outdoor-padel-courts"
+    },
+    "FIRST_SECTION_OUTDOOR": {
+        "TITLE": "Fabricant de Terrains de Padel en Extérieur",
+        "SUBTITLE": "Profitez du padel en extérieur avec Portico Sport",
+        "DESCRIPTION": "Jouer au padel sur nos terrains de padel en extérieur est une expérience unique. Chez Portico Sport, nous sommes des experts dans la construction de terrains de padel, offrant des terrains extérieurs de haute qualité qui vous permettent de profiter du jeu tout en vous connectant à la nature. Nos terrains de padel premium sont conçus pour résister aux intempéries, offrant des performances optimales tant par temps ensoleillé que dans des conditions plus difficiles, garantissant un excellent jeu dans n'importe quel environnement. En tant que fabricant de terrains de padel de premier plan, nous fournissons des terrains de padel pour des installations en plein air afin de combiner sport, nature et confort, rendant votre expérience de padel en extérieur vraiment exceptionnelle."
+    },
+      "OUTDOOR_BENEFITS": {
+    "TITLE": "Avantages des Terrains de Padel en Extérieur",
+    "SUBTITLE_1": "Environnement naturel :",
+    "DESCRIPTION_1": "Les terrains extérieurs offrent un sentiment de liberté que beaucoup recherchent dans un environnement ouvert, parfait pour ceux qui aiment l'énergie du soleil et l'espace sans les limitations d'un espace clos.",
+    "SUBTITLE_2": "Design flexible :",
+    "DESCRIPTION_2": "Flexibilité pour créer des terrains qui s'intègrent harmonieusement dans le paysage naturel, augmentant l'attrait visuel de l'installation et améliorant son image de marque.",
+    "SUBTITLE_3": "Capacité accrue :",
+    "DESCRIPTION_3": "Les espaces ouverts permettent une expansion plus facile, permettant d'ajouter davantage de terrains de padel et offrant aux clubs la possibilité d'accueillir de plus grands tournois et d'accueillir plus de joueurs à la fois.",
+    "SUBTITLE_4": "Attractivité sociale et récréative :",
+    "DESCRIPTION_4": "Les terrains extérieurs deviennent souvent un point central pour les activités sociales, favorisant l'engagement communautaire et créant un environnement récréatif dynamique."
+},
+      "OUTDOOR_WORKS": {
+    "TITLE": "Travaux de Terrains de Padel en Extérieur"
+},
+"OUTDOOR_CONTACT": {
+    "TITLE": "Choisissez votre terrain extérieur parfait au meilleur prix",
+    "DESCRIPTION_1": "N'hésitez pas à contacter notre équipe d'experts en terrains de padel en extérieur pour plus d'informations !",
+    "DESCRIPTION_2": "Nous sommes là pour répondre à toutes vos questions et vous guider dans la recherche du terrain parfait pour votre installation. Que vous recherchiez des terrains extérieurs standard ou sur mesure, nous pouvons concevoir et construire selon vos préférences et spécifications. Créons ensemble le terrain de padel en extérieur idéal qui répond à vos besoins. Nous avons hâte d'avoir de vos nouvelles bientôt !"
+}
+    },
+
+
     "MOBILE_COURT": {
       "ID": "mobile-court",
       "SEO_TITLE": "Mobile Court - Solution de terrain de padel innovante",
