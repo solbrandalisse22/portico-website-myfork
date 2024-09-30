@@ -174,6 +174,48 @@
         "IMAGE": "/pista-hexagon-contact.webp"
       }
     },
+    "SECTION_OUTDOOR":{
+      "ID":"outdoor",
+      "SEO_TITLE":"Outdoor Padel Courts",
+      "SEO_DESCRIPTION":"Experience Padel in the outdoors with Portico Sport",
+      "TITLE":"Pistas de Padel al Aire Libre ",
+      "ROUTE": {
+        "LABEL": "Pistas de Padel al Aire",
+        "URL": "/outdoor-padel-courts"
+    },
+    "FIRST_SECTION_OUTDOOR":{
+     "TITLE":"Fabricantes de Pistas de Padel al aire libre",
+     "SUBTITLE":"Disfruta de las Pistas de Padel al aire libre con Portico Sport",
+    "DESCRIPTION":"Jugar Padel en nuestras pistas de padel al aire libre es una experiencia unica. En Portico Sport, somos expertos constructores de pistas de padel, ofreciendo pistas al aire libre de la mas alta calidad que te permiten disfrutar del juego mientras te conectas con la naturaleza. Nuestras Pistas de Padel Premium estan disenadas para resistir los elementos, brindando un rendimiento optimo tanto en dias soleados como en condiciones mas desafiantes, asegurando un gran juego en cualquier entorno. Como fabricante lider en pistas de padel, ofrecemos pistas para instalaciones al aire libre que combinan deporte, naturaleza y comodidad, haciendo que tu experiencia de padel al aire libre sea verdaderamente excepcional. "
+    },
+    "OUTDOOR_BENEFITS":{
+      "TITLE":"Beneficios de las Pistas de Padel al aire libre ",
+      "SUBTITLE_1":"Entorno Natural",
+      "DESCRIPTION_1":"Las pistas al aire libre ofrecen la sensacion de libertad que muchos buscan en un entorno abierto, perfecto para quienes disfrutan de la energia del sol y la amplitud sin las limitaciones de un espacio cerrado",
+      "SUBTITLE_2":"Diseno Flexible",
+      "DESCRIPTION_2":"Flexibilidad para crear pistas que se integran perfectamente con el entorno natural, mejorando el atractivo visual de la instalacion y reforzando imagend de la marca.",
+      "SUBTITLE_3":"Mayor Capacidad",
+      "DESCRIPTION_3":"Los espacios abiertos permiten una expansion mas facil, lo que posibilita la vision de mas pistas de padel y brindan a los clubes la capacidad de albergar torneos mas grandes y acomodar a mas jugadores al mismo tiempo.",
+      "SUBTITLE_4":"Atractivo social y recreativo",
+      "DESCRIPTION_4":"Las pistas al aire libre a menudo se convierten en un punto focal para actividades sociales, promoviendo la participacion comunitaria y creando un entorno recreativo vibrante."
+    },
+   "PROJECTS_SECTION_OUTDOOR": {
+        "ID": "projects",
+        "TITLE":"Trabajos de Pistas de Padel al aire libre",
+        "URL": {
+          "LABEL": "Descubre todos nuestros proyectos",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "projects-gallery-outdoor",
+        "TITLE_GALLERY":"Trabajos de Pistas de Padel al aire libre",
+        "PATH":"outdoor-court/gallery"
+      },
+    "OUTDOOR_CONTACT":{
+      "ID":"contact-outdoor",
+      "TITLE":"Elige tu Pista al Aire Libre perfecta al mejor costo ",
+      "DESCRIPTION_1":"No dudes en contactar a nuestro equipo de expertos en Pistas de Padel al Aire Libre para mas informacion! Estamos aqui para responder cualquier prefunta que tengas y guiarte en la busqueda de las busquedas perfectas para tu instalacion. Ya sea que estes buscando pistas al aire libre estandar o personalizadas, podemos disenar y construir segun tus preferencias y especificaciones. Creamos la Pista de Padel al aire libre ideal que se adapte a tus necesidades. Esperamos saber de ti pronto!"
+    } 
+   },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Pistas de Pádel",
