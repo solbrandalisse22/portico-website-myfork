@@ -1,6 +1,7 @@
 ---
-import Outdoor from "@/shared/components/pages/Outdoor.astro"
+import Out from "@/shared/components/pages/Outdoor.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
+import projectsGallery from "@/it/data/projects-gallery-outdoor.json"
 ---
 
-<Outdoor language={LANGUAGES.IT} />
+<Out language={LANGUAGES.IT} projectsGallery={projectsGallery} />
