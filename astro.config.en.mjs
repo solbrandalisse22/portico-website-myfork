@@ -483,7 +483,6 @@ export default defineConfig({
     "/nl/author/Portico": "/",
     "/ru/vidrios": "/",
     "/tag/padel-court": "/",
-    "/flow":"/tournament",
   },
   i18n: {
     defaultLocale: "en",
