@@ -174,40 +174,44 @@
         "IMAGE": "/pista-hexagon-contact.webp"
       }
     },
-    "SECTION_OUTDOOR":{
-      "ID":"outdoor",
-      "SEO_TITLE":"Outdoor Padel Courts",
-      "SEO_DESCRIPTION":"Experience Padel in the outdoors with Portico Sport",
-      "OG_IMG": "https://www.porticosport.com/og/og-outdoor-padel.jpg",
-      "TITLE": "Outdoor Padel Courts",
-      "ROUTE": {
-        "LABEL": "Outdoor courts",
+    
+    "SECTION_OUTDOOR": {
+    "ID": "outdoor",
+    "SEO_TITLE": "Außen-Padelplätze",
+    "SEO_DESCRIPTION": "Erlebe Padel im Freien mit Portico Sport",
+    "OG_IMG": "https://www.porticosport.com/og/og-outdoor-padel.jpg",
+    "TITLE": "Außen-Padelplätze",
+    "ROUTE": {
+        "LABEL": "Außenplätze",
         "URL": "/outdoor-padel-courts"
     },
-    "FIRST_SECTION_OUTDOOR":{
-     "TITLE":"Outdoor Padel Courts Manufacturer",
-     "SUBTITLE":"Enjow Outdoor Padel with Portico Sport",
-    "DESCRIPTION":"Playing padel on our outdoor Padel courts is a unique experience. At Portico Sport, we are expert Padel court builders, offering top-quality outdoor courts that let you enjoy the game while connecting with nature. Our premium Padel courts are designed to withstand the elements, delivering optimal performance both on sunny days and in more challenging conditions. ensuring a great game in any environment. As a leading Padel court manufacturer, we provide Padel court for open-air facilities to combine sport, nature, and comfort, making your outdoor padel experience truly exceptional."
+    "FIRST_SECTION_OUTDOOR": {
+        "TITLE": "Hersteller von Außen-Padelplätzen",
+        "SUBTITLE": "Genieße Padel im Freien mit Portico Sport",
+        "DESCRIPTION": "Das Spielen von Padel auf unseren Außen-Padelplätzen ist ein einzigartiges Erlebnis. Bei Portico Sport sind wir Experten im Bau von Padelplätzen und bieten hochwertige Außenplätze, die es Ihnen ermöglichen, das Spiel zu genießen und gleichzeitig mit der Natur verbunden zu sein. Unsere Premium-Padelplätze sind so konzipiert, dass sie den Elementen standhalten und optimale Leistung sowohl an sonnigen Tagen als auch unter schwierigeren Bedingungen bieten, um ein großartiges Spiel in jeder Umgebung zu gewährleisten. Als führender Hersteller von Padelplätzen bieten wir Padelplätze für Freiluftanlagen an, um Sport, Natur und Komfort zu kombinieren und Ihr Padel-Erlebnis im Freien wirklich außergewöhnlich zu machen."
     },
-    "OUTDOOR_BENEFITS":{
-      "TITLE":"Benefits of Outdoor Padel Courts",
-      "SUBTITLE_1":"Natural environment:",
-      "DESCRIPTION_1":" Outdoor courts offer the sense of freedom many seek in an open environment, perfect for those who enjoy the energy of the sun and the spaciousness without the limitations of an enclosed space",
-      "SUBTITLE_2":"Flexible design:",
-      "DESCRIPTION_2":"Flexibility to create courts that integrate seamlessly with natural surroundings, boosting the facility's visual appeal and enhancing its brand image. ",
-      "SUBTITLE_3":"Larger capacity:",
-      "DESCRIPTION_3":"Open spaces allow for easier expansion, enabling the addition of more Padel courts and giving clubs the ability to host larger tournaments and accommodate more players at once.",
-      "SUBTITLE_4":"Social and recreational appeal:",
-      "DESCRIPTION_4":"Outdoor courts often become a focal point for social activities, promoting community involvement and creating a vibrant, recreational environment."
-    },
-    "OUTDOOR_WORKS":{
-     "TITLE":"Outdoor Padel Court Works"
-    },
-    "OUTDOOR_CONTACT":{
-      "TITLE":"Choose your perfect outdoor court at the best cost",
-      "DESCRIPTION_1":"Feel free to contact our team of outdoor Padel court experts for more information!",
-      "DESCRIPTION_2":"We’re here to answer any questions you have and guide you through finding the perfect court for your facility. Whether you’re looking for standard or customized outdoor courts, we can design and build according to your preferences and specifications. Let’s create the ideal outdoor Padel court that suits your needs. We look forward to hearing from you soon!"
-    }
+
+    "OUTDOOR_BENEFITS": {
+    "TITLE": "Vorteile von Außen-Padelplätzen",
+    "SUBTITLE_1": "Natürliche Umgebung:",
+    "DESCRIPTION_1": "Außenplätze bieten das Gefühl von Freiheit, das viele in einer offenen Umgebung suchen, ideal für diejenigen, die die Energie der Sonne und die Weitläufigkeit ohne die Einschränkungen eines geschlossenen Raumes genießen.",
+    "SUBTITLE_2": "Flexibles Design:",
+    "DESCRIPTION_2": "Flexibilität, um Plätze zu schaffen, die nahtlos mit der natürlichen Umgebung integriert werden, wodurch die visuelle Attraktivität der Anlage gesteigert und das Markenimage verbessert wird.",
+    "SUBTITLE_3": "Größere Kapazität:",
+    "DESCRIPTION_3": "Offene Räume ermöglichen eine einfachere Expansion, die es erlaubt, mehr Padelplätze hinzuzufügen und den Vereinen die Möglichkeit gibt, größere Turniere auszurichten und mehr Spieler gleichzeitig zu beherbergen.",
+    "SUBTITLE_4": "Soziale und Freizeitattraktivität:",
+    "DESCRIPTION_4": "Außenplätze werden oft zu einem Mittelpunkt für soziale Aktivitäten, fördern das Gemeinschaftsengagement und schaffen eine lebendige, Freizeitumgebung."
+},
+
+   "OUTDOOR_WORKS": {
+    "TITLE": "Arbeiten an Außen-Padelplätzen"
+},
+"OUTDOOR_CONTACT": {
+    "TITLE": "Wählen Sie Ihren perfekten Außenplatz zum besten Preis",
+    "DESCRIPTION_1": "Zögern Sie nicht, unser Team von Experten für Außen-Padelplätze für weitere Informationen zu kontaktieren!",
+    "DESCRIPTION_2": "Wir sind hier, um alle Ihre Fragen zu beantworten und Sie bei der Suche nach dem perfekten Platz für Ihre Anlage zu unterstützen. Ob Sie nach Standard- oder maßgeschneiderten Außenplätzen suchen, wir können nach Ihren Wünschen und Spezifikationen entwerfen und bauen. Lassen Sie uns den idealen Außen-Padelplatz schaffen, der Ihren Bedürfnissen entspricht. Wir freuen uns darauf, bald von Ihnen zu hören!"
+}
+
     },
     "COURTS": {
       "ID": "padel-courts",
