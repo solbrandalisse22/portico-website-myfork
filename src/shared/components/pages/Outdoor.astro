@@ -108,15 +108,17 @@ const currentLocale = getCurrentLocale({ language })
                 </BentoItem>
               </div>
         </Section>
+<Section
+id={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.ID_GALLERY}
+        heading2={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.TITLE_GALLERY}>
  <Gallery
-      heading={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.TITLE_GALLERY}
       id={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.ID_GALLERY}
       photos={projectsGallery}
       offset={16}
       path={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.PATH}
       urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
-    />
+    /> </Section>
  <SectionContact
     id={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_CONTACT.ID}
     hiddenSubject
