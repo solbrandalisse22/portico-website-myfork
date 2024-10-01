@@ -448,6 +448,17 @@
     "OUTDOOR_WORKS":{
      "TITLE":"Outdoor Padel Court Works"
     },
+      "PROJECTS_SECTION_OUTDOOR": {
+        "ID": "projects",
+        "TITLE":"Outdoor Padel Court Works",
+        "URL": {
+          "LABEL": "Discover all our projects",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "projects-gallery-outdoor",
+        "TITLE_GALLERY":"Outdoor Padel Court Works",
+        "PATH":"outdoor-court/gallery"
+      },
     "OUTDOOR_CONTACT":{
       "TITLE":"Choose your perfect outdoor court at the best cost",
       "DESCRIPTION_1":"Feel free to contact our team of outdoor Padel court experts for more information!",
