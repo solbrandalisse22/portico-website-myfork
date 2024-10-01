@@ -1,5 +1,5 @@
 ---
-import { getI18N, getCurrentLocale, getCategoryByLanguage  } from "@/shared/i18n"
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
 import Section from '@/shared/components/Section.astro';
 import Typography from "@/shared/components/ui/Typography.astro";
 import BentoItem from "@/shared/components/BentoItem.astro";
@@ -17,118 +17,13 @@ interface Props {
 const { language, projectsGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
-const category = getCategoryByLanguage({language})
-const H1_STYLES =
-  "mx-auto mt-16 mb-4 text-wrap text-3xl font-semibold tracking-wide uppercase"
-const H2_STYLES =
-  "mx-auto mt-16 mb-4 text-wrap text-2xl font-semibold tracking-wide uppercase text-balance"
+
+
 ---
 <Layout title={i18n.PAGES.SECTION_OUTDOOR.SEO_TITLE} description={i18n.PAGES.SECTION_OUTDOOR.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
     <main>
     
         <Section id={i18n.PAGES.SECTION_OUTDOOR.ID}  heading1={i18n.PAGES.SECTION_OUTDOOR.TITLE} className="max-w-none relative"></Section>
-        
-            <Section 
-            id={i18n.PAGES.SECTION_OUTDOOR.ID} 
-            heading2={i18n.PAGES.SECTION_OUTDOOR.FIRST_SECTION_OUTDOOR.TITLE}
-            subheading= {i18n.PAGES.SECTION_OUTDOOR.FIRST_SECTION_OUTDOOR.SUBTITLE}>
-            <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_OUTDOOR.FIRST_SECTION_OUTDOOR.DESCRIPTION}>
-    </Section>
-    <Section
-            id={i18n.PAGES.SECTION_OUTDOOR.ID} 
-            heading2={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.TITLE}>
-             <div class="grid lg:grid-cols-10 auto-rows-[20rem] gap-4">
-                <BentoItem
-                  class="col-span-10 lg:col-span-4"
-                  title={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.SUBTITLE_1}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-950
-                    bg-cover bg-center opacity-90 bg-blend-luminosity"
-                  >
-                  </div>
-            
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.DESCRIPTION_1}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-6"
-                  title={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.SUBTITLE_2}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                -z-10 h-full w-full bg-blue-800
-                bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                    data-src="/innovation.webp"
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.DESCRIPTION_2}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-6"
-                  title={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.SUBTITLE_3}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-900
-                    bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                    data-src="/quality.webp"
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.DESCRIPTION_3}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-4"
-                  title={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.SUBTITLE_4}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-950
-                    bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                    data-src="/team.webp"
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.DESCRIPTION_4}
-                  />
-                </BentoItem>
-              </div>
-        </Section>        
-        <Gallery
-      heading={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.TITLE_GALLERY}
-      id={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.ID_GALLERY}
-      photos={projectsGallery}
-      offset={15}
-      path={i18n.PAGES.SECTION_OUTDOOR.PROJECTS_SECTION_OUTDOOR.PATH}
-      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
-      urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
-    />
-    <SectionContact
-    id={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_CONTACT.ID}
-    hiddenSubject
-    title={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_CONTACT.TITLE}
-    description={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_CONTACT.DESCRIPTION_1}
-    language={language}
-    bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
-    image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
-  />
+       
     </main>
 </Layout>
