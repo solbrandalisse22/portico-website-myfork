@@ -203,9 +203,18 @@
     "DESCRIPTION_4": "Außenplätze werden oft zu einem Mittelpunkt für soziale Aktivitäten, fördern das Gemeinschaftsengagement und schaffen eine lebendige, Freizeitumgebung."
 },
 
-   "OUTDOOR_WORKS": {
-    "TITLE": "Arbeiten an Außen-Padelplätzen"
-},
+  "PROJECTS_SECTION_OUTDOOR": {
+    "ID": "projects",
+    "TITLE": "Arbeiten an Padel-Plätzen im Freien",
+    "URL": {
+        "LABEL": "Entdecken Sie all unsere Projekte",
+        "SRC": "/projects"
+    },
+    "ID_GALLERY": "projects-gallery-outdoor",
+    "TITLE_GALLERY": "Arbeiten an Padel-Plätzen im Freien",
+    "PATH": "outdoor-court/gallery"
+}
+
 "OUTDOOR_CONTACT": {
     "TITLE": "Wählen Sie Ihren perfekten Außenplatz zum besten Preis",
     "DESCRIPTION_1": "Zögern Sie nicht, unser Team von Experten für Außen-Padelplätze für weitere Informationen zu kontaktieren!",
