@@ -66,14 +66,14 @@
       },
       "CANOPIES_SECTION": {
         "ID": "canopies",
-        "TITLE": "Cubiertas para Canchas de Pádel",
+        "TITLE": "Cubiertas para Pistas de Pádel",
         "SUBTITLE": "Fuerza, durabilidad y perfecta integración",
         "TEXT": "<p>Portico Sport es el único fabricante de pistas de pádel que también construye cubiertas diseñadas específicamente para deportes de raqueta, ofreciendo a nuestros clientes un enfoque integral para toda las necesidades de su proyecto.</p> <p>Nuestra experiencia como firma de ingeniería nos ha permitido diseñar cubiertas concebidas específicamente para la práctica deportiva, particularmente para el PÁDEL, combinando características diferenciadoras para este deporte que son difíciles de igualar por otros tipos de cubiertas. PORTICO SPORT es líder en diseño e instalación de cubiertas deportivas a nivel mundial.</p>",
         "BUTTON_TEXT": "Más sobre las cubiertas"
       },
       "BENTO_SECTION": {
         "ID": "why-us",
-        "TITLE": "¿Por qué Portico Sport? Una Empresa Líder en Canchas de Pádel",
+        "TITLE": "¿Por qué Portico Sport? Una Empresa Líder en Pistas de Pádel",
         "POINT_1": {
           "TITLE": "EXPERIENCIA",
           "DESCRIPTION": "<strong>Con más de 15 años de experiencia en la gestión de grandes proyectos</strong> en cinco continentes, hemos desarrollado una red comercial internacional en cada área para proporcionar el mejor servicio a cada cliente."
@@ -94,19 +94,19 @@
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Proyectos de Canchas de Pádel y Cubiertas",
+        "TITLE": "Proyectos de Pistas de Pádel y Cubiertas",
         "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas de pádel y cubiertas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
           "SRC": "/proyectos"
         },
         "ID_GALLERY": "project-gallery",
-        "TITLE_GALLERY": "Construyendo Canchas de Pádel alrededor del mundo",
+        "TITLE_GALLERY": "Construyendo Pistas de Pádel alrededor del mundo",
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
-        "TITLE": "Construcción de Canchas de Pádel Premium: Calidad e Innovación",
+        "TITLE": "Construcción de Pistas de Pádel Premium: Calidad e Innovación",
         "SUBTITLE": "Una empresa líder en Pistas de Pádel en todo el mundo.",
         "ITEMS": {
           "ITEM_1": {
