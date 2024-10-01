@@ -458,10 +458,10 @@
         "PATH":"outdoor-court/gallery"
       },
     "OUTDOOR_CONTACT":{
+      "ID":"contact-outdoor",
       "TITLE":"Choose your perfect outdoor court at the best cost",
-      "DESCRIPTION_1":"Feel free to contact our team of outdoor Padel court experts for more information!",
-      "DESCRIPTION_2":"We’re here to answer any questions you have and guide you through finding the perfect court for your facility. Whether you’re looking for standard or customized outdoor courts, we can design and build according to your preferences and specifications. Let’s create the ideal outdoor Padel court that suits your needs. We look forward to hearing from you soon!"
-    }
+      "DESCRIPTION_1":"Feel free to contact our team of outdoor Padel court experts for more information! We’re here to answer any questions you have and guide you through finding the perfect court for your facility. Whether you’re looking for standard or customized outdoor courts, we can design and build according to your preferences and specifications. Let’s create the ideal outdoor Padel court that suits your needs. We look forward to hearing from you soon!"
+    } 
     },
     "COURTS": {
       "ID": "courts",
