@@ -64,13 +64,33 @@ const i18n = getI18N({ language })
               >
             </li>
             <li>
-              <Link
+              <a
                 href={i18n.PAGES.COOKIES.ROUTE.URL}
                 class="hover:underline hover:text-primary duration-300"
               >
                 {i18n.FOOTER.LEGAL.COOKIES}
-              </Link>
+              </a>
             </li>
+
+
+ <li>
+              <a
+              href = {i18n.PAGES.LEGAL_ADVICE.ROUTE.URL}
+              class="hover:underline hover:text-primary duration-300"
+
+              >
+              {i18n.FOOTER.LEGAL.NOTICE}
+            </a>
+            </li>
+          <li>
+            <a
+              href = {i18n.FOOTER.ETHIC.ROUTE};
+              class = "hover:underline hover:text-primary duration-300"
+              >
+              {i18n.FOOTER.ETHIC.LABEL}
+            </a>
+            
+          </li>
           </ul>
         </div>
       </div>
