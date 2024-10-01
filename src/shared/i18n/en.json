@@ -494,7 +494,7 @@
       "CONTACT_SUBJECT": "New petition from Mobile Padel Court",
       "CONTACT_BUTTON": "I want a Mobile Padel Court",
       "ROUTE": {
-        "LABEL": "More about mobile court",
+        "LABEL": "More about mobile padel court",
         "URL": "/mobile",
         "TITLE": "Mobile Court"
       },
@@ -893,7 +893,7 @@
       "CONTACT_SUBJECT": "New petition from Panoramic Court",
       "CONTACT_BUTTON": "I want a Panoramic Padel Court",
       "ROUTE": {
-        "LABEL": "More about panoramic court",
+        "LABEL": "More about panoramic padel court",
         "URL": "/panoramic",
         "TITLE": "Panoramic Court"
       },
@@ -1088,7 +1088,7 @@
       "CONTACT_SUBJECT": "New petition from Club Padel Court",
       "CONTACT_BUTTON": "I want a Club Padel Court",
       "ROUTE": {
-        "LABEL": "More about club court",
+        "LABEL": "More about club padel court",
         "URL": "/club",
         "TITLE": "Club Court"
       },
@@ -1271,7 +1271,7 @@
       "CONTACT_BUTTON": "I want a Club Force 80 Padel Court",
       "NAME": "Club Force 80",
       "ROUTE": {
-        "LABEL": "More about Club Force 80 court",
+        "LABEL": "More about Club Force 80 padel court",
         "URL": "/club-force-80",
         "TITLE": "Club Force 80 Court"
       },
@@ -1458,7 +1458,7 @@
       "CONTACT_BUTTON": "I want a Panoramic Force 80 Padel Court",
       "NAME": "Panoramic Force 80",
       "ROUTE": {
-        "LABEL": "More about Panoramic Force 80 court",
+        "LABEL": "More about Panoramic Force 80 padel court",
         "URL": "/panoramic-force-80",
         "TITLE": "Panoramic Force 80 Court"
       },
@@ -1645,7 +1645,7 @@
       "CONTACT_SUBJECT": "New petition from Single Padel Court",
       "CONTACT_BUTTON": "I want a Single Padel Court",
       "ROUTE": {
-        "LABEL": "More about single court",
+        "LABEL": "More about single padel court",
         "URL": "/single",
         "TITLE": "Single Court"
       },
@@ -1846,7 +1846,7 @@
       "CONTACT_SUBJECT": "New petition from Mini Padel Court",
       "CONTACT_BUTTON": "I want a Mini Padel Court",
       "ROUTE": {
-        "LABEL": "More about mini court",
+        "LABEL": "More about mini padel court",
         "URL": "/mini",
         "TITLE": "Mini Court"
       },
