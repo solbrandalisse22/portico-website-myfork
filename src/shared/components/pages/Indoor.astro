@@ -37,7 +37,7 @@ const currentLocale = getCurrentLocale({ language })
     <Section
             id={i18n.PAGES.SECTION_INDOOR.ID} 
             heading2={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.TITLE}>
-             <div class="grid lg:grid-cols-10 auto-rows-[20rem] gap-4">
+             <div class="grid lg:grid-cols-10 auto-rows-[25rem] gap-4">
                 <BentoItem
                   class="col-span-10 lg:col-span-4"
                   title={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.SUBTITLE_1}
@@ -88,7 +88,7 @@ const currentLocale = getCurrentLocale({ language })
                   </div>
                   <p
                     slot="content"
-                    class="max-w-xl text-base md:text-g md:p-5"
+                    class="max-w-xl text-base md:text-lg"
                     set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_2}
                   />
                 </BentoItem>
@@ -124,7 +124,7 @@ const currentLocale = getCurrentLocale({ language })
                   </div>
                   <p
                     slot="content"
-                    class="max-w-xl text-base md:text-g md:p-5"
+                    class="max-w-xl text-base md:text-lg"
                     set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_5}
                   />
                 </BentoItem>
