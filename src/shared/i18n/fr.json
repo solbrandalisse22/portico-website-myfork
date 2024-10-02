@@ -174,18 +174,6 @@
         "IMAGE": "/pista-hexagon-contact.webp"
       }
     },
-    "COURTS": {
-      "ID": "courts",
-      "SEO_TITLE": "Terrains de padel",
-      "SEO_DESCRIPTION": "Découvrez tous nos terrains de padel",
-      "OG_IMG": "https://www.porticosport.com/og/og-terrains-de-padel.jpg",
-      "TITLE": "Terrains de padel",
-      "SUBTITLE": "Découvrez tous nos terrains de padel",
-      "ROUTE": {
-        "LABEL": "terrains de padel",
-        "URL": "/terrains-de-padel"
-      }
-    },
     "SECTION_OUTDOOR": {
     "ID": "outdoor",
     "SEO_TITLE": "Terrains de Padel en Extérieur",
@@ -212,14 +200,35 @@
     "SUBTITLE_4": "Attractivité sociale et récréative :",
     "DESCRIPTION_4": "Les terrains extérieurs deviennent souvent un point central pour les activités sociales, favorisant l'engagement communautaire et créant un environnement récréatif dynamique."
 },
-      "OUTDOOR_WORKS": {
-    "TITLE": "Travaux de Terrains de Padel en Extérieur"
+     "PROJECTS_SECTION_OUTDOOR": {
+    "ID": "projects",
+    "TITLE": "Travaux de Courts de Padel en Plein Air",
+    "URL": {
+        "LABEL": "Découvrez tous nos projets",
+        "SRC": "/projects"
+    },
+    "ID_GALLERY": "projects-gallery-outdoor",
+    "TITLE_GALLERY": "Travaux de Courts de Padel en Plein Air",
+    "PATH": "outdoor-court/gallery"
 },
 "OUTDOOR_CONTACT": {
-    "TITLE": "Choisissez votre terrain extérieur parfait au meilleur prix",
-    "DESCRIPTION_1": "N'hésitez pas à contacter notre équipe d'experts en terrains de padel en extérieur pour plus d'informations !",
-    "DESCRIPTION_2": "Nous sommes là pour répondre à toutes vos questions et vous guider dans la recherche du terrain parfait pour votre installation. Que vous recherchiez des terrains extérieurs standard ou sur mesure, nous pouvons concevoir et construire selon vos préférences et spécifications. Créons ensemble le terrain de padel en extérieur idéal qui répond à vos besoins. Nous avons hâte d'avoir de vos nouvelles bientôt !"
+    "ID": "contact-outdoor",
+    "TITLE": "Choisissez votre court extérieur parfait au meilleur prix",
+    "DESCRIPTION_1": "N'hésitez pas à contacter notre équipe d'experts en courts de Padel en plein air pour plus d'informations ! Nous sommes là pour répondre à toutes vos questions et vous guider dans la recherche du court parfait pour votre installation. Que vous recherchiez des courts extérieurs standard ou personnalisés, nous pouvons concevoir et construire selon vos préférences et spécifications. Créons le court de Padel en plein air idéal qui répond à vos besoins. Nous avons hâte d'avoir de vos nouvelles bientôt !"
 }
+
+    },
+    "COURTS": {
+      "ID": "courts",
+      "SEO_TITLE": "Terrains de padel",
+      "SEO_DESCRIPTION": "Découvrez tous nos terrains de padel",
+      "OG_IMG": "https://www.porticosport.com/og/og-terrains-de-padel.jpg",
+      "TITLE": "Terrains de padel",
+      "SUBTITLE": "Découvrez tous nos terrains de padel",
+      "ROUTE": {
+        "LABEL": "terrains de padel",
+        "URL": "/terrains-de-padel"
+      }
     },
 
 
