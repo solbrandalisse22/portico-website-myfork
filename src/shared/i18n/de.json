@@ -216,9 +216,9 @@
 },
 
 "OUTDOOR_CONTACT": {
-    "TITLE": "Wählen Sie Ihren perfekten Außenplatz zum besten Preis",
-    "DESCRIPTION_1": "Zögern Sie nicht, unser Team von Experten für Außen-Padelplätze für weitere Informationen zu kontaktieren!",
-    "DESCRIPTION_2": "Wir sind hier, um alle Ihre Fragen zu beantworten und Sie bei der Suche nach dem perfekten Platz für Ihre Anlage zu unterstützen. Ob Sie nach Standard- oder maßgeschneiderten Außenplätzen suchen, wir können nach Ihren Wünschen und Spezifikationen entwerfen und bauen. Lassen Sie uns den idealen Außen-Padelplatz schaffen, der Ihren Bedürfnissen entspricht. Wir freuen uns darauf, bald von Ihnen zu hören!"
+    "ID": "contact-outdoor",
+    "TITLE": "Choisissez votre court extérieur parfait au meilleur prix",
+    "DESCRIPTION_1": "N'hésitez pas à contacter notre équipe d'experts en courts de Padel en plein air pour plus d'informations ! Nous sommes là pour répondre à toutes vos questions et vous guider dans la recherche du court parfait pour votre installation. Que vous recherchiez des courts extérieurs standard ou personnalisés, nous pouvons concevoir et construire selon vos préférences et spécifications. Créons le court de Padel en plein air idéal qui répond à vos besoins. Nous avons hâte d'avoir de vos nouvelles bientôt !"
 }
 
     },
