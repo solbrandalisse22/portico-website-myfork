@@ -464,6 +464,55 @@
       "DESCRIPTION_1":"Feel free to contact our team of outdoor Padel court experts for more information! We’re here to answer any questions you have and guide you through finding the perfect court for your facility. Whether you’re looking for standard or customized outdoor courts, we can design and build according to your preferences and specifications. Let’s create the ideal outdoor Padel court that suits your needs. We look forward to hearing from you soon!"
     } 
     },
+    "SECTION_INDOOR":{
+    "ID":"indoor",
+    "SEO_TITLE":"indoor Padel Courts",
+    "SEO_DESCRIPTION":"Experience Padel in the indoor with Portico Sport",
+    "TITLE":"Indoor Padel Courts",
+    "SUBTITLE":"Experience Padel in the indoors with Portico Sport",
+    "ROUTE": {
+      "LABEL": "Indoor Padel Courts",
+      "URL": "/indoor-padel-court"
+  },
+  "FIRST_SECTION_INDOOR":{
+   "TITLE":"Indoor Padel Courts Builders",
+   "SUBTITLE":"Enjoy Indoor Padel with Portico Sport",
+  "DESCRIPTION":"Indoor Padel courts provide the ultimate playing experience. As leading padel court manufacturers, we know that indoor Padel courts offer uninterrupted play and perfect lighting, so players can enjoy optimal visibility day and the night. Additionally, temperature-controlled environments ensure year-round comfort, making them ideal for intense matches without the discomfort of extreme weather. With indoor Padel court, clubs can offer a safe and private atmosphere for players of all levels, allowing them to train and compete under the best conditions."
+  },
+  "INDOOR_BENEFITS":{
+    "TITLE":"Benefits of Indoor Padel Courts",
+    "SUBTITLE_1":"Weather-Proof Play",
+    "DESCRIPTION_1":"Indoor Padel courts offer a controlled environment, ensuring games continue uninterrupted, regardless of weather conditions like rain or intense heat.",
+    "SUBTITLE_2":"Stable Conditions",
+    "DESCRIPTION_2":"Indoor courts provide consistent lighting, temperature, and wind-free conditions, creating a reliable and comfortable playing experience every time.",
+    "SUBTITLE_3":"Lower Maintenance Needs",
+    "DESCRIPTION_3":"Being shielded from the elements reduces wear and tear on the court, leading to less frequent maintenance, lower long-term costs, and a longer court lifespan.",
+    "SUBTITLE_4":"Versatile Facilities",
+    "DESCRIPTION_4":"Indoor Padel courts can be integrated into larger sports complexes with additional amenities, boosting revenue potential by accommodating a variety of activities under the same roof.",
+     "SUBTITLE_5":"More Play Time",
+    "DESCRIPTION_5":"Indoor courts allow for extended playing hours, unaffected by early sunsets or extreme weather, offering more flexibility for players and potentially increasing court usage."
+  },
+ "PROJECTS_SECTION_INDOOR": {
+      "ID": "projects",
+      "TITLE":"Indoor Padel Court Works",
+      "URL": {
+        "LABEL": "Discover all our projects",
+        "SRC": "/projects"
+      },
+      "ID_GALLERY": "projects-gallery-indoor",
+      "TITLE_GALLERY":"Indoor Padel Court Works",
+      "PATH":"indoor-court/gallery"
+    },
+    "INDOOR_PERSONALIZATION":{
+    "TITLE":"Personalize Your Indoor Padel Court",
+    "DESCRIPTION":"When designing your indoor padel court, personalization is key to creating a unique playing experience. One important consideration is the indoor Padel court height needed of the facility, which should ideally be between 6 and 8 meters to accommodate the court comfortably. This height ensures optimal gameplay and allows for various customizations, such as lighting, branding, and spectator seating. By taking these factors into account, you can create a tailored environment that enhances the enjoyment of every match."
+    },
+  "INDOOR_CONTACT":{
+    "ID":"contact-indoor",
+    "TITLE":"Choose your perfect Indoor Court at the best value",
+    "DESCRIPTION_1":"Reach out to our team of indoor Padel court specialists for more information! We’re ready to assist you with any inquiries and help you discover the ideal court for your facility. Whether you're interested in standard or customized indoor courts, we can design and build according to your specifications and requirements. Let’s work together to create the perfect indoor Padel court that meets your needs. We look forward to hearing from you soon!"
+  } 
+ },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
