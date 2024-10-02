@@ -224,7 +224,7 @@
     "SUBTITLE": "Experimenta el Padel en interiores con Portico Sport",
     "ROUTE": {
         "LABEL": "Pistas de Padel Cubiertas",
-        "URL": "/cubierta-padel-court"
+        "URL": "/indoor-padel-court"
     },
     "FIRST_SECTION_INDOOR": {
         "TITLE": "Constructores de Pistas de Padel Cubiertas",
@@ -253,7 +253,7 @@
     },
     "ID_GALLERY": "projects-gallery-cubierta",
     "TITLE_GALLERY": "Trabajos de Pistas de Padel Cubiertas",
-    "PATH": "cubierta-court/gallery"
+    "PATH": "indoor-court/gallery"
 },
 "INDOOR_PERSONALIZATION": {
     "TITLE": "Personaliza Tu Pista de Padel Cubierta",
