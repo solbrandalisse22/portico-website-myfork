@@ -218,7 +218,55 @@
     "DESCRIPTION_1": "Non esitare a contattare il nostro team di esperti di campi da Padel all'aperto per maggiori informazioni! Siamo qui per rispondere a qualsiasi domanda tu abbia e guidarti nella ricerca del campo perfetto per la tua struttura. Che tu stia cercando campi esterni standard o personalizzati, possiamo progettare e costruire secondo le tue preferenze e specifiche. Creiamo il campo da Padel all'aperto ideale che si adatta alle tue esigenze. Non vediamo l'ora di sentirti presto!"
 }
 },
-
+"SECTION_INDOOR": {
+    "ID": "coperta",
+    "SEO_TITLE": "Piste di Padel Coperte",
+    "SEO_DESCRIPTION": "Scopri il Padel al coperto con Portico Sport",
+    "TITLE": "Piste di Padel Coperte",
+    "SUBTITLE": "Scopri il Padel al coperto con Portico Sport",
+    "ROUTE": {
+        "LABEL": "Piste di Padel Coperte",
+        "URL": "/indoor-padel-court"
+    },
+    "FIRST_SECTION_INDOOR": {
+        "TITLE": "Costruttori di Piste di Padel Coperte",
+        "SUBTITLE": "Goditi il Padel Coperto con Portico Sport",
+        "DESCRIPTION": "Le piste di Padel coperte offrono la migliore esperienza di gioco. Come produttori leader di piste di Padel, sappiamo che le piste coperte consentono di giocare senza interruzioni e con un'illuminazione perfetta, in modo che i giocatori possano godere di una visibilità ottimale sia di giorno che di notte. Inoltre, gli ambienti con temperatura controllata garantiscono comfort tutto l'anno, rendendole ideali per partite intense senza gli inconvenienti delle condizioni meteorologiche estreme. Con le piste di Padel coperte, i club possono offrire un'atmosfera sicura e privata per giocatori di tutti i livelli, consentendo loro di allenarsi e competere nelle migliori condizioni."
+    },
+"INDOOR_BENEFITS": {
+    "TITLE": "Vantaggi delle Piste di Padel Coperte",
+    "SUBTITLE_1": "Gioco a Prova di Clima",
+    "DESCRIPTION_1": "Le piste di Padel coperte offrono un ambiente controllato, garantendo che i giochi continuino senza interruzioni, indipendentemente dalle condizioni meteorologiche come pioggia o calore intenso.",
+    "SUBTITLE_2": "Condizioni Stabili",
+    "DESCRIPTION_2": "Le piste coperte forniscono un'illuminazione, una temperatura e condizioni senza vento costanti, creando un'esperienza di gioco affidabile e confortevole ogni volta.",
+    "SUBTITLE_3": "Minori Necessità di Manutenzione",
+    "DESCRIPTION_3": "Essere protette dagli elementi riduce l'usura della pista, portando a una manutenzione meno frequente, costi a lungo termine più bassi e una vita utile più lunga della pista.",
+    "SUBTITLE_4": "Strutture Versatili",
+    "DESCRIPTION_4": "Le piste di Padel coperte possono essere integrate in complessi sportivi più grandi con comodità aggiuntive, aumentando il potenziale di guadagno ospitando una varietà di attività sotto lo stesso tetto.",
+    "SUBTITLE_5": "Maggiore Tempo di Gioco",
+    "DESCRIPTION_5": "Le piste coperte consentono ore di gioco prolungate, non influenzate da tramonti precoci o condizioni meteorologiche estreme, offrendo maggiore flessibilità ai giocatori e aumentando potenzialmente l'uso della pista."
+},
+"PROJECTS_SECTION_INDOOR": {
+    "ID": "projects",
+    "TITLE": "Lavori di Piste di Padel Coperte",
+    "URL": {
+        "LABEL": "Scopri tutti i nostri progetti",
+        "SRC": "/projects"
+    },
+    "ID_GALLERY": "projects-gallery-coperta",
+    "TITLE_GALLERY": "Lavori di Piste di Padel Coperte",
+    "PATH": "indoor-court/gallery"
+},
+"INDOOR_PERSONALIZATION": {
+    "TITLE": "Personalizza la Tua Pista di Padel Coperta",
+    "DESCRIPTION": "Quando progetti la tua pista di padel coperta, la personalizzazione è fondamentale per creare un'esperienza di gioco unica. Una considerazione importante è l'altezza necessaria della pista di Padel coperta, che dovrebbe idealmente essere compresa tra 6 e 8 metri per ospitare comodamente la pista. Questa altezza garantisce un gioco ottimale e consente varie personalizzazioni, come illuminazione, branding e posti per gli spettatori. Tenendo conto di questi fattori, puoi creare un ambiente su misura che migliora il piacere di ogni partita."
+},
+"INDOOR_CONTACT": {
+    "ID": "contact-coperta",
+    "TITLE": "Scegli la tua pista coperta perfetta al miglior valore",
+    "DESCRIPTION_1": "Contatta il nostro team di specialisti delle piste di Padel coperte per ulteriori informazioni! Siamo pronti ad assisterti per qualsiasi domanda e a aiutarti a scoprire la pista ideale per la tua struttura. Che tu sia interessato a piste coperte standard o personalizzate, possiamo progettare e costruire secondo le tue specifiche e requisiti. Lavoriamo insieme per creare la pista di Padel coperta perfetta che soddisfi le tue esigenze. Non vediamo l'ora di sentirti presto!"
+}
+  },
 
     "COURTS": {
       "ID": "courts",
