@@ -218,6 +218,56 @@
 }
 
     },
+    "SECTION_INDOOR": {
+    "ID": "couvert",
+    "SEO_TITLE": "Pistes de Padel Couverts",
+    "SEO_DESCRIPTION": "Découvrez le Padel en intérieur avec Portico Sport",
+    "TITLE": "Pistes de Padel Couverts",
+    "SUBTITLE": "Découvrez le Padel en intérieur avec Portico Sport",
+    "ROUTE": {
+        "LABEL": "Pistes de Padel Couverts",
+        "URL": "/indoor-padel-court"
+    },
+    "FIRST_SECTION_INDOOR": {
+        "TITLE": "Constructeurs de Pistes de Padel Couverts",
+        "SUBTITLE": "Profitez du Padel Couvert avec Portico Sport",
+        "DESCRIPTION": "Les pistes de Padel couvertes offrent la meilleure expérience de jeu. En tant que fabricants leaders de pistes de Padel, nous savons que les pistes couvertes permettent de jouer sans interruption et avec un éclairage parfait, afin que les joueurs bénéficient d'une visibilité optimale de jour comme de nuit. De plus, les environnements à température contrôlée garantissent un confort tout au long de l'année, ce qui les rend idéales pour des matchs intenses sans les inconforts des conditions météorologiques extrêmes. Avec les pistes de Padel couvertes, les clubs peuvent offrir une atmosphère sécurisée et privée pour des joueurs de tous niveaux, leur permettant de s'entraîner et de concourir dans les meilleures conditions."
+    },
+"INDOOR_BENEFITS": {
+    "TITLE": "Avantages des Pistes de Padel Couverts",
+    "SUBTITLE_1": "Jeu à l'Abri des Intempéries",
+    "DESCRIPTION_1": "Les pistes de Padel couvertes offrent un environnement contrôlé, garantissant que les jeux continuent sans interruption, quelles que soient les conditions météorologiques comme la pluie ou la chaleur intense.",
+    "SUBTITLE_2": "Conditions Stables",
+    "DESCRIPTION_2": "Les pistes couvertes fournissent un éclairage, une température et des conditions sans vent constantes, créant une expérience de jeu fiable et confortable à chaque fois.",
+    "SUBTITLE_3": "Moins de Besoins en Entretien",
+    "DESCRIPTION_3": "Être protégé des éléments réduit l'usure de la piste, ce qui entraîne un entretien moins fréquent, des coûts à long terme plus bas et une durée de vie plus longue de la piste.",
+    "SUBTITLE_4": "Installations Polyvalentes",
+    "DESCRIPTION_4": "Les pistes de Padel couvertes peuvent être intégrées dans des complexes sportifs plus grands avec des commodités supplémentaires, augmentant le potentiel de revenus en accueillant une variété d'activités sous un même toit.",
+    "SUBTITLE_5": "Plus de Temps de Jeu",
+    "DESCRIPTION_5": "Les pistes couvertes permettent des heures de jeu prolongées, sans être affectées par des couchers de soleil précoces ou des intempéries, offrant plus de flexibilité aux joueurs et augmentant potentiellement l'utilisation de la piste."
+},
+"PROJECTS_SECTION_INDOOR": {
+    "ID": "projects",
+    "TITLE": "Travaux de Pistes de Padel Couverts",
+    "URL": {
+        "LABEL": "Découvrez tous nos projets",
+        "SRC": "/projects"
+    },
+    "ID_GALLERY": "projects-gallery-couvert",
+    "TITLE_GALLERY": "Travaux de Pistes de Padel Couverts",
+    "PATH": "indoor-court/gallery"
+},
+"INDOOR_PERSONALIZATION": {
+    "TITLE": "Personnalisez Votre Piste de Padel Couverte",
+    "DESCRIPTION": "Lorsque vous concevez votre piste de padel couverte, la personnalisation est essentielle pour créer une expérience de jeu unique. Une considération importante est la hauteur nécessaire de la piste de Padel couverte, qui devrait idéalement être comprise entre 6 et 8 mètres pour accueillir la piste confortablement. Cette hauteur assure un jeu optimal et permet diverses personnalisations, telles que l'éclairage, le branding et les places pour les spectateurs. En tenant compte de ces facteurs, vous pouvez créer un environnement sur mesure qui améliore le plaisir de chaque match."
+},
+"INDOOR_CONTACT": {
+    "ID": "contact-couvert",
+    "TITLE": "Choisissez votre piste couverte parfaite au meilleur rapport qualité-prix",
+    "DESCRIPTION_1": "Contactez notre équipe de spécialistes des pistes de Padel couvertes pour plus d'informations ! Nous sommes prêts à vous aider pour toute demande et à vous aider à découvrir la piste idéale pour votre installation. Que vous soyez intéressé par des pistes couvertes standards ou personnalisées, nous pouvons concevoir et construire selon vos spécifications et exigences. Travaillons ensemble pour créer la piste de Padel couverte parfaite qui répond à vos besoins. Nous sommes impatients d'avoir de vos nouvelles bientôt !"
+}
+    },
+
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Terrains de padel",
