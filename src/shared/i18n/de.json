@@ -222,6 +222,57 @@
 }
 
     },
+    "SECTION_INDOOR": {
+    "ID": "indoor",
+    "SEO_TITLE": "Indoor Padel Plätze",
+    "SEO_DESCRIPTION": "Erlebe Padel in der Halle mit Portico Sport",
+    "TITLE": "Indoor Padel Plätze",
+    "SUBTITLE": "Erlebe Padel in der Halle mit Portico Sport",
+    "ROUTE": {
+        "LABEL": "Indoor Padel Plätze",
+        "URL": "/indoor-padel-court"
+    },
+    "FIRST_SECTION_INDOOR": {
+        "TITLE": "Bauer von Indoor Padel Plätzen",
+        "SUBTITLE": "Genieße Indoor Padel mit Portico Sport",
+        "DESCRIPTION": "Indoor Padel Plätze bieten das ultimative Spielerlebnis. Als führende Hersteller von Padel Plätzen wissen wir, dass Indoor Padel Plätze ununterbrochenes Spielen und perfekte Beleuchtung bieten, damit die Spieler tagsüber und nachts optimale Sicht haben. Darüber hinaus sorgen temperaturkontrollierte Umgebungen das ganze Jahr über für Komfort, was sie ideal für intensive Spiele ohne die Unannehmlichkeiten extremer Wetterbedingungen macht. Mit Indoor Padel Plätzen können Clubs eine sichere und private Atmosphäre für Spieler aller Niveaus bieten, die es ihnen ermöglicht, unter besten Bedingungen zu trainieren und zu konkurrieren."
+    },
+      "INDOOR_BENEFITS": {
+    "TITLE": "Vorteile von Indoor Padel Plätzen",
+    "SUBTITLE_1": "Wetterfestes Spiel",
+    "DESCRIPTION_1": "Indoor Padel Plätze bieten eine kontrollierte Umgebung, die sicherstellt, dass Spiele unterbrochen fortgesetzt werden, unabhängig von Wetterbedingungen wie Regen oder intensiver Hitze.",
+    "SUBTITLE_2": "Stabile Bedingungen",
+    "DESCRIPTION_2": "Indoor Plätze bieten konsistente Beleuchtung, Temperatur und windfreie Bedingungen, die jedes Mal ein zuverlässiges und komfortables Spielerlebnis schaffen.",
+    "SUBTITLE_3": "Geringere Wartungsbedürfnisse",
+    "DESCRIPTION_3": "Durch den Schutz vor den Elementen wird der Verschleiß des Platzes reduziert, was zu seltenerer Wartung, niedrigeren langfristigen Kosten und einer längeren Lebensdauer des Platzes führt.",
+    "SUBTITLE_4": "Vielseitige Einrichtungen",
+    "DESCRIPTION_4": "Indoor Padel Plätze können in größere Sportkomplexe mit zusätzlichen Annehmlichkeiten integriert werden, wodurch das Umsatzpotenzial gesteigert wird, indem eine Vielzahl von Aktivitäten unter einem Dach angeboten wird.",
+    "SUBTITLE_5": "Mehr Spielzeit",
+    "DESCRIPTION_5": "Indoor Plätze ermöglichen längere Spielzeiten, die nicht von frühen Sonnenuntergängen oder extremem Wetter beeinflusst werden, und bieten Spielern mehr Flexibilität und potenziell eine höhere Platznutzung."
+},
+"PROJECTS_SECTION_INDOOR": {
+    "ID": "projects",
+    "TITLE": "Indoor Padel Platz Arbeiten",
+    "URL": {
+        "LABEL": "Entdecke alle unsere Projekte",
+        "SRC": "/projects"
+    },
+    "ID_GALLERY": "projects-gallery-indoor",
+    "TITLE_GALLERY": "Indoor Padel Platz Arbeiten",
+    "PATH": "indoor-court/gallery"
+},
+"INDOOR_PERSONALIZATION": {
+    "TITLE": "Personalisiere deinen Indoor Padel Platz",
+    "DESCRIPTION": "Bei der Planung deines Indoor Padel Platzes ist die Personalisierung entscheidend, um ein einzigartiges Spielerlebnis zu schaffen. Eine wichtige Überlegung ist die benötigte Höhe des Indoor Padel Platzes, die idealerweise zwischen 6 und 8 Metern liegen sollte, um den Platz bequem zu nutzen. Diese Höhe gewährleistet ein optimales Spiel und ermöglicht verschiedene Anpassungen, wie Beleuchtung, Branding und Zuschauerplätze. Wenn du diese Faktoren berücksichtigst, kannst du eine maßgeschneiderte Umgebung schaffen, die den Genuss jedes Spiels steigert."
+},
+      "INDOOR_CONTACT": {
+    "ID": "contact-indoor",
+    "TITLE": "Wählen Sie Ihren perfekten Indoor Platz zum besten Preis-Leistungs-Verhältnis",
+    "DESCRIPTION_1": "Kontaktieren Sie unser Team von Indoor Padel Platz-Spezialisten für weitere Informationen! Wir sind bereit, Ihnen bei allen Anfragen zu helfen und Ihnen zu helfen, den idealen Platz für Ihre Einrichtung zu entdecken. Egal, ob Sie an Standard- oder maßgeschneiderten Indoor Plätzen interessiert sind, wir können nach Ihren Spezifikationen und Anforderungen entwerfen und bauen. Lassen Sie uns gemeinsam den perfekten Indoor Padel Platz schaffen, der Ihren Bedürfnissen entspricht. Wir freuen uns darauf, bald von Ihnen zu hören!"
+}
+    },
+
+
     "COURTS": {
       "ID": "padel-courts",
       "SEO_TITLE": "Padelplätze",
