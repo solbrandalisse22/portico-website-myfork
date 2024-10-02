@@ -201,14 +201,23 @@
     "DESCRIPTION_4": "I campi all'aperto diventano spesso un punto focale per le attività sociali, promuovendo il coinvolgimento della comunità e creando un ambiente ricreativo vivace."
 },
       
-      "OUTDOOR_WORKS": {
-    "TITLE": "Lavori sui Campi da Padel all'Aperto"
+  "PROJECTS_SECTION_OUTDOOR": {
+    "ID": "projects",
+    "TITLE": "Lavori per Campi da Padel all'Aperto",
+    "URL": {
+        "LABEL": "Scopri tutti i nostri progetti",
+        "SRC": "/projects"
+    },
+    "ID_GALLERY": "projects-gallery-outdoor",
+    "TITLE_GALLERY": "Lavori per Campi da Padel all'Aperto",
+    "PATH": "outdoor-court/gallery"
 },
 "OUTDOOR_CONTACT": {
+    "ID": "contact-outdoor",
     "TITLE": "Scegli il tuo campo all'aperto perfetto al miglior prezzo",
-    "DESCRIPTION_1": "Non esitare a contattare il nostro team di esperti di campi da padel all'aperto per ulteriori informazioni!",
-    "DESCRIPTION_2": "Siamo qui per rispondere a tutte le tue domande e guidarti nella ricerca del campo perfetto per la tua struttura. Che tu stia cercando campi all'aperto standard o personalizzati, possiamo progettare e costruire secondo le tue preferenze e specifiche. Creiamo insieme il campo da padel all'aperto ideale che soddisfi le tue esigenze. Non vediamo l'ora di sentirti presto!"
-}},
+    "DESCRIPTION_1": "Non esitare a contattare il nostro team di esperti di campi da Padel all'aperto per maggiori informazioni! Siamo qui per rispondere a qualsiasi domanda tu abbia e guidarti nella ricerca del campo perfetto per la tua struttura. Che tu stia cercando campi esterni standard o personalizzati, possiamo progettare e costruire secondo le tue preferenze e specifiche. Creiamo il campo da Padel all'aperto ideale che si adatta alle tue esigenze. Non vediamo l'ora di sentirti presto!"
+}
+},
 
 
     "COURTS": {
