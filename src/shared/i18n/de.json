@@ -1692,7 +1692,7 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Kompakt und dennoch mächtig: Entdecken Sie unseren Mini Court</span>",
+        "TITLE": "<span class=\"text-secondary\">Kompakt, aber kraftvoll: Mini-Padelplätze von Portico Sport</span>",
         "DESCRIPTION": "<p>Unser Mini Court, speziell entwickelt, um Kindern bereits in jungen Jahren die Freude am Padel zu vermitteln.</p><p>Die kleinere Größe dieses Platzes gewährleistet, dass Kinder das Spiel bequem genießen können, maßgeschneidert auf ihre Größe und körperlichen Fähigkeiten.</p><p>Er bietet nicht nur eine sichere und angenehme Umgebung für Kinder zum Spielen, sondern bietet auch zahlreiche Vorteile für Vereine: Eltern können Padel spielen, während ihre Kinder den Sport betreiben und so eine einzigartige und einladende Atmosphäre im Verein fördern.</p><p>Trotz seiner kompakten Größe bietet unser Mini Court die gleiche ästhetische Anziehungskraft wie herkömmliche Plätze und bietet eine außergewöhnliche Windbeständigkeit. Mit anpassbaren Optionen können junge Spieler sich wie Champions auf dem Platz fühlen.</p>",
         "IMAGES": {
           "FRONT": {
@@ -1739,7 +1739,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendering eines mobilen Platzes"
         },
-        "TITLE": "Strukturen",
+        "TITLE": "Platzstruktur von Experten Padelplatzbauern",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
         "TEXT": "<p>Ein verkleinerter Padelplatz aus feuerverzinkter Stahlstruktur garantiert maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Hilfe von Ankerplatten im Boden verankert sind.</p><p>Die Seiten- und Oberprofile werden durch elektroverschweißten Maschendraht gemäß den Normen UNE-EN-10223-4 ergänzt.</p><p>Zur Dämpfung von Maschenvibrationen verfügt die Struktur über Zwischengerüste. Die Befestigung der Struktur auf dem Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm.</p><p>Der Montageprozess ist dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, darunter hochmoderne industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert hochwertige Oberflächen.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatisierte robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidationen in der Zukunft.</li></ul>"
       },
@@ -1765,13 +1765,13 @@
           "height": 323,
           "alt": "Mobiler Platz patentiert von Portico Sport"
         },
-        "TITLE": "Gläser",
+        "TITLE": "Hochwertiges Glas für Mini-Padelplätze",
         "SUBTITLE": "Sicherheitsglas in jedem Platz!",
         "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Trotz seiner kompakten Größe bietet unser Mini Court die gleiche ästhetische Anziehungskraft wie herkömmliche Plätze und verfügt über Sicherheitsglas, erhältlich in 10 oder 12 mm Dicke, passend zu den spezifischen Anforderungen dieses Platzes.</p><p>Unser Glas erfüllt alle gesetzlichen Vorschriften für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir erstklassige Qualität in allen Aspekten unseres Baus.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Einscheiben-Sicherheitsglas mit polierten Kanten, das mit Senkloch-Polyethylen-Distanzhülsen, feuerverzinkten Schrauben und Neopren-Dichtungen zur perfekten Glas/Metall-Unterstützung am Metallgerüst befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glaspaneele weisen herausragende physikalische und mechanische Eigenschaften auf, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Strukturlack",
+        "TITLE": "Strukturfarbe für Padelplätze",
         "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt Farbe verleihen können?",
         "DESCRIPTION": "<p>Entdecken Sie den Inbegriff der Unterscheidung im Bau von Padelplätzen mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKLACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihnen am besten gefällt, und fallen Sie mit unseren anpassbaren Farboptionen auf.</p><p>Lassen Sie Ihren Platz Ihren individuellen Stil widerspiegeln, egal ob Sie einen monochromen Look wählen oder sich für ein zweifarbiges Design entscheiden. Auch auf einem kleineren Platz kann die richtige Farbe ihn hervorheben und Aufmerksamkeit erregen.</p>",
         "IMAGES": [
@@ -1818,7 +1818,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Obenansicht eines mobilen Platzes"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Rasen</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für Mini-Padelplätze</span>",
         "SUBTITLE": "Erleben Sie unerreichte Leistung auf unserem Rasen!",
         "DESCRIPTION": "<p>Wir arbeiten mit den führenden Rasenunternehmen zusammen, um sicherzustellen, dass Ihr Platz Rasen von Premium-Qualität erhält. Jeder Platz ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten, unterschiedlichen Dicken und Florhöhen, sehr geringem Abrieb, aus Polyethylen (PE) und spezifischen Additiven mit hoher Beständigkeit gegen Verschleiß und UV-Behandlung hergestellt ist, widerstandsfähig gegen Hitze und extreme Witterungsschwankungen.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand, mit 97% Silizium, Korngrößen zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballprall und bietet die Möglichkeit von geraden oder gekräuselten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
       },
@@ -1828,7 +1828,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Beleuchtung eines mobilen Platzes"
         },
-        "TITLE": "LED-Beleuchtung",
+        "TITLE": "Hochwertige LED-Beleuchtung für Mini-Padelplätze",
         "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
         "DESCRIPTION": "<p>Genießen Sie die ultimative LED-Beleuchtungslösung für Padelplätze, die exklusiv von Portico Sport in Zusammenarbeit mit führenden Spezialisten auf diesem Gebiet angeboten wird.</p><p>Unsere Padelplatzbeleuchtung sorgt für optimale Beleuchtung und Gleichmäßigkeit auf allen Spielflächen. Von Netz bis Zugangszonen, Hintergrund, Seitenlinien und hohen Ballzonen eliminiert unsere Beleuchtungslösung Blendung und Schatten und bietet den Spielern eine beispiellose Sichtbarkeit und Leistung.</p><p>Die Qualität unserer Projektoren, die entwickelt wurden, um Stöße bis zu IK10 standzuhalten, mit IP66-IP67 Dichtungsgraden und Widerstand gegen Spannungsspitzen von 4kV - 6kV, kombiniert mit der hohen Wärmeableitungsfähigkeit der Gehäuse, ermöglicht eine verlängerte Lebensdauer unserer Projektoren mit einer Garantie von bis zu 5 Jahren.</p><p>Unsere Projektoren sind darauf ausgelegt, alle Arten von Plätzen abzudecken, die in der europäischen Norm für Sportbeleuchtung festgelegt sind (UNE-EN-12193:2020), von Freizeitnutzung (Klasse III) bis hin zu professionellen Wettbewerben oder Fernsehsendungen (Klasse I - NIDE-Standard).</p>"
       },
