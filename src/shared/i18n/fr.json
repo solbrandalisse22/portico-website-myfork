@@ -1733,7 +1733,7 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Compact mais Puissant : Découvrez Notre Mini Court</span>",
+        "TITLE": "<span class=\"text-secondary\">Compact mais puissant : Mini Terrains de Padel par Portico Sport</span>",
         "DESCRIPTION": "<p>Notre Mini Court, spécialement conçu pour initier les enfants à la joie du padel dès leur plus jeune âge.</p><p>La taille plus petite de ce court garantit que les enfants peuvent profiter confortablement du jeu, adapté à leur taille et à leurs capacités physiques.</p><p>Non seulement il offre un environnement sûr et agréable pour les enfants, mais il offre également de nombreux avantages pour les clubs : les parents peuvent jouer au padel pendant que leurs enfants pratiquent ce sport, favorisant une atmosphère unique et accueillante dans le club.</p><p>Malgré sa taille compacte, notre Mini Court offre le même attrait esthétique que les courts conventionnels et offre une résistance exceptionnelle au vent. De plus, avec des options personnalisables disponibles, les jeunes joueurs peuvent se sentir comme des champions sur le court.</p>",
         "IMAGES": {
           "FRONT": {
@@ -1780,7 +1780,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendu d'un court mobile"
         },
-        "TITLE": "Structures",
+        "TITLE": "Structure du Terrain par des Constructeurs Experts de Terrains de Padel",
         "SUBTITLE": "Découvrez l'excellence de la structure de qualité premium de notre court",
         "TEXT": "<p>Un court de padel de taille réduite fabriqué avec une structure en acier galvanisé assurant une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du court se compose de profils en acier galvanisé S275JR, ancrés solidement au sol à l'aide de plaques d'ancrage.</p><p>Les cadres latéraux et supérieurs sont complétés par une grille électro-soudée conforme aux normes UNE-EN-10223-4.</p><p>Pour atténuer les vibrations de la grille, la structure intègre un échafaudage intermédiaire. La fixation de la structure au revêtement de sol est réalisée avec des ancrages métalliques fraisés mesurant M8X80 mm. De plus, son processus d'assemblage est sans faille, grâce à des vis de sécurité auto-verrouillantes et des écrous en acier galvanisé.</p><p>La structure des courts de padel Portico Sport subit des processus de fabrication incluant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe au laser garantit des découpes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotisée entièrement automatisée garantit la qualité des soudures, empêchant toute oxydation potentielle à l'avenir.</li></ul>"
       },
@@ -1806,13 +1806,13 @@
           "height": 323,
           "alt": "Court mobile breveté par Portico Sport"
         },
-        "TITLE": "Vitrages",
+        "TITLE": "Verre de Haute Qualité pour Mini Terrains de Padel",
         "SUBTITLE": "Vitre de sécurité trempée dans chaque court !",
         "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos courts de padel. Malgré sa taille compacte, notre Mini Court offre le même attrait esthétique que les courts conventionnels et est équipé de verre de sécurité trempé, disponible en épaisseur de 10 ou 12 mm, adapté aux exigences spécifiques de ce court.</p><p>Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols de renom bénéficiant du marquage CE, nous garantissons une qualité irréprochable dans tous les aspects de notre construction.</p><p>Le <strong>VERRE</strong> est réalisé avec du verre trempé clair aux bords polis, fixé à la structure métallique à l'aide de bagues de polyéthylène fraisées, de vis galvanisées et de joints en néoprène pour un support verre/métal parfait, avec un total de 6 trous d'ancrage. Nos panneaux en verre présentent d'excellentes propriétés physiques et mécaniques, notamment une résistance aux chocs et une planéité optimale.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Peinture de structure",
+        "TITLE": "Peinture de Structure pour Terrains de Padel",
         "SUBTITLE": "Saviez-vous que vous pouvez maintenant ajouter une touche de couleur à votre court ?",
         "DESCRIPTION": "<p>Découvrez l'épitomé de la distinction dans la construction de courts de padel avec une gamme de types de laques, offrant d'innombrables options pour peindre les structures de votre court dans des teintes vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui convient le mieux à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p><p>Permettez à votre court de refléter votre style individuel, que vous optiez pour un look monochromatique ou décidiez d'insuffler de la vitalité avec un design bicolore. Même sur un petit court, la bonne peinture peut le faire ressortir et attirer l'attention.</p>",
         "IMAGES": [
@@ -1859,7 +1859,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vue de dessus du court mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Pelouse</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon Haute Performance pour Mini Terrains de Padel</span>",
         "SUBTITLE": "Découvrez des performances inégalées sur notre pelouse !",
         "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de pelouse pour garantir que votre court reçoive une pelouse de qualité premium. Chaque court est équipé d'une pelouse de dernière génération, conçue avec des monofilaments texturés, présentant différentes épaisseurs et hauteurs de brins, très faible abrasion, fabriquée en polyéthylène (PE) et des additifs spécifiques avec une haute résistance à l'usure et un traitement anti-UV, résistante à la chaleur et aux fluctuations extrêmes de la météo.</p><p>Le lestage et le ballast sont réalisés à l'aide de sable de silice arrondi, lavé et séché, avec 97 % de silice, granulométrie entre 0,2 - 0,6 mm en une quantité approximative de 10-15 Kg/m2, selon le modèle de pelouse.</p><p>Notre pelouse de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebondissement de balle amélioré, et offre la possibilité de fibres droites ou bouclées et est disponible dans une grande variété de couleurs.</p>"
       },
@@ -1869,7 +1869,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Éclairage du court mobile"
         },
-        "TITLE": "Éclairage LED",
+        "TITLE": "Éclairage LED de Qualité pour Mini Terrains de Padel",
         "SUBTITLE": "Illuminez votre jeu avec l'éclairage de court de padel de Portico Sport !",
         "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les courts de padel, exclusivement proposée par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de court de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. De la zone du filet aux zones d'accès, de fond, latérales et de haut de balle, notre solution d'éclairage élimine l'éblouissement et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux chocs jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation thermique élevée des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie pouvant aller jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de courts spécifiés dans la norme européenne pour l'éclairage sportif (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
       },
