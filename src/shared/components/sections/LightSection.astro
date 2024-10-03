@@ -17,7 +17,7 @@ const i18n = getI18N({ language })
   </div>
   <div class="shadow-light bg-black/50 rounded-xl relative px-6 py-12  max-w-[1200px] my-16 mx-6 md:mx-12 xl:mx-auto">
     <Typography tag="h2" text={title} type="secondary" className="mb-6 font-bold uppercase" />
-    <Typography tag="h3" text={subtitle} type="primary" className="font-thin mb-4" />
+    <Typography tag="p" text={subtitle} type="primary" className="font-thin mb-4" />
     <Typography tag="div" text={description} className="pb-2 shadow-glass" />
     <div>
       <Typography tag="h3" text={i18n.LIGHTING_SECTION.MASTS_TITLE} type="primary" className="font-thin mt-6 mb-4" />
@@ -26,7 +26,7 @@ const i18n = getI18N({ language })
         {
           i18n.LIGHTING_SECTION.LIGHTING_MASTS.map((type) => (
             <div class="flex-1 text-center flex flex-col justify-between md:justify-start gap-2">
-              <Typography tag="h4" text={type.title} type="secondary" className="font-bold mb-2 uppercase" />
+              <Typography tag="p" text={type.title} type="secondary" className="font-bold mb-2 uppercase" />
               <img loading="lazy" src={type.image} alt={type.title} class="w-full rounded-xl aspect-video object-cover" />
               <Typography tag="p" text={type.description} className="text-center" size="small" />
             </div>
