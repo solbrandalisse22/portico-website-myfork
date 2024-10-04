@@ -732,7 +732,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render eines mobilen Platzes"
         },
-        "TITLE": "Strukturen",
+        "TITLE": "Überlegene Strukturen für panoramische Padelplätze",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
         "TEXT": "<p>Hergestellt mit feuerverzinkter Stahlstruktur gewährleistet unser Platz maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Hilfe von Ankertellern im Boden verankert sind. Die Seiten- und Oberprofile werden durch elektroverschweißte Maschen gemäß den Standards UNE-EN-10223-4 ergänzt.</p><p>Um Vibrationen des Netzes zu verhindern, umfasst die Struktur Zwischengerüste.</p><p>Die Befestigung der Struktur am Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm. Darüber hinaus ist der Montageprozess dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport unterliegt Herstellungsprozessen, darunter modernste industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert eine hochwertige Oberfläche.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatische robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidation in der Zukunft.</li></ul>"
       },
@@ -758,13 +758,13 @@
           "height": 323,
           "alt": "Mobiler Platz patentiert von Portico Sport"
         },
-        "TITLE": "Gläser",
+        "TITLE": "Hochwertiges Glas für panoramische Padelplätze",
         "SUBTITLE": "Sicherheitsglas in jedem Platz!",
         "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jeder Platz verfügt über Sicherheitsglas, das in 10 oder 12 mm Dicke erhältlich ist und an die spezifischen Anforderungen Ihres Projekts angepasst ist. Seien Sie versichert, unser Glas erfüllt alle gesetzlichen Standards für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir in jeder Hinsicht hochwertige Qualität bei unserem Bau.</p><p>Entdecken Sie dieses spektakuläre Design, das mit Glaswänden hoher Festigkeit eine Panoramaaussicht auf die Umgebung bietet. Unser Panoramaplatz bietet klare Sicht mit Sicherheitsglas, das sowohl Haltbarkeit als auch Sicherheit gewährleistet.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Sicherheitsglas mit polierten Kanten, das mit Senkeinsätzen aus Polyethylen, feuerverzinkten Schrauben und Neoprendichtungen zur perfekten Glas-/Metallunterstützung an der Metallstruktur befestigt ist, mit insgesamt 6 Ankern. Unsere Glasplatten zeichnen sich durch herausragende physikalische und mechanische Eigenschaften aus, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Strukturlackierung",
+        "TITLE": "Individuelle Farboptionen für Padelplatz-Strukturen",
         "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt einen Farbtupfer hinzufügen können?",
         "DESCRIPTION": "<p>Entdecken Sie den Inbegriff der Unterscheidung im Bau von Padelplätzen mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKIERLACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihnen am besten gefällt, und stechen Sie mit unseren anpassbaren Farboptionen heraus.</p><p>Ob Sie einen monochromen Look bevorzugen oder mit einem zweifarbigen Design einen Farbtupfer hinzufügen möchten, lassen Sie Ihren Platz Ihren Stil und Ihre Persönlichkeit widerspiegeln und sorgen Sie gleichzeitig dafür, dass er allen auf dem Platz ins Auge fällt.</p>",
         "IMAGES": [
@@ -801,7 +801,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Mobile Platzansicht von oben"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Rasen</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für panoramische Padelplätze</span>",
         "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
         "DESCRIPTION": "<p>Wir arbeiten mit den Top-Rasenunternehmen zusammen, um sicherzustellen, dass Ihr Platz Rasen von höchster Qualität erhält. Jeder Platz ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten hergestellt ist, verschiedene Dicken und Faserhöhen aufweist, sehr geringen Abrieb aufweist, aus Polyethylen (PE) und spezifischen Additiven mit hoher Beständigkeit gegen Verschleiß und UV-Behandlung besteht, beständig gegen Hitze und extreme Wetterfluktuationen.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand mit 97% Silizium, Korngröße zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballrücksprung und bietet die Möglichkeit von geraden oder gekrümmten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
       },
@@ -811,7 +811,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Mobile Platzbeleuchtung"
         },
-        "TITLE": "LED-Beleuchtung",
+        "TITLE": "Fachbeleuchtung für panoramische Padelplätze",
         "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
         "DESCRIPTION": "<p>Genießen Sie die ultimative LED-Beleuchtungslösung für Padelplätze, die exklusiv von Portico Sport in Zusammenarbeit mit führenden Spezialisten auf dem Gebiet angeboten wird.</p><p>Unsere Padelplatzbeleuchtung gewährleistet optimale Beleuchtung und Gleichmäßigkeit in allen Spielbereichen. Von der Netzzone über die Zugangsbereiche, den Hintergrund, die Seitenlinien bis hin zu den hohen Ballzonen eliminiert unsere Beleuchtungslösung Blendung und Schatten und bietet den Spielern eine unvergleichliche Sichtbarkeit und Leistung.</p><p>Die Qualität unserer Projektoren, die darauf ausgelegt sind, Schlägen bis zu IK10 standzuhalten, mit IP66-IP67-Dichtungsgraden und einer Beständigkeit gegen Spannungsspitzen von 4 kV - 6 kV, kombiniert mit den hohen Wärmeableitungsfähigkeiten der Gehäuse, ermöglicht eine verlängerte Lebensdauer unserer Projektoren, mit einer Garantie von bis zu 5 Jahren.</p><p>Unsere Projektoren sind darauf ausgelegt, alle Arten von Plätzen abzudecken, die in der europäischen Norm für Sportbeleuchtung (UNE-EN-12193:2020) spezifiziert sind, von der Freizeitnutzung (Klasse III) bis hin zu professionellen Wettbewerben oder Fernsehübertragungen (Klasse I - NIDE-Standard).</p>"
       },
