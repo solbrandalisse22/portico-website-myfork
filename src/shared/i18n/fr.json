@@ -773,7 +773,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendu d'un court mobile"
         },
-        "TITLE": "Structures",
+        "TITLE": "Structures supérieures pour courts de padel panoramiques",
         "SUBTITLE": "Découvrez l'excellence de la structure de notre court de qualité premium",
         "TEXT": "<p>Fabriqué avec une structure en acier galvanisé, notre court assure une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du court se compose de profils en acier galvanisé S275JR, ancrés solidement au sol à l'aide de plaques d'ancrage. Les cadres latéraux et supérieurs sont complétés par une maille électro-soudée conforme aux normes UNE-EN-10223-4.</p><p>Pour éviter les vibrations de la maille, la structure comprend des échafaudages intermédiaires.</p><p>La fixation de la structure au revêtement se fait avec des ancrages métalliques fraisés mesurant M8X80 mm. De plus, son processus d'assemblage est sans couture, grâce à des vis de sécurité à verrouillage automatique et des écrous en acier galvanisé.</p><p>La structure des courts de padel Portico Sport subit des processus de fabrication comprenant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe laser garantit des coupes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotisée entièrement automatisée garantit la qualité des soudures, prévenant toute oxydation potentielle à l'avenir.</li></ul>"
       },
@@ -799,13 +799,13 @@
           "height": 323,
           "alt": "Court mobile breveté par Portico Sport"
         },
-        "TITLE": "Verres",
+        "TITLE": "Verre de haute qualité pour courts de padel panoramiques",
         "SUBTITLE": "Verre de sécurité trempé dans chaque court !",
         "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos courts de padel. Chaque court est équipé de verre de sécurité trempé, disponible en épaisseurs de 10 ou 12 mm, adapté aux exigences spécifiques de votre projet. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols de renom bénéficiant du marquage CE, nous garantissons une qualité de premier ordre dans tous les aspects de notre construction.</p><p>Découvrez ce design spectaculaire, avec des parois en verre ultra-résistant offrant une vue panoramique sur les environs. Notre Court panoramique offre des vues dégagées avec du verre de sécurité trempé, garantissant à la fois durabilité et sécurité.</p><p>Le <strong>VITRAGE</strong> est réalisé avec du verre trempé transparent aux bords polis, fixé à la structure métallique à l'aide de douilles en polyéthylène fraisées, de vis galvanisées et de joints en néoprène pour un support verre/métal parfait, avec un total de 6 trous d'ancrage. Nos panneaux de verre présentent d'excellentes propriétés physiques et mécaniques, notamment une résistance aux chocs et une planéité optimale.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Peinture de structure",
+        "TITLE": "Options de peinture personnalisées pour structures de courts de padel",
         "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre court ?",
         "DESCRIPTION": "<p>Découvrez l'apogée de la distinction dans la construction de courts de padel avec une gamme de types de laques, offrant une multitude d'options pour peindre les structures de votre court dans des teintes vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui correspond à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p><p>Que vous préfériez un look monochrome ou que vous souhaitiez ajouter une touche de couleur avec un design bicolore, laissez votre court refléter votre style et votre personnalité tout en garantissant qu'il attire tous les regards sur le court.</p>",
         "IMAGES": [
@@ -842,7 +842,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vue de dessus d'un court mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour courts de padel panoramiques</span>",
         "SUBTITLE": "Expérimentez des performances inégalées sur notre gazon !",
         "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de gazon pour garantir que votre court reçoive un gazon de qualité premium. Chaque court est équipé d'un gazon de dernière génération conçu avec des monofilaments texturés, offrant différentes épaisseurs et hauteurs de pile, une abrasion très faible, fabriqué en polyéthylène (PE) et des additifs spécifiques avec une grande résistance à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations extrêmes de la météo.</p><p>Remplissage de stabilisation et lestage à l'aide de sable de silice arrondi, lavé et séché, avec 97% de silice, granulométrie entre 0,2 - 0,6 mm en quantité approximative de 10-15 kg/m2, en fonction du modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebond de balle amélioré, et offre la possibilité de fibres droites ou frisées et est disponible dans une grande variété de couleurs.</p>"
       },
@@ -852,7 +852,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Éclairage de court mobile"
         },
-        "TITLE": "Éclairage LED",
+        "TITLE": "Éclairage expert pour courts de padel panoramiques",
         "SUBTITLE": "Illuminez votre jeu avec l'éclairage de court de padel de Portico Sport !",
         "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les courts de padel, offerte exclusivement par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de court de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. Du filet aux zones d'accès, en passant par l'arrière-plan, les lignes de touche et les zones de haute balle, notre solution d'éclairage élimine les reflets et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux impacts jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation thermique élevées des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de courts spécifiés dans la norme européenne pour l'éclairage des sports (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
       },
