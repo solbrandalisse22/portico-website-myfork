@@ -221,7 +221,7 @@ ES:{
   DEFAULT: organizationSchema
 }
 
-let schema = pathname === "/uk" ? TYPES.UK : pathname === "/padel-court-usa" ? TYPES.USA : pathname === "/es" ? TYPES.ES : TYPES.DEFAULT;
+let schema = pathname === "/uk" ? TYPES.UK : pathname === "/padel-court-usa" ? TYPES.USA : language === "es" ? TYPES.ES : TYPES.DEFAULT;
 
 if (TYPE) {
   schema = TYPES[TYPE] || schema;
