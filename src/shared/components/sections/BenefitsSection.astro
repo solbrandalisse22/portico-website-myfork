@@ -21,8 +21,12 @@ const { title, subtitle, description, Benefits } = Astro.props;
 
 <Section>
   <Typography tag="h2" className="font-bold text-secondary mb-6 uppercase text-center" text={title} type="secondary" />
+ { subtitle && (
   <Typography tag="h3" className="font-bold text-secondary mb-6 uppercase text-center" text={subtitle} type="secondary" />
+  )}
+ {description &&(
   <Typography tag="p" className="mb-6 text-center" text={description} />
+  )}
   <div class="flex flex-col md:flex-row gap-10 justify-center flex-wrap items-center">
     {
       Benefits.map(({header, icon, footer}) => (
