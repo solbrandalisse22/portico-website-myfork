@@ -171,10 +171,57 @@ const TYPES = {
     }
   }
 },
+ES:{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Portico Sport España",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pol. Ind. los Varales, Albaniles, 06220 Villafranca de los Barros, Badajoz, España",
+    "addressLocality": "Badajoz",
+    "addressRegion": "Badajoz",
+    "postalCode": "06",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.667,
+    "longitude": -6.167
+  },
+  "telephone": "+34 924 302 423",
+  "url": "https://www.porticosport.es",
+  "email": "info@porticosport.com",
+  "description": "Portico Sport España es un proveedor líder en la construcción de pistas de Padel y la instalación de cubiertas en toda España. Ofrecemos soluciones personalizadas para el mercado español, con materiales de primera calidad y mano de obra superior. Contáctanos para instalaciones expertas y un servicio confiable.",
+  "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
+  "priceRange": "€€",
+  "openingHours": [
+    "Mo-Fr 08:00-18:00",
+    "Su 09:00-18:00"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/porticosport",
+    "https://www.instagram.com/porticosport",
+    "https://twitter.com/portico_sport"
+  ],
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Geno Hernandez"
+    },
+    "datePublished": "2023-08-14",
+    "reviewBody": "calidad y rapidez. Muchas gracias a todo el equipo de Pórtico Sport por el buen trabajo. Estamos encantados con nuestras pistas.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    }
+  }
+  },
   DEFAULT: organizationSchema
 }
 
-let schema = pathname === "/uk" ? TYPES.UK : pathname === "/padel-court-usa" ? TYPES.USA : TYPES.DEFAULT;
+let schema = pathname === "/uk" ? TYPES.UK : pathname === "/padel-court-usa" ? TYPES.USA : pathname === "/es" ? TYPES.ES : TYPES.DEFAULT;
 
 if (TYPE) {
   schema = TYPES[TYPE] || schema;
