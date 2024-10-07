@@ -61,7 +61,7 @@ const isMobile = title === i18n.PAGES.MOBILE_COURT.TITLE
 const isPanoramic = title === i18n.PAGES.PANORAMIC_COURT.TITLE
 const force80 = i18n.PAGES.CLUB_FORCE_80_COURT.TITLE
 const courts = courtsGrid(i18n);
-const compatibleCourts = (isMobile || isPanoramic)
+const compatibleCourts = isMobile 
   ? courts.filter((item) => item.title !== title && item.title !== force80)
   : courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.MOBILE_COURT.TITLE);
 
