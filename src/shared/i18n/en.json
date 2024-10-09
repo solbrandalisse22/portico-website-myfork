@@ -256,6 +256,18 @@
         "TITLE_GALLERY": "Building Padel Courts with Precision in the USA",
         "PATH": "projectsusa/gallery"
       },
+      "PROJECTS_SECTION_OCEANIA": {
+        "ID": "projects",
+        "TITLE": "Padel Court and Canopies Projects",
+        "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
+        "URL": {
+          "LABEL": "Discover other projects Worldwide",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "project-gallery",
+        "TITLE_GALLERY": "Building Padel Courts with Precision in Oceania",
+        "PATH": "oceania/gallery"
+      },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
         "TITLE": "Premium Padel Court Construction: Quality & Innovation",
