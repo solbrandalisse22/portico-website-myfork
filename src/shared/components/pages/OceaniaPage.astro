@@ -8,7 +8,7 @@ import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
-import NewsList from "../NewsList.astro"
+import NewsList from "../NewsListOC.astro"
 import SectionGraphicProcessOceania from "@/shared/components/sections/SectionGraphicProcessOC.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import LogoFep from "@/shared/components/logos/LogoFep.astro";
@@ -26,7 +26,7 @@ const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
 
-const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=6&_embed`)
+const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?categories=NZ&per_page=6&_embed`)
 // const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?per_page=6&_embed`)
 const posts = await response.json();
 ---
