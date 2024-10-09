@@ -361,6 +361,37 @@
           }
         }
       },
+      "COMPLEMENTS_SECTION_OCEANIA": {
+        "ID": "complements",
+        "TITLE": "Premium Padel Court Construction in Oceania",
+        "SUBTITLE": "A Leading Padel Court Company Transforming Oceania",
+        "ITEMS": {
+          "ITEM_1": {
+            "TITLE": "Foundation and platforms",
+            "DESCRIPTION": "We specialize in the construction and repair of structural foundations, ensuring a stable base for all our installations. With a dedicated team of specialists across Oceania, we offer customized solutions that comply with local regulations and standards."
+          },
+          "ITEM_2": {
+            "TITLE": "Padel court Structures",
+            "DESCRIPTION": "Our metallic structures are made from galvanized steel and coated with oven-baked thermoplastic polyester paint. Indoor courts receive a single layer of paint, while outdoor courts are protected with two layers, all designed to meet the highest industry standards."
+          },
+          "ITEM_3": {
+            "TITLE": "Glass Panels",
+            "DESCRIPTION": "Every Padel court is fitted with tempered safety glass, available in 10 or 12 mm thickness, depending on the project's needs. Our glass installations fully comply with the regulations governing these facilities in Oceania, ensuring both safety and quality."
+          },
+          "ITEM_4": {
+            "TITLE": "Artifitial turf",
+            "DESCRIPTION": "We provide premium artificial turf in partnership with top turf manufacturers. Our latest-generation turf, available with straight or curly fibers and in different colors, is engineered to enhance both gameplay and durability."
+          },
+          "ITEM_5": {
+            "TITLE": "Lighting",
+            "DESCRIPTION": "Our LED lighting systems are sourced from the industry's most trusted manufacturers, ensuring optimal illumination for Padel courts, whether indoors or outdoors."
+          },
+          "ITEM_6": {
+            "TITLE": "Customize your Padel court",
+            "DESCRIPTION": "Enhance the appearance of your court with lacquered paint, integrated benches, engraved corners that showcase your club's logo, and screen-printed nets to produce a distinctive, branded playing environment."
+          }
+        }
+      },
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "ASK Question about Padel Court Builders",
