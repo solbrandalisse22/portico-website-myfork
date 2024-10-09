@@ -9,6 +9,8 @@ import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
 import NewsList from "../NewsList.astro"
+import Gallery from "../Gallery.astro"
+import { type Photo } from "@/types/types.ts";
 import SectionGraphicProcessOceania from "@/shared/components/sections/SectionGraphicProcessOC.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import LogoFep from "@/shared/components/logos/LogoFep.astro";
@@ -18,10 +20,11 @@ import NormativeLogos from "@/shared/components/sections/NormativeLogosOC.astro"
 
 interface Props {
   language: string,
+ projectsGallery: Photo[]
 
 }
 
-const { language } = Astro.props
+const { language, projectsGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
@@ -64,6 +67,22 @@ const posts = await response.json();
     buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.BUTTON_TEXT}
   />
   <SectionBentoOC language={language} />
+
+<section 
+      id={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.ID}
+    >
+      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
+      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+    </section>
+    <Gallery
+      heading={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE_GALLERY}
+      id={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.ID_GALLERY}
+      photos={projectsGallery}
+      offset={3}
+      path={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.URL.SRC}
+      urlText={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.URL.LABEL}
+    />
   <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_OCEANIA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_OCEANIA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
   <NewsList language={language} posts={posts} />
   <SectionContact
