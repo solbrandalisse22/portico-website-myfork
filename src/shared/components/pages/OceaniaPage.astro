@@ -2,12 +2,15 @@
 import Layout from "@/shared/layouts/Layout.astro"
 import Video from "@/shared/components/Video.astro"
 import SectionIntroOceania from "@/shared/components/sections/SectionIntroOC.astro"
+import Typography from "@/shared/components/ui/Typography.astro"
 import SectionBentoOC from "@/shared/components/sections/SectionBentoOC.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
+import SectionComplementsOC from "@/shared/components/sections/SectionComplementsOC.astro"
+
 import NewsList from "../NewsList.astro"
 import Gallery from "../Gallery.astro"
 import { type Photo } from "@/types/types.ts";
@@ -20,11 +23,10 @@ import NormativeLogos from "@/shared/components/sections/NormativeLogosOC.astro"
 
 interface Props {
   language: string,
- projectsGallery: Photo[]
-
+  projectsGallery: Photo[]
 }
 
-const { language, projectsGallery } = Astro.props
+const { language,  projectsGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
@@ -36,7 +38,7 @@ const posts = await response.json();
 
 <Layout title={i18n.PAGES.HOME.SEO_TITLE_OCEANIA} description={i18n.PAGES.HOME.SEO_DESCRIPTION_OCEANIA} currentLocale={currentLocale} language={language}>
 
-  <Video language={language} video="/portico-sport-home-video.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE_OCEANIA} title={i18n.PAGES.HOME.TITLE_OCEANIA} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
+  <Video language={language} video="/portico-sport-home-video.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE_OCEANIA} title={i18n.PAGES.HOME.TITLE} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
     <div
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
@@ -67,8 +69,8 @@ const posts = await response.json();
     buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.BUTTON_TEXT}
   />
   <SectionBentoOC language={language} />
-
-<section 
+  
+  <section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.ID}
     >
       <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
@@ -83,7 +85,10 @@ const posts = await response.json();
       urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.URL.SRC}
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.URL.LABEL}
     />
-  <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_OCEANIA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_OCEANIA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
+    <SectionComplementsOC language={language} />
+
+
+    <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_OCEANIA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_OCEANIA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
   <NewsList language={language} posts={posts} />
   <SectionContact
   id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
