@@ -67,13 +67,12 @@ const posts = await response.json();
       buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
       buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_USA.BUTTON_TEXT}
     />
-    <SectionBentoUSA language={language} />
+    
     <section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_UK.ID}
     >
-      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_UK.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
-      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
-    </section>
+      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_UK.TITLE} className="mx-auto mt-10 mb-8 text-center font-semibold uppercase" />
+      
     <Gallery
       heading={i18n.PAGES.HOME.PROJECTS_SECTION_USA.TITLE_GALLERY}
       id={i18n.PAGES.HOME.PROJECTS_SECTION_USA.ID_GALLERY}
@@ -83,6 +82,9 @@ const posts = await response.json();
       urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_USA.URL.SRC}
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION_USA.URL.LABEL}
     />
+     <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+    </section>
+    <SectionBentoUSA language={language} />
     <SectionComplementsUSA language={language} />
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_USA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_USA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
     <NewsList language={language} posts={posts} />
