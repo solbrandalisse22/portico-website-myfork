@@ -68,14 +68,12 @@ const posts = await response.json();
     buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
     buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.BUTTON_TEXT}
   />
-  <SectionBentoOC language={language} />
   
   <section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.ID}
     >
-      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
-      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
-    </section>
+      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE} className="mx-auto mb-8 mt-10 text-center font-semibold uppercase" />
+
     <Gallery
       heading={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE_GALLERY}
       id={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.ID_GALLERY}
@@ -84,7 +82,11 @@ const posts = await response.json();
       path={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.PATH}
       urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.URL.SRC}
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.URL.LABEL}
-    />
+    />  
+      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+    </section>
+    <SectionBentoOC language={language} />
+
     <SectionComplementsOC language={language} />
 
 
