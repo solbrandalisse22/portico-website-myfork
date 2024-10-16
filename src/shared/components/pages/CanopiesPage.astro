@@ -36,8 +36,8 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
         <header class="text-center md:pt-20 flex flex-col justify-center items-center">
           <Typography tag="p" text={i18n.PAGES.CANOPIES.PRETITLE} responsive />
           <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.CANOPIES.TITLE} responsive />
-          <Typography tag="h2" type="secondary" className="mb-6" text={i18n.PAGES.CANOPIES.SUBTITLE} responsive />
-          <Typography tag="h3" type="primary" className="mb-6 font-thin" text={i18n.PAGES.CANOPIES.SUBSUBTITLE} responsive />
+          <Typography tag="p" type="secondary" className="mb-6 text-xl" text={i18n.PAGES.CANOPIES.SUBTITLE} responsive />
+          <Typography tag="p" type="primary" className="mb-6 font-thin text-xl" text={i18n.PAGES.CANOPIES.SUBSUBTITLE} responsive />
           <Typography tag="p" className="max-w-[60ch]" text={i18n.PAGES.CANOPIES.DESCRIPTION} responsive />
         </header>
       </div>
@@ -118,6 +118,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
     </Section>
     <Gallery
       id="gallery-canopies"
+      heading={i18n.PAGES.CANOPIES.GALLERY.TITLE}
       path="canopies/gallery"
       offset={i18n.PAGES.CANOPIES.GALLERY.OFFSET}
       photos={canopiesGallery}
@@ -126,6 +127,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
       id={i18n.PAGES.CANOPIES.CONTACT_SECTION.ID}
       hiddenSubject
       subject={i18n.PAGES.CANOPIES.CONTACT_SECTION.SUBJECT}
+      title={i18n.CONTACT_FORM.TITLE_CANOPIES}
       description={i18n.PAGES.CANOPIES.CONTACT_SECTION.DESCRIPTION}
       language={language}
       bgImage={i18n.PAGES.CANOPIES.CONTACT_SECTION.BG_IMAGE}
