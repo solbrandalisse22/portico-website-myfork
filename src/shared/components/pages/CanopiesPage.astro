@@ -80,7 +80,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
                 id={id}
                 src={src}
                 alt={alt}
-                class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] xl:w-auto top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                class={`${index === 0 ? "relative" : "absolute"} object-cover w-full h-full xl:max-w-[1024px] xl:w-auto top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
               />
             ))
           }
@@ -108,10 +108,10 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
             muted
             playsinline
             id="main-video"
-            preload="metadata"
+            preload="none"
             class="video h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
           >
-            <source src="/canopies/canopy-noruega.mp4" type="video/webm" />
+            <source data-src="/canopies/canopy-noruega.mp4" type="video/webm" />
           </video>
         </div>
       </div>
