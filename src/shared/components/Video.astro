@@ -85,52 +85,54 @@ const type = getTipeFromVideo();
       muted
       playsinline
       id="main-video"
-      preload="metadata"
-      class={`video hidden cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50 ${classVideo}`}
+      preload="none"
+      class={`video cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50 ${classVideo}`}
     >
-      <source src={video} type={type} />
+      <source data-src={video} type={type} />
     </video>
   </div>
   <video
-    class="video hidden absolute -bottom-48 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50"
+    class="video absolute -bottom-48 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50"
     autoplay
     loop
     muted
-    preload="metadata"
+    preload="none"
   >
-    <source src={video} type={type} />
+    <source data-src={video} type={type} />
   </video>
   <slot name="bottom" />
 </div>
 
 <script>
-  document.addEventListener("astro:page-load", () => {
-    const firstVideo = document.querySelector(
-      "#main-video"
-    ) as HTMLMediaElement;
+  
 
-    if (firstVideo) {
-      const videos = document.querySelectorAll(
-        ".video"
-      ) as NodeListOf<HTMLMediaElement>;
+  document.addEventListener("DOMContentLoaded", function() {
+ let lazyVideos = document.querySelectorAll(".video")
 
-      if (firstVideo.readyState >= 3) {
-        videos.forEach((videoEl) => {
-          videoEl.classList.remove("hidden");
-          videoEl.classList.add("animate-fade");
-        });
+ if ("IntersectionObserver" in window) {
+   let lazyVideoObserver = new IntersectionObserver(function(entries) {
+     entries.forEach(function(video) {
+       if (video.isIntersecting) {
+         for (const source in Array.from(video.target.children)) {
+          const sourceElements = Array.from(video.target.children).filter(child => child.tagName === "SOURCE");
 
-        return;
-      }
+           sourceElements.forEach(videoSource  => {
+            videoSource.src = videoSource.dataset.src; 
+          });
+         }
 
-      firstVideo.addEventListener("loadeddata", () => {
-        videos.forEach((videoEl) => {
-          videoEl.classList.remove("hidden");
-          videoEl.classList.add("animate-fade");
-        });
-      });
-    }
-  });
+         video.target.load();
+         video.target.classList.remove("video");
+         lazyVideoObserver.unobserve(video.target);
+       }
+     });
+   });
+
+   lazyVideos.forEach(function(lazyVideo) {
+     lazyVideoObserver.observe(lazyVideo);
+   });
+ }
+});
 </script>
 
 <style>
