@@ -2206,26 +2206,26 @@
       "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Leader in the manufacturing and installation of canopies",
-      "TITLE": "High-performance canopies",
+      "TITLE": "Padel courts canopies",
       "TITLE_ALT": "High-performance canopies",
       "SUBTITLE": "Innovation, quality and high technology",
       "SUBSUBTITLE": "Enhances your play experience",
-      "DESCRIPTION": "Our canopies grant a significant increase in the long-term usage of the Padel courts.",
+      "DESCRIPTION": "Cover your Padel court with high-performance canopies that significantly extend the long-term usage of your court.",
       "ROUTE": {
         "LABEL": "Canopies",
         "URL": "/canopies"
       },
       "FIRST_SECTION": {
-        "TITLE": "Sport-Specific Engineering",
-        "DESCRIPTION": "Designed to protect outdoor Padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
+        "TITLE": "Covered Padel Courts for Enhanced Durability ",
+        "DESCRIPTION": "Designed by expert Padel court builders, our high-performance canopies offer unmatched protection from inclement weather while enhancing the playing experience. With an original design, weather-resistant materials and premium quality structure our canopies meet all safety standards. Additionally, the sleek, aesthetically pleasing design integrates seamlessly with any environment, making them both functional and visually appealing for any Padel club.",
         "IMAGE": {
           "src": "/canopies/section-canopies-01/canopy-structure.png",
           "alt": "Canopy structure"
         }
       },
       "FEATURE_SECTION": {
-        "TITLE": "Specialized Professional team",
-        "DESCRIPTION": "Our engineers develop construction and installation systems for Padel court canopies tailored to the needs of our clients, as well as to the standards and regulations of each country.",
+        "TITLE": "Custom-Built Padel Court Canopies by Expert Engineers",
+        "DESCRIPTION": "In Portico Sport, our team of expert engineers specializes in designing and developing construction and installation systems for Padel court canopies. Each canopy is tailored to the unique needs of our clients and complies with local standards and regulations in every country. Beyond Padel, our canopies are also ideal for other racquet sports like tennis, providing versatile, weather-resistant protection for multiple sports facilities.",
         "LIST": [
           "<strong>Reduced heat projection</strong> compared to metal sheets canopies.",
           "<strong>Reduced shadows and contrasts</strong> compared to opaque materials.",
@@ -2236,8 +2236,8 @@
           "<strong>Prevents rain from compacting</strong> the sand on the turf.",
           "<strong>Soften potential expansions and contractions</strong> caused by sunlight on the structure and the turf."
         ],
-        "LIST_TITLE": "Excellence and experience",
-        "LIST_DESCRIPTION": "We highlight the following features of our canopies:",
+        "LIST_TITLE": "Benefits of Padel court canopies: Maximize playtime and durability",
+        "LIST_DESCRIPTION": "Our canopies provide ultimate protection for every court, ensuring that weather conditions do not hinder the playing experience. Designed to enhance gameplay, these premium quality covers not only safeguard your courts but also contribute to a more enjoyable and consistent playing environment. Discover the benefits of investing in our state-of-the-art Padel court covers and take your game to the next level!",
         "IMAGES": [{
           "id": "image-1",
           "src": "canopies/section-canopies-01/canopies-section-01.webp",
@@ -2265,8 +2265,8 @@
         }]
       },
       "ADVANTAGE_SECTION": {
-        "TITLE": "Installation of Padel canopies",
-        "DESCRIPTION": "<p><strong>PORTICO SPORT has many years of experience in engineering</strong>, and handles the entire construction process, with a team of professionals specialized in every step from <strong>design to manufacturing and installation.</strong></p><p>They are highly aware of the unique nature of each client and manage their projects with the respect and personalized attention that everyone requires. All of this, <strong>guarantees the success</strong> of their work, based on quality, innovation, trust, and experience.</p><p><strong>Manufactured with hot-rolled structural steel profiles</strong> of various dimensions as required by the installation.</p><p><strong>The roofing of the structure</strong> is done with cellular polycarbonate sheets of variable thicknesses as demanded by the project and the situation.</p><p><strong>The material provides the roof with ideal characteristics for the practice of this sport</strong>, tested by high-level players.</p><p>As an option <strong>we offer the possibility of installing side panels</strong> up to a height of 3 meters from the ground, to prevent lateral winds and/or rains that could interfere with the game.</p>",
+        "TITLE": " Installation of Padel court canopies",
+        "DESCRIPTION": "<p><strong>With years of expertise in engineering, Portico Sport</strong>  oversees the entire construction process of Padel court canopies. Our dedicated team of professionals excels in every aspect,<strong> from design and manufacturing to installation.</strong></p><p> We understand that each client has unique needs, and we approach every project with the personalized attention and respect it deserves. This commitment <strong> ensures the success of our projects</strong>, built on a foundation of quality, innovation, trust, and experience.</p><p> Our canopies are<strong> manufactured using hot-rolled structural steel profiles</strong>  tailored to the specific dimensions required for each installation.<strong> The roofing features cellular polycarbonate sheets</strong>, available in various thicknesses depending on the project's requirements and conditions.</p><p>These materials provide the perfect characteristics for playing any racquet sport. Additionally, <strong>we offer the option to install side panels</strong> up to 3 meters high to shield against lateral winds and rain, enhancing the playing experience.</p><p>Choose Portico Sport for your Padel court canopy installation and Padel court builder and enjoy exceptional quality and performance tailored to your needs.</p>",
         "BUTTON_TEXT": "Discover more canopies"
       },
       "CONTACT_SECTION": {
@@ -2279,10 +2279,11 @@
         "IMAGE": "canopies/canopy-contact.webp"
       },
       "GALLERY": {
+        "TITLE":"Covered padel courts: Examples",
         "HEADING": "Sport-Specific Engineering",
         "SUBHEADING": "Designed to protect outdoor padel courts from the inclement weather and provide an unparalleled play experience. Weather resistance, transparency, high-quality structure that meets safety and durability standards, and aesthetically pleasing design that seamlessly integrates with the surroundings while also being visually appealing.",
         "OFFSET": 27
-      }
+      },
     },
     "ELEVATED_PLATFORM": {
       "SEO_TITLE": "Elevated Platform - Padel Court",
@@ -2923,6 +2924,7 @@
     "TITLE_UK":"Reach our UK Padel Court Professionals",
     "TITLE_USA":"Talk to Our Padel Experts in the United States",
     "TITLE_OCEANIA":"Connect with Our Padel Experts in Oceania",
+    "TITLE_CANOPIES":"Reach our Padel court canopies experts",
     "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p>",
     "FORM": {
       "NAME": {
