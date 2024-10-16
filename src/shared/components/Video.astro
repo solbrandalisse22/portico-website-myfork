@@ -106,7 +106,7 @@ const type = getTipeFromVideo();
 <script>
   
 
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("astro:page-load", function() {
  let lazyVideos = document.querySelectorAll(".video")
 
  if ("IntersectionObserver" in window) {
