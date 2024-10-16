@@ -65,10 +65,10 @@ const type = getTipeFromVideo();
       muted
       playsinline
       id="main-video"
-      preload="metadata"
+      preload="none"
       class="video hidden h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
     >
-      <source src={video} type={type} />
+      <source data-src={video} type={type} />
     </video>
   </div>
   <video
@@ -76,18 +76,18 @@ const type = getTipeFromVideo();
     autoplay
     loop
     muted
-    preload="metadata"
+    preload="none"
   >
-    <source src={video} type={type} />
+    <source data-src={video} type={type} />
   </video>
   <video
     class="video hidden absolute -top-20 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50 w-full"
     autoplay
     loop
     muted
-    preload="metadata"
+    preload="none"
   >
-    <source src={video} type={type} />
+    <source data-src={video} type={type} />
   </video>
   <slot name="bottom" />
 </section>
