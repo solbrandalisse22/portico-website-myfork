@@ -8,12 +8,11 @@ import "photoswipe/style.css";
 import Button from "src/shared/components/Button.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import { type Photo } from "@/types/types.ts";
-import SectionInfiniteScrollAus from "@/shared/components/sections/SectionInfiniteScrollAus.astro"
 
 interface Props {
   language: string
   projectsGallery: Photo[]
-\
+
 }
 
 const { language, projectsGallery} = Astro.props
@@ -37,7 +36,16 @@ const currentLocale = getCurrentLocale({ language })
     heading2={i18n.PAGES.SECTION_AUS.FIRST_SECTION.TITLE}
     subheading= {i18n.PAGES.SECTION_AUS.FIRST_SECTION.SUBTITLE}>
     <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_AUS.FIRST_SECTION.DESCRIPTION}/>
-    <SectionInfiniteScrollAus language={language} />
+    <Section/>
+    <div class="scroller">
+        <ul class="tag-list scroller_inner items-center">
+          <li><img src="/public/indoor-padel-aus/Australia-Indoor-Padel4.webp"></li>
+          <li><img src="/public/indoor-padel-aus/Australia-Indoor-Padel3.webp"></li>
+          <li><img src="/public/indoor-padel-aus/Australia-Indoor-Padel5.webp"></li>
+          <li><img src="/public/indoor-padel-aus/Australia-Indoor-Padel7.webp"></li>
+          <li><img src="/public/indoor-padel-aus/Australia-Indoor-Padel9.webp"></li>
+      </div>
+</Section>
     <div class="text-center mx-auto pt-20">
         <Button size="sm" url={i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.URL} target="_self">
           {i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.LABEL}
@@ -74,3 +82,73 @@ const currentLocale = getCurrentLocale({ language })
         
     </main>
 </Layout>
+<style>
+    .tag-list {
+      list-style: none;
+      margin: 0;
+      padding-inline: 0;
+    }
+    .tag-list li {
+      padding: 1rem 0rem;
+      background: current;
+      position: relative;
+      width: 300px;
+      height: 300px;
+      opacity: 0.8;
+    }
+    
+    .scroller {
+      max-width: calc(100% - 1px);
+    }
+    
+    .scroller_inner {
+      padding-block: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem
+    }
+    
+    .scroller[data-animated="true"] {
+      overflow: hidden;
+      /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
+      -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+      mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    }
+    
+    .scroller[data-animated="true"] .scroller_inner {
+      width: max-content;
+      flex-wrap: nowrap;
+      animation: scroll 40s linear infinite;
+    }
+    
+    @keyframes scroll {
+      to {
+        transform: translate(calc(-50% - .5rem));
+      }
+    }
+    
+    </style>
+    
+    <script type="module">
+      document.addEventListener('astro:page-load', () => {
+        const scroller = document.querySelector(".scroller");
+      
+        function addAnimation() {
+          scroller.setAttribute("data-animated", true)
+          const scrollerInner = scroller.querySelector(".scroller_inner")
+          const scrollerContent = Array.from(scrollerInner.children)
+      
+          scrollerContent.forEach((item) => {
+            const clone = item.cloneNode(true)
+            clone.setAttribute("aria-hidden", true)
+            scrollerInner.appendChild(clone)
+          })
+        }
+      
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          addAnimation()
+        }
+      })
+    </script>
+    
+
