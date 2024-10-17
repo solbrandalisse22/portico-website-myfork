@@ -636,6 +636,46 @@
     "DESCRIPTION_1":"Reach out to our team of indoor Padel court specialists for more information! We’re ready to assist you with any inquiries and help you discover the ideal court for your facility. Whether you're interested in standard or customized indoor courts, we can design and build according to your specifications and requirements. Let’s work together to create the perfect indoor Padel court that meets your needs. We look forward to hearing from you soon!"
   } 
  },
+     "SECTION_AUS":{
+   "ID":"australia",
+    "SEO_TITLE":"Portico Sport Australia",
+    "SEO_DESCRIPTION":"PorticoSport Australia, leading Padel court manufacturers, offering custom design, construction, and installation for durable, high-performance courts.",
+    "TITLE":"Portico Sport Australia",
+    "ROUTE": {
+      "LABEL": "Australia Padel Courts",
+      "URL": "/aus"
+  },
+"FIRST_SECTION":{
+    "TITLE":"Padel courts builders in Australia",
+    "SUBTITLE":"Enjoy one of the fastest-growing racquet sports globally. ",
+    "DESCRIPTION":"<p>Portico Sport Australia, as a leading provider of premium Padel courts, is spearheading the Padel’s rapid growth across the country. Committed to elevating the sport across Australia, Portico Sport is delivering world-class facilities with 100% manufactured courts and canopies from our factory, creating the best local Padel experience. With carefully designed Padel courts and canopies that focus on player comfort and peak performance, creating an unmatched Padel environment. From community clubs to elite venues, Portico Sport is building a strong foundation for the sport’s expansion.</p><p>With expertly designed Padel courts emerging across Australia, Portico Sport is helping make Padel a key feature in sports clubs and facilities nationwide. Our Australian team manages projects in major cities like Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Gold Coast, Hobart, and beyond.</p><p>Portico Sport Australia, part of Portico Sport Oceania, brings together a dedicated team of expert Padel court manufacturers and installers committed to delivering premium quality installations with meticulous attention to detail. Providing tailored Padel court solutions designed to elevate the playing experience across the region, Portico Sport Oceania is at the forefront of shaping the future of this globally beloved sport, alongside the growing Padel community in Australia and beyond. </p>", 
+    "ROUTE":
+    {
+      "LABEL": "Discover more about our premium Padel courts and canopies here",
+      "URL": "/oceania"
+    }
+  },
+  "PROJECTS_SECTION": {
+    "ID":"projects",
+    "URL": {
+        "LABEL": "Discover more projects worldwide",
+        "SRC": "/projects"
+      },
+      "ID_GALLERY": "projects-gallery-autdoor",
+      "TITLE_GALLERY":"Indoor Padel Court Works",
+      "PATH":"australia-court/gallery"
+  },
+   "BUILDING_SECTION":{
+    "TITLE":"Cost of building a Padel court in Australia",
+    "DESCRIPTION":"The cost of building a Padel court in Australia primarily depends on the model and specifications of the Padel court you choose. In Portico Sport Australia, we are committed to delivering the best quality at competitive prices. Factors such as the location and the number of courts you plan to install can also influence the overall cost. To get a precise estimate tailored to your needs, we encourage you to reach out our team for a quote today!"
+   },
+   "CONTACT_SECTION":{
+    "ID":"contact",
+    "TITLE":"Contact Expert Padel Court Builders in Australia",
+    "DESCRIPTION":"Contact our team of expert Padel court builders in Australia for more information about Padel courts! We’re here to assist with any inquiries and help you find the perfect court for your facility. Whether you're looking for standard Padel courts or a fully customized design, we can build according to your requirements. Let’s collaborate to create the perfect Padel court for your needs in Australia. Reach out today and start planning your next project with us!"
+   }
+
+ },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
