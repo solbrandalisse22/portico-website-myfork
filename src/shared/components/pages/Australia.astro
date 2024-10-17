@@ -1,0 +1,76 @@
+---
+import { getI18N, getCurrentLocale, getCategoryByLanguage  } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro"
+import { type Photo } from "@/types/types.ts";
+import SectionInfiniteScrollAus from "@/shared/components/sections/SectionInfiniteScrollAus.astro"
+
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+\
+}
+
+const { language, projectsGallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.SECTION_AUS.SEO_TITLE} description={i18n.PAGES.SECTION_AUS.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
+    
+    <main>
+
+        <Section>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl p-20 text-center tracking-wide text-secondary uppercase mb-6 font-bold">
+              <span class="block">{i18n.PAGES.SECTION_AUS.TITLE}</span>
+            </h1>
+          
+        </Section>
+        
+    <Section 
+    id={i18n.PAGES.SECTION_AUS.ID} 
+    heading2={i18n.PAGES.SECTION_AUS.FIRST_SECTION.TITLE}
+    subheading= {i18n.PAGES.SECTION_AUS.FIRST_SECTION.SUBTITLE}>
+    <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_AUS.FIRST_SECTION.DESCRIPTION}/>
+    <SectionInfiniteScrollAus language={language} />
+    <div class="text-center mx-auto pt-20">
+        <Button size="sm" url={i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.URL} target="_self">
+          {i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.LABEL}
+        </Button>
+      </div>
+    </Section>
+
+    <Section
+        heading2={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.TITLE_GALLERY}>  
+        <Gallery
+
+      id={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.ID_GALLERY}
+      photos={projectsGallery}
+      offset={2}
+      path={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.URL.LABEL}
+    /> 
+    <Section
+    heading2={i18n.PAGES.SECTION_AUS.BUILDING_SECTION.TITLE}>
+    <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_AUS.BUILDING_SECTION.DESCRIPTION}>
+    
+    </Section>
+          <SectionContact
+          id={i18n.PAGES.SECTION_AUS.CONTACT_SECTION.ID}
+          hiddenSubject
+          title={i18n.PAGES.SECTION_AUS.CONTACT_SECTION.TITLE}
+          description={i18n.PAGES.SECTION_AUS.CONTACT_SECTION.DESCRIPTION_1}
+          language={language}
+          bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
+          image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+        />
+          
+        
+    </main>
+</Layout>
