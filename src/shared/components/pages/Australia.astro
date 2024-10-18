@@ -9,6 +9,7 @@ import Button from "src/shared/components/Button.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import { type Photo } from "@/types/types.ts";
 import SectionInfiniteScrollAus from "@/shared/components/sections/SectionInfiniteScrollAus.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 
 interface Props {
   language: string
@@ -31,7 +32,13 @@ const currentLocale = getCurrentLocale({ language })
             </h1>
           
         </Section>
-
+ <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.HOME.OCEANIA_ROUTE.LABEL, href: i18n.PAGES.HOME.OCEANIA_ROUTE.URL },
+          {label: i18n.PAGES.SECTION_AUS.ROUTE.LABEL, href: i18n.PAGES.SECTION_AUS.ROUTE.URL },
+        ]}
+      />
     <Section 
     id={i18n.PAGES.SECTION_AUS.ID} 
     heading2={i18n.PAGES.SECTION_AUS.FIRST_SECTION.TITLE}
