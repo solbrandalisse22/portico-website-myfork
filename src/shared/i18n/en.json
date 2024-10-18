@@ -392,6 +392,16 @@
           }
         }
       },
+      "TITLE_AUS_NZ":"Visit our websites to discover Padel Courts in Oceania",
+      "SUBTITLE_AUS_NZ":"We are expanding our Padel courts across Oceania and beyond, bringing exceptional playing experiences to enthusiasts worldwide.",
+      "URL_AUS": {
+        "LABEL": "Discover Australia",
+        "SRC": "/aus"
+      },
+      "URL_NZ": {
+        "LABEL": "Discover New Zeland",
+        "SRC": "/nz"
+      },
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "ASK Question about Padel Court Builders",
