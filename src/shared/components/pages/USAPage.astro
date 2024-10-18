@@ -19,7 +19,7 @@ import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogos from "@/shared/components/sections/NormativeLogosUSA.astro";
-
+import BreadCrumb from "@/shared/components/BreadCrumb.astro"
 interface Props {
   language: string,
   projectsGallery: Photo[]
@@ -54,6 +54,12 @@ const posts = await response.json();
     </div>
   </Video>
   <main>
+<Breadcrumb
+    crumbs={[
+      { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+      { label: i18n.PAGES.HOME.USA_ROUTE.LABEL, href: i18n.PAGES.HOME.USA_ROUTE.URL },
+    ]}
+  />
     <SectionIntroUSA language={language} />
     <SectionGraphicProcessUSA language={language} />
     <SectionInfiniteScroll language={language} />
