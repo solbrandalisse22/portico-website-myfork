@@ -19,6 +19,7 @@ import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogosUK from "@/shared/components/sections/NormativeLogosUK.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 
 interface Props {
   language: string,
@@ -57,6 +58,12 @@ const posts = await response.json();
     </div>
   </Video>
   <main>
+<Breadcrumb
+    crumbs={[
+      { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+      { label: i18n.PAGES.HOME.UK_ROUTE.LABEL, href: i18n.PAGES.HOME.UK_ROUTE.URL },
+    ]}
+  />
     <SectionIntroUK language={language} />
     <SectionGraphicProcessUK language={language} />
     <SectionInfiniteScroll language={language} />
