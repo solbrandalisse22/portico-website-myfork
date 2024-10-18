@@ -6,6 +6,7 @@ import BentoItem from "@/shared/components/BentoItem.astro";
 import Gallery from "../Gallery.astro"
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 
 import { type Photo } from "@/types/types.ts";
 
@@ -23,19 +24,23 @@ const currentLocale = getCurrentLocale({ language })
 <Layout title={i18n.PAGES.SECTION_OUTDOOR.SEO_TITLE} description={i18n.PAGES.SECTION_OUTDOOR.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
     <main>
 <Section>
-    
-       <h1 class="text-3xl md:text-4xl lg:text-5xl text-center tracking-wide text-secondary uppercase mb-6 font-bold">
+    <h1 class="text-3xl md:text-4xl lg:text-5xl text-center tracking-wide text-secondary uppercase mb-6 font-bold mt-6">
       <span class="block">{i18n.PAGES.SECTION_OUTDOOR.TITLE}</span>
     </h1>
-      <p class="text-center tracking-wide uppercase font-bold"> 
-<span class="text-white text-lg">{i18n.PAGES.SECTION_OUTDOOR.SUBTITLE}</span>
-      </p>
-        <Section 
+    <p class="text-center tracking-wide uppercase font-bold"> <span class="text-white text-lg">{i18n.PAGES.SECTION_OUTDOOR.SUBTITLE}</span></p>
+   </Section>
+   <Breadcrumb
+    crumbs={[
+      { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+      { label: i18n.PAGES.SECTION_OUTDOOR.ROUTE.LABEL, href: i18n.PAGES.SECTION_OUTDOOR.ROUTE.URL },
+    ]}
+  />
+      <Section 
             id={i18n.PAGES.SECTION_OUTDOOR.ID} 
             heading2={i18n.PAGES.SECTION_OUTDOOR.FIRST_SECTION_OUTDOOR.TITLE}
             subheading= {i18n.PAGES.SECTION_OUTDOOR.FIRST_SECTION_OUTDOOR.SUBTITLE}>
             <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_OUTDOOR.FIRST_SECTION_OUTDOOR.DESCRIPTION}>
-    </Section> </Section>
+    </Section>
  <Section
             id={i18n.PAGES.SECTION_OUTDOOR.ID} 
             heading2={i18n.PAGES.SECTION_OUTDOOR.OUTDOOR_BENEFITS.TITLE}>
