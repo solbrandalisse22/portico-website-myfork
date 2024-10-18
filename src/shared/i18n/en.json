@@ -691,6 +691,46 @@
    }
 
  },
+    "SECTION_NZ":{
+"ID":"new zealand",
+    "SEO_TITLE":"Portico Sport New Zealand",
+    "SEO_DESCRIPTION":"PorticoSport New Zealand, leading Padel court manufacturers, offering custom design, construction, and installation for durable, high-performance courts.",
+    "TITLE":"Portico Sport New Zealand",
+    "ROUTE": {
+      "LABEL": "New Zealand",
+      "URL": "/nz"
+  },
+  "FIRST_SECTION":{
+    "TITLE":"Padel courts builders in New Zealand",
+    "SUBTITLE":"Pioneering Padel Court Solutions in New Zealand",
+    "DESCRIPTION":"<p>Portico Sport is leading the way in bringing high-quality Padel courts to New Zealand, driving the sport’s growth across the country. We are proud to have been responsible for installing the country's very first Padel court at Riverside Sports in Auckland, setting the stage for the sport's expansion. As part of Portico Sport Oceania, our team of expert Padel court builders and installers ensures that every project meets the highest standards of performance and durability.</p><p>If you want to install Padel courts or canopies, our 100% manufactured courts and canopies will be tailored to your needs, guaranteeing player comfort and long-lasting quality.</p><p>We provide complete Padel court solutions, from design and construction to the final installation, always focusing on delivering exceptional experiences to every player. With our expertise, Padel is rapidly becoming a key feature in New Zealand’s sports facilities.</p><p>Looking to build Padel courts in Auckland, Wellington, Christchurch, or beyond? Contact us today for a custom quote and discover the future of Padel in New Zealand with Portico Sport.</p>",
+ "ROUTE":
+    {
+      "TITLE":"Discover more about our premium Padel courts and canopies here",
+      "LABEL": "Portico Sport Oceania",
+      "URL": "/oceania"
+    }
+  },
+  "PROJECTS_SECTION": {
+    "ID":"projects",
+    "URL": {
+        "LABEL": "Discover more projects worldwide",
+        "SRC": "/projects"
+      },
+      "ID_GALLERY": "projects-gallery-nz",
+      "TITLE_GALLERY":"Our padel courts in New Zealand",
+      "PATH":"nz-court/gallery"
+  },
+  "BUILDING_SECTION":{
+    "TITLE":"Cost of building a Padel court in New Zealand",
+    "DESCRIPTION":"<p>The cost of constructing a Padel court in New Zealand largely depends on the specific model and custom specifications you select. At Portico Sport New Zealand, we pride ourselves on providing exceptional quality at competitive prices, ensuring you receive the best value for your investment. Additional factors, such as your chosen location and the number of courts you wish to install, will also affect the overall cost.</p><p>Moreover, it's important to consider the logistics of transporting the courts to your site. Our team expertly handles this process, ensuring timely delivery to meet your project deadlines. For a tailored estimate that aligns with your requirements, don’t hesitate to contact us for a quote today!</p>"
+    },
+    "CONTACT_SECTION":{
+    "ID":"contact",
+    "TITLE":"Contact Expert Padel Court Builders in New Zealand",
+    "DESCRIPTION":"<p>Get in touch with our team of expert Padel court builders in New Zealand for comprehensive information about premium Padel courts! We're dedicated to addressing your inquiries and guiding you in selecting the right court for your facility. If you seek Padel courts or canopies, our skilled professionals are ready to deliver solutions that meet your unique needs.</p><p>Contact us and let’s work together to create the perfect Padel court or canopy for your facility in New Zealand!</p>"
+  }
+  },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
