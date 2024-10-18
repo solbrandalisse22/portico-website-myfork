@@ -6,6 +6,7 @@ import BentoItem from "@/shared/components/BentoItem.astro";
 import Gallery from "../Gallery.astro"
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 
 import { type Photo } from "@/types/types.ts";
 
@@ -21,20 +22,24 @@ const currentLocale = getCurrentLocale({ language })
 ---
 <Layout title={i18n.PAGES.SECTION_INDOOR.SEO_TITLE} description={i18n.PAGES.SECTION_INDOOR.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
     <main>
-  <Section>
+ <Section>
     <h1 class="text-3xl md:text-4xl lg:text-5xl p-20 text-center tracking-wide text-secondary uppercase mb-6 font-bold">
       <span class="block">{i18n.PAGES.SECTION_INDOOR.TITLE}</span>
+      <span class="text-white text-lg md:text-xl lg:text-2xl ">{i18n.PAGES.SECTION_INDOOR.SUBTITLE}</span>
     </h1>
- <p class="text-center tracking-wide uppercase font-bold"> 
-<span class="text-white text-lg">{i18n.PAGES.SECTION_INDOOR.SUBTITLE}</span>
-</p>
-   
+   </Section>
+   <Breadcrumb
+    crumbs={[
+      { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+      { label: i18n.PAGES.SECTION_INDOOR.ROUTE.LABEL, href: i18n.PAGES.SECTION_INDOOR.ROUTE.URL },
+    ]}
+  />
+
       <Section 
             id={i18n.PAGES.SECTION_INDOOR.ID} 
             heading2={i18n.PAGES.SECTION_INDOOR.FIRST_SECTION_INDOOR.TITLE}
             subheading= {i18n.PAGES.SECTION_INDOOR.FIRST_SECTION_INDOOR.SUBTITLE}>
             <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_INDOOR.FIRST_SECTION_INDOOR.DESCRIPTION}>
-    </Section>
     </Section>
     <Section
             id={i18n.PAGES.SECTION_INDOOR.ID} 
