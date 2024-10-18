@@ -1,0 +1,80 @@
+
+<div class="scroller">
+    <ul class="tag-list scroller_inner items-center">
+      <li><img src="/public/New Zealand/riverside1.webp"/></li>
+      <li><img src="/public/New Zealand/riverside2.webp"/></li>
+      <li><img src="/public/New Zealand/riverside3.webp"/></li>
+      <li><img src="/public/New Zealand/riverside4.webp"/></li>
+      <li><img src="/public/New Zealand/riverside5.webp"/></li>
+  </div>
+
+
+<style>
+.tag-list {
+  list-style: none;
+  margin: 0;
+  padding-inline: 0;
+}
+.tag-list li img{
+  padding: 1rem 0rem;
+  background: current;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  opacity: 0.8;
+  
+}
+
+.scroller {
+  max-width: calc(100% - 1px);
+}
+
+.scroller_inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller_inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - .5rem));
+  }
+}
+
+</style>
+
+<script type="module">
+  document.addEventListener('astro:page-load', () => {
+    const scroller = document.querySelector(".scroller");
+  
+    function addAnimation() {
+      scroller.setAttribute("data-animated", true)
+      const scrollerInner = scroller.querySelector(".scroller_inner")
+      const scrollerContent = Array.from(scrollerInner.children)
+  
+      scrollerContent.forEach((item) => {
+        const clone = item.cloneNode(true)
+        clone.setAttribute("aria-hidden", true)
+        scrollerInner.appendChild(clone)
+      })
+    }
+  
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation()
+    }
+  })
+</script>
