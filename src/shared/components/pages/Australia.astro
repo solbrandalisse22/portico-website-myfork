@@ -36,17 +36,18 @@ const currentLocale = getCurrentLocale({ language })
     id={i18n.PAGES.SECTION_AUS.ID} 
     heading2={i18n.PAGES.SECTION_AUS.FIRST_SECTION.TITLE}
     subheading= {i18n.PAGES.SECTION_AUS.FIRST_SECTION.SUBTITLE}>
-    <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_AUS.FIRST_SECTION.DESCRIPTION}/>
-    <Section/>
-  <SectionInfiniteScrollAus />
+    <Typography tag="div" className="mb-6" text={i18n.PAGES.SECTION_AUS.FIRST_SECTION.DESCRIPTION}/>
+   
+  
     <div class="text-center mx-auto pt-20">
+        <Typography tag="p" type="primary" text={i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.TITLE}/>
         <Button size="sm" url={i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.URL} target="_self">
           {i18n.PAGES.SECTION_AUS.FIRST_SECTION.ROUTE.LABEL}
         </Button>
       </div>
+      
 </Section>
-    
-    </Section>
+<SectionInfiniteScrollAus />
 
     <Section
         heading2={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.TITLE_GALLERY}>  
