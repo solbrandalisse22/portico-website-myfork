@@ -1,0 +1,90 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro"
+import { type Photo } from "@/types/types.ts";
+import SectionInfiniteScrollNz from "@/shared/components/sections/SectionInfiniteScrollNz.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language, projectsGallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.SECTION_NZ.SEO_TITLE} description={i18n.PAGES.SECTION_NZ.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
+    
+    <main>
+     
+        <Section>
+            <h1 class="text-5xl md:text-5xl lg:text-5xl p-20 text-center tracking-wide text-secondary uppercase mb-6 font-bold">
+              <span class="block">{i18n.PAGES.SECTION_NZ.TITLE}</span>
+            </h1>
+           
+        </Section>
+        <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.HOME.OCEANIA_ROUTE.LABEL, href: i18n.PAGES.HOME.OCEANIA_ROUTE.URL },
+          {label: i18n.PAGES.SECTION_NZ.ROUTE.LABEL, href: i18n.PAGES.SECTION_NZ.ROUTE.URL },
+        ]}
+      />
+    <Section 
+    
+    id={i18n.PAGES.SECTION_NZ.ID} 
+    heading2={i18n.PAGES.SECTION_NZ.FIRST_SECTION.TITLE}
+    subheading= {i18n.PAGES.SECTION_NZ.FIRST_SECTION.SUBTITLE}>
+ 
+    <Typography tag="div" className="mb-6" text={i18n.PAGES.SECTION_NZ.FIRST_SECTION.DESCRIPTION}/>
+   
+  
+    <div class="text-center mx-auto pt-20">
+        <Typography tag="p" type="primary" text={i18n.PAGES.SECTION_NZ.FIRST_SECTION.ROUTE.TITLE}/>
+        <Button size="sm" url={i18n.PAGES.SECTION_NZ.FIRST_SECTION.ROUTE.URL} target="_self">
+          {i18n.PAGES.SECTION_NZ.FIRST_SECTION.ROUTE.LABEL}
+        </Button>
+      </div>
+      
+</Section>
+<SectionInfiniteScrollNz />
+    
+
+    <Section
+        heading2={i18n.PAGES.SECTION_NZ.PROJECTS_SECTION.TITLE_GALLERY}>  
+        <Gallery
+
+      id={i18n.PAGES.SECTION_NZ.PROJECTS_SECTION.ID_GALLERY}
+      photos={projectsGallery}
+      offset={2}
+      path={i18n.PAGES.SECTION_NZ.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.SECTION_NZ.PROJECTS_SECTION.URL.LABEL}
+    /> 
+    <Section
+    heading2={i18n.PAGES.SECTION_NZ.BUILDING_SECTION.TITLE}>
+    <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_NZ.BUILDING_SECTION.DESCRIPTION}>
+    
+    </Section>
+          <SectionContact
+          id={i18n.PAGES.SECTION_NZ.CONTACT_SECTION.ID}
+          hiddenSubject
+          title={i18n.PAGES.SECTION_NZ.CONTACT_SECTION.TITLE}
+          description={i18n.PAGES.SECTION_NZ.CONTACT_SECTION.DESCRIPTION_1}
+          language={language}
+          bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
+          image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+        />
+          
+        
+    </main>
+</Layout>
