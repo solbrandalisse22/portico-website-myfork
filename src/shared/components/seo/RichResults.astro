@@ -309,15 +309,206 @@ UKBC: {
     }
   ]
 }, 
+PISTAS: {
+MOBILE:
+  {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Mobile Padel Court Builders",
+      "item": "https://www.porticosport.com/mobile"
+    }
+  ]
+
+
+},
+PANORAMIC: 
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Panoramic Padel Court Builders",
+      "item": "https://www.porticosport.com/panoramic"
+    }
+  ]
+},
+TOURNAMENT:
+  {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tournament Padel Court Builders",
+      "item": "https://www.porticosport.com/tournament"
+    }
+  ]
+
+},
+PANORAMIC_FORCE_80:{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Panoramic Force 80 Padel Court Builders",
+      "item": "https://www.porticosport.com/panoramic-force-80"
+    }
+  ]
+},
+FORCE_80:{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Club Force 80 Padel Court Builders",
+      "item": "https://www.porticosport.com/club-force-80"
+    }
+  ]
+},
+CLUB:{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Club Padel Court Builders",
+      "item": "https://www.porticosport.com/club"
+    }
+  ]
+},
+MINI: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Mini Padel Court Builders",
+      "item": "https://www.porticosport.com/mini"
+    }
+  ]
+},
+SINGLE: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Single Padel Court Builders",
+      "item": "https://www.porticosport.com/single"
+    }
+  ]
+}
+
+},
   DEFAULT: organizationSchema
 }
 
 let schema = pathname === "/uk" ? [TYPES.UK, TYPES.UKBC]: 
 pathname === "/padel-court-usa" ? [TYPES.USA, TYPES.USABC]: 
 language === "es" ? TYPES.ES :
-pathname === "/oceania" ? [TYPES.OCEANIA, TYPES.DEFAULT]: 
-pathname === "/indoor-padel-court" ? [TYPES.INDOOR, TYPES.DEFAULT] :
-pathname === "/outdoor-padel-court" ? [TYPES.OUTDOOR, TYPES.DEFAULT] :
+pathname === "/oceania" ? [TYPES.DEFAULT, TYPES.OCEANIA]: 
+pathname === "/indoor-padel-court" ? [TYPES.DEFAULT, TYPES.INDOOR] :
+pathname === "/outdoor-padel-court" ? [TYPES.DEFAULT, TYPES.OUTDOOR] :
+pathname === "/mobile" ? [TYPES.PISTAS.MOBILE, TYPES.DEFAULT] :
+pathname === "/tournament" ? [TYPES.PISTAS.TOURNAMENT, TYPES.DEFAULT]:
+pathname === "/mini" ? [TYPES.PISTAS.MINI, TYPES.DEFAULT]:
+pathname === "/single" ? [TYPES.PISTAS.SINGLE, TYPES.DEFAULT]:
+pathname === "/panoramic" ? [TYPES.PISTAS.PANORAMIC, TYPES.DEFAULT]:
+pathname === "/club" ? [TYPES.PISTAS.CLUB, TYPES.DEFAULT]:
+pathname === "/club-force-80" ? [TYPES.PISTAS.FORCE_80, TYPES.DEFAULT]:
+pathname === "/panoramic-force-80" ? [TYPES.PISTAS.PANORAMIC_FORCE_80, TYPES.DEFAULT]:
+pathname === "/mini" ? [TYPES.PISTAS.MINI, TYPES.DEFAULT] :
+pathname === "/single" ? [TYPES.PISTAS.SINGLE, TYPES.DEFAULT] :
+pathname === "/panoramic" ? [TYPES.PISTAS.PANORAMIC, TYPES.DEFAULT] :
+pathname === "/club" ? [TYPES.PISTAS.CLUB, TYPES.DEFAULT] :
+pathname === "/club-force-80" ? [TYPES.PISTAS.FORCE_80, TYPES.DEFAULT] :
+pathname === "/panoramic-force-80" ? [TYPES.PISTAS.PANORAMIC_FORCE_80, TYPES.DEFAULT] :
 TYPES.DEFAULT;
 
 if (TYPE) {
