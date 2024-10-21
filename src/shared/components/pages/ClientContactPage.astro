@@ -9,6 +9,8 @@ import Typography from "@/shared/components/ui/Typography.astro";
 import { CountUp } from "@/shared/components/CountUp";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import ContactForm from "@/shared/components/forms/ContactForm.astro";
+import ContactFormUSA from "@/shared/components/forms/ContactFormUSA.astro";
+
 
 interface Props {
   language: string;
@@ -87,6 +89,7 @@ const images = i18n.PAGES.FACTORY.FEATURE_SECTION.IMAGES;
                 </div>
               </div>
             </div>
+            <ContactFormUSA language{language}/> 
           </div>
           <div class="flex-1">
             <Typography tag="h2" text={i18n.PAGES.CLIENT_CONTACT.CONTACT_SECTION.TITLE} className="mb-8" responsive type="secondary" />
