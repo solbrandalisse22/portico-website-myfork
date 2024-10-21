@@ -2773,6 +2773,32 @@
         "SEND_TEXT": "I WANT CONTACT WITH PORTICO SPORT",
         "BG_IMAGE": "client-contact/client-contact-bg.webp",
         "IMAGE": "client-contact/client-contact.webp"
+      },
+       "CONTACT_UK":{
+        "SUBHEADING": "UK",
+        "DEPARTMENTS": {
+          "COMPANY": {
+            "EMAIL_1": "sales@porticosport.uk",
+            "EMAIL_2":"info@porticosport.uk",
+            "PHONE_1": "+ (44) 0161 9899842",
+            "PHONE_2": "+ (44) 0161 9899843",
+            "PHONE_3": "+ (44) 7889 649707",
+            "ADDRESS": "Unit 2, Norse Trade Park, Viking Way, Congleton CW121LB"
+          }
+        }
+
+      },
+      "CONTACT_USA":{
+        "SUBHEADING": "USA",
+        "DEPARTMENTS": {
+          "COMPANY": {
+            "EMAIL": "info@porticosport.us",
+            "PHONE_1": "+ (1) 917 509 2655",
+            "PHONE_2": "+ (1) 617 913 0311",
+            "ADDRESS": "5185 Macarthur Boulevard NW, Suite 586, Washington, DC 20016"
+          }
+        }
+
       }
     },
     "COOKIES": {
