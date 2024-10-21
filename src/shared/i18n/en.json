@@ -963,7 +963,6 @@
     "TOURNAMENT_COURT": {
       "ID": "tournament",
       "SEO_TITLE": "Tournament Court - Padel Court with Unobstructed Views",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Tournament Court: No corners, clear panoramic views, the ultimate padel experience for players and spectators.",
       "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
       "TITLE": "<span>Tournament Padel Court</span>",
@@ -1144,7 +1143,6 @@
     "PANORAMIC_COURT": {
       "ID": "panoramic-court",
       "SEO_TITLE": "Panoramic Court - Padel Court with Stunning Views",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Elevate your padel experience with our panoramic court featuring high-strength glass walls offering unparalleled views.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "Panoramic Padel Court",
@@ -1341,7 +1339,6 @@
     "CLUB_COURT": {
       "ID": "club-court",
       "SEO_TITLE": "Club Court - Durable Padel Court",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Club Padel Court, an ideal option for superior quality and exceptional durability. Perfect for high-level padel practice with 3-meter pillars.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Club Padel Court</span>",
@@ -1524,7 +1521,6 @@
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
       "SEO_TITLE": "Force 80 Court - Resilient Padel Court",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Force 80 Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Club Force 80 Padel court</span>",
@@ -1711,7 +1707,6 @@
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Panoramic Force 80 Court - Resilient Padel Court",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Panoramic Force 80 Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Panoramic Force 80 Padel court</span>",
@@ -1898,7 +1893,6 @@
     "SINGLE_COURT": {
       "ID": "single-court",
       "SEO_TITLE": "Single Padel Court - Tailored for Solo Players",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Discover the Single Padel Court, perfect for 1vs1 matches or individual training sessions. Same premium quality and durability in a smaller size. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Single Padel court</span>",
@@ -2099,7 +2093,6 @@
     "MINI_COURT": {
       "ID": "mini-court",
       "SEO_TITLE": "Mini Court - Compact Padel Fun",
-      "TYPE": "PRODUCT",
       "SEO_DESCRIPTION":"Introduce children to padel with our Mini Padel Court, perfect for smaller spaces. Same premium quality in a compact size. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Mini Padel court</span>",
