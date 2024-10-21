@@ -313,11 +313,11 @@ UKBC: {
 }
 
 let schema = pathname === "/uk" ? [TYPES.UK, TYPES.UKBC]: 
-pathname === "/padel-court-usa" ? (TYPES.USA && TYPES.USABC): 
+pathname === "/padel-court-usa" ? (TYPES.USA, TYPES.USABC]: 
 language === "es" ? TYPES.ES :
-pathname === "/oceania" ? (TYPES.OCEANIA && TYPES.DEFAULT) : 
-pathname === "/indoor-padel-court" ? (TYPES.INDOOR && TYPES.DEFAULT) :
-pathname === "/outdoor-padel-court" ? (TYPES.OUTDOOR && TYPES.DEFAULT) :
+pathname === "/oceania" ? [TYPES.OCEANIA, TYPES.DEFAULT]: 
+pathname === "/indoor-padel-court" ? [TYPES.INDOOR, TYPES.DEFAULT] :
+pathname === "/outdoor-padel-court" ? [TYPES.OUTDOOR, TYPES.DEFAULT] :
 TYPES.DEFAULT;
 
 if (TYPE) {
