@@ -124,27 +124,12 @@ const TYPES = {
   }
   },
   USA:{
-  "@context": "https://schema.org",
+    "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Portico Sport USA",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "909 Davis St, Suite 500",
-    "addressLocality": "Evanston",
-    "addressRegion": "IL",
-    "postalCode": "60201",
-    "addressCountry": "USA"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 42.0462,
-    "longitude": -87.6861
-  },
-  "telephone": "+1 312-555-1234",
-  "url": "https://www.porticosport.com/us",
+  "name": "Padel Court Builders USA",
+  "url": "https://www.porticosport.com/padel-court-usa",
   "email": "info@porticosport.com",
-  "description": "Portico Sport USA is a leading provider of Padel court construction and canopy installation services across the United States. We offer customized solutions tailored to meet the needs of the American market, ensuring top-quality materials and superior craftsmanship. Contact us for expert installations and reliable service.",
-  "image": "https://www.porticosport.com/porticoSportUSA_home.webp",
+  "description": "Padel Court Builders USA specializes in the construction of high-quality Padel courts, offering top-notch services across the United States. With tailored solutions for the American market, we ensure durability, precision, and excellence in every project.",
   "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
   "priceRange": "$$",
   "openingHours": [
@@ -160,27 +145,27 @@ const TYPES = {
     "@type": "Review",
     "author": {
       "@type": "Person",
-      "name": "David Smith"
+      "name": "Michael Johnson"
     },
-    "datePublished": "2023-08-14",
-    "reviewBody": "Portico Sport USA provided exceptional service and high-quality Padel courts for our sports club. Their expertise and professionalism were outstanding.",
+    "datePublished": "2024-09-15",
+    "reviewBody": "Padel Court Builders USA delivered outstanding service. The team was highly professional, and the court they built exceeded our expectations. I highly recommend them for their quality and expertise.",
     "reviewRating": {
       "@type": "Rating",
       "ratingValue": "5",
       "bestRating": "5"
     }
   }
-},
-ES:{
+  },
+  ES:{
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Portico Sport España",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Pol. Ind. los Varales, Albañiles",
-    "addressLocality": "Villafranca de los Barrios",
+    "streetAddress": "Pol. Ind. los Varales, Albaniles, 06220 Villafranca de los Barros, Badajoz, España",
+    "addressLocality": "Badajoz",
     "addressRegion": "Badajoz",
-    "postalCode": "06220",
+    "postalCode": "06",
     "addressCountry": "ES"
   },
   "geo": {
@@ -189,7 +174,7 @@ ES:{
     "longitude": -6.167
   },
   "telephone": "+34 924 302 423",
-  "url": "https://www.porticosport.es",
+  "url": "https://www.porticosport.com/es",
   "email": "info@porticosport.com",
   "description": "Portico Sport España es un proveedor líder en la construcción de pistas de Padel y la instalación de cubiertas en toda España. Ofrecemos soluciones personalizadas para el mercado español, con materiales de primera calidad y mano de obra superior. Contáctanos para instalaciones expertas y un servicio confiable.",
   "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
@@ -217,11 +202,123 @@ ES:{
       "bestRating": "5"
     }
   }
+
   },
+  OUTDOOR: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Outdoor Padel Court Builders",
+      "item": "https://www.porticosport.com/outdoor-padel-court"
+    }
+  ]
+},
+INDOOR: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Indoor Padel Court Builders",
+      "item": "https://www.porticosport.com/indoor-padel-court"
+    }
+  ]
+},
+OCEANIA: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en-AU"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Padel Court Builders Oceania",
+      "item": "https://www.porticosport.com/oceania"
+    }
+  ]
+},
+USABC: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en-US"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Padel Court Builders USA",
+      "item": "https://www.porticosport.com/padel-court-usa"
+    }
+  ]
+},
+UKBC: {
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en-GB"
+  },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Padel Court Builders",
+      "item": "https://www.porticosport.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Padel Court Builders UK",
+      "item": "https://www.porticosport.com/uk"
+    }
+  ]
+}, 
   DEFAULT: organizationSchema
 }
 
-let schema = pathname === "/uk" ? TYPES.UK : pathname === "/padel-court-usa" ? TYPES.USA : language === "es" ? TYPES.ES : TYPES.DEFAULT;
+let schema = pathname === "/uk" ? (TYPES.UK && TYPES.UKBC): 
+pathname === "/padel-court-usa" ? (TYPES.USA && TYPES.USABC): 
+language === "es" ? TYPES.ES :
+pathname === "/oceania" ? (TYPES.OCEANIA && TYPES.DEFAULT) : 
+pathname === "/indoor-padel-court" ? (TYPES.INDOOR && TYPES.DEFAULT) :
+pathname === "/outdoor-padel-court" ? (TYPES.OUTDOOR && TYPES.DEFAULT) :
+TYPES.DEFAULT;
 
 if (TYPE) {
   schema = TYPES[TYPE] || schema;
