@@ -254,6 +254,7 @@
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Building Padel Courts with Precision in the USA",
+        "SUBTITLE_GALLERY":"<p class=\"text-primary\">Our team in the USA is committed to enhancing the local sporting landscape with premium Padel courts. We proudly manage projects in major cities across the country, including New York, Los Angeles, San Diego, San Francisco, Dallas, Boston, Chicago, San Antonio, Newcastle, and Houston. Check out our completed projects!</p>",
         "PATH": "projectsusa/gallery"
       },
       "PROJECTS_SECTION_OCEANIA": {
