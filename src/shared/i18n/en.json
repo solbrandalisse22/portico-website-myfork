@@ -393,13 +393,13 @@
         }
       },
       "TITLE_AUS_NZ":"Visit our websites to discover Padel Courts in Oceania",
-      "SUBTITLE_AUS_NZ":"We are expanding our Padel courts across Oceania and beyond, bringing exceptional playing experiences to enthusiasts worldwide.",
+      "SUBTITLE_AUS_NZ":"We deliver premium, 100% manufactured Padel courts and canopies across Oceania, shaping the future of the sport. Visit our Australia and New Zealand websites to learn more about our courts in these regions.",
       "URL_AUS": {
         "LABEL": "Discover Australia",
         "SRC": "/aus"
       },
       "URL_NZ": {
-        "LABEL": "Discover New Zeland",
+        "LABEL": "Discover New Zealand",
         "SRC": "/nz"
       },
       "FAQS_SECTION": {
