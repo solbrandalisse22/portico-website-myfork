@@ -7,7 +7,7 @@ import Gallery from "../Gallery.astro"
 import Layout from "@/shared/layouts/Layout.astro";
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
-
+import SectionBentoIn from "@/shared/components/sections/SectionBentoIn.astro";
 import { type Photo } from "@/types/types.ts";
 
 interface Props {
@@ -48,102 +48,7 @@ bgImage="/indoor-court/gallery/Indoor-Padel-Court-15.webp"
             subheading= {i18n.PAGES.SECTION_INDOOR.FIRST_SECTION_INDOOR.SUBTITLE}>
             <Typography tag="div" className="mb-16" text={i18n.PAGES.SECTION_INDOOR.FIRST_SECTION_INDOOR.DESCRIPTION}>
     </Section>
-    <Section
-            id={i18n.PAGES.SECTION_INDOOR.ID} 
-            heading2={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.TITLE}>
-             <div class="grid lg:grid-cols-10 auto-rows-[25rem] gap-4">
-                <BentoItem
-                  class="col-span-10 lg:col-span-4"
-                  title={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.SUBTITLE_1}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-950
-                    bg-cover bg-center opacity-90 bg-blend-luminosity"
-                  >
-                  </div>
-            
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_1}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-6"
-                  title={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.SUBTITLE_3}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                -z-10 h-full w-full bg-blue-800
-                bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                  
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_3}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-3"
-                  title={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.SUBTITLE_2}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-900
-                    bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                    
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_2}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-4"
-                  title={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.SUBTITLE_4}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-950
-                    bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                    
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_4}
-                  />
-                </BentoItem>
-                <BentoItem
-                  class="col-span-10 lg:col-span-3"
-                  title={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.SUBTITLE_5}
-                >
-                  <div
-                    slot="image"
-                    class="background transition-scale absolute bottom-0 left-0 top-0
-                    -z-10 h-full w-full bg-blue-700
-                    bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity"
-                   
-                  >
-                  </div>
-                  <p
-                    slot="content"
-                    class="max-w-xl text-base md:text-lg"
-                    set:html={i18n.PAGES.SECTION_INDOOR.INDOOR_BENEFITS.DESCRIPTION_5}
-                  />
-                </BentoItem>
-              </div>
-        </Section>    
+    <SectionBentoIn language={language}/>   
           <Section
         id={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.ID_GALLERY}
         heading2={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.TITLE_GALLERY}>  
