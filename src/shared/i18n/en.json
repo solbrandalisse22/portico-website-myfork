@@ -606,7 +606,7 @@
     "ID":"indoor",
     "SEO_TITLE":"Indoor Padel Courts Builders | Portico Sport",
     "SEO_DESCRIPTION":"We build world-class indoor padel courts with premium materials ✔️ for durability and performance. Custom designs, expert installation. Start your project today!",
-    "TITLE":"Indoor Padel Courts",
+    "TITLE": "<span class=\"block text-secondary\">Indoor padel courts</span> <span class=\"text-xl\">experience padel in the indoors with portico sport</span>",
     "SUBTITLE":"Experience Padel in the indoors with Portico Sport",
     "ROUTE": {
       "LABEL": "Indoor Padel Courts",
