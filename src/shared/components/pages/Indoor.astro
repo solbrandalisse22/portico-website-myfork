@@ -20,14 +20,21 @@ const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
 
 ---
-<Layout title={i18n.PAGES.SECTION_INDOOR.SEO_TITLE} description={i18n.PAGES.SECTION_INDOOR.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
+<Layout title={i18n.PAGES.SECTION_INDOOR.SEO_TITLE} 
+description={i18n.PAGES.SECTION_INDOOR.SEO_DESCRIPTION} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/experience.webp"
+  bgClass="brightness-50">
     <main>
- <Section>
-    <h1 class="text-3xl md:text-4xl lg:text-5xl p-20 text-center tracking-wide text-secondary uppercase mb-6 font-bold">
-      <span class="block">{i18n.PAGES.SECTION_INDOOR.TITLE}</span>
-      <span class="text-white text-lg md:text-xl lg:text-2xl ">{i18n.PAGES.SECTION_INDOOR.SUBTITLE}</span>
-    </h1>
-   </Section>
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+    <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.SECTION_INDOOR.TITLE} responsive />
+
+
+    </div>
+ <div class="bg-main relative bg-background">
    <Breadcrumb
     crumbs={[
       { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
@@ -164,5 +171,6 @@ heading2={i18n.PAGES.SECTION_INDOOR.INDOOR_PERSONALIZATION.TITLE}>
     bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
     image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
   />
+</div>
     </main>
 </Layout>
