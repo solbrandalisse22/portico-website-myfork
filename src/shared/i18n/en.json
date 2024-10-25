@@ -9,10 +9,13 @@
       "SEO_DESCRIPTION_USA": "Portico Sport, leading Padel court manufacturer in the USA, providing custom design, construction, and installation for durable, high-performance courts",
       "SEO_TITLE_OCEANIA":"Padel Court Construction Oceania | Portico Sport",
       "SEO_DESCRIPTION_OCEANIA":"Portico Sport specializes in custom-designed padel courts in Oceania. Providing durable construction and professional installation for optimal performance.",
+      "SEO_TITLE_ZA":"Padel Court Construction South Africa | Portico Sport",
+      "SEO_DESCRIPTION_ZA":"ortico Sport specializes in custom-designed padel courts in South Africa. Providing durable construction and professional installation for optimal performance.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
       "SUBTITLE_UK": "Construction and Installation of Padel Courts and Canopies in UK",
       "SUBTITLE_USA": "Construction and Installation of Padel Courts and Canopies in USA",
+      "SUBTITLE_ZA":"Construction and Installation of Padel Courts and Canopies in South Africa",
       "SUBTITLE_OCEANIA":"Contruction and Installation of Padel Courts and Canopies in Oceania",
       "TITLE": "Padel Court Builders",
       "TITLE_UK": "Padel Court Builders UK",
@@ -49,6 +52,11 @@
          "ID":"intro",
          "TITLE":"Padel Court Manufacturers and installers in Oceania",
          "DESCRIPTION":"<p><strong>Welcome to Portico Sport Oceania - Shaping the Future of Padel in Australia &amp; New Zealand</strong></p><p>As the leading of premium Padel courts, we’re committed to elevating the sport across the region. We’re delivering world-class facilities and creating the best local Padel experience. Together, we’re building the foundations for padel’s growth, from community clubs to top-tier venues.</p><p>Join us and be part of the movement transforming Padel in Oceania!</p>"
+      },
+      "INTRO_SECTION_ZA":{
+        "ID":"intro",
+        "TITLE":"Padel court manufacturers and installers in South Africa",
+        "DESCRIPTION":"<p>Padel is experiencing significant growth in South Africa, quickly becoming one of the country's fastest-developing sports. This boom has been partly driven by contributions from Padel court manufacturers like Portico Sport, a global leader in the sector, playing a crucial role in the sport's expansion. Portico Sport has already completed notable projects such as Virgin Active Padel Club The Glen and Atlantic Padel Table View in Cape Town. </p><p>The most sought-after courts in South Africa include the Club, Panoramic, and, notably, the patented Club Force 80 and Panoramic Force 80 by Portico Sport, unique in the market. The Force 80 Padel courts feature a superior brace design and a special anchoring system, capable of withstanding hurricane-force winds, making them ideal for areas with extreme weather conditions. Their innovative construction has positioned these Padel courts as the most durable on the market, reinforcing Padel's growth in South Africa and securing its expansion across the country.</p><p>We hope that Padel will continue its expansion in other cities such as Johannesburg, Pretoria, Durban, Port Elizabeth, Bloemfontein, Nelspruit or Kimberley.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
@@ -101,6 +109,12 @@
         "SUBTITLE":"Benefits of the construction of Padel courts with us",
         "DESCRIPTION":"<p>Portico Sport, based in Spain, is a global leader in Padel courts and canopies, with over 15 years of experience. We&#39;ve installed more than 3,500 courts in 35+ countries, including the first Padel court in New Zealand, expanding our reach across Europe, Oceania, and beyond.</p><p>With a focus on bespoke solutions, we offer customised designs, tailored financing, and premium quality courts, all with 100% in-house design and manufacturing. In 2023, we launched a new 110,000-square-foot manufacturing site, the largest in the industry. Our commitment to quality and long-term support ensures success for our clients worldwide.</p>"
       },
+       "GRAPHIC_PROCESS_SECTION_ZA":{
+         "TITLE":"Padel court builders in South Africa",
+         "SUBTITLE":"Benefits of our Padel court construction",
+         "DESCRIPTION":"As experienced Padel court builders in South Africa, our team is dedicated to building strong, lasting relationships with clients by providing tailored solutions from start to finish."
+
+      },
       "COURTS_SECTION": {
         "ID": "padel-courts",
         "TITLE": "Types of Portico Sport Padel Courts",
@@ -135,6 +149,13 @@
         "TEXT": "<p>Portico Sport is the only padel court manufacturer that also designs canopies specifically for racket sports, offering a comprehensive approach to meet our clients’ project needs.</p><p>As an experienced engineering firm, we&#39;ve developed canopies tailored for sports, especially Padel, incorporating unique features that set them apart from other solutions. Whether you&#39;re planning Padel court construction in Oceania, Portico Sport leads the way in designing and installing high-quality sports canopies.</p>",
         "BUTTON_TEXT": "More about canopies"
 
+      },
+      "CANOPIES_SECTION_ZA":{
+        "ID":"canopies",
+        "TITLE": "Canopies for Padel Courts in South Africa",
+        "SUBTITLE": "Perfect integration",
+        "TEXT": "<p>Portico Sport is the only padel court manufacturer that also designs high-performance canopies specifically for racket sports, enabling us to provide a complete solution tailored to our clients' project requirements. </p><p>With extensive experience as an engineering firm, we’ve designed canopies suited for sports like Padel or Tennis, incorporating innovative features that distinguish them from other options. If you’re planning to build Padel courts in South Africa, Portico Sport sets the standard in the design and installation of premium sports canopies.</p>",
+        "BUTTON_TEXT": "More about canopies"
       },
       "BENTO_SECTION": {
         "ID": "why-us",
@@ -220,6 +241,27 @@
           "DESCRIPTION":"At Portico Sport, we pride ourselves on being Padel court builders, providing a comprehensive construction process backed by a team of specialists in sports engineering and architecture. Our experts are here to guide you through every phase of the project, acknowledging the unique characteristics of each undertaking. We also have a dedicated team in Oceania to ensure smooth service and support for our clients in this vibrant region."
         }
     },
+      "BENTO_SECTION_ZA":{
+        "ID": "why-us",
+        "TITLE": "Why choose Portico Sport? Expert Padel Court Construction in South Africa",
+        "POINT_1": {
+          "TITLE": "EXPERIENCE",
+          "DESCRIPTION": "With over 15 years in large-scale project management across five continents, Portico Sport has established a global network, enabling us to deliver high-quality service worldwide, now reaching South Africa."
+        },
+        "POINT_2": {
+          "TITLE": "INNOVATION",
+          "DESCRIPTION": "We’re at the forefront of innovation in South Africa. Our Padel courts and canopies reflect cutting-edge design, top-quality materials, rapid delivery, and comprehensive warranties. Built to withstand local conditions, our courts meet the highest standards in resilience and durability, aligning with the needs of the South African market."
+      },
+        "POINT_3":{
+        "TITLE":"PREMIUM QUALITY",
+        "SUBTITLE":"Courts designed to comply with regulatory standards",
+        "DESCRIPTION":"Our Padel courts adhere to official sports specifications, including NIDE 2004 Padel and FIP (International Padel Federation) standards, as well as local compliance requirements. Each court meets rigorous standards for durability, with structural calculations. We offer a 10-year structural guarantee, ensuring longevity and safety for the growing Padel community."
+        },
+        "POINT_4":{
+          "TITLE":"DEDICATED TEAM IN SOUTH AFRICA",
+          "DESCRIPTION":"Portico Sport is committed to delivering a seamless construction process through a specialized team of sports engineering and architecture professionals. Each project benefits from our local expertise, with a South African team on hand to provide personalized support and efficient service."
+        }
+    },
       "PROJECTS_SECTION": {
         "ID": "projects",
         "TITLE": "Padel Court and Canopies Projects",
@@ -268,6 +310,18 @@
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Building Padel Courts with Precision in Oceania",
         "PATH": "oceania/gallery"
+      },
+      "PROJECTS_SECTION_ZA": {
+        "ID": "projects",
+        "TITLE": "Padel Court and Canopies Projects",
+        "URL": {
+          "LABEL": "Discover other projects Worldwide",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "project-gallery",
+        "TITLE_GALLERY": "Building Padel Courts with Precision in South Africa",
+        "SUBTITLE_GALLERY":"Our South Africa team is dedicated to transforming the sports landscape with high-quality Padel courts. We’re equipped to take on large projects and travel to cities like Johannesburg, Cape Town, Pretoria, Durban, Port Elizabeth, Bloemfontein, Nelspruit, and Kimberley. Check out some of our completed projects!",
+        "PATH": "projectsza/gallery"
       },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
@@ -393,6 +447,37 @@
           }
         }
       },
+      "COMPLEMENTS_SECTION_ZA": {
+        "ID": "complements",
+        "TITLE": "Premier Padel Court Construction in South Africa: Efficient & Reliable",
+        "SUBTITLE": "A Leader in Padel Court Development across South Africa",
+        "ITEMS": {
+          "ITEM_1": {
+            "TITLE": "Foundation and platforms",
+            "DESCRIPTION": "We provide expert services for structural foundation construction and repair, ensuring stability for all our installations. Our South African specialists ensure compliance with local regulations, offering customized foundation solutions."
+          },
+          "ITEM_2": {
+            "TITLE": "Padel Court Structures",
+            "DESCRIPTION": "Our metal frameworks are manufactured from galvanized steel, coated with thermoplastic polyester for extra protection. Indoor courts receive a single coat, while outdoor courts have dual layers for added durability, meeting industry standards."
+          },
+          "ITEM_3": {
+            "TITLE": "Glass Panels",
+            "DESCRIPTION": "Our Padel courts feature tempered safety glass, available in 10 or 12 mm thickness as required. These panels adhere to South African regulations, ensuring high standards for both safety and quality."
+          },
+          "ITEM_4": {
+            "TITLE": "Artifitial turf",
+            "DESCRIPTION": "We source premium artificial turf in collaboration with top turf manufacturers. Our high-grade turf, available in straight or curly fibers and various colors, enhances both gameplay and durability."
+          },
+          "ITEM_5": {
+            "TITLE": "Lighting",
+            "DESCRIPTION": "We utilize advanced LED lighting systems from trusted brands, offering excellent illumination for both indoor and outdoor Padel courts."
+          },
+          "ITEM_6": {
+            "TITLE": "Customized Padel Court Design",
+            "DESCRIPTION": "Elevate your Padel court’s appeal with lacquered paint, built-in seating, engraved corner details with club logos, and screen-printed nets for a branded, unique playing environment."
+          }
+        }
+      },
       "TITLE_AUS_NZ":"Visit our websites to discover Padel Courts in Oceania",
       "SUBTITLE_AUS_NZ":"We deliver premium, 100% manufactured Padel courts and canopies across Oceania, shaping the future of the sport. Visit our Australia and New Zealand websites to learn more about our courts in these regions.",
       "URL_AUS": {
@@ -408,7 +493,8 @@
         "TITLE": "ASK Question about Padel Court Builders",
         "TITLE_USA": "ASK Question about Padel court manufacturers in USA",
         "TITLE_UK":"ASK Question about build a padel court in UK",
-         "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
+        "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
+        "TITLE_ZA":"ASK Question about Padel court manufacturers in South Africa".
         "SUBTITLE": "Frequently Asked Questions",
         "QUESTIONS": [{
           "question": "What is the standard size of a Padel court?",
@@ -524,6 +610,33 @@
   "answer": "If you're looking for financing options and have a space, contact us as we have a few investors looking for space at the moment."
 }
 
+],
+        "QUESTIONS_ZA":[{
+    "question":"What are the standard dimensions for a Padel court?",
+    "answer": "The standard dimensions of a Padel court are 20 meters in length and 10 meters in width."
+},{
+  "question":"Is any specific equipment required for setting up Padel courts?",
+  "answer": "Yes, setting up a Padel court requires importing court structures, glass walls, artificial turf, and fencing. Depending on your area, lighting systems and other necessary accessories might also be needed."
+},{
+  "question":"How much does it cost to import and install Padel courts in South Africa?",
+  "answer": "The cost largely depends on the model of the Padel court you choose, and we guarantee top quality at competitive prices. Costs also vary by location and the number of courts you plan to install. Contact us for a personalized quote."
+},{
+  "question":"What type of maintenance is required for a Padel court?",
+  "answer": "A Padel court in South Africa requires regular upkeep to stay in top shape, with maintenance needs varying based on whether the court is indoors or outdoors. This includes cleaning surfaces, maintaining structures and glass panels, replacing artificial turf as needed, and quickly addressing any signs of wear or damage."
+},{
+  "question":"Are there any special permits needed to set up a Padel court in South Africa?",
+  "answer": "Yes, you’ll need building consent from the local council. Contact us to learn about the specific permits and approvals required for your project."
+},{
+  "question":"Is it possible to customize the design of a Padel court?",
+  "answer": "Absolutely, we provide customization options for Padel courts in South Africa, allowing you to select colors for the structures and turf, custom accessories, and additional features to match your project’s vision. Our team specializes in tailored solutions that reflect your unique style."
+},{
+  "question":"How long does it usually take to install a Padel court?",
+  "answer": "Installation time depends on factors like the court’s location, design complexity, and weather conditions during setup. On average, it can take several weeks to complete the installation."
+},{
+  "question":"What are the most durable Padel courts available on the market?",
+  "answer": "Portico Sport leads the way in innovation with the Club Force 80 and Panoramic Force 80 courts, which are the most durable options on the market. These Padel courts are designed to withstand extreme weather conditions, making them ideal for diverse environments while maintaining top performance and longevity."
+}
+
 ]
       },
       "CONTACT_SECTION": {
@@ -555,7 +668,12 @@
 
       "OCEANIA_ROUTE":{
         "LABEL":"Oceania",
-        "URL":"/oceania"}
+        "URL":"/oceania"},
+      
+       "ZA_ROUTE":{
+        "LABEL":"South Africa",
+        "URL":"/za"
+      }
     },
     "SECTION_OUTDOOR":{
       "ID":"outdoor",
@@ -3039,8 +3157,10 @@
     "TITLE_UK":"Reach our UK Padel Court Professionals",
     "TITLE_USA":"Talk to Our Padel Experts in the United States",
     "TITLE_OCEANIA":"Connect with Our Padel Experts in Oceania",
+    "TITLE_ZA":"Connect with our padel experts in south africa",
     "TITLE_CANOPIES":"Reach our Padel court canopies experts",
     "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p>",
+    "DESCRIPTION_ZA":"<p>Feel free to get in touch with our team for any questions about Padel courts and canopies! We're here to answer all your inquiries and guide you in selecting the perfect court for your needs. With extensive experience in padel court construction across South Africa, our skilled professionals are ready to design and build a court customized specifically to your preferences. If you're interested in understanding the costs involved in setting up a Padel court in South Africa, we can provide comprehensive estimates to help you plan your project smoothly. We look forward to connecting with you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales inquiries please contact <a class=text__glowing href=mailto:southafrica@porticosport.com>southafrica@porticosport.com</a></p>",
     "FORM": {
       "NAME": {
         "ID": "name",
@@ -3183,6 +3303,11 @@
     "TITLE":"Building Padel courts that comply with regulations",
     "SUBTITLE":"Durability and quality guaranteed",
     "DESCRIPTION":"Our Padel courts are expertly crafted for exceptional durability and top-tier performance, ensuring an outstanding playing experience for players of all levels. Built with precision and designed to last, our courts maintain their high quality even in the toughest conditions in Oceania. As one of the leading Padel court manufacturers in the region, we are dedicated to delivering courts that meet the highest standards of design and performance. Developed by the engineering team at PORTICO SPORT, our Padel courts comply with official sports regulations (NIDE 2004 Padel), FIP standards, and structural calculations based on the &quot;Structural Steel Instruction (EAE)&quot;, American Code: AISC-360 and ASCE SEI 7-16; and Australian Standards AS 4100 and AS/NZ S1170. All courts come with a 10-year structural stability guarantee."
+  },
+  "NORMATIVE_SECTION_LOGOS_ZA":{
+    "TITLE":"Building Padel courts that comply with regulations",
+    "SUBTITLE":"Quality and endurance you can rely on",
+    "DESCRIPTION":"Our Padel courts are meticulously engineered for outstanding durability and superior performance, providing an exceptional playing environment for athletes of all levels. Designed with precision and built to withstand challenging conditions across South Africa, our courts retain their high quality over time. As a leading Padel court manufacturer in the region, we’re committed to creating courts that meet top design and performance standards. Developed by the engineering team at PORTICO SPORT, our Padel courts fully adhere to official sports regulations (NIDE 2004 Padel), FIP standards, and include structural calculations per the \"Structural Steel Instruction (EAE),\" American Code: AISC-360 and ASCE SEI 7-16, as well as Australian Standards AS 4100 and AS/NZS 1170. Every Padel court is backed by a 10-year structural stability warranty."
   },
   "INFINITE_SCROLL": {
     "TITLE": "Commercial partners"
