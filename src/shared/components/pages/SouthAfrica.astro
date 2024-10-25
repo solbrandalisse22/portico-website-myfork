@@ -20,6 +20,7 @@ import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogosZA from "@/shared/components/sections/NormativeLogosZA.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Section from "@/shared/components/Section.astro";
 
 interface Props {
   language: string,
@@ -76,7 +77,7 @@ const posts = await response.json();
       buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_ZA.BUTTON_TEXT}
     />
     
-    <section 
+    <Section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.ID}
     >
       <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.TITLE} className="mx-auto mt-10 mb-8 text-center font-semibold uppercase" />
@@ -92,7 +93,7 @@ const posts = await response.json();
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.URL.LABEL}
     />
      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
-    </section>
+    </Section>
     <SectionBentoZA language={language} />
     <SectionComplementsZA language={language} />
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_ZA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_ZA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
