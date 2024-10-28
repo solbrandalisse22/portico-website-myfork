@@ -2095,6 +2095,16 @@
           "Análisis dinámico de la estructura, con un espectro sísmico ASCE 7, calculado con una aceleración de 0.3 segundos."
         ]
       },
+       "PROJECTS_SECTION": {
+        "ID": "projects",
+        "TITLE": "Proyectos de plataformas elevadas",
+        "URL": {
+          "LABEL": "Descubre todos nuestros proyectos",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "elevated-platform-projects-gallery",
+        "PATH": "elevated-platform-projects/gallery"
+      },
       "COURTS_SECTION": {
         "TITLE": "La Plataforma Elevada de Portico Sport",
         "DESCRIPTION": "Compatible con los siguientes Modelos de Pista de Pádel:",
