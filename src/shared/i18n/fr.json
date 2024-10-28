@@ -2072,6 +2072,17 @@
           "Analyse dynamique de la structure, avec un spectre sismique ASCE 7, calculé avec une accélération de 0,3 seconde."
         ]
       },
+          "PROJECTS_SECTION": {
+        "ID": "projects",
+        "TITLE": "Projets de plateformes surélevées",
+        "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
+        "URL": {
+          "LABEL": "Découvrez tous nos projets",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "elevated-platform-projects-gallery",
+        "PATH": "elevated-platform-projects/gallery"
+      },
       "COURTS_SECTION": {
         "TITLE": "Plateforme surélevée Portico Sport",
         "DESCRIPTION": "est compatible avec les modèles de courts de padel suivants :",
