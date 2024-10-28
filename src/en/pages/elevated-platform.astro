@@ -1,6 +1,8 @@
 ---
 import ElevatedPlatformPage from "@/shared/components/pages/ElevatedPlatformPage.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
+import canopiesGallery from "@/en/data/elevated-platform-gallery.json"
 ---
 
-<ElevatedPlatformPage language={LANGUAGES.EN} />
+<ElevatedPlatformPage language={LANGUAGES.EN} canopiesGallery={canopiesGallery} />
+
