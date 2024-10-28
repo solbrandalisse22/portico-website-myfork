@@ -2063,8 +2063,8 @@
       },
       "ADVANTAGE_SECTION": {
         "IMAGE": {
-          "id": "information-section",
-          "src": "/elevated-platform/elevated-information-section.webp",
+          "id": "advantage-section",
+          "src": "/elevated-platform/elevated-advantage-section.webp",
           "width": 574,
           "height": 323,
           "alt": "Plataforma elevada patentada por Portico Sport"
@@ -2084,8 +2084,8 @@
         "TITLE": "Una plataforma diseñada para superar cualquier terreno",
         "DESCRIPTION": "<p>La plataforma elevada de Portico Sport es una solución estructural que se adapta a tu terreno. Gracias a su sistema de pilares ajustables, supera las limitaciones del terreno que traen consigo las pistas de pádel normales sin afectar la experiencia de juego. Su diseño único y sistema de atornillado permiten una instalación rápida y sencilla. Esto significa que en poco tiempo, tu plataforma estará lista para adaptarse a cualquier desnivel del terreno y facilitar la instalación de cualquiera de nuestras pistas de pádel.</p><p>Nuestro departamento de ingeniería está a la vanguardia del diseño y fabricación de pistas de pádel, por lo que cada plataforma elevada se somete a rigurosos procedimientos que incluyen análisis sísmicos, limitación de deformaciones y verificación de elementos de acero según las regulaciones ASCE 7-SEI 2019 y AISC 360 2016 (LRFD), garantizando seguridad y calidad en cada detalle para asegurar un rendimiento óptimo y una estabilidad incomparable.</p>",
         "IMAGE": {
-          "id": "sección-de-información",
-          "src": "/plataforma-elevada/sección-información-elevada.webp",
+          "id": "information-section",
+          "src": "/elevated-platform/elevated-information-section.webp",
           "width": 574,
           "height": 323,
           "alt": "Plataforma elevada patentada por Portico Sport"
