@@ -2031,6 +2031,16 @@
           "Dynamische Analyse der Struktur mit einem ASCE 7-Seismikspektrum, das mit einer Beschleunigung von 0,3 Sekunden berechnet wird."
         ]
       },
+          "PROJECTS_SECTION": {
+        "ID": "projects",
+        "TITLE": "Projekte für erhöhte Plattformen",
+        "URL": {
+          "LABEL": "Entdecken Sie all unsere Projekte",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "elevated-platform-projects-gallery",
+        "PATH": "elevated-platform-projects/gallery"
+      },
       "COURTS_SECTION": {
         "TITLE": "Portico Sport Erhöhte Plattform",
         "DESCRIPTION": "ist kompatibel mit den folgenden Padelplatzmodellen:",
