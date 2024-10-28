@@ -10,12 +10,15 @@ import Button from "@/shared/components/Button.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import { courtsGrid } from "@/shared/i18n/constants";
 import FeatureList from "@/shared/components/FeatureList.astro";
+import Gallery from "@/shared/components/Gallery.astro";
+import { type Photo } from "@/types/types";
 
 interface Props {
   language: string;
+  canopiesGallery: Photo[];
 }
 
-const { language } = Astro.props;
+const { language, canopiesGallery} = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 
@@ -133,6 +136,12 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
         </div>
       </div>
     </Section>
+  <Gallery
+
+      id={i18n.PAGES.ELEVATED_PLATFORM.PROJECTS_SECTION.ID_GALLERY}
+      path={i18n.PAGES.ELEVATED_PLATFORM.PROJECTS_SECTION.PATH}
+      offset={3}
+      photos={canopiesGallery}/>
     <SectionCourtsGrid language={language} courts={compatibleCourts} heading={i18n.PAGES.ELEVATED_PLATFORM.COURTS_SECTION.TITLE} subheading={i18n.PAGES.ELEVATED_PLATFORM.COURTS_SECTION.DESCRIPTION} />
     <SectionContact
       hiddenSubject
