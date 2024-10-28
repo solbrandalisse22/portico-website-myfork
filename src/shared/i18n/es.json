@@ -2046,8 +2046,8 @@
         "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">¡Disfruta de tu pasión por el pádel en cualquier lugar con</span><br/> <span>nuestra innovadora plataforma elevada!</span>",
         "SUBTITLE": "Características destacadas",
         "IMAGE": {
-          "id": "sección-de-características",
-          "src": "/plataforma-elevada/sección-características-elevada.webp",
+          "id": "feature-section",
+          "src": "/elevated-platform/elevated-feature-section.webp",
           "width": 574,
           "height": 323,
           "alt": "Eleva tu pasión por el pádel a nuevas alturas"
@@ -2063,8 +2063,8 @@
       },
       "ADVANTAGE_SECTION": {
         "IMAGE": {
-          "id": "sección-de-ventajas",
-          "src": "/plataforma-elevada/sección-ventajas-elevada.webp",
+          "id": "information-section",
+          "src": "/elevated-platform/elevated-information-section.webp",
           "width": 574,
           "height": 323,
           "alt": "Plataforma elevada patentada por Portico Sport"
