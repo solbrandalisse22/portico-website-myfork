@@ -2612,8 +2612,8 @@
       "SEO_TITLE": "Explore Portico Sport's Cutting-Edge Factory",
       "SEO_DESCRIPTION":"Discover Portico Sport's state-of-the-art factory, spanning over 8,000 square meters and equipped with the latest technology. See how we lead in padel court manufacturing!",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
-      "TITLE": "<span class=\"block\">Portico Sport:</span> <span class=\"text-xl\">a Factory for the new era of Padel</span>",
-      "SUBTITLE": "The largest padel courts and canopies manufacturing site",
+      "TITLE": "Portico Sport: a Factory for the new era of Padel",
+      "SUBTITLE": "Visit our factory",
       "DESCRIPTION": "<p>Inaugurated in 2023, the company boasts a cutting-edge <strong class=\"text-secondary\">factory spanning over 8.000 square meters</strong>, which integrates state-of-the-art industrial technology, a robotic welding assembly line, and industrial processes previously applied in more advanced industries.</p><p>As a result, Portico Sport has increased its production capacity, enhanced quality, modernized its production system, and reduced delivery times worldwide.</p>",
       "ROUTE": {
         "LABEL": "Our Factory",
@@ -2685,7 +2685,7 @@
         }]
       },
       "CONTACT_SECTION": {
-        "TITLE": "Visit our factory",
+        "TITLE": "<h2 class=\"uppercase text-primary mb-6\">Contact us to book a visit to our Padel court manufacturing facility</h2>",
         "DESCRIPTION": "<p>Whether you are a potential client or a professional distributor interested in our courts and canopies, We extend a warm invitation to visit our facilities. Our team of experts eagerly awaits the opportunity to guide you through our design, production, manufacturing, and lacquering plants, providing an in-depth exploration of the entire construction process from inception to completion. You&#39;ll have the chance to delve into every aspect of our production process, from meticulous materials selection to the cutting-edge engineering techniques that enable us to craft the finest courts in the industry.</p><p>This exclusive opportunity offers insight into why our courts and canopies are so highly esteemed by professional players and club owners worldwide. Moreover, you&#39;ll have the firsthand experience of our court quality by partaking in a game on one of them.<br />We eagerly anticipate your visit to our facilities, where we can share our passion for padel and showcase the excellence of our craftsmanship.</p>",
         "SUBJECT": "New petition from Factory",
         "SUBTITLE": "We are happy to show you around",
