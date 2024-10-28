@@ -2562,6 +2562,17 @@
           "Dynamic analysis of the structure, with an ASCE 7 seismic spectrum, calculated with a 0.3sec acceleration."
         ]
       },
+          "PROJECTS_SECTION": {
+        "ID": "projects",
+        "TITLE": "Elevated Platform Projects",
+        "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
+        "URL": {
+          "LABEL": "Discover all our projects",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "elevated-platform-projects-gallery",
+        "PATH": "elevated-platform-projects/gallery"
+      },
       "COURTS_SECTION": {
         "TITLE": "Portico Sport Elevated Platform",
         "DESCRIPTION": "is Compatible with the following Padel Court Models:",
