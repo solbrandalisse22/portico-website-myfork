@@ -30,21 +30,17 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
   currentLocale={currentLocale}
   language={language}
 >
-  <Video language={language} video="/cubiertas-spot.webm" classVideo="cp-elipse video">
-    <Section className="absolute z-10 animate-fade-up flex flex-col max-w-none h-full justify-between sm:justify-center">
-      <div class="lg:p-16 flex flex-col md:gap-8 flex-1 justify-center max-w-[1400]">
-        <header class="text-center md:pt-20 flex flex-col justify-center items-center">
-          <Typography tag="p" text={i18n.PAGES.CANOPIES.PRETITLE} responsive />
-          <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.CANOPIES.TITLE} responsive />
-          <Typography tag="p" type="secondary" className="mb-6 text-xl" text={i18n.PAGES.CANOPIES.SUBTITLE} responsive />
-          <Typography tag="p" type="primary" className="mb-6 font-thin text-xl" text={i18n.PAGES.CANOPIES.SUBSUBTITLE} responsive />
-          <Typography tag="p" className="max-w-[60ch]" text={i18n.PAGES.CANOPIES.DESCRIPTION} responsive />
-        </header>
-      </div>
-      <Button target="_self" class="self-center" url={`#${i18n.PAGES.CANOPIES.CONTACT_SECTION.ID}`}>
-        {i18n.PAGES.CANOPIES.CONTACT_SECTION.TITLE}
-      </Button>
-    </Section>
+ <Video language={language} video="/cubiertas-spot.webm" 
+  classVideo="cp-elipse"
+  pretitleCanopie={i18n.PAGES.CANOPIES.PRETITLE}
+  titleCanopie={i18n.PAGES.CANOPIES.TITLE}
+  subtitleCanopie={i18n.PAGES.CANOPIES.SUBTITLE}
+  subsubtitleCanopie={i18n.PAGES.CANOPIES.SUBSUBTITLE} 
+  descriptionCanopie={i18n.PAGES.CANOPIES.DESCRIPTION}
+  buttonUrl={`#${i18n.PAGES.CANOPIES.CONTACT_SECTION.ID}`}
+  buttonText={i18n.PAGES.CANOPIES.CONTACT_SECTION.TITLE}>
+</Video>
+  
   </Video>
   <main class="flex flex-col gradient-bg relative">
     <Breadcrumb
