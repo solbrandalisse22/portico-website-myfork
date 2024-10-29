@@ -16,9 +16,14 @@ interface Props {
   classVideo?: string;
   subject?: string;
   uk?: boolean;
+  titleCanopie?:string;
+  subtitleCanopie?:string;
+  descriptionCanopie?:string;
+  subsubtitleCanopie?:string;
+  pretitleCanopie?:string;
 }
 
-const { video, classVideo, subtitle, title, titleH3, slogan, buttonUrl, buttonText, language, showContactForm, subject, uk } = Astro.props;
+const { video, classVideo, subtitle, title, titleH3, titleCanopie, subtitleCanopie, subsubtitleCanopie, descriptionCanopie, pretitleCanopie, slogan, buttonUrl, buttonText, language, showContactForm, subject, uk } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -56,6 +61,21 @@ const type = getTipeFromVideo();
           }
           {
             titleH3 && (<Typography tag="h3" className="items-center gap-5 lg:gap-20 px-4 text-center" text={titleH3} responsive />)
+          }
+{
+          pretitleCanopie && (<Typography tag="p"text={pretitleCanopie} responsive />)
+        }
+        {
+            titleCanopie && (<Typography tag="h1" className="uppercase mb-6 font-bold" text={titleCanopie} responsive />)
+          }
+         {
+            subtitleCanopie && (<Typography tag="p" type="secondary" className="mb-6 text-xl" text={subtitleCanopie} responsive size="large" className="font-bold" />)
+          }
+          {
+            subsubtitleCanopie && (<Typography tag="p" type="primary" className="mb-6 font-thin text-xl"text={subsubtitleCanopie} responsive />)
+          }
+          {
+            descriptionCanopie && (<Typography tag="p" className="max-w-[60ch]"  text={descriptionCanopie} responsive />)
           }
           {
             buttonUrl && buttonText ? (
