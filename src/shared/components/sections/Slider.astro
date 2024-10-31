@@ -26,7 +26,7 @@ for (let i = 0; i < posts.length; i += 3) {
 }
 ---
 
-<Section heading={heading} subheading={subheading}>
+<Section heading={heading || i18n.PAGES.NEWS.LIST.TITLE} subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}>
     <div class="carousel">
         <div class="carousel-track">
             {groupedPosts.map((group, groupIndex) => (
