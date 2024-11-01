@@ -2,10 +2,10 @@
   "PAGES": {
     "HOME": {
       "SEO_TITLE": "Portico Sport: Padelplätze & Überdachungen Weltweit",
-      "SEO_DESCRIPTION": "Premiere für Padelplatzbau und Überdachungsinstallationen weltweit. Entdecken Sie noch heute unsere maßgeschneiderten Lösungen!",
+      "SEO_DESCRIPTION": "Führende Hersteller von erstklassigen Padelplätzen und Installation von Überdachungen auf der ganzen Welt",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Bau und Installation von Padelplätzen und Überdachungen weltweit",
-      "TITLE": "Padel-Platzbauer",
+      "TITLE": "Padelplatzhersteller",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Kontaktiere uns",
@@ -18,14 +18,14 @@
       },
       "INTRO_SECTION": {
         "ID": "intro",
-        "TITLE": "Willkommen bei Portico Sport<br />Hersteller und Installateure von Padel-Courts",
-        "DESCRIPTION": "<p>Mit Sitz in Spanien ist Portico Sport einer der <strong>führenden Hersteller von Padelplätzen & Überdachungen</strong> weltweit. Das Unternehmen verfügt über eine 15-jährige Erfolgsgeschichte in der Branche, ist in über 35 Ländern präsent und hat mehr als 3.500 Plätze installiert.</p><p>Portico Sport steht für Qualität und Exzellenz im Kundenservice. Unser ingenieurtechnisches DNA ermöglicht es uns, Hersteller mit einem kompletten schlüsselfertigen Angebot zu sein, das Plätze und Überdachungen mit <strong>100% in-house Design</strong> und Fertigung kombiniert.</p><p>Im Jahr 2023 eröffnete das Unternehmen ein <strong>neues Fertigungsgelände</strong> mit einer Fläche von über 110.000 Quadratfuß, was es zum größten und technologisch fortschrittlichsten in der Branche macht.</p>"
+        "TITLE": "Willkommen bei Portico Sport<br />Padelplatz-Hersteller und Padelplatz-Monteure",
+        "DESCRIPTION": "<p>Mit Sitz in Spanien ist Portico Sport einer der <strong>Führende Hersteller von erstklassigen Padelplätzen und Installation von Überdachungen auf der ganzen Welt</strong>. Das Unternehmen verfügt über eine 15-jährige Erfolgsgeschichte in der Branche, ist in über 35 Ländern präsent und hat mehr als 3.500 Plätze installiert.</p><p>Portico Sport steht für Qualität und Exzellenz im Kundenservice. Unser ingenieurtechnisches DNA ermöglicht es uns, Hersteller mit einem kompletten schlüsselfertigen Angebot zu sein, das Plätze und Überdachungen mit <strong>100% in-house Design</strong> und Fertigung kombiniert.</p><p>Im Jahr 2023 eröffnete das Unternehmen ein <strong>neues Fertigungsgelände</strong> mit einer Fläche von über 110.000 Quadratfuß, was es zum größten und technologisch fortschrittlichsten in der Branche macht.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
         "TITLE": "Mit Ihnen während des gesamten Prozesses",
-        "SUBTITLE" : "Vorteile unseres Baus von Padelplätzen",
-        "DESCRIPTION": "<p>Als erfahrene Padelplatzbauer konzentrieren wir uns darauf, dauerhafte Beziehungen zu unseren Kunden aufzubauen, indem wir maßgeschneiderte Lösungen von Anfang bis Ende liefern. Unser Team bietet personalisierte Designs, Finanzierungsoptionen und Premium-Padelplätze, die gebaut wurden, um Ihre spezifischen Bedürfnisse zu erfüllen. Mit Portico Sport haben Sie immer Unterstützung, auch nach der Installation, um langfristige Zufriedenheit und Erfolg zu gewährleisten.</p>",
+        "SUBTITLE" : "Vorteile unserer Konstruktion von Padelplätzen",
+        "DESCRIPTION": "<p>Als erfahrene Padelplatzhersteller konzentrieren wir uns darauf, dauerhafte Beziehungen zu unseren Kunden aufzubauen, indem wir maßgeschneiderte Lösungen von Anfang bis Ende liefern. Unser Team bietet personalisierte Designs, Finanzierungsoptionen und Premium-Padelplätze, die gebaut wurden, um Ihre spezifischen Bedürfnisse zu erfüllen. Mit Portico Sport haben Sie immer Unterstützung, auch nach der Installation, um langfristige Zufriedenheit und Erfolg zu gewährleisten.</p>",
         "POINT_1": {
           "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
           "SUBTITLE": "Aufbau einer starken, dauerhaften Beziehung basierend auf Vertrauen und Kundenzufriedenheit."
@@ -61,7 +61,7 @@
       },
       "COURTS_SECTION": {
         "ID": "padel-courts",
-        "TITLE": "Padelplätze",
+        "TITLE": "Portico Sport Padelplätzen",
         "DESCRIPTION": "Entdecken Sie alle unsere Padelplätze"
       },
       "CANOPIES_SECTION": {
@@ -94,7 +94,7 @@
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
-        "TITLE": "Projekte für Padelplätze und Vordächer",
+        "TITLE": "Projekte für Padelplätze und Überdachungen",
         "SUBTITLE": "Klicken Sie, um zu enthüllen: Entdecken Sie unsere Platzprojekte im Detail!",
         "URL": {
           "LABEL": "Entdecken Sie alle unsere Projekte",
@@ -106,7 +106,7 @@
       },
       "COMPLEMENTS_SECTION": {
         "ID": "complements",
-        "TITLE": "Premium Padelplatzbau: Qualität und Innovation",
+        "TITLE": "Premium Padelplatzhersteller: Qualität und Innovation",
         "SUBTITLE": "Ein führendes Padel-Court-Unternehmen weltweit.",
         "ITEMS": {
           "ITEM_1": {
@@ -137,7 +137,7 @@
       },
       "FAQS_SECTION": {
         "ID": "faqs",
-        "TITLE": "Fragen zu Padelplatzbauern stellen",
+        "TITLE": "Fragen zu Padelplatzhersteller stellen",
         "SUBTITLE": "Häufig gestellte Fragen",
         "QUESTIONS": [{
           "question": "Wie groß ist ein Padelplatz standardmäßig?",
@@ -162,7 +162,7 @@
           "answer": "Portico Sport bietet Finanzierungsmöglichkeiten durch verschiedene Vereinbarungen mit unterschiedlichen Institutionen, um Kunden beim Erwerb und der Bezahlung eines Padelplatzes zu unterstützen. Dies kann Ratenzahlungspläne oder Leasingvereinbarungen umfassen."
         }, {
           "question": "Wie viel kostet es, einen Padelplatz zu bauen?",
-          "answer": "Die Kosten für den Bau eines Padelplatzes können stark variieren, je nach Art des Platzes, den verwendeten Materialien, dem Standort und zusätzlichen Merkmalen wie Beleuchtung oder Sitzplätzen. In der Regel beginnen die Preise bei etwa 18.000 € (EXWORK), aber individuelle Designs und hochwertige Materialien können den Gesamtpreis erhöhen. Für ein genaues Angebot ist es am besten, einen professionellen Padelplatzbauer zu konsultieren, der Ihre spezifischen Bedürfnisse und den Standort bewerten kann."
+          "answer": "Die Kosten für den Bau eines Padelplatzes können stark variieren, je nach Art des Platzes, den verwendeten Materialien, dem Standort und zusätzlichen Merkmalen wie Beleuchtung oder Sitzplätzen. In der Regel beginnen die Preise bei etwa 18.000 € (EXWORK), aber individuelle Designs und hochwertige Materialien können den Gesamtpreis erhöhen. Für ein genaues Angebot ist es am besten, einen professionellen Padelplatzhersteller zu konsultieren, der Ihre spezifischen Bedürfnisse und den Standort bewerten kann."
         }]
       },      
       "CONTACT_SECTION": {
@@ -1532,7 +1532,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendering eines mobilen Platzes"
         },
-        "TITLE": "Experten Padelplatzbauer: Überlegene Strukturen",
+        "TITLE": "Experten Padelplatzhersteller: Überlegene Strukturen",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
         "TEXT": "<p>Hergestellt aus feuerverzinktem Stahl bietet dieser Platz die gleiche Länge, aber reduzierte Breite und gewährleistet immer maximale Widerstandsfähigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Hilfe von Ankerplatten im Boden verankert sind.</p><p>Die Seiten- und Oberprofile werden durch elektroverschweißten Maschendraht gemäß den Normen UNE-EN-10223-4 ergänzt. Zur Dämpfung von Maschenvibrationen verfügt die Struktur über Zwischengerüste. Die Befestigung der Struktur auf dem Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm. Darüber hinaus ist der Montageprozess dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, darunter hochmoderne industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert hochwertige Oberflächen.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatisierte robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert potenzielle Oxidation in der Zukunft.</li></ul>"
       },
@@ -1564,7 +1564,7 @@
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Lebendige Lackoptionen von Padelplatzbauern",
+        "TITLE": "Lebendige Lackoptionen von Padelplatzhersteller",
         "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt eine Farbtupfer hinzufügen können?",
         "DESCRIPTION": "<p>Entdecken Sie den Inbegriff der Unterscheidung in der Padelplatzkonstruktion mit einer Reihe von Lackarten, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKIERTER LACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihren Vorlieben entspricht, und stechen Sie mit unseren anpassbaren Farboptionen heraus.</p><p>Lassen Sie Ihren Platz Ihren einzigartigen Stil und Ihre Persönlichkeit widerspiegeln, indem Sie sich für ein monochromes Erscheinungsbild entscheiden oder mit einem zweifarbigen Schema lebendige Energie einbringen. Mit dem richtigen Lack wird selbst ein kleinerer Platz herausragen.</p>",
         "IMAGES": [
@@ -1739,7 +1739,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendering eines mobilen Platzes"
         },
-        "TITLE": "Platzstruktur von Experten Padelplatzbauern",
+        "TITLE": "Platzstruktur von Experten Padelplatzhersteller",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
         "TEXT": "<p>Ein verkleinerter Padelplatz aus feuerverzinkter Stahlstruktur garantiert maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Hilfe von Ankerplatten im Boden verankert sind.</p><p>Die Seiten- und Oberprofile werden durch elektroverschweißten Maschendraht gemäß den Normen UNE-EN-10223-4 ergänzt.</p><p>Zur Dämpfung von Maschenvibrationen verfügt die Struktur über Zwischengerüste. Die Befestigung der Struktur auf dem Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm.</p><p>Der Montageprozess ist dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, darunter hochmoderne industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert hochwertige Oberflächen.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatisierte robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidationen in der Zukunft.</li></ul>"
       },
@@ -1890,7 +1890,7 @@
       },
       "FIRST_SECTION": {
         "TITLE": "Überdachte Padelplätze für erhöhte Haltbarkeit",
-        "DESCRIPTION": "Von erfahrenen Padelplatzbauern entworfen, bieten unsere Hochleistungsüberdachungen unübertroffenen Schutz vor schlechtem Wetter und verbessern gleichzeitig das Spielerlebnis. Mit einem originellen Design, wetterbeständigen Materialien und einer hochwertigen Struktur erfüllen unsere Überdachungen alle Sicherheitsstandards. Darüber hinaus fügt sich das elegante, ästhetisch ansprechende Design nahtlos in jede Umgebung ein, was sie sowohl funktional als auch visuell ansprechend für jeden Padelclub macht.",
+        "DESCRIPTION": "Von erfahrenen Padelplatzhersteller entworfen, bieten unsere Hochleistungsüberdachungen unübertroffenen Schutz vor schlechtem Wetter und verbessern gleichzeitig das Spielerlebnis. Mit einem originellen Design, wetterbeständigen Materialien und einer hochwertigen Struktur erfüllen unsere Überdachungen alle Sicherheitsstandards. Darüber hinaus fügt sich das elegante, ästhetisch ansprechende Design nahtlos in jede Umgebung ein, was sie sowohl funktional als auch visuell ansprechend für jeden Padelclub macht.",
         "IMAGE": {
           "src": "/canopies/section-canopies-01/canopy-structure.png",
           "alt": "Überdachungsstruktur"
@@ -1941,7 +1941,7 @@
       },
       "ADVANTAGE_SECTION": {
         "TITLE": "Installation von Padelplatz-Überdachungen",
-        "DESCRIPTION": "<p><strong>Mit jahrelanger Erfahrung im Ingenieurwesen überwacht Portico Sport</strong> den gesamten Bauprozess von Padelplatz-Überdachungen. Unser engagiertes Team von Fachleuten glänzt in allen Aspekten,<strong> vom Design und der Herstellung bis hin zur Installation.</strong></p><p> Wir verstehen, dass jeder Kunde einzigartige Bedürfnisse hat, und wir gehen jedes Projekt mit der persönlichen Aufmerksamkeit und dem Respekt an, die es verdient. Dieses Engagement<strong> sichert den Erfolg unserer Projekte</strong>, die auf einer Grundlage von Qualität, Innovation, Vertrauen und Erfahrung beruhen.</p><p> Unsere Überdachungen werden<strong> aus warmgewalzten Stahlprofilen hergestellt</strong>, die auf die spezifischen Abmessungen jeder Installation zugeschnitten sind.<strong> Das Dach besteht aus Polycarbonatplatten</strong>, die je nach den Anforderungen und Bedingungen des Projekts in verschiedenen Stärken erhältlich sind.</p><p>Diese Materialien bieten die perfekten Eigenschaften für jede Schlägersportart. Darüber hinaus<strong> bieten wir die Möglichkeit, seitliche Paneele</strong> bis zu einer Höhe von 3 Metern zu installieren, um vor seitlichen Winden und Regen zu schützen und das Spielerlebnis zu verbessern.</p><p>Wählen Sie Portico Sport für Ihre Padelplatz-Überdachungsinstallation und Padelplatzbauer und genießen Sie außergewöhnliche Qualität und Leistung, die auf Ihre Bedürfnisse zugeschnitten sind.</p>",
+        "DESCRIPTION": "<p><strong>Mit jahrelanger Erfahrung im Ingenieurwesen überwacht Portico Sport</strong> den gesamten Bauprozess von Padelplatz-Überdachungen. Unser engagiertes Team von Fachleuten glänzt in allen Aspekten,<strong> vom Design und der Herstellung bis hin zur Installation.</strong></p><p> Wir verstehen, dass jeder Kunde einzigartige Bedürfnisse hat, und wir gehen jedes Projekt mit der persönlichen Aufmerksamkeit und dem Respekt an, die es verdient. Dieses Engagement<strong> sichert den Erfolg unserer Projekte</strong>, die auf einer Grundlage von Qualität, Innovation, Vertrauen und Erfahrung beruhen.</p><p> Unsere Überdachungen werden<strong> aus warmgewalzten Stahlprofilen hergestellt</strong>, die auf die spezifischen Abmessungen jeder Installation zugeschnitten sind.<strong> Das Dach besteht aus Polycarbonatplatten</strong>, die je nach den Anforderungen und Bedingungen des Projekts in verschiedenen Stärken erhältlich sind.</p><p>Diese Materialien bieten die perfekten Eigenschaften für jede Schlägersportart. Darüber hinaus<strong> bieten wir die Möglichkeit, seitliche Paneele</strong> bis zu einer Höhe von 3 Metern zu installieren, um vor seitlichen Winden und Regen zu schützen und das Spielerlebnis zu verbessern.</p><p>Wählen Sie Portico Sport für Ihre Padelplatz-Überdachungsinstallation und Padelplatzhersteller und genießen Sie außergewöhnliche Qualität und Leistung, die auf Ihre Bedürfnisse zugeschnitten sind.</p>",
         "BUTTON_TEXT": "Entdecken Sie weitere Überdachungen"
       },
       "CONTACT_SECTION": {
