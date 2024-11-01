@@ -36,7 +36,7 @@ const {
 const { source_url: image, alt_text: imgAlt } = _embedded["wp:featuredmedia"][0];
 const {name: authorName, description: authorDescription, simple_local_avatar, slug: authorSlug, yoast_head_json: { schema } = {}} = _embedded["author"][0];
 const { sameAs: socialMedia } = schema?.["@graph"]?.slice(-1)[0] || {};
-const finalTitle = rendered || title;
+const finalTitle = title || rendered;
 const finalDate = convertDate(date);
 ---
 
