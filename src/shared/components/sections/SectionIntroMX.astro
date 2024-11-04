@@ -1,0 +1,21 @@
+---
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro"
+
+import { getI18N } from "../../i18n";
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+---
+<img
+  src="/logotipo-portico-sport-circular-white.svg"
+  alt="Portico Sport"
+  width="160"
+  height="160"
+  class=" mx-auto lg:block"
+/>
+<Section id={i18n.PAGES.SECTION_MX.INTRO_SECTION.ID} className="text-center">
+  <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.SECTION_MX.INTRO_SECTION.TITLE} />
+  <Typography tag="div" className="max-w-[60ch] mx-auto" text={i18n.PAGES.SECTION_MX.INTRO_SECTION.DESCRIPTION} />
+</Section>
+
