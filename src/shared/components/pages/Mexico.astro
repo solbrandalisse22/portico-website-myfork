@@ -64,4 +64,27 @@ const posts = await response.json();
   <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
     <NormativeLogosMX language={language} showInfo />
+  <SectionCanopies
+      video="/cubiertas-spot.webm"
+      subtitle={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.SUBTITLE}
+      title={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.TITLE}
+      text={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.TEXT}
+      buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
+      buttonText={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.BUTTON_TEXT}
+    />
+<section 
+      id={i18n.PAGES.HOME.PROJECTS_SECTION_UK.ID}
+    >
+      <Typography tag="h2" text={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.TITLE} className="mx-auto mt-10 mb-8 text-center font-semibold uppercase" />
+      
+    <Gallery
+      heading={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.TITLE_GALLERY}
+      subheading={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.SUBTITLE_GALLERY}
+      id={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.ID_GALLERY}
+      photos={projectsGallery}
+      offset={12}
+      path={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.URL.LABEL}
+    />
 </main>
