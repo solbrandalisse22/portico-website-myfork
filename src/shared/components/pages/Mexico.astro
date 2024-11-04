@@ -89,4 +89,35 @@ const posts = await response.json();
     />
      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
     </section>
-</main>
+<SectionBentoMX language={language} />
+    <SectionComplementsMX language={language} />
+    <SectionFaqs items={i18n.PAGES.SECTION_MX.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.SECTION_MX.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.SECTION_MX.FAQS_SECTION.SUBTITLE} />
+    <NewsList language={language} posts={posts} />
+    <SectionContact
+      id={i18n.PAGES.SECTION_MX.CONTACT_SECTION.ID}
+      hiddenSubject
+      subject={i18n.PAGES.SECTION_MX.CONTACT_SECTION.SUBJECT}
+      title={i18n.CONTACT_FORM.TITLE_MX}
+      language={language}
+      bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
+      image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+      description={i18n.CONTACT_FORM.DESCRIPTION_MX}
+    />
+    <SectionPartnerLogos />
+  </main>
+
+</Layout>
+
+<script>
+  const logoFep = document.getElementById('logo-fep');
+  const logoHexagonCup = document.getElementById('logo-hexagon-cup');
+
+  logoFep?.addEventListener('click', () => {
+    window.open('https://www.padelfederacion.es/Home', '_blank');
+  });
+
+  logoHexagonCup?.addEventListener('click', () => {
+    window.open('https://www.hexagoncup.com/', '_blank');
+  });
+
+</script>
