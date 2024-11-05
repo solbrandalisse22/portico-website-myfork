@@ -255,23 +255,22 @@
       },
       "BENTO_SECTION": {
         "ID": "why-us",
-        "TITLE": "¿Por qué Portico Sport? Una Empresa Líder en Canchas de Pádel",
+        "TITLE": "¿Por qué elegir a Portico Sport en México? Líder en construcción de canchas de pádel",
         "POINT_1": {
-          "TITLE": "EXPERIENCIA",
-          "DESCRIPTION": "<strong>Con más de 15 años de experiencia en la gestión de grandes proyectos</strong> en cinco continentes, hemos desarrollado una red comercial internacional en cada área para proporcionar el mejor servicio a cada cliente."
+          "TITLE": "EXPERIENCIA GLOBAL",
+          "DESCRIPTION": "<strong>Con más de 15 años gestionando proyectos en todo el mundo</strong>, Portico Sport ha establecido una amplia red comercial internacional que nos permite brindar un servicio excepcional en cada rincón, incluyendo México. Nuestro profundo conocimiento del mercado nos permite entender las necesidades específicas de los clubes y comunidades deportivas en el país."
         },
         "POINT_2": {
-          "TITLE": "INNOVACIÓN",
-          "DESCRIPTION": "En nuestro compromiso con la innovación, Portico Sport ofrece el mejor diseño y calidad en nuestras pistas y cubiertas, con tiempos de entrega récord y garantías completas. Proporcionamos pistas de pádel y cubiertas con máxima resistencia y durabilidad."
+          "TITLE": "Innovación y 100% fabricación en fábrica",
+          "DESCRIPTION": "En Portico Sport, nos dedicamos a la innovación constante en el diseño de canchas de pádel y cubiertas deportivas, fabricadas íntegramente en nuestras instalaciones con estrictos estándares de calidad. Ofrecemos soluciones duraderas y altamente resistentes, con tiempos de entrega rápidos y garantía integral, ideales para las condiciones y exigencias del mercado mexicano."
         },
         "POINT_3": {
-          "TITLE": "CALIDAD PREMIUM",
-          "SUBTITLE": "Pistas de pádel que cumplen con regulaciones",
-          "DESCRIPTION": "Diseñadas y desarrolladas por el departamento de ingeniería de PORTICO SPORT para la práctica de pádel al más alto nivel, nuestras pistas de pádel cumplen con las regulaciones deportivas oficiales (NIDE 2004 Pádel), las regulaciones y estándares de la FIP (Federación Internacional de Pádel) y cálculos estructurales basados en la Norma «Instrucción de Acero Estructural (EAE)» y Código Americano: AISC-360 Y ASCE SEI 7-16-. Todas nuestras pistas cuentan con una garantía de 10 años (estabilidad estructural)."
+          "TITLE": "Cumplimiento de normativas oficiales",
+          "DESCRIPTION": "Nuestras canchas de pádel están diseñadas por el equipo de ingeniería de Portico Sport para cumplir con todas las regulaciones deportivas oficiales, como las normas NIDE 2004 y las directrices de la Federación Internacional de Pádel (FIP). Además, todas nuestras estructuras están calculadas según la \"Instrucción de Acero Estructural (EAE)\", el Código Americano AISC-360, y ASCE SEI 7-16 y las normativas australianas AS 4100 y AS/NZ S1170. Todas las canchas y cubiertas cuentan con una garantía estructural de 10 años, asegurando calidad y seguridad para los jugadores en todo el mundo."
         },
         "POINT_4": {
-          "TITLE": "EQUIPO - INGENIERÍA DEPORTIVA Y ARQUITECTURA",
-          "DESCRIPTION": "<strong>Como firma de ingeniería, Portico Sport proporciona un proceso de construcción integral de principio a fin</strong>, con un equipo de profesionales especializados que te guían en cada paso, reconociendo que cada proyecto es único."
+          "TITLE": "Equipo especializado en ingeniería deportiva",
+          "DESCRIPTION": "En Portico Sport, contamos con un equipo multidisciplinar especializado en el diseño y construcción de canchas de pádel y cubiertas deportivas. Ofrecemos un servicio integral desde la planeación hasta la ejecución, acompañándote en cada etapa para asegurar que cada cancha de pádel cumpla con los requerimientos específicos de tu instalación en México."
         }
       },
       "PROJECTS_SECTION": {
@@ -322,30 +321,30 @@
         "ID": "faqs",
         "TITLE": "Consulta a fabricantes de canchas de pádel en México",
         "SUBTITLE": "Preguntas Frecuentes",
-        "QUESTIONS": [{
-          "question": "¿Cuál es el tamaño de una pista de pádel estándar?",
-          "answer": "El tamaño estándar de una pista de pádel es de 20 metros de largo por 10 metros de ancho."
+       "QUESTIONS": [{
+          "question": "¿Cuáles son las dimensiones estándar de una cancha de pádel?",
+          "answer": "Las dimensiones estándar para una cancha de pádel son de 20 metros de largo y 10 metros de ancho."
         }, {
-          "question": "¿Qué materiales se utilizan en la construcción de una pista de pádel?",
-          "answer": "Los materiales más comunes para construir pistas de pádel incluyen hormigón para los cimientos o paredes, una estructura metálica resistente para crear el área de juego, vidrios y césped artificial."
+          "question": "¿Qué equipo es necesario para instalar una cancha de pádel?",
+          "answer": "Los componentes esenciales para instalar una cancha de pádel son: estructura de metal, paredes de vidrio y césped artificial. También es común incluir sistemas de iluminación, redes y otros accesorios que son opcionales para el disfrute de la cancha."
         }, {
-          "question": "¿Cuánto cuesta instalar una pista de pádel?",
-          "answer": "El coste de instalar una pista de pádel varia según sus características, como el tamaño de la pista, los materiales utilizados en su instalación, la ubicación geográfica y los servicios o características adicionales. Al depender de tantos factores, el precio oscila desde los 18.000 € (EXWORK)."
+          "question": "¿Cuál es el costo de importar e instalar una cancha de pádel en México?",
+          "answer": "El costo puede variar según el modelo de cancha de pádel que elijas y el número de canchas que planeas instalar. También influyen factores como la ubicación y los permisos locales. En Portico Sport ofrecemos una excelente relación calidad-precio para importar tu cancha de pádel a México."
         }, {
-          "question": "¿Qué mantenimiento requiere una pista de pádel?",
-          "answer": "Es imprescindible el mantenimiento regular de una pista de pádel para mantenerla en buenas condiciones. Para mantenerla en óptimas condiciones es necesaria la limpieza de las superficies, el mantenimiento y revisión de las estructuras, la sustitución del césped artificial cuando sea necesario y la reparación de cualquier daño o desgaste."
+          "question": "¿Qué tipo de mantenimiento necesita una cancha de pádel?",
+          "answer": "En México, una cancha de pádel requiere mantenimiento regular para mantener sus condiciones óptimas. Las tareas incluyen limpieza de la superficie, revisión de las estructuras y los vidrios, reemplazo del césped artificial cuando sea necesario, y atención inmediata a cualquier signo de desgaste o daño."
         }, {
-          "question": "¿Necesito permisos especiales para instalar una pista de pádel?",
-          "answer": "Dependiendo de las regulaciones locales y las leyes de urbanismo en tu área, es posible que necesites obtener permisos o licencias específicas para instalar una pista de pádel. Es recomendable consultar con las autoridades locales o un profesional especializado en la construcción de pistas de pádel para obtener información precisa sobre dichos permisos."
+          "question": "¿Se requieren permisos especiales para instalar una cancha de pádel en México?",
+          "answer": "Sí, es necesario contar con permisos y autorizaciones locales. Nuestro equipo te puede ayudar a gestionar los trámites necesarios ante las autoridades mexicanas para que tu proyecto esté en regla."
         }, {
-          "question": "¿Puedo personalizar el diseño de una pista de pádel?",
-          "answer": "¡Claro! Portico Sport ofrece múltiples opciones de personalización para las pistas de pádel, puedes elegir colores para las estructuras o el césped artificial, incorporar tu logotipo en diferentes partes de la pista y añadir diferentes componentes adicionales."
+          "question": "¿Se puede personalizar el diseño de una cancha de pádel?",
+          "answer": "Claro, ofrecemos opciones de personalización para canchas de pádel en México. Puedes elegir colores específicos para la estructura y el césped, , múltiples accesorios personalizados para la cancha y características adicionales que se adapten a la visión de tu proyecto."
         }, {
-          "question": "¿Hay opciones de financiación para la compra e instalación de una pista de pádel?",
-          "answer": "Portico Sport te asesora y ofrece diferentes opciones de financiación a través de varios acuerdos con entidades para ayudarte a adquirir y pagar una pista de pádel, ya sea con planes de pago a plazos o acuerdos de leasing."
-        }, {
-          "question": "¿Cuánto cuesta construir una pista de pádel?",
-          "answer": "El coste de construir una pista de pádel varia considerablemente dependiendo de varios factores, como el trabajo de preparación de terreno, el tipo de pista, los materiales utilizados, el espacio disponible o la ubicación y las opciones adicionales para la pista como la iluminación o añadir asientos. Generalmente, el precio de una pista de pádel estándar comienza en 18,000 € (EXWORK), pero los diseños personalizados y la elección de materiales pueden aumentar el coste final. Para obtener un presupuesto exacto, lo mejor es consultar con un fabricante profesional de pistas de pádel, como Portico Sport, para que pueda evaluar tus necesidades específicas."
+          "question": "¿Cuánto tiempo toma instalar una cancha de pádel?",
+          "answer": "El tiempo de instalación varía según factores como la necesidad de preparación del terreno, la ubicación, la complejidad del diseño y las condiciones climáticas. Por lo general, una instalación completa puede tardar varias semanas."
+        },{
+          "question": "¿Cuáles son las canchas de pádel más duraderas en el mercado?",
+          "answer": "Portico Sport es líder en innovación con modelos como Club Force 80 y Panoramic Force 80, que ofrecen una durabilidad excepcional. Estas canchas están diseñadas para resistir condiciones climáticas extremas, siendo ideales para diferentes entornos en México y asegurando un alto rendimiento y una larga vida útil."
         }]
       },    
         
