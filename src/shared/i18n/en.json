@@ -3356,12 +3356,14 @@
     "ID": "contact-form",
     "TITLE": "Reach our Padel Court Experts",
     "TITLE_UK":"Reach our UK Padel Court Professionals",
+    "TITLE_MX":"Conecta con nuestros expertos en pádel en México",
     "TITLE_USA":"Talk to Our Padel Experts in the United States",
     "TITLE_OCEANIA":"Connect with Our Padel Experts in Oceania",
     "TITLE_ZA":"Connect with our padel experts in south africa",
     "TITLE_CANOPIES":"Reach our Padel court canopies experts",
     "DESCRIPTION": "<p>Don't hesitate to contact our team of experts for more information on padel courts! We're here to answer all your questions and help you find the court that best suits your needs. Additionally, if you'd like, we can also design and build your own customized court according to your preferences and specifications. We look forward to hearing from you soon!</p>",
     "DESCRIPTION_ZA":"<p>Feel free to get in touch with our team for any questions about Padel courts and canopies! We're here to answer all your inquiries and guide you in selecting the perfect court for your needs. With extensive experience in padel court construction across South Africa, our skilled professionals are ready to design and build a court customized specifically to your preferences. If you're interested in understanding the costs involved in setting up a Padel court in South Africa, we can provide comprehensive estimates to help you plan your project smoothly. We look forward to connecting with you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales inquiries please contact <a class=text__glowing href=mailto:southafrica@porticosport.com>southafrica@porticosport.com</a></p>",
+     "DESCRIPTION_MX":"<p>No dudes en ponerte en contacto con nuestro equipo para cualquier consulta sobre canchas de pádel y cubiertas. Estamos aquí para resolver todas tus dudas y guiarte en la selección de la cancha ideal para tus necesidades. Con amplia experiencia en la construcción de canchas de pádel en todo el mundo, nuestros profesionales están listos para diseñar y construir una cancha personalizada de acuerdo con tus preferencias. Si deseas conocer los costos para instalar una cancha de pádel en México, te ofrecemos estimaciones detalladas que te ayudarán a planear tu proyecto de manera eficiente. ¡Esperamos conectar contigo pronto!</p><p class=text-lg text-pretty font-thin text-current text-left>Para consultas de ventas, escribe a: <a class=text__glowing href=mailto:mexico@porticosport.com>mexico@porticosport.com</a></p>",
     "FORM": {
       "NAME": {
         "ID": "name",
