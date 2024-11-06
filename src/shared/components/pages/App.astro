@@ -81,7 +81,8 @@ const posts = await response.json();
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
     />   
 
-    <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+   <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover lazy-bg" data-bg="projects-map.webp"></div>
+
 </section>
 <SectionBento language={language} />
     <SectionComplements language={language} />
@@ -111,4 +112,27 @@ const posts = await response.json();
     window.open('https://www.hexagoncup.com/', '_blank');
   });
 
+document.addEventListener('DOMContentLoaded', () => {
+  const lazyBgElements = document.querySelectorAll('.lazy-bg');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const element = entry.target;
+        const bgImage = element.getAttribute('data-bg');
+        element.style.backgroundImage = `url(${bgImage})`;  
+        observer.unobserve(element); 
+      }
+    });
+  });
+
+  lazyBgElements.forEach(element => {
+    observer.observe(element); 
+  });
+});
+
 </script>
+.lazy-bg {
+  background-image: none;
+}
+
