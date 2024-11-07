@@ -154,7 +154,325 @@
           {
             "src": "/clubes/Spain/el-encinar/thumbnails/el-encinar-17.webp",
             "alt": "Courts in Club el Encinar - Spain"
+          },
+          {
+        "projectId": "break-padel-sabadell",
+        "country": "Spain",
+        "projectName": "Break Padel",
+        "website": "https://www.breakpadelsabadell.com/",
+        "projectsCourts": "11 Tournament Courts",
+        "projectCity": "Sabadell",
+        "projectLogo": "/clubes/Spain/Break Padel Sabadell/Break-Padel-Logo.webp",
+        "route": "/projects/break-padel-sabadell",
+        "images": [
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-1.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-2.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-3.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-4.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-5.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-6.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-7.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-8.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Break Padel Sabadell/thumbnails/Break-Padel-9.webp",
+            "alt": "Courts in Break Padel Sabadell - Spain"
           }
+         
+        ],
+        "items": 9
+      },
+      {
+        "projectId": "cns-padell",
+        "country": "Spain",
+        "projectName": "CNS Padel",
+        "website": "https://www.cnspadel.com/",
+        "projectsCourts": "11 Panoramic Courts",
+        "projectCity": "Sabadell",
+        "projectLogo": "/clubes/Spain/CNS Padel/logo.webp",
+        "route": "/projects/cns-padel",
+        "images": [
+          {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-1.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-2.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-3.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-4.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-5.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-6.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-7.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          },
+           {
+            "src": "/clubes/Spain/CNS Padel/thumbnails/Cns-Padel-8.webp",
+            "alt": "Courts in CNS Padel - Spain"
+          }
+          
+        ],
+        "items": 8
+      },
+      {
+        "projectId": "guarena",
+        "country": "Spain",
+        "projectName": "Ayto. de Guareña",
+        "website": "https://aytoguarena.es/",
+        "projectsCourts": "2 Club Courts",
+        "projectCity": "Guareña",
+        "projectLogo": "/clubes/Spain/Guarena/Guarena-Escudo.webp",
+        "route": "/projects/guarena",
+        "images": [
+          {
+            "src": "/clubes/Spain/Guarena/thumbnails/Guarena-1.webp",
+            "alt": "Courts in Ayto. de Guareña - Spain"
+          },
+            {
+            "src": "/clubes/Spain/Guarena/thumbnails/Guarena-2.webp",
+            "alt": "Courts in Ayto. de Guareña - Spain"
+          }, {
+            "src": "/clubes/Spain/Guarena/thumbnails/Guarena-3.webp",
+            "alt": "Courts in Ayto. de Guareña - Spain"
+          }, {
+            "src": "/clubes/Spain/Guarena/thumbnails/Guarena-4.webp",
+            "alt": "Courts in Ayto. de Guareña - Spain"
+          }, {
+            "src": "/clubes/Spain/Guarena/thumbnails/Guarena-5.webp",
+            "alt": "Courts in Ayto. de Guareña - Spain"
+          }
+          
+        ],
+        "items": 5
+      },
+      {
+        "projectId": "nexxo-club",
+        "country": "Spain",
+        "projectName": "Nexxo Club",
+        "website": "https://nexxo.club/",
+        "projectsCourts": "6 Tournament Courts",
+        "projectCity": "Málaga",
+        "projectLogo": "/clubes/Spain/Nexxo Club/Nexxo-Club-Logo.webp",
+        "route": "/projects/nexxo-club",
+        "images": [
+          {
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-1.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-2.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          },
+          {
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-3.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          },{
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-4.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          },{
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-5.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          },{
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-6.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          },{
+            "src": "/clubes/Spain/Nexxo Club/thumbnails/Nexxo-Club-7.webp",
+            "alt": "Courts in Nexxo Club - Spain"
+          }
+        
+          
+        ],
+        "items": 7
+      },
+      {
+        "projectId": "padel-bizkaia",
+        "country": "Spain",
+        "projectName": "Padel Bizkaia",
+        "website": "https://padelbizkaia.com/",
+        "projectsCourts": "10 Panoramic Courts",
+        "projectCity": "Zamudio",
+        "projectLogo": "/clubes/Spain/Padel bizkaia/logo-padel-bizkaia.webp",
+        "route": "/projects/padel-bizkaia",
+        "images": [
+          {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-1.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },
+             {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-2.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-3.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-4.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-5.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-6.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-7.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-8.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          },   {
+            "src": "/clubes/Spain/Padel bizkaia/thumbnails/Padel-Bizkaia-9.webp",
+            "alt": "Courts in Padel Bizkaia - Spain"
+          }
+        
+        ],
+        "items": 9
+      },
+       {
+        "projectId": "padel-sende",
+        "country": "Spain",
+        "projectName": "Padel Sense",
+        "website": "https://www.instagram.com/padelsense",
+        "projectsCourts": "4 club courts and 1 Tournament court",
+        "projectCity": "Alcorcón",
+        "projectLogo": "/clubes/Spain/Padel Sense/PadelSense-logo.webp",
+        "route": "/projects/padel-sense",
+        "images": [
+          {
+            "src": "/clubes/Spain/Padel Sense/thumbnails/PadelSense-1.webp",
+            "alt": "Courts in Padel Sense - Spain"
+          },  {
+            "src": "/clubes/Spain/Padel Sense/thumbnails/PadelSense-2.webp",
+            "alt": "Courts in Padel Sense - Spain"
+          },  {
+            "src": "/clubes/Spain/Padel Sense/thumbnails/PadelSense-3.webp",
+            "alt": "Courts in Padel Sense - Spain"
+          },  {
+            "src": "/clubes/Spain/Padel Sense/thumbnails/PadelSense-4.webp",
+            "alt": "Courts in Padel Sense - Spain"
+          },  {
+            "src": "/clubes/Spain/Padel Sense/thumbnails/PadelSense-5.webp",
+            "alt": "Courts in Padel Sense - Spain"
+          }
+             
+        ],
+        "items": 5
+      },
+        {
+        "projectId": "sodupe",
+        "country": "Spain",
+        "projectName": "Ayto. de Sodupe",
+        "website": "https://www.guenes.eus/",
+        "projectsCourts": "1 Canopy",
+        "projectCity": "Sodupe",
+        "projectLogo": "/clubes/Spain/Sodupe/Sodupe-Escudo.webp",
+        "route": "/projects/sodupe",
+        "images": [
+          {
+            "src": "/clubes/Spain/Sodupe/thumbnails/SODUPE-1.webp",
+            "alt": "Courts in Ayto. de Sodupe - Spain"
+          }, {
+            "src": "/clubes/Spain/Sodupe/thumbnails/SODUPE-2.webp",
+            "alt": "Courts in Ayto. de Sodupe - Spain"
+          }, {
+            "src": "/clubes/Spain/Sodupe/thumbnails/SODUPE-3.webp",
+            "alt": "Courts in Ayto. de Sodupe - Spain"
+          }, {
+            "src": "/clubes/Spain/Sodupe/thumbnails/SODUPE-4.webp",
+            "alt": "Courts in Ayto. de Sodupe - Spain"
+          }
+             
+        ],
+        "items": 4
+      },
+        {
+        "projectId": "valle-de-matamoros",
+        "country": "Spain",
+        "projectName": "Ayto. de Valle de Matamoros",
+        "website": "https://valledematamoros.com/",
+        "projectsCourts": "1 Club Court",
+        "projectCity": "Valle de Matamoros",
+        "projectLogo": "/clubes/Spain/Valle de Matamoros/Escudo.webp",
+        "route": "/projects/valle-matamoros",
+        "images": [
+          {
+            "src": "/clubes/Spain/Valle de Matamoros/thumbnails/Valle-Matamoros-1.webp",
+            "alt": "Courts in Ayto. de Valle de Matamoros - Spain"
+          },  {
+            "src": "/clubes/Spain/Valle de Matamoros/thumbnails/Valle-Matamoros-2.webp",
+            "alt": "Courts in Ayto. de Valle de Matamoros - Spain"
+          }, {
+            "src": "/clubes/Spain/Valle de Matamoros/thumbnails/Valle-Matamoros-3.webp",
+            "alt": "Courts in Ayto. de Valle de Matamoros - Spain"
+          }, {
+            "src": "/clubes/Spain/Valle de Matamoros/thumbnails/Valle-Matamoros-4.webp",
+            "alt": "Courts in Ayto. de Valle de Matamoros - Spain"
+          }
+        ],
+        "items": 4
+      },
+        {
+        "projectId": "wild-padel",
+        "country": "Spain",
+        "projectName": "Wild Padel Indoor",
+        "website": "https://www.instagram.com/wildpadelindoor/",
+        "projectsCourts": "3 Tournament courts",
+        "projectCity": "Dos Hermanas",
+        "projectLogo": "/clubes/Spain/Wild Padel/WildPadel-logo.webp",
+        "route": "/projects/wild-padel",
+        "images": [
+          {
+            "src": "/clubes/Spain/Wild Padel/thumbnails/Wild-Padel-Indoor-1.webp",
+            "alt": "Courts in Wild Padel Indoor - Spain"
+          },   {
+            "src": "/clubes/Spain/Wild Padel/thumbnails/Wild-Padel-Indoor-2.webp",
+            "alt": "Courts in Wild Padel Indoor - Spain"
+          },  {
+            "src": "/clubes/Spain/Wild Padel/thumbnails/Wild-Padel-Indoor-3.webp",
+            "alt": "Courts in Wild Padel Indoor - Spain"
+          },  {
+            "src": "/clubes/Spain/Wild Padel/thumbnails/Wild-Padel-Indoor-4.webp",
+            "alt": "Courts in Wild Padel Indoor - Spain"
+          }
+        ],
+        "items": 4
+      }
         ],
         "items": 17
       }
