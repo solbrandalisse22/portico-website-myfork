@@ -738,7 +738,10 @@
           {
             "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-6.webp",
             "alt": "Courts in David Lloyd Veigy - France"
-          }
+          } 
+        ], 
+           "items": 6 
+         }
     ],
     "route": "/projects/France"
   },
