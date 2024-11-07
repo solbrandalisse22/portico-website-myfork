@@ -305,7 +305,7 @@
         "shortdescription": "",
         "projectCity": "Baião",
         "projectLogo": "/clubes/Portugal/Baião/Baiao-Logo.webp",
-        "route": "/projects/blue-padel-kourts",
+        "route": "/projects/baiaro",
         "images": [
           {
             "src": "/clubes/Portugal/Baião/thumbnails/Baiao-1.webp",
@@ -341,6 +341,102 @@
           }
         ],
         "items": 8
+      },
+      {
+        "projectId": "oeiras",
+        "country": "Portugal",
+        "projectName": "Município de Oeiras",
+        "website": "",
+        "projectsCourts": "2 Club Courts",
+        "shortdescription": "",
+        "projectCity": "Oeiras",
+        "projectLogo": "/clubes/Portugal/Oeiras/Oeiras-Logo.webp",
+        "route": "/projects/oeiras",
+        "images": [
+          {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-1.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          },
+         {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-2.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-3.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-4.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-5.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-6.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Oeiras/thumbnails/Oeiras-7.webp",
+            "alt": "Courts in Município de Oeiras - Portugal"
+          }
+        ],
+        "items": 7
+      },
+       {
+        "projectId": "boavista-golf",
+        "country": "Portugal",
+        "projectName": "Boavista Golf & Spa",
+        "website": "https://www.boavistaresort.pt/",
+        "projectsCourts": "3 Club courts",
+        "shortdescription": "",
+        "projectCity": "Lagos",
+        "projectLogo": "/clubes/Portugal/Boavista-Golf/Boavista-Golfe-Spa-Resort.svg",
+        "route": "/projects/oeiras",
+        "images": [
+          {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-1.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+         {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-2.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-3.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-4.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-5.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-6.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-7.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-8.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-9.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Boavista-Golf/thumbnails/Boavista-Golf-10.webp",
+            "alt": "Courts in Boavista Golf & Spa - Portugal"
+          }
+        ],
+        "items": 10
       }
     ],
     "route": "/projects/Portugal"
