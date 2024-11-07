@@ -295,6 +295,52 @@
           }
         ],
         "items": 19
+      },
+       {
+        "projectId": "baiao",
+        "country": "Portugal",
+        "projectName": "Município de Baião",
+        "website": "https://cm-baiao.pt/",
+        "projectsCourts": "1 Club Court",
+        "shortdescription": "",
+        "projectCity": "Baião",
+        "projectLogo": "/clubes/Portugal/Baião/Baiao-Logo.webp",
+        "route": "/projects/blue-padel-kourts",
+        "images": [
+          {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-1.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-2.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-3.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-4.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-5.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-6.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-7.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Baião/thumbnails/Baiao-8.webp",
+            "alt": "Courts in Município de Baião - Portugal"
+          }
+        ],
+        "items": 8
       }
     ],
     "route": "/projects/Portugal"
