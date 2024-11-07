@@ -704,7 +704,7 @@
         ],
         "items": 9
       },
-       {
+         {
         "projectId": "david-lloyd-veigy",
         "country": "France",
         "projectName": "David LLoyd Veigy",
@@ -716,32 +716,29 @@
         "route": "/projects/david-lloyd",
         "images": [
           {
-            "src": "/clubes/France/David-Lloyd-/thumbnails/David-Lloyd-Veigy-1.webp",
+            "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-1.webp",
             "alt": "Courts in David Lloyd Veigy - France"
           },
           {
-            "src": "/clubes/France/David-Lloyd-/thumbnails/David-Lloyd-Veigy-2.webp",
+            "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-2.webp",
             "alt": "Courts in David Lloyd Veigy - France"
           },
           {
-            "src": "/clubes/France/David-Lloyd-/thumbnails/David-Lloyd-Veigy-3.webp",
+            "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-3.webp",
             "alt": "Courts in David Lloyd Veigy - France"
           },
           {
-            "src": "/clubes/France/David-Lloyd-/thumbnails/David-Lloyd-Veigy-4.webp",
+            "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-4.webp",
             "alt": "Courts in David Lloyd Veigy - France"
           },
           {
-            "src": "/clubes/France/David-Lloyd-/thumbnails/David-Lloyd-Veigy-5.webp",
+            "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-5.webp",
             "alt": "Courts in David Lloyd Veigy - France"
           },
           {
-            "src": "/clubes/France/David-Lloyd-/thumbnails/David-Lloyd-Veigy-6.webp",
+            "src": "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-6.webp",
             "alt": "Courts in David Lloyd Veigy - France"
           }
-        ],
-        "items": 6
-      }
     ],
     "route": "/projects/France"
   },
