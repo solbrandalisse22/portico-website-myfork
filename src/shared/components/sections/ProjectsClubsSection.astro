@@ -11,7 +11,7 @@ const projectsToShow = projects.slice(0, projectsLength - (projectsLength % 4))
 
 <Section heading={title} subheading={subtitle}>
   <div class="club-grid gap-3 lg:gap-6">
-    {projectsToShow.map(({projectLogo, projectName})=> <a href="#map"><Image src={projectLogo} alt={projectName} width={160} height={160} class="rounded-full border-secondary border-4 object-cover xs:w-[80px] xs:h-[80px]" /></a>)}
+    {projectsToShow.map(({projectLogo, projectName})=> <a href="#map"><Image src={projectLogo} alt={projectName} width={160} height={160} class="rounded-full border-secondary border-4 object-cover" /></a>)}
   </div>
 </Section>
 
@@ -43,9 +43,14 @@ const projectsToShow = projects.slice(0, projectsLength - (projectsLength % 4))
       }
     }
   }
-  @media (min-width: 375px){
+ @media (min-width: 375px) and (max-width:639px){
     .club-grid{
-      grid-template-columns: repeat(4, minmax(80px, 1fr));
+      grid-template-columns: repeat(4, minmax(100px, 1fr));
 
     }
+    .club-grid img{
+     width: 100px;
+     height: 100px;
+    }
+  }
 </style>
