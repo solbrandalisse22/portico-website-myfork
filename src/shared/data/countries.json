@@ -753,7 +753,7 @@
           }
         ],
         "items": 10
-      },
+      },{
        "projectId": "villa-padel",
         "country": "Portugal",
         "projectName": "Villa Padel",
@@ -791,7 +791,7 @@
          
         ],
         "items": 6
-      },
+      },{
    "projectId": "monsaraz-padel-club",
         "country": "Portugal",
         "projectName": "Monsaraz Padel Club",
@@ -1222,7 +1222,7 @@
           }
         ],
         "items": 12
-      },
+      },{
       "projectId": "vakantiepark",
         "country": "Netherlands",
         "projectName": "Vakantiepark De Zeeuwse Parel",
@@ -1257,7 +1257,7 @@
           }
         ],
         "items": 7
-      },
+      },{
           "projectId": "padel-mate-hoorn",
         "country": "Netherlands",
         "projectName": "Padel Mate Club",
@@ -1645,7 +1645,7 @@
           }
         ],
         "items": 4
-      },
+      },{
        "projectId": "dea-padel",
         "country": "Italy",
         "projectName": "Dea Padel",
