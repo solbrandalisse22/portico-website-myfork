@@ -753,6 +753,82 @@
           }
         ],
         "items": 10
+      },
+       "projectId": "villa-padel",
+        "country": "Portugal",
+        "projectName": "Villa Padel",
+        "website": "https://www.padelmoz.pt/",
+        "projectsCourts": "4 Tournament Courts",
+        "shortdescription": "",
+        "projectCity": "Estremoz",
+        "projectLogo": "/clubes/Portugal/Villa Padel/Villa-Padel-logo.webp",
+        "route": "/projects/villa-padel",
+        "images": [
+          {
+            "src": "/clubes/Portugal/Villa Padel/thumbnails/Villa-Padel-1.webp",
+            "alt": "Courts in Villa Padel - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Villa Padel/thumbnails/Villa-Padel-2.webp",
+            "alt": "Courts in Villa Padel - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Villa Padel/thumbnails/Villa-Padel-3.webp",
+            "alt": "Courts in Villa Padel - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Villa Padel/thumbnails/Villa-Padel-4.webp",
+            "alt": "Courts in Villa Padel - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Villa Padel/thumbnails/Villa-Padel-5.webp",
+            "alt": "Courts in Villa Padel - Portugal"
+          },
+          {
+            "src": "/clubes/Portugal/Villa Padel/thumbnails/Villa-Padel-6.webp",
+            "alt": "Courts in Villa Padel - Portugal"
+          },
+         
+        ],
+        "items": 6
+      },
+   "projectId": "monsaraz-padel-club",
+        "country": "Portugal",
+        "projectName": "Monsaraz Padel Club",
+        "website": "https://monsarazpadelclub.pt/",
+        "projectsCourts": "5 Tournament Courts",
+        "shortdescription": "",
+        "projectCity": "Monsaraz",
+        "projectLogo": "/clubes/Portugal/Monsaraz Padel Club/Monsaraz-logo.webp",
+        "route": "/projects/monsaraz-padel-club",
+        "images": [
+          {
+            "src": "/clubes/Portugal/Monsaraz Padel Club/thumbnails/Monsaraz-Padel-1.webp",
+            "alt": "Courts in Monsaraz Padel Club - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Monsaraz Padel Club/thumbnails/Monsaraz-Padel-2.webp",
+            "alt": "Courts in Monsaraz Padel Club - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Monsaraz Padel Club/thumbnails/Monsaraz-Padel-3.webp",
+            "alt": "Courts in Monsaraz Padel Club - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Monsaraz Padel Club/thumbnails/Monsaraz-Padel-4.webp",
+            "alt": "Courts in Monsaraz Padel Club - Portugal"
+          },
+           {
+            "src": "/clubes/Portugal/Monsaraz Padel Club/thumbnails/Monsaraz-Padel-5.webp",
+            "alt": "Courts in Monsaraz Padel Club - Portugal"
+          },
+   {
+            "src": "/clubes/Portugal/Monsaraz Padel Club/thumbnails/Monsaraz-Padel-6.webp",
+            "alt": "Courts in Monsaraz Padel Club - Portugal"
+          },
+       
+        ],
+        "items": 6
       }
     ],
     "route": "/projects/Portugal"
@@ -1146,6 +1222,71 @@
           }
         ],
         "items": 12
+      },
+      "projectId": "vakantiepark",
+        "country": "Netherlands",
+        "projectName": "Vakantiepark De Zeeuwse Parel",
+        "website": "https://www.vakantiepark-dezeeuwseparel.nl/faciliteiten/padelbanen",
+        "projectsCourts": "2 Tournament courts",
+        "shortdescription": "Courts built in collaboration with Padel Mate Club in Zeeland.",
+        "projectCity": "Scherpenisse",
+        "projectLogo": "/clubes/Netherlands/Vakantiepark/Vakantiepark-logo.webp",
+        "route": "/projects/vakantiepark",
+        "images": [
+          {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-1.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          },  {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-2.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          },  {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-3.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          },  {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-4.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          },  {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-5.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          },  {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-6.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          },  {
+            "src": "/clubes/Netherlands/Vakantiepark/thumbnails/Vakantiepark-7.webp",
+            "alt": "Courts in Vakantiepark De Zeeuwse Parel - Netherlands"
+          }
+        ],
+        "items": 7
+      },
+          "projectId": "padel-mate-hoorn",
+        "country": "Netherlands",
+        "projectName": "Padel Mate Club",
+        "website": "https://padelmateclub.nl/",
+        "projectsCourts": "3 Panoramic courts",
+        "shortdescription": "Padel Mate Club Hoorn is a new club expanding the padel scene in the Netherlands.",
+        "projectCity": "Hoorn",
+        "projectLogo": "/clubes/Netherlands/padel-mate-club/padel-mate-club-logo.webp",
+        "route": "/projects/padel-mate-hoorn",
+        "images": [
+          {
+            "src": "/clubes/Netherlands/Padel Mate Hoorn/thumbnails/Padel-Mate-Hoorn-1.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },   {
+            "src": "/clubes/Netherlands/Padel Mate Hoorn/thumbnails/Padel-Mate-Hoorn-2.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },   {
+            "src": "/clubes/Netherlands/Padel Mate Hoorn/thumbnails/Padel-Mate-Hoorn-3.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },   {
+            "src": "/clubes/Netherlands/Padel Mate Hoorn/thumbnails/Padel-Mate-Hoorn-4.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          },   {
+            "src": "/clubes/Netherlands/Padel Mate Hoorn/thumbnails/Padel-Mate-Hoorn-5.webp",
+            "alt": "Courts in Padel Mate Club - Netherlands"
+          }
+         
+        ],
+        "items": 5
       }
     ],
     "route": "/projects/Netherlands"
@@ -1504,7 +1645,46 @@
           }
         ],
         "items": 4
+      },
+       "projectId": "dea-padel",
+        "country": "Italy",
+        "projectName": "Dea Padel",
+        "website": "https://www.instagram.com/dea.padel.riposto/",
+        "projectsCourts": "2 Club courts",
+        "shortdescription": "",
+        "projectCity": "Riposto",
+        "projectLogo": "/clubes/Italy/Dea Padel/Dea-Padel-logo.webp",
+        "route": "/projects/dea-padel",
+        "images": [
+          {
+            "src": "/clubes/Italy/Dea Padel/thumbnails/Dea-Padel-1.webp",
+            "alt": "Courts in Dea Padel - Italy"
+          },
+        {
+            "src": "/clubes/Italy/Dea Padel/thumbnails/Dea-Padel-2.webp",
+            "alt": "Courts in Dea Padel - Italy"
+          },
+        {
+            "src": "/clubes/Italy/Dea Padel/thumbnails/Dea-Padel-3.webp",
+            "alt": "Courts in Dea Padel - Italy"
+          },
+        {
+            "src": "/clubes/Italy/Dea Padel/thumbnails/Dea-Padel-4.webp",
+            "alt": "Courts in Dea Padel - Italy"
+          },
+        {
+            "src": "/clubes/Italy/Dea Padel/thumbnails/Dea-Padel-5.webp",
+            "alt": "Courts in Dea Padel - Italy"
+          },
+        {
+            "src": "/clubes/Italy/Dea Padel/thumbnails/Dea-Padel-6.webp",
+            "alt": "Courts in Dea Padel - Italy"
+          }
+         
+        ],
+        "items": 6
       }
+      
     ],
     "route": "/projects/Italy"
   },
