@@ -6,7 +6,7 @@ const { countries, title, subtitle } = Astro.props
 const projects = countries.filter(({ projects }) => projects).map(({ projects }) => projects.filter(({projectLogo}) => projectLogo)).flat()
 // mostrar un número de projectos múltiplo de 4
 const projectsLength = projects.length
-const projectsToShow = projects.slice(0, projectsLength - (projectsLength % 4))
+const projectsToShow = projects.slice(0, projectsLength - (projectsLength % 10))
 ---
 
 <Section heading={title} subheading={subtitle}>
