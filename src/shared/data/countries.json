@@ -3186,6 +3186,7 @@
   {
     "country": "Puerto Rico",
     "id": "Puerto Rico",
+    "continent":"America",
     "coordinates": [-66.5901, 18.2208],
      "projects": [
       {
