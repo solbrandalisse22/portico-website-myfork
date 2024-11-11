@@ -3190,7 +3190,61 @@
   {
     "country": "Puerto Rico",
     "id": "Puerto Rico",
-    "coordinates": [-66.5901, 18.2208]
+    "coordinates": [-66.5901, 18.2208],
+     "projects": [
+      {
+        "projectId": "dorado-beach-resort",
+        "projectsCourts": "2 Club courts",
+        "projectLogo": "/clubes/Puerto Rico/Dorado Beach/Dorado-Beach-logo.webp",
+        "projectName": "Dorado Beach Resort",
+        "projectCity": "Dorado",
+        "description": "",
+        "route": "/projects/dorado-beach-club",
+        "website": "https://www.doradobeach.com/",
+        "images": [
+          {
+            "src": "/clubes/Puerto Rico/Dorado Beach/thumbnails/Dorado-Beach-1.webp",
+            "alt": "Courts in Dorado Beach Club - Puerto Rico"
+          },  {
+            "src": "/clubes/Puerto Rico/Dorado Beach/thumbnails/Dorado-Beach-2.webp",
+            "alt": "Courts in Dorado Beach Club - Puerto Rico"
+          },  {
+            "src": "/clubes/Puerto Rico/Dorado Beach/thumbnails/Dorado-Beach-3.webp",
+            "alt": "Courts in Dorado Beach Club - Puerto Rico"
+          }
+    
+        ],
+        "items": 3
+      },{
+        "projectId": "puerto-rico-cup",
+        "projectsCourts": "1 Tournament Court ",
+        "projectLogo": "/clubes/Puerto Rico/Puerto Rico Cup/PuertoRico-Logo.webp",
+        "projectName": "Puerto Rico Invitational Padel Cup",
+        "projectCity": "San Juan",
+        "description": "The first professional padel event in Puerto Rico.",
+        "route": "/projects/puerto-rico-cup",
+        "website": "https://www.instagram.com/puertoricopadelcup/",
+        "images": [
+          {
+            "src": "/clubes/Puerto Rico/Puerto Rico Cup/thumbnails/Puerto-Rico-Padel-Cup-1.webp",
+            "alt": "Courts in Puerto Rico Invitational Padel Cup - Puerto Rico"
+          },  {
+            "src": "/clubes/Puerto Rico/Puerto Rico Cup/thumbnails/Puerto-Rico-Padel-Cup-2.webp",
+            "alt": "Courts in Puerto Rico Invitational Padel Cup - Puerto Rico"
+          },  {
+            "src": "/clubes/Puerto Rico/Puerto Rico Cup/thumbnails/Puerto-Rico-Padel-Cup-3.webp",
+            "alt": "Courts in Puerto Rico Invitational Padel Cup - Puerto Rico"
+          },  {
+            "src": "/clubes/Puerto Rico/Puerto Rico Cup/thumbnails/Puerto-Rico-Padel-Cup-4.webp",
+            "alt": "Courts in Puerto Rico Invitational Padel Cup - Puerto Rico"
+          },  {
+            "src": "/clubes/Puerto Rico/Puerto Rico Cup/thumbnails/Puerto-Rico-Padel-Cup-5.webp",
+            "alt": "Courts in Puerto Rico Invitational Padel Cup - Puerto Rico"
+          }
+    
+        ],
+        "items": 5
+      }
   },
   {
     "country": "Ireland",
