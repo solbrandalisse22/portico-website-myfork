@@ -3133,52 +3133,7 @@
     "id": "Germany",
     "coordinates": [10.4515, 51.1657],
     "projects": [
-      {
-        "projectId": "padelon-deutschland",
-        "country": "Germany",
-        "projectName": "Padelon Deutschland",
-        "website": "https://www.padelon.de/",
-        "projectsCourts": "Multiple courts across several of its clubs.",
-        "shortdescription": "We installed several courts across its clubs, available for players to enjoy padel.",
-        "projectCity": "Hamburg",
-        "projectLogo": "/clubes/Germany/padelon-deutschland/padelon-deutschland-logo.webp",
-        "route": "/projects/padelon-deutschland",
-        "images": [
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-1.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-2.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-3.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-4.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-5.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-6.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-7.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          },
-          {
-            "src": "/clubes/Germany/padelon-deutschland/thumbnails/padelon-deutschland-8.webp",
-            "alt": "Courts in Padelon Deutschland - Germany"
-          }
-        ],
-        "items": 8
-      },
+      
       {
         "projectId": "hannove-private-courts",
         "country": "Germany",
