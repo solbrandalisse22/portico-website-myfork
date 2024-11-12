@@ -3367,9 +3367,17 @@
           },  {
             "src": "/clubes/Germany/Padelon-Heilbronn/thumbnails/Padelon-Heilbronn-7.webp",
             "alt": "Courts in Padelon Heilbronn - Germany"
+          },
+          {
+            "src": "/clubes/Germany/Padelon-Heilbronn/thumbnails/Padelon-Heilbronn-8.webp",
+            "alt": "Courts in Padelon Heilbronn - Germany"
+          },
+          {
+            "src": "/clubes/Germany/Padelon-Heilbronn/thumbnails/Padelon-Heilbronn-9.webp",
+            "alt": "Courts in Padelon Heilbronn - Germany"
           }
         ],
-        "items": 7
+        "items": 9
       }, {
         "projectId": "padelon-hamburg-rahlstedt",
         "country": "Germany",
