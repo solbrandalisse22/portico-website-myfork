@@ -3410,6 +3410,67 @@
           }
         ],
         "items": 6
+      },
+      {
+        "projectId": "tsg-1885-augsburg",
+        "country": "Germany",
+        "projectName": "TSG 1885 Augsburg-Lechhausen e. V.",
+        "website": "https://www.tsg-augsburg.de/",
+        "projectsCourts": "1 Club court",
+        "projectCity": "Augsburg",
+        "projectLogo": "/clubes/Germany/TSG 1885 Augsburg/TSG 1885 Augsburg-logo.webp",
+        "route": "/projects/tsg-1885-augsburg",
+        "images": [
+          {
+            "src": "/clubes/Germany/TSG 1885 Augsburg/thumbnails/TSG-1885-Augsburg-1.webp",
+            "alt": "Courts in TSG 1885 Augsburg-Lechhausen e. V. - Germany"
+          }, {
+            "src": "/clubes/Germany/TSG 1885 Augsburg/thumbnails/TSG-1885-Augsburg-2.webp",
+            "alt": "Courts in TSG 1885 Augsburg-Lechhausen e. V. - Germany"
+          }, {
+            "src": "/clubes/Germany/TSG 1885 Augsburg/thumbnails/TSG-1885-Augsburg-3.webp",
+            "alt": "Courts in TSG 1885 Augsburg-Lechhausen e. V. - Germany"
+          }, {
+            "src": "/clubes/Germany/TSG 1885 Augsburg/thumbnails/TSG-1885-Augsburg-4.webp",
+            "alt": "Courts in TSG 1885 Augsburg-Lechhausen e. V. - Germany"
+          }
+           
+        ],
+        "items": 4
+      },{
+        "projectId": "racket-sport-park",
+        "country": "Germany",
+        "projectName": "Racket Sport Park",
+        "website": "https://www.racketsportpark.de/",
+        "projectsCourts": "1 Club court",
+        "projectCity": "Osnabrück",
+        "projectLogo": "/clubes/Germany/Racket Sport Park/racket-sport-park-logo.webp",
+        "route": "/projects/racket-sport-park",
+        "images": [
+          {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-1.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          },  {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-2.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          },  {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-3.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          },  {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-4.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          },  {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-5.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          },  {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-6.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          },  {
+            "src": "/clubes/Germany/Racket Sport Park/thumbnails/Racket-Sport-Park-7.webp",
+            "alt": "Courts in Racket Sport Park - Germany"
+          }
+        ],
+        "items": 7
       }
     ],
     "route": "/projects/Germany"
