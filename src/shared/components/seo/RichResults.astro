@@ -205,6 +205,45 @@ const TYPES = {
   }
 
   }, 
+PRODUCT_ES{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": i18n.PAGES[key].ROUTE.BREADCRUMB,
+    "image": i18n.PAGES[key].OG_IMG,
+    "description": i18n.PAGES[key].SEO_DESCRIPTION,
+    "brand": {
+      "@type": "Brand",
+      "name": "PorticoSport"
+    },
+    "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    "price": "18000",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.porticosport.es"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "reviewCount": "35"
+  },
+    
+    "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Geno Hernandez"
+    },
+    "datePublished": "2023-08-14",
+    "reviewBody": "calidad y rapidez. Muchas gracias a todo el equipo de Pórtico Sport por el buen trabajo. Estamos encantados con nuestras pistas.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    }
+  }
+    
+  },
 FAQS_ES:{
     "@context":"https//schema.org",
     "@type":"FAQPage",
@@ -528,7 +567,7 @@ SINGLE: {
 
 let schema = pathname === "/uk" ? [TYPES.UK, TYPES.UKBC]: 
 pathname === "/padel-court-usa" ? [TYPES.USA, TYPES.USABC]: 
-language === "es" ? [TYPES.PRODUCT, TYPES.ES, TYPES.FAQS_ES] :
+language === "es" ? [TYPES.PRODUCT_ES, TYPES.ES, TYPES.FAQS_ES] :
 pathname === "/oceania" ? [TYPES.DEFAULT, TYPES.OCEANIA]: 
 pathname === "/indoor-padel-court" ? [TYPES.DEFAULT, TYPES.INDOOR] :
 pathname === "/outdoor-padel-court" ? [TYPES.DEFAULT, TYPES.OUTDOOR] :
