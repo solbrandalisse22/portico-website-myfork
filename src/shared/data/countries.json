@@ -3471,6 +3471,102 @@
           }
         ],
         "items": 7
+      },    {
+        "projectId": "condor-padel",
+        "country": "Germany",
+        "projectName": "Condor Padel",
+        "website": "https://www.condorpadel.de/",
+        "projectsCourts": "1 Tournament court and 1 canopy",
+        "projectCity": "Hamburg",
+        "projectLogo": "/clubes/Germany/Condor Padel/Condor-padel-logo.webp",
+        "route": "/projects/condor-padel",
+        "images": [
+          {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-1.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-2.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-3.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-4.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-5.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-6.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-7.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }, {
+            "src": "/clubes/Germany/Condor Padel/thumbnails/Condor-Padel-8.webp",
+            "alt": "Courts in Condor Padel - Germany"
+          }
+           
+        ],
+        "items": 8
+      }, {
+        "projectId": "padel-mannheim",
+        "country": "Germany",
+        "projectName": "maba! Padel Mannheim",
+        "website": "https://padelmannheim.de/",
+        "projectsCourts": "5 Tournament courts",
+        "projectCity": "Mannheim",
+        "projectLogo": "/clubes/Germany/padel-mannheim/maba_padel_logo.webp.webp",
+        "route": "/projects/padel-mannheim",
+        "images": [
+          {
+            "src": "/clubes/Germany/padel-mannheim/thumbnails/padel-mannheim-1.webp",
+            "alt": "Courts in maba! Padel Mannheim - Germany"
+          },     {
+            "src": "/clubes/Germany/padel-mannheim/thumbnails/padel-mannheim-2.webp",
+            "alt": "Courts in maba! Padel Mannheim - Germany"
+          },     {
+            "src": "/clubes/Germany/padel-mannheim/thumbnails/padel-mannheim-3.webp",
+            "alt": "Courts in maba! Padel Mannheim - Germany"
+          }  
+           
+        ],
+        "items": 3
+      },{
+        "projectId": "padel-zone-schwäbisch-gmünd",
+        "country": "Germany",
+        "projectName": "Padel Zone - Schwäbisch Gmünd",
+        "website": "https://padelgmuend.de/padel-zone",
+        "projectsCourts": "2 Mobile Club court",
+        "projectCity": "Schwäbisch Gmünd",
+        "projectLogo": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/padel-zone-logo.webp.webp",
+        "route": "/projects/padel-zone-schwäbisch-gmünd",
+        "images": [
+          {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-1.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          },   {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-2.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          },     {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-3.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          },     {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-4.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          },     {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-5.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          },     {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-6.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          },     {
+            "src": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/thumbnails/Padel-Zone-7.webp",
+            "alt": "Courts in Padel Zone - Schwäbisch Gmünd - Germany"
+          }    
+           
+        ],
+        "items": 7
       }
     ],
     "route": "/projects/Germany"
@@ -3526,7 +3622,7 @@
         "country": "Canada",
         "projectName": "Padel FVR",
         "projectsCourts": "3 Tournament courts",
-        "projectWebsite": "https://padelfvr.ca",
+        "projectWebsite": "https://padelfvr.ca/",
         "projectCity": "Montreal",
         "shortdescription": "Montreal’s premier Padel club!",
         "projectLogo": "/clubes/Canada/padel-fvr/padel-fvr-logo.png",
