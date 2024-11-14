@@ -3516,17 +3516,17 @@
         "website": "https://padelmannheim.de/",
         "projectsCourts": "5 Tournament courts",
         "projectCity": "Mannheim",
-        "projectLogo": "/clubes/Germany/padel-mannheim/maba_padel_logo.webp.webp",
+        "projectLogo": "/clubes/Germany/paddel-mannheim/maba_padel_logo.webp.webp",
         "route": "/projects/padel-mannheim",
         "images": [
           {
-            "src": "/clubes/Germany/padel-mannheim/thumbnails/padel-mannheim-1.webp",
+            "src": "/clubes/Germany/paddel-mannheim/thumbnails/padel-mannheim-1.webp",
             "alt": "Courts in maba! Padel Mannheim - Germany"
           },     {
-            "src": "/clubes/Germany/padel-mannheim/thumbnails/padel-mannheim-2.webp",
+            "src": "/clubes/Germany/paddel-mannheim/thumbnails/padel-mannheim-2.webp",
             "alt": "Courts in maba! Padel Mannheim - Germany"
           },     {
-            "src": "/clubes/Germany/padel-mannheim/thumbnails/padel-mannheim-3.webp",
+            "src": "/clubes/Germany/paddel-mannheim/thumbnails/padel-mannheim-3.webp",
             "alt": "Courts in maba! Padel Mannheim - Germany"
           }  
            
@@ -3539,7 +3539,7 @@
         "website": "https://padelgmuend.de/padel-zone",
         "projectsCourts": "2 Mobile Club court",
         "projectCity": "Schwäbisch Gmünd",
-        "projectLogo": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/padel-zone-logo.webp.webp",
+        "projectLogo": "/clubes/Germany/Padel Zone - Schwäbisch Gmünd/padel-zone-logo.webp",
         "route": "/projects/padel-zone-schwäbisch-gmünd",
         "images": [
           {
