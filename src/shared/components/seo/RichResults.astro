@@ -204,6 +204,42 @@ const TYPES = {
     }
   }
 
+  }, 
+FAQS_ES:{
+    "@context":"https//schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[{
+      "@type": "Question",
+      "name":"¿Cuánto cuesta instalar una pista de pádel?",
+      "acceptedAnswer":{
+        "@type": "Answer",
+        "text":"El coste de instalar una pista de pádel varia según sus características, como el tamaño de la pista, los materiales utilizados en su instalación, la ubicación geográfica y los servicios o características adicionales. Al depender de tantos factores, el precio oscila desde los 18.000 € (EXWORK)."
+      }
+
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo personalizar el diseño de una pista de pádel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": " ¡Claro! Portico Sport ofrece múltiples opciones de personalización para las pistas de pádel, puedes elegir colores para las estructuras o el césped artificial, incorporar tu logotipo en diferentes partes de la pista y añadir diferentes componentes adicionales."
+      }},
+      {
+      "@type": "Question",
+      "name": "¿Puedo personalizar el diseño de una pista de pádel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": " ¡Claro! Portico Sport ofrece múltiples opciones de personalización para las pistas de pádel, puedes elegir colores para las estructuras o el césped artificial, incorporar tu logotipo en diferentes partes de la pista y añadir diferentes componentes adicionales."
+      }},
+      {
+      "@type": "Question",
+      "name": "¿Hay opciones de financiación para la compra e instalación de una pista de pádel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Portico Sport te asesora y ofrece diferentes opciones de financiación a través de varios acuerdos con entidades para ayudarte a adquirir y pagar una pista de pádel, ya sea con planes de pago a plazos o acuerdos de leasing."
+      }}
+
+    ]
   },
   OUTDOOR: {
   "@context": {
@@ -492,7 +528,7 @@ SINGLE: {
 
 let schema = pathname === "/uk" ? [TYPES.UK, TYPES.UKBC]: 
 pathname === "/padel-court-usa" ? [TYPES.USA, TYPES.USABC]: 
-language === "es" ? [TYPES.PRODUCT, TYPES.ES] :
+language === "es" ? [TYPES.PRODUCT, TYPES.ES, TYPES.FAQS_ES] :
 pathname === "/oceania" ? [TYPES.DEFAULT, TYPES.OCEANIA]: 
 pathname === "/indoor-padel-court" ? [TYPES.DEFAULT, TYPES.INDOOR] :
 pathname === "/outdoor-padel-court" ? [TYPES.DEFAULT, TYPES.OUTDOOR] :
