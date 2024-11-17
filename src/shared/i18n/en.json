@@ -865,11 +865,7 @@
           "URL": "/#contact"
         }
       },
-        "ROUTE": {
-          "LABEL": "Inicio",
-          "BREADCRUMB": "Pistas de pádel",
-          "URL": "/"
-        },
+       
         "INTRO_SECTION": {
           "ID": "intro",
           "TITLE": "Fabricantes e instaladores de canchas de pádel en México y todo el mundo",
@@ -1035,7 +1031,7 @@
       },
       "MX_ROUTE": 
       {
-        "LABEL":"Padel Courts Builders México",
+        "LABEL":"Fabricantes de Pistas de Pádel México",
         "URL":"/mx"
       }
     },
