@@ -962,8 +962,8 @@
         "projectName": "Virgin Active Padel Club The Glen",
         "website": "https://virginactivepadelclub.co.za",
         "projectsCourts": "1 Club Force 80 court",
-        "shortdescription": "The most resilient court on the market located in an unparalleled setting.",
-        "projectCity": "Clifton",
+        "shortdescription": "The toughest Padel court with the best views of Clifton at The Glen Country Club",
+        "projectCity": "Cape Town",
         "projectLogo": "/clubes/South_Africa/virgin-active-padel-club-the-glen/virgin-active-padel-club-the-glen-logo.webp",
         "route": "/projects/virgin-active-padel-club-the-glen",
         "images": [
@@ -998,13 +998,9 @@
           {
             "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-8.webp",
             "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
-          },
-          {
-            "src": "/clubes/South_Africa/virgin-active-padel-club-the-glen/thumbnails/virgin-active-padel-club-the-glen-9.webp",
-            "alt": "Courts in Virgin Active Padel Club The Glen - South_Africa"
           }
         ],
-        "items": 9
+        "items": 8
       },
       {
         "projectId": "atlantic-padel",
@@ -2790,7 +2786,59 @@
     "route": "/projects/andorra"
   },
   { "country": "Austria", "id": "Austria", "coordinates": [14.5501, 47.5162] },
-  { "country": "Cyprus", "id": "Cyprus", "coordinates": [33.4299, 35.1264] },
+  
+  { 
+    "country": "Cyprus", 
+    "id": "Cyprus", 
+    "coordinates": [33.4299, 35.1264],
+  "projects":[
+    { "projectId": "padel-pro",
+        "country": "Cyprus",
+        "projectName": "PadelPro Club",
+        "website": "https://padelpro.cy/",
+        "projectsCourts": "6 Mobile Panoramic courts",
+        "projectCity": "Nicosia",
+        "route": "/projects/padel-pro",
+        "projectLogo": "/clubes/Cyprus/Padel Pro/Padel-pro-logo.webp",
+        "images": [
+         {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-1.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-2.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-3.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-4.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-5.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-6.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-7.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-8.webp",
+            "alt": "Courts in PadelPro Club"
+          }
+  ],
+    "items":8
+  
+  }],
+"route": "/projects/cyprus"
+  },
   {
     "country": "New York",
     "id": "New_York",
@@ -2878,41 +2926,42 @@
     "coordinates": [-99.9018, 31.9686],
     "projects": [
       {
-        "projectId": "houston",
+        "projectId": "katy-padel-&-soccer-lounge",
         "country": "Texas",
-        "projectName": "Houston",
+        "projectName": "Katy Padel & Soccer Lounge",
         "website": "",
         "projectsCourts": "2 Panoramic courts",
         "projectCity": "Houston",
-        "route": "/projects/houston",
+        "projectLogo":"/clubes/Texas/houston/Katy-Texas-Logo.webp",
+        "route": "/projects/katy-padel-&-soccer-lounge",
         "images": [
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-1.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           },
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-2.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           },
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-3.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           },
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-4.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           },
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-5.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           },
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-6.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           },
           {
             "src": "/clubes/Texas/houston/thumbnails/houston-7.webp",
-            "alt": "Courts in Houston - Texas"
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
           }
         ],
         "items": 7
@@ -2983,28 +3032,47 @@
       {
         "projectId": "ultra_padel_gliwice",
         "country": "Poland",
-        "projectName": "Ultra Padel Gliwice",
+        "projectName": "ULTRA PADEL Gliwice",
         "website": "https://ultra-padel.pl/",
-        "projectsCourts": "4 Courts and 4 canopies",
-        "shortdescription": "Ready for players very soon!",
+        "projectsCourts": "4 Tournament Courts",
         "projectCity": "Gliwice",
         "projectLogo": "/clubes/Poland/ultra_padel_gliwice/ultra_padel_gliwice-logo.jpg",
         "route": "/projects/ultra_padel_gliwice",
         "images": [
           {
             "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-1.webp",
-            "alt": "Courts in Ultra Padel Gliwice - Poland"
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
           },
           {
             "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-2.webp",
-            "alt": "Courts in Ultra Padel Gliwice - Poland"
+            "alt": "Courts in ULTRA PADEL Gliwice- Poland"
           },
           {
             "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-3.webp",
-            "alt": "Courts in Ultra Padel Gliwice - Poland"
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
+          },
+          {
+            "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-4.webp",
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
+          },
+          {
+            "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-5.webp",
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
+          },
+          {
+            "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-6.webp",
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
+          },
+          {
+            "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-7.webp",
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
+          },
+          {
+            "src": "/clubes/Poland/ultra_padel_gliwice/thumbnails/ultra_padel_gliwice-8.webp",
+            "alt": "Courts in ULTRA PADEL Gliwice - Poland"
           }
         ],
-        "items": 3
+        "items": 8
       }
     ],
     "route": "/projects/Poland"
