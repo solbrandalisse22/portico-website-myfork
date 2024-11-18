@@ -2790,6 +2790,7 @@
   { 
     "country": "Cyprus", 
     "id": "Cyprus", 
+    "continent":"Europe",
     "coordinates": [33.4299, 35.1264],
   "projects":[
     { "projectId": "padel-pro",
