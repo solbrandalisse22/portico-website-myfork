@@ -2785,192 +2785,7 @@
     ],
     "route": "/projects/andorra"
   },
-  { "country": "Austria", "id": "Austria", "coordinates": [14.5501, 47.5162] },
-  
-  { 
-    "country": "Cyprus", 
-    "id": "Cyprus", 
-    "continent":"Europe",
-    "coordinates": [33.4299, 35.1264],
-  "projects":[
-    { "projectId": "padel-pro",
-        "country": "Cyprus",
-        "projectName": "PadelPro Club",
-        "website": "https://padelpro.cy/",
-        "projectsCourts": "6 Mobile Panoramic courts",
-        "projectCity": "Nicosia",
-        "route": "/projects/padel-pro",
-        "projectLogo": "/clubes/Cyprus/Padel Pro/Padel-pro-logo.webp",
-        "images": [
-         {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-1.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-2.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-3.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-4.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-5.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-6.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-7.webp",
-            "alt": "Courts in PadelPro Club"
-          },
-           {
-            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-8.webp",
-            "alt": "Courts in PadelPro Club"
-          }
-  ],
-    "items":8
-  
-  }],
-"route": "/projects/cyprus"
-  },
-  {
-    "country": "New York",
-    "id": "New_York",
-    "continent": "America",
-    "coordinates": [-74.006, 40.7128],
-    "projects": [
-      {
-        "projectId": "privates_court",
-        "country": "New_York",
-        "projectName": "Privates Courts in New York",
-        "website": "",
-        "projectsCourts": "Panoramic courts",
-        "projectCity": "New York",
-        "route": "/projects/privates_court_new_york",
-        "images": [
-          {
-            "src": "/clubes/New_York/privates_court/thumbnails/privates_court-1.webp",
-            "alt": "Courts in New York"
-          },
-          {
-            "src": "/clubes/New_York/privates_court/thumbnails/privates_court-2.webp",
-            "alt": "Courts in New York"
-          },
-          {
-            "src": "/clubes/New_York/privates_court/thumbnails/privates_court-3.webp",
-            "alt": "Courts in New York"
-          }
-        ],
-        "items": 3
-      }
-    ],
-    "route": "/projects/New_York"
-  },
-  {
-    "country": "Florida",
-    "id": "Florida",
-    "continent": "America",
-    "coordinates": [-81.5158, 27.6648],
-    "projects": [
-      {
-        "projectId": "racquetx",
-        "country": "Florida",
-        "projectName": "Racquetx Event",
-        "website": "https://theracquetx.com/",
-        "projectsCourts": "1 Mobile Club court",
-        "shortdescription": "Exhibition and Events Club Court ",
-        "projectCity": "Miami",
-        "route": "/projects/racquetx",
-        "projectLogo": "/clubes/Florida/racquetx/racquetx-logo.png",
-        "images": [
-          {
-            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-1.webp",
-            "alt": "Courts in Racquetx event - Florida"
-          },
-          {
-            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-2.webp",
-            "alt": "Courts in Racquetx event - Florida"
-          },
-          {
-            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-3.webp",
-            "alt": "Courts in Racquetx event - Florida"
-          },
-          {
-            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-4.webp",
-            "alt": "Courts in Racquetx event - Florida"
-          },
-          {
-            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-5.webp",
-            "alt": "Courts in Racquetx event - Florida"
-          },
-          {
-            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-6.webp",
-            "alt": "Courts in Racquetx event - Florida"
-          }
-        ],
-        "items": 6
-      }
-    ],
-    "route": "/projects/Florida"
-  },
-  {
-    "country": "Texas",
-    "continent": "America",
-    "id": "Texas",
-    "coordinates": [-99.9018, 31.9686],
-    "projects": [
-      {
-        "projectId": "katy-padel-&-soccer-lounge",
-        "country": "Texas",
-        "projectName": "Katy Padel & Soccer Lounge",
-        "website": "",
-        "projectsCourts": "2 Panoramic courts",
-        "projectCity": "Houston",
-        "projectLogo":"/clubes/Texas/houston/Katy-Texas-Logo.webp",
-        "route": "/projects/katy-padel-&-soccer-lounge",
-        "images": [
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-1.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          },
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-2.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          },
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-3.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          },
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-4.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          },
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-5.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          },
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-6.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          },
-          {
-            "src": "/clubes/Texas/houston/thumbnails/houston-7.webp",
-            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
-          }
-        ],
-        "items": 7
-      }
-    ],
-    "route": "/projects/Texas"
-  },
-  {
+   {
     "country": "Germany",
     "continent": "Europe",
     "id": "Germany",
@@ -3452,6 +3267,193 @@
     ],
     "route": "/projects/Germany"
   },
+  { "country": "Austria", "id": "Austria", "coordinates": [14.5501, 47.5162] 
+  },
+  
+  { 
+    "country": "Cyprus", 
+    "id": "Cyprus", 
+    "continent":"Europe",
+    "coordinates": [33.4299, 35.1264],
+  "projects":[
+    { "projectId": "padel-pro",
+        "country": "Cyprus",
+        "projectName": "PadelPro Club",
+        "website": "https://padelpro.cy/",
+        "projectsCourts": "6 Mobile Panoramic courts",
+        "projectCity": "Nicosia",
+        "route": "/projects/padel-pro",
+        "projectLogo": "/clubes/Cyprus/Padel Pro/Padel-pro-logo.webp",
+        "images": [
+         {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-1.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-2.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-3.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-4.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-5.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-6.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-7.webp",
+            "alt": "Courts in PadelPro Club"
+          },
+           {
+            "src": "/clubes/Cyprus/Padel Pro/thumbnails/PadelPro-Club-8.webp",
+            "alt": "Courts in PadelPro Club"
+          }
+  ],
+    "items":8
+  
+  }],
+"route": "/projects/cyprus"
+  },
+  {
+    "country": "New York",
+    "id": "New_York",
+    "continent": "America",
+    "coordinates": [-74.006, 40.7128],
+    "projects": [
+      {
+        "projectId": "privates_court",
+        "country": "New_York",
+        "projectName": "Privates Courts in New York",
+        "website": "",
+        "projectsCourts": "Panoramic courts",
+        "projectCity": "New York",
+        "route": "/projects/privates_court_new_york",
+        "images": [
+          {
+            "src": "/clubes/New_York/privates_court/thumbnails/privates_court-1.webp",
+            "alt": "Courts in New York"
+          },
+          {
+            "src": "/clubes/New_York/privates_court/thumbnails/privates_court-2.webp",
+            "alt": "Courts in New York"
+          },
+          {
+            "src": "/clubes/New_York/privates_court/thumbnails/privates_court-3.webp",
+            "alt": "Courts in New York"
+          }
+        ],
+        "items": 3
+      }
+    ],
+    "route": "/projects/New_York"
+  },
+  {
+    "country": "Florida",
+    "id": "Florida",
+    "continent": "America",
+    "coordinates": [-81.5158, 27.6648],
+    "projects": [
+      {
+        "projectId": "racquetx",
+        "country": "Florida",
+        "projectName": "Racquetx Event",
+        "website": "https://theracquetx.com/",
+        "projectsCourts": "1 Mobile Club court",
+        "shortdescription": "Exhibition and Events Club Court ",
+        "projectCity": "Miami",
+        "route": "/projects/racquetx",
+        "projectLogo": "/clubes/Florida/racquetx/racquetx-logo.png",
+        "images": [
+          {
+            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-1.webp",
+            "alt": "Courts in Racquetx event - Florida"
+          },
+          {
+            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-2.webp",
+            "alt": "Courts in Racquetx event - Florida"
+          },
+          {
+            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-3.webp",
+            "alt": "Courts in Racquetx event - Florida"
+          },
+          {
+            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-4.webp",
+            "alt": "Courts in Racquetx event - Florida"
+          },
+          {
+            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-5.webp",
+            "alt": "Courts in Racquetx event - Florida"
+          },
+          {
+            "src": "/clubes/Florida/racquetx/thumbnails/racquetx-6.webp",
+            "alt": "Courts in Racquetx event - Florida"
+          }
+        ],
+        "items": 6
+      }
+    ],
+    "route": "/projects/Florida"
+  },
+  {
+    "country": "Texas",
+    "continent": "America",
+    "id": "Texas",
+    "coordinates": [-99.9018, 31.9686],
+    "projects": [
+      {
+        "projectId": "katy-padel-&-soccer-lounge",
+        "country": "Texas",
+        "projectName": "Katy Padel & Soccer Lounge",
+        "website": "",
+        "projectsCourts": "2 Panoramic courts",
+        "projectCity": "Houston",
+        "projectLogo":"/clubes/Texas/houston/Katy-Texas-Logo.webp",
+        "route": "/projects/katy-padel-&-soccer-lounge",
+        "images": [
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-1.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-2.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-3.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-4.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-5.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-6.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          },
+          {
+            "src": "/clubes/Texas/houston/thumbnails/houston-7.webp",
+            "alt": "Courts in Katy Padel & Soccer Lounge - Texas"
+          }
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Texas"
+  },
+ 
   {
     "country": "Venezuela",
     "id": "Venezuela",
