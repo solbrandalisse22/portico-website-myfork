@@ -85,6 +85,7 @@ for (let i = 0; i < posts.length; i += 3) {
 .carousel-track {
     display: flex;
     transition: transform 0.3s ease-in-out;
+    padding-bottom: 40px;
 }
 
 .carousel-slide {
@@ -102,6 +103,9 @@ for (let i = 0; i < posts.length; i += 3) {
 @media (max-width: 768px) { 
     .carousel-slide {
         flex-direction: column; 
+    }
+.carousel-track{
+      padding-bottom: 70px;
     }
 
     .card-item-wrapper {
