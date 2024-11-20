@@ -1,5 +1,5 @@
 ---
-import { getI18N} from "@/shared/i18n";
+
 import "photoswipe/style.css";
 import Section from "@/shared/components/Section.astro";
 import Button from "./Button.astro";
@@ -15,7 +15,8 @@ interface Props {
   loadMoreText?: string;
   urlButton?: string;
   urlText?: string;
-  language: string;
+  urlTitle?: string;
+
 }
 
 const {
@@ -28,10 +29,10 @@ const {
   loadMoreText,
   urlButton,
   urlText,
-  language,
+  urlTitle,
+  
 } = Astro.props;
-const i18n = getI18N({ language })
-console.log(language);
+
 ---
 
 <Section id={id} heading={heading} subheading={subheading}>
@@ -78,7 +79,7 @@ console.log(language);
   {
     urlButton && urlText ? (
       <div class="text-center mx-auto">
-        <Button url={urlButton} target="_self" title={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}>
+        <Button url={urlButton} target="_self" title={urlTitle}>
           {urlText}
         </Button>
       </div>
