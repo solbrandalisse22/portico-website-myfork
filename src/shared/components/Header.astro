@@ -98,7 +98,7 @@ const LINKS = [
 ];
 ---
 
-<header id="header-nav" class="fixed top-0 z-30 w-full pr-32 py-2">
+<header id="header-nav" class="fixed top-0 z-30 w-full pr-32 sm:px-6 xs:px-6 py-2">
   <div class="mx-auto flex max-w-7xl items-center justify-between">
     <div class="flex flex-grow basis-0 z-30">
       <HeaderLink
@@ -110,13 +110,13 @@ const LINKS = [
         <LogoWhite
           class="h-auto w-40 blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         />
-        <LogoWhite class="h-auto w-32" />
+        <LogoWhite class="h-auto w-32 sm:w-40 xs:w-40" />
       </HeaderLink>
     </div>
 
     <!-- Menú de navegación para pantallas grandes -->
     <nav
-      class="hidden xl:flex flex-grow xl:basis-0 w-full pl-[18px] gap-x-4 xl:justify-center font-medium items-center"
+      class="hidden xl:flex flex-grow xl:basis-0 w-full pl-[18px] sm:pl-[3px] xs:pl-[3px] gap-x-4 xl:justify-center font-medium items-center"
     >
       {
         LINKS.map(({ href, text, children = [] }) =>
@@ -285,3 +285,4 @@ const LINKS = [
     );
   });
 </script>
+
