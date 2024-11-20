@@ -98,6 +98,7 @@
         "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas de pádel y cubiertas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
+          "TITLE":"Proyectos de pistas de pádel | Portico Sport",
           "SRC": "/proyectos"
         },
         "ID_GALLERY": "project-gallery",
