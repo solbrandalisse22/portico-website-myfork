@@ -65,6 +65,24 @@ const posts = await response.json();
   />
 
     <SectionIntroZA language={language} />
+ <section 
+      id={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.ID}
+    >
+      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.TITLE} className="mx-auto mt-10 mb-8 text-center font-semibold uppercase" />
+      
+    <Gallery
+      heading={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.TITLE_GALLERY}
+      subheading={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.SUBTITLE_GALLERY}
+      id={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.ID_GALLERY}
+      photos={projectsGallery}
+      offset={12}
+      path={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.URL.SRC}
+      urlTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
+      urlText={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.URL.LABEL}
+    />
+     <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+    </section>
     <SectionGraphicProcessZA language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
@@ -78,23 +96,7 @@ const posts = await response.json();
       buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_ZA.BUTTON_TEXT}
     />
     
-    <Section 
-      id={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.ID}
-    >
-      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.TITLE} className="mx-auto mt-10 mb-8 text-center font-semibold uppercase" />
-      
-    <Gallery
-      heading={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.TITLE_GALLERY}
-      subheading={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.SUBTITLE_GALLERY}
-      id={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.ID_GALLERY}
-      photos={projectsGallery}
-      offset={12}
-      path={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.PATH}
-      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.URL.SRC}
-      urlText={i18n.PAGES.HOME.PROJECTS_SECTION_ZA.URL.LABEL}
-    />
-     <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
-    </Section>
+   
     <SectionBentoZA language={language} />
     <SectionComplementsZA language={language} />
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_ZA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_ZA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
