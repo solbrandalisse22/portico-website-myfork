@@ -20,6 +20,7 @@ import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogosMX from "@/shared/components/sections/NormativeLogosMX.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Slider from "@/shared/components/sections/Slider.astro";
 
 interface Props {
   language: string,
@@ -92,7 +93,7 @@ const posts = await response.json();
 <SectionBentoMX language={language} />
     <SectionComplementsMX language={language} />
     <SectionFaqs items={i18n.PAGES.SECTION_MX.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.SECTION_MX.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.SECTION_MX.FAQS_SECTION.SUBTITLE} />
-    <NewsList language="es" posts={posts} />
+    <Slider language="es" posts={posts} />
     <SectionContact
       id={i18n.PAGES.SECTION_MX.CONTACT_SECTION.ID}
       hiddenSubject
