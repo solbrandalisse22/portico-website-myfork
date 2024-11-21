@@ -63,20 +63,7 @@ const posts = await response.json();
     ]}
   />
     <SectionIntroOceania language={language} />
-    <SectionGraphicProcessOceania language={language} />
-    <SectionInfiniteScroll language={language} />
-    <SectionCourts language={language}></SectionCourts>
-    <NormativeLogos language={language} showInfo />
-    <SectionCanopies
-    video="/cubiertas-spot.webm"
-    subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.SUBTITLE}
-    title={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.TITLE}
-    text={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.TEXT}
-    buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
-    buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.BUTTON_TEXT}
-  />
-  
-  <section 
+<section 
       id={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.ID}
     >
       <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION_OCEANIA.TITLE} className="mx-auto mb-8 mt-10 text-center font-semibold uppercase" />
@@ -92,6 +79,20 @@ const posts = await response.json();
     />  
       <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
     </section>
+    <SectionGraphicProcessOceania language={language} />
+    <SectionInfiniteScroll language={language} />
+    <SectionCourts language={language}></SectionCourts>
+    <NormativeLogos language={language} showInfo />
+    <SectionCanopies
+    video="/cubiertas-spot.webm"
+    subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.SUBTITLE}
+    title={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.TITLE}
+    text={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.TEXT}
+    buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
+    buttonText={i18n.PAGES.HOME.CANOPIES_SECTION_OCEANIA.BUTTON_TEXT}
+  />
+  
+  
 <section>
       <Typography tag="h2" className="mb-6 mt-8 font-bold text-center" text={i18n.PAGES.HOME.TITLE_AUS_NZ}/>
       <Typography tag="p" type="primary" className="text-xl text-center" text={i18n.PAGES.HOME.SUBTITLE_AUS_NZ} responsive/>
