@@ -61,18 +61,6 @@ const posts = await response.json();
     ]}
   />
     <SectionIntroMX language={language} />
-    <SectionGraphicProcessMX language={language} />
-  <SectionInfiniteScroll language="es" />
-    <SectionCourts language="es" />
-    <NormativeLogosMX language={language} showInfo />
-  <SectionCanopies
-      video="/cubiertas-spot.webm"
-      subtitle={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.SUBTITLE}
-      title={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.TITLE}
-      text={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.TEXT}
-      buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
-      buttonText={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.BUTTON_TEXT}
-    />
 <section 
       id={i18n.PAGES.SECTION_MX.PROJECTS_SECTION.ID}
     >
@@ -91,6 +79,19 @@ urlTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
     />
      <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
     </section>
+    <SectionGraphicProcessMX language={language} />
+  <SectionInfiniteScroll language="es" />
+    <SectionCourts language="es" />
+    <NormativeLogosMX language={language} showInfo />
+  <SectionCanopies
+      video="/cubiertas-spot.webm"
+      subtitle={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.SUBTITLE}
+      title={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.TITLE}
+      text={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.TEXT}
+      buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
+      buttonText={i18n.PAGES.SECTION_MX.CANOPIES_SECTION.BUTTON_TEXT}
+    />
+
 <SectionBentoMX language={language} />
     <SectionComplementsMX language={language} />
     <SectionFaqs items={i18n.PAGES.SECTION_MX.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.SECTION_MX.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.SECTION_MX.FAQS_SECTION.SUBTITLE} />
