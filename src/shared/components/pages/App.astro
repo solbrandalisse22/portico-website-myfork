@@ -20,6 +20,7 @@ import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import { type Photo } from "@/types/types.ts";
 import Slider from "@/shared/components/sections/Slider.astro";
+import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
 
 
 interface Props {
@@ -74,6 +75,16 @@ const posts = await response.json();
    <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover lazy-bg" data-bg="projects-map.webp"></div>
 
 </section>
+ <SliderProjects language={language}
+    heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+      id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
+      photos={projectsGallery}
+      offset={12}
+      path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+      
+      urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
+    >
     <SectionGraphicProcess language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
