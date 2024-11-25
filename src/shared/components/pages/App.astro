@@ -61,21 +61,7 @@ const posts = await response.json();
      >
       <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} className="mx-auto mb-8 mt-10 text-center font-semibold uppercase" />
     
-    <Gallery
-      heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
-      id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
-      photos={projectsGallery}
-      offset={12}
-      path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
-      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
-      urlTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
-      urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
-    />   
-
-   <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover lazy-bg" data-bg="projects-map.webp"></div>
-
-</section>
- <SliderProjects language={language}
+    <SliderProjects language={language}
     heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
       id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
       photos={projectsGallery}
@@ -85,6 +71,11 @@ const posts = await response.json();
       
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
     >
+
+   <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover lazy-bg" data-bg="projects-map.webp"></div>
+
+</section>
+
     <SectionGraphicProcess language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
