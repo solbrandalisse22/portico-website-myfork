@@ -1,0 +1,198 @@
+---
+import { getI18N } from "@/shared/i18n";
+import "photoswipe/style.css";
+import Section from "@/shared/components/Section.astro";
+import Button from "@/shared/components/Button.astro";
+interface Props {
+  id: string;
+  heading?: string;
+  subheading?: string;
+  offset?: number;
+  photos: Photo[];
+  path: string;
+  language: string;
+  urlButton?: string;
+  urlText?: string;
+}
+
+const {
+  heading,
+  subheading,
+  photos = [],
+  path = "",
+  language,
+  urlButton,
+  urlText,
+} = Astro.props;
+
+const i18n = getI18N({ language });
+---
+<Section
+  heading={heading}
+  subheading={subheading}
+>
+  <div class="carousel" >
+    <div class="carousel-track" id="gallery">
+      {photos.map(({ src, width, height, alt }: Photo, index) => (
+        <div class="carousel-slide" key={`photo-${index}`}>
+          <span
+            class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
+            href={`/${path}/${src}`}
+            target="_blank"
+            data-cropped="true"
+            data-pswp-width={width}
+            data-pswp-height={height}
+          >
+            <img
+              class="rounded-xl object-cover h-auto"
+              loading="lazy"
+              src={`/${path}/thumbnails/${src}`}
+              alt={alt}
+              width="397"
+            height="264"
+              
+            />
+             <img
+            class="img-effect blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover"
+            loading="lazy"
+            src={`/${path}/thumbnails/${src}`}
+            alt={alt}
+            width="397"
+            height="264"
+          />
+            <span class="absolute bottom-0 left-0 right-0 p-4 text-white bg-black bg-opacity-50 rounded-b-xl">
+              {alt}
+            </span>
+          </span>
+        </div>
+      ))}
+    </div>
+    <div class="carousel-buttons">
+      <button class="carousel-btn carousel-btn--prev">{`<`}</button>
+      <button class="carousel-btn carousel-btn--next">{`>`}</button>
+    </div>
+  </div>
+  {
+    urlButton && urlText ? (
+      <div class="text-center mx-auto">
+        <Button url={urlButton} target="_self" title={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}>
+          {urlText}
+        </Button>
+      </div>
+    ) : null
+  }
+</Section>
+
+<script>
+  let currentIndex = 0;
+  const slides = document.querySelectorAll('.carousel-slide');
+  const totalSlides = slides.length;
+
+  document.querySelector('.carousel-btn--next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateCarousel();
+  });
+
+  document.querySelector('.carousel-btn--prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateCarousel();
+  });
+
+  function updateCarousel() {
+    const track = document.querySelector('.carousel-track');
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+</script>
+
+<style>
+.carousel {
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 15%;
+  padding-top: 5%;
+  margin:auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: 33.4%;
+
+}
+
+.carousel-slide {
+   display: flex;
+  flex: 0 0 100%; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.carousel-buttons {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.carousel-btn {
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1279px) {
+  .carousel-track {
+    width: 50%;
+    padding-bottom: 70px;
+    
+
+  }
+  
+}
+@media (max-width: 786px) {
+    .carousel-track {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+ 
+}
+</style>
+<style is:global>
+    .pswp {
+      --pswp-bg: #00012a;
+    }
+  
+    .pswp__img {
+      @apply rounded-xl;
+    }
+  
+    #gallery a {
+      cursor: zoom-in;
+    }
+  
+    @media (prefers-reduced-motion: no-preference) {
+      .carousel-track img {
+        scale: 0.8;
+        opacity: 0;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: entry 100px;
+      }
+  
+      @keyframes fade-in {
+        to {
+          scale: 1;
+          opacity: 1;
+        }
+      }
+    }
+  </style>
+  
