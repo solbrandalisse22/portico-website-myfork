@@ -484,11 +484,11 @@
       "SUBTITLE_AUS_NZ":"We deliver premium, 100% manufactured Padel courts and canopies across Oceania, shaping the future of the sport. Visit our Australia and New Zealand websites to learn more about our courts in these regions.",
       "URL_AUS": {
         "LABEL": "Discover Australia",
-        "SRC": "/aus"
+        "URL": "/aus"
       },
       "URL_NZ": {
         "LABEL": "Discover New Zealand",
-        "SRC": "/nz"
+        "URL": "/nz"
       },
       "FAQS_SECTION": {
         "ID": "faqs",
