@@ -58,7 +58,7 @@ const i18n = getI18N({ language });
                 height="264"
               />
        
-              <span class="absolute bottom-0 left-0 p-4 text-white ">
+              <span class="description absolute bottom-0 left-0 p-4 text-white bg-black bg-opacity-50 rounded-b-xl">
                 {alt}
               </span>
             </span> </li>
@@ -117,7 +117,9 @@ const i18n = getI18N({ language });
   margin: auto;
   
 }
-
+.description {
+  width:397px
+}
 .scroller {
   max-width: calc(100% - 1px);
 }
