@@ -482,14 +482,7 @@
       },
       "TITLE_AUS_NZ":"Visit our websites to discover Padel Courts in Oceania",
       "SUBTITLE_AUS_NZ":"We deliver premium, 100% manufactured Padel courts and canopies across Oceania, shaping the future of the sport. Visit our Australia and New Zealand websites to learn more about our courts in these regions.",
-      "URL_AUS": {
-        "LABEL": "Discover Australia",
-        "URL": "/aus"
-      },
-      "URL_NZ": {
-        "LABEL": "Discover New Zealand",
-        "URL": "/nz"
-      },
+      
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "ASK Question about Padel Court Builders",
@@ -675,6 +668,14 @@
        "ZA_ROUTE":{
         "LABEL":"South Africa",
         "URL":"/za"
+      },
+      "AUS_ROUTE":{
+        "LABEL":"Australia",
+        "URL":"/au"
+      },
+      "NZ_ROUTE":{
+        "LABEL":"New Zealand",
+        "URL":"/nz"
       }
     },
     "SECTION_OUTDOOR":{
@@ -776,10 +777,7 @@
     "SEO_TITLE":"Padel Court Construction Australia | Portico Sport",
     "SEO_DESCRIPTION":"PorticoSport Australia, leading Padel court manufacturers, offering custom design, construction, and installation for durable, high-performance courts.",
     "TITLE":"Portico Sport Australia",
-    "ROUTE": {
-      "LABEL": "Australia",
-      "URL": "/aus"
-  },
+  
 "FIRST_SECTION":{
     "TITLE":"Padel courts builders in Australia",
     "SUBTITLE":"Enjoy one of the fastest-growing racquet sports globally. ",
@@ -817,10 +815,7 @@
     "SEO_TITLE":"Padel Court Construction New Zealand | Portico Sport",
     "SEO_DESCRIPTION":"PorticoSport New Zealand, leading Padel court manufacturers, offering custom design, construction, and installation for durable, high-performance courts.",
     "TITLE":"Portico Sport New Zealand",
-    "ROUTE": {
-      "LABEL": "New Zealand",
-      "URL": "/nz"
-  },
+   
   "FIRST_SECTION":{
     "TITLE":"Padel courts builders in New Zealand",
     "SUBTITLE":"Pioneering Padel Court Solutions in New Zealand",
