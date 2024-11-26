@@ -34,7 +34,7 @@ const i18n = getI18N({ language });
 
 <Section heading={heading} subheading={subheading}>
  
-  <div class=" scroller ">
+  <div class=" scroller-projects ">
    
   <ul class=" tag-list scroller_inner items-center ">
     
@@ -80,7 +80,7 @@ const i18n = getI18N({ language });
 <script type="module">
   document.addEventListener('astro:page-load', () => {
     
-    const scroller = document.querySelector(".scroller");
+    const scroller = document.querySelector(".scroller-projects");
 
     function addAnimation() {
       scroller.setAttribute("data-animated", true)
@@ -119,7 +119,7 @@ const i18n = getI18N({ language });
 .description {
   width:600px
 }
-.scroller {
+.scroller-projects {
   max-width: calc(100% - 1px);
 }
 
@@ -130,14 +130,14 @@ const i18n = getI18N({ language });
   gap: 1rem
 }
 
-.scroller[data-animated="true"] {
+.scroller-projects[data-animated="true"] {
   overflow: hidden;
   /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
   -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
-.scroller[data-animated="true"] .scroller_inner {
+.scroller-projects[data-animated="true"] .scroller_inner {
   width: max-content;
   flex-wrap: nowrap;
   animation: scroll 120s linear infinite;
