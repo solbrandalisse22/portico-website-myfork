@@ -10,6 +10,7 @@ interface Props {
   subheading?: string;
   offset?: number;
   photos: Photo[];
+  loadMoreText?: string;
   path: string;
   language: string;
   urlButton?: string;
@@ -20,7 +21,9 @@ const {
   heading,
   subheading,
   photos = [],
+  offset=12,
   path = "",
+  loadMoreText,
   language,
   urlButton,
   urlText,
@@ -30,11 +33,14 @@ const i18n = getI18N({ language });
 ---
 
 <Section heading={heading} subheading={subheading}>
-  <div class="carousel">
-    {photos.length > 0 ? (
-      <div class="carousel-track" id="gallery">
-        {photos.map(({ src, width, height, alt }: Photo, index) => (
-          <div class="carousel-slide" key={`photo-${index}`}>
+ 
+  <div class=" scroller ">
+   
+  <ul class=" tag-list scroller_inner items-center ">
+    
+        {photos.slice(0,offset).map(({ src, width, height, alt }: Photo) => (
+          
+            <li>
             <span
               class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
               href={`/${path}/${src}`}
@@ -52,23 +58,15 @@ const i18n = getI18N({ language });
                 height="264"
               />
        
-              <span class="absolute bottom-0 left-0 right-0 p-4 text-white bg-black bg-opacity-50 rounded-b-xl">
+              <span class="absolute bottom-0 left-0 p-4 text-white ">
                 {alt}
               </span>
-            </span>
-          </div>
-        ))}
-      </div>
-    ) : (
-      <p class="no-images">No hay imágenes disponibles</p>
-    )}
-    {photos.length > 1 && (
-      <div class="carousel-buttons">
-        <button class="carousel-btn carousel-btn--prev">{`<`}</button>
-        <button class="carousel-btn carousel-btn--next">{`>`}</button>
-      </div>
-    )}
-  </div>
+            </span> </li>
+          
+        ))} </ul> 
+      
+    
+  </div> 
 
   {urlButton && urlText ? (
     <div class="text-center mx-auto">
@@ -77,128 +75,80 @@ const i18n = getI18N({ language });
       </Button>
     </div>
   ) : null}
+  
 </Section>
 
-<script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll('.carousel-slide');
-  const totalSlides = slides.length;
-
-  if (totalSlides > 0) {
+<script type="module">
+  document.addEventListener('astro:page-load', () => {
     
-    document.querySelector('.carousel-btn--next').addEventListener('click', () => {
-      if (totalSlides > 1) {
-        currentIndex = (currentIndex + 1) % totalSlides;
-        updateCarousel();
-      }
-    });
+    const scroller = document.querySelector(".scroller");
 
+    function addAnimation() {
+      scroller.setAttribute("data-animated", true)
+      const scrollerInner = scroller.querySelector(".scroller_inner")
+      const scrollerContent = Array.from(scrollerInner.children)
   
-    document.querySelector('.carousel-btn--prev').addEventListener('click', () => {
-      if (totalSlides > 1) {
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        updateCarousel();
-      }
-    });
-  }
-
-  function updateCarousel() {
-    const track = document.querySelector('.carousel-track');
-    if (track) {
-      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      scrollerContent.forEach((item) => {
+        const clone = item.cloneNode(true)
+        clone.setAttribute("aria-hidden", true)
+        scrollerInner.appendChild(clone)
+      })
     }
-  }
+  
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+
+      addAnimation()
+    }
+  })
+  
 </script>
 
 <style>
-.carousel {
+
+.tag-list {
+  list-style: none;
+  padding-inline: 0;
+}
+.tag-list li {
+  padding: 1rem;
+  background: current;
   position: relative;
-  width: 100%;
   white-space: nowrap;
-  overflow: hidden;
-  padding-bottom: 15%;
-  padding-top: 5%;
   margin: auto;
+  
 }
 
-.carousel-track {
+.scroller {
+  max-width: calc(100% - 1px);
+}
+
+.scroller_inner {
+  padding-block: 1rem;
   display: flex;
-  transition: transform 0.3s ease-in-out;
-  width:33.4%;
+  flex-wrap: wrap;
+  gap: 1rem
 }
 
-.carousel-slide {
-  flex: 0 0 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
-.carousel-buttons {
-  position: absolute;
-  bottom: 80px;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10px;
+.scroller[data-animated="true"] .scroller_inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 120s linear infinite;
+  animation-delay: 3s;
 }
 
-.carousel-btn {
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-.no-images {
-  text-align: center;
-  color: #666;
-  font-size: 1rem;
-  margin-top: 20px;
-}
-
-@media (max-width: 1279px) {
-  .carousel-track {
-    width: 50%;
-    padding-bottom: 70px;
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - .5rem));
   }
 }
 
-@media (max-width: 786px) {
-  .carousel-track {
-    width: 100%;
-    margin: auto;
-    padding-bottom: 70px;
-  }
-}
 
-.pswp {
-  --pswp-bg: #00012a;
-}
-
-.pswp__img {
-  border-radius: 1rem;
-}
-
-#gallery a {
-  cursor: zoom-in;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .carousel-track img {
-    scale: 0.8;
-    opacity: 0;
-    animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: entry 100px;
-  }
-
-  @keyframes fade-in {
-    to {
-      scale: 1;
-      opacity: 1;
-    }
-  }
-}
 </style>
+
