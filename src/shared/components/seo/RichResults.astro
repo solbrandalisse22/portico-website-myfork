@@ -403,48 +403,7 @@ CANOPIES: {
     }
   ]
 },
-ZA: {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Padel Court Builders",
-      "item": "https://www.porticosport.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Padel Court Builders South Africa",
-      "item": "https://www.porticosport.com/za"
-    }
-  ]
-},
-AUS: {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Padel Court Builders",
-      "item": "https://www.porticosport.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Padel Courts Builders in Oceania",
-      "item": "https://www.porticosport.com/oceania"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Padel Courts Builders in Australia",
-      "item": "https://www.porticosport.com/aus"
-    }
-  ]
-},
+
 OCEANIA_LB:{
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -670,8 +629,6 @@ pathname === "/panoramic" ? [TYPES.PRODUCT, TYPES.PISTAS.PANORAMIC]:
 pathname === "/club" ? [TYPES.PRODUCT, TYPES.PISTAS.CLUB]:
 pathname === "/club-force-80" ? [ TYPES.PRODUCT, TYPES.PISTAS.FORCE_80]:
 pathname === "/panoramic-force-80" ? [TYPES.PRODUCT, TYPES.PISTAS.PANORAMIC_FORCE_80]:
-pathname === "/aus" ? [TYPES.DEFAULT, TYPES.AUS, TYPES.OCEANIA_LB]: 
-pathname === "/za" ? [TYPES.DEFAULT, TYPES.ZA, TYPES.OCEANIA_LB ]:
 pathname === "/canopies" ? [TYPES.DEFAULT, TYPES.CANOPIES,  TYPES.OCEANIA_LB]: 
 TYPES.DEFAULT;
 
