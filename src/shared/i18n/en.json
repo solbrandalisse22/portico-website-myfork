@@ -128,27 +128,31 @@
         "SUBTITLE": "Strength, durability and perfect integration",
         "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p> <p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for PADEL, combining differentiating features for this sport that are hard to match by other types of canopies. PORTICO SPORT is a leader in design and installation of sports canopies worldwide.</p>",
         "BUTTON_TEXT": "More about canopies"
+        "BUTTON_TITLE":"Padel court canopies"
       },
       "CANOPIES_SECTION_USA": {
         "ID": "canopies",
         "TITLE": "Canopies for Padel Courts",
         "SUBTITLE": "Perfect integration",
         "TEXT": "<p>Portico Sport is the only padel court manufacturer that also builds canopies specifically designed for racket sports offering our clients a holistic approach to their project needs.</p><p>Our expertise as an engineering firm has allowed us to design canopies specifically conceived for sports practice, particularly for Padel, combining differentiating features for this sport that are hard to match by other types of canopies. Whether you're looking for Padel court construction in the USA or internationally, Portico Sport is a leader in the design and installation of sports canopies.</p>",
-        "BUTTON_TEXT": "More about canopies"
+        "BUTTON_TEXT": "More about canopies",
+        "BUTTON_TITLE":"Padel court canopies"
       },
       "CANOPIES_SECTION_UK": {
         "ID": "canopies",
         "TITLE": "Canopies for Padel Courts",
         "SUBTITLE": "Resilience and perfect integration",
         "TEXT": "<p>Portico Sport UK is the only Padel court manufacturer that also specialises in building <strong>canopies specifically designed for racket sports</strong>, offering a comprehensive, holistic approach to your project needs.</p><p>Portico Sport UK stands at the forefront of designing and installing premium sports canopies throughout the UK. Our expertise in engineering ensures that our canopies are specially crafted for sports applications, with a particular focus on Padel courts. These canopies are built with unique features that set them apart from standard structures, providing unparalleled protection and performance. As leading canopies and Padel court builders, we integrate advanced design elements to enhance your sports facilities.</p>",
-        "BUTTON_TEXT": "More about canopies"
+        "BUTTON_TEXT": "More about canopies",
+        "BUTTON_TITLE":"Padel court canopies"
       },
       "CANOPIES_SECTION_OCEANIA":{
         "ID":"canopies",
         "TITLE": "Canopies for Padel Courts in Oceania",
         "SUBTITLE": "Perfect integration",
         "TEXT": "<p>Portico Sport is the only padel court manufacturer that also designs canopies specifically for racket sports, offering a comprehensive approach to meet our clients’ project needs.</p><p>As an experienced engineering firm, we&#39;ve developed canopies tailored for sports, especially Padel, incorporating unique features that set them apart from other solutions. Whether you&#39;re planning Padel court construction in Oceania, Portico Sport leads the way in designing and installing high-quality sports canopies.</p>",
-        "BUTTON_TEXT": "More about canopies"
+        "BUTTON_TEXT": "More about canopies",
+        "BUTTON_TITLE":"Padel court canopies"
 
       },
       "CANOPIES_SECTION_ZA":{
@@ -269,7 +273,7 @@
         "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
-          "TITLE": "Padel courts projects | Portico Sport",
+          "TITLE": "Portico Sport projects",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
