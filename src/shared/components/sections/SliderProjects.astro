@@ -15,6 +15,7 @@ interface Props {
   language: string;
   urlButton?: string;
   urlText?: string;
+  buttonTitle?: string;
 }
 
 const {
@@ -27,6 +28,7 @@ const {
   language,
   urlButton,
   urlText,
+  buttonTitle,
 } = Astro.props;
 
 const i18n = getI18N({ language });
@@ -69,7 +71,7 @@ const i18n = getI18N({ language });
 
   {urlButton && urlText ? (
     <div class="text-center mx-auto">
-      <Button url={urlButton} target="_self" title={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}>
+      <Button url={urlButton} target="_self" title={buttonTitle}>
         {urlText}
       </Button>
     </div>
