@@ -9,7 +9,7 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import SectionBentoIn from "@/shared/components/sections/SectionBentoIn.astro";
 import { type Photo } from "@/types/types.ts";
-import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
+
 
 interface Props {
   language: string
@@ -53,16 +53,16 @@ bgImage="/indoor-court/gallery/Indoor-Padel-Court-15.webp"
           <Section
         id={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.ID_GALLERY}
         heading2={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.TITLE_GALLERY}>  
-        <SliderProjects
-      language={language}
+        <Gallery
+      
       heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
       id={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.ID_GALLERY}
       photos={projectsGallery}
       offset={16}
       path={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.PATH}
-      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
-     buttonTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
-      urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
+      urlButton={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.URL.SRC}
+     buttonTitle={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.URL.TITLE}
+      urlText={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.URL.LABEL}
     /> </Section>
   
 <Section
