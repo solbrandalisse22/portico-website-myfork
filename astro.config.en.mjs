@@ -485,7 +485,6 @@ export default defineConfig({
     "/ru/vidrios": "/",
     "/tag/padel-court": "/",
     "/flow":"/tournament",
-   "/nuestra-fabrica":"https://www.porticosport.es/nuestra-fabrica",
   },
   i18n: {
     defaultLocale: "en",
