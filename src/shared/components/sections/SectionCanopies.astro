@@ -9,9 +9,10 @@ interface Props {
   text: string;
   buttonUrl: string;
   buttonText: string;
+  buttonTitle: string;
 }
 
-const { video, subtitle, title, text, buttonUrl, buttonText } = Astro.props;
+const { video, subtitle, title, text, buttonUrl, buttonText, buttonTitle } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -51,6 +52,7 @@ const type = getTipeFromVideo();
             <Button
               target="_self"
               url={buttonUrl}
+             title={buttonTitle}
             >
               {buttonText}
             </Button>
