@@ -1,0 +1,287 @@
+---
+import LogoWhite from "@/shared/components/logos/LogoWhite.astro";
+import { getI18N } from "../i18n/";
+import LanguageSelector from "./LanguageSelector.astro";
+import HeaderLink from "./HeaderLink.astro";
+import { capitalize } from "@/libraries/utils";
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+
+const LINKS = [
+  {
+    href: i18n.PAGES.HOME.ROUTE.URL,
+    text: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+  },
+  {
+    text: i18n.PAGES.COURTS.ROUTE.LABEL,
+    children: [
+      {
+        href: "https://www.porticosport.es/mobile",
+        text: i18n.PAGES.MOBILE_COURT.NAME,
+        title: i18n.PAGES.MOBILE_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/panoramic",
+        text: i18n.PAGES.PANORAMIC_COURT.NAME,
+        title: i18n.PAGES.PANORAMIC_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/tournament",
+        text: i18n.PAGES.TOURNAMENT_COURT.NAME,
+        title: i18n.PAGES.TOURNAMENT_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/club",
+        text: i18n.PAGES.CLUB_COURT.NAME,
+        title: i18n.PAGES.CLUB_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/club-force-80",
+        text: i18n.PAGES.CLUB_FORCE_80_COURT.NAME,
+        title: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/panoramic-force-80",
+        text: i18n.PAGES.PANORAMIC_FORCE_80_COURT.NAME,
+        title: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/single",
+        text: i18n.PAGES.SINGLE_COURT.NAME,
+        title: i18n.PAGES.SINGLE_COURT.ROUTE.TITLE,
+      },
+      {
+        href: "https://www.porticosport.es/mini",
+        text: i18n.PAGES.MINI_COURT.NAME,
+        title: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
+      },
+    ],
+  },
+  {
+    href: "https://www.porticosport.es/plataforma-elevada",
+    text: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.LABEL,
+  },
+  {
+    href: "https://www.porticosport.es/cubiertas",
+    text: i18n.PAGES.CANOPIES.ROUTE.LABEL,
+  },
+  {
+    href: "https://www.porticosport.es/proyectos",
+    text: i18n.PAGES.PROJECTS.ROUTE.LABEL,
+  },
+  {
+    href: "https://www.porticosport.es/nuestra-fabrica",
+    text: i18n.PAGES.FACTORY.ROUTE.LABEL,
+  },
+  {
+    href: "https://www.porticosport.es/noticias",
+    text: i18n.PAGES.NEWS.ROUTE.LABEL,
+  },
+  {
+    href: "https://www.porticosport.es/distribuidor-autorizado",
+    text: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.LABEL,
+  },
+  {
+    text: i18n.PAGES.CONTACT.ROUTE.LABEL,
+    children: [
+      {
+        href: "https://www.porticosport.es/contacto-cliente",
+        text: i18n.PAGES.CLIENT_CONTACT.ROUTE.LABEL,
+      },
+      {
+        href: "https://www.porticosport.es/trabaja-con-nosotros",
+        text: i18n.PAGES.WORK_WITH_US.ROUTE.LABEL,
+      },
+    ],
+  },
+];
+---
+
+<header id="header-nav" class="fixed top-0 z-30 w-full lg:pr-32 sm:px-6 xs:px-6 py-2">
+  <div class="mx-auto flex max-w-7xl items-center justify-between">
+    <div class="flex flex-grow basis-0 z-30">
+      <HeaderLink
+        checkActive={false}
+        href="/"
+        class="group relative"
+        aria-label={i18n.HEADER.LOGO}
+      >
+        <LogoWhite
+          class="h-auto w-40 blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        />
+        <LogoWhite class="h-auto w-32 sm:w-40 xs:w-40" />
+      </HeaderLink>
+    </div>
+
+    <!-- Menú de navegación para pantallas grandes -->
+    <nav
+      class="hidden xl:flex flex-grow xl:basis-0 w-full pl-[18px] gap-x-4 xl:justify-center font-medium items-center"
+    >
+      {
+        LINKS.map(({ href, text, children = [] }) =>
+          children.length ? (
+            <div
+              data-dropdown-toggle="dropdownNavbar"
+              class="relative gap-2 w-max group"
+            >
+              <HeaderLink class={`flex justify-center items-center text__glowing ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
+                {`${capitalize(text)} `}
+                <svg
+                  class="w-2.5 h-2.5 ms-2.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </HeaderLink>
+              <div
+                id="dropdownNavbar"
+                class={`z-10 hidden absolute left-1/2 top-1/3 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
+              >
+                <ul
+                  class="py-2 text-sm flex flex-col gap-4 w-full bg-background/90 rounded-xl border"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  {children.map(({ href, text, title }) => (
+                    <li class="text-center">
+                      <HeaderLink class={`text__glowing w-full text-lg`} href={href} title={title}>
+                        {capitalize(text)}
+                      </HeaderLink>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ) : (
+            <HeaderLink class={`w-max text__glowing ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
+              {capitalize(text)}
+            </HeaderLink>
+          )
+        )
+      }
+      <LanguageSelector language={language} />
+    </nav>
+
+    <!-- Botón de menú para pantallas pequeñas -->
+    <button
+      id="menu-toggle"
+      class="flex flex-grow basis-0 justify-end text-2xl xl:hidden z-50"
+    >
+      <span id="menu-icon">☰</span>
+    </button>
+
+    <!-- <div
+      class="hidden md:flex-grow md:basis-0 justify-end whitespace-nowrap md:flex md:text-base"
+    >
+      <Button
+        class="md:text-sm lg:text-base md:py-2 hover:bg-secondary hover:text-black"
+        url={i18n.PAGES.CONTACT.ROUTE.URL}
+        target="_self"
+      >
+        {i18n.PAGES.CONTACT.ROUTE.LABEL}
+      </Button>
+    </div> -->
+  </div>
+
+  <!-- Menú de navegación móvil para pantallas pequeñas -->
+  <nav
+    id="mobile-menu"
+    class="bg-background/90 -translate-y-full gap-2 transition-transform xl:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
+  >
+    {
+      LINKS.map(({ href, text, children }) => (
+        text !== i18n.PAGES.CONTACT.ROUTE.LABEL ? 
+        i18n.PAGES.COURTS.ROUTE.LABEL === text ?
+          <div
+            data-dropdown-toggle="dropdownMobileNavbar"
+            class="relative gap-2 w-max group"
+          >
+            <HeaderLink class={`flex justify-center items-center text__glowing pointer-events-none`} href={href || '#'}>
+              {`${capitalize(text)} `}
+              <svg
+                class="w-2.5 h-2.5 ms-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </HeaderLink>
+            <div
+              id="dropdownMobileNavbar"
+              class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block w-[300px] ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
+            >
+              <ul
+                class="py-2 text-sm flex flex-col gap-4 w-full bg-background rounded-xl border"
+                aria-labelledby="dropdownLargeButton"
+              >
+                {children.map(({ href, text }) => (
+                  <li class="text-center">
+                    <HeaderLink class={`text__glowing w-full text-lg`} href={href}>
+                      {capitalize(text)}
+                    </HeaderLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        : <HeaderLink class="text__glowing item-link" href={href || '#'}>
+          {capitalize(text)}
+        </HeaderLink> : children?.map((item) => <HeaderLink class="text__glowing item-link" href={item.href || '#'}>
+          {capitalize(item.text)}
+        </HeaderLink>)
+      ))
+    }
+    <!-- <Button
+      class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
+      url={i18n.PAGES.CONTACT.ROUTE.URL}
+      target="_self"
+    >
+      {i18n.PAGES.CONTACT.ROUTE.LABEL}
+    </Button> -->
+    <LanguageSelector language={language} />
+  </nav>
+</header>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const link = document.querySelectorAll("#mobile-menu .item-link");
+    const menuIcon = document.getElementById("menu-icon");
+
+    if (!menuToggle || !mobileMenu || !menuIcon || !link) {
+      return;
+    }
+
+    menuToggle.addEventListener("click", function () {
+      mobileMenu.classList.toggle("translate-y-0");
+      document.body.classList.toggle("overflow-hidden");
+      menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+    });
+
+    link.forEach((item) =>
+      item.addEventListener("click", function () {
+        mobileMenu.classList.toggle("translate-y-0");
+        document.body.classList.toggle("overflow-hidden");
+        menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+      })
+    );
+  });
+</script>
