@@ -99,7 +99,7 @@
         "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas de pádel y cubiertas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
-          "TITLE":"Proyectos de Portico Sport",
+          "TITLE":"Construcción de pistas de pádel",
           "SRC": "/proyectos"
         },
         "ID_GALLERY": "project-gallery",
@@ -207,6 +207,7 @@
         "TITLE":"Trabajos de Pistas de Pádel al aire libre",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
+          "TITLE":"Construcción de pistas de pádel",
           "SRC": "/projects"
         },
         "ID_GALLERY": "projects-gallery-outdoor",
@@ -252,6 +253,7 @@
     "TITLE": "Trabajos de Pistas de Pádel Cubiertas",
     "URL": {
         "LABEL": "Descubre todos nuestros proyectos",
+        "TITLE":"Construcción de pistas de pádel",
         "SRC": "/projects"
     },
     "ID_GALLERY": "projects-gallery-cubierta",
