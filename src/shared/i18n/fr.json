@@ -99,7 +99,7 @@
         "SUBTITLE": "Cliquez pour découvrir : Explorez en détail nos projets de courts !",
         "URL": {
           "LABEL": "Découvrir tous nos projets",
-          "SRC": "/projets"
+          "SRC": "/projets",
           "TITLE":"Projets Portico Sport"
         },
         "ID_GALLERY": "project-gallery",
