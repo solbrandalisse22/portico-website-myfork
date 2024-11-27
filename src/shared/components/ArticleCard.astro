@@ -14,10 +14,11 @@ interface Props {
   className?: string;
   buttonText?: string;
   buttonUrl?: string;
+ buttonTitle?: string;
   target?: string;
 }
 
-const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className, buttonText, buttonUrl, target="_self" } = Astro.props;
+const { preTitle, title, heading, description, hideHeader = false, hideFooter = false, hideBody = false, bgImage, className, buttonTitle ,buttonText, buttonUrl, target="_self" } = Astro.props;
 ---
 
 <article class=`w-full mx-auto my-14 ${className ? className : ''}`>
@@ -37,7 +38,7 @@ const { preTitle, title, heading, description, hideHeader = false, hideFooter = 
               {title && (<Typography tag="p" type="secondary" className="font-bold uppercase" text={title} responsive />)}
             </div>
             <div class="flex-1 border-t-primary border-t mt-3 pt-3 md:border-none flex flex-col justify-between gap-y-3 md:mt-0 md:pt-0">
-              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base lg:text-base self-center md:self-end py-2 text-center" target={target}>{buttonText}</Button>}
+              {buttonText && buttonUrl && <Button url={buttonUrl} title={buttonTitle} class="text-base lg:text-base self-center md:self-end py-2 text-center" target={target}>{buttonText}</Button>}
               {heading && (<Typography tag="h3" className="mb-4" text={heading} type="primary" responsive />)}
               {description && (<Typography tag="div" className="mb-0" text={description} size="small" />)}
             </div>
