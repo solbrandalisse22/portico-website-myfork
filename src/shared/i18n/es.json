@@ -69,7 +69,8 @@
         "TITLE": "Cubiertas de pistas de pádel fabricadas por Portico Sport",
         "SUBTITLE": "Estabilidad, durabilidad y perfecta adaptación.",
         "TEXT": "<p>Portico Sport es el único fabricante de pistas de pádel que también fabrica cubiertas diseñadas específicamente para deportes de raqueta, brindando a nuestros clientes una solución integral para satisfacer todas las necesidades de su proyecto.</p> <p>Gracias a nuestra experiencia como empresa de ingeniería, hemos creado cubiertas especialmente diseñadas para la práctica deportiva, con un enfoque particular en el pádel. Estas cubiertas incluyen características únicas que son difíciles de igualar por otros sistemas convencionales. Es por ello que PORTICO SPORT destaca como líder global en el diseño e instalación de cubiertas deportivas.</p>",
-        "BUTTON_TEXT": "Más sobre las cubiertas"
+        "BUTTON_TEXT": "Más sobre las cubiertas",
+        "BUTTON_TITLE":"Cubiertas para pistas de pádel"
       },
       "BENTO_SECTION": {
         "ID": "why-us",
@@ -98,7 +99,7 @@
         "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas de pádel y cubiertas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
-          "TITLE":"Proyectos de pistas de pádel | Portico Sport",
+          "TITLE":"Proyectos de Portico Sport",
           "SRC": "/proyectos"
         },
         "ID_GALLERY": "project-gallery",
