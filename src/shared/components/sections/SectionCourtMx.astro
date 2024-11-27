@@ -1,0 +1,79 @@
+---
+import { getI18N } from "@/shared/i18n";
+// import CourtItem from "@/shared/components/CourtItem.astro";
+import Section from '@/shared/components/Section.astro';
+import CarouselImages from '@/shared/components/CarouselImages';
+import Button from '@/shared/components/Button.astro';
+import ArticleCard from '@/shared/components/ArticleCard.astro';
+import { type CourtItem } from '@/types/types'
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+
+const courts = [{
+  title: i18n.PAGES.MOBILE_COURT.TITLE,
+  description: i18n.PAGES.MOBILE_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/mobile",
+  label: i18n.PAGES.MOBILE_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.MOBILE_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.TOURNAMENT_COURT.TITLE,
+  description: i18n.PAGES.TOURNAMENT_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/tournament",
+  label: i18n.PAGES.TOURNAMENT_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.TOURNAMENT_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.PANORAMIC_COURT.TITLE,
+  description: i18n.PAGES.PANORAMIC_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/panoramic",
+  label: i18n.PAGES.PANORAMIC_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.PANORAMIC_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE,
+  description: i18n.PAGES.PANORAMIC_FORCE_80_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/panoramic-force-80",
+  label: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.PANORAMIC_FORCE_80_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.CLUB_COURT.TITLE,
+  description: i18n.PAGES.CLUB_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/club",
+  label: i18n.PAGES.CLUB_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.CLUB_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.CLUB_FORCE_80_COURT.TITLE,
+  description: i18n.PAGES.CLUB_FORCE_80_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/club-force-80",
+  label: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.CLUB_FORCE_80_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.SINGLE_COURT.TITLE,
+  description: i18n.PAGES.SINGLE_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/single",
+  label: i18n.PAGES.SINGLE_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.SINGLE_COURT.HOME_IMAGES,
+}, {
+  title: i18n.PAGES.MINI_COURT.TITLE,
+  description: i18n.PAGES.MINI_COURT.HOME_DESCRIPTION,
+  url: "http://www.porticosport.es/mini",
+  label: i18n.PAGES.MINI_COURT.ROUTE.LABEL,
+  images: i18n.PAGES.MINI_COURT.HOME_IMAGES,
+}] as CourtItem[]
+---
+
+<Section id={i18n.PAGES.HOME.COURTS_SECTION.ID} heading2={i18n.PAGES.HOME.COURTS_SECTION.TITLE} className="max-w-none relative">
+  <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
+  {
+    courts.map(({title, description, images, url, label}, index) => (<ArticleCard
+      buttonUrl={url}
+      buttonText={label}
+      title={title}
+      description={description}
+      className="mb-4 max-w-[1280px]"
+    >
+      <div class="flex gap-4" slot="body">
+        <CarouselImages client:only images={images} />
+      </div>
+    </ArticleCard>))
+  }
+</Section>
