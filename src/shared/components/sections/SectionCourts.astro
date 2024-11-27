@@ -16,57 +16,66 @@ const courts = [{
   url: i18n.PAGES.MOBILE_COURT.ROUTE.URL,
   label: i18n.PAGES.MOBILE_COURT.ROUTE.LABEL,
   images: i18n.PAGES.MOBILE_COURT.HOME_IMAGES,
+  buttontitle: i18n.PAGES.MOBILE_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.TOURNAMENT_COURT.TITLE,
   description: i18n.PAGES.TOURNAMENT_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.TOURNAMENT_COURT.ROUTE.URL,
   label: i18n.PAGES.TOURNAMENT_COURT.ROUTE.LABEL,
   images: i18n.PAGES.TOURNAMENT_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.TOURNAMENT_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.PANORAMIC_COURT.TITLE,
   description: i18n.PAGES.PANORAMIC_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.PANORAMIC_COURT.ROUTE.URL,
   label: i18n.PAGES.PANORAMIC_COURT.ROUTE.LABEL,
   images: i18n.PAGES.PANORAMIC_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.PANORAMIC_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE,
   description: i18n.PAGES.PANORAMIC_FORCE_80_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.URL,
   label: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.LABEL,
   images: i18n.PAGES.PANORAMIC_FORCE_80_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.CLUB_COURT.TITLE,
   description: i18n.PAGES.CLUB_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.CLUB_COURT.ROUTE.URL,
   label: i18n.PAGES.CLUB_COURT.ROUTE.LABEL,
   images: i18n.PAGES.CLUB_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.CLUB_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.CLUB_FORCE_80_COURT.TITLE,
   description: i18n.PAGES.CLUB_FORCE_80_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.URL,
   label: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.LABEL,
   images: i18n.PAGES.CLUB_FORCE_80_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.SINGLE_COURT.TITLE,
   description: i18n.PAGES.SINGLE_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.SINGLE_COURT.ROUTE.URL,
   label: i18n.PAGES.SINGLE_COURT.ROUTE.LABEL,
   images: i18n.PAGES.SINGLE_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.SINGLE_COURT.ROUTE.TITLE,
 }, {
   title: i18n.PAGES.MINI_COURT.TITLE,
   description: i18n.PAGES.MINI_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.MINI_COURT.ROUTE.URL,
   label: i18n.PAGES.MINI_COURT.ROUTE.LABEL,
   images: i18n.PAGES.MINI_COURT.HOME_IMAGES,
+buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
 }] as CourtItem[]
 ---
 
 <Section id={i18n.PAGES.HOME.COURTS_SECTION.ID} heading2={i18n.PAGES.HOME.COURTS_SECTION.TITLE} className="max-w-none relative">
   <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
   {
-    courts.map(({title, description, images, url, label}, index) => (<ArticleCard
+    courts.map(({title, description, images, url, label, buttontitle}, index) => (<ArticleCard
       buttonUrl={url}
       buttonText={label}
+      buttonTitle={buttontitle}
       title={title}
       description={description}
       className="mb-4 max-w-[1280px]"
