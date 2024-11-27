@@ -15,7 +15,7 @@ interface Props {
   loadMoreText?: string;
   urlButton?: string;
   urlText?: string;
-  urlTitle?: string;
+  buttonTitle?: string;
 
 }
 
@@ -29,7 +29,7 @@ const {
   loadMoreText,
   urlButton,
   urlText,
-  urlTitle,
+  buttonTitle,
   
 } = Astro.props;
 
@@ -79,7 +79,7 @@ const {
   {
     urlButton && urlText ? (
       <div class="text-center mx-auto">
-        <Button url={urlButton} target="_self" title={urlTitle}>
+        <Button url={urlButton} target="_self" title={buttonTitle}>
           {urlText}
         </Button>
       </div>
