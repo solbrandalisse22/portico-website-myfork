@@ -99,7 +99,7 @@
         "SUBTITLE": "Klicken Sie, um zu enthüllen: Entdecken Sie unsere Platzprojekte im Detail!",
         "URL": {
           "LABEL": "Entdecken Sie alle unsere Projekte",
-           "TITLE": "Portico Sport Projekte",
+           "TITLE": "Bau eines Padelplatzes",
           "SRC": "/projekte"
         },
         "ID_GALLERY": "project-gallery",
@@ -210,6 +210,7 @@
     "TITLE": "Arbeiten an Padel-Plätzen im Freien",
     "URL": {
         "LABEL": "Entdecken Sie all unsere Projekte",
+         "TITLE":"Bau eines Padelplatzes",
         "SRC": "/projects"
     },
     "ID_GALLERY": "projects-gallery-outdoor",
@@ -257,6 +258,7 @@
     "TITLE": "Indoor Padel Platz Arbeiten",
     "URL": {
         "LABEL": "Entdecke alle unsere Projekte",
+         "TITLE":"Bau eines Padelplatzes",
         "SRC": "/projects"
     },
     "ID_GALLERY": "projects-gallery-indoor",
