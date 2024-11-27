@@ -24,6 +24,7 @@ export default defineConfig({
     "/pistas-de-padel/panoramic-force-80": "/panoramic-force-80",
     "/pistas-de-padel/single": "/single",
     "/flow": "/tournament",
+    "/en/nuestra-fabrica":"/nuestra-fabrica",
   },
   i18n: {
     defaultLocale: "es",
