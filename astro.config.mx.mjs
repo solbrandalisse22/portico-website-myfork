@@ -14,7 +14,7 @@ export default defineConfig({
   srcDir: "./src/es",
   site: i18n.SITE,
   redirects: {
-    "/nuestra-fabrica":"https://www.porticosport.es/nuestra-fabrica",
+    "/nuestra-fabrica":"/nuestra-fabrica",
   },
   
   i18n: {
