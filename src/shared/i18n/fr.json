@@ -69,7 +69,8 @@
         "TITLE": "Auvents pour Courts de Padel",
         "SUBTITLE": "Force, durabilité et intégration parfaite",
         "TEXT": "<p>Portico Sport est le seul fabricant de courts de Padel qui construit également des auvents spécialement conçus pour les sports de raquette, offrant à nos clients une approche holistique de leurs besoins de projet.</p> <p>Notre expertise en tant que cabinet d'ingénierie nous a permis de concevoir des auvents spécifiquement conçus pour la pratique sportive, notamment pour le PADEL, combinant des caractéristiques différenciantes pour ce sport difficiles à égaler par d'autres types de auvents. PORTICO SPORT est un leader dans la conception et l'installation de auvents sportifs dans le monde entier.</p>",
-        "BUTTON_TEXT": "En savoir plus sur les auvents"
+        "BUTTON_TEXT": "En savoir plus sur les auvents",
+        "BUTTON_TITLE":"Auvents pour terrains de padel"
       },
       "BENTO_SECTION": {
         "ID": "why-us",
@@ -99,6 +100,7 @@
         "URL": {
           "LABEL": "Découvrir tous nos projets",
           "SRC": "/projets"
+          "TITLE":"Projets Portico Sport"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Construire des Courts de Padel dans le monde",
