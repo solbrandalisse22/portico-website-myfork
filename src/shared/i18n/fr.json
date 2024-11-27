@@ -100,7 +100,7 @@
         "URL": {
           "LABEL": "Découvrir tous nos projets",
           "SRC": "/projets",
-          "TITLE":"Projets Portico Sport"
+          "TITLE":"Construction d'un terrain de padel"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Construire des Courts de Padel dans le monde",
@@ -208,6 +208,7 @@
     "TITLE": "Travaux de Courts de Padel en Plein Air",
     "URL": {
         "LABEL": "Découvrez tous nos projets",
+        "TITLE":"Construction d'un terrain de padel",
         "SRC": "/projects"
     },
     "ID_GALLERY": "projects-gallery-outdoor",
@@ -254,6 +255,7 @@
     "TITLE": "Travaux de Pistes de Padel Couverts",
     "URL": {
         "LABEL": "Découvrez tous nos projets",
+        "TITLE":"Construction d'un terrain de padel",
         "SRC": "/projects"
     },
     "ID_GALLERY": "projects-gallery-couvert",
