@@ -287,6 +287,7 @@
         "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
+          "TITLE":"Padel court construction",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
@@ -299,6 +300,7 @@
         "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
         "URL": {
           "LABEL": "Discover all our projects",
+          "TITLE":"Padel court construction",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
@@ -312,6 +314,7 @@
         "SUBTITLE": "Click to unveil: Explore our Padel court projects in detail!",
         "URL": {
           "LABEL": "Discover other projects Worldwide",
+          "TITLE":"Padel court construction",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
@@ -323,6 +326,7 @@
         "TITLE": "Padel Court and Canopies Projects",
         "URL": {
           "LABEL": "Discover other projects Worldwide",
+          "TITLE":"Padel court construction",
           "SRC": "/projects"
         },
         "ID_GALLERY": "project-gallery",
@@ -716,6 +720,7 @@
         "TITLE":"Outdoor Padel Court Works",
         "URL": {
           "LABEL": "Discover all our projects",
+          "TITLE":"Padel court construction",
           "SRC": "/projects"
         },
         "ID_GALLERY": "projects-gallery-outdoor",
@@ -761,6 +766,7 @@
       "TITLE":"Indoor Padel Court Works",
       "URL": {
         "LABEL": "Discover all our projects",
+        "TITLE":"Padel court construction",
         "SRC": "/projects"
       },
       "ID_GALLERY": "projects-gallery-indoor",
@@ -798,6 +804,7 @@
     "ID":"projects",
     "URL": {
         "LABEL": "Discover more projects worldwide",
+      "TITLE":"Padel court construction",
         "SRC": "/projects"
       },
       "ID_GALLERY": "projects-gallery-autdoor",
@@ -836,6 +843,7 @@
     "ID":"projects",
     "URL": {
         "LABEL": "Discover more projects worldwide",
+      "TITLE":"Padel court construction",
         "SRC": "/projects"
       },
       "ID_GALLERY": "projects-gallery-nz",
@@ -954,6 +962,7 @@
         "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas de pádel y cubiertas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
+          "TITLE":"Construcción de pistas de pádel",
           "SRC": "/proyectos"
         },
         "ID_GALLERY": "project-gallery",
