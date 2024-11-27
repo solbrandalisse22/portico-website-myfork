@@ -12,7 +12,7 @@ export default defineConfig({
   ...shared,
   srcDir: "./src/es",
   redirects: {
-    "/nuestra-fabrica":"/nuestra-fabrica",
+    "/nuestra-fabrica":"https://www.porticosport.es/nuestra-fabrica",
   },
   
   i18n: {
