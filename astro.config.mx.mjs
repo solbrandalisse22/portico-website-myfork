@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from "astro/config";
 import { getCustomPages, getI18N } from "./src/shared/i18n/index";
 
-const language = 'en';
+const language = 'es';
 const i18n = getI18N({language});
 const customPages = await getCustomPages({ language })
 
