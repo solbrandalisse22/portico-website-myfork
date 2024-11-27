@@ -9,6 +9,7 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import SectionBentoIn from "@/shared/components/sections/SectionBentoIn.astro";
 import { type Photo } from "@/types/types.ts";
+import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
 
 interface Props {
   language: string
@@ -52,8 +53,9 @@ bgImage="/indoor-court/gallery/Indoor-Padel-Court-15.webp"
           <Section
         id={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.ID_GALLERY}
         heading2={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.TITLE_GALLERY}>  
-        <Gallery
-
+        <SliderProjects
+      language={language}
+      heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
       id={i18n.PAGES.SECTION_INDOOR.PROJECTS_SECTION_INDOOR.ID_GALLERY}
       photos={projectsGallery}
       offset={16}
