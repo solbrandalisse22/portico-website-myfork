@@ -11,6 +11,7 @@ const customPages = await getCustomPages({ language })
 export default defineConfig({
   ...shared,
   srcDir: "./src/es",
+  site: i18n.SITE,
   redirects: {
     "/nuestra-fabrica":"https://www.porticosport.es/nuestra-fabrica",
   },
