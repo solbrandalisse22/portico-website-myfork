@@ -294,7 +294,7 @@
         "SLOGAN": "Thinking Padel, Thinking Portico Sport",
         "CONTACT_BUTTON": {
           "LABEL": "Contáctanos",
-          "URL": "/#contact"
+          "URL": "https://www.porticosport.es/#contact"
         }
       },
        
@@ -357,6 +357,7 @@
         "SUBTITLE": "Adaptación perfecta",
         "TEXT": "<p>En Portico Sport, somos los únicos fabricantes de canchas de pádel que también diseñan y producen cubiertas específicamente pensadas para deportes de raqueta, ofreciendo una solución completa y adaptada a las necesidades de cada proyecto en México.</p> <p>Con nuestra experiencia en ingeniería y un profundo conocimiento de los requerimientos deportivos, hemos desarrollado cubiertas optimizadas para proteger las canchas de pádel. Estas estructuras cuentan con características únicas que superan las de los sistemas convencionales, especialmente en climas como el de México. Por eso, Portico Sport se ha consolidado como un referente global en diseño e instalación de cubiertas deportivas, llevando a cada espacio deportivo la protección y calidad que el deporte necesita.</p>",
         "BUTTON_TEXT": "Más sobre las cubiertas",
+        "URL":"https://www.porticosport.es/cubiertas",
         "BUTTON_TITLE":"Cubiertas para pistas de pádel"
       },
       "BENTO_SECTION": {
@@ -386,7 +387,7 @@
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
           "TITLE":"Construcción de pistas de pádel",
-          "SRC": "/proyectos"
+          "SRC": "https://www.porticosport.es/proyectos"
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Construyendo Canchas de Pádel por todo del mundo",
