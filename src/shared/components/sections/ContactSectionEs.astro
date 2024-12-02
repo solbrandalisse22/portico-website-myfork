@@ -2,6 +2,7 @@
 import { getI18N } from "@/shared/i18n/";
 import Section from "@/shared/components/Section.astro";
 import Button from "@/shared/components/Button.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 
 interface Props {
   language: string;
@@ -10,7 +11,7 @@ interface Props {
 const { language } = Astro.props;
 const i18n = getI18N({ language });
 ---
-<Section  heading2={i18n.PAGES.SECTION_ES.CONTACT_SECTION.TITLE}>
+<Typography tag="h2" className="mx-auto mb-8 text-center font-semibold" text={i18n.PAGES.SECTION_ES.CONTACT_SECTION.TITLE}/>
     <div class="container mx-auto text-center py-16">
         <div class="flex justify-center space-x-16 mb-16">
             <div class="flex flex-col items-center text-center ">
@@ -50,4 +51,4 @@ const i18n = getI18N({ language });
         </div>
     </div>
 
-<Section/>
+
