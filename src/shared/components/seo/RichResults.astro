@@ -280,6 +280,140 @@ FAQS_ES:{
 
     ]
   },
+AUS: {
+  "@context": "https://schema.org/",
+  "@type": "LocalBusiness",
+  "name": "Padel Courts Builders in Australia",
+  "url": "https://www.porticosport.com/aus",
+  "image": "https://www.porticosport.com/indoor-padel-aus/Australia-Indoor-Padel11.webp",
+  "description": "Expert builders of high-quality padel courts in Australia. Indoor and outdoor solutions tailored to meet international standards.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "AU",
+    "addressRegion": "Australia",
+    "addressLocality": "Various locations",
+    "streetAddress": "Available nationwide"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-25.274398",
+    "longitude": "133.775136"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "35",
+    "reviewCount": "50"
+  },
+  "telephone": "+64 273862995",
+  "email": "contact-oceania@porticosport.com",
+  "priceRange": "$$",
+  "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "sameAs": [
+        "https://www.facebook.com/porticosport",
+        "https://www.instagram.com/porticosport",
+        "https://twitter.com/portico_sport"
+    ],
+  "serviceArea": {
+    "@type": "Place",
+    "name": "Australia"
+  },
+  "services": [
+    {
+      "@type": "Service",
+      "name": "Indoor Padel Court Construction",
+      "description": "Custom-built indoor padel courts with premium materials and modern designs."
+    },
+    {
+      "@type": "Service",
+      "name": "Outdoor Padel Court Construction",
+      "description": "Durable outdoor padel courts designed to withstand diverse weather conditions."
+    }
+  ]
+},
+ZA:
+{
+  "@context": "https://schema.org/",
+  "@type": "LocalBusiness",
+  "name": "Padel Court Builders in South Africa",
+  "url": "https://www.porticosport.com/za",
+  "image": "https://www.porticosport.com/projectsza/gallery/thumbnails/ProjectsZA-1.webp",
+  "description": "Specialized padel court builders offering tailored indoor and outdoor solutions across South Africa. Premium quality and durable designs.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "ZA",
+    "addressRegion": "South Africa",
+    "addressLocality": "Nationwide",
+    "streetAddress": "Available across South Africa"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-30.559482",
+    "longitude": "22.937506"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "ratingCount": "42",
+    "reviewCount": "28"
+  },
+  "email": "southafrica@porticosport.com",
+  "priceRange": "$$",
+  "logo": "https://www.porticosport.com/logo-portico-sport-circular-white.svg",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/porticosport",
+    "https://www.instagram.com/porticosport",
+    "https://twitter.com/portico_sport"
+  ],
+  "serviceArea": {
+    "@type": "Place",
+    "name": "South Africa"
+  },
+  "services": [
+    {
+      "@type": "Service",
+      "name": "Indoor Padel Court Construction",
+      "description": "Custom-built indoor padel courts with premium materials and modern designs."
+    },
+    {
+      "@type": "Service",
+      "name": "Outdoor Padel Court Construction",
+      "description": "Durable outdoor padel courts designed to withstand diverse weather conditions."
+    }
+  ]
+},
   OUTDOOR: {
   "@context": {
     "@vocab": "https://schema.org/",
@@ -630,6 +764,8 @@ pathname === "/club" ? [TYPES.PRODUCT, TYPES.PISTAS.CLUB]:
 pathname === "/club-force-80" ? [ TYPES.PRODUCT, TYPES.PISTAS.FORCE_80]:
 pathname === "/panoramic-force-80" ? [TYPES.PRODUCT, TYPES.PISTAS.PANORAMIC_FORCE_80]:
 pathname === "/canopies" ? [TYPES.DEFAULT, TYPES.CANOPIES,  TYPES.OCEANIA_LB]: 
+pathname === "/aus" ? [TYPES.AUS]:
+pathname === "/za" ? [TYPES.ZA]:
 TYPES.DEFAULT;
 
 if (TYPE) {
