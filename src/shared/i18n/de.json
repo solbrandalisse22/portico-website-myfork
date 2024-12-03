@@ -116,6 +116,13 @@
         "ID": "complements",
         "TITLE": "Premium Padelplatzhersteller: Qualität und Innovation",
         "SUBTITLE": "Ein führendes Padel-Court-Unternehmen weltweit.",
+        "DESCRIPTION": "Portico Sport ist ein führendes Unternehmen im Bau von Padelplätzen, das sich auf den Bau von Padelplätzen und Überdachungen spezialisiert hat. Wir bieten robuste Asphalt- und Betonfundamente, langlebige verzinkte Stahlstrukturen und 10-12 mm Sicherheitsglas, alles nach höchsten Standards gebaut. Unsere Padelplätze verfügen über hochwertiges Kunstrasen, fortschrittliche LED-Beleuchtung und anpassbare Optionen wie integrierte Bänke, gravierte Logos und Siebdrucknetze. Für Leistung und Stil entwickelt, liefern wir Innovation in jedem Detail.",
+"BUTTON": {
+  "LABEL": "Holen Sie sich Ihr individuelles Angebot für Padelplätze",
+  "TITLE": "Padelplatzbauer",
+  "URL": "/kkundenkontakt"
+},
+
         "ITEMS": {
           "ITEM_1": {
             "TITLE": "Gründung und Plattformen",
