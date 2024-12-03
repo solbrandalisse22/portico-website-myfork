@@ -117,6 +117,13 @@
         "ID": "complements",
         "TITLE": "Construction de Courts de Padel Premium : Qualité et Innovation",
         "SUBTITLE": "Une entreprise de courts de padel de premier plan à travers le monde.",
+        "DESCRIPTION": "Portico Sport est une entreprise leader dans la construction de courts de padel, spécialisée dans la construction de courts de padel et de canopées, offrant des fondations robustes en asphalte et en béton, des structures en acier galvanisé durables et du verre de sécurité trempé de 10-12 mm, le tout construit selon les normes les plus élevées. Nos courts de padel disposent de gazon artificiel haut de gamme, d'un éclairage LED avancé et d'options personnalisables telles que des bancs intégrés, des logos gravés et des filets sérigraphiés. Conçus pour la performance et le style, nous apportons de l'innovation dans chaque détail.",
+"BUTTON": {
+  "LABEL": "Obtenez votre devis personnalisé pour un court",
+  "TITLE": "Constructeurs de Courts de Padel",
+  "URL": "/contact"
+},
+
         "ITEMS": {
           "ITEM_1": {
             "TITLE": "Fondations et plates-formes",
