@@ -120,7 +120,7 @@
         "BUTTON":{
           "LABEL":"Solicita tu Presupuesto Personalizado",
           "TITLE":"Fabricantes de pistas de pádel",
-          "URL":"/contacto"
+          "URL":"/contacto-cliente"
         },
         "ITEMS": {
           "ITEM_1": {
