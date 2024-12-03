@@ -57,6 +57,12 @@
         "POINT_8": {
           "TITLE": "Gemeinsames Wachstum",
           "SUBTITLE": "Für Portico Sport ist es gleichermaßen wichtig, einen außergewöhnlichen Kundendienst anzubieten wie langfristige Beziehungen mit all unseren Kunden zu stärken und zu fördern."
+        },
+            "BUTTON":
+        {
+        "TITLE":"Projekte von Portico Sport",
+        "LABEL":"Starten Sie Ihr Projekt heute",
+        "URL":"/projekte"
         }
       },
       "COURTS_SECTION": {
