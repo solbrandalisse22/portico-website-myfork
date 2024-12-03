@@ -347,6 +347,12 @@
         "ID": "complements",
         "TITLE": "Premium Padel Court Construction: Quality & Innovation",
         "SUBTITLE": "A Leading Padel Court Company across the globe.",
+        "DESCRIPTION":"Portico Sport is a leading Padel court company specializing in padel court and canopy construction, offering robust asphalt and concrete foundations, durable galvanized steel structures, and 10-12 mm tempered safety glass, all built to the highest standards. Our Padel courts feature premium artificial turf, advanced LED lighting, and customizable options like integrated benches, engraved logos, and screen-printed nets. Designed for performance and style, we deliver innovation in every detail.",
+        "BUTTON":{
+          "LABEL":"Get Your Custom Court Quote",
+          "TITLE":"Padel Court Builders | Contact",
+          "URL":"/contact"
+        },
         "ITEMS": {
           "ITEM_1": {
             "TITLE": "Foundation and platforms",
