@@ -116,6 +116,12 @@
         "ID": "complements",
         "TITLE": "Construcción de Pistas de Pádel Premium: Calidad e Innovación",
         "SUBTITLE": "Una empresa líder en Pistas de Pádel en todo el mundo.",
+        "DESCRIPTION":"Nuestras pistas de pádel son el resultado de un diseño y desarrollo meticuloso por parte de nuestro departamento de ingeniería, asegurando máxima resistencia y un rendimiento inigualable. Cada pista de pádel cumple con las normativas deportivas oficiales (NIDE 2004 Pádel), las regulaciones de la FIP (Federación Internacional de Pádel) y los cálculos estructurales basados en la Instrucción de Acero Estructural (EAE) y los códigos americanos AISC-360 y ASCE SEI 7-16.  Además, cada pista de pádel tiene una garantía de 10 años que respalda la estabilidad estructural de nuestras pistas, reafirmando nuestro compromiso con la calidad y la confianza.",
+        "BUTTON":{
+          "LABEL":"Solicita tu Presupuesto Personalizado",
+          "TITLE":"Fabricantes de pistas de pádel",
+          "URL":"/contacto"
+        },
         "ITEMS": {
           "ITEM_1": {
             "TITLE": "Cimentación y plataformas",
