@@ -1,0 +1,21 @@
+---
+import { getI18N } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import Typography from "../ui/Typography.astro";
+import Button from "../Button.astro";
+
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+
+---
+
+
+<Section id={i18n.PAGES.HOME.COMPLEMENTS_SECTION.ID} className="text-center">
+    <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION.TITLE} />
+    <Typography tag="div" className="max-w-[60ch] mx-auto" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION.DESCRIPTION} />
+  </Section>
+  <div class="text-center mt-12">
+  <Button url={i18n.PAGES.HOME.COMPLEMENTS_SECTION.BUTTON.URL} title={i18n.PAGES.HOME.COMPLEMENTS_SECTION.BUTTON.TITLE}>
+{i18n.PAGES.HOME.COMPLEMENTS_SECTION.BUTTON.LABEL}
+  </Button>
+</div>
