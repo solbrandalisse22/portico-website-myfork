@@ -57,6 +57,12 @@
         "POINT_8": {
           "TITLE": "Creciendo juntos",
           "SUBTITLE": "Para Portico Sport, es igualmente importante ofrecer un servicio postventa excepcional que fortalecer y fomentar relaciones a largo plazo con todos nuestros clientes."
+        },
+            "BUTTON":
+        {
+        "TITLE":"Proyectos de Portico Sport",
+        "LABEL":"Comienza tu proyecto de pádel hoy",
+        "URL":"/proyectos"
         }
       },
       "COURTS_SECTION": {
