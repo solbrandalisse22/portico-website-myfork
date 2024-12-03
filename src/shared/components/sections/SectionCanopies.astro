@@ -42,7 +42,7 @@ const type = getTipeFromVideo();
           subtitle && (<Typography tag="p" className="text-center px-4 mb-0" text={subtitle} />)
         }
         {
-          title && (<Typography tag="h2" className="flex items-center gap-5 lg:gap-20 px-4 text-center font-bold" text={title} />)
+          title && (<div  class="flex items-center text-4xl gap-5 lg:gap-20 px-4 text-center font-bold text-balance tracking-wide" >{title} </div>)
         }
         {
           text && (<Typography tag="div" className="text-center px-4 mb-0 max-w-[60ch]" text={text} responsive />)
@@ -93,3 +93,8 @@ const type = getTipeFromVideo();
   </video>
   <slot name="bottom" />
 </section>
+<style>
+div {
+ font-family: 'Prompt', system-ui, sans-serif;
+} 
+</style>
