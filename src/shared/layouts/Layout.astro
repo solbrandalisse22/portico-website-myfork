@@ -21,10 +21,10 @@ interface Props {
   bgClass?: string;
   showScrollImage?: boolean;
   ogImage?: string;
-  mx?:boolean;
+
 }
 
-const { description, title, currentLocale, language, bgImage, bgClass, showScrollImage, ogImage, mx } = Astro.props;
+const { description, title, currentLocale, language, bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
 ---
 
 <!doctype html>
@@ -57,7 +57,7 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
         />
       )
     }
-   {mx ? <HeaderMx language={language} /> : <Header language={language} />}
+<Header language={language} />
     {
       showScrollImage && <ScrollSvgAnimation className="absolute right-10 top-1/2 -translate-y-1/2 z-20" width="30px" />
     }
