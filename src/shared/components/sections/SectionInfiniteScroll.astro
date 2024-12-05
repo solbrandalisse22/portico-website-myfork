@@ -4,7 +4,7 @@ import LogoHexagonCup from "@/shared/components/logos/LogoHexagonCup.astro";
 import LogoRepsol from "@/shared/components/logos/LogoRepsol.astro";
 import LogoEvenPadel from "@/shared/components/logos/LogoEvenPadel.astro";
 import Typography from "../ui/Typography.astro";
-import LogoFutwall from "@/shared/components/logos/LogoFutwall.astro";
+import LogoMind from "@/shared/components/logos/LogoMinds.astro";
 import Section from "@/shared/components/Section.astro";
 import { getI18N } from "@/shared/i18n";
 
@@ -16,12 +16,13 @@ const i18n = getI18N({ language })
   heading2 ={i18n.INFINITE_SCROLL.TITLE} subheading={i18n.INFINITE_SCROLL.SUBTITLE}>
   <div class="scroller">
     <ul class="tag-list scroller_inner items-center">
-      <li><LogoFep /></li>
+            <li><LogoHexagonCup /></li>
+            <li><LogoFep /></li>
+            <li><LogoEvenPadel /></li>
+    </ul>
+      <ul class="row2 tag-list scroller_inner items-center">
+      <li><LogoMind /></li>
       <li><LogoRepsol /></li>
-      <li><LogoHexagonCup /></li></ul>
-      <ul class="tag-list scroller_inner items-center">
-      <li><LogoEvenPadel /></li>
-      <li><LogoFutwall /></li>
       <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></li>
     </ul>
   </div>
@@ -38,22 +39,24 @@ const i18n = getI18N({ language })
   margin: 0 10px;
   background: current;
   position: relative;
-  min-width: 200px;
+  min-width: 150px;
 }
-
+.row2{
+  margin-left: 2rem;
+}
 .scroller {
   max-width: calc(100% - 1px);
- display:grid; 
+  display: grid;
+  
 }
 
 .scroller_inner {
   padding-block: 1rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 10rem;
   justify-content: center;
 }
-
-
 
 </style>
 
