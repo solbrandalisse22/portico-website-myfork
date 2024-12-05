@@ -13,12 +13,13 @@ const i18n = getI18N({ language })
 ---
 
 <Section
-  subheading ={i18n.INFINITE_SCROLL.TITLE}>
+  heading2 ={i18n.INFINITE_SCROLL.TITLE} subheading={i18n.INFINITE_SCROLL.SUBTITLE}>
   <div class="scroller">
     <ul class="tag-list scroller_inner items-center">
       <li><LogoFep /></li>
       <li><LogoRepsol /></li>
-      <li><LogoHexagonCup /></li>
+      <li><LogoHexagonCup /></li></ul>
+      <ul class="tag-list scroller_inner items-center">
       <li><LogoEvenPadel /></li>
       <li><LogoFutwall /></li>
       <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></li>
@@ -42,54 +43,18 @@ const i18n = getI18N({ language })
 
 .scroller {
   max-width: calc(100% - 1px);
+  
 }
 
 .scroller_inner {
   padding-block: 1rem;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem
+  gap: 10rem;
+  justify-content: center;
 }
 
-.scroller[data-animated="true"] {
-  overflow: hidden;
-  /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
-  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-}
 
-.scroller[data-animated="true"] .scroller_inner {
-  width: max-content;
-  flex-wrap: nowrap;
-  animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll {
-  to {
-    transform: translate(calc(-50% - .5rem));
-  }
-}
 
 </style>
 
-<script type="module">
-  document.addEventListener('astro:page-load', () => {
-    const scroller = document.querySelector(".scroller");
-  
-    function addAnimation() {
-      scroller.setAttribute("data-animated", true)
-      const scrollerInner = scroller.querySelector(".scroller_inner")
-      const scrollerContent = Array.from(scrollerInner.children)
-  
-      scrollerContent.forEach((item) => {
-        const clone = item.cloneNode(true)
-        clone.setAttribute("aria-hidden", true)
-        scrollerInner.appendChild(clone)
-      })
-    }
-  
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      addAnimation()
-    }
-  })
-</script>
+
