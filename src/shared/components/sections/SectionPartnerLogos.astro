@@ -11,6 +11,7 @@ import Section from "@/shared/components/Section.astro";
 import LogoIspoMunich from "@/shared/components/logos/LogoIspoMunich.astro";
 import LogoPadelSummit from "@/shared/components/logos/LogoPadelSummit.astro";
 import LogoRacquetx from "@/shared/components/logos/LogoRacquetx.astro";
+import LogoMinds from "@/shared/components/logos/LogoMinds.astro";
 
 interface Props {
   uk: boolean;
@@ -21,22 +22,29 @@ const { uk } = Astro.props
 
 <Section className="max-w-none relative">
   <div class="absolute top-0 bottom-0 -z-10 w-full left-0 opacity-50 border-t border-primary bg-cover bg-top saturate-50 blur-sm" style="background-image: url('/bg-turf-2.webp')" />
-  <ul class="partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
+  <ul class="row1 partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
     <!-- <li><LogoLedProjects /></li> -->
-    <li><LogoKuka /></li>
-    <li><LogoMondo /></li>
-    <li><LogoEvenPadelWhite /></li>
-    <li><LogoArcelorMittal /></li>
-    <li><LogoHexagonCupWhite /></li>
-    <li><LogoFutwallWhite /></li>
-    <li><LogoJutagrass /></li>
-    <li><LogoIspoMunich /></li>
-    <li><LogoRacquetx /></li>
-    <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
     <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
-    <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
+    <li><LogoHexagonCupWhite /></li>
+    <li><LogoEvenPadelWhite /></li>
+    <li><LogoMinds /></li>
+    </ul>
+
+    <ul class="row2 partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
     <li><img src="/logos/expo-padel-world.png" alt="Expo Padel World" loading="lazy" /></li>
     <li><LogoPadelSummit /></li>
+    <li><LogoIspoMunich /></li>
+    <li><LogoRacquetx /></li>
+    <li><LogoMondo /></li>
+
+</ul>
+
+<ul class="row3 partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
+    <li><LogoArcelorMittal /></li>
+    <li><LogoKuka /></li>  
+    <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
+    <li><LogoJutagrass /></li>
+    <li><img src="/logos/astiglass-logo.png" alt="Astiglass" loading="lazy" /></li>
     {
       uk ?
         <li><img src="/logos/Leigh-Spinners-Logo.png" alt="Leigh Spinners" loading="lazy" /></li>
@@ -51,4 +59,13 @@ const { uk } = Astro.props
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
+  .row1{
+    gap:7rem;
+    margin-bottom: 3rem;
+  }
+  .row2{
+    gap:4rem;
+    margin-bottom: 3rem;
+  }
 </style>
+
