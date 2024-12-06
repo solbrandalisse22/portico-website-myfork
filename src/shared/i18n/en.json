@@ -3058,6 +3058,62 @@
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
+     "FUNDING":{
+      "ID":"funding",
+      "SEO_TITLE":"Padel Court Funding | Portico Sport",
+      "SEO_DESCRIPTION":"Portico Sport offers a variety of funding solutions for your padel court project, making it easier for you to manage the costs over time.",
+      "ROUTE":{
+        "LABEL":"Funding",
+        "url":"/padel-court-funding"
+      },
+      "TITLE":"Padel Court Funding",
+
+      "INTRO_SECTION":{
+        "TITLE":"Funding for Padel Courts",
+        "DESCRIPTION":"<p>At Portico Sport, we understand that building a Padel court is a thrilling undertaking and a substantial investment. That’s why we offer tailored <strong> padel court funding solutions </strong>through strategic agreements with leading financial entities to help bring your Padel project to life. Our personalized financing options ensure you get the support you need to build your Padel court without financial strain.</p><p>Our collaborations with banks and financial institutions provide access to a wide range of services, including leasing and debt financing. These options are designed to meet the unique requirements of each client, offering competitive terms and conditions to suit your needs.</p>",
+        "BUTTON" :{
+          "LABEL":"Let's build your padel court",
+          "TITLE":"Padel Court Builders",
+          "URL":"/client-contatc"
+        }
+      },
+      "FINANCING_SECTION":{
+        "TITLE":" Best Padel court builders with financing programs",
+        "DESCRIPTION":"As industry leaders in padel court construction, Portico Sport combines expertise with innovative financing programs to ensure your vision becomes reality. Our padel court financing solutions include:",
+        "POINT_1":{
+          "TITLE":"Leasing",
+          "DESCRIPTION":" Ideal for businesses and individuals looking to acquire assets without a significant upfront investment. Spread payments over time and retain the option to own the court at the end of the lease."
+        },
+        "POINT_2":{
+          "TITLE":"Debt Financing",
+          "DESCRIPTION":" Secure capital through bank loans or credit lines to maintain liquidity while funding your court. This offers financial flexibility and helps you manage cash flow efficiently."
+        }
+      },
+      "PROGRAMS_SECTION":{
+        "TITLE":"Develop Your Padel Court Funding with Portico Sport",
+        "DESCRIPTION":"Investing in a Padel court has never been easier. Financing with Portico Sport means you can achieve your goals faster, access flexible payment options, and ensure your project is completed to the highest standards.",
+        "SUBTITLE_1":"Why choose financing for your Padel court project?",
+        "BENEFITS":{
+          "DESCRIPTION":"With our financing programs, you’ll benefit from:",
+          "BENEFIT_1":"Flexible financing options for premium-quality Padel courts.",
+          "BENEFIT_2":"Enhanced cash flow and better control over your finances.",
+          "BENEFIT_3":"Expand or upgrade facilities with minimal financial pressure.",
+          "BENEFIT_4":"Kickstart or scale your project right away with no waiting period."
+        },
+        "BUTTON_1":{
+          "LABEL":"Explore funding options now",
+          "TITLE":"Padel Court Builders",
+          "URL":"/client-contact"
+        },
+        "SUBTITLE_2":"Make your Padel court vision a reality",
+        "DESCRIPTION_2":"Imagine your state-of-the-art Padel court bustling with players and energy. With funding for Padel courts from Portico Sport, this dream is within reach. Our bespoke financing options are designed to fit your specific needs, ensuring a seamless process from start to finish.<br>Discuss your<strong> padel court funding</strong>options with our experts and take the first step toward building your dream court.<strong>Let’s make your project a success!</strong></br>",
+        "BUTTON_2":{
+          "LABEL":"Contact us for custom funding",
+          "TITLE":"Padel Court Builders",
+          "URL":"/client-contact"
+        }
+      }
+    },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "authorized-distributor",
       "SEO_TITLE": "Become a Portico Sport Distributor",
