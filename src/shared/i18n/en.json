@@ -3063,7 +3063,7 @@
       "SEO_TITLE":"Padel Court Funding | Portico Sport",
       "SEO_DESCRIPTION":"Portico Sport offers a variety of funding solutions for your padel court project, making it easier for you to manage the costs over time.",
       "ROUTE":{
-        "LABEL":"Funding",
+        "LABEL":"Padel Court Funding",
         "url":"/padel-court-funding"
       },
       "TITLE":"Padel Court Funding",
@@ -3075,6 +3075,10 @@
           "LABEL":"Let's build your padel court",
           "TITLE":"Padel Court Builders",
           "URL":"/client-contatc"
+        },
+         "IMG":{
+          "SRC":"/projects/gallery/thumbnails/projects-9.webp",
+          "ALT":"Big Padel in France"
         }
       },
       "FINANCING_SECTION":{
@@ -3111,6 +3115,10 @@
           "LABEL":"Contact us for custom funding",
           "TITLE":"Padel Court Builders",
           "URL":"/client-contact"
+        },
+         "IMG":{
+          "SRC":"/heros/hero-courts.webp",
+          "ALT":"Padel Court Builders | Portico Sport"
         }
       }
     },
