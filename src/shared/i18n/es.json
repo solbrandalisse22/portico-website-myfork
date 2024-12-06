@@ -2363,6 +2363,70 @@
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
+     "FUNDING":{
+      "ID":"funding",
+      "SEO_TITLE":"Financiamiento para pistas de pádel| Portico Sport",
+      "SEO_DESCRIPTION":"Portico Sport ofrece una variedad de soluciones de financiamiento para tu proyecto de pistas de pádel, facilitando la gestión de los costos a lo largo del tiempo",
+      "ROUTE":{
+        "LABEL":"Financiamiento de pistas de pádel",
+        "url":"/financiamiento-para-pistas-de-pádel"
+      },
+      "TITLE":"Financiación para Pistas de Pádel",
+
+      "INTRO_SECTION":{
+        "TITLE":"Opciones de financiación para pistas de Pádel",
+        "DESCRIPTION":"<p>En Portico Sport sabemos que construir una pista de pádel es un proyecto emocionante y una inversión significativa para cada cliente. Por eso, ofrecemos soluciones de financiación adaptadas a tus necesidades, gracias a alianzas estratégicas con entidades financieras líderes. Te ayudamos a convertir tu proyecto en realidad de la manera más accesible y eficiente.</p><p>Nuestra colaboración con bancos y organismos financieros te garantiza acceso a una variedad de servicios diseñados para facilitar la financiación de tu proyecto de pádel. Estas alternativas se ajustan a las necesidades únicas de cada cliente y ofrecen condiciones competitivas que marcan la diferencia.</p>",
+        "BUTTON" :{
+          "LABEL":"Construyamos tu pista de pádel",
+          "TITLE":"Fabricantes de pistas de pádel",
+          "URL":"/contacto-cliente"
+        },
+         "IMG":{
+          "SRC":"/projects/gallery/thumbnails/projects-9.webp",
+          "ALT":"Big Padel en Francia"
+        }
+      },
+      "FINANCING_SECTION":{
+        "TITLE":"Referentes en la construcción de pistas de pádel con financiación",
+        "DESCRIPTION":"Como líderes globales en la construcción e instalación de pistas de pádel y cubiertas deportivas, en Portico Sport combinamos nuestra amplia experiencia con programas de financiación innovadores para materializar tu visión. Nuestras opciones de financiación incluyen:",
+        "POINT_1":{
+          "TITLE":"Leasing",
+          "DESCRIPTION":"Una opción ideal para adquirir activos sin necesidad de un pago inicial elevado. Realiza cuotas periódicas y decide al final del contrato si deseas adquirir la pista o renovar el acuerdo."
+        },
+        "POINT_2":{
+          "TITLE":"Financiación por deuda",
+          "DESCRIPTION":"Obtén capital mediante préstamos bancarios o líneas de crédito, manteniendo la liquidez mientras financias tu proyecto. Esto te brinda flexibilidad financiera y un mejor control sobre tus recursos."
+        }
+      },
+      "PROGRAMS_SECTION":{
+        "TITLE":"Financia tu pista de pádel con Portico Sport",
+        "DESCRIPTION":"Con Portico Sport, invertir en una pista de pádel nunca fue tan sencillo. Nuestra financiación te permite alcanzar tus objetivos más rápido, disfrutar de planes de pago flexibles y garantizar un proyecto terminado con los más altos estándares de calidad.",
+        "SUBTITLE_1":"¿Por qué financiar tu pista de pádel?",
+        "BENEFITS":{
+          "DESCRIPTION":"Con nuestros programas de financiación, obtendrás beneficios como:",
+          "BENEFIT_1":"Opciones de pago flexibles para instalar pistas de pádel de alta calidad",
+          "BENEFIT_2":"Mayor control de tus finanzas y optimización del flujo de caja.",
+          "BENEFIT_3":"Expansión y mejora de instalaciones sin cargas económicas excesivas.",
+          "BENEFIT_4":"Comienza o amplía tu proyecto sin demoras innecesarias."
+        },
+        "BUTTON_1":{
+          "LABEL":"Explora opciones de financiación ahora ",
+          "TITLE":"Fabricantes de pistas de pádel",
+          "URL":"/contacto-cliente"
+        },
+        "SUBTITLE_2":"Realiza tu sueño de tener una pista de pádel ",
+        "DESCRIPTION_2":"Imagina una pista de pádel de última generación en tu instalación deportiva en plena actividad, con jugadores disfrutando y clientes satisfechos. Gracias a las soluciones de financiación de Portico Sport, este sueño está al alcance de tu mano. Ofrecemos opciones diseñadas específicamente para ajustarse a tus necesidades, asegurando que el proceso sea simple y eficiente desde el inicio hasta el final.<br>Habla con nuestro equipo de expertos sobre como <strong>financiar tu pista de pádel</strong> y toma el primer paso hacia la creación de un proyecto exitoso.<strong>¡Convirtamos tu visión en realidad!</strong></br>",
+        "BUTTON_2":{
+          "LABEL":"Contáctanos para una financiación personalizada ",
+          "TITLE":"Constructores de pistas de pádel",
+          "URL":"/contacto-cliente"
+        },
+        "IMG":{
+          "SRC":"/heros/hero-courts.webp",
+          "ALT":"Fabricantes de Pistas de Pádel | Portico Sport"
+        }
+      }
+    },
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "distribuidor-autorizado",
       "TYPE": "PRODUCT",
