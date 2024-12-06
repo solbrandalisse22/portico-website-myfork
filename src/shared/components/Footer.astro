@@ -65,7 +65,14 @@ const i18n = getI18N({ language })
      <a href={i18n.PAGES.SECTION_INDOOR.ROUTE.URL}
   class="text-white hover:text-primary duration-300"
                 ><span>{i18n.PAGES.SECTION_INDOOR.ROUTE.LABEL}</span></a>
-
+{ i18n?.PAGES?.FUNDING?.ROUTE?.URL && (
+                  <a
+                    href={i18n.PAGES.FUNDING.ROUTE.URL}
+                    class="hover:underline hover:text-primary duration-300"
+                  >
+                    {i18n.PAGES.FUNDING.ROUTE.LABEL}
+                  </a>
+                )}
               
 </div></div>
      <div class="w-[50%] flex flox-col justify-center items-center gap-2 md:justify-between lg:flex-col">
