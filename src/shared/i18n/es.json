@@ -112,43 +112,50 @@
         "TITLE_GALLERY": "Construcción de pistas de pádel por todo el mundo",
         "PATH": "projects/gallery"
       },
-      "COMPLEMENTS_SECTION": {
-        "ID": "complements",
-        "TITLE": "Construcción de Pistas de Pádel Premium: Calidad e Innovación",
-        "SUBTITLE": "Una empresa líder en Pistas de Pádel en todo el mundo.",
-        "DESCRIPTION":"Nuestras pistas de pádel son el resultado de un diseño y desarrollo meticuloso por parte de nuestro departamento de ingeniería, asegurando máxima resistencia y un rendimiento inigualable. Cada pista de pádel cumple con las normativas deportivas oficiales (NIDE 2004 Pádel), las regulaciones de la FIP (Federación Internacional de Pádel) y los cálculos estructurales basados en la Instrucción de Acero Estructural (EAE) y los códigos americanos AISC-360 y ASCE SEI 7-16.  Además, cada pista de pádel tiene una garantía de 10 años que respalda la estabilidad estructural de nuestras pistas, reafirmando nuestro compromiso con la calidad y la confianza.",
-        "BUTTON":{
-          "LABEL":"Solicita tu Presupuesto Personalizado",
-          "TITLE":"Fabricantes de pistas de pádel",
-          "URL":"/contacto-cliente"
-        },
-        "ITEMS": {
-          "ITEM_1": {
-            "TITLE": "Cimentación y plataformas",
-            "DESCRIPTION": "Nos especializamos en la construcción y reparación de losas de asfalto y concreto y cimientos estructurales."
-          },
-          "ITEM_2": {
-            "TITLE": "Estructuras",
-            "DESCRIPTION": "Estructura metálica fabricada en acero galvanizado, horneada con pintura de poliéster termoendurecido. Cuenta con una capa para pistas interiores y dos capas para instalaciones al aire libre, fabricadas para cumplir con los más altos estándares del mercado."
-          },
-          "ITEM_3": {
-            "TITLE": "Cristales",
-            "DESCRIPTION": "Todas las pistas están equipadas con cristal de seguridad templado, de 10 o 12 mm de espesor dependiendo de cada proyecto, cumpliendo estrictamente con las regulaciones establecidas para este tipo de instalaciones."
-          },
-          "ITEM_4": {
-            "TITLE": "Césped artificial",
-            "DESCRIPTION": "Césped artificial de primera calidad con las mejores marcas del mercado, de última generación, con fibras rectas o rizadas…"
-          },
-          "ITEM_5": {
-            "TITLE": "Iluminación",
-            "DESCRIPTION": "Instalamos los mejores proyectores Led, de los fabricantes más reconocidos en el mercado."
-          },
-          "ITEM_6": {
-            "TITLE": "Personaliza tu pista",
-            "DESCRIPTION": "PERSONALIZA TU PISTA: Bancos integrados en la estructura, esquinas grabadas con el logo del club, red serigrafiada,..."
-          }
-        }
-      },
+     "COMPLEMENTS_SECTION": {
+  "ID": "complements",
+  "TITLE": "Lleva la personalización de tu pista de pádel un paso más allá",
+  "SUBTITLE": "Diseña pistas de pádel a tu medida",
+  "DESCRIPTION": "En Portico Sport, te brindamos la oportunidad de crear una pista de pádel completamente personalizada. Esto incluye elementos innovadores que reflejan el branding exclusivo de tu club y hacen que destaque. Algunas de las opciones de personalización incluyen:",
+  "ITEMS": {
+    "ITEM_1": {
+      "TITLE": "Sistemas de marcador",
+      "DESCRIPTION": "Escoge entre el marcador clásico tipo ábaco o modernos marcadores electrónicos."
+    },
+    "ITEM_2": {
+      "TITLE": "Esquinas personalizadas",
+      "DESCRIPTION": "Integra el nombre o el logo de tu club directamente en la estructura."
+    },
+    "ITEM_3": {
+      "TITLE": "Estructura única",
+      "DESCRIPTION": "Diseña hasta el más mínimo detalle de la estructura de tu pista, incluyendo postes para la red, con grabados y acabados personalizados."
+    },
+    "ITEM_4": {
+      "TITLE": "Protecciones recogepelotas",
+      "DESCRIPTION": "Añade redes o lonas para mantener el área ordenada y segura, adaptadas a tu estilo."
+    },
+    "ITEM_5": {
+      "TITLE": "Red personalizada",
+      "DESCRIPTION": "Da un toque distintivo con redes que incluyan tu logotipo o diseño exclusivo."
+    },
+    "ITEM_6": {
+      "TITLE": "Bancos integrados",
+      "DESCRIPTION": "Diseñados para mayor comodidad y adaptados al diseño general de la pista."
+    },
+    "ITEM_7": {
+      "TITLE": "Cierres y protecciones contra el viento",
+      "DESCRIPTION": "Ideal para garantizar un juego sin interrupciones."
+    },
+    "ITEM_8": {
+      "TITLE": "Protecciones de entrada",
+      "DESCRIPTION": "Asegura y embellece los accesos con opciones personalizables."
+    },
+    "ITEM_9": {
+      "TITLE": "Colgadores y perchas",
+      "DESCRIPTION": "Funcionales y diseñados para complementar el resto de la instalación."
+    }
+  }
+},
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Preguntas sobre constructores de Pistas de Pádel",
