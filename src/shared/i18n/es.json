@@ -2363,6 +2363,64 @@
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
+     "CUSTOMIZATION":{
+      "ID":"customization",
+      "SEO_TITLE":"Personalizacion de pistas de pádel | Portico Sport",
+      "SEO_DESCRIPTION":"Portico Sport diseña e instala pistas de pádel a medida con fabricación 100% propia. ¡Construye la pista perfecta para la competición y la diversión con Portico Sport!",
+      "ROUTE":{
+        "LABEL":"Personalización",
+        "URL":"/personalizacion-pistas-de-padel"
+      },
+      "TITLE":"Personalización de pistas de pádel",
+      "INTRO_SECTION": {
+        "TITLE":"Opciones de personalización para pistas de pádel",
+        "DESCRIPTION":"<p>En Portico Sport, fabricantes de pistas de pádel con amplia experiencia, entendemos que cada instalación debe destacar y reflejar la identidad única de tu club o proyecto. Gracias a nuestra fabricación 100% en nuestras instalaciones, podemos ofrecerte una personalización completa que hará que tu pista se convierta en un referente. </p><p>Con nuestras pistas, puedes elegir el color de la estructura, personalizar el césped artificial o seleccionar báculos de iluminación que se adapten a tus necesidades. Pero la personalización no termina ahí; te ofrecemos una amplia gama de opciones adicionales para que tu instalación de pista de pádel sea única y funcional.</p>"
+      },
+      "CUSTOM_SECTION":{
+        "TITLE":"Lleva la personalización de tu pista de pádel un paso más allá",
+        "SUBTITLE":"Diseña pistas de pádel a tu medida",
+        "DESCRIPTION":"En Portico Sport, te brindamos la oportunidad de crear una pista de pádel completamente personalizada. Esto incluye elementos innovadores que reflejan el branding exclusivo de tu club y hacen que destaque. Algunas de las opciones de personalización incluyen:",
+      
+        "BUTTON":{
+          "URL":"/contacto-cliente",
+          "LABEL":"Descubre las opciones de personalización ahora",
+          "TITLE":"Personaliza tu pista de pádel"
+        },
+        "IMG":{
+          "SRC":"/og/og-panoramic.jpg",
+          "ALT":""
+        }
+      },
+      "PERSONALIZATION_SECTION":{
+        "TITLE":"Ventajas de personalizar tu pista de pádel",
+        "SUBTITLE":"Optar por la personalización de tu pista de pádel ofrece múltiples beneficios:",
+        "POINT_1":{
+          "TITLE":"Distinción",
+          "DESCRIPTION":"Haz que tu instalación destaque con un diseño exclusivo que atraiga miradas."
+      },
+      "POINT_2":{
+          "TITLE":"Funcionalidad optimizada",
+          "DESCRIPTION":"Cada detalle se ajusta para ofrecer la mejor experiencia a jugadores y espectadores."
+      },
+      "POINT_3":{
+          "TITLE":"Reflejo de tu marca",
+          "DESCRIPTION":"Integra colores, logos y otros elementos que representen la identidad de tu club o empresa."
+      },
+      "POINT_4":{
+          "TITLE":"Atracción de nuevos jugadores",
+          "DESCRIPTION":"Una pista moderna y personalizada genera interés y fideliza a los usuarios."
+      }
+    },
+    "BUILDING_SECTION":{
+      "TITLE":"Crea una pista de pádel única con Portico Sport",
+      "DESCRIPTION":"Imagina una pista que no solo sea un espacio de juego, sino un reflejo de tu visión y estilo. En Portico Sport, expertos en la instalación de pistas de pádel, te ayudamos a transformar tus ideas en realidad gracias a nuestra capacidad de fabricación integral y nuestras infinitas posibilidades de personalización.",
+      "BUTTON":{
+        "URL":"/contacto-cliente",
+        "LABEL":"Contacta y personaliza tu pista de pádel",
+        "TITLE":"Contaca con Portico Sport"
+      }
+    }
+  },
      "FUNDING":{
       "ID":"funding",
       "SEO_TITLE":"Financiamiento para pistas de pádel| Portico Sport",
