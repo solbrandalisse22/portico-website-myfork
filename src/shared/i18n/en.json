@@ -343,41 +343,55 @@
         "SUBTITLE_GALLERY":"Our South Africa team is dedicated to transforming the sports landscape with high-quality Padel courts. We’re equipped to take on large projects and travel to cities like Johannesburg, Cape Town, Pretoria, Durban, Port Elizabeth, Bloemfontein, Nelspruit, and Kimberley. Check out some of our completed projects!",
         "PATH": "projectsza/gallery"
       },
-      "COMPLEMENTS_SECTION": {
+     "COMPLEMENTS_SECTION": {
         "ID": "complements",
         "TITLE": "Premium Padel Court Construction: Quality & Innovation",
         "SUBTITLE": "A Leading Padel Court Company across the globe.",
         "DESCRIPTION":"Portico Sport is a leading Padel court company specializing in padel court and canopy construction, offering robust asphalt and concrete foundations, durable galvanized steel structures, and 10-12 mm tempered safety glass, all built to the highest standards. Our Padel courts feature premium artificial turf, advanced LED lighting, and customizable options like integrated benches, engraved logos, and screen-printed nets. Designed for performance and style, we deliver innovation in every detail.",
         "BUTTON":{
           "LABEL":"Get Your Custom Court Quote",
-          "TITLE":"Padel Court Builders",
-          "URL":"/client-contact"
+          "TITLE":"Padel Court Builders | Contact",
+          "URL":"/contact"
         },
         "ITEMS": {
           "ITEM_1": {
-            "TITLE": "Foundation and platforms",
-            "DESCRIPTION": "We specialize in the construction and repair of asphalt and concrete slabs and structural foundations."
+            "TITLE": "Scoreboard systems",
+            "DESCRIPTION": "Choose between traditional abacus scoreboards or advanced electronic displays for precision."
           },
           "ITEM_2": {
-            "TITLE": "Structures",
-            "DESCRIPTION": "Metallic structure made of galvanized steel, oven-baked with thermoplastic polyester paint. It features one layer for indoor courts and two layers for outdoor installations, manufactured to meet the highest market standards."
+            "TITLE": "Custom corners",
+            "DESCRIPTION": "Add your club’s name, logo, or unique designs to the court structure."
           },
           "ITEM_3": {
-            "TITLE": "Glasses",
-            "DESCRIPTION": "All our Padel courts are equipped with tempered safety glass, 10 or 12 mm thick depending on each project, strictly complying with the regulations established for this type of facility."
+            "TITLE": "Unique structure design",
+            "DESCRIPTION": "Personalize every detail of your court’s structure, including net posts, with engraved or tailored finishes."
           },
           "ITEM_4": {
-            "TITLE": "Artifitial turf",
-            "DESCRIPTION": "Premium quality artificial turf in parnertship with top turf companies, of the latest generation, with straight or curly fibers…"
+            "TITLE": "Ball catcher protections",
+            "DESCRIPTION": "Keep the court area tidy and safe with custom nets or tarpaulins designed to match your style"
           },
           "ITEM_5": {
-            "TITLE": "Lighting",
-            "DESCRIPTION": "We install the best Led projectors, from the most renowned manufacturers on the market."
+            "TITLE": "Customized net",
+            "DESCRIPTION": " Incorporate your logo or design directly into the net for a distinctive touch."
           },
           "ITEM_6": {
-            "TITLE": "Customize your court",
-            "DESCRIPTION": "CUSTOMIZE YOUR COURT: Benches integrated into the structure, corners engraved with the club's logo, screen-printed net,..."
+            "TITLE": "Integrated benches",
+            "DESCRIPTION": "Ensure player comfort with benches designed to seamlessly fit your court’s aesthetics."
+          },
+          "ITEM_7": {
+            "TITLE": "Enclosures and wind shields",
+            "DESCRIPTION": "Maintain uninterrupted play, regardless of weather conditions."
+          },
+          "ITEM_8": {
+            "TITLE": "Entry protections",
+            "DESCRIPTION": "Secure and enhance the court entrances with bespoke designs."
+          },
+          "ITEM_9": {
+            "TITLE": "Hangers and hooks",
+            "DESCRIPTION": "Add practical elements that keep your facility organized and professional."
           }
+          
+
         }
       },
       "COMPLEMENTS_SECTION_USA": {
