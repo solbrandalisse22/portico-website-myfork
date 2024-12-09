@@ -20,8 +20,8 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
 ---
 
 <Layout
-  title={i18n.PAGES.CANOPIES.SEO_TITLE}
-  description={i18n.PAGES.CANOPIES.SEO_DESCRIPTION}
+  title={i18n.PAGES.CUSTOMIZATION.SEO_TITLE}
+  description={i18n.PAGES.CUSTOMIZATION.SEO_DESCRIPTION}
   ogImage={i18n.PAGES.CANOPIES.OG_IMG}
   currentLocale={currentLocale}
 bgImage="/projects/gallery/projects-7.webp"
@@ -36,9 +36,17 @@ bgClass="brightness-50"
 heading2={i18n.PAGES.CUSTOMIZATION.TITLE} className="uppercase">
 </Section>
  </div>
+div class="bg-main relative bg-background ">
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.CUSTOMIZATION.ROUTE.LABEL, href: i18n.PAGES.CUSTOMIZATION.ROUTE.URL },
+      ]}
+    />
 
 
 
+</div>
 </main>
 
 </Layout>
