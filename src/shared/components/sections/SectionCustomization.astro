@@ -1,0 +1,128 @@
+---
+import { getI18N } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import Button from "@/shared/components/Button.astro"
+
+import Typography from "../ui/Typography.astro";
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+
+const COMPLEMENTS_ITEMS = [
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_1.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_1.DESCRIPTION,
+    image: "/complements/platforms.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_2.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_2.DESCRIPTION,
+    image: "/complements/structures.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_3.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_3.DESCRIPTION,
+    image: "/complements/glasses.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_4.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_4.DESCRIPTION,
+    image: "/complements/artifitial-turf.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_5.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_5.DESCRIPTION,
+    image: "/complements/lighting.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_6.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_6.DESCRIPTION,
+    image: "/complements/customization.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_7.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_7.DESCRIPTION,
+    image: "/complements/structures2.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_8.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_8.DESCRIPTION,
+    image: "/complements/montaje.webp",
+  },
+  {
+    title: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_9.TITLE,
+    description: i18n.PAGES.HOME.COMPLEMENTS_SECTION.ITEMS.ITEM_9.DESCRIPTION,
+    image: "/complements/parkside.webp",
+  },
+];
+---
+
+<Section
+  id={i18n.PAGES.HOME.COMPLEMENTS_SECTION.ID}
+  className="text-center"
+>
+<Typography tag="h2" className="mx-auto mb-6 text-wrap font-semibold" text={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.TITLE} />
+<Typography tag="p" type="primary" text={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.SUBTITLE}  />
+<Typography tag="div" className=" mx-auto"  text={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.DESCRIPTION}  />
+  <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 pt-20 mb-10">
+    {
+      COMPLEMENTS_ITEMS.map(({ image, title, description }) => (
+        <article
+          style={{
+            backgroundImage: `url('${image}')`,
+          }}
+          class="bg-cover bg-bottom bg-no-repeat rounded-xl flex flex-col gap-3 justify-end h-96 p-4 brightness-75"
+        >
+          <p class="text-2xl font-bold text-balance z-20">
+            {title}
+          </p>
+          <p class="text-lg text-pretty mb-0 z-20">
+            {description}
+          </p>
+        </article>
+      ))
+    }
+  </div>
+
+  <Button
+    class="text-base lg:text-base self-center md:self-end py-2 text-center px-4 sm:px-6 md:px-8 w-auto whitespace-normal break-words inline-block"
+    url={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.BUTTON.URL}
+    title={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.BUTTON.TITLE}
+>
+    {i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.BUTTON.LABEL}
+</Button>
+
+
+  
+</Section>
+
+<style>
+
+  @media (prefers-reduced-motion: no-preference) {
+    article {
+      scale: 0.8;
+      opacity: 0;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry 100px;
+    }
+
+    @keyframes fade-in {
+      to {
+        scale: 1;
+        opacity: 1;
+      }
+    }
+  }
+
+  article::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    z-index: 10;
+    @apply rounded-b-xl;
+  }
+</style>
