@@ -117,7 +117,12 @@
   "TITLE": "Lleva la personalización de tu pista de pádel un paso más allá",
   "SUBTITLE": "Diseña pistas de pádel a tu medida",
   "DESCRIPTION": "En Portico Sport, te brindamos la oportunidad de crear una pista de pádel completamente personalizada. Esto incluye elementos innovadores que reflejan el branding exclusivo de tu club y hacen que destaque. Algunas de las opciones de personalización incluyen:",
-  "ITEMS": {
+   "BUTTON":{
+          "LABEL":"Solicita tu Presupuesto Personalizado",
+          "TITLE":"Fabricantes de pistas de pádel",
+          "URL":"/contacto-cliente"
+        },
+       "ITEMS": {
     "ITEM_1": {
       "TITLE": "Sistemas de marcador",
       "DESCRIPTION": "Escoge entre el marcador clásico tipo ábaco o modernos marcadores electrónicos."
