@@ -9,14 +9,13 @@ import { type Photo } from "@/types/types";
 import SectionComplements from "@/shared/components/sections/SectionCustomization.astro"
 interface Props {
   language: string;
-  canopiesGallery: Photo[];
+
 }
 
-const { language, canopiesGallery } = Astro.props;
+const { language} = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 
-const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
 ---
 
 <Layout
