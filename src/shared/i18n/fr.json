@@ -114,43 +114,56 @@
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
-        "ID": "complements",
-        "TITLE": "Construction de Courts de Padel Premium : Qualité et Innovation",
-        "SUBTITLE": "Une entreprise de courts de padel de premier plan à travers le monde.",
-        "DESCRIPTION": "Portico Sport est une entreprise leader dans la construction de courts de padel, spécialisée dans la construction de courts de padel et de canopées, offrant des fondations robustes en asphalte et en béton, des structures en acier galvanisé durables et du verre de sécurité trempé de 10-12 mm, le tout construit selon les normes les plus élevées. Nos courts de padel disposent de gazon artificiel haut de gamme, d'un éclairage LED avancé et d'options personnalisables telles que des bancs intégrés, des logos gravés et des filets sérigraphiés. Conçus pour la performance et le style, nous apportons de l'innovation dans chaque détail.",
-"BUTTON": {
+  "ID": "complements",
+  "TITLE": "Construction de pistes de padel haut de gamme : Qualité et innovation",
+  "SUBTITLE": "Une entreprise leader dans le padel à l’échelle mondiale.",
+  "DESCRIPTION": "Portico Sport est une entreprise de renom spécialisée dans la construction de pistes de padel et de structures couvertes, offrant des fondations en asphalte ou en béton robustes, des structures en acier galvanisé durables et du verre trempé de sécurité de 10-12 mm, le tout conforme aux normes les plus strictes. Nos pistes de padel incluent un gazon artificiel de qualité supérieure, un éclairage LED avancé et des options personnalisables telles que des bancs intégrés, des logos gravés et des filets sérigraphiés. Conçues pour la performance et le style, nous innovons dans chaque détail.",
+  "BUTTON": {
   "LABEL": "Obtenez votre devis personnalisé pour un court",
   "TITLE": "Constructeurs de Courts de Padel",
   "URL": "/client-contact"
 },
-
         "ITEMS": {
-          "ITEM_1": {
-            "TITLE": "Fondations et plates-formes",
-            "DESCRIPTION": "Nous sommes spécialisés dans la construction et la réparation de dalles en asphalte et en béton et de fondations structurelles."
-          },
-          "ITEM_2": {
-            "TITLE": "Structures",
-            "DESCRIPTION": "Structure métallique en acier galvanisé, cuite au four avec peinture en polyester thermoplastique. Elle présente une couche pour les courts intérieurs et deux couches pour les installations extérieures, fabriquée pour répondre aux normes les plus élevées du marché."
-          },
-          "ITEM_3": {
-            "TITLE": "Vitres",
-            "DESCRIPTION": "Tous les courts sont équipés de vitres de sécurité trempées, d'une épaisseur de 10 ou 12 mm selon chaque projet, respectant strictement les réglementations établies pour ce type d'installation."
-          },
-          "ITEM_4": {
-            "TITLE": "Gazon synthétique",
-            "DESCRIPTION": "Gazon synthétique de qualité premium en collaboration avec les meilleures entreprises, de dernière génération, avec des fibres droites ou bouclées…"
-          },
-          "ITEM_5": {
-            "TITLE": "Éclairage",
-            "DESCRIPTION": "Nous installons les meilleurs projecteurs LED, des fabricants les plus renommés sur le marché."
-          },
-          "ITEM_6": {
-            "TITLE": "Personnalisez votre court",
-            "DESCRIPTION": "PERSONNALISEZ VOTRE COURT : Bancs intégrés dans la structure, coins gravés avec le logo du club, filet sérigraphié,..."
-          }
-        }
-      },
+    "ITEM_1": {
+      "TITLE": "Systèmes de score",
+      "DESCRIPTION": "Choisissez entre des tableaux de score traditionnels ou des affichages électroniques modernes pour plus de précision."
+    },
+    "ITEM_2": {
+      "TITLE": "Coins personnalisés",
+      "DESCRIPTION": "Ajoutez le nom ou le logo de votre club directement à la structure."
+    },
+    "ITEM_3": {
+      "TITLE": "Conception unique de la structure",
+      "DESCRIPTION": "Personnalisez chaque détail de la structure de votre piste, y compris les poteaux de filet, avec des finitions gravées ou sur mesure."
+    },
+    "ITEM_4": {
+      "TITLE": "Protections pour les balles",
+      "DESCRIPTION": "Gardez la zone de jeu propre et sûre avec des filets ou bâches personnalisés à votre style."
+    },
+    "ITEM_5": {
+      "TITLE": "Filet personnalisé",
+      "DESCRIPTION": "Ajoutez votre logo ou design directement sur le filet pour une touche distinctive."
+    },
+    "ITEM_6": {
+      "TITLE": "Bancs intégrés",
+      "DESCRIPTION": "Offrez un confort optimal aux joueurs avec des bancs intégrés au design de votre piste."
+    },
+    "ITEM_7": {
+      "TITLE": "Clôtures et pare-vents",
+      "DESCRIPTION": "Jouez sans interruptions quelles que soient les conditions météorologiques."
+    },
+    "ITEM_8": {
+      "TITLE": "Protections des entrées",
+      "DESCRIPTION": "Rendez les accès plus sécurisés et esthétiques grâce à des designs personnalisés."
+    },
+    "ITEM_9": {
+      "TITLE": "Cintres et crochets",
+      "DESCRIPTION": "Ajoutez des éléments pratiques pour garder vos installations organisées et professionnelles."
+    }
+  }
+},
+
+     
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Poser des questions sur les constructeurs de Courts de Padel",
@@ -2342,7 +2355,64 @@
         "SUBJECT": "Nouvelle demande de travail avec nous",
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
+    },"CUSTOMIZATION": {
+  "ID": "customization",
+  "SEO_TITLE": "Piste de padel personnalisée | Portico Sport",
+  "SEO_DESCRIPTION": "Portico Sport conçoit et installe des pistes de padel personnalisées avec une fabrication 100% interne. Créez la piste parfaite pour la compétition et le plaisir !",
+  "ROUTE": {
+    "LABEL": "Personnalisation",
+    "URL": "/piste-padel-personnalisee"
+  },
+  "TITLE": "Piste de padel personnalisée",
+  "INTRO_SECTION": {
+    "TITLE": "Options de personnalisation sur mesure pour les pistes de padel",
+    "DESCRIPTION": "<p>Chez Portico Sport, en tant que fabricants et installateurs expérimentés de pistes de padel, nous comprenons l'importance de créer un espace qui se distingue et représente l'identité unique de votre club ou installation. Avec une fabrication 100% interne, nous offrons des options de personnalisation inégalées pour faire de votre piste une référence en matière de qualité et de design.</p><p>Avec nos pistes, vous pouvez choisir la couleur de la structure, personnaliser le gazon artificiel avec des couleurs sur mesure et sélectionner des mâts d’éclairage correspondant à votre vision. Et ce n’est que le début : nous proposons une large gamme de fonctionnalités supplémentaires pour rendre votre piste de padel à la fois fonctionnelle et unique.</p>"
+  },
+  "CUSTOM_SECTION": {
+    "TITLE": "Améliorez la personnalisation de votre piste de padel",
+    "SUBTITLE": "Concevez votre piste de padel à votre façon",
+    "DESCRIPTION": "Portico Sport vous donne la liberté de créer une piste de padel entièrement personnalisée. Du branding aux fonctionnalités innovantes, nos options de personnalisation garantissent que votre piste se démarque. Certaines des fonctionnalités disponibles incluent :",
+    "BUTTON": {
+      "URL": "/contact-client",
+      "LABEL": "Découvrez les options de personnalisation maintenant",
+      "TITLE": "Piste de padel personnalisée"
     },
+    "IMG": {
+      "SRC": "/public/heros/hero-courts.webp",
+      "ALT": "Constructeurs de pistes de padel"
+    }
+  },
+  "PERSONALIZATION_SECTION": {
+    "TITLE": "Pourquoi personnaliser votre piste de padel ?",
+    "SUBTITLE": "Personnaliser votre piste de padel présente de nombreux avantages",
+    "POINT_1": {
+      "TITLE": "Se démarquer",
+      "DESCRIPTION": "Faites de votre installation un point de mire avec un design qui attire l’attention."
+    },
+    "POINT_2": {
+      "TITLE": "Fonctionnalité améliorée",
+      "DESCRIPTION": "Adaptez chaque fonctionnalité pour offrir la meilleure expérience aux joueurs et spectateurs."
+    },
+    "POINT_3": {
+      "TITLE": "Représentation de la marque",
+      "DESCRIPTION": "Mettez en avant l’identité de votre club avec des couleurs, logos et designs personnalisés."
+    },
+    "POINT_4": {
+      "TITLE": "Attirez plus de joueurs",
+      "DESCRIPTION": "Une piste de padel moderne et unique crée du buzz et augmente l’affluence dans votre club."
+    }
+  },
+  "BUILDING_SECTION": {
+    "TITLE": "Construisez une piste de padel unique avec Portico Sport",
+    "DESCRIPTION": "Imaginez une piste de padel qui n’est pas seulement un lieu de jeu, mais aussi un reflet de votre style et vision. Chez Portico Sport, experts en installation de pistes de padel, nous faisons de votre piste de rêve une réalité.<br> Avec notre fabrication interne et nos vastes capacités de personnalisation, les possibilités sont infinies.</br>",
+    "BUTTON": {
+      "URL": "/contact-client",
+      "LABEL": "Contactez-nous pour personnaliser votre piste de padel",
+      "TITLE": "Constructeurs de pistes de padel"
+    }
+  }
+},
+
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "distributeur-agree",
       "TYPE": "PRODUCT",
