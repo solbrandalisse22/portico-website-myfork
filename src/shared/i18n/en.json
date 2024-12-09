@@ -3058,6 +3058,64 @@
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
+     "CUSTOMIZATION":{
+      "ID":"customization",
+      "SEO_TITLE":"Custom Padel Court | Portico Sport",
+      "SEO_DESCRIPTION":"Portico Sport designs and installs custom padel courts with 100% in-house manufacturing. Build the perfect court for competition and fun!",
+      "ROUTE":{
+        "LABEL":"Customization",
+        "URL":"/custom-padel-court"
+      },
+      "TITLE":"Custom Padel Court",
+      "INTRO_SECTION": {
+        "TITLE":"Tailored customization options for Padel courts",
+        "DESCRIPTION":"<p>At Portico Sport, as experienced padel court manufacturers and installers, we understand the importance of creating a space that stands out and represents the unique identity of your club or facility. With 100% of our manufacturing done in-house, we offer unparalleled customization options to ensure your court becomes a benchmark of quality and design.</p><p>With our courts, you can select the color of the structure, customize the artificial turf with bespoke colors, and choose lighting masts to match your vision. But that’s just the beginning—we provide a wide range of additional features to make your padel court both functional and uniquely yours.</p>"
+      },
+      "CUSTOM_SECTION":{
+        "TITLE":" Take your Padel court customization to the next level",
+        "SUBTITLE":"Design Your Padel Court, Your Way",
+        "DESCRIPTION":"Portico Sport gives you the freedom to create a fully personalized padel court. From branding to innovative features, our customization options ensure your court stands out. Some of the available features include:",
+      
+        "BUTTON":{
+          "URL":"/client-contact",
+          "LABEL":"Explore customization options now",
+          "TITLE":"Custom Padel Court | Portico Sport"
+        },
+        "IMG":{
+          "SRC":"/og/og-panoramic.webp",
+          "ALT":"Padel court Builders | Portico Sport"
+        }
+      },
+      "PERSONALIZATION_SECTION":{
+        "TITLE":"Why personalize your Padel court?",
+        "SUBTITLE":"Customizing your Padel court comes with multiple advantages",
+        "POINT_1":{
+          "TITLE":"Stand out",
+          "DESCRIPTION":"Make your facility a focal point with a design that captures attention"
+      },
+      "POINT_2":{
+          "TITLE":"Enhanced functionality",
+          "DESCRIPTION":"Tailor every feature to provide the best experience for players and spectators."
+      },
+      "POINT_3":{
+          "TITLE":"Brand representation",
+          "DESCRIPTION":"Showcase your club’s identity with personalized colors, logos, and designs."
+      },
+      "POINT_4":{
+          "TITLE":"Attract more players",
+          "DESCRIPTION":" A modern, unique Padel court creates buzz and increases footfall to your club."
+      }
+    },
+    "BUILDING_SECTION":{
+      "TITLE":"Build a One-of-a-Kind Padel Court with Portico Sport",
+      "DESCRIPTION":"Imagine a Padel court that isn’t just a place to play but a reflection of your style and vision. At Portico Sport, experts in Padel court installation, we make your dream court a reality.<br> With our in-house manufacturing and extensive customization capabilities, the possibilities are endless.</br>",
+      "BUTTON":{
+        "URL":"/client-contact",
+        "LABEL":"Contact us to Customize your Padel court",
+        "TITLE":"Padel Court Builders | Portico Sport"
+      }
+    }
+  },
      "FUNDING":{
       "ID":"funding",
       "SEO_TITLE":"Padel Court Funding | Portico Sport",
