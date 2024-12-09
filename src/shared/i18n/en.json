@@ -3158,11 +3158,11 @@
         "BUTTON":{
           "URL":"/client-contact",
           "LABEL":"Explore customization options now",
-          "TITLE":"Custom Padel Court | Portico Sport"
+          "TITLE":"Contact us for padel court customization"
         },
         "IMG":{
           "SRC":"/og/og-panoramic.jpg",
-          "ALT":"Padel court Builders | Portico Sport"
+          "ALT":"Padel court Builders"
         }
       },
       "PERSONALIZATION_SECTION":{
@@ -3191,7 +3191,7 @@
       "BUTTON":{
         "URL":"/client-contact",
         "LABEL":"Contact us to Customize your Padel court",
-        "TITLE":"Padel Court Builders | Portico Sport"
+        "TITLE":"Customize your padel court"
       }
     }
   },
