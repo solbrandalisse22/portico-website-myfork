@@ -1,0 +1,6 @@
+---
+import Customizationpage from "@/shared/components/pages/CustomizationPage.astro"
+import { LANGUAGES } from "@/shared/i18n/constants"
+---
+
+<Customizationpage language={LANGUAGES.ES} />
