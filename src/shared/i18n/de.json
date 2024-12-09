@@ -113,43 +113,55 @@
         "PATH": "projects/gallery"
       },
       "COMPLEMENTS_SECTION": {
-        "ID": "complements",
-        "TITLE": "Premium Padelplatzhersteller: Qualität und Innovation",
-        "SUBTITLE": "Ein führendes Padel-Court-Unternehmen weltweit.",
-        "DESCRIPTION": "Portico Sport ist ein führendes Unternehmen im Bau von Padelplätzen, das sich auf den Bau von Padelplätzen und Überdachungen spezialisiert hat. Wir bieten robuste Asphalt- und Betonfundamente, langlebige verzinkte Stahlstrukturen und 10-12 mm Sicherheitsglas, alles nach höchsten Standards gebaut. Unsere Padelplätze verfügen über hochwertiges Kunstrasen, fortschrittliche LED-Beleuchtung und anpassbare Optionen wie integrierte Bänke, gravierte Logos und Siebdrucknetze. Für Leistung und Stil entwickelt, liefern wir Innovation in jedem Detail.",
-        "BUTTON": {
+  "ID": "complements",
+  "TITLE": "Bringen Sie die Personalisierung Ihres Padelplatzes auf die nächste Stufe",
+  "SUBTITLE": "Entwerfen Sie Padelplätze nach Ihren Wünschen",
+  "DESCRIPTION": "Bei Portico Sport bieten wir Ihnen die Möglichkeit, einen vollständig personalisierten Padelplatz zu gestalten. Dies umfasst innovative Elemente, die das exklusive Branding Ihres Clubs widerspiegeln und ihn hervorheben. Zu den Personalisierungsoptionen gehören:",
+   "BUTTON": {
           "LABEL": "Holen Sie sich Ihr individuelles Angebot für Padelplätze",
           "TITLE": "Padelplatzbauer",
           "URL": "/kundenkontakt"
                },
-
         "ITEMS": {
-          "ITEM_1": {
-            "TITLE": "Gründung und Plattformen",
-            "DESCRIPTION": "Wir sind spezialisiert auf den Bau und die Reparatur von Asphalt- und Betonplatten sowie strukturelle Fundamente."
-          },
-          "ITEM_2": {
-            "TITLE": "Strukturen",
-            "DESCRIPTION": "Metallstruktur aus feuerverzinktem Stahl, mit thermoplastischem Polyesterlack eingebrannt. Sie verfügt über eine Schicht für Innenplätze und zwei Schichten für Außeninstallationen, hergestellt, um den höchsten Marktstandards zu entsprechen."
-          },
-          "ITEM_3": {
-            "TITLE": "Glas",
-            "DESCRIPTION": "Alle Plätze sind mit Sicherheitsglas aus gehärtetem Glas ausgestattet, 10 oder 12 mm dick je nach Projekt, und entsprechen streng den für diese Art von Einrichtung festgelegten Vorschriften."
-          },
-          "ITEM_4": {
-            "TITLE": "Kunstrasen",
-            "DESCRIPTION": "KUNSTRASENSYSTEM der Marke MONDO, der neuesten Generation, mit geraden oder gewellten Fasern…"
-          },
-          "ITEM_5": {
-            "TITLE": "Beleuchtung",
-            "DESCRIPTION": "Wir installieren die besten LED-Scheinwerfer von renommiertesten Herstellern auf dem Markt."
-          },
-          "ITEM_6": {
-            "TITLE": "Individualisieren Sie Ihren Platz",
-            "DESCRIPTION": "INDIVIDUALISIEREN SIE IHREN PLATZ: Bänke integriert in die Struktur, Ecken mit dem Logo des Clubs graviert, Siebdrucknetz,..."
-          }
-        }
-      },
+    "ITEM_1": {
+      "TITLE": "Punktesysteme",
+      "DESCRIPTION": "Wählen Sie zwischen dem klassischen Abakus-Punktesystem oder modernen elektronischen Anzeigetafeln."
+    },
+    "ITEM_2": {
+      "TITLE": "Personalisierte Ecken",
+      "DESCRIPTION": "Integrieren Sie den Namen oder das Logo Ihres Clubs direkt in die Struktur."
+    },
+    "ITEM_3": {
+      "TITLE": "Einzigartiges Design der Struktur",
+      "DESCRIPTION": "Gestalten Sie jedes Detail der Platzstruktur, einschließlich Netzpfosten, mit Gravuren und personalisierten Oberflächen."
+    },
+    "ITEM_4": {
+      "TITLE": "Ballfänger-Schutzvorrichtungen",
+      "DESCRIPTION": "Fügen Sie Netze oder Planen hinzu, um den Bereich ordentlich und sicher zu halten, angepasst an Ihren Stil."
+    },
+    "ITEM_5": {
+      "TITLE": "Personalisierte Netze",
+      "DESCRIPTION": "Verleihen Sie einen einzigartigen Touch mit Netzen, die Ihr Logo oder exklusives Design enthalten."
+    },
+    "ITEM_6": {
+      "TITLE": "Integrierte Bänke",
+      "DESCRIPTION": "Entwickelt für mehr Komfort und abgestimmt auf das allgemeine Design des Platzes."
+    },
+    "ITEM_7": {
+      "TITLE": "Abschlüsse und Windschutzvorrichtungen",
+      "DESCRIPTION": "Ideal, um ein ungestörtes Spiel bei jedem Wetter zu gewährleisten."
+    },
+    "ITEM_8": {
+      "TITLE": "Eingangsschutz",
+      "DESCRIPTION": "Sichern und verschönern Sie die Zugänge mit maßgeschneiderten Designs."
+    },
+    "ITEM_9": {
+      "TITLE": "Kleiderhaken und Aufhängevorrichtungen",
+      "DESCRIPTION": "Funktional und so gestaltet, dass sie den Rest der Anlage ergänzen."
+    }
+  }
+},
+
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Fragen zu Padelplatzhersteller stellen",
@@ -2301,6 +2313,64 @@
         "EMAIL_TO_SEND": "rrhh@porticosport.com"
       }
     },
+    "CUSTOMIZATION": {
+  "ID": "customization",
+  "SEO_TITLE": "Individuelles Padelplatzdesign | Portico Sport",
+  "SEO_DESCRIPTION": "Portico Sport entwirft und installiert maßgeschneiderte Padelplätze mit 100 % hausinterner Produktion. Bauen Sie den perfekten Platz für Wettbewerb und Spaß!",
+  "ROUTE": {
+    "LABEL": "Anpassung",
+    "URL": "/personalisierter-paddle-tennisplatz"
+  },
+  "TITLE": "Individueller Padelplatz",
+  "INTRO_SECTION": {
+    "TITLE": "Maßgeschneiderte Anpassungsoptionen für Padelplätze",
+    "DESCRIPTION": "<p>Bei Portico Sport, erfahrene Hersteller und Installateure von Padelplätzen, verstehen wir, wie wichtig es ist, einen Raum zu schaffen, der heraussticht und die einzigartige Identität Ihres Clubs oder Ihrer Anlage repräsentiert. Mit 100 % unserer Produktion im eigenen Haus bieten wir unvergleichliche Anpassungsoptionen, um sicherzustellen, dass Ihr Platz ein Maßstab für Qualität und Design wird.</p><p>Mit unseren Plätzen können Sie die Farbe der Struktur auswählen, den Kunstrasen mit maßgeschneiderten Farben anpassen und Beleuchtungsmasten wählen, die zu Ihrer Vision passen. Und das ist erst der Anfang – wir bieten eine Vielzahl zusätzlicher Funktionen, um Ihren Padelplatz sowohl funktional als auch einzigartig zu machen.</p>"
+  },
+  "CUSTOM_SECTION": {
+    "TITLE": "Bringen Sie die Anpassung Ihres Padelplatzes auf die nächste Stufe",
+    "SUBTITLE": "Entwerfen Sie Ihren Padelplatz ganz nach Ihren Vorstellungen",
+    "DESCRIPTION": "Portico Sport bietet Ihnen die Freiheit, einen vollständig personalisierten Padelplatz zu gestalten. Von Branding bis hin zu innovativen Funktionen sorgen unsere Anpassungsoptionen dafür, dass Ihr Platz auffällt. Zu den verfügbaren Funktionen gehören:",
+    "BUTTON": {
+      "URL": "/kundenkontakt",
+      "LABEL": "Erkunden Sie jetzt die Anpassungsoptionen",
+      "TITLE": "Personalisieren Sie Ihren Padelplatz"
+    },
+    "IMG": {
+      "SRC": "/public/heros/hero-courts.jpg",
+      "ALT": "Padelplatz-Bauherren"
+    }
+  },
+  "PERSONALIZATION_SECTION": {
+    "TITLE": "Warum sollten Sie Ihren Padelplatz personalisieren?",
+    "SUBTITLE": "Die Personalisierung Ihres Padelplatzes bringt viele Vorteile",
+    "POINT_1": {
+      "TITLE": "Hervorstechen",
+      "DESCRIPTION": "Machen Sie Ihre Anlage zu einem Blickfang mit einem Design, das Aufmerksamkeit erregt."
+    },
+    "POINT_2": {
+      "TITLE": "Verbesserte Funktionalität",
+      "DESCRIPTION": "Passen Sie jede Funktion an, um das beste Erlebnis für Spieler und Zuschauer zu bieten."
+    },
+    "POINT_3": {
+      "TITLE": "Markenrepräsentation",
+      "DESCRIPTION": "Präsentieren Sie die Identität Ihres Clubs mit personalisierten Farben, Logos und Designs."
+    },
+    "POINT_4": {
+      "TITLE": "Mehr Spieler anziehen",
+      "DESCRIPTION": "Ein moderner, einzigartiger Padelplatz erzeugt Aufmerksamkeit und steigert den Zulauf zu Ihrem Club."
+    }
+  },
+  "BUILDING_SECTION": {
+    "TITLE": "Bauen Sie mit Portico Sport einen einzigartigen Padelplatz",
+    "DESCRIPTION": "Stellen Sie sich einen Padelplatz vor, der nicht nur ein Ort zum Spielen ist, sondern auch Ihre Persönlichkeit und Vision widerspiegelt. Bei Portico Sport, Experten für die Installation von Padelplätzen, machen wir Ihren Traumplatz zur Realität.<br> Mit unserer hausinternen Produktion und umfangreichen Anpassungsmöglichkeiten sind die Möglichkeiten endlos.</br>",
+    "BUTTON": {
+      "URL": "/kundenkontakt",
+      "LABEL": "Kontaktieren Sie uns, um Ihren Padelplatz anzupassen",
+      "TITLE": "Kontaktieren Sie uns, um Ihren Padelplatz individuell zu gestalten"
+    }
+  }
+},
+
     "AUTHORIZED_DISTRIBUTOR": {
       "ID": "authorized-distributor",
       "TYPE": "PRODUCT",
