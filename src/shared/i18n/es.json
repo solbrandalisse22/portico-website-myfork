@@ -2399,8 +2399,8 @@
           "TITLE":"Personaliza tu pista de pádel"
         },
         "IMG":{
-          "SRC":"/og/og-panoramic.jpg",
-          "ALT":""
+          "SRC":"/customization/customization-4.webp",
+          "ALT":"pistas de pádel personalizadas"
         }
       },
       "PERSONALIZATION_SECTION":{
@@ -2493,7 +2493,7 @@
         },
         "IMG":{
           "SRC":"/heros/hero-courts.webp",
-          "ALT":"Fabricantes de Pistas de Pádel | Portico Sport"
+          "ALT":"Fabricantes de Pistas de Pádel"
         }
       }
     },
