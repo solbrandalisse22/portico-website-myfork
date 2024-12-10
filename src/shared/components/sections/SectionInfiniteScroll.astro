@@ -3,69 +3,81 @@ import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import LogoHexagonCup from "@/shared/components/logos/LogoHexagonCup.astro";
 import LogoRepsol from "@/shared/components/logos/LogoRepsol.astro";
 import LogoEvenPadel from "@/shared/components/logos/LogoEvenPadel.astro";
-import Typography from "../ui/Typography.astro";
-import LogoMind from "@/shared/components/logos/LogoMinds.astro";
+import LogoMinds from "@/shared/components/logos/LogoMinds.astro";
 import Section from "@/shared/components/Section.astro";
+import Typography from "../ui/Typography.astro";
 import { getI18N } from "@/shared/i18n";
 
 const { language } = Astro.props
 const i18n = getI18N({ language })
 ---
 
-<Section
-  heading2 ={i18n.INFINITE_SCROLL.TITLE} subheading={i18n.INFINITE_SCROLL.SUBTITLE}>
+<Typography tag="h2" className="text-center font-bold mb-6" text={i18n.INFINITE_SCROLL.TITLE} />
+<Typography tag="p" type="primary" className="text-center" text={i18n.INFINITE_SCROLL.SUBTITLE}/>
+
   <div class="scroller">
     <ul class="tag-list scroller_inner items-center">
-            <li><a href="https://www.hexagoncup.com/" target="_blank"><LogoHexagonCup /></a></li>
-
-            <li><a href="https://www.padelfederacion.es/" target="_blank"><LogoFep /></a></li>
-            <li><a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a></li>
-    </ul>
-      <ul class="row2 tag-list scroller_inner items-center">
-        <li><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMind /></a></li>
-
+      <li><a href="https://www.hexagoncup.com/" target="_blank"><LogoHexagonCup /></a></li>
+      <li><a href="https://www.padelfederacion.es/" target="_blank"><LogoFep /></a></li>
       <li><a href="https://www.repsol.com/" target="_blank"><LogoRepsol /></a></li>
-      <li><a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a></li>
-
     </ul>
+    
+      <ul class="row2 tag-list scroller_inner items-center">
+        <li><a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a></li>
+        <li class="bg-white/10"><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a></li>
+        <li><a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a></li>
+      </ul>
   </div>
-</Section>
 
-<style>
-.tag-list {
-  list-style: none;
-  margin: 0;
-  padding-inline: 0;
-}
-.tag-list li {
-  padding: 1rem;
-  margin: 0 10px;
-  background: current;
-  position: relative;
-  min-width: 150px;
-}
-.row2{
-  margin-left: 2rem;
-}
-.scroller {
-  max-width: calc(100% - 1px);
-  display: grid;
+  <style>
+    .tag-list {
+      list-style: none;
+      margin: 0;
+      padding-inline: 0;
+    }
   
-}
-
-.scroller_inner {
-  padding-block: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10rem;
-  justify-content: center;
-}
-@media (max-width: 550px){
+    .tag-list li {
+      padding: 1rem;
+      background: current; /* Corregido */
+      position: relative;
+      min-width: 150px; /* Considerar usar unidades relativas */
+    }
   
-  .tag-list {
-    gap: 0px;
-  }
-}
-</style>
+    .row2 {
+      margin-left: 2rem;
+    }
+  
+    .scroller {
+      max-width: 100%; /* Simplificado */
+      display: grid;
+    }
+  
+    .scroller_inner {
+      padding-block: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5rem; /* Ajustado para escalabilidad */
+      justify-content: center;
+    }
+  
+    @media (max-width: 768px) {
+      .scroller_inner {
+        gap: 3rem; /* Ajustado para pantallas medianas */
+      }
+    }
+  
+    @media (max-width: 640px) {
+      .scroller_inner {
+        gap: 2rem;
+      }
+    }
+  
+    @media (max-width: 340px) {
+      .row2 {
+        margin: 0; /* Simplificado */
+      }
+    }
+  </style>
+  
 
 
