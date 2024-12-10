@@ -24,7 +24,7 @@ const i18n = getI18N({ language })
     
       <ul class="row2 tag-list scroller_inner items-center">
         <li><a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a></li>
-        <li class="bg-white/10"><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a></li>
+        <li class="w-[190px]"><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a></li>
         <li><a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a></li>
       </ul>
   </div>
@@ -38,9 +38,9 @@ const i18n = getI18N({ language })
   
     .tag-list li {
       padding: 1rem;
-      background: current; /* Corregido */
+      background: current;
       position: relative;
-      min-width: 150px; /* Considerar usar unidades relativas */
+      min-width: 150px; 
     }
   
     .row2 {
@@ -48,7 +48,7 @@ const i18n = getI18N({ language })
     }
   
     .scroller {
-      max-width: 100%; /* Simplificado */
+      max-width: 100%; 
       display: grid;
     }
   
@@ -56,13 +56,13 @@ const i18n = getI18N({ language })
       padding-block: 1rem;
       display: flex;
       flex-wrap: wrap;
-      gap: 5rem; /* Ajustado para escalabilidad */
+      gap: 5rem; 
       justify-content: center;
     }
   
     @media (max-width: 768px) {
       .scroller_inner {
-        gap: 3rem; /* Ajustado para pantallas medianas */
+        gap: 3rem;
       }
     }
   
@@ -74,7 +74,7 @@ const i18n = getI18N({ language })
   
     @media (max-width: 340px) {
       .row2 {
-        margin: 0; /* Simplificado */
+        margin: 0;
       }
     }
   </style>
