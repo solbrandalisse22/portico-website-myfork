@@ -43,20 +43,11 @@ heading1={i18n.PAGES.CUSTOMIZATION.TITLE} className="uppercase">
         { label: i18n.PAGES.CUSTOMIZATION.ROUTE.LABEL, href: i18n.PAGES.CUSTOMIZATION.ROUTE.URL },
       ]}
     />
-    <div class="flex flex-wrap w-full md:w-[95%] m-auto h-auto ">
-        <div class="w-full md:w-1/2 text-center xs:m-auto">
+  
+        <div class="md:w-[90%] md:m-auto text-center xs:m-auto">
           <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.CUSTOMIZATION.INTRO_SECTION.TITLE} />
          
           <Typography tag="div"  text={i18n.PAGES.CUSTOMIZATION.INTRO_SECTION.DESCRIPTION}  />
-
-        </div>
-        <div class="w-full md:w-1/2 md:m-auto">
-          <img
-            src={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.IMG.SRC}
-            alt={i18n.PAGES.CUSTOMIZATION.CUSTOM_SECTION.IMG.ALT}
-            class="img-structure w-full object-cover scale-[85%]"
-          />
-        </div>
       </div>
 <SectionInfiniteScroll />
 <SectionComplements language={language}/>
