@@ -946,10 +946,7 @@
           }
         ],
         "items": 7
-      }
-    ],
-    "route": "/projects/Finland"
-  },
+      },
    {
         "projectId": "parpadel",
         "country": "Finland",
@@ -996,7 +993,10 @@
        
         ],
         "items": 8
-      },
+      }
+      ],
+    "route": "/projects/Finland"
+  },
   {
     "country": "South Africa",
     "continent": "Africa",
@@ -3455,7 +3455,7 @@
         "shortdescription": "Inside Sawgrass Mills, the largest outlet and entertainment destination in the USA.",
         "projectCity": "Miami",
         "route": "/projects/epic-athletic-club",
-        "projectLogo": "/clubes/Florida/Epic-Athletic-Club/Epic-athletic-logo.png",
+        "projectLogo": "/clubes/Florida/Epic-Athletic-Club/Epic-athletic-logo.webp",
         "images": [
           {
             "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-1.webp",
