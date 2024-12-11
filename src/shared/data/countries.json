@@ -3446,10 +3446,7 @@
           }
         ],
         "items": 6
-      }
-    ],
-    "route": "/projects/Florida"
-  }, {
+      }, {
         "projectId": "epic-athletic-club",
         "country": "Florida",
         "projectName": "Epic Pickleball & Padel Athletic Club",
