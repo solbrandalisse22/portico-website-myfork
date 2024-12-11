@@ -950,6 +950,53 @@
     ],
     "route": "/projects/Finland"
   },
+   {
+        "projectId": "parpadel",
+        "country": "Finland",
+        "projectName": "ParPadel",
+        "website": "https://parpadel.fi/",
+        "projectsCourts": "1 Club court",
+        "shortdescription": "A padel court amidst nature at Archipelagia Golf Club R.F.",
+        "projectCity": "Parainen",
+        "projectLogo": "/clubes/Finland/Parpadel/parpadel-logo.webp",
+        "route": "/projects/parpadel",
+        "images": [
+          {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-1.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-2.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-3.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-4.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-5.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-6.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-7.webp",
+            "alt": "Courts in Parpadel - Finland"
+          },
+            {
+            "src": "/clubes/Finland/Parpadel/thumbnails/Parpadel-8.webp",
+            "alt": "Courts in Parpadel - Finland"
+          }
+       
+        ],
+        "items": 8
+      },
   {
     "country": "South Africa",
     "continent": "Africa",
@@ -3402,6 +3449,47 @@
       }
     ],
     "route": "/projects/Florida"
+  }, {
+        "projectId": "epic-athletic-club",
+        "country": "Florida",
+        "projectName": "Epic Pickleball & Padel Athletic Club",
+        "website": "https://www.instagram.com/epicathleticclub/",
+        "projectsCourts": "7 Tournament courts",
+        "shortdescription": "Inside Sawgrass Mills, the largest outlet and entertainment destination in the USA.",
+        "projectCity": "Miami",
+        "route": "/projects/epic-athletic-club",
+        "projectLogo": "/clubes/Florida/Epic-Athletic-Club/Epic-athletic-logo.png",
+        "images": [
+          {
+            "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-1.webp",
+            "alt": "Courts in Epic Pickleball & Padel Athletic Club - Florida"
+          },
+         {
+            "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-2.webp",
+            "alt": "Courts in Epic Pickleball & Padel Athletic Club - Florida"
+          },
+           {
+            "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-3.webp",
+            "alt": "Courts in Epic Pickleball & Padel Athletic Club - Florida"
+          },
+           {
+            "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-4.webp",
+            "alt": "Courts in Epic Pickleball & Padel Athletic Club - Florida"
+          },
+           {
+            "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-5.webp",
+            "alt": "Courts in Epic Pickleball & Padel Athletic Club - Florida"
+          },
+           {
+            "src": "/clubes/Florida/Epic-Athletic-Club/thumbnails/Epic-Athletic-Club-6.webp",
+            "alt": "Courts in Epic Pickleball & Padel Athletic Club - Florida"
+          }
+         
+        ],
+        "items": 6
+      }
+    ],
+    "route": "/projects/Florida"
   },
   {
     "country": "Texas",
@@ -3732,7 +3820,7 @@
         "country": "Canada",
         "projectName": "Padel FVR",
         "projectsCourts": "3 Tournament courts",
-        "projectWebsite": "https://padelfvr.ca/",
+        "website": "https://padelfvr.ca/",
         "projectCity": "Montreal",
         "shortdescription": "Montreal’s premier Padel club!",
         "projectLogo": "/clubes/Canada/padel-fvr/padel-fvr-logo.png",
