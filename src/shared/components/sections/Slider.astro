@@ -1,16 +1,15 @@
 ---
+import LogoCircles from "@/shared/components/logos/LogoCircles.astro";
+import { type Photo } from '@/types/types'
 import CardItem from "@/shared/components/CardItem.astro";
-import Section from "@/shared/components/Section.astro";
 import { getI18N } from "@/shared/i18n";
 
 interface Props {
-    heading?: string;
-    subheading?: string;
-    posts: any[];
-    language: string;
+  posts: any[];
+  language: string;
 }
 
-const { heading, posts, subheading, language } = Astro.props;
+const { posts, language} = Astro.props
 const i18n = getI18N({ language });
 
 const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n.LOCALE_DATE, {
@@ -19,118 +18,153 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
     day: 'numeric',
 });
 
-
-const groupedPosts = [];
-for (let i = 0; i < posts.length; i += 3) {
-    groupedPosts.push(posts.slice(i, i + 3));
-}
 ---
-
-<Section heading={heading || i18n.PAGES.NEWS.LIST.TITLE} subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}>
-    <div class="carousel">
-        <div class="carousel-track">
-            {groupedPosts.map((group, groupIndex) => (
-                <div class="carousel-slide" key={`group-${groupIndex}`}>
-                    {group.map((post) => (
-                        <div key={post.id} class="card-item-wrapper">
-                            <CardItem
-                                title={post.title.rendered}
-                                excerpt={post.excerpt.rendered.replace(/<[^>]+>|\\n|\[&hellip;\]/g, '')}
-                                image={post._embedded?.["wp:featuredmedia"]?.[0]?.["media_details"]?.["sizes"]?.["medium"]?.["source_url"]}
-                                link={`${i18n.PAGES.NEWS.ROUTE.URL}/${post.slug}`}
-                                date={transformedDate(post.date)}
-                                description={post.description}
-                            />
-                        </div>
-                    ))}
-                </div>
-            ))}
-        </div>
-        <div class="carousel-buttons">
-            <button class="carousel-btn carousel-btn--prev">{`<`}</button>
-            <button class="carousel-btn carousel-btn--next">{`>`}</button>
-        </div>
-    </div>
-</Section>
-
-<script>
-    let currentIndex = 0;
-    const slides = document.querySelectorAll('.carousel-slide');
-    const totalSlides = slides.length;
-
-    document.querySelector('.carousel-btn--next').addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalSlides;
-        updateCarousel();
-    });
-
-    document.querySelector('.carousel-btn--prev').addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        updateCarousel();
-    });
-
-    function updateCarousel() {
-        const track = document.querySelector('.carousel-track');
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
-   
-</script>
+<images-carousel class="wrapper w-full">
+  <ul class="carousel list-none">
+    {posts.map((post, index) => {
+        return (
+          <li   class="overflow-hidden " >
+            <CardItem
+              title={post.title.rendered}
+              excerpt={post.excerpt.rendered.replace(/<[^>]+>|\n|\[&hellip;\]/g, "")}
+              image={post._embedded?.["wp:featuredmedia"]?.[0]?.["media_details"]?.["sizes"]?.["medium"]?.["source_url"]}
+              link={`${i18n.PAGES.NEWS.ROUTE.URL}/${post.slug}`}
+              date={transformedDate(post.date)}
+              description={post.description}
+            /></li>
+        
+        
+      )})}
+    
+  </ul>
+  <div class="flex justify-center items-center w-full gap-6 p-4">
+    <button class="w-10 h-10 flex justify-center items-center rounded-full back">
+      <LogoCircles className="w-[90%]">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+      </LogoCircles>
+    </button>
+    <button class="w-10 h-10 flex justify-center items-center rounded-full next">
+      <LogoCircles className="w-[90%]">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+      </LogoCircles>
+    </button>
+  </div>
+</images-carousel>
 
 <style>
-.carousel {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
+  .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 1rem);
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+  }
 
-.carousel-track {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-    padding-bottom: 40px;
-}
+  .carousel.dragging {
+    cursor: grabbing;
+    user-select: none;
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
 
-.carousel-slide {
-    display: flex; 
-    justify-content: space-between; 
-    min-width: calc(100%); 
-    box-sizing: border-box;
-}
+  .carousel.no-transition {
+    scroll-behavior: auto;
+  }
 
-.card-item-wrapper {
-    flex: 1 1 30%; 
-    margin: 0 10px; 
-}
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
 
-@media (max-width: 768px) { 
-    .carousel-slide {
-        flex-direction: column; 
+  .carousel li {
+    scroll-snap-align: start;
+  }
+
+  @media (max-width: 1024px) {
+    .carousel {
+      grid-auto-columns: calc((100% / 2) - 1rem);
     }
-.carousel-track{
-      padding-bottom: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .carousel {
+      grid-auto-columns: calc(100% - 1rem);
     }
-
-    .card-item-wrapper {
-        flex: 1 1 100%; 
-        margin: 10px 0; 
-    }
-}
-
-.carousel-buttons {
-    position: absolute; 
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between; 
-    padding: 0 10px; 
-}
-
-.carousel-btn {
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
+  }
 </style>
 
+<script>
+  class CarouselImages extends HTMLElement {
+    constructor() {
+      super();
+      const $carousel = this.querySelector('.carousel');
+      const $arrowButtons = this.querySelectorAll('.wrapper button');
+      if (!$carousel) return;
+      if (!$arrowButtons) return;
+      const firstCardWidth = $carousel?.querySelector('li')?.offsetWidth;
+      const carouselChildren = [...$carousel.children];
+      let isDragging = false, startX, startScrollLeft;
+      let cardPerView = Math.round($carousel?.offsetWidth / firstCardWidth);
+
+      carouselChildren.slice(-cardPerView).reverse().forEach((child) => {
+        $carousel.insertAdjacentHTML('afterbegin', child.outerHTML);
+      });
+
+      carouselChildren.slice(0, cardPerView).forEach((child) => {
+        $carousel.insertAdjacentHTML('beforeend', child.outerHTML);
+      });
+
+      $carousel.classList.add("no-transition");
+      $carousel.scrollLeft = $carousel.offsetWidth;
+      $carousel.classList.remove("no-transition");
+
+      $arrowButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+          const isBack = e.currentTarget.classList.contains('back')
+          $carousel.scrollLeft += isBack ? -firstCardWidth : firstCardWidth;
+        })
+      })
+
+      const draggStart = (e:MouseEvent) => {
+        isDragging = true;
+        $carousel.classList.add('dragging')
+        startX = e.pageX;
+        startScrollLeft = $carousel.scrollLeft;
+      }
+
+      const dragging = (e:MouseEvent) => {
+        if (!isDragging) return;
+        $carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+      }
+      
+      const draggEnd = () => {
+        isDragging = false;
+        $carousel.classList.remove('dragging')
+      }
+
+      const InfiniteScroll = () => {
+        if ($carousel.scrollLeft === 0) {
+          $carousel.classList.add('no-transition');
+          $carousel.scrollLeft = $carousel.scrollWidth - (2 * $carousel.offsetWidth);
+          $carousel.classList.remove("no-transition");
+        }
+        // If the carousel is at the end, scroll to the beginning
+        else if(Math.ceil($carousel.scrollLeft) === $carousel.scrollWidth - $carousel.offsetWidth) {
+          $carousel.classList.add('no-transition');
+          $carousel.scrollLeft = $carousel.offsetWidth;
+          $carousel.classList.remove("no-transition");
+        }
+      }
+
+      $carousel.addEventListener('mousedown', draggStart);
+      $carousel.addEventListener('mousemove', dragging);
+      document.addEventListener('mouseup', draggEnd);
+      $carousel.addEventListener('scroll', InfiniteScroll);
+    }
+  }
+  customElements.define('images-carousel', CarouselImages);
+</script>
 
 
