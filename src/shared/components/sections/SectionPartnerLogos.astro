@@ -22,24 +22,22 @@ const { uk } = Astro.props
 
 <Section className="max-w-none relative">
   <div class="absolute top-0 bottom-0 -z-10 w-full left-0 opacity-50 border-t border-primary bg-cover bg-top saturate-50 blur-sm" style="background-image: url('/bg-turf-2.webp')" />
-  <ul class="row1 partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
+  <ul class="partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
     <!-- <li><LogoLedProjects /></li> -->
     <li><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert" loading="lazy" /></li>
     <li><LogoHexagonCupWhite /></li>
     <li><LogoEvenPadelWhite /></li>
     <li><LogoMinds /></li>
-    </ul>
 
-    <ul class="row2 partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
+
     <li><img src="/logos/expo-padel-world.png" alt="Expo Padel World" loading="lazy" /></li>
     <li><LogoPadelSummit /></li>
     <li><LogoIspoMunich /></li>
     <li><LogoRacquetx /></li>
     <li><LogoMondo /></li>
 
-</ul>
 
-<ul class="row3 partner-logos-wrapper gap-8 items-center mx-auto max-w-5xl">
+
     <li><LogoArcelorMittal /></li>
     <li><LogoKuka /></li>  
     <li><img src="/logos/silice-de-segovia.webp" alt="Sílices de segovia" loading="lazy" /></li>
@@ -51,7 +49,7 @@ const { uk } = Astro.props
         <li><img src="/logos/tvitecglass.png" alt="Tvitec Glass" loading="lazy" /></li>
       : null
     }
-  </ul>
+    </ul>
 </Section>
 
 <style>
@@ -67,15 +65,11 @@ const { uk } = Astro.props
     gap:4rem;
     margin-bottom: 3rem;
   }
- @media (max-width:550px){
+ @media (max-width:768px){
+  .partner-logos-wrapper{
+  grid-template-columns: repeat(auto-fill, max(100px));
+  }
     
-    .row1{
-      gap:4rem;
-    }
-    .tag-list li{
-      max-width: 100px;
-   }
   
   }
 </style>
-
