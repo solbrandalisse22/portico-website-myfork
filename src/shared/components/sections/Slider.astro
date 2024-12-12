@@ -1,15 +1,19 @@
 ---
 import LogoCircles from "@/shared/components/logos/LogoCircles.astro";
-import { type Photo } from '@/types/types'
+import { type Photo } from '@/types/types';
 import CardItem from "@/shared/components/CardItem.astro";
+import Section from "@/shared/components/Section.astro";
+import Typography from "../ui/Typography.astro";
 import { getI18N } from "@/shared/i18n";
 
 interface Props {
   posts: any[];
+  heading?: string;
+  subheading?: string;
   language: string;
 }
 
-const { posts, language} = Astro.props
+const { posts, language, heading, subheading} = Astro.props
 const i18n = getI18N({ language });
 
 const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n.LOCALE_DATE, {
@@ -19,6 +23,9 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
 });
 
 ---
+<Section heading={heading || i18n.PAGES.NEWS.LIST.TITLE} 
+subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}>
+
 <images-carousel class="wrapper w-full">
   <ul class="carousel list-none">
     {posts.map((post, index) => {
