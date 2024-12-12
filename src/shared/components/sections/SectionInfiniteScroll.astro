@@ -11,73 +11,39 @@ import { getI18N } from "@/shared/i18n";
 const { language } = Astro.props
 const i18n = getI18N({ language })
 ---
-
-<Typography tag="h2" className="text-center font-bold mb-6" text={i18n.INFINITE_SCROLL.TITLE} />
+<Section heading2={i18n.INFINITE_SCROLL.TITLE} >
 <Typography tag="p" type="primary" className="text-center" text={i18n.INFINITE_SCROLL.SUBTITLE}/>
 
-  <div class="scroller">
-    <ul class="tag-list scroller_inner items-center">
-      <li><a href="https://www.hexagoncup.com/" target="_blank"><LogoHexagonCup /></a></li>
-      <li><a href="https://www.padelfederacion.es/" target="_blank"><LogoFep /></a></li>
-      <li><a href="https://www.repsol.com/" target="_blank"><LogoRepsol /></a></li>
-    </ul>
-    
-      <ul class="row2 tag-list scroller_inner items-center">
-        <li><a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a></li>
-        <li class="w-[190px] logo_minds"><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a></li>
-        <li><a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a></li>
-      </ul>
+  <div class="logos items-center">
+    <a href="https://www.hexagoncup.com/" target="_blank"><LogoHexagonCup /></a>
+     <a href="https://www.padelfederacion.es/" target="_blank"><LogoFep /></a>
+     <a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a>
+     <a href="https://www.repsol.com/" target="_blank"><LogoRepsol /></a>
+     <a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a>
+     <a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a>
+      
   </div>
+</Section>
+<style>
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(120px,1fr));
+    gap:4rem;
+  }
 
-  <style>
-    .tag-list {
-      list-style: none;
-      margin: 0;
-      padding-inline: 0;
+  @media (max-width: 768px) {
+    .logos {
+      grid-template-columns: repeat(2,minmax(100px,1fr));
     }
+  }
+  @media (max-width: 420px) {
+    .logos {
+      grid-template-columns: repeat(2,minmax(80px,1fr));
+    }
+  }
+</style>
   
-    .tag-list li {
-      padding: 1rem;
-      background: current;
-      position: relative;
-      min-width: 150px; 
-    }
-  
-    .row2 {
-      margin-left: 2rem;
-    }
-  
-    .scroller {
-      max-width: 100%; 
-      display: grid;
-    }
-  
-    .scroller_inner {
-      padding-block: 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5rem; 
-      justify-content: center;
-    }
-  
-    @media (max-width: 768px) {
-      .scroller_inner {
-        gap: 3rem;
-      }
-    }
-  
-    @media (max-width: 640px) {
-      .scroller_inner {
-        gap: 2rem;
-      }
-    }
-@media (max-width: 420px) {
-      .logo_minds {
-        width: 80px;
-      }
-    }
-   
-  </style>
-  
+
+
 
 
