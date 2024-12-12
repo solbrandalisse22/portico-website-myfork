@@ -24,7 +24,7 @@ const i18n = getI18N({ language })
     
       <ul class="row2 tag-list scroller_inner items-center">
         <li><a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a></li>
-        <li class="w-[190px]"><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a></li>
+        <li class="w-[190px] logo_minds"><a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a></li>
         <li><a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a></li>
       </ul>
   </div>
@@ -77,6 +77,12 @@ const i18n = getI18N({ language })
         margin: 0;
       }
     }
+@media (max-width: 420px) {
+      .logo_minds {
+        width: 80px;
+      }
+    }
+   
   </style>
   
 
