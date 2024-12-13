@@ -2225,7 +2225,7 @@
         "projectName": "Club de Padel",
         "website": "https://www.clubdepadel.co.uk/",
         "projectsCourts": "4 Panoramic courts",
-        "shortdescription": "The first padel club in Manchester, located in the heart of skycrapers.",
+        "shortdescription": "Great Padel courts in Deansgate (Manchester) with the backdrop of towering skyscrapers",
         "projectCity": "Manchester",
         "projectLogo": "/clubes/United_kingdom/club-de-padel/club-de-padel-logo.webp",
         "route": "/projects/club-de-padel",
@@ -2249,15 +2249,31 @@
           {
             "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-5.webp",
             "alt": "Courts in Club de Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-6.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-7.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-8.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/club-de-padel/thumbnails/club-de-padel-9.webp",
+            "alt": "Courts in Club de Padel - United_kingdom"
           }
         ],
-        "items": 5
+        "items": 9
       },
       {
         "projectId": "pure-padel-alderley-park",
         "country": "United_kingdom",
         "projectName": "Pure Padel Alderley Park",
-        "website": "https://www.purepadelclubs.co.uk/",
+        "website": "https://www.purepadelclubs.co.uk/pure-padel-alderley-park/",
         "projectsCourts": "3 Mobile club courts",
         "shortdescription": "",
         "projectCity": "Congleton-Macclesfield",
@@ -2279,18 +2295,26 @@
           {
             "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-4.webp",
             "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-5.webp",
+            "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/pure-padel-alderley-park/thumbnails/pure-padel-alderley-park-6.webp",
+            "alt": "Courts in Pure Padel Alderley Park - United_kingdom"
           }
         ],
-        "items": 4
+        "items": 6
       },
       {
         "projectId": "the-padel-club",
         "country": "United_kingdom",
-        "projectName": "The padel club",
+        "projectName": "The padel club Wilmslow",
         "website": "https://www.thepadelclub.co.uk/",
         "projectsCourts": "4 Mobile Club courts",
-        "shortdescription": "Soon 4 canopied courts will be installed in the club.",
-        "projectCity": "Handforth",
+        "shortdescription": "Soon 4 canopied courts",
+        "projectCity": "Wilmslow",
         "projectLogo": "/clubes/United_kingdom/the-padel-club/the-padel-club-logo.webp",
         "route": "/projects/the-padel-club",
         "images": [
@@ -2341,17 +2365,9 @@
           {
             "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-12.webp",
             "alt": "Courts in The padel club - United_kingdom"
-          },
-          {
-            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-13.webp",
-            "alt": "Courts in The padel club - United_kingdom"
-          },
-          {
-            "src": "/clubes/United_kingdom/the-padel-club/thumbnails/the-padel-club-14.webp",
-            "alt": "Courts in The padel club - United_kingdom"
-          }
+          }      
         ],
-        "items": 14
+        "items": 12
       },
       {
         "projectId": "battersea-power-station",
@@ -2406,6 +2422,64 @@
           }
         ],
         "items": 10
+      },
+       {
+        "projectId": "wpa",
+        "country": "United_kingdom",
+        "projectName": "WPA Mansfield",
+        "website": "https://worldpadelacademy.uk/",
+        "projectsCourts": "4 Tournament courts and 2 canopies",
+        "projectCity": "Mansfield",
+        "projectLogo": "/clubes/United_kingdom/wpa/WpaUK-logo.webp",
+        "route": "/projects/wpa",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-1.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-2.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-3.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-4.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-5.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-6.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-7.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-8.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-9.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-10.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/wpa/thumbnails/WPA-11.webp",
+            "alt": "Courts in WPA Mansfield - United_kingdom"
+          }
+         
+        ],
+        "items": 11
       },
       {
         "projectId": "skipton-tennis-centre",
