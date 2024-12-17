@@ -2486,7 +2486,7 @@
         "country": "United_kingdom",
         "projectName": "Skipton Tennis Centre",
         "website": "https://www.skiptontennis.com/",
-        "projectsCourts": "1 Club Court",
+        "projectsCourts": "3 Club Courts and 1 canopy",
         "shortdescription": "",
         "projectCity": "Skipton",
         "projectLogo": "/clubes/United_kingdom/skipton-tennis-centre/skipton-tennis-centre-logo.webp",
@@ -2519,9 +2519,33 @@
           {
             "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-7.webp",
             "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-8.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-9.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-10.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-11.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-12.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
+          },
+          {
+            "src": "/clubes/United_kingdom/skipton-tennis-centre/thumbnails/skipton-tennis-centre-13.webp",
+            "alt": "Courts in Skipton Tennis Centre - United_kingdom"
           }
         ],
-        "items": 7
+        "items": 13
       },
       {
         "projectId": "private-court",
