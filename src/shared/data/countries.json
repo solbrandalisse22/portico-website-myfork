@@ -2993,6 +2993,58 @@
     ],
     "route": "/projects/Denmark"
   },
+    {
+    "country": "Massachusetts",
+    "id": "Massachusetts",
+    "continent": "America",
+    "coordinates": [-81.5158, 27.6648],
+    "projects": [
+      {
+        "projectId": "padel-boston",
+        "country": "Massachusetts",
+        "projectName": "Padel Boston",
+        "website": "https://www.playpadelboston.com/",
+        "projectsCourts": "3 Tournament Courts",
+        "shortdescription": "Padel Boston's fist location in Dedham and the region's first dedicated Padel club",
+        "projectCity": "Dedham ",
+        "route": "/projects/padel-boston",
+        "projectLogo": "/clubes/Massachusetts/padel-boston/PadelBoston-logo.webp",
+        "images": [
+          {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-1.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-2.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-3.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-4.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-5.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-6.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-7.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          }
+         
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Massachusetts"
+  },
   { "country": "Norway", "id": "Norway", "coordinates": [8.4689, 60.472] },
   {
     "country": "New Zealand",
@@ -3734,58 +3786,7 @@
     ],
     "route": "/projects/Florida"
   },
-    {
-    "country": "Massachusetts",
-    "id": "Massachusetts",
-    "continent": "America",
-    "coordinates": [-81.5158, 27.6648],
-    "projects": [
-      {
-        "projectId": "padel-boston",
-        "country": "Massachusetts",
-        "projectName": "Padel Boston",
-        "website": "https://www.playpadelboston.com/",
-        "projectsCourts": "3 Tournament Courts",
-        "shortdescription": "Padel Boston's fist location in Dedham and the region's first dedicated Padel club",
-        "projectCity": "Dedham ",
-        "route": "/projects/padel-boston",
-        "projectLogo": "/clubes/Massachusetts/padel-boston/PadelBoston-logo.webp",
-        "images": [
-          {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-1.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          },
-           {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-2.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          },
-           {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-3.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          },
-           {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-4.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          },
-           {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-5.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          },
-           {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-6.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          },
-           {
-            "src": "/clubes/Massachusetts/padel-boston/thumbnails/Padel-Boston-7.webp",
-            "alt": "Courts in Padel Boston - Massachusetts"
-          }
-         
-        ],
-        "items": 7
-      }
-    ],
-    "route": "/projects/Massachusetts"
-  },
+  
   {
     "country": "Texas",
     "continent": "America",
