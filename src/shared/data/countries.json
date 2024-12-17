@@ -2629,7 +2629,7 @@
       {
         "projectId": "smash-padel",
         "country": "United_kingdom",
-        "projectName": "Smash Padel",
+        "projectName": "Smash Padel Bicester",
         "website": "https://www.smashpadel.co/",
         "projectsCourts": "3 Mobile Club Courts",
         "shortdescription": "",
@@ -2656,16 +2656,28 @@
           {
             "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-5.webp",
             "alt": "Courts in Smash Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-6.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-7.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/smash-padel/thumbnails/smash-padel-8.webp",
+            "alt": "Courts in Smash Padel - United_kingdom"
           }
         ],
-        "items": 5
+        "items": 8
       },
       {
         "projectId": "ilkley-lawn-tennis-squash-club",
         "country": "United_kingdom",
         "projectName": "Ilkley Lawn Tennis Squash Club",
         "website": "https://www.iltsc.co.uk/",
-        "projectsCourts": "1 Mobile court",
+        "projectsCourts": "1 Mobile Club court",
         "shortdescription": "",
         "projectCity": "Ilkley",
         "projectLogo": "/clubes/United_kingdom/ilkley-lawn-tennis-squash-club/ilkley-lawn-tennis-squash-club-logo.webp",
@@ -2697,6 +2709,142 @@
           }
         ],
         "items": 6
+      },
+      {
+        "projectId": "TPC-Gloucester-Quays",
+        "country": "United_kingdom",
+        "projectName": "The Padel Club Gloucester Quays",
+        "website": "https://www.thepadelclub.co.uk/",
+        "projectsCourts": "9 Panoramic Courts",
+        "shortdescription": "",
+        "projectCity": "Gloucester",
+        "projectLogo": "/clubes/United_kingdom/TPC-gloucester-quays/TPC-Gloucester-Quays-LOGO.webp",
+        "route": "/projects/TPC-gloucester-quays",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-1.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-2.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-3.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-4.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-5.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-6.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-7.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/TPC-gloucester-quays/thumbnails/TPC-Gloucester-Quays-8.webp",
+            "alt": "Courts in The Padel Club Gloucester Quays - United_kingdom"
+          }
+         
+        
+        ],
+        "items": 8
+      },
+        {
+        "projectId": "Parkside-Padel-Club",
+        "country": "United_kingdom",
+        "projectName": "Parkside Padel Club",
+        "website": "https://www.game4padel.com/parkside-padel",
+        "projectsCourts": "3 Mobile Club courts",
+        "shortdescription": "A Game4Padel club at The Green Quarter in West London",
+        "projectCity": "London",
+        "projectLogo": "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Yards-logo.webp",
+        "route": "/projects/Parkside-padel-club",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/Parkside-Padel-Club/thumbnails/Parkside-Padel-Club-1.webp",
+            "alt": "Courts in Parkside Padel Club - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/Parkside-Padel-Club/thumbnails/Parkside-Padel-Club-2.webp",
+            "alt": "Courts in Parkside Padel Club - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/Parkside-Padel-Club/thumbnails/Parkside-Padel-Club-3.webp",
+            "alt": "Courts in Parkside Padel Club - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/Parkside-Padel-Club/thumbnails/Parkside-Padel-Club-4.webp",
+            "alt": "Courts in Parkside Padel Club - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/Parkside-Padel-Club/thumbnails/Parkside-Padel-Club-5.webp",
+            "alt": "Courts in Parkside Padel Club - United_kingdom"
+          },
+           {
+            "src": "/clubes/United_kingdom/Parkside-Padel-Club/thumbnails/Parkside-Padel-Club-6.webp",
+            "alt": "Courts in Parkside Padel Club - United_kingdom"
+          }
+         
+        
+        ],
+        "items": 6
+      },
+        {
+        "projectId": "the-queens-club",
+        "country": "United_kingdom",
+        "projectName": "The Queen's Club",
+        "website": "https://www.queensclub.co.uk/Home",
+        "projectsCourts": "1 Club court in an Elevated Platform",
+        "shortdescription": "The initial platform padel court at the historic Queen's Club in London",
+        "projectCity": "London",
+        "projectLogo": "/clubes/United_kingdom/Queens-club/qc_logo.webp",
+        "route": "/projects/the-queens-club",
+        "images": [
+          {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-1.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+             {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-2.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+            {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-3.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+            {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-4.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+            {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-5.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+            {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-6.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+            {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-7.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          },
+            {
+            "src": "/clubes/United_kingdom/Queens-club/thumbnails/Queens-Club-8.webp",
+            "alt": "Courts in The Queen's Club - United_kingdom"
+          }
+         
+        
+        ],
+        "items": 8
       },
       {
         "projectId": "rocket-padel-ilford",
@@ -3586,6 +3734,58 @@
     ],
     "route": "/projects/Florida"
   },
+    {
+    "country": "Massachusetts",
+    "id": "Massachusetts",
+    "continent": "America",
+    "coordinates": [-81.5158, 27.6648],
+    "projects": [
+      {
+        "projectId": "padel-boston",
+        "country": "Massachusetts",
+        "projectName": "Padel Boston",
+        "website": "https://www.playpadelboston.com/",
+        "projectsCourts": "3 Tournament Courts",
+        "shortdescription": "Padel Boston's fist location in Dedham and the region's first dedicated Padel club",
+        "projectCity": "Dedham ",
+        "route": "/projects/padel-boston",
+        "projectLogo": "/clubes/Florida/Padel Boston/PadelBoston-logo.webp",
+        "images": [
+          {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-1.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-2.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-3.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-4.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-5.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-6.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          },
+           {
+            "src": "/clubes/Massachusetts/Padel Boston/thumbnails/Padel-Boston-7.webp",
+            "alt": "Courts in Padel Boston - Massachusetts"
+          }
+         
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Massachusetts"
+  },
   {
     "country": "Texas",
     "continent": "America",
@@ -3827,10 +4027,6 @@
         "images": [
           {
             "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-1.webp",
-            "alt": "Courts in Padel Tennis Ireland - Ireland"
-          },
-          {
-            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-2.webp",
             "alt": "Courts in Padel Tennis Ireland - Ireland"
           },
           {
