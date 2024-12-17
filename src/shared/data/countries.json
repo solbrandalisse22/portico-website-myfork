@@ -3795,8 +3795,8 @@
         "country": "Ireland",
         "projectName": "Padel Tennis Ireland",
         "website": "https://padeltennisireland.ie/",
-        "projectsCourts": "4 Tournament courts",
-        "shortdescription": "The first and biggest indoor padel club in Ireland.",
+        "projectsCourts": "4 Tournament courts indoor and 4 Club courts outdoor",
+        "shortdescription": "The largest facility dedicated solely to Padel in Ireland. Canopies in Q3 2025.",
         "projectCity": "Cork",
         "projectLogo": "/clubes/Ireland/padel-tennis-ireland/padel-tennis-ireland-logo.webp",
         "route": "/projects/padel-tennis-ireland",
@@ -3832,9 +3832,25 @@
           {
             "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-8.webp",
             "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+               {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-9.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+               {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-10.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+               {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-11.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
+          },
+               {
+            "src": "/clubes/Ireland/padel-tennis-ireland/thumbnails/padel-tennis-ireland-12.webp",
+            "alt": "Courts in Padel Tennis Ireland - Ireland"
           }
         ],
-        "items": 8
+        "items": 12
       }
     ],
     "route": "/projects/Ireland"
