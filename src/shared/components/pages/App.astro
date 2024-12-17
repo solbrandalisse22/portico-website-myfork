@@ -37,7 +37,7 @@ const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/pos
 const posts = await response.json();
 ---
 
-<Layout title={i18n.PAGES.HOME.SEO_TITLE} description={i18n.PAGES.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
+<Layout title={i18n.PAGES.HOME.SEO_TITLE} keywords={i18n.PAGES.HOME.SEO_KEYWORDS} description={i18n.PAGES.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
 
   <Video language={language} video="/portico-sport-home-video.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE} title={i18n.PAGES.HOME.TITLE} slogan={i18n.PAGES.HOME.SLOGAN} titleH3={i18n.PAGES.HOME.TITLE_H3} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}>
     <div
