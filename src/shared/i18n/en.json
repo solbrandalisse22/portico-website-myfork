@@ -3537,7 +3537,45 @@
       "TITLE_ALT": "Page not found",
       "SUBTITLE": "The page you are looking for does not exist",
       "DESCRIPTION": "The page you are looking for does not exist. Please, go to the home page or contact us."
-    }
+    },
+     "UK": {
+      "ROUTE":{
+      "BREADCRUMB":"Padel court builders UK",
+      "URL":"/uk"
+    }},
+    "USA": {
+    "ROUTE":
+    {
+      "BREADCRUMB":"Padel court builders USA",
+      "URL":"/padel-court-usa"
+    }},
+
+    "OCEANIA":{
+      "ROUTE":{
+      "BREADCRUMB":"Oceania",
+      "URL":"/oceania"}},
+    
+     "ZA":{"ROUTE":{
+      "BREADCRUMB":"South Africa",
+      "URL":"/za"}
+    },
+    "AUS":{"ROUTE":{
+      "BREADCRUMBS":"Australia",
+      "URL":"/aus"
+    }},
+    "NZ": {"ROUTE":{
+      "BREADCRUMBS":"New Zealand",
+      "URL":"/nz"
+    }},
+    "ES": {"ROUTE":{
+      "BREADCRUMBS":"España",
+      "URL":"/es"
+    }},
+    "MX" :{
+    "ROUTE":{
+      "BREADCRUMBS":"Mexico",
+      "URL":"/mx"  
+    }}
   },
   "LOCALE_DATE": "en-US",
   "SITE": "https://www.porticosport.com",
