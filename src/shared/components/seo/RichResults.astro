@@ -167,43 +167,539 @@ const TYPES = {
   
 
   }, 
-
-FAQS_ES:{
-    "@context":"https//schema.org",
-    "@type":"FAQPage",
-    "mainEntity":[{
+FAQS_EN: {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the standard size of a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The standard size of a Padel court is 20 meters long by 10 meters wide."
+    }
+  },{
+    "@type": "Question",
+    "name": "What materials are used to build a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Common materials used to build Padel courts include concrete, glass, artificial turf, and metal structures."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much does it cost to install a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost to install a Padel court can vary depending on several factors such as size, materials used, geographic location, and additional services. Typically, the price ranges from €18,000 (EXWORK)."
+    }
+  },{
+    "@type": "Question",
+    "name": "What maintenance does a Padel court require?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A Padel court requires regular maintenance to keep it in good condition. This includes cleaning surfaces, maintaining structures, replacing artificial turf when necessary, and repairing any damage or wear."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need special permits to install a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You may need to obtain permits or licenses depending on local regulations and urban planning laws in your area. It is recommended to consult with local authorities or a professional specialized in Padel court construction for precise information."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I customize the design of a padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport offers customization options for padel courts, such as color choices, logos, and additional components."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is financing available for purchasing and installing a padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport offers financing options through various agreements with different entities to help customers acquire and pay for a padel court. This may include installment payment plans or leasing agreements."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much does it cost to build a padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost to build a padel court can vary widely depending on several factors including the type of court, materials used, location, and additional features like lighting or seating Typically, the price ranges from €18,000 (EXWORK), but custom designs and premium materials can increase the total price. For a precise quote, it's best to consult with a professional padel court builder who can assess your specific needs and location."
+    }
+  }]
+},
+ FAQS_DE: {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Wie groß ist ein Padelplatz standardmäßig?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Die Standardgröße eines Padelplatzes beträgt 20 Meter Länge und 10 Meter Breite."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Welche Materialien werden zum Bau eines Padelplatzes verwendet?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Gängige Materialien für den Bau von Padelplätzen sind Beton, Glas, Kunstrasen und Metallkonstruktionen."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Wie viel kostet es, einen Padelplatz zu installieren?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Die Kosten für die Installation eines Padelplatzes können je nach Größe, verwendeten Materialien, geografischem Standort und zusätzlichen Dienstleistungen variieren. Typischerweise liegt der Preis bei etwa 18.000 € (EXWORK)."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Welche Wartung erfordert ein Padelplatz?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ein Padelplatz erfordert regelmäßige Wartung, um ihn in gutem Zustand zu halten. Dazu gehören die Reinigung der Oberflächen, Wartung der Strukturen, der Austausch von Kunstrasen bei Bedarf und die Reparatur von Schäden oder Abnutzungen."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Benötige ich spezielle Genehmigungen, um einen Padelplatz zu installieren?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Es kann erforderlich sein, Genehmigungen oder Lizenzen zu erhalten, abhängig von den örtlichen Vorschriften und Baugesetzen. Es wird empfohlen, die örtlichen Behörden oder einen Fachmann für den Bau von Padelplätzen zu konsultieren, um genaue Informationen zu erhalten."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Kann ich das Design eines Padelplatzes anpassen?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport bietet Anpassungsoptionen für Padelplätze an, wie zum Beispiel Farbwahl, Logos und zusätzliche Komponenten."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Gibt es Finanzierungsmöglichkeiten für den Kauf und die Installation eines Padelplatzes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport bietet Finanzierungsmöglichkeiten durch verschiedene Vereinbarungen mit unterschiedlichen Institutionen, um Kunden beim Erwerb und der Bezahlung eines Padelplatzes zu unterstützen. Dies kann Ratenzahlungspläne oder Leasingvereinbarungen umfassen."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Wie viel kostet es, einen Padelplatz zu bauen?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Die Kosten für den Bau eines Padelplatzes können stark variieren, je nach Art des Platzes, den verwendeten Materialien, dem Standort und zusätzlichen Merkmalen wie Beleuchtung oder Sitzplätzen. In der Regel beginnen die Preise bei etwa 18.000 € (EXWORK), aber individuelle Designs und hochwertige Materialien können den Gesamtpreis erhöhen. Für ein genaues Angebot ist es am besten, einen professionellen Padelplatzhersteller zu konsultieren, der Ihre spezifischen Bedürfnisse und den Standort bewerten kann."
+    }
+  }]
+},
+FAQS_ES: {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "¿Cuál es el tamaño de una pista de pádel estándar?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "El tamaño estándar de una pista de pádel es de 20 metros de largo por 10 metros de ancho."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Qué materiales se utilizan en la construcción de una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Los materiales más comunes para construir pistas de pádel incluyen hormigón para los cimientos o paredes, una estructura metálica resistente para crear el área de juego, vidrios y césped artificial."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Cuánto cuesta instalar una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "El coste de instalar una pista de pádel varia según sus características, como el tamaño de la pista, los materiales utilizados en su instalación, la ubicación geográfica y los servicios o características adicionales. Al depender de tantos factores, el precio oscila desde los 18.000 € (EXWORK)."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Qué mantenimiento requiere una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Es imprescindible el mantenimiento regular de una pista de pádel para mantenerla en buenas condiciones. Para mantenerla en óptimas condiciones es necesaria la limpieza de las superficies, el mantenimiento y revisión de las estructuras, la sustitución del césped artificial cuando sea necesario y la reparación de cualquier daño o desgaste."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Necesito permisos especiales para instalar una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dependiendo de las regulaciones locales y las leyes de urbanismo en tu área, es posible que necesites obtener permisos o licencias específicas para instalar una pista de pádel. Es recomendable consultar con las autoridades locales o un profesional especializado en la construcción de pistas de pádel para obtener información precisa sobre dichos permisos."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Puedo personalizar el diseño de una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "¡Claro! Portico Sport ofrece múltiples opciones de personalización para las pistas de pádel, puedes elegir colores para las estructuras o el césped artificial, incorporar tu logotipo en diferentes partes de la pista y añadir diferentes componentes adicionales."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Hay opciones de financiación para la compra e instalación de una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport te asesora y ofrece diferentes opciones de financiación a través de varios acuerdos con entidades para ayudarte a adquirir y pagar una pista de pádel, ya sea con planes de pago a plazos o acuerdos de leasing."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Cuánto cuesta construir una pista de pádel?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "El coste de construir una pista de pádel varia considerablemente dependiendo de varios factores, como el trabajo de preparación de terreno, el tipo de pista, los materiales utilizados, el espacio disponible o la ubicación y las opciones adicionales para la pista como la iluminación o añadir asientos. Generalmente, el precio de una pista de pádel estándar comienza en 18,000 € (EXWORK), pero los diseños personalizados y la elección de materiales pueden aumentar el coste final. Para obtener un presupuesto exacto, lo mejor es consultar con un fabricante profesional de pistas de pádel, como Portico Sport, para que pueda evaluar tus necesidades específicas."
+    }
+  }]
+},
+FAQS_FR: {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Quelle est la taille standard d'un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "La taille standard d'un terrain de padel est de 20 mètres de long sur 10 mètres de large."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Quels matériaux sont utilisés pour construire un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Les matériaux couramment utilisés pour construire des terrains de padel incluent le béton, le verre, le gazon synthétique et les structures métalliques."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Combien coûte l'installation d'un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Le coût d'installation d'un terrain de padel peut varier en fonction de plusieurs facteurs, tels que la taille, les matériaux utilisés, la localisation géographique et les services supplémentaires. En général, le prix varie à partir de 18 000 € (EXWORK)."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Quel entretien nécessite un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Un terrain de padel nécessite un entretien régulier pour le maintenir en bon état. Cela comprend le nettoyage des surfaces, l'entretien des structures, le remplacement du gazon synthétique si nécessaire et la réparation des dommages ou de l'usure."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Ai-je besoin de permis spéciaux pour installer un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Il se peut que vous deviez obtenir des permis ou des licences en fonction des réglementations locales et des lois d'urbanisme dans votre région. Il est recommandé de consulter les autorités locales ou un professionnel spécialisé dans la construction de terrains de padel pour obtenir des informations précises."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Puis-je personnaliser le design d'un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport propose des options de personnalisation pour les terrains de padel, telles que des choix de couleurs, des logos et des composants supplémentaires."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Y a-t-il des options de financement pour l'achat et l'installation d'un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport propose des options de financement via divers accords avec différentes entités pour aider les clients à acquérir et payer un terrain de padel. Cela peut inclure des plans de paiement échelonnés ou des accords de leasing."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Combien coûte la construction d'un terrain de padel ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Le coût de construction d'un terrain de padel peut varier considérablement en fonction de plusieurs facteurs, notamment le type de terrain, les matériaux utilisés, l'emplacement et les caractéristiques supplémentaires comme l'éclairage ou les sièges. En général, le prix commence à 18 000 € (EXWORK), mais les designs personnalisés et les matériaux haut de gamme peuvent augmenter le prix total. Pour obtenir un devis précis, il est préférable de consulter un constructeur professionnel de terrains de padel qui pourra évaluer vos besoins spécifiques et votre emplacement."
+    }
+  }]
+},
+FAQS_USA: {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the standard size of a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The standard size of a Padel court is 20 meters long by 10 meters wide, which translates to approximately 66 feet by 33 feet in the United States."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What materials are used to build a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Common materials used to build a Padel court include concrete for the foundation, artificial turf, glass, and metal structures designed to withstand varying weather conditions."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How much does it cost to install a Padel court in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost to install a Padel court in the United States can vary based on factors such as size, materials, geographic location, transportation costs, and any additional services or extras. Typically, prices start around $20,000, depending on the specifics of the project."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What maintenance does a Padel court require?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A Padel court in the US requires regular maintenance to remain in good condition, which can vary depending on whether it is an indoor or outdoor Padel court. This maintenance includes cleaning the surfaces, maintaining the structures and glasses, replacing artificial turf when necessary, and promptly addressing any damage or wear."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Do I need special permits to install a Padel court in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You may need to obtain permits or licenses depending on local regulations and zoning laws in your area within the United States. It is advisable to consult with local authorities or a professional experienced in Padel court construction for accurate information."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Can I customize the design of a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Portico Sport offers customization options for Padel courts in the United States, including choices for colors in the structures and turf, custom accessories, and additional components to suit your preferences. Our company specializes in creating bespoke solutions that reflect your unique style."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Is padel growing in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, padel is experiencing significant growth in the United States. Over the past few years, interest in the sport has surged, fueled by its accessibility and appeal as a social activity. Numerous clubs and facilities are now offering Padel courts, and major cities are seeing an increase in tournaments and events. Additionally, professional Padel leagues and partnerships are emerging, further boosting its visibility and participation among both recreational and competitive players."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Is financing available for purchasing and installing a Padel court in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Portico Sport can show you financing options in the United States through various agreements with different entities, enabling clients to acquire and finance a Padel court. This may include installment payment plans or leasing agreements."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How much does it cost to build a Padel court in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost to build a Padel court in the United States can vary significantly based on factors such as the type of court, materials used, installation location, and additional features like lighting or turf. Typically, prices start at around $20,000, but custom designs can increase the total cost. For an accurate quote, it’s best to consult with a professional Padel court builder like Portico Sport who can evaluate your specific needs and location."
+    }
+  }]
+},
+FAQS_UK: {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the standard size of a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The standard size of a Padel court is 20 meters (65.6 feet) long by 10 meters (32.8 feet) wide."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What materials are used to build a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Padel courts are typically constructed using materials such as concrete for the foundation, glass, artificial turf, and metal structures to ensure durability."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How much does it cost to install a Padel court in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost of installing a Padel court in the United Kingdom can vary depending on factors such as court size, materials, factory or warehouse location, and extra services. Prices generally start around £15,000 (€18,000) (EXWORK)."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What maintenance does a Padel court require?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Regular maintenance is essential for Padel courts to keep them in top condition. This includes cleaning the surfaces, maintaining the court structures, replacing artificial turf when needed, and repairing any damages or wear. The specific maintenance requirements can also vary depending on whether the court is indoor or outdoor, with outdoor courts typically requiring more attention due to exposure to weather conditions in the UK."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Do I need special permits to install a Padel court in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the UK, you may need to secure permits or licenses based on local regulations and planning laws. It's advisable to consult local authorities or professionals who specialize in Padel court construction for detailed guidance."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Can I customize the design of a Padel court?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Padel courts can be customized with options such as different color schemes, logos, and additional features, tailored to your specific needs and preferences, as offered by providers like Portico Sport UK. Our factory specializes in creating bespoke solutions that reflect your unique style."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Is a Padel court profitable in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Building a Padel court can be profitable in the UK, particularly due to the sport's growing popularity. With increasing participation rates and demand for facilities, owning or operating a Padel court in the United Kingdom can provide a steady income stream through court rentals, memberships, and events. Additionally, offering coaching, tournaments, and related services can further enhance profitability. Market research and strategic location are key factors in maximizing revenue potential."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Is financing available for purchasing and installing a Padel court in the United Kingdom?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the UK, companies like Portico Sport UK offer financing options through partnerships with various financial entities. These options may include payment plans or leasing agreements to help make purchasing and installing a Padel court more affordable."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How much does it cost to build a padel court in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the UK, the cost to build a Padel court can vary significantly depending on factors like court type, materials, location, and additional features such as lighting or seating. Prices typically start from £15,000 (€18,000) (EXWORK), but custom designs can raise the total cost. For a more accurate estimate, it's recommended to consult a professional Padel court builder in the UK, like our expert team at Portico Sport UK, who can assess your specific needs."
+    }
+  }]
+},
+FAQS_OCEANIA:{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
       "@type": "Question",
-      "name":"¿Cuánto cuesta instalar una pista de pádel?",
-      "acceptedAnswer":{
+      "name": "What is the standard size of a Padel court?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        "text":"El coste de instalar una pista de pádel varia según sus características, como el tamaño de la pista, los materiales utilizados en su instalación, la ubicación geográfica y los servicios o características adicionales. Al depender de tantos factores, el precio oscila desde los 18.000 € (EXWORK)."
+        "text": "The standard size of a Padel court is 20 meters (65.6 feet) long by 10 meters (32.8 feet) wide."
       }
-
     },
     {
       "@type": "Question",
-      "name": "¿Puedo personalizar el diseño de una pista de pádel?",
+      "name": "What materials are used to build a Padel court?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": " ¡Claro! Portico Sport ofrece múltiples opciones de personalización para las pistas de pádel, puedes elegir colores para las estructuras o el césped artificial, incorporar tu logotipo en diferentes partes de la pista y añadir diferentes componentes adicionales."
-      }},
-      {
+        "text": "Padel courts are typically constructed using materials such as concrete for the foundation, glass, artificial turf, and metal structures to ensure durability."
+      }
+    },
+    {
       "@type": "Question",
-      "name": "¿Puedo personalizar el diseño de una pista de pádel?",
+      "name": "How much does it cost to install a Padel court in the UK?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": " ¡Claro! Portico Sport ofrece múltiples opciones de personalización para las pistas de pádel, puedes elegir colores para las estructuras o el césped artificial, incorporar tu logotipo en diferentes partes de la pista y añadir diferentes componentes adicionales."
-      }},
-      {
+        "text": "The cost of installing a Padel court in the United Kingdom can vary depending on factors such as court size, materials, factory or warehouse location, and extra services. Prices generally start around £15,000 (€18,000) (EXWORK)."
+      }
+    },
+    {
       "@type": "Question",
-      "name": "¿Hay opciones de financiación para la compra e instalación de una pista de pádel?",
+      "name": "What maintenance does a Padel court require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Portico Sport te asesora y ofrece diferentes opciones de financiación a través de varios acuerdos con entidades para ayudarte a adquirir y pagar una pista de pádel, ya sea con planes de pago a plazos o acuerdos de leasing."
-      }}
+        "text": "Regular maintenance is essential for Padel courts to keep them in top condition. This includes cleaning the surfaces, maintaining the court structures, replacing artificial turf when needed, and repairing any damages or wear. The specific maintenance requirements can also vary depending on whether the court is indoor or outdoor, with outdoor courts typically requiring more attention due to exposure to weather conditions in the UK."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need special permits to install a Padel court in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the UK, you may need to secure permits or licenses based on local regulations and planning laws. It's advisable to consult local authorities or professionals who specialize in Padel court construction for detailed guidance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I customize the design of a Padel court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Padel courts can be customized with options such as different color schemes, logos, and additional features, tailored to your specific needs and preferences, as offered by providers like Portico Sport UK. Our factory specializes in creating bespoke solutions that reflect your unique style."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Padel court profitable in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Building a Padel court can be profitable in the UK, particularly due to the sport's growing popularity. With increasing participation rates and demand for facilities, owning or operating a Padel court in the United Kingdom can provide a steady income stream through court rentals, memberships, and events. Additionally, offering coaching, tournaments, and related services can further enhance profitability. Market research and strategic location are key factors in maximizing revenue potential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is financing available for purchasing and installing a Padel court in the United Kingdom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the UK, companies like Portico Sport UK offer financing options through partnerships with various financial entities. These options may include payment plans or leasing agreements to help make purchasing and installing a Padel court more affordable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to build a padel court in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the UK, the cost to build a Padel court can vary significantly depending on factors like court type, materials, location, and additional features such as lighting or seating. Prices typically start from £15,000 (€18,000) (EXWORK), but custom designs can raise the total cost. For a more accurate estimate, it's recommended to consult a professional Padel court builder in the UK, like our expert team at Portico Sport UK, who can assess your specific needs."
+      }
+    }
+  ]
+},
+FAQS_ZA:
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the standard dimensions for a Padel court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The standard dimensions of a Padel court are 20 meters in length and 10 meters in width."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is any specific equipment required for setting up Padel courts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, setting up a Padel court requires importing court structures, glass walls, artificial turf, and fencing. Depending on your area, lighting systems and other necessary accessories might also be needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to import and install Padel courts in South Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost largely depends on the model of the Padel court you choose, and we guarantee top quality at competitive prices. Costs also vary by location and the number of courts you plan to install. Contact us for a personalized quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of maintenance is required for a Padel court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Padel court in South Africa requires regular upkeep to stay in top shape, with maintenance needs varying based on whether the court is indoors or outdoors. This includes cleaning surfaces, maintaining structures and glass panels, replacing artificial turf as needed, and quickly addressing any signs of wear or damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any special permits needed to set up a Padel court in South Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you’ll need building consent from the local council. Contact us to learn about the specific permits and approvals required for your project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it possible to customize the design of a Padel court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely, we provide customization options for Padel courts in South Africa, allowing you to select colors for the structures and turf, custom accessories, and additional features to match your project’s vision. Our team specializes in tailored solutions that reflect your unique style."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it usually take to install a Padel court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installation time depends on factors like the court’s location, design complexity, and weather conditions during setup. On average, it can take several weeks to complete the installation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the most durable Padel courts available on the market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Portico Sport leads the way in innovation with the Club Force 80 and Panoramic Force 80 courts, which are the most durable options on the market. These Padel courts are designed to withstand extreme weather conditions, making them ideal for diverse environments while maintaining top performance and longevity."
+      }
+    }
+  ]
+},
 
-    ]
-  },
+
+
+
 AUS: {
   "@context": "https://schema.org/",
   "@type": "LocalBusiness",
@@ -821,6 +1317,9 @@ SINGLE: {
 let schema = pathname === "/uk" ? [TYPES.UK, TYPES.UKBC]: 
 pathname === "/padel-court-usa" ? [TYPES.USA, TYPES.USABC]: 
 language === "es" ? [TYPES.ES, TYPES.FAQS_ES] :
+language === "de" ? [TYPES.DEFAULT, TYPES.FAQS_DE] :
+language === "en" ? [TYPES.DEFAULT, TYPES.FAQS_EN] :
+language === "fr" ? [TYPES.DEFAULT, TYPES.FAQS_FR] :
 pathname === "/oceania" ? [ TYPES.OCEANIA_BC, TYPES.OCEANIA_LB]: 
 pathname === "/indoor-padel-court" ? [ TYPES.INDOOR] :
 pathname === "/outdoor-padel-court" ? [TYPES.OUTDOOR] :
