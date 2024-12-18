@@ -1334,10 +1334,10 @@ SINGLE: {
 
 let schema = pathname === "/uk" ? [TYPES.UK, TYPES.UKBC, TYPES.FAQS_UK]: 
 pathname === "/padel-court-usa" ? [TYPES.USA, TYPES.USABC, TYPES.FAQS_USA]: 
-(pathname === "/" && language === "fr") ? [TYPES.DEFAULT, TYPES.FAQS_FR, organizationSchema]:
-(pathname === "/" && language === "de") ? [TYPES.DEFAULT, TYPES.FAQS_DE, organizationSchema]:
-(pathname === "/" && language === "es") ? [TYPES.DEFAULT, TYPES.FAQS_ES, organizationSchema]:
-(pathname === "/" && language === "en") ? [TYPES.DEFAULT, TYPES.FAQS_EN, organizationSchema]:
+(pathname === "/" && language === "fr") ? [organizationSchema, TYPES.DEFAULT, TYPES.FAQS_FR]:
+(pathname === "/" && language === "de") ? [organizationSchema, TYPES.DEFAULT, TYPES.FAQS_DE]:
+(pathname === "/" && language === "es") ? [organizationSchema, TYPES.DEFAULT, TYPES.FAQS_ES]:
+(pathname === "/" && language === "en") ? [organizationSchema, TYPES.DEFAULT, TYPES.FAQS_EN]:
 pathname === "/oceania" ? [ TYPES.OCEANIA_BC, TYPES.OCEANIA_LB, TYPES.FAQS_OCEANIA]: 
 pathname === "/indoor-padel-court" ? [ TYPES.INDOOR ] :
 pathname === "/outdoor-padel-court" ? [TYPES.OUTDOOR] :
