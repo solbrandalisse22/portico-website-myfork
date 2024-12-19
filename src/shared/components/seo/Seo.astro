@@ -68,8 +68,10 @@ const hrefLang = {
 <meta name="description" content={description} />
 
 
-<link rel="canonical" href={canonicalURL} {...(robots === "noindex,nofollow" ? { rel: "nofollow" } : {})} />
-
+<link
+  rel={robots === 'no-index,nofollow' ? 'nofollow' : 'canonical'}
+  href={canonicalURL}
+/>
 <meta name="viewport" content="width=device-width" />
 <meta name="theme-color" content="#151a36" />
 <meta name="keywords" content={keywords} />
