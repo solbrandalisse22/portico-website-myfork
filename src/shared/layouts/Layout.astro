@@ -22,17 +22,18 @@ interface Props {
   showScrollImage?: boolean;
   ogImage?: string;
   keywords?: string;
+robots?: string;
 
 }
 
-const { description, title, currentLocale, keywords ,language, bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
+const { description, title, currentLocale, keywords ,language, robots ,bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={currentLocale}>
   <head>
 <meta name="google-site-verification" content="bVDtzyF2kbTOYRSyeZL7gLBAwqaWQ9f7P_5tN1V1GRw" />
-    <Seo title={title} description={description} currentLocale={currentLocale} image={ogImage} keywords = {keywords} language={language} />
+    <Seo title={title} description={description} robots={robots} currentLocale={currentLocale} image={ogImage} keywords = {keywords} language={language} />
     <GoogleTagManager id="GTM-K2ZJ388S" />
     <slot name="preload" />
     <ViewTransitions />
