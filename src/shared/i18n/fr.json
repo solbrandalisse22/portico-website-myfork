@@ -2789,6 +2789,14 @@
       "INFO": "Infos",
       "ARCHIVE": "Archives"
     }
+  },"POPUP_CONTACT": {
+  "BUTTON_TITLE": "Discutez avec nous",
+  "DESCRIPTION_1": "Bonjour !",
+  "DESCRIPTION_2": "Comment pouvons-nous vous aider ?",
+  "BUTTON": {
+    "LABEL": "Ouvrir le chat",
+    "URL": "/contact-client"
+  }
   },
   "CONTACT_FORM": {
     "ID": "contact-form",
