@@ -3613,6 +3613,7 @@
   },
   "CONTACT_FORM": {
     "ID": "contact-form",
+    "CLOSE_BUTTON" : "Close",
     "TITLE": "Reach our Padel Court Experts",
     "TITLE_UK":"Reach our UK Padel Court Professionals",
     "TITLE_MX":"Conecta con nuestros expertos en pádel en México",
