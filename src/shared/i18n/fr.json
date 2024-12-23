@@ -2801,6 +2801,7 @@
   "CONTACT_FORM": {
     "ID": "contact-form",
     "TITLE": "Contactez nos experts en Terrains de Padel",
+    "CLOSE_BUTTON":"fermer",
     "TITLE_CANOPIES":"Contactez nos experts en toits pour terrains de Padel",
     "DESCRIPTION": "<p>N'hésitez pas à contacter notre équipe d'experts pour plus d'informations sur les Terrains de Padel ! Nous sommes là pour répondre à toutes vos questions et vous aider à trouver le terrain qui correspond le mieux à vos besoins. De plus, si vous le souhaitez, nous pouvons également concevoir et construire votre propre Terrain personnalisé selon vos préférences et spécifications. Nous avons hâte de vous entendre bientôt !</p>",
     "FORM": {
