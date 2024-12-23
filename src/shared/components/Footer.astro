@@ -4,8 +4,14 @@ import Link from "@/shared/components/Link.astro"
 import HeaderLink from "@/shared/components/HeaderLink.astro"
 import LogoWhite from "@/shared/components/logos/LogoWhite.astro"
 import UEBanner from "@/shared/components/UEBanner.astro"
+import ContactUs from "@/shared/components/ContactUs.astro"
 
-const { language } = Astro.props
+interface Props {
+  language: string;
+  home?: boolean
+}
+
+const { language, home } = Astro.props
 const i18n = getI18N({ language })
 ---
 
@@ -132,7 +138,9 @@ const i18n = getI18N({ language })
 
 
 
-
+{home && 
+<ContactUs />
+}
   <HeaderLink
     checkActive={false}
     href="#top"
