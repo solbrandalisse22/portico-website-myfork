@@ -2875,11 +2875,11 @@
     }
   },
   "POPUP_CONTACT": {
-  "BUTTON_TITLE": "Chatea con nosotros",
+  "BUTTON_TITLE": "Contáctanos",
   "DESCRIPTION_1": "¡Hola!",
   "DESCRIPTION_2": "¿Cómo podemos ayudarte?",
   "BUTTON": {
-    "LABEL": "Abrir chat",
+    "LABEL": "Contáctanos",
     "URL": "/contacto-cliente"
   }
 },
