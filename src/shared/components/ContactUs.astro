@@ -1,0 +1,74 @@
+---
+import { getI18N } from "@/shared/i18n";
+import Button from "./Button.astro"
+
+interface Props {
+  language: string;
+
+}
+
+const {language} = Astro.props
+const i18n = getI18N({ language });
+
+---
+
+
+<button
+  id="chatButton"
+  class="fixed bottom-20 right-5  bg-transparent border border-solid text-white py-3 px-6 rounded-full text-lg cursor-pointer z-50"
+>
+  {i18n.POPUP_CONTACT.BUTTON_TITLE}
+</button>
+
+<div
+  id="contactForm"
+  class="fixed bottom-20 right-5 rounded-lg bg-transparent w-85 shadow-lg z-50 opacity-0 transform transition-all duration-300 ease-out max-h-96"
+  style="display:none; opacity: 1; transform: translateY(0px);"
+>
+  
+  <div class="bg-white rounded-lg shadow-lg p-6 w-80 relative">
+    <button id="closeButton" class="absolute top-2 right-4 text-black text-lg ">
+      x
+    </button>
+
+    <div class="flex flex-col items-center mb-4">
+      <img alt="Company logo" class="w-40 h-40 rounded-full" src="/public/logo-portico-sport-circular.svg" />
+    </div>
+    
+    <div class="bg-gray-100 p-4 rounded-lg mb-4">
+      <p class="text-gray-800">
+        {i18n.POPUP_CONTACT.DESCRIPTION_1}
+        <br />
+        {i18n.POPUP_CONTACT.DESCRIPTION_2}
+      </p>
+    </div>
+
+    <Button id="chatButton" 
+    class="bg-blue-900 text-white w-full py-3 rounded-lg flex items-center justify-center"
+    url={i18n.POPUP_CONTACT.BUTTON.URL}>
+      
+      {i18n.POPUP_CONTACT.BUTTON.LABEL}
+    </Button>
+  </div>
+</div>
+
+<script>
+  let form = document.getElementById("contactForm");
+  let button = document.getElementById("chatButton");
+  let close = document.getElementById("closeButton");
+  button?.addEventListener("click", () => {
+    form.style.display = "block";
+  });
+
+  close?.addEventListener("click", () => {
+    form.style.display = "none";
+  });
+  
+</script>
+<style>
+    @media (min-width:300px) and (max-width:1024px){
+        #chatButton {
+            visibility: hidden;
+        }
+    }
+</style>
