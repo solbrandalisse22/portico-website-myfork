@@ -2756,6 +2756,16 @@
       "ARCHIVE": "Archiv"
     }
   },
+  "POPUP_CONTACT": {
+  "BUTTON_TITLE": "Chatte mit uns",
+  "DESCRIPTION_1": "Hallo!",
+  "DESCRIPTION_2": "Wie können wir dir helfen?",
+  "BUTTON": {
+    "LABEL": "Chat öffnen",
+    "URL": "/kontakt"
+  }
+},
+
   "CONTACT_FORM": {
     "ID": "contact-form",
     "TITLE": "Kontaktieren Sie unsere Padelplatz-Experten",
