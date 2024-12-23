@@ -3603,11 +3603,11 @@
     }
   },
   "POPUP_CONTACT":{
-  "BUTTON_TITLE":"Chat with us",
+  "BUTTON_TITLE":"Contact us",
   "DESCRIPTION_1":"Hello!",
   "DESCRIPTION_2":"How can we help you?",
   "BUTTON":{
-    "LABEL":"Open chat",
+    "LABEL":"Contact us",
     "URL":"/client-contact"
   }
   },
