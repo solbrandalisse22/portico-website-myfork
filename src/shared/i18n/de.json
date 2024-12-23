@@ -2757,11 +2757,11 @@
     }
   },
   "POPUP_CONTACT": {
-  "BUTTON_TITLE": "Chatte mit uns",
+  "BUTTON_TITLE": "Kontaktiere Uns",
   "DESCRIPTION_1": "Hallo!",
   "DESCRIPTION_2": "Wie können wir dir helfen?",
   "BUTTON": {
-    "LABEL": "Chat öffnen",
+    "LABEL": "Kontaktiere Uns",
     "URL": "/kundenkontakt"
   }
 },
