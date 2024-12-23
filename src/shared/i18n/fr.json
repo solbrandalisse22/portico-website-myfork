@@ -2790,11 +2790,11 @@
       "ARCHIVE": "Archives"
     }
   },"POPUP_CONTACT": {
-  "BUTTON_TITLE": "Discutez avec nous",
+  "BUTTON_TITLE": "Contactez-nous",
   "DESCRIPTION_1": "Bonjour !",
   "DESCRIPTION_2": "Comment pouvons-nous vous aider ?",
   "BUTTON": {
-    "LABEL": "Ouvrir le chat",
+    "LABEL": "Contactez-nous",
     "URL": "/contact-client"
   }
   },
