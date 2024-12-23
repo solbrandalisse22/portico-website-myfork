@@ -2887,6 +2887,7 @@
   "CONTACT_FORM": {
     "ID": "formulario-de-contacto",
     "TITLE": "CONTACTA CON NUESTROS EXPERTOS EN PISTAS DE PÁDEL",
+    "CLOSE_BUTTON" : "Cerrar",
     "TITLE_MX":"Conecta con nuestros expertos en pádel en México",
     "TITLE_CANOPIES":"Contacta con nuestros expertos en cubiertas para pistas de pádel",
     "DESCRIPTION_MX":"<p>No dudes en ponerte en contacto con nuestro equipo para cualquier consulta sobre canchas de pádel y cubiertas. Estamos aquí para resolver todas tus dudas y guiarte en la selección de la cancha ideal para tus necesidades. Con amplia experiencia en la construcción de canchas de pádel en todo el mundo, nuestros profesionales están listos para diseñar y construir una cancha personalizada de acuerdo con tus preferencias. Si deseas conocer los costos para instalar una cancha de pádel en México, te ofrecemos estimaciones detalladas que te ayudarán a planear tu proyecto de manera eficiente. ¡Esperamos conectar contigo pronto!</p><p class=text-lg text-pretty font-thin text-current text-left>Para consultas de ventas, escribe a: <a class=text__glowing href=mailto:mexico@porticosport.com>mexico@porticosport.com</a></p>",
