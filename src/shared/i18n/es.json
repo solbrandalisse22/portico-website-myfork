@@ -2874,6 +2874,16 @@
       "ARCHIVE": "Archivo"
     }
   },
+  "POPUP_CONTACT": {
+  "BUTTON_TITLE": "Chatea con nosotros",
+  "DESCRIPTION_1": "¡Hola!",
+  "DESCRIPTION_2": "¿Cómo podemos ayudarte?",
+  "BUTTON": {
+    "LABEL": "Abrir chat",
+    "URL": "/contacto-cliente"
+  }
+},
+
   "CONTACT_FORM": {
     "ID": "formulario-de-contacto",
     "TITLE": "CONTACTA CON NUESTROS EXPERTOS EN PISTAS DE PÁDEL",
