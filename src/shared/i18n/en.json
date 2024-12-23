@@ -3608,7 +3608,7 @@
   "DESCRIPTION_2":"How can we help you?",
   "BUTTON":{
     "LABEL":"Open chat",
-    "URL":"/contact"
+    "URL":"/client-contact"
   }
   },
   "CONTACT_FORM": {
