@@ -67,9 +67,10 @@ const { description, title, currentLocale, home, keywords ,language, robots ,bgI
     <slot />
     <CookieConsent />
  {
-      home && <Footer language={language} home/>
-    }
+      home ? <Footer language={language} home/> :
     <Footer language={language} />
+    }
+
     <style is:global>
       :root {
         color-scheme: dark;
