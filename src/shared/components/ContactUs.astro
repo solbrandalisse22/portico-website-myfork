@@ -45,7 +45,7 @@ const i18n = getI18N({ language });
     </button>
 
     <div class="flex flex-col items-center mb-4">
-      <img alt="Company logo" class="w-40 h-40 rounded-full" src="/public/logo-portico-sport-circular.svg" />
+      <img alt="Company logo" class="w-40 h-40 rounded-full" src="/logo-portico-sport-circular.svg" />
     </div>
     
     <div class="bg-gray-100 p-4 rounded-lg mb-4">
@@ -87,7 +87,7 @@ const i18n = getI18N({ language });
     <InputRadio name={i18n.CONTACT_FORM.FORM.TERMS.ID} label={i18n.CONTACT_FORM.FORM.TERMS.LABEL} linkText={i18n.CONTACT_FORM.FORM.TERMS.LINK_TEXT} linkUrl={i18n.PAGES.PRIVACY.ROUTE.URL} required size={size} />
     <input type="hidden" name="isUk" value={uk ? 'on' : 'off'} size={size} />
     <FormButton language={language} client:visible formId={formId} text={sendText || i18n.CONTACT_FORM.FORM.SEND} termsError={i18n.CONTACT_FORM.ACCEPT_TERMS} size={size} />
-    <Button id="closeFormButton" size="lg" class="cursor-pointer"> CLOSE </Button>  
+    <Button id="closeFormButton" size="lg" class="cursor-pointer"> {i18n.CONTACT_FORM.CLOSE_BUTTON}</Button>  
 </form>
 </div>
 
