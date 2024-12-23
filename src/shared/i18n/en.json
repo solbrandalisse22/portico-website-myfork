@@ -3602,6 +3602,15 @@
       "ARCHIVE": "Archivo"
     }
   },
+  "POPUP_CONTACT":{
+  "BUTTON_TITLE":"Chat with us",
+  "DESCRIPTION_1":"Hello!",
+  "DESCRIPTION_2":"How can we help you?",
+  "BUTTON":{
+    "LABEL":"Open chat",
+    "URL":"/contact"
+  }
+  },
   "CONTACT_FORM": {
     "ID": "contact-form",
     "TITLE": "Reach our Padel Court Experts",
