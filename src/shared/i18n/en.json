@@ -10,6 +10,8 @@
       "SEO_DESCRIPTION_USA": "Portico Sport, leading Padel court manufacturer in the USA, providing custom design, construction, and installation for durable, high-performance courts",
       "SEO_TITLE_OCEANIA":"Padel Court Construction Oceania | Portico Sport",
       "SEO_DESCRIPTION_OCEANIA":"Portico Sport specializes in custom-designed padel courts in Oceania. Providing durable construction and professional installation for optimal performance.",
+      "SEO_TITLE_IRL":"Padel Court Builders Manufacturers Irlanda | Portico Sport",
+      "SEO_DESCRIPTION_IRL":"Portico Sport specializes in custom-designed padel courts in Ireland, offering durable construction and professional installation for optimal performance. We provide high-quality, tailored solutions to support the growth of padel in the country.",
       "SEO_TITLE_ZA":"Padel Court Construction South Africa | Portico Sport",
       "SEO_DESCRIPTION_ZA":"Portico Sport specializes in custom-designed padel courts in South Africa. Providing durable construction and professional installation for optimal performance.",
        "SEO_TITLE_ES":"Fabricantes de pistas de pádel en España | Portico Sport",     
@@ -24,6 +26,7 @@
       "TITLE_UK": "Padel Court Builders UK",
       "TITLE_USA": "Padel Court Builders USA",
       "TITLE_OCEANIA": "Padel Court Builders Oceania",
+      "TITLE_IRL":"Padel Court Builders Ireland",
       "TITLE_ZA":"Padel Court Builders South Africa",
       "TITLE_ES":"Portico Sport España",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
@@ -1125,6 +1128,71 @@
      "BUTTON":{
       "LABEL":"Contacte con nosotros",
       "URL":"https://www.porticosport.es/contacto-cliente"
+     }
+    }
+ 
+  },
+    "SECTION_IRL":{
+    "ID":"irlanda",
+     
+ "FIRST_SECTION":{
+     "TITLE":"We build the best padel courts in Ireland",
+     "DESCRIPTION":"<p>Portico Sport UK, based in Congleton near Manchester, serves as the operational hub for one of the leading Padel court builders in Ireland and the UK. With over 15 years of experience and a presence in more than 35 countries, Portico Sport is a global leader in Padel court manufacturing and construction. Our state-of-the-art manufacturing facility in Mérida, Spain, allows us to deliver top-quality Padel courts and canopies with cutting-edge technology, ensuring the highest standards of durability and compliance with official regulations (NIDE 2004 Padel and FIP).</p><p>As a proud member of SAPCA, we provide a complete turnkey solution for clubs across Ireland and the UK, offering efficient project management and quick material delivery through our strategically located warehouse. Whether you're planning a small club or large facility, Portico Sport UK guarantees exceptional quality and precision in every project, making us your trusted partner for Padel court construction.</p>",
+     "URL": {
+      "LABEL": "Discover our expertise at Portico Sport UK",
+    "TITLE":"Padel Court Builders",
+      "SRC": "/uk"
+    
+   }},
+   "PROJECTS_SECTION": {
+     "ID":"projects",
+     "URL": {
+         "LABEL": "Get Inspired by Our Global Padel Projects",
+       "TITLE":"Padel court installation",
+         "SRC": "/projects"
+       },
+       "ID_GALLERY": "projects-gallery-irl",
+       "TITLE_GALLERY":"Padel courts in Ireland",
+       "SUBTITLE_GALLERY":"Portico Sport offers tailored solutions for indoor and outdoor courts that are designed to withstand Ireland and the UK’s dynamic weather conditions. Our courts are crafted to deliver superior performance while enhancing the playing experience for athletes and enthusiasts alike.",
+       "PATH":"projects-Ireland/gallery"
+   }, 
+   "BENEFITS_SECTION":{
+      "ID":"why-us",
+      "TITLE":"Padel court construction team",
+      "DESCRIPTION":"<p>Building Padel courts requires a seamless blend of engineering expertise, premium materials, and precise execution. At Portico Sport UK, we take pride in managing every step of the process, ensuring courts that exceed client expectations while adhering to international standards.</p><p>Our dedicated team in the UK, works tirelessly to deliver top-quality Padel courts and canopies tailored to every client’s needs. Whether it’s through meticulous planning, superior installation skills, or exceptional customer service, our team ensures that every project is completed to the highest standards.</p><p>From site preparation to final installation, we deliver courts and canopies that balance durability, safety, and sports performance—perfect for Ireland's unique climate and diverse needs. Our experienced team in the UK ensures that each court we build is a perfect fit for the local environment, delivering timely and reliable service.</p>"
+    },
+    "BENTO_SECTION":{
+      "ID":"bento-section",
+      "TITLE":"What Makes Our Padel Courts and Canopies Stand Out?",
+      "TITLE_1":"Premium materials",
+      "DESCRIPTION_1":"High-grade tempered glass, galvanized steel structures, and certified artificial turf for lasting quality and low maintenance",
+      "TITLE_2":"Weather adaptability",
+      "DESCRIPTION_2":"Custom solutions for indoor, outdoor, or challenging weather conditions like those found in Ireland and the UK",
+      "TITLE_3":"Official standards compliance",
+      "DESCRIPTION_3":"Courts meet international regulations, making them suitable for professional tournaments",
+      "TITLE_4":"Bespoke designs",
+      "DESCRIPTION_4":"Fully customisable options for sizes, colours, and layouts to suit your specific project requirements",
+    "URL": {
+         "LABEL": "Tailor Your Padel Court Today",
+       "TITLE":"Padel court builders",
+         "SRC": "/custom-padel-courts"
+       }
+    },
+    "NORTHERN_SECTION":{
+      "ID":"why-us",
+      "TITLE":"We Also Work in Northern Ireland",
+      "DESCRIPTION":"<p>At Portico Sport, we are proud to offer our expert padel court construction services throughout Ireland and the UK, including Northern Ireland. Our dedicated team travels directly to your location, ensuring that every project—whether for local clubs or large-scale facilities—meets the highest standards of quality and precision.</p><p>We’ve earned our reputation as a global leader in padel court construction by delivering exceptional results and exceeding client expectations. Our commitment to timely execution and outstanding performance guarantees that every court we build is designed for durability and long-term success.</p><p>Choose Portico Sport for your next padel project and transform your facility with a world-class court that inspires players and enhances your space’s potential.</p>"
+    },
+    "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Contact Portico Sport UK",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Contact Portico Sport UK now!",
+      "URL":"/client-contact"
      }
     }
  
