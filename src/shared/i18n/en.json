@@ -10,7 +10,7 @@
       "SEO_DESCRIPTION_USA": "Portico Sport, leading Padel court manufacturer in the USA, providing custom design, construction, and installation for durable, high-performance courts",
       "SEO_TITLE_OCEANIA":"Padel Court Construction Oceania | Portico Sport",
       "SEO_DESCRIPTION_OCEANIA":"Portico Sport specializes in custom-designed padel courts in Oceania. Providing durable construction and professional installation for optimal performance.",
-      "SEO_TITLE_IRL":"Padel Court Builders Manufacturers Irlanda | Portico Sport",
+      "SEO_TITLE_IRL":"Padel Court Builders Manufacturers Ireland | Portico Sport",
       "SEO_DESCRIPTION_IRL":"Portico Sport specializes in custom-designed padel courts in Ireland, offering durable construction and professional installation for optimal performance. We provide high-quality, tailored solutions to support the growth of padel in the country.",
       "SEO_TITLE_ZA":"Padel Court Construction South Africa | Portico Sport",
       "SEO_DESCRIPTION_ZA":"Portico Sport specializes in custom-designed padel courts in South Africa. Providing durable construction and professional installation for optimal performance.",
@@ -723,7 +723,7 @@
         "URL":"/es"
       },
       "IRL_ROUTE":{
-        "LABEL":"Irland",
+        "LABEL":"Ireland",
         "URL":"/irl"
       }
     },
