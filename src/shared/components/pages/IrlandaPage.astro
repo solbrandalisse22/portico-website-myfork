@@ -1,0 +1,85 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import SectionBento from "@/shared/components/sections/SectionBentoIrl.astro";
+
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language, projectsGallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_IRL} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_IRL} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/projects-Ireland/gallery/projectsIreland-3.webp"
+bgClass="brightness-50"
+>
+    
+    <main class="flex flex-col gradient-bg relative">
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_IRL} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+
+    <Section 
+    id={i18n.PAGES.SECTION_IRL.ID} 
+    heading2={i18n.PAGES.SECTION_IRL.FIRST_SECTION.TITLE}
+    subheading= {i18n.PAGES.SECTION_IRL.FIRST_SECTION.SUBTITLE}>
+    <Typography tag="div" className="mb-6" text={i18n.PAGES.SECTION_IRL.FIRST_SECTION.DESCRIPTION}/>
+   
+  
+    <div class="text-center mx-auto pt-20">
+        <Button size="sm" class="" url={i18n.PAGES.SECTION_IRL.CONTACT_SECTION.BUTTON.URL} target="_self">
+            {i18n.PAGES.SECTION_IRL.CONTACT_SECTION.BUTTON.LABEL}
+          </Button>
+      </div>
+      
+</Section>
+<Section
+heading2={i18n.PAGES.SECTION_IRL.PROJECTS_SECTION.TITLE_GALLERY}>
+<Gallery
+      language={language}
+      id={i18n.PAGES.SECTION_IRL.PROJECTS_SECTION.ID}
+      photos={projectsGallery}
+      offset={6}
+      path={i18n.PAGES.SECTION_IRL.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.SECTION_IRL.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.SECTION_IRL.PROJECTS_SECTION.URL.LABEL}
+      buttonTitle={i18n.PAGES.SECTION_IRL.PROJECTS_SECTION.URL.TITLE}
+      /> 
+    </Section>
+ <Section
+    heading2={i18n.PAGES.SECTION_IRL.BENEFITS_SECTION.TITLE}
+    subheading={i18n.PAGES.SECTION_IRL.BENEFITS_SECTION.DESCRIPTION}>
+    </Section>
+      <SectionBento language={language}/>
+<Section
+id={i18n.PAGES.SECTION_IRL.NORTHERN_SECTION.ID}
+heading2={i18n.PAGES.SECTION_IRL.NORTHERN_SECTION.TITLE}
+>
+<Typography tag="div" text={i18n.PAGES.SECTION_IRL.NORTHERN_SECTION.DESCRIPTION}/>
+</Section>
+   
+
+          <ContactSectionEs language={language}/>
+        
+          </div>
+        
+    </main>
+</Layout>
