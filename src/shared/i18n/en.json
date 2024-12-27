@@ -721,6 +721,10 @@
       "ES_ROUTE":{
         "LABEL":"España",
         "URL":"/es"
+      },
+      "IRL_ROUTE":{
+        "LABEL":"Irland",
+        "URL":"/irl"
       }
     },
     "SECTION_OUTDOOR":{
