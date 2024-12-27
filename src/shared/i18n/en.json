@@ -1142,7 +1142,7 @@
  "FIRST_SECTION":{
      "TITLE":"We build the best padel courts in Ireland",
      "DESCRIPTION":"<p>Portico Sport UK, based in Congleton near Manchester, serves as the operational hub for one of the leading Padel court builders in Ireland and the UK. With over 15 years of experience and a presence in more than 35 countries, Portico Sport is a global leader in Padel court manufacturing and construction. Our state-of-the-art manufacturing facility in Mérida, Spain, allows us to deliver top-quality Padel courts and canopies with cutting-edge technology, ensuring the highest standards of durability and compliance with official regulations (NIDE 2004 Padel and FIP).</p><p>As a proud member of SAPCA, we provide a complete turnkey solution for clubs across Ireland and the UK, offering efficient project management and quick material delivery through our strategically located warehouse. Whether you're planning a small club or large facility, Portico Sport UK guarantees exceptional quality and precision in every project, making us your trusted partner for Padel court construction.</p>",
-     "URL": {
+     "BUTTON": {
       "LABEL": "Discover our expertise at Portico Sport UK",
     "TITLE":"Padel Court Builders",
       "SRC": "/uk"
@@ -1176,7 +1176,7 @@
       "DESCRIPTION_3":"Courts meet international regulations, making them suitable for professional tournaments",
       "TITLE_4":"Bespoke designs",
       "DESCRIPTION_4":"Fully customisable options for sizes, colours, and layouts to suit your specific project requirements",
-    "URL": {
+    "BUTTON": {
          "LABEL": "Tailor Your Padel Court Today",
        "TITLE":"Padel court builders",
          "SRC": "/custom-padel-courts"
