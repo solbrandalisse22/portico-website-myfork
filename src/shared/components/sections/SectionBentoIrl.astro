@@ -2,6 +2,8 @@
 import BentoItem from "@/shared/components/BentoItem.astro";
 import { getI18N } from "@/shared/i18n/";
 import Section from "@/shared/components/Section.astro";
+import Button from "@/shared/components/Button.astro";
+
 
 interface Props {
   language: string;
@@ -90,14 +92,14 @@ const i18n = getI18N({ language });
       />
     </BentoItem>
   </div>
-
-</Section>
-
-    <div class="text-center mx-auto pt-20">
+ <div class="text-center mx-auto pt-20">
         <Button size="sm" class="" url={i18n.PAGES.SECTION_IRL.BENTO_SECTION.BUTTON.SRC} title={i18n.PAGES.SECTION_IRL.BENTO_SECTION.BUTTON.TITLE} target="_self">
             {i18n.PAGES.SECTION_IRL.BENTO_SECTION.BUTTON.LABEL}
           </Button>
       </div>
+</Section>
+
+   
 <script>
   document.addEventListener("astro:page-load", () => {
     const backgrounds = document.querySelectorAll(
