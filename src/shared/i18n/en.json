@@ -3676,8 +3676,8 @@
   },
   "POPUP_CONTACT":{
   "BUTTON_TITLE":"Contact us",
-  "DESCRIPTION_1":"Hello!",
-  "DESCRIPTION_2":"How can we help you?",
+  "DESCRIPTION_1":"Hi!",
+  "DESCRIPTION_2":"To get in touch with us, click here",
   "BUTTON":{
     "LABEL":"Contact us",
     "URL":"/client-contact"
