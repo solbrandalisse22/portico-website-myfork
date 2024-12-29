@@ -2792,7 +2792,7 @@
   },"POPUP_CONTACT": {
   "BUTTON_TITLE": "Contactez-nous",
   "DESCRIPTION_1": "Bonjour !",
-  "DESCRIPTION_2": "Comment pouvons-nous vous aider ?",
+  "DESCRIPTION_2": "Pour nous contacter, cliquez ici",
   "BUTTON": {
     "LABEL": "Contactez-nous",
     "URL": "/contact-client"
