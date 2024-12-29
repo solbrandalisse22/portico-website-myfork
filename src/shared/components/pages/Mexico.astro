@@ -36,8 +36,8 @@ const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/pos
 // const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?per_page=6&_embed`)
 const posts = await response.json();
 ---
-<Layout title={i18n.PAGES.SECTION_MX.HOME.SEO_TITLE} robots="index,follow" description={i18n.PAGES.SECTION_MX.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language="es" >
-<Video language="es" video="/portico-sport-home-video.mp4" subtitle={i18n.PAGES.SECTION_MX.HOME.SUBTITLE} title={i18n.PAGES.SECTION_MX.HOME.TITLE} buttonUrl={i18n.PAGES.SECTION_MX.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.SECTION_MX.HOME.CONTACT_BUTTON.LABEL} language="es" classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
+<Layout title={i18n.PAGES.SECTION_MX.HOME.SEO_TITLE} robots="index,follow" home description={i18n.PAGES.SECTION_MX.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language="es" >
+<Video language="es" video="/portico-sport-home-video.mp4" subtitle={i18n.PAGES.SECTION_MX.HOME.SUBTITLE} title={i18n.PAGES.SECTION_MX.HOME.TITLE} buttonUrl={i18n.PAGES.SECTION_MX.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.SECTION_MX.HOME.CONTACT_BUTTON.LABEL} language="es" classVideo="cp-elipse" subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
     <div
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
