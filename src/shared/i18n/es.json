@@ -2877,7 +2877,7 @@
   "POPUP_CONTACT": {
   "BUTTON_TITLE": "Contáctanos",
   "DESCRIPTION_1": "¡Hola!",
-  "DESCRIPTION_2": "¿Cómo podemos ayudarte?",
+  "DESCRIPTION_2": "Para ponerse en contacto con nosotros, haga click aquí",
   "BUTTON": {
     "LABEL": "Contáctanos",
     "URL": "/contacto-cliente"
