@@ -2759,7 +2759,7 @@
   "POPUP_CONTACT": {
   "BUTTON_TITLE": "Kontaktiere Uns",
   "DESCRIPTION_1": "Hallo!",
-  "DESCRIPTION_2": "Wie können wir dir helfen?",
+  "DESCRIPTION_2": "Um mit uns in Kontakt zu treten, klicken Sie hier",
   "BUTTON": {
     "LABEL": "Kontaktiere Uns",
     "URL": "/kundenkontakt"
