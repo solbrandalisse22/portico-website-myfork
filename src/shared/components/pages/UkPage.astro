@@ -37,9 +37,9 @@ const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/pos
 const posts = await response.json();
 ---
 
-<Layout title={i18n.PAGES.HOME.SEO_TITLE_UK} description={i18n.PAGES.HOME.SEO_DESCRIPTION_UK} robots="index,follow" currentLocale={currentLocale} language={language}>
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_UK} home description={i18n.PAGES.HOME.SEO_DESCRIPTION_UK} robots="index,follow" currentLocale={currentLocale} language={language}>
 
-  <Video language={language} video="/movie-UK.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE_UK} title={i18n.PAGES.HOME.TITLE_UK} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" showContactForm subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
+  <Video language={language} video="/movie-UK.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE_UK} title={i18n.PAGES.HOME.TITLE_UK} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse" subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT} uk>
     <div
       slot="bottom"
       class="absolute bottom-[10%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
