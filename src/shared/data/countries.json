@@ -3679,6 +3679,44 @@
     ],
     "route": "/projects/Canada"
   },
+    {
+    "country": "Caribe",
+    "id": "caribe",
+    "continent": "America",
+    "coordinates": [-74.006, 40.7128],
+    "projects": [
+      {
+        "projectId": "sandy-lane",
+        "country": "Caribe",
+        "projectName": "Sandy Lane Hotel",
+        "website": "https://www.sandylane.com",
+        "projectsCourts": "2 Club courts",
+        "projectCity": "Barbados",
+        "route": "/projects/sandy-lane",
+        "projectLogo": "/clubes/Caribe/Sandy Lane/sandylane-logo.webp",
+        "images": [
+          {
+            "src": "/clubes/Caribe/Sandy Lane/thumbnails/Sandy-Lane-1.webp",
+            "alt": "Courts in Sandy Lane Hotel"
+          },
+          {
+            "src": "/clubes/Caribe/Sandy Lane/thumbnails/Sandy-Lane-2.webp",
+            "alt": "Courts in Sandy Lane Hotel"
+          },
+          {
+            "src": "/clubes/Caribe/Sandy Lane/thumbnails/Sandy-Lane-3.webp",
+            "alt": "Courts in Sandy Lane Hotel"
+          },
+          {
+            "src": "/clubes/Caribe/Sandy Lane/thumbnails/Sandy-Lane-4.webp",
+            "alt": "Courts in Sandy Lane Hotel"
+          }
+        ],
+        "items": 4
+      }
+    ],
+    "route": "/projects/Caribe"
+  },
    {
     "country": "Germany",
     "continent": "Europe",
