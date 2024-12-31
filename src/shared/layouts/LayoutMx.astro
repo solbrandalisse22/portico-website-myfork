@@ -20,10 +20,11 @@ interface Props {
   bgClass?: string;
   showScrollImage?: boolean;
   ogImage?: string;
+ home?: boolean
 
 }
 
-const { description, title, currentLocale, language, bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
+const { description, home ,title, currentLocale, language, bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
 ---
 
 <!doctype html>
@@ -63,7 +64,7 @@ const { description, title, currentLocale, language, bgImage, bgClass, showScrol
     }
     <slot />
     <CookieConsent />
-    <Footer language={language} />
+    <Footer language={language} home />
     <style is:global>
       :root {
         color-scheme: dark;
