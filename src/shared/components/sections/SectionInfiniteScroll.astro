@@ -20,7 +20,7 @@ const i18n = getI18N({ language })
      <a href="https://www.repsol.com/" target="_blank"><LogoRepsol /></a>
      <a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a>
      <a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a>
-     <a href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a>
+     <a class="cluster" href="https://www.clusterpadel.com/" target="_blank"><img src="/logos/cluster-internacional-padel.webp" alt="Cluster internacional de padel" class="invert w-[168px]" /></a>
       
   </div>
 </Section>
@@ -31,7 +31,9 @@ const i18n = getI18N({ language })
     grid-template-columns: repeat(3,minmax(120px,1fr));
     gap:4rem;
   }
-
+.cluster img {
+width:400px;
+}
   @media (max-width: 768px) {
     .logos {
       grid-template-columns: repeat(2,minmax(100px,1fr));
