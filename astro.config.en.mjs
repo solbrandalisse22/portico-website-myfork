@@ -504,12 +504,22 @@ export default defineConfig({
   },
   integrations: [tailwind(), preact(), sitemap({
     serialize(item) {
-      const lastCharacter = item.url.slice(-1);
-      if (lastCharacter === "/") {
-        item.url = item.url.slice(0, -1);
-      }
-      return item;
-    },
+  const excludedUrls = ['/news/5-key-benefits-of-portico-sport-canopies-for-sports-and-tennis-clubs'];
+  
+
+  if (excludedUrls.includes(item.url)) {
+    return null; 
+  }
+  
+
+  const lastCharacter = item.url.slice(-1);
+  if (lastCharacter === "/") {
+    item.url = item.url.slice(0, -1);
+  }
+
+  return item; 
+}
+,
     customPages,
   }),],
 });
