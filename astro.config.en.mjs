@@ -503,7 +503,6 @@ export default defineConfig({
     i18nDomains: true
   },
   integrations: [tailwind(), preact(), sitemap({
-    exclude:['https://www.porticosport.com/elevated-platform/', 'https://www.porticosport.com/news/5-key-benefits-of-portico-sport-canopies-for-sports-and-tennis-clubs/'],
     serialize(item) {
       const lastCharacter = item.url.slice(-1);
       if (lastCharacter === "/") {
