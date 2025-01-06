@@ -3,5 +3,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [sitemap()]
+  integrations: [sitemap({
+    exclude:["/elevated-platform"]
+  })]
 });
