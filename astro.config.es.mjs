@@ -54,6 +54,6 @@ export default defineConfig({
       return item;
     },
     customPages,
-    exclude :["noticias/portico-sport-en-europa"],
+    exclude: ["/noticias/*"]
   }),],
 });
