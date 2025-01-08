@@ -43,6 +43,7 @@ export default defineConfig({
     i18nDomains: true,
   },
   integrations: [tailwind(), preact(), sitemap({
+    
     serialize(item) {
       const lastCharacter = item.url.slice(-1);
       if (lastCharacter === "/") {
@@ -51,5 +52,6 @@ export default defineConfig({
       return item;
     },
     customPages,
+    exclude : ["/noticias/5-beneficios-clave-de-las-cubiertas-de-portico-sport"],
   }),],
 });
