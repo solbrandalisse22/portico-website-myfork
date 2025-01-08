@@ -43,13 +43,14 @@ export default defineConfig({
     i18nDomains: true,
   },
   integrations: [tailwind(), preact(), sitemap({
-    console.log(item.url)
+   
     serialize(item) {
+      console.log(item.url)
       const lastCharacter = item.url.slice(-1);
       if (lastCharacter === "/") {
         item.url = item.url.slice(0, -1);
       }
-                            console.log(item)
+                      console.log(item)
       return item;
     },
     customPages,
