@@ -54,6 +54,6 @@ export default defineConfig({
       return item;
     },
     customPages,
-    exclude :["https://www.porticosport.es/noticias/portico-sport-en-europa"],
+    exclude :["noticias/portico-sport-en-europa"],
   }),],
 });
