@@ -50,10 +50,9 @@ export default defineConfig({
       if (lastCharacter === "/") {
         item.url = item.url.slice(0, -1);
       }
-                      console.log(item)
+                      
       return item;
     },
     customPages,
-    exclude : ["/noticias/5-beneficios-clave-de-las-cubiertas-de-portico-sport"],
   }),],
 });
