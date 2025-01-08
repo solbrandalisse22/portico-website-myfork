@@ -54,6 +54,6 @@ export default defineConfig({
       return item;
     },
     customPages,
-    exclude: ["/noticias/*"]
+    exclude: ["/noticias"]
   }),],
 });
