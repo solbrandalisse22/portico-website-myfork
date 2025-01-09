@@ -53,6 +53,7 @@ export default defineConfig({
   const excludePatterns = [
     "https://www.porticosport.es/distribuidor-autorizado",
     "https://www.porticosport.es/contacto-cliente",
+    "https://www.porticosport.es/cookies",
     "https://www.porticosport.es/legal-advice",
     "https://www.porticosport.es/nuestra-fabrica",
     "https://www.porticosport.es/privacidad",
