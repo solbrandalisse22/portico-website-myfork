@@ -47,6 +47,24 @@ export default defineConfig({
       if (lastCharacter === "/") {
         item.url = item.url.slice(0, -1);
       }
+
+       const excludePatterns = [
+    "https://www.porticosport.de/autorisierter-distributor",
+    "https://www.porticosport.de/cookies",
+    "https://www.porticosport.de/kundenkontakt",
+    "https://www.porticosport.de/legal-advice",
+    "https://www.porticosport.de/unsere-fabrik",
+    "https://www.porticosport.de/datenschutzrichtlinie",
+    "https://www.porticosport.de/projekte",
+    "https://www.porticosport.de/arbeiten-sie-mit-uns"
+    
+  ];
+
+  for (const pattern of excludePatterns) {
+   
+      if (item.url === pattern) {
+        return null;  
+      }}
       return item;
     },
     customPages,
