@@ -51,15 +51,20 @@ export default defineConfig({
   }
 
   const excludePatterns = [
-    "https://www.porticosport.es/noticias",
-    "https://www.porticosport.es/distribuidor-autorizado"
+    "https://www.porticosport.es/noticias/*",
+    "https://www.porticosport.es/cookies"
   ];
 
   for (const pattern of excludePatterns) {
-    if
-       (item.url === pattern) {
+    if (pattern.includes('*')) {
+      const basePattern = pattern.split('*')[0];  // Parte antes de '*'
+      if (item.url.startsWith(basePattern)) {
+        return null; 
+      }
+    } else {
+      if (item.url === pattern) {
         return null;  
-      
+      }
     }
   }
 
@@ -70,3 +75,4 @@ export default defineConfig({
 
   }),],
 });
+
