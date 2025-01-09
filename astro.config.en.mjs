@@ -510,9 +510,25 @@ export default defineConfig({
     item.url = item.url.slice(0, -1);
   }
 
+  const excludePatterns = [
+    "https://www.porticosport.com/authorized-distributor",
+    "https://www.porticosport.com/cookies",
+    "https://www.porticosport.com/client-contact",
+    "https://www.porticosport.com/legal-advice",
+    "https://www.porticosport.com/our-factory",
+    "https://www.porticosport.com/privacy",
+    "https://www.porticosport.com/projects",
+    "https://www.porticosport.com/work-with-us"
+    
+  ];
+
+  for (const pattern of excludePatterns) {
+   
+      if (item.url === pattern) {
+        return null;  
+      }}
   return item; 
-}
-,
+},
     customPages,
   }),],
 });
