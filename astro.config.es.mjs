@@ -44,27 +44,22 @@ export default defineConfig({
   },
   integrations: [tailwind(), preact(), sitemap({
    
-    serialize(item) {
+   serialize(item) {
   const lastCharacter = item.url.slice(-1);
   if (lastCharacter === "/") {
     item.url = item.url.slice(0, -1);
   }
 
   const excludePatterns = [
-    "/noticias/*",
-    
+    "/noticias",
+    "/distribuidor-autorizado"
   ];
 
   for (const pattern of excludePatterns) {
-    if (pattern.includes('*')) {
-      const basePattern = pattern.split('*')[0];  
-      if (item.url.startsWith(basePattern)) {
+    if
+       (item.url === pattern) {
         return null;  
-      }
-    } else {
-      if (item.url === pattern) {
-        return null;  
-      }
+      
     }
   }
 
