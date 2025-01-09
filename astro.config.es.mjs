@@ -45,14 +45,31 @@ export default defineConfig({
   integrations: [tailwind(), preact(), sitemap({
    
     serialize(item) {
-      console.log(item.url)
-      const lastCharacter = item.url.slice(-1);
-      if (lastCharacter === "/") {
-        item.url = item.url.slice(0, -1);
+  const lastCharacter = item.url.slice(-1);
+  if (lastCharacter === "/") {
+    item.url = item.url.slice(0, -1);
+  }
+
+  const excludePatterns = [
+    "/noticias/*",
+    
+  ];
+
+  for (const pattern of excludePatterns) {
+    if (pattern.includes('*')) {
+      const basePattern = pattern.split('*')[0];  
+      if (item.url.startsWith(basePattern)) {
+        return null;  
       }
-                      
-      return item;
-    },
+    } else {
+      if (item.url === pattern) {
+        return null;  
+      }
+    }
+  }
+
+  return item; 
+},
     customPages,
     exclude: (url) => {
   return url.includes("/noticias");
