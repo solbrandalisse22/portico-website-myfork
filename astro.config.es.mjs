@@ -51,8 +51,8 @@ export default defineConfig({
   }
 
   const excludePatterns = [
-    "/noticias",
-    "/distribuidor-autorizado"
+    "https://www.porticosport.es/noticias",
+    "https://www.porticosport.es/distribuidor-autorizado"
   ];
 
   for (const pattern of excludePatterns) {
