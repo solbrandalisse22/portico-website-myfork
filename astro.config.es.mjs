@@ -65,9 +65,9 @@ export default defineConfig({
    
       if (item.url === pattern) {
         return null;  
-      }
+      }}
   return item; 
-}},
+},
     customPages
    
 
