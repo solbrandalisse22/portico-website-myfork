@@ -65,10 +65,8 @@ export default defineConfig({
 
   return item; 
 },
-    customPages,
-    exclude: (url) => {
-  return url.includes("/noticias");
-}
+    customPages
+   
 
   }),],
 });
