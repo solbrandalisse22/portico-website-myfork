@@ -1,4 +1,5 @@
 ---
+import LogoCircles from "@/shared/components/logos/LogoCircles.astro";
 import { getI18N } from "@/shared/i18n";
 // import CourtItem from "@/shared/components/CourtItem.astro";
 import Section from '@/shared/components/Section.astro';
@@ -9,6 +10,7 @@ import { type CourtItem } from '@/types/types'
 
 const { language } = Astro.props
 const i18n = getI18N({ language })
+
 
 const courts = [{
   title: i18n.PAGES.MOBILE_COURT.TITLE,
@@ -35,6 +37,7 @@ buttontitle: i18n.PAGES.PANORAMIC_COURT.ROUTE.TITLE,
   title: i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE,
   description: i18n.PAGES.PANORAMIC_FORCE_80_COURT.HOME_DESCRIPTION,
   url: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.URL,
+  
   label: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.LABEL,
   images: i18n.PAGES.PANORAMIC_FORCE_80_COURT.HOME_IMAGES,
 buttontitle: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.TITLE,
@@ -68,21 +71,79 @@ buttontitle: i18n.PAGES.SINGLE_COURT.ROUTE.TITLE,
 buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
 }] as CourtItem[]
 ---
+<Section id={i18n.PAGES.HOME.COURTS_SECTION.ID} heading2={i18n.PAGES.HOME.COURTS_SECTION.TITLE} className="max-w-none relative"/>
+<images-carousel class="wrapper w-full">
+  <ul class="carousel list-none">
+    {
+        courts.map(({title, description, images, url, label, buttontitle}, index) => (
+        <li   class="overflow-hidden " >
+        <ArticleCard
+          buttonUrl={url}
+          buttonText={label}
+          buttonTitle={buttontitle}
+          title={title}
+          images={images}
+          description={description}
+          className="mb-4 max-w-[1280px]"
+        >
+          
+        </ArticleCard></li>))
+      }
+  </ul>
+  <div class="flex justify-center items-center w-full gap-6 p-4">
+    <button class="w-10 h-10 flex justify-center items-center rounded-full back">
+      <LogoCircles className="w-[90%]">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+      </LogoCircles>
+    </button>
+    <button class="w-10 h-10 flex justify-center items-center rounded-full next">
+      <LogoCircles className="w-[90%]">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+      </LogoCircles>
+    </button>
+  </div>
+</images-carousel>
 
-<Section id={i18n.PAGES.HOME.COURTS_SECTION.ID} heading2={i18n.PAGES.HOME.COURTS_SECTION.TITLE} className="max-w-none relative">
-  <div class="absolute bg-pattern top-0 bottom-0 -z-10 w-full left-0 opacity-5 border-t border-primary" />
-  {
-    courts.map(({title, description, images, url, label, buttontitle}, index) => (<ArticleCard
-      buttonUrl={url}
-      buttonText={label}
-      buttonTitle={buttontitle}
-      title={title}
-      description={description}
-      className="mb-4 max-w-[1280px]"
-    >
-      <div class="flex gap-4" slot="body">
-        <CarouselImages client:only images={images} />
-      </div>
-    </ArticleCard>))
+<style>
+  .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 1rem);
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
   }
-</Section>
+
+  .carousel.dragging {
+    cursor: grabbing;
+    user-select: none;
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
+
+  .carousel.no-transition {
+    scroll-behavior: auto;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel li {
+    scroll-snap-align: start;
+  }
+
+  @media (max-width: 1024px) {
+    .carousel {
+      grid-auto-columns: calc((100% / 2) - 1rem);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .carousel {
+      grid-auto-columns: calc(100% - 1rem);
+    }
+  }
+</style>
