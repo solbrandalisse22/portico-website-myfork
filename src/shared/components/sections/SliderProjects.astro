@@ -54,6 +54,7 @@ const i18n = getI18N({ language });
               <img
                 class="rounded-xl object-cover h-auto"
                 src={`/${path}/thumbnails/${src}`}
+                loading="lazy"
                 alt={alt}
                 width="397"
                 height="264"
@@ -138,7 +139,7 @@ const i18n = getI18N({ language });
 .scroller-projects[data-animated="true"] .scroller_inner {
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll 5000s linear infinite;
+  animation: scroll 10000s linear infinite;
   animation-delay: 3s;
 }
 
