@@ -323,7 +323,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
       "NAME": "Mobile",
       "SUBTITLE": "Vorstellung der neuesten Innovation in der Padelplatztechnologie",
-      "TITLE": "<h3 class=\"text-secondary font-bold uppercase\">Mobile court</h3> <span class=\"text-white text-lg uppercase\">system patentiert von Portico Sport</span>",
+      "TITLE": "Mobile court",
       "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl\">System patentiert von Portico Sport</span>",
       "DESCRIPTION": "<p>Als erste ihrer Art revolutioniert unser patentierter Mobile Court den Markt. Sorgfältig von unserer Ingenieurabteilung entworfen, kann dieses System den Unterschied machen, indem es die Möglichkeiten erweitert, einen Platz zu installieren, wo dies zuvor nicht möglich war.</p><p>Dieser bahnbrechende Platz eliminiert die Notwendigkeit teurer Bodenvorbereitungskosten und mühsamer Genehmigungsverfahren. Mit nur einer flachen durchlässigen Oberfläche, die installiert werden muss, bietet unser Platz beispiellose Bequemlichkeit und Kosteneinsparungen.</p>",
       "LITTLE_DESCRIPTION": "<p>genießen Sie Padel überall, temporär oder dauerhaft, ein Platz, der Ihnen Zeit und Geld spart.</p>",
@@ -496,7 +496,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
-      "HOME_DESCRIPTION": "<p><strong>Der Mobile Court</strong> ist das neueste und innovativste Produkt von Portico Sport, das eine völlig neue Dimension der Flexibilität in der Padelplatztechnologie bietet. Entwickelt, um Padel auf nahezu jedem ebenen Untergrund zu ermöglichen, revolutioniert dieser Platz die Art und Weise, wie Padelplätze installiert und genutzt werden.</p><p>Unser patentiertes System vereint robuste Konstruktion mit Mobilität und kann problemlos für temporäre Veranstaltungen oder dauerhafte Installationen genutzt werden. Mit minimalem Platzbedarf und maximaler Flexibilität bietet der Mobile Court eine kostengünstige Lösung für alle, die Padel genießen möchten, egal wo sie sind.</p>"
+      "HOME_DESCRIPTION": "<p><strong>Der Mobile Court</strong> ist das neueste und innovativste Produkt von Portico Sport, das eine völlig neue Dimension der Flexibilität in der Padelplatztechnologie bietet. Entwickelt, um Padel auf nahezu jedem ebenen Untergrund zu ermöglichen, revolutioniert dieser Platz die Art und Weise, wie Padelplätze installiert und genutzt werden.</p>"
     },
     "TOURNAMENT_COURT": {
       "ID": "tournament",
