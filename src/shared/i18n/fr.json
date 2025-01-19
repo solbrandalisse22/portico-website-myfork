@@ -322,7 +322,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
       "NAME": "Mobile",
       "SUBTITLE": "Présentation de la dernière innovation en matière de technologie de terrain de padel",
-      "TITLE": "<h3 class=\"text-secondary font-bold uppercase\">Terrain mobile</h3> <span class=\"text-white text-lg uppercase\">système breveté par Portico Sport</span>",
+      "TITLE": "Terrain mobile",
       "DETAIL_TITLE": "<span class=\"block\">Terrain mobile</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">système breveté par Portico Sport</span>",
       "DESCRIPTION": "<p>Le premier du genre, notre Mobile Terrain breveté révolutionne le marché. Conçu avec minutie par notre département d'ingénierie, ce système peut faire la différence en élargissant la gamme de possibilités pour installer un terrain là où cela n'était pas possible auparavant.</p><p>Ce terrain révolutionnaire élimine la nécessité de coûteuses dépenses de préparation du sol et de fastidieux processus de permis. Avec seulement une surface perméable plane nécessaire à installer, notre terrain offre une commodité et des économies de coûts inégalées.</p>",
       "LITTLE_DESCRIPTION": "<p>profitez du padel n'importe où, temporairement ou définitivement, un terrain qui vous fera gagner du temps et de l'argent.</p>",
@@ -495,7 +495,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
-      "HOME_DESCRIPTION": "Système de terrain breveté qui évite l'ancrage du terrain au sol. Le terrain peut être placé au même endroit pendant de longues périodes et bénéficie de la même robustesse structurelle qu'un terrain traditionnellement ancré. Parfait pour être placé sur des terrains de tennis, où les travaux de terrassement pour les terrains traditionnels sont coûteux ou simplement préfèrent ne pas les faire !",
+      "HOME_DESCRIPTION": "Système de terrain breveté qui évite l'ancrage du terrain au sol. Le terrain peut être placé au même endroit pendant de longues périodes et bénéficie de la même robustesse structurelle qu'un terrain traditionnellement ancré.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
@@ -1505,7 +1505,7 @@
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>Le modèle Panoramic Force 80 est conçu pour résister aux vents de catégorie 5 d'ouragan. Ce Terrain combine la robustesse de notre modèle Club Force 80 à succès avec la spectaculaire visuelle de nos terrains panoramiques</p><p>Son système exclusif de renforts vous permet de passer sans effort d'un Terrain panoramique standard à une forteresse ultra-résistante avant les tempêtes et les ouragans en un rien de temps.</p>",
+      "HOME_DESCRIPTION": "<p>Le modèle Panoramic Force 80 est conçu pour résister aux vents de catégorie 5 d'ouragan. Ce Terrain combine la robustesse de notre modèle Club Force 80 à succès avec la spectaculaire visuelle de nos terrains panoramiques</p>",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
