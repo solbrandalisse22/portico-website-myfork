@@ -1220,7 +1220,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-mobile.jpg",
       "NAME": "Mobile",
       "SUBTITLE": "Introducing the latest innovation in Padel court technology",
-      "TITLE": "<h3 class=\"text-secondary block uppercase\"> Mobile court</h3> <span class=\"text-white text-lg uppercase\">system patented by Portico Sport</span>",
+      "TITLE": "Mobile Padel Court",
       "DETAIL_TITLE": "<span class=\"block\">Mobile Padel Court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">system patented by Portico Sport</span>",
       "DESCRIPTION": "<p>The first of its kind, our patented Mobile Court system, is revolutionizing the market. Meticulously designed by our Engineering Department, this system can make the difference expanding the range of possibilities to install a court making it possible where previously wasn´t.</p><p>This groundbreaking court eliminates the need for costly ground preparation expenses and tedious permitting processes. With only a flat permeable surface required to be installed, our court offers unparalleled convenience and cost savings.</p>",
       "LITTLE_DESCRIPTION": "<p>Enjoy Padel anywhere, temporarily or permanently, a Padel court that will save you time and money.</p>",
@@ -1391,7 +1391,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
-      "HOME_DESCRIPTION": "Patented court system that avoids anchoring the court to the ground. The court can be placed in the same place for extended periods of time and enjoys the same structural robustness as a traditionally anchored court. Perfect to be placed on top of tennis courts, where ground works for traditional courts are costly or simply prefer not to do them!",
+       "HOME_DESCRIPTION": "<strong> Patented court system </strong> that avoids anchoring the court to the ground. The court can be placed in the same place for extended periods of time and enjoys the same structural robustness as a traditionally anchored court.",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/mobile-court-01.webp",
@@ -2333,7 +2333,7 @@
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>The Panoramic Force 80 model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p><p>Its exclusive reinforcements system allows you to effortlessly switch from a standard panoramic court to an ultra-resistant fortress ahead of storms and hurricanes in no time.</p>",
+      "HOME_DESCRIPTION": "<p>The Panoramic Force 80 model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p>",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-force-80-court-01.webp",
