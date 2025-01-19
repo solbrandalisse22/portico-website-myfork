@@ -497,7 +497,7 @@
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
         "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
       },
-      "HOME_DESCRIPTION": "La pista Móvil de Portico Sport es un sistema patentado que elimina la necesidad de fijar la pista de pádel al suelo. Esta pista Móvil puede permanecer en el mismo lugar por largos períodos de tiempo, manteniendo la misma estabilidad y solidez que una pista anclada convencional. ¡Ideal para instalar sobre pistas de tenis! Especialmente cuando las obras en el suelo para las pistas tradicionales resultan costosas o se prefieren evitar.",
+      "HOME_DESCRIPTION": "La pista Móvil de Portico Sport es un sistema patentado que elimina la necesidad de fijar la pista de pádel al suelo. Esta pista Móvil puede permanecer en el mismo lugar por largos períodos de tiempo, manteniendo la misma estabilidad y solidez que una pista anclada convencional.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
@@ -1504,7 +1504,7 @@
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>El modelo Panoramic Force 80 ha sido diseñado para soportar vientos de categoría 5, propios de huracanes. Esta pista de pádel fusiona la solidez del reconocido modelo Club Force 80 con la impresionante estética de nuestras pistas panorámicas.</p><p>Gracias a su innovador sistema de refuerzos, puedes transformar fácilmente y en poco tiempo una pista panorámica estándar en una estructura ultra resistente, lista para enfrentar tormentas y huracanes.</p>",
+      "HOME_DESCRIPTION": "<p>El modelo Panoramic Force 80 ha sido diseñado para soportar vientos de categoría 5, propios de huracanes. Esta pista de pádel fusiona la solidez del reconocido modelo Club Force 80 con la impresionante estética de nuestras pistas panorámicas.</p>",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
