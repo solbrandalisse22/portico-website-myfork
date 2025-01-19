@@ -50,7 +50,7 @@ const { title, heading, images,description, hideHeader = false, hideFooter = fal
             
               {heading && (<Typography tag="h3" className="" text={heading} type="primary" responsive />)}
               {description && (<Typography tag="div" className="lg:mb-2 mb-0 items-center h-[165px]" text={description} size="small" />)}
-              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base truncate scale-[85%] self-center mb-0 text-center" target={target}>{buttonText}</Button>}
+              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base truncate scale-[85%] self-center mb-0 mt-2 text-center" target={target}>{buttonText}</Button>}
             </div>
           </header>
         </slot>
