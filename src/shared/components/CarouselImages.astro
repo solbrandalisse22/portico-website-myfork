@@ -1,151 +1,92 @@
 ---
-import LogoCircles from "@/shared/components/logos/LogoCircles.astro";
-import { type Photo } from '@/types/types'
+import "photoswipe/style.css";
+import { type Photo } from "@/types/types";
 
 interface Props {
   images: Photo[];
 }
 
-const { images } = Astro.props
+const { images = [] } = Astro.props;
 ---
-<images-carousel class="wrapper w-full">
-  <ul class="carousel list-none">
-    {
-      images.map((image , index) => {
-        return (
-          <li class="rounded-xl aspect-video border-primary border overflow-hidden ">
-            <img src={image.src} alt={image.imgAlt} draggable="false" />
-          </li>
-        )
-      })
-    }
+
+<div class="scroller-projects wrapper w-full">
+  <ul class="tag-list scroller_inner">
+    {images.slice(0, 3).map((image, index) => (
+      <li class="carousel-item" key={index}>
+        <img
+          loading="lazy"
+          draggable={false}
+          class="carousel-images__img"
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+        />
+      </li>
+    ))}
   </ul>
-  <div class="flex justify-center items-center w-full gap-6 p-4">
-    <button class="w-10 h-10 flex justify-center items-center rounded-full back">
-      <LogoCircles className="w-[90%]">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
-      </LogoCircles>
-    </button>
-    <button class="w-10 h-10 flex justify-center items-center rounded-full next">
-      <LogoCircles className="w-[90%]">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
-      </LogoCircles>
-    </button>
-  </div>
-</images-carousel>
+</div>
+
+<script type="module">
+  document.addEventListener('astro:page-load', () => {
+    const scroller = document.querySelector(".scroller-projects");
+
+    function addAnimation() {
+      scroller.setAttribute("data-animated", true);
+      const scrollerInner = scroller.querySelector(".scroller_inner");
+      const scrollerContent = Array.from(scrollerInner.children);
+
+      scrollerContent.forEach((item) => {
+        const clone = item.cloneNode(true);
+        clone.setAttribute("aria-hidden", true);
+        scrollerInner.appendChild(clone);
+      });
+    }
+
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
+  });
+</script>
 
 <style>
-  .carousel {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 1rem);
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: 0;
-  }
+/* Ajustes generales */
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
 
-  .carousel.dragging {
-    cursor: grabbing;
-    user-select: none;
-    scroll-snap-type: none;
-    scroll-behavior: auto;
-  }
 
-  .carousel.no-transition {
-    scroll-behavior: auto;
-  }
+.carousel-item {
+  flex: 0 0 auto; 
+  width: 300px; 
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--primary-color);
+}
 
-  .carousel::-webkit-scrollbar {
-    display: none;
-  }
 
-  .carousel li {
-    scroll-snap-align: start;
-  }
+.scroller-projects {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
 
-  @media (max-width: 1024px) {
-    .carousel {
-      grid-auto-columns: calc((100% / 2) - 1rem);
-    }
-  }
 
-  @media (max-width: 768px) {
-    .carousel {
-      grid-auto-columns: calc(100% - 1rem);
-    }
+.scroller_inner {
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+
+
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
   }
+}
 </style>
-
-<script>
-  class CarouselImages extends HTMLElement {
-    constructor() {
-      super();
-      const $carousel = this.querySelector('.carousel');
-      const $arrowButtons = this.querySelectorAll('.wrapper button');
-      if (!$carousel) return;
-      if (!$arrowButtons) return;
-      const firstCardWidth = $carousel?.querySelector('li')?.offsetWidth;
-      const carouselChildren = [...$carousel.children];
-      let isDragging = false, startX, startScrollLeft;
-      let cardPerView = Math.round($carousel?.offsetWidth / firstCardWidth);
-
-      carouselChildren.slice(-cardPerView).reverse().forEach((child) => {
-        $carousel.insertAdjacentHTML('afterbegin', child.outerHTML);
-      });
-
-      carouselChildren.slice(0, cardPerView).forEach((child) => {
-        $carousel.insertAdjacentHTML('beforeend', child.outerHTML);
-      });
-
-      $carousel.classList.add("no-transition");
-      $carousel.scrollLeft = $carousel.offsetWidth;
-      $carousel.classList.remove("no-transition");
-
-      $arrowButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-          const isBack = e.currentTarget.classList.contains('back')
-          $carousel.scrollLeft += isBack ? -firstCardWidth : firstCardWidth;
-        })
-      })
-
-      const draggStart = (e:MouseEvent) => {
-        isDragging = true;
-        $carousel.classList.add('dragging')
-        startX = e.pageX;
-        startScrollLeft = $carousel.scrollLeft;
-      }
-
-      const dragging = (e:MouseEvent) => {
-        if (!isDragging) return;
-        $carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
-      }
-      
-      const draggEnd = () => {
-        isDragging = false;
-        $carousel.classList.remove('dragging')
-      }
-
-      const InfiniteScroll = () => {
-        if ($carousel.scrollLeft === 0) {
-          $carousel.classList.add('no-transition');
-          $carousel.scrollLeft = $carousel.scrollWidth - (2 * $carousel.offsetWidth);
-          $carousel.classList.remove("no-transition");
-        }
-        // If the carousel is at the end, scroll to the beginning
-        else if(Math.ceil($carousel.scrollLeft) === $carousel.scrollWidth - $carousel.offsetWidth) {
-          $carousel.classList.add('no-transition');
-          $carousel.scrollLeft = $carousel.offsetWidth;
-          $carousel.classList.remove("no-transition");
-        }
-      }
-
-      $carousel.addEventListener('mousedown', draggStart);
-      $carousel.addEventListener('mousemove', dragging);
-      document.addEventListener('mouseup', draggEnd);
-      $carousel.addEventListener('scroll', InfiniteScroll);
-    }
-  }
-  customElements.define('images-carousel', CarouselImages);
-</script>
