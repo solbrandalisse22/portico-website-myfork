@@ -23,11 +23,11 @@ interface Props {
   ogImage?: string;
   keywords?: string;
 robots?: string;
-home?: boolean;
+contactForm: boolean;
 
 }
 
-const { description, title, currentLocale, home, keywords ,language, robots ,bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
+const { description, title, currentLocale, contactForm keywords ,language, robots ,bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
 ---
 
 <!doctype html>
@@ -67,7 +67,7 @@ const { description, title, currentLocale, home, keywords ,language, robots ,bgI
     <slot />
     <CookieConsent />
  {
-      home ? <Footer language={language} home/> :
+contactForm? <Footer language={language} contactForm> :
     <Footer language={language} />
     }
 
