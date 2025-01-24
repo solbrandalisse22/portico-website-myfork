@@ -8,10 +8,10 @@ import ContactUs from "@/shared/components/ContactUs.astro"
 
 interface Props {
   language: string;
-  home?: boolean
+  contactForm?: boolean
 }
 
-const { language, home } = Astro.props
+const { language,contactForm} = Astro.props
 const i18n = getI18N({ language })
 ---
 
@@ -141,7 +141,7 @@ const i18n = getI18N({ language })
 
 
 
-{home && 
+{contactForm && 
 <ContactUs language={language} />
 }
   <HeaderLink
