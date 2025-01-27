@@ -2846,8 +2846,45 @@
       "TITLE_ALT": "Página no encontrada",
       "SUBTITLE": "La página que estás buscando no existe",
       "DESCRIPTION": "La página que estás buscando no existe. Por favor, ve a la página de inicio o contáctanos."
+    },
+    {
+  "UK": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructores de pistas de pádel en el Reino Unido"
     }
   },
+  "USA": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructores de pistas de pádel en EE.UU."
+    }
+  },
+  "OCEANIA": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructores de pistas de pádel en Oceanía"
+    },
+    "ZA": {
+      "ROUTE": {
+        "BREADCRUMB": "Constructores de pistas de pádel en Sudáfrica"
+      }
+    }
+  },
+  "ES": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructores de pistas de pádel en España"
+    }
+  },
+  "IRELAND": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructores de pistas de pádel en Irlanda"
+    }
+  },
+  "MX": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructores de pistas de pádel en México"
+    }
+  }
+},
+  
   "LOCALE_DATE": "es-ES",
   "SITE": "https://www.porticosport.es",
   "HEADER": {
