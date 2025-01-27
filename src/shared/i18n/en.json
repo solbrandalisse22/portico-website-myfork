@@ -3646,8 +3646,12 @@
     "ROUTE":{
       "BREADCRUMBS":"Mexico",
       "URL":"/mx"  
-    }}
-  },
+    }},
+    "IRELAND": {
+    "ROUTE": {
+      "BREADCRUMB": "Padel Court Builders Ireland"
+    }
+  }  },
   "LOCALE_DATE": "en-US",
   "SITE": "https://www.porticosport.com",
   "HEADER": {
