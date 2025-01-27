@@ -2764,8 +2764,40 @@
       "TITLE_ALT": "Seite nicht gefunden",
       "SUBTITLE": "Die von Ihnen gesuchte Seite existiert nicht",
       "DESCRIPTION": "Die von Ihnen gesuchte Seite existiert nicht. Bitte gehen Sie zur Startseite oder kontaktieren Sie uns."
+    },
+    "UK": {
+      "ROUTE":{
+      "BREADCRUMB":"Padelplatzbauer UK"
+    }},
+    "USA": {
+    "ROUTE":
+    {
+      "BREADCRUMB":"Padelplatzbauer USA"
+    }},
+    "OCEANIA":{
+      "ROUTE":{
+      "BREADCRUMB":"Padelplatzbauer Ozeanien"
+      },
+    
+     "ZA":{"ROUTE":{
+      "BREADCRUMB":"Padelplatzbauer Südafrika"
+      }
+    },
+    
+    "ES": {"ROUTE":{
+      "BREADCRUMB":"Padelplatzbauer Spanien"
+      
+    }},
+      "IRELAND" : {"ROUTE":{
+        "BREADCRUMB":"Padelplatzbauer Irland"
+      }},
+    "MX": {
+      "ROUTE":{
+        "BREADCRUMB":"Padelplatzbauer Mexiko"
+      }
     }
-  },
+    },
+  
   "LOCALE_DATE": "de-DE",
   "SITE": "https://www.porticosport.de",
   "HEADER": {
