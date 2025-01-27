@@ -2762,7 +2762,44 @@
       "TITLE_ALT": "Page non trouvée",
       "SUBTITLE": "La page que vous recherchez n'existe pas",
       "DESCRIPTION": "La page que vous recherchez n'existe pas. Veuillez vous rendre sur la page d'accueil ou nous contacter."
+    },
+    
+  "UK": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructeurs de courts de padel au Royaume-Uni"
     }
+  },
+  "USA": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructeurs de courts de padel aux États-Unis"
+    }
+  },
+  "OCEANIA": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructeurs de courts de padel en Océanie"
+    },
+    "ZA": {
+      "ROUTE": {
+        "BREADCRUMB": "Constructeurs de courts de padel en Afrique du Sud"
+      }
+    }
+  },
+  "ES": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructeurs de courts de padel en Espagne"
+    }
+  },
+  "IRELAND": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructeurs de courts de padel en Irlande"
+    }
+  },
+  "MX": {
+    "ROUTE": {
+      "BREADCRUMB": "Constructeurs de courts de padel au Mexique"
+    }
+  }
+
   },
   "LOCALE_DATE": "fr-FR",
   "SITE": "https://www.porticosport.fr",
