@@ -9,8 +9,15 @@ import ArticleCard from '@/shared/components/ArticleCard.astro';
 import { type CourtItem } from '@/types/types'
 import Typography from "../ui/Typography.astro";
 
-const { language } = Astro.props
-const i18n = getI18N({ language })
+
+ interface Props {
+  language: string;
+  urlButton?: string;
+  urlText?: string;
+  buttonTitle?: string;
+ }
+
+const { language, urlButton, urlText, buttonTitle } = Astro.propsconst i18n = getI18N({ language })
 
 
 const courts = [{
@@ -104,6 +111,14 @@ buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
     </button>
   </div>
 </images-carousel>
+
+{urlButton && urlText ? (
+  <div class="text-center mx-auto lg:hidden md:hidden pt-4">
+    <Button url={urlButton} target="_self" title={buttonTitle}>
+      {urlText}
+    </Button>
+  </div>
+) : null}
 
 <style>
   .carousel {
