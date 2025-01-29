@@ -1580,7 +1580,12 @@
       },
       "COURTS_SECTION": {
         "TITLE": "Discover other Padel Courts",
-        "DESCRIPTION": "Other types of Portico Sport Padel Courts"
+        "DESCRIPTION": "Other types of Portico Sport Padel Courts",
+        "BUTTON":{
+          "TEXT":"Get your padel court now!",
+          "TITLE":"Padel court builders",
+          "URL":"/client-contact"
+        }
       },
       "CONTACT_SECTION": {
         "ID": "contact",
