@@ -69,7 +69,12 @@
       "COURTS_SECTION": {
         "ID": "padel-courts",
         "TITLE": "Terrains de Padel",
-        "DESCRIPTION": "Découvrez tous nos Terrains de Padel"
+        "DESCRIPTION": "Découvrez tous nos Terrains de Padel",
+        "BUTTON":{
+                  "TEXT":"Obtenez votre court de padel maintenant !",
+                  "TITLE":"Constructeurs de courts de padel",
+                   "URL":"/contact-client"
+}
       },
       "CANOPIES_SECTION": {
         "ID": "canopies",
