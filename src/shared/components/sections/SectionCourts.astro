@@ -17,7 +17,8 @@ import Typography from "../ui/Typography.astro";
   buttonTitle?: string;
  }
 
-const { language, urlButton, urlText, buttonTitle } = Astro.propsconst i18n = getI18N({ language })
+const { language, urlButton, urlText, buttonTitle } = Astro.props
+const i18n = getI18N({ language })
 
 
 const courts = [{
