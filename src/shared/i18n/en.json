@@ -133,8 +133,12 @@
         "ID": "padel-courts",
         "TITLE": "Types of Portico Sport Padel Courts",
          "TITLE_UK":"Types of UK Portico Sport Padel Courts",
-        "DESCRIPTION":"Discover all our Padel Courts"
-      },
+        "DESCRIPTION":"Discover all our Padel Courts",
+        "BUTTON":{
+          "TEXT":"Get your padel court now!",
+          "TITLE":"Padel court builders",
+          "URL":"/client-contact"
+        }      },
       "CANOPIES_SECTION": {
         "ID": "canopies",
         "TITLE": "Canopies for Padel Courts",
@@ -1580,12 +1584,8 @@
       },
       "COURTS_SECTION": {
         "TITLE": "Discover other Padel Courts",
-        "DESCRIPTION": "Other types of Portico Sport Padel Courts",
-        "BUTTON":{
-          "TEXT":"Get your padel court now!",
-          "TITLE":"Padel court builders",
-          "URL":"/client-contact"
-        }
+        "DESCRIPTION": "Other types of Portico Sport Padel Courts"
+        
       },
       "CONTACT_SECTION": {
         "ID": "contact",
