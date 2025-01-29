@@ -73,7 +73,10 @@ const posts = await response.json();
 
     <SectionGraphicProcess language={language} />
     <SectionInfiniteScroll language={language} />
-    <SectionCourts language={language} />
+    <SectionCourts language={language} 
+    urlButton={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.URL}
+    buttonTitle={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TITLE}
+    urlText={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TEXT}/>
     <NormativeLogos language={language} showInfo />
     <SectionCanopies
       video="/cubiertas-spot.webm"
