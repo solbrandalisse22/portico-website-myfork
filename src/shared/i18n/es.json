@@ -69,8 +69,12 @@
       "COURTS_SECTION": {
         "ID": "padel-courts",
         "TITLE": "Tipos de Pistas de Pádel de Portico Sport",
-        "DESCRIPTION": "Descubre todas nuestras pistas de pádel"
-      },
+        "DESCRIPTION": "Descubre todas nuestras pistas de pádel",
+         "BUTTON":{
+          "TEXT":"Consigue la pista de pádel perfecta para tu proyecto",
+          "TITLE":"Fabricantes de pistas de padel",
+          "URL":"/contacto-cliente"
+        }  },
       "CANOPIES_SECTION": {
         "ID": "canopies",
         "TITLE": "Cubiertas de pistas de pádel fabricadas por Portico Sport",
