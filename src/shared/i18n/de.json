@@ -69,7 +69,12 @@
       "COURTS_SECTION": {
         "ID": "padel-courts",
         "TITLE": "Portico Sport Padelplätzen",
-        "DESCRIPTION": "Entdecken Sie alle unsere Padelplätze"
+        "DESCRIPTION": "Entdecken Sie alle unsere Padelplätze",
+        "BUTTON":{
+  "TEXT":"Holen Sie sich jetzt Ihren Padelplatz!",
+  "TITLE":"Padelplatzbauer",
+  "URL":"/kundenkontakt"
+}
       },
       "CANOPIES_SECTION": {
         "ID": "canopies",
