@@ -94,7 +94,10 @@ const posts = await response.json();
     
     
     <SectionComplements language={language} />
-    <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
+    <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE}
+     urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+    buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+    urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}/>
     <Slider language={language} posts={posts} />
     <SectionContact
       id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
