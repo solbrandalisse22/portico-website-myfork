@@ -77,7 +77,11 @@ const posts = await response.json();
     urlButton={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.URL}
     buttonTitle={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TITLE}
     urlText={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TEXT}/>
-    <NormativeLogos language={language} showInfo />
+    <NormativeLogos language={language} showInfo 
+   urlButton={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.URL}
+    buttonTitle={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TITLE}
+    urlText={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TEXT}
+/>
     <SectionCanopies
       video="/cubiertas-spot.webm"
       subtitle={i18n.PAGES.HOME.CANOPIES_SECTION.SUBTITLE}
