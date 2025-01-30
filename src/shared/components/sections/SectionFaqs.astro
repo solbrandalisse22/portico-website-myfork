@@ -22,8 +22,8 @@ const i18n = getI18N({ language })
 subheading ={subtitle || i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} >  
 <Faqs items={items} />
 {urlButton && urlText ? (
-  <div class="text-center mx-auto lg:hidden md:hidden pt-4">
-    <Button class="text-base truncate scale-[80%]" url={urlButton} target="_self" title={buttonTitle}>
+  <div class="text-center mx-auto scale-[0.8] lg:hidden md:hidden pt-4">
+    <Button class="text-base truncate" url={urlButton} target="_self" title={buttonTitle}>
       {urlText}
     </Button>
   </div>
