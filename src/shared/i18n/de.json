@@ -2981,7 +2981,12 @@
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Padelplätze bauen, die den Vorschriften entsprechen",
     "SUBTITLE": "Stärke, Haltbarkeit und perfekte Integration",
-    "DESCRIPTION":"Unsere Padelplätze wurden von der technischen Abteilung von PORTICO SPORT entwickelt, um eine außergewöhnliche Haltbarkeit und hervorragende Leistung zu gewährleisten. Unsere Plätze entsprechen den offiziellen Sportvorschriften (NIDE 2004 Padel), den Vorschriften und der FIP (Internationaler Padelverband) und den statischen Berechnungen auf der Grundlage der dem Standard „Structural Steel Instruction (EAE)“ und dem amerikanischen Code: AISC-360 UND ASCE SEI 7-16-. Außerdem haben alle unsere Plätze eine 10-jährige Garantie (strukturelle Stabilität)."
+    "DESCRIPTION":"Unsere Padelplätze wurden von der technischen Abteilung von PORTICO SPORT entwickelt, um eine außergewöhnliche Haltbarkeit und hervorragende Leistung zu gewährleisten. Unsere Plätze entsprechen den offiziellen Sportvorschriften (NIDE 2004 Padel), den Vorschriften und der FIP (Internationaler Padelverband) und den statischen Berechnungen auf der Grundlage der dem Standard „Structural Steel Instruction (EAE)“ und dem amerikanischen Code: AISC-360 UND ASCE SEI 7-16-. Außerdem haben alle unsere Plätze eine 10-jährige Garantie (strukturelle Stabilität).",
+    "BUTTON":{  
+  "TEXT":"Baue deinen Padelplatz!",  
+  "TITLE":"Padelplatzbauer",  
+  "URL":"/kundenkontakt"  
+}  
   },
   "CLIENT_SUBJECT_EMAIL": {
     "TITLE": "Wir haben Ihre Nachricht erhalten!",
