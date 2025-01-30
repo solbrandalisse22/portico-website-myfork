@@ -3830,7 +3830,12 @@
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Building Padel Courts that comply with regulations",
     "SUBTITLE": "Strength, durability and perfect integration",
-    "DESCRIPTION": "Our Padel courts are designed and developed by the engineering department of PORTICO SPORT to provide exceptional durability and outstanding performance. Our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. Moreover, all our courts come with a 10-year guarantee (structural stability)."
+    "DESCRIPTION": "Our Padel courts are designed and developed by the engineering department of PORTICO SPORT to provide exceptional durability and outstanding performance. Our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. Moreover, all our courts come with a 10-year guarantee (structural stability).",
+      "BUTTON":{
+      "TEXT":"Build your padel court!",
+      "TITLE":"Padel Court Builders",
+      "URL":"/client-contact"
+    }  
   },
   "NORMATIVE_SECTION_LOGOS_UK": {
     "TITLE": "Building Padel courts that comply with regulations",
