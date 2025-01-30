@@ -172,6 +172,11 @@
         "ID": "faqs",
         "TITLE": "Fragen zu Padelplatzhersteller stellen",
         "SUBTITLE": "Häufig gestellte Fragen",
+        "BUTTON":{  
+  "TEXT":"Baue deinen Padelplatz!",  
+  "TITLE":"Padelplatzbauer",  
+  "URL":"/kundenkontakt"  
+}
         "QUESTIONS": [{
           "question": "Wie groß ist ein Padelplatz standardmäßig?",
           "answer": "Die Standardgröße eines Padelplatzes beträgt 20 Meter Länge und 10 Meter Breite."
