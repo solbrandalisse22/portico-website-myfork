@@ -536,6 +536,11 @@
         "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
         "TITLE_ZA":"ASK Question about Padel court manufacturers in South Africa",
         "SUBTITLE": "Frequently Asked Questions",
+        "BUTTON":{
+          "TITLE":"Padel Court Builders",
+          "TEXT":"Need more info? Contact us now!",
+          "URL":"/client-contact"
+        },
         "QUESTIONS": [{
           "question": "What is the standard size of a Padel court?",
           "answer": "The standard size of a Padel court is 20 meters long by 10 meters wide."
