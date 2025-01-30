@@ -2981,7 +2981,12 @@
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Construire des Terrains de Padel conformes à la réglementation",
     "SUBTITLE": "Force, durabilité et intégration parfaite",
-   "NORMATIVE" :"Nos terrains de padel sont conçus et développés par le bureau d'études de PORTICO SPORT pour offrir une durabilité exceptionnelle et des performances remarquables. Nos nos terrains sont conformes aux règlements sportifs officiels (NIDE 2004 Padel), aux règlements et normes de la FIP (Fédération Internationale de Padel) et aux calculs structurels basés sur les normes de l'Union Européenne. normes de la FIP (Fédération Internationale de Padel) et aux calculs structurels basés sur la norme la norme « Structural Steel Instruction(EAE) » et le code américain : AISC-360 ET ASCE SEI 7-16-. De plus, tous nos terrains sont garantis 10 ans (stabilité structurelle). stabilité structurelle)." 
+   "NORMATIVE" :"Nos terrains de padel sont conçus et développés par le bureau d'études de PORTICO SPORT pour offrir une durabilité exceptionnelle et des performances remarquables. Nos nos terrains sont conformes aux règlements sportifs officiels (NIDE 2004 Padel), aux règlements et normes de la FIP (Fédération Internationale de Padel) et aux calculs structurels basés sur les normes de l'Union Européenne. normes de la FIP (Fédération Internationale de Padel) et aux calculs structurels basés sur la norme la norme « Structural Steel Instruction(EAE) » et le code américain : AISC-360 ET ASCE SEI 7-16-. De plus, tous nos terrains sont garantis 10 ans (stabilité structurelle). stabilité structurelle).",
+    "BUTTON":{  
+  "TEXT":"Construisez votre court de padel !",  
+  "TITLE":"Constructeurs de courts de padel",  
+  "URL":"/contact-client"  
+}
   },
   "CLIENT_SUBJECT_EMAIL": {
     "TITLE": "Nous avons bien reçu votre message !",
