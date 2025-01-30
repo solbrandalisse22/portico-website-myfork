@@ -7,6 +7,7 @@ import LogoAsce from "@/shared/components/logos/LogoAsce.astro";
 import LogoInstituteSteel from "@/shared/components/logos/LogoInstituteSteel.astro";
 import LogoNormativaPadel from "@/shared/components/logos/LogoNormativaPadel.astro";
 import { getI18N } from "@/shared/i18n/"
+import Button from '@/shared/components/Button.astro';
 
 interface Props {
   showInfo?: boolean;
@@ -14,9 +15,12 @@ interface Props {
   description?: string;
   title?: string;
   subtitle?: string;
+  urlButton?: string;
+  urlText?: string;
+  buttonTitle?: string;
 }
 
-const { showInfo, language, title, subtitle, description } = Astro.props
+const { showInfo, language, title, subtitle, description, urlButton, urlText, buttonTitle } = Astro.props
 const i18n = getI18N({ language })
 
 const heading2 = showInfo ? title || i18n.NORMATIVE_SECTION_LOGOS.TITLE : null
@@ -38,6 +42,14 @@ const descriptionText = showInfo ? description || i18n.NORMATIVE_SECTION_LOGOS.D
     <LogoNormativaPadel />
   </div>
 </Section>
+
+{urlButton && urlText ? (
+  <div class="text-center mx-auto lg:hidden md:hidden pt-4">
+    <Button class="text-base truncate scale-[80%]" url={urlButton} target="_self" title={buttonTitle}>
+      {urlText}
+    </Button>
+  </div>
+) : null}
 
 <style>
   .logos {
