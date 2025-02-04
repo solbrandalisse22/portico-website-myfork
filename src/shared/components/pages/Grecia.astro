@@ -1,0 +1,204 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language, projectsGallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_GR} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_GR} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/projects Greece/gallery/Padel-Court-Greece-3.webp"
+bgClass="brightness-50"
+>
+    
+    <main class="flex flex-col gradient-bg relative">
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_GR} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+        <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.GR.ROUTE.LABEL, href: i18n.PAGES.GR.ROUTE.URL },
+        ]}
+      />
+    <Section 
+    
+    heading2={i18n.PAGES.SECTION_GR.SECTION_1.TITLE}
+    subheading={i18n.PAGES.SECTION_GR.SECTION_1.DESCRIPTION}
+
+    />
+   
+  
+    <div class="text-center mx-auto pt-20">
+        <Button size="sm" class="" url={i18n.PAGES.SECTION_GR.SECTION_1.BUTTON.URL} title={i18n.PAGES.SECTION_GR.SECTION_1.BUTTON.TITLE} target="_self">
+            {i18n.PAGES.SECTION_GR.SECTION_1.BUTTON.LABEL}
+          </Button>
+      </div>
+      
+</Section>
+<Section
+heading2={i18n.PAGES.SECTION_GR.PROJECTS_SECTION.TITLE_GALLERY}>
+<Gallery
+      language={language}
+      id={i18n.PAGES.SECTION_GR.PROJECTS_SECTION.ID}
+      photos={projectsGallery}
+      offset={2}
+      path={i18n.PAGES.SECTION_GR.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.SECTION_GR.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.SECTION_GR.PROJECTS_SECTION.URL.LABEL}
+      buttonTitle={i18n.PAGES.SECTION_GR.PROJECTS_SECTION.URL.TITLE}
+      /> 
+    </Section>
+
+
+ //section Bento
+ <Section
+ id={i18n.PAGES.HOME.BENTO_SECTION.ID}
+ heading2={i18n.PAGES.SECTION_GR.SECTION_3.TITLE}
+>
+ <div class="grid lg:grid-cols-10 auto-rows-[15rem] gap-4">
+   <BentoItem
+     class="col-span-10 lg:col-span-4"
+     title={i18n.PAGES.SECTION_GR.SECTION_3.ITEM_1}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full bg-blue-950
+       bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/experience.webp"
+     >
+     </div>
+
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_GR.SECTION_3.DESCRIPTION_1}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-6"
+     title={i18n.PAGES.SECTION_GR.SECTION_3.ITEM_2}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+   -z-10 h-full w-full bg-blue-800
+   bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/innovation.webp"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_GR.SECTION_3.DESCRIPTION_2}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-6"
+     title={i18n.PAGES.SECTION_GR.SECTION_3.ITEM_3}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full bg-blue-900
+       bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/quality.webp"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_GR.SECTION_3.DESCRIPTION_3}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-4"
+     title={i18n.PAGES.SECTION_GR.SECTION_3.ITEM_4}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full bg-blue-950
+       bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/team.webp"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_GR.SECTION_3.DESCRIPTION_4}
+     />
+   </BentoItem>
+ </div>
+ <div class="text-center mx-auto pt-20">
+   <Button size="sm" class="" url={i18n.PAGES.SECTION_GR.SECTION_3.BUTTON.SRC} title={i18n.PAGES.SECTION_GR.SECTION_3.BUTTON.TITLE} target="_self">
+       {i18n.PAGES.SECTION_GR.SECTION_3.BUTTON.LABEL}
+     </Button>
+ </div>
+
+</Section>
+
+<div class="max-w-7xl mx-auto p-16 bg-blue-950 scale-[95%]">
+    <Typography tag="h3" className="text-center mb-6 " text={i18n.PAGES.SECTION_GR.SECTION_4.TITLE} />
+    <Typography tag="div" type="primary" className="text-center mb-6" text={i18n.PAGES.SECTION_GR.SECTION_4.SUBTITLE} />
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+           <div class=" text-center">
+             <p class="text-secondary text-5xl font-bold">1.</p>
+               <p class="text-xl font-bold mb-2">{i18n.PAGES.SECTION_GR.SECTION_4.ITEM_1}</p>     
+               <p class="text-xl mb-2"> {i18n.PAGES.SECTION_GR.SECTION_4.DESCRIPTION_1}</p>            
+          </div> 
+          <div class=" text-center">
+           <p class="text-secondary text-5xl font-bold">2.</p>
+             <p class="text-xl font-bold mb-2">{i18n.PAGES.SECTION_GR.SECTION_4.ITEM_2}</p>          
+             <p class="text-xl mb-2"> {i18n.PAGES.SECTION_GR.SECTION_4.DESCRIPTION_2}</p>            
+       
+        </div> 
+        <div class=" text-center ">
+           <p class="text-secondary text-5xl font-bold">3.</p>
+             <p class="text-xl font-bold mb-2">{i18n.PAGES.SECTION_GR.SECTION_4.ITEM_3}</p>   
+             <p class="text-xl mb-2"> {i18n.PAGES.SECTION_GR.SECTION_4.DESCRIPTION_2}</p>            
+              
+        </div> 
+    
+       </div>
+      
+   </div>
+
+ <Section
+    heading2={i18n.PAGES.SECTION_GR.SECTION_5.TITLE}
+    subheading={i18n.PAGES.SECTION_GR.SECTION_5.DESCRIPTION}/>
+
+
+
+          <ContactSectionEs language={language} 
+          title={i18n.PAGES.SECTION_GR.CONTACT_SECTION.TITLE} 
+          button_text={i18n.PAGES.SECTION_GR.CONTACT_SECTION.BUTTON.LABEL}
+          button_url={i18n.PAGES.SECTION_GR.CONTACT_SECTION.BUTTON.URL}
+          button_title={i18n.PAGES.SECTION_GR.CONTACT_SECTION.BUTTON.TITLE}/>
+        
+          </div>
+        
+    </main>
+</Layout>
