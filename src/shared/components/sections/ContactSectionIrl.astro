@@ -6,9 +6,13 @@ import Button from "@/shared/components/Button.astro";
 
 interface Props {
   language: string;
+ title?: string;
+  button_url?: string;
+  button_title?: string;
+  button_text?: string;
 }
 
-const { language } = Astro.props;
+const { language, title, button_text, button_title, button_url } = Astro.props;
 const i18n = getI18N({ language });
 ---
 {<Typography tag="h2" className="mx-auto mb-8 text-center font-semibold mt-8" text={title} responsive/>||<Typography tag="h2" className="mx-auto mb-8 text-center font-semibold mt-8" text={i18n.PAGES.SECTION_IRL.CONTACT_SECTION.TITLE} responsive/>}
