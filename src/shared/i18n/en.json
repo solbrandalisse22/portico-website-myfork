@@ -1210,6 +1210,76 @@
     }
  
   },
+    "SECTION_GR":{
+    "ID":"Grecia",
+    "SECTION_1":{
+      "TITLE":"Discover excellence in padel court construction in Greece",
+      "DESCRIPTION":"<p>At Portico Sport, we combine innovation and expertise to meet the growing demand for padel in Greece. As padel court builders, we specialize in building world-class facilities that feature cutting-edge technology, premium materials, and flawless design.</p><p>With padel’s popularity surging across Greece, from Athens or Crete to Costa Navarino, this dynamic sport presents a unique opportunity for clubs, resorts, and private investors. Our tailored solutions help you create the perfect environment to attract players, elevate their playing experience, and grow the sport in your community.</p><p>Partner with Portico Sport and turn your vision into a reality!</p>",
+    "BUTTON":{
+      "LABEL":"Let’s Build Your Court!",
+      "URL":"/client-contact",
+      "TITLE":"Padel court builders"
+    }},
+    "PROJECTS_SECTION": {
+     "ID":"projects",
+     "URL": {
+         "LABEL": "Discover Our Worldwide Padel Court Installations",
+         "TITLE":"Padel court installation",
+         "SRC": "/projects"
+       },
+       "ID_GALLERY": "projects-gallery-gr",
+       "TITLE_GALLERY":"Padel courts projects in Greece",
+       "PATH":"projects Greece/gallery"
+   },
+   "SECTION_2":{
+       "TITLE":"Padel court construction team in Greece",
+       "DESCRIPTION":"<p>Building padel courts requires precision, premium materials, and expert execution. At Portico Sport, we handle every step, delivering padel courts that surpass expectations and meet international standards.</p><p>Specializing in high-quality courts and canopies tailored to Greece, we provide comprehensive solutions—from site preparation to final installation. Our padel courts are designed for durability, safety, and top sports performance, perfectly suited to Greece’s diverse climates and landscapes. With extensive experience and local expertise, we ensure timely, reliable results and exceptional customer service.</p>"
+   },
+   "SECTION_3":{
+    "TITLE":"Tailored Padel Court Solutions in Greece",
+    "ITEM_1":"Customized solutions",
+    "DESCRIPTION_1":"We design and build padel courts tailored to your specific needs, ensuring they align with your vision.",
+    "ITEM_2":"High-quality materials",
+    "DESCRIPTION_2":"Using premium materials, our padel courts are built for durability, safety, and superior playability, even in Greece’s diverse climates.",
+    "ITEM_3":"Turnkey projects",
+    "DESCRIPTION_3":"From concept to completion, we handle every step of the process, offering a seamless experience whether you&#39;re planning a single court or a full padel club.",
+    "ITEM_4":"Global expertise, local focus",
+    "DESCRIPTION_4":"With years of international experience and deep knowledge of the Greek market, we are your trusted partner for padel court construction in Athens, Thessaloniki, Crete, and beyond.",
+    "BUTTON":{
+      "LABEL":"Tailor your padel court today",
+      "URL":"/custom-padel-court",
+      "TITLE":"Customize your court"
+    }
+  
+  },
+  "SECTION_4":{
+    "TITLE":"Why choose Portico Sport for your padel court project?",
+    "SUBTITLE":"Comprehensive Services",
+    "ITEM_1":"Design & planning",
+    "DESCRIPTION_1":"Our team works closely with you to create a court layout that maximizes space, comfort, and usability.",
+    "ITEM_2":"Construction & installation",
+    "DESCRIPTION_2":"We build padel courts to meet international standards, ensuring top performance and longevity.",
+    "ITEM_3":"Maintenance & upgrades",
+    "DESCRIPTION_3":"Keep your courts in pristine condition with our ongoing maintenance and modern upgrade options."
+  },
+  "SECTION_5":{
+    "TITLE":"Let’s build your padel court in Greece",
+    "DESCRIPTION":"Are you ready to bring padel to the next level? Contact us today and let’s discuss how we can make your padel court project a reality. Whether it&#39;s for commercial use or private enjoyment, Portico Sport is here to help you lead the padel revolution in Greece."
+  },
+  "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Contact Portico Sport Greece",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Contact Portico Sport now!",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
+  },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
@@ -3660,6 +3730,13 @@
     "IRELAND": {
     "ROUTE": {
       "BREADCRUMB": "Padel Court Builders Ireland"
+    }
+  },
+  "GR": {
+    "ROUTE": {
+      "BREADCRUMB": "Padel Court Builders Greece",
+      "URL":"/gr"  
+      
     }
   }  },
   "LOCALE_DATE": "en-US",
