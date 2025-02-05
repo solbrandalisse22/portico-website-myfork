@@ -15,8 +15,9 @@ interface Props {
 const { language, title, button_text, button_title, button_url } = Astro.props;
 const i18n = getI18N({ language });
 ---
-{<Typography tag="h2" className="mx-auto mb-8 text-center font-semibold mt-8" text={title} responsive/>||<Typography tag="h2" className="mx-auto mb-8 text-center font-semibold mt-8" text={i18n.PAGES.SECTION_IRL.CONTACT_SECTION.TITLE} responsive/>}
-
+{title &&
+<Typography tag="h2" className="mx-auto mb-8 text-center font-semibold mt-8" text={text} responsive/>
+ }
 <div class="container mx-auto text-center py-16">
     <div class="flex flex-wrap justify-center gap-8 mb-6">
       
