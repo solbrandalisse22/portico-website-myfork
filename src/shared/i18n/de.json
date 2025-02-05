@@ -2777,36 +2777,54 @@
     },
     "UK": {
       "ROUTE":{
-      "BREADCRUMB":"Padelplatzbauer UK"
+      "BREADCRUMB":"Padel Court Builders UK",
+      "URL":"/uk"
     }},
     "USA": {
     "ROUTE":
     {
-      "BREADCRUMB":"Padelplatzbauer USA"
+      "BREADCRUMB":"Padel Court Builders USA",
+      "URL":"/padel-court-usa"
     }},
+
     "OCEANIA":{
       "ROUTE":{
-      "BREADCRUMB":"Padelplatzbauer Ozeanien"
-      }},
+      "BREADCRUMB":"Padel Court Builders Oceania",
+      "URL":"/oceania"}},
     
      "ZA":{"ROUTE":{
-      "BREADCRUMB":"Padelplatzbauer Südafrika"
-      
-    }},
-    
-    "ES": {"ROUTE":{
-      "BREADCRUMB":"Padelplatzbauer Spanien"
-      
-    }},
-      "IRELAND" : {"ROUTE":{
-        "BREADCRUMB":"Padelplatzbauer Irland"
-      }},
-    "MX": {
-      "ROUTE":{
-        "BREADCRUMB":"Padelplatzbauer Mexiko"
-      }
-    }
+      "BREADCRUMB":"Padel Court Builders South Africa",
+      "URL":"/za"}
     },
+    "AUS":{"ROUTE":{
+      "BREADCRUMB":"Padel Court Builders Australia",
+      "URL":"/aus"
+    }},
+    "NZ": {"ROUTE":{
+      "BREADCRUMB":"Padel Court Builders New Zealand",
+      "URL":"/nz"
+    }},
+    "ES": {"ROUTE":{
+      "BREADCRUMB":"Fabricantes de pistas de pádel en España",
+      "URL":"/es"
+    }},
+    "MX" :{
+    "ROUTE":{
+      "BREADCRUMB":"Fabricantes de canchas de pádel en Mexico",
+      "URL":"/mx"  
+    }},
+    "IRELAND": {
+    "ROUTE": {
+      "BREADCRUMB": "Padel Court Builders Ireland"
+    }
+  },
+  "GR": {
+    "ROUTE": {
+      "BREADCRUMB": "Padel Court Builders Greece",
+      "URL":"/gr"  
+      
+    }
+  }  },
   
   "LOCALE_DATE": "de-DE",
   "SITE": "https://www.porticosport.de",
