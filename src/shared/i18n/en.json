@@ -18,6 +18,8 @@
       "SEO_DESCRIPTION_ES":"Empresa de fabricación de pistas de pádel de primera calidad, con servicio de instalación de pistas de pádel y cubiertas a nivel global. ¡Descubre nuestras pistas y cubiertas!",
       "SEO_TITLE_GR":"Padel Court Builders Manufacturers Greece | Portico Sport",
       "SEO_DESCRIPTION_GR":"Portico Sport specializes in custom-designed padel courts in Greece. Providing durable construction and professional installation for optimal performance.",
+      "SEO_TITLE_CY":"Padel Court Builders Manufacturers Cyprus | Portico Sport",
+      "SEO_DESCRIPTION_CY":"Portico Sport specializes in custom-designed padel courts in Cyprus. Providing durable construction and professional installation for optimal performance.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
       "SUBTITLE_UK": "Construction and Installation of Padel Courts and Canopies in UK",
@@ -32,6 +34,7 @@
       "TITLE_ZA":"Padel Court Builders South Africa",
       "TITLE_ES":"Portico Sport España",
        "TITLE_GR":"Padel Court Builders Greece",
+      "TITLE_CY":"Padel Court Builders Cyprus",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contact us",
@@ -1282,6 +1285,53 @@
       "TITLE":"contact Portico Sport"
      }
     }
+  },
+     "SECTION_CY":{
+    "ID":"Chipre",
+    "SECTION_1":{
+      "TITLE":"Discover excellence in padel court construction in Greece",
+      "DESCRIPTION":"At Portico Sport, we bring world-class padel court construction to Cyprus, a country where the sport is rapidly gaining popularity. Whether you’re planning courts in Nicosia, Limassol, or Paphos, we specialize in creating state-of-the-art padel courts and canopies that combine premium materials, unique designs, and cutting-edge technology. With our expertise, you can tap into Cyprus’s growing padel community and build spaces that inspire both casual players and professionals.",
+      "BUTTON":{
+        "LABEL":"Discover our expertise at Portico Sport",
+        "URL":"/",
+        "TITLE":"Padel Court Builders"
+      }
+    },
+    "PROJECTS_SECTION": {
+     "ID":"projects",
+     "URL": {
+         "LABEL": "Explore our padel projects worldwide!",
+         "TITLE":"Padel court installation",
+         "SRC": "/projects"
+       },
+       "ID_GALLERY": "projects-gallery-cy",
+       "TITLE_GALLERY":"Padel courts projects Cyprus",
+       "PATH":"projects Cyprus/gallery"
+   },
+    "SECTION_2":{
+      "TITLE":"How much does a padel court cost in Cyprus?",
+      "DESCRIPTION":"<p>The cost of a padel court in Cyprus varies based on factors like location, materials, and additional features. Depending on the customization and model of the padel court, the price can fluctuate.</p><p>At Portico Sport, we offer tailored solutions to fit your budget and vision. From single courts to fully equipped padel clubs, we provide transparent pricing and turnkey services, including court construction, canopies, and maintenance. We work closely with you to ensure your facility meets both your aesthetic and functional goals. Invest in the future of padel and attract players across Cyprus with a facility designed for excellence.</p>",
+      "BUTTON":{
+        "LABEL":"Custom Padel Courts",
+        "URL":"/custom-padel-court",
+        "TITLE":"Design your perfect padel court!"
+      }
+    },
+    "SECTION_3":{
+      "TITLE":"Padel court constructors in the Mediterranean",
+      "DESCRIPTION":"<p>Portico Sport is a trusted padel court builder throughout the Mediterranean, with successful padel court installations in countries like Greece, Croacia, and Italy. With a deep understanding of the region’s climate and terrain, Portico Sport brings premium quality padel courts to Cyprus that are designed to withstand coastal conditions while providing the best playing experience. Whether in urban centers like Larnaca or scenic coastal resorts, our courts meet international standards, combining durability with elegance.</p><p>Build your padel facility with Portico Sport and join the growing movement that’s shaping the Mediterranean’s sports landscape!</p>"
+      
+    },
+    "CONTACT_SECTION":{
+      "ID":"contact",
+      "TITLE":"Contact Portico Sport team in Cyprus",
+      "BUTTON":{
+       "LABEL":"Contact Portico Sport now!",
+       "URL":"/client-contact",
+       "TITLE":"contact Portico Sport"
+      }
+     }
+
   },
     "COURTS": {
       "ID": "courts",
@@ -3741,7 +3791,13 @@
       "URL":"/gr"  
       
     }
-  }  },
+  },
+   "CY":{
+      "ROUTE":{
+        "LABEL":"Cyprus",
+        "URL":"/cy"
+      }
+    }},
   "LOCALE_DATE": "en-US",
   "SITE": "https://www.porticosport.com",
   "HEADER": {
