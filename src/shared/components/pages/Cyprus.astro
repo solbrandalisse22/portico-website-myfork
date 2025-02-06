@@ -1,0 +1,111 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language, projectsGallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_CY} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_CY} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/projects Cyprus/gallery/PadelPro-6.jpg"
+bgClass="brightness-50"
+>
+    
+    <main class="flex flex-col gradient-bg relative">
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_CY} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+        <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.CY.ROUTE.LABEL, href: i18n.PAGES.CY.ROUTE.URL },
+        ]}
+      />
+    <Section 
+    
+    heading2={i18n.PAGES.SECTION_CY.SECTION_1.TITLE}>
+    <Typography tag="p" className="text-center w-full max-w-[1400px] mx-auto text-pretty text-xl text-left md:p-12 lg:p-20 "  text={i18n.PAGES.SECTION_CY.SECTION_1.DESCRIPTION} />
+    
+  
+    <div class="text-center mx-auto ">
+        <Button size="sm" class="" url={i18n.PAGES.SECTION_CY.SECTION_1.BUTTON.URL} title={i18n.PAGES.SECTION_CY.SECTION_1.BUTTON.TITLE} target="_self">
+            {i18n.PAGES.SECTION_CY.SECTION_1.BUTTON.LABEL}
+          </Button>
+      </div>
+      
+</Section>
+<Section
+heading2={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.TITLE_GALLERY}>
+<Gallery
+      language={language}
+      id={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.ID}
+      photos={projectsGallery}
+      offset={2}
+      path={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.PATH}
+      urlButton={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.URL.SRC}
+      urlText={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.URL.LABEL}
+      buttonTitle={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.URL.TITLE}
+      /> 
+    </Section>
+    <div class="intro-section flex flex-wrap w-full h-auto ">
+        <div class="w-full md:w-1/2 text-center xs:m-auto">
+          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SECTION_CY.SECTION_2.TITLE} />
+          <Typography tag="div" text={i18n.PAGES.SECTION_CY.SECTION_2.DESCRIPTION} />
+          <Button
+          url={i18n.PAGES.SECTION_CY.SECTION_2.BUTTON.URL}
+          title={i18n.PAGES.SECTION_CY.SECTION_2.BUTTON.TITLE}
+        >
+          {i18n.PAGES.SECTION_CY.SECTION_2.BUTTON.LABEL}
+        </Button>
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+          <img
+            src="/projects Cyprus/gallery/thumbnails/PadelPro-1.jpg"
+            alt="Padel Pro in Cyprus"
+            class="img-structure w-full object-cover scale-[85%] rounded-[2%] "
+          />
+        </div>
+      </div>
+    
+      <div class=" flex items-center justify-center text-center bg-blue-950 bg-opacity-50 scale-[95%]">
+
+    <Section 
+    
+    heading2={i18n.PAGES.SECTION_CY.SECTION_3.TITLE}
+    subheading={i18n.PAGES.SECTION_CY.SECTION_3.DESCRIPTION}
+
+    >
+      </div>
+
+
+          <ContactSectionEs language={language} 
+          title={i18n.PAGES.SECTION_CY.CONTACT_SECTION.TITLE}
+          button_text={i18n.PAGES.SECTION_CY.CONTACT_SECTION.BUTTON.LABEL}
+          button_url={i18n.PAGES.SECTION_CY.CONTACT_SECTION.BUTTON.URL}
+          button_title={i18n.PAGES.SECTION_CY.CONTACT_SECTION.BUTTON.TITLE}/>
+        
+          </div>
+        
+    </main>
+</Layout>
