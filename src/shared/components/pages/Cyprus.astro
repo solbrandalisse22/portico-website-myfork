@@ -68,9 +68,26 @@ heading2={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.TITLE_GALLERY}>
       buttonTitle={i18n.PAGES.SECTION_CY.PROJECTS_SECTION.URL.TITLE}
       /> 
     </Section>
-   
-        
-          </div>
-        
+
+ <div class="intro-section flex flex-wrap w-full h-auto ">
+        <div class="w-full md:w-1/2 text-center xs:m-auto">
+          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SECTION_CY.SECTION_2.TITLE} />
+          <Typography tag="div" text={i18n.PAGES.SECTION_CY.SECTION_2.DESCRIPTION} />
+          <Button
+          url={i18n.PAGES.SECTION_CY.SECTION_2.BUTTON.URL}
+          title={i18n.PAGES.SECTION_CY.SECTION_2.BUTTON.TITLE}
+        >
+          {i18n.PAGES.SECTION_CY.SECTION_2.BUTTON.LABEL}
+        </Button>
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+          <img
+            src="/projects Cyprus/gallery/thumbnails/PadelPro-1.jpg"
+            alt="Padel Pro in Cyprus"
+            class="img-structure w-full object-cover scale-[85%] rounded-[2%] "
+          />
+        </div>
+      </div>
+    
     </main>
 </Layout>
