@@ -513,42 +513,42 @@
           "src": "/courts/mobile-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Mobile patented by Portico Sport"
+          "alt": "Terrain Mobile patented by Portico Sport"
         },
         {
           "id": "slide-2",
           "src": "/courts/mobile-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Mobile patented by Portico Sport"
+          "alt": "Terrain Mobile patented by Portico Sport"
         },
         {
           "id": "slide-3",
           "src": "/courts/mobile-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Mobile patented by Portico Sport"
+          "alt": "Terrain Mobile patented by Portico Sport"
         },
         {
           "id": "slide-4",
           "src": "/courts/mobile-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Mobile patented by Portico Sport"
+          "alt": "Terrain Mobile patented by Portico Sport"
         },
         {
           "id": "slide-5",
           "src": "/courts/mobile-court-05.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Mobile patented by Portico Sport"
+          "alt": "Terrain Mobile patented by Portico Sport"
         },
         {
           "id": "slide-6",
           "src": "/courts/mobile-court-06.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Mobile patented by Portico Sport"
+          "alt": "Terrain Mobile patented by Portico Sport"
         }
       ]
     },
@@ -657,7 +657,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Terrain mobile peint en jaune"
+            "alt": "Terrain mobile peint en jaune"
           },
           {
             "id": "slide-6",
@@ -729,21 +729,21 @@
           "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Tournament"
+          "alt": "Terrain Tournament"
         },
         {
           "id": "slide-2",
           "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Tournament"
+          "alt": "Terrain Tournament"
         },
         {
           "id": "slide-3",
           "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain Tournament"
+          "alt": "Terrain Tournament"
         }
       ]
     },
@@ -865,7 +865,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Terrain mobile peint en jaune"
+            "alt": "Terrain mobile peint en jaune"
           },
           {
             "id": "slide-11",
@@ -922,28 +922,28 @@
           "src": "/courts/panoramic-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain panoramique"
+          "alt": "Terrain panoramique"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain panoramique"
+          "alt": "Terrain panoramique"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain panoramique"
+          "alt": "Terrain panoramique"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain panoramique"
+          "alt": "Terrain panoramique"
         }
       ]
     },
@@ -1126,21 +1126,21 @@
           "src": "/courts/club-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club"
+          "alt": "Terrain de padel Club"
         },
         {
           "id": "slide-2",
           "src": "/courts/club-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club"
+          "alt": "Terrain de padel Club"
         },
         {
           "id": "slide-3",
           "src": "/courts/club-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club"
+          "alt": "Terrain de padel Club"
         }
       ]
     },
@@ -1259,7 +1259,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Terrain mobile peint en jaune"
+            "alt": "Terrain mobile peint en jaune"
           },
           {
             "id": "slide-6",
@@ -1321,28 +1321,28 @@
           "src": "/courts/club-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club Force 80"
+          "alt": "Terrain de padel Club Force 80"
         },
         {
           "id": "slide-2",
           "src": "/courts/club-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club Force 80"
+          "alt": "Terrain de padel Club Force 80"
         },
         {
           "id": "slide-3",
           "src": "/courts/club-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club Force 80"
+          "alt": "Terrain de padel Club Force 80"
         },
         {
           "id": "slide-4",
           "src": "/courts/club-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Club Force 80"
+          "alt": "Terrain de padel Club Force 80"
         }
       ]
     },
@@ -1461,7 +1461,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Terrain mobile peint en jaune"
+            "alt": "Terrain mobile peint en jaune"
           },
           {
             "id": "slide-6",
@@ -1523,28 +1523,28 @@
           "src": "/courts/panoramic-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Panoramic Force 80"
+          "alt": "Terrain de padel Panoramic Force 80"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Panoramic Force 80"
+          "alt": "Terrain de padel Panoramic Force 80"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain de padel Panoramic Force 80"
+          "alt": "Terrain de padel Panoramic Force 80"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramic Force 80 padel Terrain"
+          "alt": "Panoramic Force 80 padel Terrain"
         }
       ]
     },
@@ -1665,7 +1665,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Terrain mobile peint en jaune"
+            "alt": "Terrain mobile peint en jaune"
           },
           {
             "id": "slide-6",
@@ -1737,21 +1737,21 @@
           "src": "/courts/single-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain individuel"
+          "alt": "Terrain individuel"
         },
         {
           "id": "slide-2",
           "src": "/courts/single-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain individuel"
+          "alt": "Terrain individuel"
         },
         {
           "id": "slide-3",
           "src": "/courts/single-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain individuel"
+          "alt": "Terrain individuel"
         }
       ]
     },
@@ -1939,21 +1939,21 @@
           "src": "/courts/mini-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain mobile breveté par Portico Sport"
+          "alt": "Terrain mobile breveté par Portico Sport"
         },
         {
           "id": "slide-2",
           "src": "/courts/mini-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain mobile breveté par Portico Sport"
+          "alt": "Terrain mobile breveté par Portico Sport"
         },
         {
           "id": "slide-3",
           "src": "/courts/mini-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Terrain mobile breveté par Portico Sport"
+          "alt": "Terrain mobile breveté par Portico Sport"
         }
       ]
     },
