@@ -1601,37 +1601,37 @@
         "src": "/courts/mobile-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-2",
         "src": "/courts/mobile-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-3",
         "src": "/courts/mobile-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-4",
         "src": "/courts/mobile-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-5",
         "src": "/courts/mobile-court-05.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-6",
         "src": "/courts/mobile-court-06.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       }]
     },
     "TOURNAMENT_COURT": {
@@ -1733,7 +1733,7 @@
         "IMAGES": [{
           "id": "slide-5",
           "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "imgAlt": "Yellow painted mobile court"
+          "alt": "Yellow painted mobile court"
         },{
           "id": "slide-6",
           "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
@@ -1800,19 +1800,19 @@
         "src": "/courts/tournament-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Tournament court"
+        "alt": "Tournament court"
       },{
         "id": "slide-2",
         "src": "/courts/tournament-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Tournament court"
+        "alt": "Tournament court"
       },{
         "id": "slide-3",
         "src": "/courts/tournament-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Tournament court"
+        "alt": "Tournament court"
       }]
     },
     "PANORAMIC_COURT": {
@@ -1925,7 +1925,7 @@
         },{
           "id": "slide-5",
           "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "imgAlt": "Yellow painted mobile court"
+          "alt": "Yellow painted mobile court"
         }, {
           "id": "slide-11",
           "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
@@ -1990,25 +1990,25 @@
         "src": "/courts/panoramic-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic court"
+        "alt": "Panoramic court"
       },{
         "id": "slide-2",
         "src": "/courts/panoramic-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic court"
+        "alt": "Panoramic court"
       },{
         "id": "slide-3",
         "src": "/courts/panoramic-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic court"
+        "alt": "Panoramic court"
       },{
         "id": "slide-4",
         "src": "/courts/panoramic-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic court"
+        "alt": "Panoramic court"
       }]
     },
     "CLUB_COURT": {
@@ -2178,19 +2178,19 @@
         "src": "/courts/club-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club padel court"
+        "alt": "Club padel court"
       },{
         "id": "slide-2",
         "src": "/courts/club-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club padel court"
+        "alt": "Club padel court"
       },{
         "id": "slide-3",
         "src": "/courts/club-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club padel court"
+        "alt": "Club padel court"
       }]
     },
     "CLUB_FORCE_80_COURT": {
@@ -2300,7 +2300,7 @@
         }, {
           "id": "slide-5",
           "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "imgAlt": "Yellow painted mobile court"
+          "alt": "Yellow painted mobile court"
         },{
           "id": "slide-6",
           "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
@@ -2358,25 +2358,25 @@
         "src": "/courts/club-force-80-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club Force 80 padel court"
+        "alt": "Club Force 80 padel court"
       },{
         "id": "slide-2",
         "src": "/courts/club-force-80-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club Force 80 padel court"
+        "alt": "Club Force 80 padel court"
       },{
         "id": "slide-3",
         "src": "/courts/club-force-80-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club Force 80 padel court"
+        "alt": "Club Force 80 padel court"
       },{
         "id": "slide-4",
         "src": "/courts/club-force-80-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Club Force 80 padel court"
+        "alt": "Club Force 80 padel court"
       }]
     },
     "PANORAMIC_FORCE_80_COURT": {
@@ -2486,7 +2486,7 @@
         }, {
           "id": "slide-5",
           "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "imgAlt": "Yellow painted mobile court"
+          "alt": "Yellow painted mobile court"
         },{
           "id": "slide-6",
           "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
@@ -2544,25 +2544,25 @@
         "src": "/courts/panoramic-force-80-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic Force 80 padel court"
+        "alt": "Panoramic Force 80 padel court"
       },{
         "id": "slide-2",
         "src": "/courts/panoramic-force-80-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic Force 80 padel court"
+        "alt": "Panoramic Force 80 padel court"
       },{
         "id": "slide-3",
         "src": "/courts/panoramic-force-80-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic Force 80 padel court"
+        "alt": "Panoramic Force 80 padel court"
       },{
         "id": "slide-4",
         "src": "/courts/panoramic-force-80-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Panoramic Force 80 padel court"
+        "alt": "Panoramic Force 80 padel court"
       }]
     },
     "SINGLE_COURT": {
@@ -2674,7 +2674,7 @@
         },{
           "id": "slide-5",
           "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "imgAlt": "Yellow painted mobile court"
+          "alt": "Yellow painted mobile court"
         },{
           "id": "slide-6",
           "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
@@ -2750,19 +2750,19 @@
         "src": "/courts/single-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Single court"
+        "alt": "Single court"
       },{
         "id": "slide-2",
         "src": "/courts/single-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Single court"
+        "alt": "Single court"
       },{
         "id": "slide-3",
         "src": "/courts/single-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Single court"
+        "alt": "Single court"
       }]
     },
     "MINI_COURT": {
@@ -2947,19 +2947,19 @@
         "src": "/courts/mini-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-2",
         "src": "/courts/mini-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-3",
         "src": "/courts/mini-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       }]
     },
     "CANOPIES": {
