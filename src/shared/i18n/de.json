@@ -512,37 +512,37 @@
         "src": "/courts/mobile-court-01.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-2",
         "src": "/courts/mobile-court-02.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-3",
         "src": "/courts/mobile-court-03.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-4",
         "src": "/courts/mobile-court-04.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-5",
         "src": "/courts/mobile-court-05.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       },{
         "id": "slide-6",
         "src": "/courts/mobile-court-06.webp",
         "width": 574,
         "height": 323,
-        "imgAlt": "Mobile court patented by Portico Sport"
+        "alt": "Mobile court patented by Portico Sport"
       }]    },
     "TOURNAMENT_COURT": {
       "ID": "tournament",
@@ -649,7 +649,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Gelb lackierter mobiler Platz"
+            "alt": "Gelb lackierter mobiler Platz"
           },
           {
             "id": "slide-6",
@@ -721,21 +721,21 @@
           "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Tournament Court"
+          "alt": "Tournament Court"
         },
         {
           "id": "slide-2",
           "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Tournament Court"
+          "alt": "Tournament Court"
         },
         {
           "id": "slide-3",
           "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Tournament Court"
+          "alt": "Tournament Court"
         }
       ]
     },
@@ -857,7 +857,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Gelber lackierter mobiler Platz"
+            "alt": "Gelber lackierter mobiler Platz"
           },
           {
             "id": "slide-11",
@@ -914,28 +914,28 @@
           "src": "/courts/panoramic-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramaplatz"
+          "alt": "Panoramaplatz"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramaplatz"
+          "alt": "Panoramaplatz"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramaplatz"
+          "alt": "Panoramaplatz"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panoramaplatz"
+          "alt": "Panoramaplatz"
         }
       ]
     },
@@ -1118,21 +1118,21 @@
           "src": "/courts/club-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Padelplatz"
+          "alt": "Club Padelplatz"
         },
         {
           "id": "slide-2",
           "src": "/courts/club-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Padelplatz"
+          "alt": "Club Padelplatz"
         },
         {
           "id": "slide-3",
           "src": "/courts/club-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Padelplatz"
+          "alt": "Club Padelplatz"
         }
       ]
     },
@@ -1251,7 +1251,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Gelber lackierter mobiler Platz"
+            "alt": "Gelber lackierter mobiler Platz"
           },
           {
             "id": "slide-6",
@@ -1313,28 +1313,28 @@
           "src": "/courts/club-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Force 80 Padelplatz"
+          "alt": "Club Force 80 Padelplatz"
         },
         {
           "id": "slide-2",
           "src": "/courts/club-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Force 80 Padelplatz"
+          "alt": "Club Force 80 Padelplatz"
         },
         {
           "id": "slide-3",
           "src": "/courts/club-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Force 80 Padelplatz"
+          "alt": "Club Force 80 Padelplatz"
         },
         {
           "id": "slide-4",
           "src": "/courts/club-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Club Force 80 Padelplatz"
+          "alt": "Club Force 80 Padelplatz"
         }
       ]
     },
@@ -1453,7 +1453,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Gelbes lackiertes mobiles Gericht"
+            "alt": "Gelbes lackiertes mobiles Gericht"
           },
           {
             "id": "slide-6",
@@ -1515,28 +1515,28 @@
           "src": "/courts/panoramic-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panorama-Force-80-Padelplatz"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panorama-Force-80-Padelplatz"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panorama-Force-80-Padelplatz"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panorama-Force-80-Padelplatz"
         }
       ]
     },
@@ -1657,7 +1657,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Gelb lackierter mobiler Platz"
+            "alt": "Gelb lackierter mobiler Platz"
           },
           {
             "id": "slide-6",
@@ -1729,21 +1729,21 @@
           "src": "/courts/single-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Einzelplatz"
+          "alt": "Einzelplatz"
         },
         {
           "id": "slide-2",
           "src": "/courts/single-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Einzelplatz"
+          "alt": "Einzelplatz"
         },
         {
           "id": "slide-3",
           "src": "/courts/single-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Einzelplatz"
+          "alt": "Einzelplatz"
         }
       ]
     },
@@ -1931,21 +1931,21 @@
           "src": "/courts/mini-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Mobiler Platz patentiert von Portico Sport"
+          "alt": "Mobiler Platz patentiert von Portico Sport"
         },
         {
           "id": "slide-2",
           "src": "/courts/mini-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Mobiler Platz patentiert von Portico Sport"
+          "alt": "Mobiler Platz patentiert von Portico Sport"
         },
         {
           "id": "slide-3",
           "src": "/courts/mini-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Mobiler Platz patentiert von Portico Sport"
+          "alt": "Mobiler Platz patentiert von Portico Sport"
         }
       ]
     },
