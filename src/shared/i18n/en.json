@@ -20,6 +20,8 @@
       "SEO_DESCRIPTION_GR":"Portico Sport specializes in custom-designed padel courts in Greece. Providing durable construction and professional installation for optimal performance.",
       "SEO_TITLE_CY":"Padel Court Builders Manufacturers Cyprus | Portico Sport",
       "SEO_DESCRIPTION_CY":"Portico Sport specializes in custom-designed padel courts in Cyprus. Providing durable construction and professional installation for optimal performance.",
+       "SEO_TITLE_AE":"Padel Court Construction UAE | Portico Sport",
+      "SEO_DESCRIPTION_AE":"Portico Sport specializes in custom-designed padel courts in the UAE. Offering durable construction and professional installation for superior performance.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
       "SUBTITLE_UK": "Construction and Installation of Padel Courts and Canopies in UK",
@@ -35,6 +37,7 @@
       "TITLE_ES":"Portico Sport España",
        "TITLE_GR":"Padel Court Builders Greece",
       "TITLE_CY":"Padel Court Builders Cyprus",
+      "TITLE_AE":"Padel courts United Arab Emirates",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contact us",
@@ -1332,6 +1335,75 @@
       }
      }
 
+  },
+    
+  "SECTION_AE":{
+    "ID":"Emiratos Araber",
+    "SECTION_1":{
+      "TITLE":"Premium Padel Court Construction in the United Arab Emirates",
+      "DESCRIPTION":"<p>Padel is rapidly growing in popularity across the United Arab Emirates (UAE), with cities like Dubai, Abu Dhabi, and Sharjah becoming key hubs for the sport. As more players and clubs look to invest in high-quality padel facilities, the demand for premium padel court construction continues to rise.</p><p>At Portico Sport, we specialize in designing, manufacturing, and installing world-class padel courts that meet the highest industry standards. Whether you are looking to build a padel club, a private court, or a tournament-grade facility, we provide fully customized solutions tailored to your needs.</p>",
+    "BUTTON":{
+      "LABEL":"Discover our expertise at Portico Sport ",
+      "URL":"/client-contact",
+      "TITLE":"Padel court builders"
+    }},
+    
+   "SECTION_2":{
+       "TITLE":"Best padel court builders in UAE",
+       "DESCRIPTION":"<p>When choosing a padel court builder in the UAE, it’s crucial to work with a company that ensures durability, performance, and compliance with international standards.</p><p>At Portico Sport, we don’t just build padel courts—we create exceptional playing experiences. Whether it’s for private use, commercial clubs, or international tournaments, we bring:</p>",
+       "ITEM_1":{
+        "TITLE":"Unmatched quality",
+        "DESCRIPTION":"Every padel court is 100% in-house built with precision engineering and high-performance materials."
+      },
+      "ITEM_2":{
+        "TITLE":"Tournament-grade standards",
+        "DESCRIPTION":"Our courts meet NIDE 2004 Padel regulations, FIP standards, and international structural codes (EAE, AISC-360, ASCE SEI 7-16)."
+      },
+      "DESCRIPTION_2":"Join the growing padel movement in the UAE with Portico Sport’s premium padel courts, delivering top-quality construction to Dubai, Abu Dhabi, and beyond!"
+
+      },
+   "SECTION_3":{
+    "TITLE":"Padel court cost in the UAE",
+    "SUBTITLE":"The cost of a <strong>padel tennis court in the United Arab Emirates</strong> depends on several factors, including:",
+    "ITEM_1":"Padel Court model",
+    "DESCRIPTION_1":"Whether it’s a Panoramic court, Club model, or premium Tournament-grade facility, pricing varies based on the chosen design.",
+    "ITEM_2":"Materials used",
+    "DESCRIPTION_2":"High-quality tempered glass, turf, and galvanized steel increase durability but also affect costs.",
+    "ITEM_3":"Lighting and accessories",
+    "DESCRIPTION_3":"LED floodlights, fencing, and branding customization can add to the overall investment.",
+    "ITEM_4":"Shipping & logistics",
+    "DESCRIPTION_4":"The cost of transporting padel tennis courts can impact the final price. At Portico Sport, we optimize the packing and shipping process to ensure fast delivery with reduced costs, so you get your courts on time and within budget—no unnecessary delays or expenses.",
+    "DESCRIPTION":"As discussed, the <strong>cost of building a padel court in the UAE</strong> depends on multiple factors, from court type and materials to logistics and additional features. If you're considering a padel project, <strong>contact us today</strong> for a tailored consultation and a detailed estimate. ",
+    "BUTTON":{
+      "LABEL":"Start your project today!",
+      "URL":"/client-contact",
+      "TITLE":"Contact Portico Sport"
+    }
+  
+  },
+  "SECTION_4":{
+    "TITLE":"Portico Sport: Build padel courts with safety & excellence",
+    "ITEM_1":"Proven expertise ",
+    "DESCRIPTION_1":"With years of experience delivering padel courts worldwide, we bring unmatched quality and innovation to the UAE.",
+    "ITEM_2":"Customized construction",
+    "DESCRIPTION_2":"Our <strong>100% in-house manufacturing</strong> allows us to create tailor-made courts that align with your club’s identity and project requirements.",
+    "ITEM_3":"Designed for UAE’s climate",
+    "DESCRIPTION_3":"Our padel courts are built with <strong>weather-resistant materials</strong> to withstand extreme heat, humidity, and sand exposure."
+  },
+  "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Contact Portico Sport team in United Arab Emirates",
+     "DESCRIPTION":"If you are planning to build a padel club in Dubai, Abu Dhabi, or anywhere in the UAE, Portico Sport is your trusted partner.",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Contact Portico Sport now!",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
   },
     "COURTS": {
       "ID": "courts",
@@ -3796,6 +3868,12 @@
       "ROUTE":{
         "LABEL":"Cyprus",
         "URL":"/cy"
+      }
+    },
+  "AE":{
+      "ROUTE":{
+        "LABEL":"Padel Court Builders UAE",
+        "URL":"/ae"
       }
     }},
   "LOCALE_DATE": "en-US",
