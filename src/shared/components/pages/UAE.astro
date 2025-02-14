@@ -1,0 +1,273 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_AE} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_AE} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/Emiratos Arabes/projects-ea4.webp"
+bgClass="brightness-50"
+>
+    
+    <main class="flex flex-col gradient-bg relative">
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_AE} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+        <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.AE.ROUTE.BREADCRUMB, href: i18n.PAGES.AE.ROUTE.URL },
+        ]}
+      />
+      <div class="intro-section flex flex-wrap w-full h-auto ">
+        <div class="w-full md:w-1/2 text-center xs:m-auto">
+          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SECTION_AE.SECTION_1.TITLE} />
+          <Typography tag="div" text={i18n.PAGES.SECTION_AE.SECTION_1.DESCRIPTION} />
+          <div class="text-center mx-auto ">
+        <Button size="sm" class="" url={i18n.PAGES.SECTION_AE.SECTION_1.BUTTON.URL} title={i18n.PAGES.SECTION_AE.SECTION_1.BUTTON.TITLE} target="_self">
+            {i18n.PAGES.SECTION_AE.SECTION_1.BUTTON.LABEL}
+          </Button>
+      </div> 
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+          <img
+            src="/public/Emiratos Arabes/projects-ea2.webp"
+            alt="Padel Pro in Cyprus"
+            class="img-structure w-full object-cover scale-[75%]"
+          />
+        </div>
+     </div>
+  
+    
+     <div class="flex flex-col justify-center m-auto text-center mt-10 mb-10 ">
+       
+        <Typography 
+          tag="h2" 
+          className="mb-6 font-bold" 
+          text={i18n.PAGES.SECTION_AE.SECTION_2.TITLE} 
+        />
+        <Typography 
+          tag="div" 
+          className="mb-8" 
+          text={i18n.PAGES.SECTION_AE.SECTION_2.DESCRIPTION} 
+        />
+      
+       
+        <div class="flex flex-col md:flex-row gap-8 scale-[90%]">
+          
+          
+          <article class="flex flex-row items-center md:items-start">
+            <div class="flex flex-col items-center gap-4">
+              <Typography 
+                tag="p" 
+                type="primary" 
+                className="uppercase font-bold" 
+                text={i18n.PAGES.SECTION_AE.SECTION_2.ITEM_1.TITLE} 
+              />
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-16 h-16">
+                <path fill="#ffffff" d="M400 0L176 0c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8L24 64C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9L192 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-26.1 0C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24L446.4 64c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112l84.4 0c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6l84.4 0c-5.1 66.3-31.1 111.2-63 142.3z"/>
+              </svg>
+            </div>
+            <Typography 
+              tag="div" 
+              className="mt-2" 
+              text={i18n.PAGES.SECTION_AE.SECTION_2.ITEM_1.DESCRIPTION} 
+            />
+          </article>
+      
+          
+          <article class="flex flex-row items-center md:items-start">
+           <div class="flex flex-col items-center gap-4 ">
+              <Typography 
+                tag="p" 
+                type="primary" 
+                className="uppercase font-bold" 
+                text={i18n.PAGES.SECTION_AE.SECTION_2.ITEM_2.TITLE} 
+              />
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-16 h-16">
+              <path fill="#ffffff" d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM80 64l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 96c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm54.2 253.8c-6.1 20.3-24.8 34.2-46 34.2L80 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l8.2 0c7.1 0 13.3-4.6 15.3-11.4l14.9-49.5c3.4-11.3 13.8-19.1 25.6-19.1s22.2 7.7 25.6 19.1l11.6 38.6c7.4-6.2 16.8-9.7 26.8-9.7c15.9 0 30.4 9 37.5 23.2l4.4 8.8 54.1 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-6.1 0-11.6-3.4-14.3-8.8l-8.8-17.7c-1.7-3.4-5.1-5.5-8.8-5.5s-7.2 2.1-8.8 5.5l-8.8 17.7c-2.9 5.9-9.2 9.4-15.7 8.8s-12.1-5.1-13.9-11.3L144 349l-9.8 32.8z"/>
+            </svg>
+            </div>
+            <Typography 
+                tag="div" 
+                className="mt-2" 
+                text={i18n.PAGES.SECTION_AE.SECTION_2.ITEM_2.DESCRIPTION} 
+              /> 
+            
+          </article></div>
+      
+       
+        <Typography 
+          tag="p" 
+          className="mt-10" 
+          text={i18n.PAGES.SECTION_AE.SECTION_2.DESCRIPRION_2} 
+        />
+      </div>
+      
+    
+
+  <Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.SECTION_AE.SECTION_3.TITLE} />
+  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_AE.SECTION_3.SUBTITLE} />
+     
+  <div class="max-w-7xl mx-auto p-16 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 ">
+                <div class=" text-center bg-blue-600 opacity-90 ">
+                  <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_AE.SECTION_3.ITEM_1}</p>
+                    <p class="text-xl font-thin ">{i18n.PAGES.SECTION_AE.SECTION_3.DESCRIPTION_1}</p>                 
+               </div> 
+               <div class=" text-center bg-blue-700 opacity-90 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_AE.SECTION_3.ITEM_2}</p>
+                  <p class="text-xl font-thin ">{i18n.PAGES.SECTION_AE.SECTION_3.DESCRIPTION_2}</p>                 
+             </div> 
+             <div class=" text-center bg-blue-800 opacity-90 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_AE.SECTION_3.ITEM_3}</p>
+                  <p class="text-xl font-thin ">{i18n.PAGES.SECTION_AE.SECTION_3.DESCRIPTION_3}</p>                 
+             </div> 
+             <div class=" text-center bg-blue-900 opacity-90 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_AE.SECTION_3.ITEM_4}</p>
+                  <p class="text-xl font-thin mb-2">{i18n.PAGES.SECTION_AE.SECTION_3.DESCRIPTION_4}</p>                 
+             </div> 
+               
+            </div>
+            <div class="text-center mt-16">
+            <Button 
+            url={i18n.PAGES.SECTION_AE.SECTION_3.BUTTON.URL}
+            title={i18n.PAGES.SECTION_AE.SECTION_3.BUTTON.TITLE}>
+             {i18n.PAGES.SECTION_AE.SECTION_3.BUTTON.LABEL}
+            </Button></div>
+        </div>
+    
+        
+ <Section
+ id={i18n.PAGES.SECTION_AE.ID}
+ heading2={i18n.PAGES.SECTION_AE.SECTION_4.TITLE}
+>
+ <div class="grid lg:grid-cols-10 auto-rows-[15rem] mb-8  gap-4">
+   <BentoItem
+     class="col-span-10 lg:col-span-4"
+     title={i18n.PAGES.SECTION_AE.SECTION_4.ITEM_1}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full 
+       bg-cover bg-center bg-no-repeat opacity-50 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/Emiratos Arabes/projects-ea3.webp"
+     >
+     </div>
+
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_AE.SECTION_4.DESCRIPTION_1}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-6"
+     title={i18n.PAGES.SECTION_AE.SECTION_4.ITEM_2}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+   -z-10 h-full w-full 
+   bg-cover bg-center bg-no-repeat opacity-50 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/Emiratos Arabes/projects-ea9.webp"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_AE.SECTION_4.DESCRIPTION_2}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-6"
+     title={i18n.PAGES.SECTION_AE.SECTION_4.ITEM_3}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full 
+       bg-cover bg-center bg-no-repeat opacity-50 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/Emiratos Arabes/projects-ea11.webp"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_AE.SECTION_4.DESCRIPTION_3}
+     />
+   </BentoItem>
+</div>
+
+</Section>
+
+<Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.SECTION_AE.CONTACT_SECTION.TITLE} />
+  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_AE.CONTACT_SECTION.DESCRIPTION} />
+     
+          <ContactSectionEs language={language} 
+
+          button_text={i18n.PAGES.SECTION_AE.CONTACT_SECTION.BUTTON.LABEL}
+          button_url={i18n.PAGES.SECTION_AE.CONTACT_SECTION.BUTTON.URL}
+          button_title={i18n.PAGES.SECTION_AE.CONTACT_SECTION.BUTTON.TITLE}/>
+        
+          
+        </div>
+    </main>
+</Layout>
+   <script>
+  document.addEventListener("astro:page-load", () => {
+    const backgrounds = document.querySelectorAll(
+      ".background"
+    ) as NodeListOf<HTMLElement>;
+
+    if (window.IntersectionObserver == null) {
+      backgrounds.forEach((bkg) => {
+        bkg.style.backgroundImage = "url('" + bkg.dataset.src + "')";
+      });
+      return;
+    }
+
+    function handleIntersection(entries: IntersectionObserverEntry[]) {
+      entries.map((entry) => {
+        if (entry.isIntersecting) {
+          const target = entry.target as HTMLElement;
+          const { style, dataset } = target;
+          // Item has crossed our observation
+          // threshold - load src from data-src
+          style.backgroundImage = "url('" + dataset.src + "')";
+          // Job done for this item - no need to watch it!
+          observer.unobserve(entry.target);
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(handleIntersection, {
+      rootMargin: "100px",
+    });
+
+    backgrounds.forEach((bkg) => observer.observe(bkg));
+  });
+</script>
