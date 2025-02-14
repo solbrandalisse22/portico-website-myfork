@@ -513,28 +513,28 @@
           "src": "/courts/mobile-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         },
         {
           "id": "slide-2",
           "src": "/courts/mobile-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         },
         {
           "id": "slide-3",
           "src": "/courts/mobile-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         },
         {
           "id": "slide-4",
           "src": "/courts/mobile-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         }
       ]
     },
@@ -644,7 +644,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Pista móvil pintada de amarillo"
+            "alt": "Pista móvil pintada de amarillo"
           },
           {
             "id": "slide-6",
@@ -716,21 +716,21 @@
           "src": "/courts/tournament-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Tournament"
+          "alt": "Pista Tournament"
         },
         {
           "id": "slide-2",
           "src": "/courts/tournament-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Tournament"
+          "alt": "Pista Tournament"
         },
         {
           "id": "slide-3",
           "src": "/courts/tournament-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Tournament"
+          "alt": "Pista Tournament"
         }
       ]
     },
@@ -852,7 +852,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Pista móvil pintada de amarillo"
+            "alt": "Pista móvil pintada de amarillo"
           },
           {
             "id": "slide-11",
@@ -919,28 +919,28 @@
           "src": "/courts/panoramic-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panoramic"
+          "alt": "Pista panoramic"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panoramic"
+          "alt": "Pista panoramic"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panoramic"
+          "alt": "Pista panoramic"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista panoramic"
+          "alt": "Pista panoramic"
         }
       ]
     },
@@ -1123,21 +1123,21 @@
           "src": "/courts/club-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel club"
+          "alt": "Pista de pádel club"
         },
         {
           "id": "slide-2",
           "src": "/courts/club-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel club"
+          "alt": "Pista de pádel club"
         },
         {
           "id": "slide-3",
           "src": "/courts/club-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel club"
+          "alt": "Pista de pádel club"
         }
       ]
     },
@@ -1256,7 +1256,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Pista móvil pintada de amarillo"
+            "alt": "Pista móvil pintada de amarillo"
           },
           {
             "id": "slide-6",
@@ -1318,28 +1318,28 @@
           "src": "/courts/club-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Club Force 80"
+          "alt": "Pista de pádel Club Force 80"
         },
         {
           "id": "slide-2",
           "src": "/courts/club-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Club Force 80"
+          "alt": "Pista de pádel Club Force 80"
         },
         {
           "id": "slide-3",
           "src": "/courts/club-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Club Force 80"
+          "alt": "Pista de pádel Club Force 80"
         },
         {
           "id": "slide-4",
           "src": "/courts/club-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Club Force 80"
+          "alt": "Pista de pádel Club Force 80"
         }
       ]
     },
@@ -1458,7 +1458,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Pista móvil pintada de amarillo"
+            "alt": "Pista móvil pintada de amarillo"
           },
           {
             "id": "slide-6",
@@ -1520,28 +1520,28 @@
           "src": "/courts/panoramic-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Panorámica Force 80"
+          "alt": "Pista de pádel Panorámica Force 80"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Panorámica Force 80"
+          "alt": "Pista de pádel Panorámica Force 80"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Panorámica Force 80"
+          "alt": "Pista de pádel Panorámica Force 80"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista de pádel Panorámica Force 80"
+          "alt": "Pista de pádel Panorámica Force 80"
         }
       ]
     },
@@ -1662,7 +1662,7 @@
           {
             "id": "slide-5",
             "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "imgAlt": "Pista móvil pintada de amarillo"
+            "alt": "Pista móvil pintada de amarillo"
           },
           {
             "id": "slide-6",
@@ -1744,21 +1744,21 @@
           "src": "/courts/single-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Single"
+          "alt": "Pista Single"
         },
         {
           "id": "slide-2",
           "src": "/courts/single-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Single"
+          "alt": "Pista Single"
         },
         {
           "id": "slide-3",
           "src": "/courts/single-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista Single"
+          "alt": "Pista Single"
         }
       ]
     },
@@ -1956,21 +1956,21 @@
           "src": "/courts/mini-court-01.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         },
         {
           "id": "diapositiva-2",
           "src": "/courts/mini-court-02.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         },
         {
           "id": "diapositiva-3",
           "src": "/courts/mini-court-03.webp",
           "width": 574,
           "height": 323,
-          "imgAlt": "Pista móvil patentada por Portico Sport"
+          "alt": "Pista móvil patentada por Portico Sport"
         }
       ]
     },
