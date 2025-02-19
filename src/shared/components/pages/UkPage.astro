@@ -15,7 +15,6 @@ import NewsList from "../NewsList.astro"
 import SectionGraphicProcessUK from "@/shared/components/sections/SectionGraphicProcessUK.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import { type Photo } from "@/types/types.ts";
-import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogosUK from "@/shared/components/sections/NormativeLogosUK.astro";
@@ -49,9 +48,6 @@ const posts = await response.json();
         <div class="bg-white/70 p-2 rounded-xl">
           <img src="/logos/sapca.png" alt="Sapca logo" />
         </div>
-        <button id="logo-fep">
-          <LogoFep />
-        </button>
         <button id="logo-hexagon-cup">
           <HexagonCupLogo />
         </button>
@@ -120,12 +116,7 @@ const posts = await response.json();
 </Layout>
 
 <script>
-  const logoFep = document.getElementById('logo-fep');
   const logoHexagonCup = document.getElementById('logo-hexagon-cup');
-
-  logoFep?.addEventListener('click', () => {
-    window.open('https://www.padelfederacion.es/Home', '_blank');
-  });
 
   logoHexagonCup?.addEventListener('click', () => {
     window.open('https://www.hexagoncup.com/', '_blank');

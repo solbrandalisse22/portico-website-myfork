@@ -15,7 +15,6 @@ import NewsList from "../NewsList.astro"
 import SectionGraphicProcessZA from "@/shared/components/sections/SectionGraphicProcessZA.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
 import { type Photo } from "@/types/types.ts";
-import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogosZA from "@/shared/components/sections/NormativeLogosZA.astro";
@@ -54,9 +53,6 @@ contactForm
     >
 
       <div class="flex flex-col gap-2">
-        <button id="logo-fep">
-          <LogoFep />
-        </button>
         <button id="logo-hexagon-cup">
           <HexagonCupLogo />
         </button>
@@ -128,12 +124,7 @@ contactForm
 </Layout>
 
 <script>
-  const logoFep = document.getElementById('logo-fep');
   const logoHexagonCup = document.getElementById('logo-hexagon-cup');
-
-  logoFep?.addEventListener('click', () => {
-    window.open('https://www.padelfederacion.es/Home', '_blank');
-  });
 
   logoHexagonCup?.addEventListener('click', () => {
     window.open('https://www.hexagoncup.com/', '_blank');

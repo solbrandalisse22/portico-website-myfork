@@ -7,7 +7,6 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionComplements from "@/shared/components/sections/SectionComplements2.astro"
-import LogoFep from "@/shared/components/logos/LogoFep.astro";
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
@@ -45,9 +44,6 @@ const posts = await response.json();
       class="absolute bottom-[2.5%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
     >
       <div class="flex flex-col gap-2">
-        <button id="logo-fep">
-          <LogoFep />
-        </button>
         <button id="logo-hexagon-cup">
           <HexagonCupLogo />
         </button>
@@ -112,12 +108,7 @@ const posts = await response.json();
 </Layout>
 
 <script>
-  const logoFep = document.getElementById('logo-fep');
   const logoHexagonCup = document.getElementById('logo-hexagon-cup');
-
-  logoFep?.addEventListener('click', () => {
-    window.open('https://www.padelfederacion.es/Home', '_blank');
-  });
 
   logoHexagonCup?.addEventListener('click', () => {
     window.open('https://www.hexagoncup.com/', '_blank');
