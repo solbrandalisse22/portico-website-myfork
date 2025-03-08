@@ -9,7 +9,7 @@ import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
-import SectionComplementsOC from "@/shared/components/sections/SectionComplements.astro"
+import SectionComplementsOC from "@/shared/components/sections/SectionComplementsOC.astro"
 import Button from "src/shared/components/Button.astro";
 import NewsList from "../NewsList.astro"
 import Gallery from "../Gallery.astro"
@@ -108,42 +108,7 @@ const posts = await response.json();
     <SectionBentoOC language={language} />
 
     <SectionComplementsOC language={language} 
-    id={i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ID}
-  title={i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.TITLE}
-  subtitle ={i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.SUBTITLE}
-complementsItems = {[
-  { 
-    titlec: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_1.TITLE,
-    descriptionc: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_1.DESCRIPTION,
-    imagec: "/complements/platforms.webp",
-  },
-  {
-    titlec: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_2.TITLE,
-    descriptionc: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_2.DESCRIPTION,
-    imagec: "/complements/structures.webp",
-  },
-  {
-    titlec: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_3.TITLE,
-    descriptionc: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_3.DESCRIPTION,
-    imagec: "/complements/glasses.webp",
-  },
-  {
-    titlec: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_4.TITLE,
-    descriptionc: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_4.DESCRIPTION,
-    imagec: "/complements/artifitial-turf.webp",
-  },
-  {
-    titlec: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_5.TITLE,
-    descriptionc: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_5.DESCRIPTION,
-    imagec: "/complements/lighting.webp",
-  },
-  {
-    titlec: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_6.TITLE,
-    descriptionc: i18n.PAGES.HOME.COMPLEMENTS_SECTION_OCEANIA.ITEMS.ITEM_6.DESCRIPTION,
-    imagec: "/complements/customization.webp",
-  },
-]}
-
+   
 
 />
 
