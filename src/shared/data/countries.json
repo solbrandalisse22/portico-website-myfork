@@ -1423,9 +1423,90 @@
           }
         ],
         "items": 6
+      },
+      {
+        "projectId": "padel-garona",
+        "country": "France",
+        "projectName": "Padel Garona",
+        "website": "https://www.padelgarona.fr/",
+        "projectsCourts": "1 Panoramic, 2 Club ACE and 1 Club Single courts",
+        "shortdescription": "",
+        "projectCity": "Toulouse",
+        "projectLogo": "/clubes/France/padel-garona/David-Lloyd-Logo.webp",
+        "route": "/projects/padel-garona",
+        "images": [
+          {
+            "src": "/clubes/France/padel-garona/thumbnails/padel-garona-01.webp",
+            "alt": "Courts inPadel Garona - France"
+          },
+           {
+            "src": "/clubes/France/padel-garona/thumbnails/padel-garona-02.webp",
+            "alt": "Courts inPadel Garona - France"
+          },
+           {
+            "src": "/clubes/France/padel-garona/thumbnails/padel-garona-03.webp",
+            "alt": "Courts inPadel Garona - France"
+          },
+           {
+            "src": "/clubes/France/padel-garona/thumbnails/padel-garona-04.webp",
+            "alt": "Courts inPadel Garona - France"
+          },
+           {
+            "src": "/clubes/France/padel-garona/thumbnails/padel-garona-05.webp",
+            "alt": "Courts inPadel Garona - France"
+          }
+         
+        ],
+        "items": 5
       }
     ],
     "route": "/projects/France"
+  },
+  {
+    "country": "Mexico",
+    "continent": "America",
+    "id": "MEX",
+    "coordinates": [-97.140008,25.869997],
+    "projects": [
+      {
+        "projectId": "squadra-padel",
+        "country": "Mexico",
+        "projectName": "Squadra Padel House",
+        "website": "https://www.instagram.com/squadrapadel.mx/",
+        "projectsCourts": "2 Panoramic + courts",
+        "shortdescription": "",
+        "projectCity": "Cuernavaca",
+        "projectLogo": "/projects/Mexico/Squadra-padel/Squadra-padel-logo.webp",
+        "route": "/projects/Squadra-padel",
+        "images": [
+          {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-01.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          },
+           {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-02.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          }, {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-03.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          }, {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-04.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          }, {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-05.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          }, {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-06.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          }, {
+            "src": "/clubes/Mexico/Squadra-padel/thumbnails/Squadra-padel-07.webp",
+            "alt": "Courts in Squadra Padel House - Mexico"
+          },
+        ],
+        "items": 7
+      }
+    ],
+    "route": "/projects/Mexico"
   },
   {
     "country": "Greece",
