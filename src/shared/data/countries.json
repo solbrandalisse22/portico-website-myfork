@@ -1432,28 +1432,28 @@
         "projectsCourts": "1 Panoramic, 2 Club ACE and 1 Club Single courts",
         "shortdescription": "",
         "projectCity": "Toulouse",
-        "projectLogo": "/clubes/France/padel-garona/David-Lloyd-Logo.webp",
+        "projectLogo": "/clubes/France/padel-garona/padel-garona-logo.webp",
         "route": "/projects/padel-garona",
         "images": [
           {
             "src": "/clubes/France/padel-garona/thumbnails/padel-garona-01.webp",
-            "alt": "Courts inPadel Garona - France"
+            "alt": "Courts in Padel Garona - France"
           },
            {
             "src": "/clubes/France/padel-garona/thumbnails/padel-garona-02.webp",
-            "alt": "Courts inPadel Garona - France"
+            "alt": "Courts in Padel Garona - France"
           },
            {
             "src": "/clubes/France/padel-garona/thumbnails/padel-garona-03.webp",
-            "alt": "Courts inPadel Garona - France"
+            "alt": "Courts in Padel Garona - France"
           },
            {
             "src": "/clubes/France/padel-garona/thumbnails/padel-garona-04.webp",
-            "alt": "Courts inPadel Garona - France"
+            "alt": "Courts in Padel Garona - France"
           },
            {
             "src": "/clubes/France/padel-garona/thumbnails/padel-garona-05.webp",
-            "alt": "Courts inPadel Garona - France"
+            "alt": "Courts in Padel Garona - France"
           }
          
         ],
