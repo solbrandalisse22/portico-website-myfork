@@ -12,7 +12,7 @@ interface Props {
 
 }
 
-const { language, title, subtitle, complementsItems } = Astro.props;
+const { language, title, subtitle, complementsItems = [] } = Astro.props;
 const i18n = getI18N({ language });
 
 const id = id || i18n.PAGES.HOME.COMPLEMENTS_SECTION.ID 
