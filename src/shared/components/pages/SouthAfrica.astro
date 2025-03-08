@@ -17,7 +17,7 @@ import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteS
 import { type Photo } from "@/types/types.ts";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
-import NormativeLogosZA from "@/shared/components/sections/NormativeLogosZA.astro";
+import NormativeLogosZA from "@/shared/components/sections/NormativeLogos.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Section from "@/shared/components/Section.astro";
 import Slider from "@/shared/components/sections/Slider.astro";
@@ -89,7 +89,9 @@ contactForm
     <SectionGraphicProcessZA language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} />
-    <NormativeLogosZA language={language} showInfo />
+    <NormativeLogosZA language={language} showInfo 
+   subtitle = {i18n.NORMATIVE_SECTION_LOGOS_ZA.SUBTITLE }
+/>
     <SectionCanopies
       video="/cubiertas-spot.webm"
       subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_ZA.SUBTITLE}
