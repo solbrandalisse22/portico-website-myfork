@@ -17,7 +17,7 @@ import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteS
 import { type Photo } from "@/types/types.ts";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
-import NormativeLogosUK from "@/shared/components/sections/NormativeLogosUK.astro";
+import NormativeLogosUK from "@/shared/components/sections/NormativeLogos.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Slider from "@/shared/components/sections/Slider.astro";
 
@@ -82,7 +82,10 @@ const posts = await response.json();
     <SectionGraphicProcessUK language={language} />
     <SectionInfiniteScroll language={language} />
     <SectionCourts language={language} heading2={ i18n.PAGES.HOME.COURTS_SECTION.TITLE_UK} />
-    <NormativeLogosUK language={language} showInfo />
+    <NormativeLogosUK language={language} showInfo 
+subtitle={i18n.NORMATIVE_SECTION_LOGOS_UK.SUBTITLE} 
+description={ i18n.NORMATIVE_SECTION_LOGOS_UK.DESCRIPTION}
+/>
     <SectionCanopies
       video="/cubiertas-spot.webm"
       subtitle={i18n.PAGES.HOME.CANOPIES_SECTION_UK.SUBTITLE}
