@@ -2282,7 +2282,7 @@
       "SUBTITLE": "Les dernières actualités de Portico Sport",
       "BUTTON": "Lire plus",
       "ROUTE": {
-        "LABEL": "Actualités",
+        "LABEL": "Nos actualités",
         "URL": "/actualites"
       },
       "POST_PAGE": {
@@ -2824,7 +2824,8 @@
       "URL":"/gr"  
       
     }
-  }  },
+  }, 
+    "ROUTE":{"LABEL":"À propos de nous"}  },
   "LOCALE_DATE": "fr-FR",
   "SITE": "https://www.porticosport.fr",
   "HEADER": {
