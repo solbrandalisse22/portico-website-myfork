@@ -3270,7 +3270,7 @@
       "SUBTITLE": "The latest news from Portico Sport",
       "BUTTON": "Read more",
       "ROUTE": {
-        "LABEL": "News",
+        "LABEL": "Our news",
         "URL": "/news"
       },
       "POST_PAGE": {
@@ -3874,7 +3874,11 @@
         "BREADCRUMB":"Padel Court Builders UAE",
         "URL":"/ae"
       }
-    }},
+    },
+  "ROUTE":{
+    "LABEL":"About us"
+  }
+  },
   "LOCALE_DATE": "en-US",
   "SITE": "https://www.porticosport.com",
   "HEADER": {
