@@ -14,6 +14,20 @@ const LINKS = [
     text: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
   },
   {
+    text: i18n.PAGES.ROUTE.LABEL,
+    children: [
+    {
+    href: i18n.PAGES.FACTORY.ROUTE.URL,
+    text: i18n.PAGES.FACTORY.ROUTE.LABEL,
+  },
+  {
+    href: i18n.PAGES.NEWS.ROUTE.URL,
+    text: i18n.PAGES.NEWS.ROUTE.LABEL,
+  }
+      
+    ],
+  },
+  {
     text: i18n.PAGES.COURTS.ROUTE.LABEL,
     children: [
       {
@@ -55,13 +69,13 @@ const LINKS = [
         href: i18n.PAGES.MINI_COURT.ROUTE.URL,
         text: i18n.PAGES.MINI_COURT.NAME,
         title: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
-      },
-    ],
-  },
-  {
+      },{
     href: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.URL,
     text: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.LABEL,
   },
+    ],
+  },
+  
   {
     href: i18n.PAGES.CANOPIES.ROUTE.URL,
     text: i18n.PAGES.CANOPIES.ROUTE.LABEL,
@@ -70,14 +84,7 @@ const LINKS = [
     href: i18n.PAGES.PROJECTS.ROUTE.URL,
     text: i18n.PAGES.PROJECTS.ROUTE.LABEL,
   },
-  {
-    href: i18n.PAGES.FACTORY.ROUTE.URL,
-    text: i18n.PAGES.FACTORY.ROUTE.LABEL,
-  },
-  {
-    href: i18n.PAGES.NEWS.ROUTE.URL,
-    text: i18n.PAGES.NEWS.ROUTE.LABEL,
-  },
+  
   {
     href: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.URL,
     text: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.LABEL,
