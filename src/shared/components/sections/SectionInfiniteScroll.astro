@@ -13,8 +13,9 @@ const i18n = getI18N({ language })
 <Section heading2={i18n.INFINITE_SCROLL.TITLE} >
 <Typography tag="p" type="primary" className="text-center mb-2 sm:mb-10 xs:mb-16" text={i18n.INFINITE_SCROLL.SUBTITLE}/>
 
-  <div class="logos items-center md:scale-[75%]">
+  <div class="logos items-center ">
     <a href="https://www.hexagoncup.com/" target="_blank"><LogoHexagonCup /></a>
+    <a href="https://www.head.com/"><img src="/public/head-logo.png" class="bg-white/70 p-2"/></a>
      <a href="https://www.repsol.com/" target="_blank"><LogoRepsol /></a>
      <a href="https://evenpadel.com/" target="_blank"><LogoEvenPadel /></a>
      <a href="https://www.mindspringpadel.com/" target="_blank"><LogoMinds /></a>
@@ -25,10 +26,8 @@ const i18n = getI18N({ language })
 <style>
   .logos {
     display: grid;
-    scale:75%;
-    grid-template-columns: repeat(3,minmax(120px,1fr));
-    gap:4rem;
- margin-top: -90px;
+    grid-template-columns: repeat(6,minmax(170px,1fr));
+    gap:2rem;
   }
 .cluster img {
 width:400px;
@@ -45,6 +44,7 @@ width:400px;
   }
 </style>
   
+
 
 
 
