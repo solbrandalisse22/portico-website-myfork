@@ -1,0 +1,89 @@
+---
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import { getI18N } from "@/shared/i18n/"
+import Button from '@/shared/components/Button.astro';
+
+interface Props {
+  language: string;
+}
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+
+
+---
+
+      <Section heading2={i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE} >
+  
+   
+      <Typography tag="div" className="mb-16 text-center" text={i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION} />
+    
+  
+      <Typography tag="h3" type="secondary" className="mb-16 text-center font-thin" text={i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE} />
+ <div class="grid grid-cols-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
+    <Button
+      class="button"
+      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.URL}
+      target="_self"
+      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TITLE}
+    >
+      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TEXT}
+    </Button>
+    <Button
+      class="button"
+      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.URL}
+      target="_self"
+      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TITLE}
+    >
+      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TEXT}
+    </Button>
+    <Button
+      class="button"
+      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.URL}
+      target="_self"
+      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TITLE}
+    >
+      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TEXT}
+    </Button>
+    <Button
+      class="button"
+      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.URL}
+      target="_self"
+      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TITLE}
+    >
+      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TEXT}
+    </Button>
+    <Button
+      class="button"
+      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.URL}
+      target="_self"
+      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TITLE}
+    >
+      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TEXT}
+    </Button>
+    <Button
+      class="button"
+      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.URL}
+      target="_self"
+      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TITLE}
+    >
+      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TEXT}
+    </Button>
+  </div>
+   </Section>
+  
+  
+
+
+<style>
+
+.button {
+    width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+</style>
