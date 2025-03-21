@@ -98,7 +98,7 @@ const posts = await response.json();
     buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
     urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}/>
     <Slider language={language} posts={posts} />
-  {language === "en" : && <SectionCountries language="en"/>}
+  {language === "en" && <SectionCountries language="en"/>}
     <SectionContact
       id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
       hiddenSubject
