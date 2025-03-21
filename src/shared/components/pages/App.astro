@@ -5,6 +5,7 @@ import Typography from "@/shared/components/ui/Typography.astro"
 import SectionIntro from "@/shared/components/sections/SectionIntro.astro"
 import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
+import SectionCountries from "@/shared/components/sections/CountriesSection.astro"
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
 import SectionComplements from "@/shared/components/sections/SectionComplements2.astro"
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
@@ -97,6 +98,7 @@ const posts = await response.json();
     buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
     urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}/>
     <Slider language={language} posts={posts} />
+  {language === "en" : && <SectionCountries language="en"/>}
     <SectionContact
       id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
       hiddenSubject
