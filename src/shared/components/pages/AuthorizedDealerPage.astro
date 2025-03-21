@@ -10,6 +10,7 @@ import { CountUp } from "@/shared/components/CountUp";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import ContactForm from "@/shared/components/forms/ContactForm.astro";
 import FeatureList from "@/shared/components/FeatureList.astro";
+import CountriesSection from "@/shared/components/sections/CountriesSection.astro"
 
 interface Props {
   language: string;
@@ -81,6 +82,11 @@ robots="no-index,nofollow"
       >
         <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
       </section>
+      {language === "en" && <CountriesSection showInfo language="en"
+subheading={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.TITLE}
+descriptionText={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.DESCRIPTION}
+subheading={i18n.PAGES.AUTHORIZED_DISTRIBUTOR.SUBTITLE} />
+}
       <SectionInfiniteScroll language={language} />
     </div>
   </main>
