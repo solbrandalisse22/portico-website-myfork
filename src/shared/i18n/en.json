@@ -305,7 +305,13 @@
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Building Padel Courts Around the World",
-        "PATH": "projects/gallery"
+        "PATH": "projects/gallery",
+         "COUNTRIES_SECTION":{
+        "ID":"countries",
+        "TITLE":"Portico Sport: Shaping the Future of Padel Worldwide",
+        "DESCRIPTION":"Portico Sport is expanding its reach across multiple countries. Explore our presence in different regions and learn more about our footprint in each location."
+       
+      },
       },
       "PROJECTS_SECTION_UK": {
         "ID": "projects",
