@@ -21,7 +21,12 @@ const subheading = showInfo ? subtitle || i18n.PAGES.HOME.COUNTRIES_SECTION.SUBT
 const descriptionText = showInfo ? description || i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION: null
 ---
 
-<Section heading2={heading2} >
+<Section  >
+ {
+    heading2 && (
+      <Typography tag="h2" className="mb-16 text-center" text={heading2} />
+    )
+  }
   {
     descriptionText && (
       <Typography tag="div" className="mb-16 text-center" text={descriptionText} />
