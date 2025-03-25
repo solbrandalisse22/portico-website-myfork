@@ -16,25 +16,25 @@ interface Props {
 const { showInfo, language, title, subtitle, description} = Astro.props
 const i18n = getI18N({ language })
 
-const heading2 = showInfo ? title || i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE : null
-const subheading = showInfo ? subtitle || i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE : null
-const descriptionText = showInfo ? description || i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION: null
+const heading2 = showInfo ? title : null
+const subheading = showInfo ? subtitle  : null
+const descriptionText = showInfo ? description : null
 ---
 
 <Section  >
  {
     heading2 && (
-      <Typography tag="h2" className="mb-16 text-center" text={heading2} />
+      <Typography tag="h2" className="mb-16 text-center" text={title} />
     )
   }
   {
     descriptionText && (
-      <Typography tag="div" className="mb-16 text-center" text={descriptionText} />
+      <Typography tag="div" className="mb-16 text-center" text={description} />
     )
   }
   {
     subheading && (
-      <Typography tag="div" type="primary" className="mb-16 text-center" text={subheading} />
+      <Typography tag="div" type="primary" className="mb-16 text-center" text={subtitle} />
     )
   }
 
