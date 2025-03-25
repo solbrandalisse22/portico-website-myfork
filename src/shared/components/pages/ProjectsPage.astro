@@ -6,7 +6,7 @@ import ProjectsClubsSection from "@/shared/components/sections/ProjectsClubsSect
 import ProjectsDetailed from "@/shared/components/ProjectsDetailed";
 import countries from "@/shared/data/countries.json";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
-
+import CountriesSection from "@/shared/components/sections/countriesSection.astro"
 interface Props {
   language: string;
 }
@@ -52,6 +52,11 @@ robots="no-index,nofollow"
           <ProjectsDetailed client:load />
           <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
         <!-- </div> -->
+ {language === "en" && <CountriesSection showInfo language="en"
+subheading={i18n.PAGES.PROJECTS_SECTION.TITLE}
+descriptionText={i18n.PAGES.PROJECTS_SECTION.DESCRIPTION}
+ />
+}
       </section>
     </div>
   </main>
