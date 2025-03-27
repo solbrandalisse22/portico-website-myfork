@@ -352,7 +352,7 @@ export default function MapProjects() {
                   {projectSelected.website && (
                     <div className="flex flex-col gap-2">
                       <h4 className="text-white text-xl font-bold">Website</h4>
-                      <a href={projectSelected.website} target="_blank" className="text-white text__glowing">
+                      <a href={projectSelected.website} target="_blank" rel="nofollow" className="text-white text__glowing">
                         {projectSelected.website}
                       </a>
                     </div>
