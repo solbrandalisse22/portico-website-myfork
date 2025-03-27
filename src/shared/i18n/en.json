@@ -700,22 +700,22 @@
        "SUBTITLE":"Explore our presence in key locations and learn more about our global reach.",
        "DESCRIPTION":"Portico Sport is present across various regions, delivering premium-quality padel solutions to sports facilities worldwide. From the heart of Europe to the vibrant fields of America, and across the dynamic landscapes of the Middle East and the Mediterranean Basin, our expertise helps shape the future of Padel.",
        "BUTTON_1":{
-        "TEXT":"Portico Sport Builders UK",
+        "TEXT":"Padel court installation:",
         "URL":"/uk",
         "TITLE":"Portico Sport UK"
        },
       "BUTTON_2":{
-        "TEXT":"Portico Sport Builders USA",
+        "TEXT":"Padel court construction",
         "URL":"/padel-court-usa",
         "TITLE":"Portico Sport USA"
        },
        "BUTTON_3":{
-        "TEXT":"Portico Sport Builders South Africa",
+        "TEXT":"Padel building company",
         "URL":"/za",
         "TITLE":"Portico Sport South Africa"
        },
        "BUTTON_4":{
-        "TEXT":"Portico Sport Builders Australia",
+        "TEXT":"Sports court contractors",
         "URL":"/AUS",
         "TITLE":"Portico Sport Australia"
        },
@@ -749,12 +749,12 @@
         "DESCRIPTION":"<p>Don't hesitate to reach out to our team for any inquiries regarding Padel courts and canopies! We’re here to address all your questions and assist you in selecting the ideal court to meet your requirements. Our expertise in Padel court construction in Oceania ensures that we have a dedicated group of professionals ready to design and create a customized court tailored specifically to your preferences. If you're interested in understanding the costs associated with building a Padel court in Oceania, we can provide detailed estimates to help you plan your project effectively. We look forward to hearing from you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales inquiries, please contact <p><a class=text__glowing href=mailto:contact-oceania@porticosport.com>contact-oceania@porticosport.com</a></p></p>"
       },
      "UK_ROUTE": {
-        "LABEL":"Padel court builders UK",
+        "LABEL":"Padel Court Installation",
         "URL":"/uk"
       },
       "USA_ROUTE": 
       {
-        "LABEL":"Padel court builders USA",
+        "LABEL":"Padel Court Construction",
         "URL":"/padel-court-usa"
       },
 
@@ -763,7 +763,7 @@
         "URL":"/oceania"},
       
        "ZA_ROUTE":{
-        "LABEL":"South Africa",
+        "LABEL":"Padel Building Company",
         "URL":"/za"
       },
       "AUS_ROUTE":{
@@ -1200,7 +1200,7 @@
      "DESCRIPTION":"<p>Portico Sport UK, based in Congleton near Manchester, serves as the operational hub for one of the leading Padel court builders in Ireland and the UK. With over 15 years of experience and a presence in more than 35 countries, Portico Sport is a global leader in Padel court manufacturing and construction. Our state-of-the-art manufacturing facility in Spain, allows us to deliver top-quality Padel courts and canopies with cutting-edge technology, ensuring the highest standards of durability and compliance with official regulations (NIDE 2004 Padel).</p><p>As a proud member of SAPCA, we provide a complete turnkey solution for clubs across Ireland and the UK, offering efficient project management and quick material delivery through our strategically located warehouse. Whether you're planning a small club or large facility, Portico Sport UK guarantees exceptional quality and precision in every project, making us your trusted partner for Padel court construction.</p>",
      "BUTTON": {
       "LABEL": "Discover our expertise at Portico Sport UK",
-    "TITLE":"Padel Court Builders",
+    "TITLE":"Padel court installation",
       "SRC": "/uk"
     
    }},
@@ -3866,13 +3866,13 @@
     },
      "UK": {
       "ROUTE":{
-      "BREADCRUMB":"Padel Court Builders UK",
+      "BREADCRUMB":"Padel court installation",
       "URL":"/uk"
     }},
     "USA": {
     "ROUTE":
     {
-      "BREADCRUMB":"Padel Court Builders USA",
+      "BREADCRUMB":"Padel court construction",
       "URL":"/padel-court-usa"
     }},
 
@@ -3882,11 +3882,11 @@
       "URL":"/oceania"}},
     
      "ZA":{"ROUTE":{
-      "BREADCRUMB":"Padel Court Builders South Africa",
+      "BREADCRUMB":"Padel Building Company",
       "URL":"/za"}
     },
     "AUS":{"ROUTE":{
-      "BREADCRUMB":"Padel Court Builders Australia",
+      "BREADCRUMB":"Sports Court Contractors",
       "URL":"/aus"
     }},
     "NZ": {"ROUTE":{
