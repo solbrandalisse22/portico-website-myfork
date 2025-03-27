@@ -1126,7 +1126,13 @@
           "question": "¿Cuáles son las canchas de pádel más duraderas en el mercado?",
           "answer": "Portico Sport es líder en innovación con modelos como Club Force 80 y Panoramic Force 80, que ofrecen una durabilidad excepcional. Estas canchas están diseñadas para resistir condiciones climáticas extremas, siendo ideales para diferentes entornos en México y asegurando un alto rendimiento y una larga vida útil."
         }]
-      },    
+      },  
+       "COUNTRIES_SECTION":{
+         "ID":"countries",
+         "TITLE":"Portico Sport en Latinoamérica: Transformando el padel con nuestras pistas",
+         "DESCRIPTION":"<p>Portico Sport también está presente en Latinoamérica, llevando la construcción de pistas de pádel a una región en constante crecimiento. Con nuestra experiencia y compromiso con la calidad, estamos contribuyendo al desarrollo de instalaciones deportivas de primer nivel en varios países de la región./p>",
+        "SUBTITLE":"Descubre nuestra presencia en Latinoamérica y cómo nuestras soluciones están transformando el pádel y las instalaciones deportivas."
+       },
         
       "CONTACT_SECTION": {
         "ID": "contacto",
