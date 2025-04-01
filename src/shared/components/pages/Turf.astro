@@ -1,0 +1,218 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import Typography from "@/shared/components/ui/Typography.astro"
+import Button from "@/shared/components/Button.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Section from "@/shared/components/Section.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import FeatureList from "@/shared/components/FeatureList.astro";
+import SliderProjects from "@/shared/components/sections/SectionSliderGallery.astro"
+import { type Photo } from "@/types/types.ts";
+
+
+interface Props {
+  language: string,
+  gallery: Photo[]
+}
+
+const { language, gallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+const colors = {
+  blue: "bg-blue-500 hover:bg-blue-700",
+  red: "bg-red-500 hover:bg-red-700",
+  green: "bg-green-800 hover:bg-green-900",
+  violet: "bg-violet-500 hover:bg-violet-700",
+  orange: "bg-orange-500 hover:bg-orange-700",
+  black: "bg-black hover:bg-gray-900",
+  clay: "bg-amber-800 hover:bg-amber-900",
+  pink: "bg-pink-500 hover:bg-pink-700",
+} as any;
+---
+
+<Layout
+  title={i18n.PAGES.TURF.SEO_TITLE}
+  description={i18n.PAGES.TURF.SEO_DESCRIPTION}
+  ogImage={i18n.PAGES.TURF.OG_IMG}
+  currentLocale={currentLocale}
+bgImage="public/varios/turf_2.webp"
+bgClass="brightness-50"
+  language={language}
+>
+ <main class="flex flex-col gradient-bg relative">
+    
+<div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    ><Typography tag="h1" className="mb-6 uppercase font-bold" text={i18n.PAGES.TURF.TITLE} responsive />
+    <Typography tag="div" className="text-center px-3 md:px-6 lg:px-24 xl:px-48" text={i18n.PAGES.TURF.SECTION_1.DESCRIPTION} responsive/>
+    <Typography tag="h2" className="text-center text-secondary " text={i18n.PAGES.TURF.SECTION_1.SUBTITLE} responsive/>
+    
+    </div>
+
+
+<div class="bg-main relative bg-background ">
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.TURF.ROUTE.LABEL, href: i18n.PAGES.TURF.ROUTE.URL },
+      ]}
+    />
+    
+<Section
+heading2={i18n.PAGES.TURF.SECTION_2.TITLE}>
+<Typography tag="div"className="text-center mb-16" text={i18n.PAGES.TURF.SECTION_2.DESCRIPTION} responsive/>
+
+<div class="grid grid-rows-2 ">
+
+<div class="flex flex-cols-2 items-center mb-16">
+    <div class="xl:w-1/2 items-start">
+ <Typography tag="h3" className="text-center font-bold text-secondary uppercase" text={i18n.PAGES.TURF.SECTION_2.ITEM_1.TITLE} responsive/>
+ <Typography tag="p" className="text-center font-bold" text={i18n.PAGES.TURF.SECTION_2.ITEM_1.DESCRIPTION} responsive/>
+
+ <FeatureList  list={i18n.PAGES.TURF.SECTION_2.ITEM_1.LIST} /></div>
+ <div class="lg:w-1/2 items-center">
+    <div class="flex-col gap-4 flex-1 text-center">
+    
+      <img src={i18n.PAGES.MINI_COURT.TURF_SECTION.IMAGE.src} class="aspect-video hidden object-cover turf-image" />
+    </div>
+    <div class="flex flex-col gap-4 flex-1">
+      
+          <div class="flex items-center flex-col justify-center">
+            <div class="flex gap-1 md:gap-4 justify-center items-center mb-4 max-w-[28rem] flex-wrap">
+              {
+                i18n.PAGES.TURF.SECTION_2.ITEM_1.TURF_SECTION.COLORS.map((item) => (
+                  <button name={`${i18n.PAGES.TURF.SECTION_2.ITEM_1.TURF_SECTION.ID}_${item.color}`} class={`rounded-full w-20 md:w-24 ${colors[item.color]} border text-white text-center text-sm md:text-base px-2 md:px-4 py-1`}>
+                    {item.name}
+                  </button>
+                ))
+              }
+            </div>
+            <img loading="lazy" id={i18n.PAGES.TURF.SECTION_2.ITEM_1.TURF_SECTION.ID} class="turf-image" src={i18n.PAGES.TURF.SECTION_2.ITEM_1.TURF_SECTION.IMAGE} alt={i18n.PAGES.TURF.SECTION_2.ITEM_1.TURF_SECTION.TITLE} />
+          </div>
+       
+    </div>
+  </div>
+      
+      
+ 
+</div>
+<div class="flex flex-cols-2 items-center">
+    <div class="xl:w-1/2">
+    <Typography tag="h3" className="text-center font-bold text-secondary uppercase" text={i18n.PAGES.TURF.SECTION_2.ITEM_2.TITLE} responsive/>
+    <Typography tag="p" className="text-center font-bold" text={i18n.PAGES.TURF.SECTION_2.ITEM_2.DESCRIPTION} responsive/>
+    <FeatureList list={i18n.PAGES.TURF.SECTION_2.ITEM_2.LIST} />
+</div>
+    <div class="lg:w-1/2">
+        <div class="flex-col gap-4 flex-1 text-center">
+        
+        </div>
+        <div class="flex flex-col gap-4 flex-1">
+          
+              <div class="flex items-center flex-col justify-center">
+         
+                <div class="flex gap-1 md:gap-4 justify-center items-center mb-4 max-w-[28rem] flex-wrap">
+                  {
+                    i18n.PAGES.TURF.SECTION_2.ITEM_2.TURF_SECTION.COLORS.map((item) => (
+                      <button name={`${i18n.PAGES.TURF.SECTION_2.ITEM_2.TURF_SECTION.ID}_${item.color}`} class={`rounded-full w-20 md:w-24 ${colors[item.color]} border text-white text-center text-sm md:text-base px-2 md:px-4 py-1`}>
+                        {item.name}
+                      </button>
+                    ))
+                  }
+                </div>
+                <img loading="lazy" id={i18n.PAGES.TURF.SECTION_2.ITEM_2.TURF_SECTION.ID} class="turf-image" src={i18n.PAGES.TURF.SECTION_2.ITEM_2.TURF_SECTION.IMAGE} alt={i18n.PAGES.TURF.SECTION_2.ITEM_2.TURF_SECTION.TITLE} />
+              </div>
+           
+        </div>
+      </div>
+         
+</div>
+
+
+</div>
+
+</Section>
+<Section  heading2={i18n.PAGES.TURF.SECTION_3.TITLE}>
+ <Typography tag="div" className="text-center" text={i18n.PAGES.TURF.SECTION_3.DESCRIPTION} responsive/>
+<div class="text-center bg-white/10 p-2 mb-16">
+   
+    <ul class={`flex flex-col gap-y-10 pl-4 font-thin text-base`}>
+        {
+          i18n.PAGES.TURF.SECTION_3.LIST.map((item: string) => (
+            <li class="flex items-left text-base lg:text-xl">
+              
+              <Typography tag="span" text={item} className="flex-1" responsive />
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <Typography tag="div" className="text-center mb-8" text={i18n.PAGES.TURF.SECTION_3.DESCRIPTION_2} responsive/>
+    
+    <Typography tag="h3" type="secondary" className="text-center mb-12" text={i18n.PAGES.TURF.SECTION_3.SUBTITLE} responsive/>
+   <div class="text-center ">
+    <Button
+    url={i18n.PAGES.TURF.SECTION_3.BUTTON.URL}
+    title={i18n.PAGES.TURF.SECTION_3.BUTTON.TITLE}
+  >
+    {i18n.PAGES.TURF.SECTION_3.BUTTON.TEXT}
+  </Button></div>
+</Section>
+
+<SliderProjects
+
+id={i18n.PAGES.TURF.ID}
+photos={gallery}
+offset={13}
+path={i18n.PAGES.TURF.GALLERY}
+
+/>
+  </div>
+</main>
+
+</Layout>
+
+<script>
+    document.addEventListener('click', (e: any) => {
+      if (e.target.tagName === 'BUTTON') {
+        const { name } = e.target as HTMLButtonElement;
+        const target = name.split('_')
+        const id = `#${target[0]}`
+        const color = target[1];
+        const $imageTurf = document.querySelector(id)
+        const $turf = document.querySelector('.turf-image');
+        if (!$imageTurf || !$turf) return;
+        $imageTurf.classList.remove('blue', 'violet', 'red', 'orange', 'green', 'clay', 'pink', 'black');
+        $turf.classList.remove('blue', 'violet', 'red', 'orange', 'green', 'clay', 'pink', 'black');
+        $imageTurf.classList.add(color);
+        $turf.classList.add(color);
+      }
+    });
+    
+  </script>
+  
+  <style>
+    .blue {
+      filter:hue-rotate(0deg);
+    }
+    .violet {
+      filter:hue-rotate(40deg);
+    }
+    .red {
+      filter:hue-rotate(120deg);
+    }
+    .orange {
+      filter:hue-rotate(150deg);
+    }
+    .green {
+      filter:hue-rotate(280deg);
+    }
+    .clay {
+      filter:hue-rotate(176deg);
+    }
+    .pink {
+      filter:hue-rotate(100deg);
+    }
+    .black {
+      filter:contrast(1.5) grayscale(1);;
+    }
+  </style>
