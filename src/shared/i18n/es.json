@@ -1987,7 +1987,7 @@
       },
        "SECTION_1":{
         "DESCRIPTION":"¡No todos los céspedes para pistas de pádel son iguales! Como expertos fabricantes de pistas de pádel, en Portico Sport trabajamos con los principales proveedores de césped artificial para ofrecer superficies de alto rendimiento, personalizables y diseñadas para garantizar durabilidad, excelente jugabilidad y un rebote de bola óptimo.",
-        "SUBTITLE":"<p>¿Quieres lo mejor para tu pista de pádel? </p><span>Creamos la superficie perfecta para tu pista, adaptándola a tus necesidades!</span>”
+        "SUBTITLE":"<p>¿Quieres lo mejor para tu pista de pádel? </p><span>Creamos la superficie perfecta para tu pista, adaptándola a tus necesidades!</span>"
        },
        "SECTION_2":{
         "TITLE":"Tipos de césped artificial para pádel",
@@ -2061,14 +2061,14 @@
         "LIST":[
           "<p><strong>1. Tratamiento anti-UV y resistencia a condiciones climáticas extremas</strong> para una mayor durabilidad</p>",
           "<p><strong>2. Fibras de polietileno de baja abrasión</strong> que aumentan la seguridad y prolongan la vida útil del césped</p>",
-          "<p><strong>3. Posibilidad de personalización en colores</strong> y tipos de fibra para un diseño único de la pista</p>”
+          "<p><strong>3. Posibilidad de personalización en colores</strong> y tipos de fibra para un diseño único de la pista</p>"
         ],
         "DESCRIPTION_2":"En Portico Sport, no solo construimos pistas de pádel, sino que creamos experiencias de juego excepcionales para todos dentro y fuera de ellas. Nuestra colaboración con los mejores fabricantes de césped nos permite garantizar la máxima calidad y soluciones personalizadas para cada proyecto. Ya sea que busques una pista en tonos clásicos como azul o verde, o un diseño completamente personalizado, hacemos realidad tu visión.",
         "SUBTITLE":"Haz que tu pista de pádel sea única y exclusiva con nuestro césped artificial",
         "BUTTON":{
-          “URL":"/contacto-cliente",
+          "URL":"/contacto-cliente",
           "TEXT":"¡Contacta con nosotros!",
-          “TITLE":"Contacta Portico sport "
+          "TITLE":"Contacta Portico sport "
         }
        }
     },
