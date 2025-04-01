@@ -1974,6 +1974,105 @@
         }
       ]
     },
+"TURF":{
+      "ID":"turf-section",
+      "SEO_TITLE": "Padel Court Turf | Portico Sport - High-Performance & Durable Surfaces",
+      "SEO_DESCRIPTION":"Discover high-performance padel court turf with Portico Sport. We partner with top manufacturers to offer durable, customizable surfaces for superior playability and optimal ball bounce.",
+      "OG_IMG": "https://www.porticosport.com/og/turf.webp",
+      "GALLERY":"turf/gallery",
+      "TITLE": "Césped artificial para pistas de pádel",
+      "ROUTE": {
+        "LABEL": "Turf",
+        "URL": "/turf"
+      },
+       "SECTION_1":{
+        "DESCRIPTION":"¡No todos los céspedes para pistas de pádel son iguales! Como expertos fabricantes de pistas de pádel, en Portico Sport trabajamos con los principales proveedores de césped artificial para ofrecer superficies de alto rendimiento, personalizables y diseñadas para garantizar durabilidad, excelente jugabilidad y un rebote de bola óptimo.",
+        "SUBTITLE":"<p>¿Quieres lo mejor para tu pista de pádel? </p><span>Creamos la superficie perfecta para tu pista, adaptándola a tus necesidades!</span>”
+       },
+       "SECTION_2":{
+        "TITLE":"Tipos de césped artificial para pádel",
+        "DESCRIPTION":"<p>Elegir el césped adecuado para una pista de pádel es clave para ofrecer el mejor juego y prolongar la vida útil de la instalación.</p> <p>En Portico Sport, contamos con dos tipos principales de césped artificial para pistas de pádel:</p>",
+        "ITEM_1":{
+          "TITLE":"Césped Recto",
+          "DESCRIPTION":"<p>Ideal para un<strong>juego más rápido y dinámico:</strong></p>",
+          "LIST":[
+            "<p><strong>Fibras monofilamento de alta densidad </strong> para mayor velocidad y precisión en el golpeo</p>",
+            "<p>Excelente bote de la pelota y <strong>uniformidad en el juego</strong></p>"
+          ],"TURF_SECTION":{ 
+            "ID": "straight-turf",
+              "IMAGE": "/courts-detail/turf-STX.webp",
+            
+              "COLORS": [{
+                "color": "blue",
+                "name": "Blue"
+                }, {
+                "color": "green",
+                "name": "Green"
+                }, {
+                "color": "orange",
+                "name": "Orange"
+              }]
+             
+            }
+          },
+        "ITEM_2":{
+          "TITLE":"Césped Rizado",
+          "DESCRIPTION":"<p>Ofrece una <strong>experiencia de juego más equilibrada:</strong></p>",
+          "LIST":[
+            "<p><strong>Fibras texturizadas y rizadas</strong>  que mejoran la tracción y estabilidad</p>",
+            "<p><strong>Menor velocidad de la bola</strong> para favorecer el control y el juego estratégico</p>"
+          ],"TURF_SECTION":{
+            "ID": "curled-turf",
+    
+      "IMAGE": "/courts-detail/turf-XN.webp",
+        
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blue"
+      }, {
+        "color": "green",
+        "name": "Green"
+      }, {
+        "color": "red",
+        "name": "Red"
+      }, {
+        "color": "violet",
+        "name": "Violet"
+      }, {
+        "color": "black",
+        "name": "Black"
+      }, {
+        "color": "clay",
+        "name": "Clay"
+      }, {
+        "color": "pink",
+        "name": "Pink"
+      }, {
+        "color": "orange",
+        "name": "Orange"
+      }]
+        }
+          
+          }
+       },
+       "SECTION_3":{
+        "TITLE":"La mejor elección en césped para pistas de pádel",
+        "DESCRIPTION_1":"Con años de experiencia en el diseño e instalación de pistas de pádel de calidad premium, sabemos que la elección del césped es fundamental para una experiencia de juego de alta calidad. Nuestras soluciones innovadoras garantizan el equilibrio perfecto entre velocidad, control y comodidad, permitiendo que los jugadores den lo mejor de sí mismos.",
+        "LIST":[
+          "<p><strong>1. Tratamiento anti-UV y resistencia a condiciones climáticas extremas</strong> para una mayor durabilidad</p>",
+          "<p><strong>2. Fibras de polietileno de baja abrasión</strong> que aumentan la seguridad y prolongan la vida útil del césped</p>",
+          "<p><strong>3. Posibilidad de personalización en colores</strong> y tipos de fibra para un diseño único de la pista</p>”
+        ],
+        "DESCRIPTION_2":"En Portico Sport, no solo construimos pistas de pádel, sino que creamos experiencias de juego excepcionales para todos dentro y fuera de ellas. Nuestra colaboración con los mejores fabricantes de césped nos permite garantizar la máxima calidad y soluciones personalizadas para cada proyecto. Ya sea que busques una pista en tonos clásicos como azul o verde, o un diseño completamente personalizado, hacemos realidad tu visión.",
+        "SUBTITLE":"Haz que tu pista de pádel sea única y exclusiva con nuestro césped artificial",
+        "BUTTON":{
+          “URL":"/contacto-cliente",
+          "TEXT":"¡Contacta con nosotros!",
+          “TITLE":"Contacta Portico sport "
+        }
+       }
+    },
+
     "CANOPIES": {
       "SEO_TITLE": "Cubiertas de pádel de alto rendimiento",
       "TYPE": "PRODUCT",
