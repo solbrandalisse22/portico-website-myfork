@@ -1965,7 +1965,7 @@
   "GALLERY": "turf/gallery",
   "TITLE": "Gazon pour terrain de padel",
   "ROUTE": {
-    "LABEL": "Turf",
+    "LABEL": "Gazon",
     "URL": "/turf"
   },
   "SECTION_1": {
@@ -1976,7 +1976,7 @@
     "TITLE": "Types de gazon artificiel pour terrain de padel",
     "DESCRIPTION": "<p>Le choix du bon <strong>gazon pour terrain de padel</strong> peut avoir un impact significatif sur le jeu et prolonger la durée de vie de votre terrain.</p><p>Nous proposons deux principaux types de <strong>gazon artificiel</strong> pour terrains de padel :</p>",
     "ITEM_1": {
-      "TITLE": "Straight Turf",
+      "TITLE": "Gazon droit",
       "DESCRIPTION": "<p>Conçu pour un <strong>jeu plus rapide et plus dynamique</strong>, ce gazon offre :</p>",
       "LIST": [
         "<p><strong>Fibres monofilament droites à haute densité</strong> pour une meilleure vitesse et un contrôle optimal</p>",
@@ -1984,7 +1984,7 @@
       ],
       "TURF_SECTION": {
         "ID": "straight-turf",
-        "TITLE": "Straight Turf",
+        "TITLE": "Gazon droit",
         "DESCRIPTION": "Système de gazon artificiel de pointe composé de fibres droites",
         "IMAGE": "/courts-detail/turf-STX.webp",
         "COLORS": [{
@@ -2000,7 +2000,7 @@
       }
     },
     "ITEM_2": {
-      "TITLE": "Curled Turf",
+      "TITLE": "Gazon bouclé",
       "DESCRIPTION": "<p>Offre une <strong>expérience de jeu équilibrée</strong>, avec :</p>",
       "LIST": [
         "<p><strong>Fibres texturées et bouclées</strong> améliorant l'adhérence et la stabilité</p>",
@@ -2008,7 +2008,7 @@
       ],
       "TURF_SECTION": {
         "ID": "curled-turf",
-        "TITLE": "Curled Turf",
+        "TITLE": "Gazon bouclé",
         "DESCRIPTION": "Un système de gazon artificiel combinant des fibres bouclées et texturées",
         "IMAGE": "/courts-detail/turf-XN.webp",
         "COLORS": [{
@@ -2040,7 +2040,7 @@
     }
   },
   "SECTION_3": {
-    "TITLE": "Meilleure option pour un gazon de terrain de padel",
+    "TITLE": "Meilleure option pour le gazon de terrain de padel",
     "DESCRIPTION_1": "Forts de notre expérience dans la conception et l’installation de terrains de padel de classe mondiale, nous savons que le choix du bon gazon est essentiel pour une expérience de jeu premium. Nos solutions innovantes assurent un équilibre parfait entre vitesse, contrôle et confort, permettant aux joueurs d’atteindre leur meilleur niveau.",
     "LIST": [
       "<p><strong>1. Traitement anti-UV et résistance aux intempéries</strong> pour une durabilité à long terme</p>",
@@ -2052,10 +2052,11 @@
     "BUTTON": {
       "URL": "/client-contact",
       "TEXT": "Contactez-nous dès aujourd’hui !",
-      "TITLE": "Discuter avec Portico Sport"
+      "TITLE": "Discutez avec Portico Sport"
     }
   }
 },
+
 
     "CANOPIES": {
       "SEO_TITLE": "Auvents de padel haute performance",
