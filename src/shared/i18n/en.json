@@ -3006,6 +3006,107 @@
         "alt": "Mobile court patented by Portico Sport"
       }]
     },
+     "TURF":{
+      "ID":"turf-section",
+      "SEO_TITLE": "Padel Court Turf | Portico Sport - High-Performance & Durable Surfaces",
+      "SEO_DESCRIPTION":"Discover high-performance padel court turf with Portico Sport. We partner with top manufacturers to offer durable, customizable surfaces for superior playability and optimal ball bounce.",
+      "OG_IMG": "https://www.porticosport.com/og/turf.webp",
+      "GALLERY":"turf/gallery",
+      "TITLE": "Padel Court Turf",
+      "ROUTE": {
+        "LABEL": "Turf",
+        "URL": "/turf"
+      },
+       "SECTION_1":{
+        "DESCRIPTION":"Not all padel court turfs are the same! As expert padel court builders, Portico Sport partners with leading turf manufacturers to provide high-performance, customizable padel court turf that ensures durability, superior playability, and optimal ball bounce.",
+        "SUBTITLE":"<p>Looking to upgrade your padel court? </p><span>Let’s create a custom playing surface that matches your vision!</span>"
+       },
+       "SECTION_2":{
+        "TITLE":"Types of artificial padel court turf",
+        "DESCRIPTION":"<p>Choosing the right <strong>padel court turf</strong>can significantly impact gameplay and extend the lifespan of your court.</p> <p>We offer two main types of <strong>artificial turf</strong> for padel courts:</p>",
+        "ITEM_1":{
+          "TITLE":"Straight Turf",
+          "DESCRIPTION":"<p>Designed for a <strong>faster and more dynamic game</strong>, this turf offers:</p>",
+          "LIST":[
+            "<p><strong>High-density straight monofilament fibers </strong>for enhanced speed and control</p>",
+            "<p><strong>Excellent ball bounce </strong>and consistency in play</p>"
+          ],"TURF_SECTION":{ 
+            "ID": "straight-turf",
+              "TITLE": "Straight Turf",
+              "DESCRIPTION": "Cutting-edge artificial turf system composed of straight fibers",
+              "IMAGE": "/courts-detail/turf-STX.webp",
+            
+              "COLORS": [{
+                "color": "blue",
+                "name": "Blue"
+                }, {
+                "color": "green",
+                "name": "Green"
+                }, {
+                "color": "orange",
+                "name": "Orange"
+              }]
+             
+            }
+          },
+        "ITEM_2":{
+          "TITLE":"Curled turf",
+          "DESCRIPTION":"<p>Provides a <strong>balanced playing experience</strong>, with:</p>",
+          "LIST":[
+            "<p><strong>Textured, curled fibers</strong> that improve grip and stability</p>",
+            "<p><strong>Lower ball speed</strong> for better control and strategic play</p>"
+          ],"TURF_SECTION":{
+            "ID": "curled-turf",
+            "TITLE": "Curled Turf",
+      "DESCRIPTION": "A system of artificial turf that combines curled textured fibers",
+      "IMAGE": "/courts-detail/turf-XN.webp",
+        
+      "COLORS": [{
+        "color": "blue",
+        "name": "Blue"
+      }, {
+        "color": "green",
+        "name": "Green"
+      }, {
+        "color": "red",
+        "name": "Red"
+      }, {
+        "color": "violet",
+        "name": "Violet"
+      }, {
+        "color": "black",
+        "name": "Black"
+      }, {
+        "color": "clay",
+        "name": "Clay"
+      }, {
+        "color": "pink",
+        "name": "Pink"
+      }, {
+        "color": "orange",
+        "name": "Orange"
+      }]
+        }
+          
+          }
+       },
+       "SECTION_3":{
+        "TITLE":"Best Option for Padel Court Turf",
+        "DESCRIPTION_1":"With years of experience in designing and installing world-class padel courts, we know that the right turf is essential for a premium playing experience. Our cutting-edge solutions ensure the perfect balance between speed, control, and comfort, allowing players to perform at their best.",
+        "LIST":[
+          "<p><strong>1. Anti-UV treatment and extreme weather resistance</strong> for long-term durability</p>",
+          "<p><strong>2. Low-abrasion polyethylene fibers</strong> for player safety and extended lifespan</p>",
+          "<p><strong>3. Customizable colors and fiber types</strong> to create a <strong>truly unique court design</strong></p>"
+        ],
+        "DESCRIPTION_2":"At Portico Sport, we don’t just build courts—we create exceptional playing experiences. Our collaboration with leading turf manufacturers guarantees premium quality and tailored solutions for any project. Whether you want a classic blue or green court or a bold, fully customized design, we bring your vision to life.",
+        "SUBTITLE":"Make your padel court one of a kind! ",
+        "BUTTON":{
+          "URL":"/client-contact",
+          "TEXT":"Contact us today!",
+          "TITLE":"chat with Portico sport "
+        }
+       }
+    },
     "CANOPIES": {
       "SEO_TITLE": "High-Performance Padel Canopies",
       "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
