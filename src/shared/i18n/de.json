@@ -1949,6 +1949,106 @@
         }
       ]
     },
+    "TURF": {
+  "ID": "turf-section",
+  "SEO_TITLE": "Gazon pour terrain de padel | Portico Sport - Surfaces performantes et durables",
+  "SEO_DESCRIPTION": "Découvrez un gazon haute performance pour terrains de padel avec Portico Sport. Nous collaborons avec les meilleurs fabricants pour offrir des surfaces durables et personnalisables, garantissant une jouabilité optimale et un excellent rebond de balle.",
+  "OG_IMG": "https://www.porticosport.com/og/turf.webp",
+  "GALLERY": "turf/gallery",
+  "TITLE": "Gazon pour terrain de padel",
+  "ROUTE": {
+    "LABEL": "Turf",
+    "URL": "/turf"
+  },
+  "SECTION_1": {
+    "DESCRIPTION": "Tous les gazons pour terrains de padel ne se valent pas ! En tant que spécialistes de la construction de terrains de padel, Portico Sport s'associe aux meilleurs fabricants de gazon pour fournir un gazon personnalisable et haute performance, assurant durabilité, excellente jouabilité et rebond optimal de la balle.",
+    "SUBTITLE": "<p>Vous souhaitez améliorer votre terrain de padel ?</p><span>Créons ensemble une surface de jeu sur mesure qui correspond à votre vision !</span>"
+  },
+  "SECTION_2": {
+    "TITLE": "Types de gazon artificiel pour terrain de padel",
+    "DESCRIPTION": "<p>Le choix du bon <strong>gazon pour terrain de padel</strong> peut avoir un impact significatif sur le jeu et prolonger la durée de vie de votre terrain.</p><p>Nous proposons deux principaux types de <strong>gazon artificiel</strong> pour terrains de padel :</p>",
+    "ITEM_1": {
+      "TITLE": "Straight Turf",
+      "DESCRIPTION": "<p>Conçu pour un <strong>jeu plus rapide et plus dynamique</strong>, ce gazon offre :</p>",
+      "LIST": [
+        "<p><strong>Fibres monofilament droites à haute densité</strong> pour une meilleure vitesse et un contrôle optimal</p>",
+        "<p><strong>Excellent rebond de balle</strong> et régularité du jeu</p>"
+      ],
+      "TURF_SECTION": {
+        "ID": "straight-turf",
+        "TITLE": "Straight Turf",
+        "DESCRIPTION": "Système de gazon artificiel de pointe composé de fibres droites",
+        "IMAGE": "/courts-detail/turf-STX.webp",
+        "COLORS": [{
+          "color": "blue",
+          "name": "Blue"
+        }, {
+          "color": "green",
+          "name": "Green"
+        }, {
+          "color": "orange",
+          "name": "Orange"
+        }]
+      }
+    },
+    "ITEM_2": {
+      "TITLE": "Curled Turf",
+      "DESCRIPTION": "<p>Offre une <strong>expérience de jeu équilibrée</strong>, avec :</p>",
+      "LIST": [
+        "<p><strong>Fibres texturées et bouclées</strong> améliorant l'adhérence et la stabilité</p>",
+        "<p><strong>Vitesse de balle réduite</strong> pour un meilleur contrôle et un jeu plus stratégique</p>"
+      ],
+      "TURF_SECTION": {
+        "ID": "curled-turf",
+        "TITLE": "Curled Turf",
+        "DESCRIPTION": "Un système de gazon artificiel combinant des fibres bouclées et texturées",
+        "IMAGE": "/courts-detail/turf-XN.webp",
+        "COLORS": [{
+          "color": "blue",
+          "name": "Blue"
+        }, {
+          "color": "green",
+          "name": "Green"
+        }, {
+          "color": "red",
+          "name": "Red"
+        }, {
+          "color": "violet",
+          "name": "Violet"
+        }, {
+          "color": "black",
+          "name": "Black"
+        }, {
+          "color": "clay",
+          "name": "Clay"
+        }, {
+          "color": "pink",
+          "name": "Pink"
+        }, {
+          "color": "orange",
+          "name": "Orange"
+        }]
+      }
+    }
+  },
+  "SECTION_3": {
+    "TITLE": "Meilleure option pour un gazon de terrain de padel",
+    "DESCRIPTION_1": "Forts de notre expérience dans la conception et l’installation de terrains de padel de classe mondiale, nous savons que le choix du bon gazon est essentiel pour une expérience de jeu premium. Nos solutions innovantes assurent un équilibre parfait entre vitesse, contrôle et confort, permettant aux joueurs d’atteindre leur meilleur niveau.",
+    "LIST": [
+      "<p><strong>1. Traitement anti-UV et résistance aux intempéries</strong> pour une durabilité à long terme</p>",
+      "<p><strong>2. Fibres en polyéthylène à faible abrasion</strong> pour la sécurité des joueurs et une durée de vie prolongée</p>",
+      "<p><strong>3. Couleurs et types de fibres personnalisables</strong> pour créer un <strong>terrain unique</strong></p>"
+    ],
+    "DESCRIPTION_2": "Chez Portico Sport, nous ne nous contentons pas de construire des terrains – nous créons des expériences de jeu exceptionnelles. Notre collaboration avec les meilleurs fabricants de gazon garantit une qualité supérieure et des solutions sur mesure pour chaque projet. Que vous souhaitiez un terrain classique bleu ou vert, ou un design audacieux et entièrement personnalisé, nous donnons vie à votre vision.",
+    "SUBTITLE": "Faites de votre terrain de padel un espace unique !",
+    "BUTTON": {
+      "URL": "/client-contact",
+      "TEXT": "Contactez-nous dès aujourd’hui !",
+      "TITLE": "Discuter avec Portico Sport"
+    }
+  }
+},
+
     "CANOPIES": {
       "SEO_TITLE": "Hochleistungs-Padel-Überdachungen",
       "SEO_DESCRIPTION": "Verbessern Sie Ihr Spiel mit unseren Hochleistungs-Überdachungen, die für Haltbarkeit und einzigartige Spielerfahrung konzipiert sind. Erfahren Sie mehr!",
