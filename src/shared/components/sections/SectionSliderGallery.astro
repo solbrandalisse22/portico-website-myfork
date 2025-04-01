@@ -1,0 +1,119 @@
+---
+import "photoswipe/style.css";
+
+interface Props {
+  id?:string;
+  photos?: Photo[];
+  offset?: number;
+  path?: string;
+}
+
+const {
+  
+  photos = [],
+  offset,
+  path = ""
+
+} = Astro.props;
+---
+  
+  
+  <div class="scroller mb-12">
+    <ul class="tag-list scroller_inner items-center">
+      {photos.slice(0,offset).map(({ src, width, height, alt }: Photo) => (
+          
+            <li>
+            <span
+              class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
+              href={`/${path}/${src}`}
+              target="_blank"
+              data-cropped="true"
+              data-pswp-width={width}
+              data-pswp-height={height}
+            >
+              <img
+                class="rounded-xl object-cover h-auto"
+                src={`/${path}/thumbnails/${src}`}
+                
+                alt={alt}
+                width="397"
+                height="264"
+              />
+       
+             
+            </span> </li>
+          
+        ))}
+    
+  </div>
+
+
+<style>
+.tag-list {
+  list-style: none;
+  margin: 0;
+  padding-inline: 0;
+}
+.tag-list li {
+  padding: 1rem 0rem;
+  background: current;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  opacity: 0.8;
+}
+
+.scroller {
+  max-width: calc(100% - 1px);
+}
+
+.scroller_inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller_inner {
+
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - .5rem));
+  }
+}
+
+</style>
+
+<script type="module">
+  document.addEventListener('astro:page-load', () => {
+    const scroller = document.querySelector(".scroller");
+  
+    function addAnimation() {
+      scroller.setAttribute("data-animated", true)
+      const scrollerInner = scroller.querySelector(".scroller_inner")
+      const scrollerContent = Array.from(scrollerInner.children)
+  
+      scrollerContent.forEach((item) => {
+        const clone = item.cloneNode(true)
+        clone.setAttribute("aria-hidden", true)
+        scrollerInner.appendChild(clone)
+      })
+    }
+  
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation()
+    }
+  })
+</script>
