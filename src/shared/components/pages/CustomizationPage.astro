@@ -8,13 +8,15 @@ import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import { type Photo } from "@/types/types";
 import SectionComplements from "@/shared/components/sections/SectionCustomization.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScrollCust.astro";
-import SliderProjects from "@/shared/components/sections/SectionSliderGallery.astro"
+import SliderProjects from "@/shared/components/sections/SectionSliderGallery.astro";
+import { type Photo } from "@/types/types.ts";
+
 interface Props {
   language: string;
-
+  gallery: Photo[]
 }
 
-const { language} = Astro.props;
+const { language, gallery} = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 
