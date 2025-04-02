@@ -365,7 +365,8 @@
         "ID": "complements",
         "TITLE": "Premium Padel Court Construction: Quality, Innovation & Customization",
         "DESCRIPTION":"Portico Sport stands as a trusted leader in Padel court manufacturing and installation, combining cutting-edge design with unmatched customization. Our courts feature galvanized steel structures, 10-12 mm tempered safety glass, and premium artificial turf. Beyond performance and durability, we offer extensive customization options, including bespoke court colors, engraved logos, screen-printed nets, integrated benches, and more—ensuring your padel court reflects your unique style and brand. Experience innovation tailored to you.",
-        "BUTTON":{
+       "GALLERY":"projects-customization/gallery", 
+       "BUTTON":{
           "LABEL":"Discover Customization Options",
           "TITLE":"Padel Court Builders | Contact",
           "URL":"/custom-padel-courts"
