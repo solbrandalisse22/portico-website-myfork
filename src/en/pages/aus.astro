@@ -2,7 +2,8 @@
 import Aus from "@/shared/components/pages/Australia.astro";
 import { LANGUAGES } from "@/shared/i18n/constants";
 import projectsGallery from "@/en/data/projects-gallery-aus.json"
+import gallery from "@/en/data/australia-gallery.json"
 
 ---
 
-<Aus language={LANGUAGES.EN} projectsGallery={projectsGallery}/>
+<Aus language={LANGUAGES.EN} projectsGallery={projectsGallery} gallery{gallery}/>
