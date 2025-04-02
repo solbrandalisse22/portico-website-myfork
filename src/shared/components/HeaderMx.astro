@@ -7,90 +7,95 @@ import { capitalize } from "@/libraries/utils";
 
 const { language } = Astro.props;
 const i18n = getI18N({ language });
-
 const LINKS = [
   {
-    
     text: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+  },
+  {
+    text: i18n.PAGES.ROUTE.LABEL,
+    children: [
+    {
+    href: i18n.PAGES.FACTORY.ROUTE.URL,
+    text: i18n.PAGES.FACTORY.ROUTE.LABEL,
+  },
+  {
+    href: i18n.PAGES.NEWS.ROUTE.URL,
+    text: i18n.PAGES.NEWS.ROUTE.LABEL,
+  }
+      
+    ],
   },
   {
     text: i18n.PAGES.COURTS.ROUTE.LABEL,
     children: [
       {
-        href: "https://www.porticosport.es/mobile",
+        href: i18n.PAGES.MOBILE_COURT.ROUTE.URL,
         text: i18n.PAGES.MOBILE_COURT.NAME,
         title: i18n.PAGES.MOBILE_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/panoramic",
+        href: i18n.PAGES.PANORAMIC_COURT.ROUTE.URL,
         text: i18n.PAGES.PANORAMIC_COURT.NAME,
         title: i18n.PAGES.PANORAMIC_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/tournament",
+        href: i18n.PAGES.TOURNAMENT_COURT.ROUTE.URL,
         text: i18n.PAGES.TOURNAMENT_COURT.NAME,
         title: i18n.PAGES.TOURNAMENT_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/club",
+        href: i18n.PAGES.CLUB_COURT.ROUTE.URL,
         text: i18n.PAGES.CLUB_COURT.NAME,
         title: i18n.PAGES.CLUB_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/club-force-80",
+        href: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.URL,
         text: i18n.PAGES.CLUB_FORCE_80_COURT.NAME,
         title: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/panoramic-force-80",
+        href: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.URL,
         text: i18n.PAGES.PANORAMIC_FORCE_80_COURT.NAME,
         title: i18n.PAGES.PANORAMIC_FORCE_80_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/single",
+        href: i18n.PAGES.SINGLE_COURT.ROUTE.URL,
         text: i18n.PAGES.SINGLE_COURT.NAME,
         title: i18n.PAGES.SINGLE_COURT.ROUTE.TITLE,
       },
       {
-        href: "https://www.porticosport.es/mini",
+        href: i18n.PAGES.MINI_COURT.ROUTE.URL,
         text: i18n.PAGES.MINI_COURT.NAME,
         title: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
-      },
-    ],
-  },
-  {
-    href: "https://www.porticosport.es/plataforma-elevada",
+      },{
+    href: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.URL,
     text: i18n.PAGES.ELEVATED_PLATFORM.ROUTE.LABEL,
   },
+    ],
+  },
+  
   {
-    href: "https://www.porticosport.es/cubiertas",
+    href: i18n.PAGES.CANOPIES.ROUTE.URL,
     text: i18n.PAGES.CANOPIES.ROUTE.LABEL,
   },
   {
-    href: "https://www.porticosport.es/proyectos",
+    href: i18n.PAGES.PROJECTS.ROUTE.URL,
     text: i18n.PAGES.PROJECTS.ROUTE.LABEL,
   },
+  
   {
-    href: "https://www.porticosport.es/nuestra-fabrica",
-    text: i18n.PAGES.FACTORY.ROUTE.LABEL,
-  },
-  {
-    href: "https://www.porticosport.es/noticias",
-    text: i18n.PAGES.NEWS.ROUTE.LABEL,
-  },
-  {
-    href: "https://www.porticosport.es/distribuidor-autorizado",
+    href: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.URL,
     text: i18n.PAGES.AUTHORIZED_DISTRIBUTOR.ROUTE.LABEL,
   },
   {
     text: i18n.PAGES.CONTACT.ROUTE.LABEL,
     children: [
       {
-        href: "https://www.porticosport.es/contacto-cliente",
+        href: i18n.PAGES.CLIENT_CONTACT.ROUTE.URL,
         text: i18n.PAGES.CLIENT_CONTACT.ROUTE.LABEL,
       },
       {
-        href: "https://www.porticosport.es/trabaja-con-nosotros",
+        href: i18n.PAGES.WORK_WITH_US.ROUTE.URL,
         text: i18n.PAGES.WORK_WITH_US.ROUTE.LABEL,
       },
     ],
