@@ -10,14 +10,16 @@ import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import { type Photo } from "@/types/types.ts";
 import SectionInfiniteScrollAus from "@/shared/components/sections/SectionInfiniteScrollAus.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import SliderProjects from "@/shared/components/sections/SectionSliderProjects";
 
 interface Props {
   language: string
   projectsGallery: Photo[]
+  gallery: Photo[]
 
 }
 
-const { language, projectsGallery} = Astro.props
+const { language, projectsGallery, gallery} = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
 
@@ -73,7 +75,14 @@ bgClass="brightness-50"
       buttonTitle={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.URL.TITLE}
       urlText={i18n.PAGES.SECTION_AUS.PROJECTS_SECTION.URL.LABEL}
     /> 
-<SectionInfiniteScrollAus />
+<SliderProjects
+
+id={i18n.PAGES.SECTION_AUS.ID}
+photos={gallery}
+offset={13}
+path={i18n.PAGES.AUS.GALLERY}
+
+/>
 
    
     <Section
