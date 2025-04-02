@@ -8,6 +8,7 @@ import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import { type Photo } from "@/types/types";
 import SectionComplements from "@/shared/components/sections/SectionCustomization.astro"
 import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScrollCust.astro";
+import SliderProjects from "@/shared/components/sections/SectionSliderGallery.astro"
 interface Props {
   language: string;
 
@@ -50,7 +51,14 @@ heading1={i18n.PAGES.CUSTOMIZATION.TITLE} className="uppercase">
          
           <Typography tag="div"  text={i18n.PAGES.CUSTOMIZATION.INTRO_SECTION.DESCRIPTION}  />
       </div>
-<SectionInfiniteScroll />
+<SliderProjects
+
+id={i18n.PAGES.CUSTOMIZATION.ID}
+photos={gallery}
+offset={13}
+path={i18n.PAGES.CUSTOMIZATION.GALLERY}
+
+/>
 <SectionComplements language={language}/>
 
 <div class="flex flex-wrap justify-center items-center m-auto md:w-[70%] xxl:w-[60%] p-5 bg-white/5 text-center">
