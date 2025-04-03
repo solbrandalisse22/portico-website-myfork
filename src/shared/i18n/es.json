@@ -1982,8 +1982,8 @@
       "GALLERY":"turf/gallery",
       "TITLE": "Césped artificial para pistas de pádel",
       "ROUTE": {
-        "LABEL": "Turf",
-        "URL": "/turf"
+        "LABEL": "Césped artificial",
+        "URL": "/césped-artificial"
       },
        "SECTION_1":{
         "DESCRIPTION":"¡No todos los céspedes para pistas de pádel son iguales! Como expertos fabricantes de pistas de pádel, en Portico Sport trabajamos con los principales proveedores de césped artificial para ofrecer superficies de alto rendimiento, personalizables y diseñadas para garantizar durabilidad, excelente jugabilidad y un rebote de bola óptimo.",
