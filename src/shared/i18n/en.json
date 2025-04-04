@@ -731,6 +731,11 @@
         "TEXT":"Padel Court Builders Irlanda",
         "URL":"/irl",
         "TITLE":"Portico Sport Irlanda"
+       },
+        "BUTTON_7":{
+        "TEXT":"Padel Court Builders Canadá",
+        "URL":"/ca",
+        "TITLE":"Portico Sport Canada"
        }
        
       },
