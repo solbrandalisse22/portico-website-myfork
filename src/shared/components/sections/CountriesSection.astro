@@ -10,10 +10,13 @@ interface Props {
   description?: string;
   title?: string;
   subtitle?: string;
+  buttonurl?: string;
+  buttontitle?: string;
+  buttontext?: string;
 
 }
 
-const { showInfo, language, title, subtitle, description} = Astro.props
+const { showInfo, language, title, subtitle, description, buttonurl, buttontitle, buttontext} = Astro.props
 const i18n = getI18N({ language })
 
 const heading2 = showInfo ? title : null
@@ -50,11 +53,11 @@ const descriptionText = showInfo ? description : null
     </Button>
     <Button
       class="button"
-      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.URL}
+      url={buttonurl || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.URL}
       target="_self"
-      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TITLE}
+      title={buttontitle || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TITLE}
     >
-      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TEXT}
+      {buttontext || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TEXT}
     </Button>
     <Button
       class="button"
