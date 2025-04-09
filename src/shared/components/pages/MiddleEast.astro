@@ -1,0 +1,186 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language, projectsGallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_ME} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_ME} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="projectsCa/gallery/Padel-Fvr-3.webp"
+bgClass="brightness-50"
+>
+    
+<main class="flex flex-col gradient-bg relative">
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4" >
+         <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_ME} responsive />
+    </div>
+<div class="bg-main relative bg-background">
+        
+    <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          {label: i18n.PAGES.SECTION_ME.ROUTE.LABEL, href: i18n.PAGES.SECTION_ME.ROUTE.URL },
+        ]}
+    />
+
+    <Section 
+         id={i18n.PAGES.SECTION_ME.ID} 
+         heading2={i18n.PAGES.SECTION_ME.SECTION_1.TITLE}>
+         <Typography tag="div" className="mb-6 text-center" text={i18n.PAGES.SECTION_ME.SECTION_1.DESCRIPTION}/>
+    </Section>
+
+    
+<Section
+
+heading2={i18n.PAGES.SECTION_ME.SECTION_2.TITLE}
+
+>
+<Typography tag="p" className="text-center mb-12" text={i18n.PAGES.SECTION_ME.SECTION_2.DESCRIPTION}/>
+<div class="grid lg:grid-cols-10 auto-rows-[25rem] gap-4">
+  <BentoItem
+    class="col-span-10 lg:col-span-4"
+    title={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_1.TITLE}
+  >
+    <div
+      slot="image"
+      class="background transition-scale absolute bottom-0 left-0 top-0
+      -z-10 h-full w-full bg-white/70
+      bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+      data-src="projectsMe/projects-ea11.webp"
+    >
+    </div>
+
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-lg"
+      set:html={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_1.DESCRIPTION}
+    />
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 lg:col-span-6"
+    title={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_2.TITLE}
+  >
+    <div
+      slot="image"
+      class="background transition-scale absolute bottom-0 left-0 top-0
+  -z-10 h-full w-full bg-white/70
+  bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+      data-src="projectsMe/turf_1.webp"
+    >
+    </div>
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-lg"
+      set:html={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_2.DESCRIPTION}
+    />
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 lg:col-span-6"
+    title={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_3.TITLE}
+  >
+    <div
+      slot="image"
+      class="background transition-scale absolute bottom-0 left-0 top-0
+      -z-10 h-full w-full bg-white/70
+      bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+      data-src="projectsMe/projects-ea4.webp"
+    >
+    </div>
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-lg"
+      set:html={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_3.DESCRIPTION}
+    />
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 lg:col-span-4"
+    title={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_4.TITLE}
+  >
+    <div
+      slot="image"
+      class="background transition-scale absolute bottom-0 left-0 top-0
+      -z-10 h-full w-full bg-white/70
+      bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+      data-src="/projectsMe/projectsCyprus-1.webp"
+    >
+    </div>
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-lg"
+      set:html={i18n.PAGES.SECTION_ME.SECTION_2.ITEM_4.DESCRIPTION}
+    />
+  </BentoItem>
+</div>
+</Section>
+ 
+           
+    <Section 
+         heading2={i18n.PAGES.SECTION_ME.SECTION_3.TITLE}>
+    <Typography tag="p" className="mb-12 text-center" text={i18n.PAGES.SECTION_ME.SECTION_3.DESCRIPTION}/>
+    
+
+</Section>
+<Typography tag="div" type="primary" className="text-center" text={i18n.PAGES.SECTION_ME.SECTION_3.SUBTITLE}/>
+    <ContactSectionEs language={language} 
+         button_url= {i18n.PAGES.SECTION_ME.CONTACT_SECTION.BUTTON.URL}
+         button_title= {i18n.PAGES.SECTION_ME.CONTACT_SECTION.BUTTON.TITLE}
+         button_text = {i18n.PAGES.SECTION_ME.CONTACT_SECTION.BUTTON.LABEL}     />
+        
+</div>
+        
+</main>
+</Layout>
+
+
+<script>
+    document.addEventListener("astro:page-load", () => {
+      const backgrounds = document.querySelectorAll(
+        ".background"
+      ) as NodeListOf<HTMLElement>;
+  
+      if (window.IntersectionObserver == null) {
+        backgrounds.forEach((bkg) => {
+          bkg.style.backgroundImage = "url('" + bkg.dataset.src + "')";
+        });
+        return;
+      }
+  
+      function handleIntersection(entries: IntersectionObserverEntry[]) {
+        entries.map((entry) => {
+          if (entry.isIntersecting) {
+            const target = entry.target as HTMLElement;
+            const { style, dataset } = target;
+            // Item has crossed our observation
+            // threshold - load src from data-src
+            style.backgroundImage = "url('" + dataset.src + "')";
+            // Job done for this item - no need to watch it!
+            observer.unobserve(entry.target);
+          }
+        });
+      }
+  
+      const observer = new IntersectionObserver(handleIntersection, {
+        rootMargin: "100px",
+      });
+  
+      backgrounds.forEach((bkg) => observer.observe(bkg));
+    });
+  </script>
