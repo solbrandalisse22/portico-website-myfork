@@ -24,6 +24,8 @@
       "SEO_DESCRIPTION_AE":"Portico Sport specializes in custom-designed padel courts in the UAE. Offering durable construction and professional installation for superior performance.",
        "SEO_TITLE_CA":"Padel Court Construction Canada | Portico Sport",
       "SEO_DESCRIPTION_CA":"Portico Sport, leading Padel court manufacturer in Canada, providing custom design, construction, and installation for durable, high-performance courts",
+       "SEO_TITLE_ME": "Padel Court Construction Middle East | Portico Sport",
+      "SEO_DESCRIPTION_ME": "Portico Sport, leading Padel court manufacturer in the Middle East, providing custom design, construction, and installation for durable, high-performance courts",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
       "SUBTITLE_UK": "Construction and Installation of Padel Courts and Canopies in UK",
@@ -41,6 +43,7 @@
       "TITLE_CY":"Padel Court Builders Cyprus",
       "TITLE_AE":"Padel courts United Arab Emirates",
       "TITLE_CA":"Padel court builder Canada",
+      "TITLE_ME":"Página Padel court supplier in Middle East",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contact us",
@@ -1503,6 +1506,59 @@
       "TITLE":"contact Portico Sport"
      }
     }
+  },
+    "SECTION_ME":{
+      "ID": "middle-east",
+      "ROUTE": {
+        "LABEL": "Middle East",
+        "URL": "/middle-east"
+      },
+    
+
+    "SECTION_1":{
+      "TITLE":"Build world-class padel courts in the Middle East with Portico Sport",
+      "DESCRIPTION":"<p>Padel is rapidly expanding across the Middle East, with world-class facilities emerging in cities like Dubai, Abu Dhabi, Riyadh, Jeddah, Dammam, and Kuwait City. As the sport gains momentum, choosing the right padel court supplier is key to ensuring a premium playing experience, long-term durability, and optimal performance.</p><p>At Portico Sport, we specialize in high-quality, custom padel court construction, offering turnkey solutions for luxury resorts, private clubs, and large-scale sports facilities. Whether you're looking for a <a href='https://www.porticosport.com/ae'>custom padel courts supplier in Dubai</a> or planning to launch a new facility in Saudi Arabia, our courts are engineered to withstand the region’s extreme climate while delivering top-tier performance.</p><p>From indoor and outdoor installations to mobile padel courts and smart tech integrations, we offer fully customized solutions that meet international standards of durability, safety, and aesthetics.</p>"
+    },
+    "SECTION_2":{
+      "TITLE":"Why choose Portico Sport for padel court construction in the Middle East?",
+      "DESCRIPTION":"With a commitment to fast installation, cutting-edge technology, and bespoke designs, Portico Sport is ready to partner with developers and investors to bring world-class padel courts to the Middle East.",
+      "ITEM_1":{
+        "TITLE":"Built for the Middle Eastern climate",
+        "DESCRIPTION":"The Middle East presents unique challenges for outdoor padel courts, from extreme heat to sand exposure. Our weather-resistant materials, anti-UV treatments, and durable construction ensure your courts maintain top performance in any condition. "
+      },
+      "ITEM_2":{
+        "TITLE":"Premium quality & full customization",
+        "DESCRIPTION":"We don’t just build padel courts—we create tailored playing experiences. As a <a href='https://www.porticosport.com/ae'>custom padel courts supplier in Saudi Arabia</a> and the wider region, we use high-performance artificial turf, robust glass, and top-grade steel frames. You can personalize your court with custom turf colors, lighting, and branded elements."
+      },
+      "ITEM_3":{
+        "TITLE":"Proven expertise in padel court construction",
+        "DESCRIPTION":"With a strong portfolio of <a href='https://www.porticosport.com/projects'>international padel court installations</a>, Portico Sport brings European expertise to the Middle East. From initial design to final installation, our skilled team ensures precision, efficiency, and superior quality in every project."
+      },
+      "ITEM_4":{
+        "TITLE":"Supporting the growth of padel in the region",
+        "DESCRIPTION":"The demand for padel courts in the UAE, Saudi Arabia, Qatar, Bahrain, and Oman is skyrocketing, with new clubs and facilities opening every year. By choosing Portico Sport as your trusted padel court supplier, you ensure your venue stands out with top-tier playability, durability, and aesthetics. "
+      }
+          
+    },
+    "SECTION_3":{
+      "TITLE":"Let’s Build the future of padel in the Middle East!",
+      "DESCRIPTION":"Are you looking to build a padel court in Dubai, Riyadh, or anywhere in the Middle East? Partner with Portico Sport to bring world-class padel facilities to the region.",
+      "SUBTITLE":"<strong>Contact us today to discuss your project and explore our premium padel court solutions!</strong>"
+    },
+    "CONTACT_SECTION":{
+     "ID":"contact",
+   
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Get a Quote Today!",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
+
   },
     "COURTS": {
       "ID": "courts",
