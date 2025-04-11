@@ -9,9 +9,11 @@ import AuthorBox from "@/shared/components/AuthorBox.astro";
 interface Props {
   language: string;
   slug: string;
+  BreadcrumLabel: string;
+  BreadcrumbUrl: string;
 }
 
-const { language, slug } = Astro.props;
+const { language, slug, BreadcrumbUrl, BreadcrumLabel } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 
@@ -44,7 +46,6 @@ const finalDate = convertDate(date);
   title={finalTitle}
   description={description}
   currentLocale={currentLocale}
-robots="index,follow"
   language={language}
   bgImage={image}
   ogImage={image}
@@ -69,8 +70,8 @@ robots="index,follow"
             href: i18n.PAGES.HOME.ROUTE.URL,
           },
           {
-            label: i18n.PAGES.NEWS.ROUTE.LABEL,
-            href: i18n.PAGES.NEWS.ROUTE.URL,
+            label: BreadcrumLabel,
+            href: BreadcrumbUrl,
           },
           {
             label: finalTitle,
