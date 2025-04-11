@@ -2386,6 +2386,42 @@
         "SUBTITLE": "Die neuesten Nachrichten von Portico Sport"
       }
     },
+    "PADEL_NEWS": {
+      "ID": "padel-news",
+      "SEO_TITLE": "Stay Updated with Latest Padel News around the world",
+      "SEO_DESCRIPTION":"Keep informed with Portico Sport, covering innovations, events, and developments in the world of padel courts. Read more to stay ahead!",
+      "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
+      "TITLE": "Padel News",
+      "TITLE_ALT": "Our last news",
+      "SUBTITLE": "The latest padel news around the world",
+      "BUTTON": "Read more",
+      "ROUTE": {
+        "LABEL": "Padel News",
+        "URL": "/padel-news"
+      },
+      "LIST": {
+        "TITLE": "News",
+        "SUBTITLE": "The latest padel news"
+      }
+    },
+    "PADEL_NEWS": {
+  "ID": "padel-news",
+  "SEO_TITLE": "Bleiben Sie auf dem Laufenden mit den neuesten Padel-News weltweit",
+  "SEO_DESCRIPTION": "Bleiben Sie informiert mit Portico Sport – wir berichten über Innovationen, Events und Entwicklungen in der Welt der Padelplätze. Lesen Sie weiter und bleiben Sie vorne!",
+  "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
+  "TITLE": "Padel Nachrichten",
+  "TITLE_ALT": "Unsere neuesten Nachrichten",
+  "SUBTITLE": "Die neuesten Padel-Nachrichten aus aller Welt",
+  "BUTTON": "Mehr erfahren",
+  "ROUTE": {
+    "LABEL": "Padel Nachrichten",
+    "URL": "/padel-nachrichten"
+  },
+  "LIST": {
+    "TITLE": "Nachrichten",
+    "SUBTITLE": "Die neuesten Padel-Nachrichten"
+  }
+},
     "AUTHOR": {
       "ID": "author",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
