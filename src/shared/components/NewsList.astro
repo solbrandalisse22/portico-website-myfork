@@ -3,7 +3,7 @@ import { getI18N } from "@/shared/i18n";
 import CardItem from "./CardItem.astro";
 import Section from "@/shared/components/Section.astro";
 
-const { heading, posts, subheading, language } = Astro.props;
+const { posts, language, title, CardItemUrl } = Astro.props;
 const i18n = getI18N({ language })
 
 interface Props {
@@ -11,6 +11,9 @@ interface Props {
   subheading?: string;
   posts: any[];
   language: string;
+  title: string;
+
+  CardItemUrl: string;
 }
 
 const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n.LOCALE_DATE, {
@@ -22,8 +25,8 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
 ---
 
 <Section
-  heading={heading || i18n.PAGES.NEWS.LIST.TITLE}
-  subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}
+  heading={ title}
+ 
 >
   <div class="list flex flex-col gap-16 lg:flex-row lg:gap-8">
     {
@@ -34,7 +37,7 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
           image={
             post._embedded?.["wp:featuredmedia"]?.[0]?.["media_details"]?.["sizes"]?.["medium"]?.["source_url"]
           }
-          link={`${i18n.PAGES.NEWS.ROUTE.URL}/${post.slug}`}
+          link={`${CardItemUrl}/${post.slug}`}
           date={transformedDate(post.date)}
           description={post.description}
         />
