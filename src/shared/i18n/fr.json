@@ -2394,6 +2394,24 @@
         "SUBTITLE": "Les dernières actualités de Portico Sport"
       }
     },
+    "PADEL_NEWS": {
+  "ID": "padel-news",
+  "SEO_TITLE": "Restez informé avec les dernières actualités padel dans le monde",
+  "SEO_DESCRIPTION": "Restez à jour avec Portico Sport : innovations, événements et nouveautés dans l’univers des courts de padel. Lisez-en plus pour garder une longueur d'avance !",
+  "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
+  "TITLE": "Actualités Padel",
+  "TITLE_ALT": "Nos dernières actualités",
+  "SUBTITLE": "Les dernières actualités padel dans le monde",
+  "BUTTON": "En savoir plus",
+  "ROUTE": {
+    "LABEL": "Actualités Padel",
+    "URL": "/actualites-padel"
+  },
+  "LIST": {
+    "TITLE": "Actualités",
+    "SUBTITLE": "Les dernières actualités padel"
+  }
+},
     "AUTHOR": {
       "ID": "author",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
