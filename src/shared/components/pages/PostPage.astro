@@ -40,6 +40,33 @@ const {name: authorName, description: authorDescription, simple_local_avatar, sl
 const { sameAs: socialMedia } = schema?.["@graph"]?.slice(-1)[0] || {};
 const finalTitle = title || rendered;
 const finalDate = convertDate(date);
+
+const newArticleSchema = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": title,
+  "datePublished": finalDate,
+  "author": {
+    "@type": "Person",
+    "name": authorName,
+    "url": `https://porticosport.com${i18n.PAGES.AUTHOR.ROUTE.URL}/${authorSlug}`,
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Portico Sport",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://porticosport.com/logo.png",
+    },
+  },
+  "image": [image],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://porticosport.com/padel-news/${slug}`,
+  },
+};
+
+let schemaArticle = newArticleSchema;
 ---
 
 <Layout
@@ -96,7 +123,7 @@ const finalDate = convertDate(date);
     </div>
   </i>
 </Layout>
-
+<script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} ></script>
 <style>
   .date::before {
     content: " - ";
