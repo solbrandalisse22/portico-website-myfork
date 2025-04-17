@@ -1581,6 +1581,61 @@
     }
 
   },
+    "SECTION_IND": {
+      "ID": "india",
+      "ROUTE": {
+        "LABEL": "India",
+        "URL": "/ind"
+      },
+    "SECTION_1":{
+      "TITLE":"Padel court construction in India – Built to perform, designed to impress",
+      "DESCRIPTION":"<p>Padel is gaining momentum across India, with more clubs, schools, and developers recognising its potential as a dynamic, social sport. Cities like Mumbai, Delhi, Bengaluru, Hyderabad, and Pune are seeing rising demand for high-quality padel courts that meet international standards.</p><p>At Portico Sport, we’re proud to support this exciting growth with world-class padel court construction solutions. With a strong legacy of international installations and a global reputation for quality, we’re ready to bring our expertise to India—offering custom-built courts that reflect the energy, diversity, and climate of the subcontinent.</p>",
+    "BUTTON":{
+      "LABEL":"Request a free consultation",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+    }
+    },
+    "SECTION_2":{
+    "TITLE":"Building the future of padel in India",
+    "DESCRIPTION":"<p>From the coasts of Goa to the foothills of the Himalayas, India’s varied climate presents unique challenges for outdoor sports infrastructure. Our courts are engineered to endure these conditions, using weather-resistant, European-certified materials to ensure long-term durability, maximum comfort, and top-tier playability.</p><p>As a trusted padel court supplier, we offer excellence at every stage—from design and manufacturing to logistics and support. All our courts are 100% manufactured in-house at our European facility, giving us full control over quality, finish, and precision. And with optimised shipping to India, we guarantee a smooth, cost-efficient delivery ready for fast, reliable installation.</p>"
+    },
+    "SECTION_3":{
+      "TITLE":"What makes our padel courts the right choice for India?",
+    "ITEM_1":"Tailored for India",
+    "DESCRIPTION_1":" Engineered for local climate and usage needs",
+    "ITEM_2":"European-certified quality",
+    "DESCRIPTION_2":"Anti-UV turf, corrosion-resistant steel, and premium glass",
+    "ITEM_3":"Fully customisable",
+    "DESCRIPTION_3":"Turf colours, branding, panoramic or standard courts",
+    "ITEM_4":"Optimised international logistics",
+    "DESCRIPTION_4":"Fast and affordable shipping to India",
+    "ITEM_5":"End-to-end service",
+    "DESCRIPTION_5":"From design and production to on-site coordination",
+    "ITEM_6":"Global expertise",
+    "DESCRIPTION_6":"Over 30 countries trust our team and technology"
+  
+  },
+  "SECTION_4":{
+    "TITLE":"Leading padel court constructors in India",
+    "DESCRIPTION":"<p>Portico Sport is more than just a supplier—we’re experts in padel court construction with a proven track record in Europe, the Middle East, and Asia. Now, we’re bringing that experience to India with tailored solutions and efficient timelines.</p><p>We work with developers, hotel chains, real estate groups, schools, and sports entrepreneurs to build courts that elevate facilities and attract a growing community of padel enthusiasts. As the sport expands in India, having the right court partner is essential—and that’s where we come in.</p><p>Our turnkey service covers every step: concept, design, manufacturing, logistics, and post-installation support. Thanks to our deep knowledge of the sport and extensive international experience, we ensure each project is delivered with precision, style, and performance.</p><p><strong>You bring the vision—we bring it to life.</strong></p>",    
+    "BUTTON": {
+     "URL":"/projects",
+     "TITLE":"Explore Portico Sport projects",
+     "LABEL":"Discover our global projects"
+    }
+  },
+  "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Ready to start building a padel court in India?",
+     "DESCRIPTION":"<p>Our mission is simple: to help build <strong>India’s future in padel</strong>with infrastructure that is reliable, aesthetic, and truly world-class.</p><p><strong>Contact us</strong> to learn more about our padel court solutions tailored for India.</p><p>Let’s make India a new hub for world-class padel.</p>",
+     "BUTTON":{
+      "LABEL":"Let's talk!",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
+  },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
