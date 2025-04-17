@@ -61,9 +61,9 @@
       },
       "INTRO_SECTION_UK": {
         "ID": "intro",
-        "TITLE": "Padel Court Manufacturers and installers",
-        "DESCRIPTION": "<p>Located in Congleton, near Manchester, our office and warehouse serve as the hub for our operations, positioning us as one of the leading padel court manufacturers in UK. From here, we collaborate with our expert team on growing padel across every corner of the UK.</p><p>Our strategically located warehouse facilitates efficient material shipping processes, both domestically and to neighbouring countries, enabling us to swiftly deliver our products and services to clients.</p><p>Based in Spain, Portico Sport is one of the <strong>leading builders of premier Padel courts and installation of canopies globally</strong>. The company counts with more than 15 years of experience in the industry, presence <strong>in over 35 countries and +4,000 courts installed</strong>.</p><p>At Portico Sport UK, our commitment to excellence drives us to continually enhance our offerings, ensuring quality and superior customer service. As one of the top Padel court builders in the UK, our engineering expertise enables us to provide a complete turnkey solution, combining courts and canopies with <strong>100% in-house</strong> design and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong>, in Spain, expanding over 10,000 square meters making it the he largest and most <strong>technologically advanced</strong> Padel court manufacturer in the industry. With the latest technology and fully in-house production, we deliver custom-built Padel courts and canopies across the UK.</p>",
-        "EMAIL_CONTACT_TITLE": "Our team at your disposal",
+        "TITLE": "Padel Court Manufacturers and installers in UK",
+"DESCRIPTION":"<p>Located in Congleton, near Manchester, our UK office and warehouse serve as the hub for our operations—positioning  us as one of the leading padel court suppliers in the UK . From here, we collaborate with our expert team on growing padel across every corner of the UK.</p><p>Our strategically located warehouse facilitates efficient material shipping processes, both domestically and to neighbouring countries, enabling us to swiftly deliver our products and services to clients.</p><p>Based in Spain, Portico Sport is one of the <strong>leading builders of premier padel courts and installation of canopies globally</strong>. The company counts with more than 15 years of experience in the industry, presence <strong>in over 35 countries and +4,000 courts installed.</strong></p><p>At Portico Sport UK, we combine this international know-how with local insight, delivering the high-quality standards expected from a top-tier padel court supplier in the UK.  Our engineering expertise enables us to provide a complete turnkey solution, combining courts and canopies with<strong> 100% in house</strong> design and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong>, in Spain, expanding over 10,000 square meters making it <strong>the largest and most technologically advanced</strong>  padel court manufacturer in the industry. With the latest technology and fully in-house production, we deliver custom-built padel courts and canopies across the UK.</p>",        
+"EMAIL_CONTACT_TITLE": "Our team at your disposal",
         "SALES_EMAIL": "For sales queries please contact <a class=text__glowing href=mailto:sales@porticosport.uk class=text-primary>sales@porticosport.uk</a>"
       },
       "INTRO_SECTION_USA": {
@@ -127,7 +127,8 @@
       },
       "GRAPHIC_PROCESS_SECTION_UK": {
         "TITLE": "Padel court builders in UK",
-        "DESCRIPTION": "<p>At Portico Sport, we take pride in being experienced Padel court builders, delivering exceptional installations throughout the UK, including major cities such as London, Manchester, Birmingham, Cork, Gloucester and Wakefield. Our team focuses on creating strong, lasting relationships with our clients by offering bespoke solutions from start to finish.</p><p>Thanks to our dedication and expertise, we have established key partnerships with market leaders in UK like Rocket Padel, Game4Padel, and The Padel Club. We specialize in customized designs, tailored financing options, and high-quality Padel courts that meet your unique requirements</p><p>Our team provides customised designs, tailored financing options, and premium quality Padel courts and canopies that meet your unique requirements. With Portico Sport UK, you’ll always have support, including post-installation, ensuring long-term satisfaction and success.</p>"
+        "DESCRIPTION":"<p>At Portico Sport, we take pride in being experienced padel court builders and suppliers, delivering exceptional installations throughout the UK, including key cities such as London, Manchester, Birmingham, Cork, Gloucester and Wakefield. Our team focuses on creating strong, lasting relationships with our clients by offering bespoke solutions from initial concept to final delivery.</p><p>Thanks to our dedication and technical expertise, we’ve formed strong partnerships with leading UK operators such as Rocket Padel, Game4Padel, and The Padel Club. We offer custom-designed courts, flexible financing options, and premium-quality materials to meet each client’s unique needs.</p><p>Portico Sport is also recognized as a trusted padel court event supplier in the UK, providing flexible and durable solutions for temporary or permanent installations at events, exhibitions, and promotional activations.</p><p>With every project, our clients benefit from complete support—including post-installation service—to ensure long-term success and satisfaction.</p>"
+
       },
       "GRAPHIC_PROCESS_SECTION_USA": {
         "TITLE": "Padel court builders in USA",
@@ -457,7 +458,7 @@
       "COMPLEMENTS_SECTION_UK": {
         "ID": "complements",
         "TITLE": "Trusted Padel Court Manufacturers in the UK: Quality & Innovation",
-        "SUBTITLE": "A Premier Padel Court Company in the UK.",
+        "SUBTITLE": "As a premier padel court company and padel court supplier in the UK, we provide customised designs while ensuring that our courts are adapted to the local climate and built to withstand frequent use, whether for private clients, sports clubs, or public facilities.",
         "ITEMS": {
           "ITEM_1": {
             "TITLE": "Foundation and platforms",
@@ -483,6 +484,12 @@
             "TITLE": "Customize your court",
             "DESCRIPTION": "<strong>TAILOR YOUR COURT TO PERFECTION:</strong> From integrated benches and engraved corner logos to custom screen-printed nets, we offer a range of bespoke features to personalise your padel court."
           }
+        },
+        "BUTTON":
+        {
+        "TITLE":"Customize your court",
+        "LABEL":"Explore Custom Options",
+        "URL":"https://www.porticosport.com/custom-padel-courts"
         }
       },
       "COMPLEMENTS_SECTION_OCEANIA": {
@@ -711,7 +718,8 @@
        "TITLE":"Portico Sport Worldwide: Where you can find us",
        "SUBTITLE":"Explore our presence in key locations and learn more about our global reach.",
        "DESCRIPTION":"<p>Portico Sport is present across the globe. From the heart of Europe to the Middle East, the Mediterranean Basin, and the Americas, we supply padel courts that meet the demands of diverse environments and conditions.</p><p>Our international team is experienced in adapting designs to local climates, regulations, and cultural preferences—delivering padel projects that perform beautifully, anywhere in the world.</p>",
-       "BUTTON_1":{
+       "DECRIPTION_USA":"<p>Portico Sport is present across various regions, delivering premium-quality padel solutions to sports venues worldwide. From the heart of Europe to the Americas, the Middle East, and the Mediterranean Basin, we shape the future of padel with every project.</p>",       
+"BUTTON_1":{
         "TEXT":"Padel Court Builders UK",
         "URL":"/uk",
         "TITLE":"Portico Sport UK"
@@ -757,7 +765,7 @@
         "IMAGE": "/pista-hexagon-contact.webp"
       },
       "CONTACT_SECTION_UK": {
-        "DESCRIPTION": "<p>Don't hesitate to contact our UK team of experts for any information you need about Padel courts and canopies!We’re here to answer all your questions and guide you in finding the perfect Padel court to suit your needs. If you're interested, our team will design and build a custom Padel court tailored to your preferences and specifications. Additionally, if you're curious about how much cost to build a Padel court in the UK, we can provide detailed insights to help you plan your project. We look forward to hearing from you!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales inquiries, please contact <a class=text__glowing href=mailto:sales@porticosport.uk>sales@porticosport.uk</a></p>"
+        "DESCRIPTION": "<p>Looking to build a custom court in the UK? Interested in the cost of building a padel court in the UK or need guidance on choosing the right model? Our team is here to help—from project planning and design to final installation.</p><p>Contact our UK team today to speak with an expert and explore the best options for your project. Whether you need a panoramic court, a bespoke tournament facility, or a court for your next event, Portico Sport is your reliable padel court partner in the UK.</p><p class=text-lg text-pretty font-thin text-current text-left>For sales inquiries, please contact <a class=text__glowing href=mailto:sales@porticosport.uk>sales@porticosport.uk</a></p>"
       },
       "CONTACT_SECTION_USA": {
         "DESCRIPTION": "<p>Feel free to reach out to our team of experts for any information on Padel courts and canopies! We’re here to answer all your questions and guide you in finding the perfect court to suit your needs. Moreover, we specialize in Padel court construction in the USA, with a dedicated team of professionals ready to design and build a customized court tailored to your preferences and specifications. If you're curious about Padel court construction cost in the USA, we can provide detailed estimates to help you plan your project effectively. We look forward to assisting you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales queries please contact <a class=text__glowing href=mailto:info@porticosport.us>info@porticosport.us</a></p>"
