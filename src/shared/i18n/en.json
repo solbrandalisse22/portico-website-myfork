@@ -68,8 +68,8 @@
       },
       "INTRO_SECTION_USA": {
         "ID": "intro",
-        "TITLE": "Padel Court Manufacturers and installers",
-        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies manufacturers globally</strong>. With 15 years of experience in the industry, we have a <strong>presence in over 35 countries and have installed more than 4,000 courts worldwide</strong>. From Europe to the USA and beyond, we deliver our world-class Padel solutions across the globe, bringing our expertise from Spain to clients in every corner of the world.</p><p>Portico Sport is synonymous with quality and excellence in customer service. Our engineering expertise allows us to offer a complete turnkey solution, combining courts and canopies with <strong>100% in-house</strong> design and manufacturing.</p><p>In 2023, we inaugurated <strong>a new manufacturing site</strong> spanning over 110,000 square feet, making it the largest and most <strong>technologically advanced</strong> in the industry. We are also expanding our presence in the USA, bringing our world-class Padel solutions to a new and growing market with a special focus on Padel court construction in the USA.</p><p>Portico Sport has been operating in the United States since 2021 when the first court was shipped to New York. Today, we have established several facilities in New York, Texas, and Florida, and we are continuing to expand our presence across the country.</p>"
+        "TITLE": "Padel Court Manufacturers and installers in the USA",
+        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading Padel courts & canopies manufacturers globally</strong>. With over 15 years of industry experience, <strong>a presence in more than 35 countries, and more than 4,000 courts worldwide</strong>, we are recognized as a trusted padel court supplier across Europe, the USA, and beyond.</p><p>At Portico Sport, we are synonymous with quality, innovation, and excellence in customer service. Our engineering DNA allows us to offer a complete turnkey solution, combining courts and canopies with <strong>100% in-house</strong> design and manufacturing.</p><p>In 2023, we inaugurated a <strong>new 110,000+ square foot manufacturing site</strong>—currently <strong>the largest and most technologically advanced</strong> in the padel industry. This facility supports our ability to meet the growing demand for both outdoor and indoor padel courts, with efficient production and global shipping capabilities.</p><p>As we expand our presence in the USA, we bring our world-class padel expertise to a fast-growing market, with a special focus on padel court construction and transparent, competitive padel tennis court cost guidance.</p><p>Since shipping our first court to New York in 2021, we’ve grown our footprint in the United States with facilities and projects in New York, Texas, and Florida. Today, we proudly manage installations in major cities including Los Angeles, San Diego, San Francisco, Dallas, Boston, Chicago, San Antonio, and Houston.</p><p>Whether you're looking for a padel courts indoor supplier, an outdoor padel court supplier, or a fully customized project, we deliver tailor-made solutions that meet the demands of clubs, private facilities, and professional events alike. As a trusted padel court event supplier, we also support temporary or semi-permanent installations for exhibitions, tournaments, and brand activations around the world.</p>"
       },
       "INTRO_SECTION_OCEANIA":{
          "ID":"intro",
@@ -131,7 +131,7 @@
       },
       "GRAPHIC_PROCESS_SECTION_USA": {
         "TITLE": "Padel court builders in USA",
-        "DESCRIPTION": "<p>As experienced Padel court builders in the USA, our team focus on creating strong, lasting relationships with our clients by offering bespoke solutions from start to finish.</p><p>Our team provides customised designs, tailored financing options, and premium quality Padel courts that meet your unique requirements. With Portico Sport, you’ll always have support, including post-installation, ensuring long-term satisfaction and success.</p>"
+        "DESCRIPTION": "<p>As experienced padel court builders and suppliers, our US team is dedicated to building long-term relationships with clients, offering bespoke padel solutions, custom court designs, financing options, and expert support throughout and beyond the installation process.</p><p>With Portico Sport, you’ll always have support, including post-installation, ensuring long-term satisfaction and success.</p>"
       },
       "GRAPHIC_PROCESS_SECTION_OCEANIA":{
         "TITLE":"Padel court builders in Oceania",
@@ -420,7 +420,7 @@
       "COMPLEMENTS_SECTION_USA": {
         "ID": "complements",
         "TITLE": "Premium Padel Court Construction in the US: Fast & Reliable",
-        "SUBTITLE": "A Renowned Padel Court Company Revolutionizing the USA",
+        "SUBTITLE": "Portico Sport is a renowned padel court company revolutionizing the USA. With a deep understanding of the sport’s evolution and the specific needs of the local market, we are redefining how padel is played, experienced, and showcased across the country. From high-performance builds to visually striking designs, our fully customizable solutions are crafted to reflect each client’s unique vision, brand, and space.",
         "ITEMS": {
           "ITEM_1": {
             "TITLE": "Foundation and platforms",
@@ -446,6 +446,12 @@
             "TITLE": "Customize your court",
             "DESCRIPTION": "Personalize your court with integrated benches, engraved corners featuring your club's logo, and screen-printed nets to create a unique playing experience tailored to your brand."
           }
+        },
+        "BUTTON":
+        {
+        "TITLE":"Customize your court",
+        "LABEL":"Customize your court",
+        "URL":"https://www.porticosport.com/custom-padel-courts"
         }
       },
       "COMPLEMENTS_SECTION_UK": {
