@@ -1,0 +1,136 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+
+}
+
+const { language} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_AE} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_AE} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/projects/gallery/projects-4.webp"
+bgClass="brightness-50"
+>
+    
+    <main class="flex flex-col gradient-bg relative">
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_IND} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+        <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.SECTION_IND.ROUTE.LABEL, href: i18n.PAGES.SECTION_IND.ROUTE.URL },
+        ]}
+      />
+      <div class="intro-section flex flex-wrap w-full h-auto ">
+        <div class="w-full md:w-1/2 text-center xs:m-auto">
+          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SECTION_IND.SECTION_1.TITLE} />
+          <Typography tag="div" text={i18n.PAGES.SECTION_IND.SECTION_1.DESCRIPTION} />
+          <div class="text-center mx-auto ">
+        <Button size="sm" class="" url={i18n.PAGES.SECTION_IND.SECTION_1.BUTTON.URL} title={i18n.PAGES.SECTION_IND.SECTION_1.BUTTON.TITLE} target="_self">
+            {i18n.PAGES.SECTION_IND.SECTION_1.BUTTON.LABEL}
+          </Button>
+      </div> 
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+          <img
+            src="/public/projects/gallery/projects-3.webp"
+            alt="Padel Pro in Cyprus"
+            class="img-structure w-full object-cover scale-[75%]"
+          />
+        </div>
+     </div>
+  
+    
+     <Section heading2={i18n.PAGES.SECTION_IND.SECTION_2.TITLE}>
+<Typography tag="div" className="text-center mb-12" text={i18n.PAGES.SECTION_IND.SECTION_2.DESCRIPTION}/>
+<Typography tag="h3" className="text-center" text={i18n.PAGES.SECTION_IND.SECTION_3.TITLE}/>
+<div class="max-w-7xl mx-auto p-16 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 ">
+                <div class=" text-center bg-blue-400 opacity-80 ">
+                  <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_IND.SECTION_3.ITEM_1}</p>
+
+                  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.SECTION_3.DESCRIPTION_1} />
+
+                                
+               </div> 
+               <div class=" text-center bg-blue-500 opacity-80 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_IND.SECTION_3.ITEM_2}</p>
+                <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.SECTION_3.DESCRIPTION_2} />
+    
+             </div> 
+             <div class=" text-center bg-blue-600 opacity-80 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_IND.SECTION_3.ITEM_3}</p>
+                <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.SECTION_3.DESCRIPTION_3} />
+               
+             </div> 
+             <div class=" text-center bg-blue-700 opacity-80 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_IND.SECTION_3.ITEM_4}</p>
+                <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.SECTION_3.DESCRIPTION_4} />
+       
+             </div> 
+             <div class=" text-center bg-blue-800 opacity-80 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_IND.SECTION_3.ITEM_5}</p>
+                <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.SECTION_3.DESCRIPTION_5} />
+       
+             </div> 
+             <div class=" text-center bg-blue-900 opacity-80 ">
+                <p class=" text-3xl font-bold mt-2">{i18n.PAGES.SECTION_IND.SECTION_3.ITEM_6}</p>
+                <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.SECTION_3.DESCRIPTION_6} />
+       
+             </div> 
+            </div>
+            
+        </div>
+</Section>
+
+  
+    
+        
+ <Section
+ id={i18n.PAGES.SECTION_IND.ID}
+ heading2={i18n.PAGES.SECTION_IND.SECTION_4.TITLE}
+>
+ <Typography tag="div" className="text-center" text={i18n.PAGES.SECTION_IND.SECTION_4.DESCRIPTION}/>
+ <div class="text-center mx-auto ">
+    <Button size="sm" class="" url={i18n.PAGES.SECTION_IND.SECTION_4.BUTTON.URL} title={i18n.PAGES.SECTION_IND.SECTION_4.BUTTON.TITLE} target="_self">
+        {i18n.PAGES.SECTION_IND.SECTION_4.BUTTON.LABEL}
+      </Button>
+  </div> 
+
+</Section>
+
+<Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.SECTION_IND.CONTACT_SECTION.TITLE} />
+  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_IND.CONTACT_SECTION.DESCRIPTION} />
+     
+          <ContactSectionEs language={language} 
+
+          button_text={i18n.PAGES.SECTION_IND.CONTACT_SECTION.BUTTON.LABEL}
+          button_url={i18n.PAGES.SECTION_IND.CONTACT_SECTION.BUTTON.URL}
+          button_title={i18n.PAGES.SECTION_IND.CONTACT_SECTION.BUTTON.TITLE}/>
+        
+          
+        </div>
+    </main>
+</Layout>
+  
