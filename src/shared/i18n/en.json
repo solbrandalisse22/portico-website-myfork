@@ -1398,7 +1398,7 @@
     "ID":"Emiratos Araber",
     "SECTION_1":{
       "TITLE":"Premium Padel Court Construction in the United Arab Emirates",
-      "DESCRIPTION":"<p>Padel is rapidly growing in popularity across the United Arab Emirates (UAE), with cities like Dubai, Abu Dhabi, and Sharjah becoming key hubs for the sport. As more players and clubs look to invest in high-quality padel facilities, the demand for premium padel court construction continues to rise.</p><p>Portico Sport is a leading padel court supplier in Dubai, offering world-class design, manufacturing, and installation services. Whether you&#39;re developing a club, a private court, or a tournament-grade facility, we provide fully custom padel courts tailored to your project. As a trusted custom padel courts supplier, we adapt every detail to your needs—ensuring a result that matches your vision and exceeds expectations.</p>",
+      "DESCRIPTION":"<p>Padel is rapidly growing in popularity across the United Arab Emirates (UAE), with cities like Dubai, Abu Dhabi, and Sharjah becoming key hubs for the sport. As more players and clubs look to invest in high-quality padel facilities, the demand for premium padel court construction continues to rise.</p><p>At Portico Sport, we specialize in designing, manufacturing, and installing world-class padel courts that meet the highest industry standards. Whether you are looking to build a padel club, a private court, or a tournament-grade facility, we provide fully customized solutions tailored to your needs.</p>",
     "BUTTON":{
       "LABEL":"Discover our expertise at Portico Sport ",
       "URL":"/client-contact",
@@ -1408,14 +1408,18 @@
    "SECTION_2":{
        "TITLE":"Best padel court builders in UAE",
        "DESCRIPTION":"<p>When choosing a padel court builder in the UAE, it’s crucial to work with a company that ensures durability, performance, and compliance with international standards.</p><p>At Portico Sport, we don’t just build padel courts—we create exceptional playing experiences. Whether it’s for private use, commercial clubs, or international tournaments, we bring:</p>",
-       "SUBTITLE":"Join the growing padel movement in the UAE with Portico Sport’s premium padel courts, delivering top-quality construction to Dubai, Abu Dhabi, and beyond!",
-     "ITEM_1":{
+      "SUBTITLE":"Join the growing padel movement in the UAE with Portico Sport’s premium padel courts, delivering top-quality construction to Dubai, Abu Dhabi, and beyond!",
+"ITEM_1":{
         "TITLE":"Unmatched quality",
         "DESCRIPTION":"Every padel court is 100% in-house built with precision engineering and high-performance materials."
       },
       "ITEM_2":{
         "TITLE":"Tournament-grade standards",
-        "DESCRIPTION":"Our courts meet NIDE 2004 Padel regulations and international structural codes (EAE, AISC-360, ASCE SEI 7-16)."
+        "DESCRIPTION":"Our courts meet NIDE 2004 Padel regulations, FIP standards, and international structural codes (EAE, AISC-360, ASCE SEI 7-16)."
+      },
+      "ITEM_3":{
+        "TITLE":"Tailored solutions",
+        "DESCRIPTION":"As a specialized custom padel courts supplier in Dubai, we personalize court design, branding, and configuration to meet your exact needs."
       }
 
       },
@@ -1440,17 +1444,20 @@
   },
   "SECTION_4":{
     "TITLE":"Portico Sport: Build padel courts with safety & excellence",
+    "SUBTITLE":"Why choose Portico Sport?",
     "ITEM_1":"Proven expertise ",
     "DESCRIPTION_1":"With years of experience delivering padel courts worldwide, we bring unmatched quality and innovation to the UAE.",
     "ITEM_2":"Customized construction",
     "DESCRIPTION_2":"Our <strong>100% in-house manufacturing</strong> allows us to create tailor-made courts that align with your club’s identity and project requirements.",
     "ITEM_3":"Designed for UAE’s climate",
-    "DESCRIPTION_3":"Our padel courts are built with <strong>weather-resistant materials</strong> to withstand extreme heat, humidity, and sand exposure."
+    "DESCRIPTION_3":"Our padel courts are built with <strong>weather-resistant materials</strong> to withstand extreme heat, humidity, and sand exposure.",
+     "ITEM_4":"Turnkey support",
+     "DESCRIPTION_4":"From concept to completion, we provide complete assistance throughout the process."
   },
   "CONTACT_SECTION":{
      "ID":"contact",
      "TITLE":"Contact Portico Sport team in United Arab Emirates",
-     "DESCRIPTION":"If you are planning to build a padel club in Dubai, Abu Dhabi, or anywhere in the UAE, Portico Sport is your trusted partner.",
+     "DESCRIPTION":"If you are planning to build a padel club in Dubai, Abu Dhabi, or anywhere in the UAE, Portico Sport is your trusted partner. We combine premium construction, local adaptation, and innovative design to help you create a padel facility that stands out.",
      "SUBTITLE_1":"Tailored advice for your Padel project",
      "SUBTITLE_2":"Custom design and manufacturing",
      "SUBTITLE_3":"General enquiries and initial consultations",
