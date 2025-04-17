@@ -21,6 +21,7 @@ import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Slider from "@/shared/components/sections/Slider.astro";
 import SectionCountries from "@/shared/components/sections/CountriesSection.astro";
+import Button from "src/shared/components/Button.astro";
 interface Props {
   language: string,
   projectsGallery: Photo[]
@@ -104,6 +105,16 @@ language={language}
    
     <SectionBentoUSA language={language} />
     <SectionComplementsUSA language={language} />
+{language === "en" && (
+  <div class="text-center">
+    <Button
+      url={i18n.PAGES.HOME.COMPLEMENTS_SECTION_USA.BUTTON.URL}
+      title={i18n.PAGES.HOME.COMPLEMENTS_SECTION_USA.BUTTON.TITLE}
+    >
+      {i18n.PAGES.HOME.COMPLEMENTS_SECTION_USA.BUTTON.LABEL}
+    </Button>
+  </div>
+)}
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_USA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_USA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
     <Slider language={language} posts={posts} />
 <SectionCountries showInfo language="en"
