@@ -1,10 +1,11 @@
 ---
 import PostPage from "@/shared/components/pages/PostPage.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
-const { slug } = Astro.params;
+const { slug, BreadcrumbLabel, BreadcrumbUrl } = Astro.params;
 
 interface Props {
   language: string;
+
 }
 
 export const prerender = false
