@@ -1,7 +1,7 @@
 ---
 import PostPage from "@/shared/components/pages/PostPage.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
-const { slug, BreadcrumbLabel, BreadcrumbUrl } = Astro.params;
+const { slug } = Astro.params;
 
 interface Props {
   language: string;
@@ -12,5 +12,4 @@ export const prerender = false
 
 ---
 
-<PostPage slug={slug || ''} language={LANGUAGES.EN} BreadcrumLabel= {i18n.PAGES.NEWS.ROUTE.LABEL}
-  BreadcrumbUrl= {i18n.PAGES.NEWS.ROUTE.URL}/>
+<PostPage slug={slug || ''} language={LANGUAGES.EN}  />
