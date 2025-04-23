@@ -3297,6 +3297,46 @@
         }
        }
     },
+    "CREDENTIALS":{
+      "SEO_TITLE": "Credentials & Memberships | Portico Sport - Leading Padel Court Manufacturer",
+      "SEO_DESCRIPTION":"Portico Sport is a trusted leader in Padel court construction, backed by key industry memberships like SAPCA and the International Padel Cluster.",
+      "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+      "TITLE": "Credentials & Membership",
+      "ROUTE": {
+        "LABEL": "Credentials & Memberships",
+        "URL": "/credentials"
+      },
+      "CREDENTIALS_SECTION":{
+        "TITLE":"Portico Sport: Your Global Partner for Premium Quality Padel Courts",
+        "DESCRIPTION":"<p>With <strong>15+ years of experience</strong> and <strong>4,000+ courts installed across 35+ countries</strong>, Portico Sport is a global leader in <strong>Padel court construction and canopy solutions.</strong></p><p>Our <strong>turnkey manufacturing process</strong> ensures <strong>100% in-house design and production</strong>, delivering <strong>high-performance courts</strong> built for durability, aesthetics, and top-tier gameplay.</p><p>By overseeing every step—from raw materials to final installation—we guarantee<strong>unmatched quality control and consistency</strong>across all our courts.</p><p>In 2023, we expanded with a <strong>110,000 sq. ft. factory</strong>, making us the <strong>largest and most advanced Padel court manufacturer </strong>in the industry</p><p>At Portico Sport, we don’t just build courts—we create <strong>lasting partnerships</strong>, offering<strong>custom designs, financing options, and ongoing support </strong>to help clubs and venues thrive.</p>"
+      },
+      "MEMBERSHIP_SECTION":{
+        "TITLE":"Committed to Industry Excellence: Our Professional Memberships",
+        "DESCRIPTION":"<p>Our expertise and commitment to excellence have earned us a place in key industry organizations, reinforcing our role in shaping the future of the sport. These memberships strengthen our connections within the global Padel community, ensuring we stay at the forefront of industry standards, innovation, and best practices.</p>",
+       "CLUSTER_PADEL":{
+        "TITLE":"<a href='(https://www.clusterpadel.com/)'>International Padel Cluster</a>",
+        "DESCRIPTION":"<p>The International Padel Cluster is a global alliance of companies dedicated to the development and international promotion of padel. It brings together leading manufacturers, distributors, and key players in the industry, primarily from within the European Union.</p><p>Sergio Tello Cendal, CEO of Portico Sport, serves as a member of the IPC Board of Directors, contributing his extensive expertise in the design and installation of high-performance padel courts. As part of the IPC, Portico Sport is committed to supporting the growth of padel worldwide, encouraging its inclusion in the Olympic Games, and promoting innovation and sustainability across the sector.</p>"
+       },
+       "SAPCA_PADEL":{
+        "TITLE":"SAPCA UK: The Sports and Play Construction Association",
+        "DESCRIPTION":"<p>Portico Sport UK is member of SAPCA, the UK’s leading authority for the sports and play construction industry. SAPCA brings together trusted specialists who are committed to delivering excellence, innovation, and safety across every stage of sports facility development. Being part of this prestigious network reinforces our commitment to upholding the highest standards in sports construction across the UK.</p><p>We are also honoured to have been named a finalist in the <a href='https://www.porticosport.com/news/reflecting-on-the-sapca-awards-a-remarkable-experience'>SAPCA Awards 2025<a/>, which recognize the most outstanding achievements in the sector. Being recognized among the UK’s top sports construction projects is an incredible achievement and a true testament to our team's dedication, expertise, and passion for delivering high-quality padel facilities.</p>"
+       }
+     
+      },
+      "NORMATIVE_SECTION_LOGOS": {
+    "TITLE": "Building Padel Courts that comply with regulations",
+    "SUBTITLE": "Strength, durability and perfect integration",
+    "DESCRIPTION": "Our Padel courts are designed and developed by the engineering department of PORTICO SPORT to provide exceptional durability and outstanding performance. Our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. Moreover, all our courts come with a 10-year guarantee (structural stability).",
+      "BUTTON":{
+      "TEXT":"Build your padel court!",
+      "TITLE":"Padel Court Builders",
+      "URL":"/client-contact"
+    }  
+    },
+  "CERTIFICATION_SECTION":{
+    "TITLE":"Certified Quality – Built to the Highest Standards",
+    "DESCRIPTION":"<p>At Portico Sport, we are committed to delivering <strong>excellence</strong> in every court and canopy we build. That’s why we carefully select and verify that <strong>every material</strong> used in our padel solutions is of <strong>European origin</strong> and meets the strictest industry regulations, including <strong>UNE standards.</strong></p><p>From structural steel to tempered glass and synthetic turf, each component undergoes <strong>rigorous quality control</strong> to ensure compliance with international benchmarks and superior real-game performance.</p><p>By maintaining these high standards, we provide clubs and players with courts that offer <strong>exceptional reliability, longevity, and playability.</strong></p><p>Built to withstand intense, long-term use, our padel courts exceed industry standards in both performance and aesthetics, making them a smart investment for clubs and venues worldwide.</p>"
+  }},
     "CANOPIES": {
       "SEO_TITLE": "High-Performance Padel Canopies",
       "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
