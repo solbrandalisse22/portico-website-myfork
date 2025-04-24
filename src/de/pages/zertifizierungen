@@ -1,0 +1,6 @@
+---
+import Credentials from "@/shared/components/pages/CredentialsPage.astro";
+import { LANGUAGES } from "@/shared/i18n/constants"
+---
+
+<Credentials language={LANGUAGES.DE} />
