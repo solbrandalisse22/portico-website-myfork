@@ -2056,7 +2056,46 @@
     }
   }
 },
-
+"CREDENTIALS": {
+    "SEO_TITLE": "Certifications et Adhésions | Portico Sport – Leader dans la Fabrication de Terrains de Padel",
+    "SEO_DESCRIPTION": "Portico Sport est un leader de confiance dans la construction de terrains de padel, soutenu par des adhésions clés du secteur telles que SAPCA et l'International Padel Cluster.",
+    "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+    "TITLE": "Certifications et Qualifications Sectorielles",
+    "ROUTE": {
+      "LABEL": "Certifications et Qualifications",
+      "URL": "/certifications"
+    },
+    "CREDENTIALS_SECTION": {
+      "TITLE": "Portico Sport : votre partenaire mondial pour des terrains de padel haut de gamme",
+      "DESCRIPTION": "<p>Avec <strong>plus de 15 ans d'expérience</strong> et <strong>plus de 4 000 terrains installés dans plus de 35 pays</strong>, Portico Sport est un fournisseur mondial de premier plan en <strong>fabrication de terrains de padel et solutions de couverture</strong>.</p><p>Notre <strong>processus de fabrication clé en main</strong> garantit une <strong>conception et production 100 % interne</strong>, pour des <strong>terrains haute performance</strong> conçus pour la durabilité, l'esthétique et un jeu de haut niveau.</p><p>En contrôlant chaque étape, de la matière première à l’installation finale, nous assurons un <strong>contrôle qualité et une cohérence inégalés</strong> dans chacun de nos terrains.</p><p>En 2023, nous avons agrandi notre capacité avec une <strong>usine de 10 000 m²</strong>, faisant de nous le <strong>plus grand et le plus avancé des fabricants de terrains de padel</strong> du secteur.</p><p>Chez Portico Sport, nous ne construisons pas seulement des terrains : nous créons des <strong>partenariats durables</strong> en offrant des <strong>designs sur mesure, du financement et un accompagnement continu</strong> pour aider les clubs et les installations à réussir.</p>"
+    },
+    "MEMBERSHIP_SECTION": {
+      "TITLE": "Engagés pour l'excellence du secteur : nos adhésions professionnelles",
+      "DESCRIPTION": "<p>Notre expertise et notre engagement envers l'excellence nous ont valu une place au sein des principales organisations du secteur, renforçant notre rôle dans l’avenir du sport. Ces adhésions renforcent notre lien avec la communauté mondiale du padel et garantissent que nous restons à la pointe des normes du secteur, de l'innovation et des bonnes pratiques.</p>",
+      "CLUSTER_PADEL": {
+        "TITLE": "<a href='https://www.clusterpadel.com/'>International Padel Cluster</a>",
+        "DESCRIPTION": "<p>L'International Padel Cluster est une alliance mondiale d'entreprises engagées dans le développement et la promotion du padel à l'international. Il regroupe les principaux fabricants, distributeurs et acteurs clés du secteur, principalement au sein de l’Union Européenne.</p><p>Sergio Tello Cendal, PDG de Portico Sport, siège au conseil d'administration de l'IPC, mettant à profit son expertise dans la conception et l'installation de terrains de padel haute performance. En tant que membre de l'IPC, Portico Sport s'engage pour la croissance mondiale du padel, soutient son inclusion aux Jeux Olympiques et promeut l'innovation et la durabilité dans toute l'industrie.</p>"
+      },
+      "SAPCA_PADEL": {
+        "TITLE": "SAPCA UK : Association pour la Construction d’Installations Sportives",
+        "DESCRIPTION": "<p>Portico Sport UK est membre de la SAPCA, principale autorité britannique dans le domaine de la construction d'infrastructures sportives et de loisirs. SAPCA regroupe des spécialistes de confiance engagés pour l’excellence, l’innovation et la sécurité à chaque étape du développement d’équipements sportifs. Être membre de ce réseau reconnu souligne notre engagement envers les normes les plus élevées au Royaume-Uni.</p><p>Nous avons également eu l’honneur d’être finalistes aux <a href='/noticias/reflexiones-sobre-los-premios-sapca-una-experiencia-destacada'>SAPCA Awards 2025</a>, qui récompensent les meilleurs projets du secteur. Être reconnus parmi les meilleurs projets sportifs du Royaume-Uni est une réussite remarquable et témoigne de l'engagement, de l'expertise et de la passion de notre équipe à livrer des installations de padel de haute qualité.</p>"
+      }
+    },
+    "NORMATIVE_SECTION_LOGOS": {
+      "TITLE": "Construction de terrains de padel selon les normes",
+      "SUBTITLE": "Résistance, durabilité et intégration parfaite",
+      "DESCRIPTION": "Nos terrains de padel sont conçus et développés par le département d'ingénierie de PORTICO SPORT pour offrir une durabilité exceptionnelle et une performance supérieure. Les terrains respectent les normes sportives officielles (NIDE 2004 Padel), les règlements et standards de la FIP (Fédération Internationale de Padel), ainsi que les calculs structurels basés sur la norme espagnole « Instrucción de Acero Estructural (EAE) » et le code américain : AISC-360 et ASCE SEI 7-16. De plus, tous nos terrains bénéficient d'une garantie de 10 ans (stabilité structurelle).",
+      "BUTTON": {
+        "TEXT": "Construisez votre terrain de padel !",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/contact-client"
+      }
+    },
+    "CERTIFICATION_SECTION": {
+      "TITLE": "Qualité certifiée – Construction selon les normes les plus strictes",
+      "DESCRIPTION": "<p>Chez Portico Sport, nous nous engageons à garantir l’<strong>excellence</strong> dans chaque terrain et chaque couverture. C’est pourquoi nous sélectionnons et vérifions soigneusement que <strong>tous les matériaux</strong> utilisés dans nos solutions padel proviennent d’<strong>Europe</strong> et répondent aux <strong>normes industrielles les plus exigeantes</strong>.</p>"
+    }
+  },
 
     "CANOPIES": {
       "SEO_TITLE": "Auvents de padel haute performance",
