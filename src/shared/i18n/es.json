@@ -2073,6 +2073,47 @@
        }
     },
 
+  "CREDENTIALS": {
+  "SEO_TITLE": "Credenciales y Membresías | Portico Sport - Fabricante líder de pistas de pádel",
+  "SEO_DESCRIPTION": "Portico Sport es un líder confiable en la construcción de pistas de pádel, respaldado por membresías clave de la industria como SAPCA y el International Padel Cluster.",
+  "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+  "TITLE": "Credenciales y Certificaciones de la Industria",
+  "ROUTE": {
+    "LABEL": "Credenciales y Certificaciones",
+    "URL": "/credenciales"
+  },
+  "CREDENTIALS_SECTION": {
+    "TITLE": "Portico Sport: Tu Socio Global para Pistas de Pádel de Alta Calidad",
+    "DESCRIPTION": "<p>Con <strong>más de 15 años de experiencia</strong> y <strong>4.000+ pistas instaladas en más de 35 países</strong>, Portico Sport es un líder global en <strong>la construcción de pistas de pádel y soluciones de cubiertas.</strong></p><p>Nuestro <strong>proceso de fabricación llave en mano</strong> garantiza un <strong>100 % de diseño y producción interna</strong>, ofreciendo <strong>pistas de alto rendimiento</strong> construidas para la durabilidad, la estética y un juego de primer nivel.</p><p>Al supervisar cada paso—desde las materias primas hasta la instalación final—garantizamos un<strong>control de calidad y consistencia incomparables</strong> en todas nuestras pistas.</p><p>En 2023, ampliamos nuestras instalaciones con una <strong>fábrica de 10.000 m²</strong>, lo que nos convierte en el <strong>fabricante de pistas de pádel más grande y avanzado</strong> del sector.</p><p>En Portico Sport, no solo construimos pistas—creamos <strong>alianzas duraderas</strong>, ofreciendo <strong>diseños personalizados, opciones de financiación y soporte continuo</strong> para ayudar a clubes y recintos a prosperar.</p>"
+  },
+  "MEMBERSHIP_SECTION": {
+    "TITLE": "Comprometidos con la Excelencia del Sector: Nuestras Membresías Profesionales",
+    "DESCRIPTION": "<p>Nuestra experiencia y compromiso con la excelencia nos han ganado un lugar en organizaciones clave de la industria, reforzando nuestro papel en la evolución del deporte. Estas membresías fortalecen nuestros vínculos con la comunidad mundial del pádel, asegurando que nos mantengamos a la vanguardia en estándares, innovación y mejores prácticas.</p>",
+    "CLUSTER_PADEL": {
+      "TITLE": "<a href='(https://www.clusterpadel.com/)'>International Padel Cluster</a>",
+      "DESCRIPTION": "<p>El International Padel Cluster es una alianza global de empresas dedicadas al desarrollo y promoción internacional del pádel. Reúne a fabricantes, distribuidores y actores clave de la industria, principalmente dentro de la Unión Europea.</p><p>Sergio Tello Cendal, CEO de Portico Sport, forma parte del Consejo Directivo del IPC, aportando su amplia experiencia en el diseño e instalación de pistas de pádel de alto rendimiento. Como miembro del IPC, Portico Sport se compromete a apoyar el crecimiento del pádel en todo el mundo, fomentar su inclusión en los Juegos Olímpicos y promover la innovación y sostenibilidad en el sector.</p>"
+    },
+    "SAPCA_PADEL": {
+      "TITLE": "SAPCA UK: Asociación de Construcción Deportiva y Recreativa",
+      "DESCRIPTION": "<p>Portico Sport UK es miembro de SAPCA, la principal autoridad del Reino Unido en la industria de la construcción deportiva y de juegos. SAPCA agrupa a especialistas de confianza que se comprometen a ofrecer excelencia, innovación y seguridad en cada etapa del desarrollo de instalaciones deportivas. Formar parte de esta prestigiosa red refuerza nuestro compromiso con los más altos estándares en construcción deportiva en el Reino Unido.</p><p>También nos honra haber sido finalistas en los <a href='https://www.porticosport.com/news/reflecting-on-the-sapca-awards-a-remarkable-experience'>SAPCA Awards 2025</a>, que reconocen los logros más destacados del sector. Ser reconocidos entre los mejores proyectos de construcción deportiva del Reino Unido es un logro increíble y un verdadero testimonio de la dedicación, experiencia y pasión de nuestro equipo por ofrecer instalaciones de pádel de alta calidad.</p>"
+    }
+  },
+  "NORMATIVE_SECTION_LOGOS": {
+    "TITLE": "Pistas de Pádel que cumplen con la normativa",
+    "SUBTITLE": "Resistencia, durabilidad e integración perfecta",
+    "DESCRIPTION": "Nuestras pistas de pádel son diseñadas y desarrolladas por el departamento de ingeniería de PORTICO SPORT para ofrecer una durabilidad excepcional y un rendimiento sobresaliente. Cumplen con las normativas deportivas oficiales (NIDE 2004 Pádel), los reglamentos y estándares de la FIP (Federación Internacional de Pádel) y el cálculo estructural basado en la norma «Instrucción de Acero Estructural (EAE)» y el Código Americano: AISC-360 y ASCE SEI 7-16. Además, todas nuestras pistas incluyen una garantía de 10 años (estabilidad estructural).",
+    "BUTTON": {
+      "TEXT": "¡Construí tu pista de pádel!",
+      "TITLE": "Constructores de pistas de pádel",
+      "URL": "/contacto-cliente"
+    }
+  },
+  "CERTIFICATION_SECTION": {
+    "TITLE": "Calidad Certificada – Construidas con los Estándares Más Altos",
+    "DESCRIPTION": "<p>En Portico Sport, nos comprometemos a ofrecer <strong>excelencia</strong> en cada pista y cubierta que fabricamos. Por eso seleccionamos cuidadosamente y verificamos que <strong>cada material</strong> utilizado en nuestras soluciones de pádel sea de <strong>origen europeo</strong> y cumpla con las normativas más estrictas del sector, incluidas las <strong>normas UNE.</strong></p><p>Desde el acero estructural hasta el vidrio templado y el césped sintético, cada componente pasa por un <strong>rigurosos controles de calidad</strong> para garantizar el cumplimiento con los estándares internacionales y un rendimiento de juego superior.</p><p>Manteniendo estos altos estándares, proporcionamos a clubes y jugadores pistas que ofrecen <strong>confiabilidad, longevidad y jugabilidad excepcionales.</strong></p><p>Construidas para soportar un uso intensivo y a largo plazo, nuestras pistas de pádel superan los estándares del sector en rendimiento y estética, convirtiéndose en una inversión inteligente para clubes y recintos de todo el mundo.</p>"
+  }
+},
+
     "CANOPIES": {
       "SEO_TITLE": "Cubiertas de pádel de alto rendimiento",
       "TYPE": "PRODUCT",
