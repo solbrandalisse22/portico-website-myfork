@@ -45,7 +45,7 @@ const newArticleSchema = {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": title,
-  "datePublished": date,
+  "datePublished": "${date.toISOString()}",
   "author": {
     "@type": "Person",
     "name": authorName,
