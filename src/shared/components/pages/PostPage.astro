@@ -40,7 +40,9 @@ const {name: authorName, description: authorDescription, simple_local_avatar, sl
 const { sameAs: socialMedia } = schema?.["@graph"]?.slice(-1)[0] || {};
 const finalTitle = title || rendered;
 const finalDate = convertDate(date);
-const dateISO = date.toISOString();
+const dateObj = new Date(date);
+const dateISO = dateObj.toISOString();
+
 const newArticleSchema = {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
