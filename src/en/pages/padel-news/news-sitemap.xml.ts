@@ -1,8 +1,6 @@
 
 const category = 70;
 
-export const prerender = true;
-
 export const GET = async () => {
   
   const response = await fetch(
