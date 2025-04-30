@@ -1,4 +1,4 @@
-import { defineEndpoint } from "astro:content";
+
 const category = 70;
 
 export const prerender = true;
