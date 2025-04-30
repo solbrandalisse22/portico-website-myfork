@@ -6,6 +6,7 @@ const i18n = getI18N({ language: 'en' });
 const robotsTxt = `
 User-agent: *
 Allow: /
+Sitemap: ${new URL('padel-news/news-sitemap.xml', i18n.SITE).href}
 Sitemap: ${new URL('sitemap-index.xml', i18n.SITE).href}
 `.trim();
 
