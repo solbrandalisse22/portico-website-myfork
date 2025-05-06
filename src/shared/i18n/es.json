@@ -2623,6 +2623,16 @@
           "ALT":"Big Padel en Francia"
         }
       },
+       "SECTION_MINDSPRING":{
+  "TITLE":"Financiación inmediata para pistas de pádel a través de la alianza con Mindspring",
+  "DESCRIPTION":"Portico Sport ahora ofrece a sus clientes una emocionante oportunidad de financiación inmediata para sus nuevas pistas a través de su alianza global con <a href='https://www.mindspringpadel.com/'>Mindspring Padel</a>. Como líder del mercado en la integración de pistas de pádel en clubes deportivos, Mindspring Padel ofrece un modelo único de participación en ingresos que permite adquirir pistas Portico Sport sin riesgo ni desembolso inicial. Si estás interesado en una financiación del 100% para pistas de pádel Portico Sport en tu club de tenis, pádel o deportivo, ¡contacta hoy mismo con Portico Sport o Mindspring Padel!",
+  "BUTTON":{
+    "LABEL":"Quiero financiar mi pista",
+    "TITLE":"Contacta Portico Sport",
+    "URL":"/contacto-cliente"
+  }
+},
+
       "FINANCING_SECTION":{
         "TITLE":"Referentes en la construcción de pistas de pádel con financiación",
         "DESCRIPTION":"Como líderes globales en la construcción e instalación de pistas de pádel y cubiertas deportivas, en Portico Sport combinamos nuestra amplia experiencia con programas de financiación innovadores para materializar tu visión. Nuestras opciones de financiación incluyen:",
