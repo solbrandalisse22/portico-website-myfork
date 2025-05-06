@@ -19,7 +19,7 @@ export const GET = async () => {
         <news:news>
           <news:publication>
             <news:name>${authorName}</news:name>
-            <news:language>es</news:language>
+            <news:language>en</news:language>
           </news:publication>
           <news:publication_date>${publicationDate}</news:publication_date>
           <news:title><![CDATA[${title}]]></news:title>
