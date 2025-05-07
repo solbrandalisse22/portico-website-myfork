@@ -1,0 +1,148 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import Typography from "@/shared/components/ui/Typography.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Section from "@/shared/components/Section.astro";
+import Button from "../Button.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+
+
+interface Props {
+  language: string;
+
+}
+
+const { language} = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+
+---
+
+<Layout
+  title={i18n.PAGES.OUR_COMPANY.SEO_TITLE}
+  description={i18n.PAGES.OUR_COMPANY.SEO_DESCRIPTION}
+  ogImage={i18n.PAGES.OUR_COMPANY.OG_IMG}
+  currentLocale={currentLocale}
+bgImage="/company/_DSC1043.jpg"
+bgClass="brightness-50"
+  language={language}
+>
+<main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" className="uppercase mb-6 font-bold" text={i18n.PAGES.OUR_COMPANY.TITLE} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.OUR_COMPANY.ROUTE.LABEL, href: i18n.PAGES.OUR_COMPANY.ROUTE.URL },
+        ]}
+      />
+
+     <Section heading2 = {i18n.PAGES.OUR_COMPANY.SECTION_1.TITLE}>
+        <Typography tag="div" text={i18n.PAGES.OUR_COMPANY.SECTION_1.DESCRIPTION} responsive className="text-center mt-12"  />
+        <div class="mx auto text-center mt-12">
+            <Button   
+    url={i18n.PAGES.OUR_COMPANY.SECTION_1.BUTTON.URL} target="_self" 
+    title={i18n.PAGES.OUR_COMPANY.SECTION_1.BUTTON.TITLE}>
+        {i18n.PAGES.OUR_COMPANY.SECTION_1.BUTTON.LABEL}
+      </Button>
+            
+            </div>
+     </Section>
+      <Section heading2={i18n.PAGES.OUR_COMPANY.SECTION_2.TITLE}
+        className="flex flex-col max-w-none p-0 lg:mb-0"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="w-full py-8 px-4 flex-1 md:px-8 flex justify-center items-center flex-col">
+            <Typography tag="h3" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_1.TITLE} responsive className="mb-4" type="primary"/>
+            <Typography tag="div" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_1.DESCRIPTION} responsive className="mb-4"  />
+          </div>
+          <div class="relative w-full flex-1">
+            <img src="/company/personal.jpg" class=" object-cover aspect-[16/11] w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image-reverse " />
+          </div>
+        </div>
+        <div class="flex flex-col xl:flex-row max-w-none">
+            
+            <div class="relative w-full flex-1">
+              <img src="/company/_DSC0948.jpg" class=" object-cover aspect-[16/11] w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image" />
+            </div>
+            <div class="w-full py-8 px-4 flex-1 md:px-8 flex justify-center items-center flex-col">
+              <Typography tag="h3" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_2.TITLE} responsive className="mb-4" type="primary"/>
+              <Typography tag="div" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_2.DESCRIPTION} responsive className="mb-4"  />
+            </div>
+          </div>
+          <div class="flex flex-col xl:flex-row max-w-none">
+            <div class="w-full py-8 px-4 flex-1 md:px-8 flex justify-center items-center flex-col">
+              <Typography tag="h3" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_3.TITLE} responsive className="mb-4" type="primary"/>
+              <Typography tag="div" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_3.DESCRIPTION} responsive className="mb-4"  />
+            </div>
+            <div class="relative w-full flex-1">
+              <img src="/company/Constructio (3).jpeg" class=" object-cover aspect-[16/11] w-full xl:max-w-[1024px] top-0 left-0 transition-opacity image-reverse " />
+            </div>
+          </div>
+          
+             
+           
+      </Section> 
+      <Section>
+         <Typography tag="h4" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_4.TITLE} responsive className="mt-4 mb-4 text-center" size="large"/>
+              <Typography tag="div" text={i18n.PAGES.OUR_COMPANY.SECTION_2.SUBTITLE_4.DESCRIPTION} responsive className="mb-4 text-center"  />
+              <div class="mx auto text-center mt-12">
+                <Button   
+        url={i18n.PAGES.OUR_COMPANY.SECTION_2.BUTTON.URL} target="_self" 
+        title={i18n.PAGES.OUR_COMPANY.SECTION_2.BUTTON.TITLE}>
+            {i18n.PAGES.OUR_COMPANY.SECTION_2.BUTTON.LABEL}
+          </Button>
+                
+                </div>
+            </Section>
+    </div>
+  </main>
+</Layout>
+
+<style>
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>
+
+
+</script>
