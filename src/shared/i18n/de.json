@@ -1949,6 +1949,52 @@
         }
       ]
     },
+    "OUR_COMPANY": {
+  "ID": "unser-unternehmen",
+  "SEO_TITLE": "Portico Sport Unternehmen – Führend im Design und in der Herstellung von Padelplätzen und Überdachungen",
+  "SEO_DESCRIPTION": "Portico Sport entwirft und fertigt hochwertige Padelplätze und Überdachungen in Spanien und bietet schlüsselfertige Lösungen mit eigener Produktion, technischer Exzellenz und globaler Reichweite.",
+  "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
+  "TITLE": "Unser Unternehmen & Team",
+  "ROUTE": {
+    "LABEL": "Unser Unternehmen & Team",
+    "URL": "/unser-unternehmen"
+  },
+  "SECTION_1": {
+    "TITLE": "Padel basierend auf Ingenieurskunst. Angetrieben von Innovation.",
+    "DESCRIPTION": "<p>Mit Sitz in Spanien ist Portico Sport seit 2009 ein weltweit führendes Unternehmen im Design und in der Herstellung von Padelplätzen und Überdachungen. Mit <strong>über 4.000 installierten Plätzen in mehr als 35 Ländern</strong> zeichnet sich das Unternehmen durch technische Exzellenz, Designinnovation und vollständige Projektabwicklung aus – von der Konzeption bis zur Installation.</p><p>Gegründet von Bauingenieuren mit jahrzehntelanger Erfahrung ermöglicht uns unsere technische DNA, eine vollständige schlüsselfertige Lösung anzubieten, mit <strong>100 % eigenem Design und Herstellung</strong>. Durch enge Zusammenarbeit zwischen unseren Ingenieuren und Sportexperten haben wir unsere Systeme kontinuierlich weiterentwickelt – hin zu <strong>wettkampftauglichen Modellen</strong>, denen weltweit vertraut wird.</p><p>Unterstützt wird dies durch unsere <strong>moderne Produktionsstätte (seit 2023)</strong>, mit vollständiger Inhouse-Fertigung, Rückverfolgbarkeit und Rekord-Produktionszeiten dank Technologien wie robotergestütztem Schweißen.</p><p>Mit dieser Fabrik führt Portico Sport eine neue Ära des globalen Padelwachstums an – mit unvergleichlicher Geschwindigkeit, Präzision und Qualität.</p>",
+    "BUTTON": {
+      "LABEL": "Unsere Fabrik entdecken",
+      "URL": "/unsere-fabrik",
+      "TITLE": "Besuchen Sie die Portico Sport Fabrik"
+    }
+  },
+  "SECTION_2": {
+    "TITLE": "Ein Expertenteam hinter jedem Padelplatz",
+    "DESCRIPTION": "Portico Sport ist mehr als nur Hersteller – es ist ein Team aus erfahrenen Ingenieuren, Sportarchitekten und Projektmanagern. Von der Planung bis zur Installation garantieren wir höchste Standards.",
+    "SUBTITLE_1": {
+      "TITLE": "Technische & Designunterstützung",
+      "DESCRIPTION": "Unser Team bietet maßgeschneiderte Beratung, 3D-Renderings und Fachwissen in Layout, Oberflächenwahl und Struktur – für optimale, effiziente Padelanlagen."
+    },
+    "SUBTITLE_2": {
+      "TITLE": "Facharbeiter in der Produktion",
+      "DESCRIPTION": "Von der Stahlverarbeitung bis zur Endmontage bringen unsere erfahrenen Fachkräfte höchste Qualität in jedes Detail ein – für langlebige und leistungsstarke Plätze."
+    },
+    "SUBTITLE_3": {
+      "TITLE": "Weltweites Netzwerk von Partnern",
+      "DESCRIPTION": "Unsere zertifizierten Installateure und Vertriebspartner weltweit garantieren präzise Montage und kompetenten lokalen Service – überall auf der Welt."
+    },
+    "SUBTITLE_4": {
+      "TITLE": "Bereit, mit den Besten zu bauen?",
+      "DESCRIPTION": "Ob erstes Projekt oder Ausbau – wir begleiten Sie auf jedem Schritt. Entdecken Sie, wie Portico Sport Ihre Padel-Vision verwirklicht."
+    },
+    "BUTTON": {
+      "LABEL": "Starten Sie Ihr Projekt!",
+      "URL": "/kundenkontakt",
+      "TITLE": "Kontaktieren Sie Portico Sport"
+    }
+  }
+},
+
    "TURF": {
   "ID": "turf-section",
   "SEO_TITLE": "Padelplatz Rasen | Portico Sport - Hochleistungs- & langlebige Oberflächen",
