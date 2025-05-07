@@ -1974,6 +1974,53 @@
         }
       ]
     },
+    "OUR_COMPANY": {
+  "ID": "nuestra-empresa",
+  "SEO_TITLE": "Empresa Portico Sport - Líder en diseño y fabricación de pistas de pádel y cubiertas",
+  "SEO_DESCRIPTION": "Portico Sport diseña y fabrica pistas de pádel y cubiertas premium en España, ofreciendo soluciones llave en mano con producción propia, excelencia en ingeniería y alcance global.",
+  "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
+  "GALLERY": "nuestra-empresa/galeria",
+  "TITLE": "Nuestra empresa y equipo",
+  "ROUTE": {
+    "LABEL": "Nuestra empresa y equipo",
+    "URL": "/nuestra-empresa"
+  },
+  "SECTION_1": {
+    "TITLE": "Pádel construido sobre ingeniería. Impulsado por la innovación.",
+    "DESCRIPTION": "<p>Con sede en España, Portico Sport es líder mundial en diseño y fabricación de pistas de pádel y cubiertas, con trayectoria desde 2009. Con <strong>más de 4.000 pistas instaladas en más de 35 países</strong>, nos definen la excelencia técnica, la innovación en diseño y la entrega completa del proyecto—desde el concepto hasta la instalación.</p><p>Fundada por ingenieros civiles con décadas de experiencia, nuestro ADN técnico nos permite ofrecer soluciones llave en mano con <strong>diseño y fabricación 100 % propios</strong>. Gracias a años de colaboración entre ingenieros y especialistas deportivos, hemos perfeccionado nuestros sistemas hasta llegar a modelos <strong>de competición reconocidos</strong> por clubes y federaciones de todo el mundo.</p><p>Esta mejora continua está respaldada por nuestra <strong>planta de producción de última generación, inaugurada en 2023</strong>, con fabricación interna total, trazabilidad completa y tiempos récord gracias a tecnologías como soldadura robotizada.</p><p>Con esta fábrica, Portico Sport está listo para liderar una nueva era de crecimiento global del pádel, con velocidad, precisión y calidad inigualables.</p>",
+    "BUTTON": {
+      "LABEL": "Explora nuestra fábrica",
+      "URL": "/nuestra-fabrica",
+      "TITLE": "Conoce la fábrica de Portico Sport"
+    }
+  },
+  "SECTION_2": {
+    "TITLE": "Un equipo de expertos detrás de cada pista",
+    "DESCRIPTION": "Portico Sport es más que un fabricante—es un equipo de ingenieros, arquitectos deportivos y gestores de proyectos con gran experiencia. Desde el diseño técnico hasta la instalación final, garantizamos los más altos estándares.",
+    "SUBTITLE_1": {
+      "TITLE": "Soporte técnico y de diseño",
+      "DESCRIPTION": "Nuestro equipo técnico ofrece asistencia personalizada, renders 3D detallados y asesoramiento sobre distribución, superficies y estructuras—para optimizar cada centímetro."
+    },
+    "SUBTITLE_2": {
+      "TITLE": "Profesionales expertos en producción",
+      "DESCRIPTION": "Desde el corte del acero hasta el acabado, nuestro equipo fabrica cada pista con experiencia y precisión—garantizando resistencia, durabilidad y calidad."
+    },
+    "SUBTITLE_3": {
+      "TITLE": "Red global de instaladores y distribuidores",
+      "DESCRIPTION": "Contamos con una red mundial de instaladores certificados que aseguran una instalación precisa y soporte local profesional en cualquier país."
+    },
+    "SUBTITLE_4": {
+      "TITLE": "¿Listo para construir con los mejores?",
+      "DESCRIPTION": "Ya sea tu primer proyecto o una instalación a gran escala, estamos para ayudarte en cada paso. Descubre cómo Portico Sport puede hacerlo realidad."
+    },
+    "BUTTON": {
+      "LABEL": "¡Empieza tu proyecto hoy!",
+      "URL": "/contacto-cliente",
+      "TITLE": "Contactar con Portico Sport"
+    }
+  }
+},
+
 "TURF":{
       "ID":"turf-section",
       "SEO_TITLE": "Padel Court Turf | Portico Sport - High-Performance & Durable Surfaces",
