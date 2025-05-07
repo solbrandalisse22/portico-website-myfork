@@ -3196,6 +3196,51 @@
         "alt": "Mobile court patented by Portico Sport"
       }]
     },
+    "OUR_COMPANY":{
+           "ID":"our-company",
+      "SEO_TITLE": "Portico Sport Company - Leader in padel courts & canopies design and manufacture",
+      "SEO_DESCRIPTION":"Portico Sport designs and manufactures premium padel courts and canopies in Spain, delivering turnkey solutions with in-house production, engineering excellence, and global reach.",
+      "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
+      "GALLERY":"our-company/gallery",
+      "TITLE": "Our Company & Team ",
+      "ROUTE": {
+        "LABEL": "Our Company & Team",
+        "URL": "/our-company"
+      },
+      "SECTION_1":{
+        "TITLE":"Padel built on engineering. Powered by innovation",
+        "DESCRIPTION":"<p>Based in Spain, Portico Sport is a global leader in the design and manufacture of padel courts and canopies, with a proven track record since 2009. With <strong>over 4,000 courts installed in more than 35 countries</strong>, the company is defined by engineering excellence, design innovation, and complete project delivery—from concept to installation.</p><p>Founded by civil engineers with decades of industry experience, our engineering DNA enables us to offer a complete turnkey solution, combining <strong>padel courts and canopies with 100% in-house design and manufacturing</strong>. Through years of close collaboration between our engineers and sports specialists, we’ve continually evolved and refined our court systems—creating today’s highly recognised, competition-grade models trusted by clubs, federations, and professionals worldwide.</p><p>This commitment to continuous improvement is supported by our <strong>state-of-the-art production facility, inaugurated in 2023</strong>. It enables full in-house manufacturing, end-to-end traceability, and record-breaking production times thanks to advanced technologies such as robotic welding and specialised fabrication zones.</p><p>With this factory, Portico Sport is poised to lead a new era of global padel growth, meeting the demands of an increasingly sophisticated market with unmatched speed, precision, and quality.</p>",
+         "BUTTON":{
+          "LABEL":"Explore our factory",
+          "URL":"/our-factory",
+          "TITLE":"reach out Portico Sport factory"
+         }},
+      "SECTION_2":{
+        "TITLE":"A team of experts behind every padel court ",
+        "DESCRIPTION":"Portico Sport is more than a manufacturer—it’s a collective of experienced civil engineers, sports architects, and project managers with deep industry knowledge. From technical design and structural planning to final installation, our team ensures every project meets the highest international standards.",
+        "SUBTITLE_1":{
+          "TITLE":"Technical & design support ",
+          "DESCRIPTION":"Our technical team includes civil engineers, architects, and sports infrastructure specialists with decades of combined experience. From initial concept to site execution, we offer tailored support, including detailed 3D renders and videos, to help clients visualise their projects in full. We advise on optimal court layout, surface selection, and structural requirements—maximising every centimetre of space to deliver smarter, more efficient padel facilities."
+        },
+        "SUBTITLE_2":{
+          "TITLE":"Skilled production professionals",
+          "DESCRIPTION":"From steel cutting to robotic welding, surface finishing to final detailing, every padel court is shaped by skilled hands that understand the demands of elite sport. Our factory team brings specialist training and years of experience to every stage of the build—ensuring each component meets the highest standards of strength, durability, and finish."
+        },
+        "SUBTITLE_3":{
+          "TITLE":"Global network of installers and distributors",
+          "DESCRIPTION":"To ensure consistent delivery worldwide, Portico Sport works with a trusted global network of certified installers and distributors. All partners are carefully trained to meet our exacting standards—guaranteeing precision installation and expert local support, wherever your project is located."
+        },
+        "SUBTITLE_4":{
+          "TITLE":"Ready to build your padel court with the best?",
+          "DESCRIPTION":"Whether you're launching your first padel project or scaling up with a multi-court facility, our team is here to support you at every step. Get in touch to explore how Portico Sport can bring your padel vision to life—with world-class engineering, proven reliability, and global expertise you can trust."
+        },
+        "BUTTON":{
+          "LABEL":"Start your project today!",
+          "URL":"/client-contact",
+          "TITLE":"Contact Portico Sport"
+        }
+      }
+    },
      "TURF":{
       "ID":"turf-section",
       "SEO_TITLE": "Padel Court Turf | Portico Sport - High-Performance & Durable Surfaces",
