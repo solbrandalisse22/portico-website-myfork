@@ -1957,6 +1957,52 @@
         }
       ]
     },
+    "OUR_COMPANY": {
+  "ID": "notre-entreprise",
+  "SEO_TITLE": "Entreprise Portico Sport - Leader dans la conception et la fabrication de terrains de padel et couvertures",
+  "SEO_DESCRIPTION": "Portico Sport conçoit et fabrique des terrains de padel et des couvertures haut de gamme en Espagne, en offrant des solutions clé en main grâce à sa production interne, son excellence en ingénierie et sa portée mondiale.",
+  "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
+  "TITLE": "Notre entreprise & équipe",
+  "ROUTE": {
+    "LABEL": "Notre entreprise & équipe",
+    "URL": "/notre-entreprise"
+  },
+  "SECTION_1": {
+    "TITLE": "Le padel fondé sur l'ingénierie. Porté par l'innovation.",
+    "DESCRIPTION": "<p>Basée en Espagne, Portico Sport est un leader mondial dans la conception et la fabrication de terrains de padel et de couvertures depuis 2009. Avec <strong>plus de 4 000 terrains installés dans plus de 35 pays</strong>, l'entreprise se distingue par son excellence technique, son innovation en design et sa gestion complète des projets, de la conception à l’installation.</p><p>Fondée par des ingénieurs civils expérimentés, notre ADN d'ingénierie nous permet d’offrir une solution clé en main complète, avec une <strong>conception et fabrication 100 % internes</strong>. Grâce à la collaboration continue entre nos ingénieurs et nos spécialistes du sport, nous avons perfectionné nos systèmes pour proposer des <strong>terrains de compétition de haute qualité</strong> reconnus dans le monde entier.</p><p>Notre <strong>usine ultramoderne, inaugurée en 2023</strong>, soutient cette évolution avec une fabrication interne, une traçabilité complète et des délais records, grâce à des technologies avancées comme la soudure robotisée.</p><p>Avec cette usine, Portico Sport est prêt à diriger une nouvelle ère de croissance mondiale du padel avec rapidité, précision et qualité inégalées.</p>",
+    "BUTTON": {
+      "LABEL": "Explorer notre usine",
+      "URL": "/notre-usine",
+      "TITLE": "Découvrir l’usine Portico Sport"
+    }
+  },
+  "SECTION_2": {
+    "TITLE": "Une équipe d’experts derrière chaque terrain de padel",
+    "DESCRIPTION": "Portico Sport est plus qu’un fabricant : c’est une équipe d’ingénieurs, d’architectes et de chefs de projet avec une expertise approfondie. De la conception à l’installation, nous assurons les standards les plus élevés.",
+    "SUBTITLE_1": {
+      "TITLE": "Support technique & design",
+      "DESCRIPTION": "Notre équipe offre un accompagnement sur mesure, des rendus 3D détaillés et des conseils sur l’agencement, les surfaces et la structure – pour maximiser chaque mètre carré."
+    },
+    "SUBTITLE_2": {
+      "TITLE": "Professionnels qualifiés de la production",
+      "DESCRIPTION": "Du découpage de l’acier à la finition, notre équipe expérimentée assure une qualité maximale à chaque étape – pour des terrains durables et performants."
+    },
+    "SUBTITLE_3": {
+      "TITLE": "Réseau mondial d’installateurs & distributeurs",
+      "DESCRIPTION": "Grâce à un réseau de partenaires certifiés, nous garantissons une installation précise et un service local fiable – partout dans le monde."
+    },
+    "SUBTITLE_4": {
+      "TITLE": "Prêt à construire votre terrain avec les meilleurs ?",
+      "DESCRIPTION": "Que vous débutiez ou que vous développiez votre installation, nous vous accompagnons à chaque étape. Découvrez comment Portico Sport donne vie à votre projet de padel."
+    },
+    "BUTTON": {
+      "LABEL": "Lancez votre projet dès aujourd’hui !",
+      "URL": "/contact-client",
+      "TITLE": "Contacter Portico Sport"
+    }
+  }
+},
+
     "TURF": {
   "ID": "turf-section",
   "SEO_TITLE": "Gazon pour terrain de padel | Portico Sport - Surfaces performantes et durables",
