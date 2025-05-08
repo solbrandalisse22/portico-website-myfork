@@ -3241,6 +3241,70 @@
         }
       }
     },
+    "OUR_SERVICES":{
+      "ID":"our-services",
+      "SEO_TITLE": "Portico Sport Services - Services that go beyond manufacturing",
+      "SEO_DESCRIPTION":"Portico Sport delivers end-to-end padel court solutions worldwide, with expert support, certified installation, and tailored services to ensure smooth, high-quality project execution.",
+      "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
+      "GALLERY":"tour-service/gallery",
+      "TITLE": "Our Services",
+      "ROUTE": {
+        "LABEL": "Our Services",
+        "URL": "/our-services"
+      },
+      "SECTION_1":{
+        "TITLE":"Comprehensive solutions for every padel project",
+        "DESCRIPTION":"At Portico Sport, we offer more than just padel court construction—we deliver a complete, end-to-end service designed to make your project efficient, smooth, and successful. With over 4,000 padel courts installed worldwide, we understand that every project is unique. That’s why we provide a wide range of services that go beyond manufacturing, including tailored technical assistance, certified installation, financial solutions, and expert site preparation guidance to support you every step of the way—with reliable service, expert advice, and the highest standards of quality."
+      
+    },
+      "SVC_1":{
+        "TITLE":"Technical assistance & project support",
+        "DESCRIPTION":"Our team of in-house civil engineers, architects, and infrastructure experts provide bespoke technical assistance to every client. We work with you from the very beginning—offering strategic planning, space optimisation advice, and construction guidance.With enhanced 3D renders and digital walkthroughs, we help you visualise your court setup before construction begins. Our mission is to make complex decisions simple, and to guide you with solutions tailored to your site, goals, and budget.",
+       "IMAGE":""
+      },
+      "SVC_2":{
+        "TITLE":"Ground preparation & construction guidance",
+        "DESCRIPTION":"Building a padel court starts with solid foundations—literally. We advise our clients on site preparation, including slab construction, drainage planning, and concrete foundation requirements.To streamline your build, we also provide basic construction blueprints free of charge upon order confirmation. This ensures the groundwork is completed accurately and in line with your chosen court model, saving you time and avoiding costly corrections.",
+        "IMAGE":""
+      },
+      "SVC_3":{
+        "TITLE":"Certified installation team worldwide",
+        "DESCRIPTION_1":"Every padel court we manufacture is installed by a trusted team of certified installers and local distributors. Carefully trained to meet Portico Sport’s exacting standards, our installation team ensure every padel court and canopy is assembled with precision, safety, and care—anywhere in the world.",
+        "DESCRIPTION_2":"This global network of professionals guarantees consistency, technical accuracy, and peace of mind throughout the installation process.",
+        "IMAGE":""
+      },
+      "SVC_4":{
+        "TITLE":"Flexible financial services",
+        "DESCRIPTION":"We understand that funding is a key part of bringing padel projects to life. That’s why we’ve secured exclusive partnerships with financial institutions to offer our clients flexible funding options. From leasing solutions to tailored financing plans, we work with clubs, federations, and developers to remove financial barriers and make high-quality padel infrastructure more accessible.",
+        "IMAGE":"",
+        "BUTTON":{
+          "LABEL":"Know more about padel court funding",
+          "URL":"/padel-court-funding",
+          "TITLE":"explore financial services"
+        },
+      "MINDSPRING_TITLE":"Immediate financing for padel courts via mindspring partnership",
+      "MINDSPRING_DESCRIPTION":"Portico Sports now offers its customers an exciting opportunity for immediate financing of their new courts via its global partnership with Mindspring Padel. As market leader in assisting clubs to integrate Padel, Mindspring Padel has a unique revenue share model which allows clubs to acquire new Portico Sports courts very easily and with no risk or cash outlay. So, if you're interested in 100% financing for Portico Sport Padel courts at your Tennis, Padel or sports club, contact Portico Sports or Mindspring Padel today!"
+      },
+      "SVC_5":{
+        "TITLE":"After-sales support",
+        "DESCRIPTION":"At Portico Sport, we believe in building long-term relationships through quality, trust, and professionalism. With years of industry experience and a client-first approach, we offer comprehensive, personalised after-sales support to ensure customer satisfaction by providing technical assistance and expert advice to address any concerns and keep your padel facility performing at its best.",
+        "IMAGE":""
+      },
+      "SVC_6":{
+        "TITLE":"Maintenance & upgrades",
+        "DESCRIPTION":"Our commitment doesn’t end with installation. Portico Sport offers ongoing padel court maintenance services and a full range of spare parts and components—ensuring your court stays in top condition for years to come. We also support clubs and venues looking to upgrade their court models or add new features to enhance the playing experience. With our long-term technical support and access to original parts, you can extend the life and performance of your courts with total confidence.",
+        "IMAGE":""
+      },
+      "SECTION_2":{
+        "TITLE":"Let’s build your padel project together.",
+        "DESCRIPTION":"Whether you’re at the idea stage or ready to break ground, our team is here to help you succeed. Contact us today to discover how we can support your project with expert guidance, quality engineering, and premium service.",
+        "BUTTON":{
+          "LABEL":"Contact us to get started",
+          "URL":"/client-contact",
+          "TITLE":"Contact Portico Sport"
+        }
+      }
+    },
      "TURF":{
       "ID":"turf-section",
       "SEO_TITLE": "Padel Court Turf | Portico Sport - High-Performance & Durable Surfaces",
