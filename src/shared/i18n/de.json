@@ -1994,6 +1994,69 @@
     }
   }
 },
+"OUR_SERVICES": {
+  "ID": "unsere-dienstleistungen",
+  "SEO_TITLE": "Portico Sport Dienstleistungen – Leistungen, die über die Herstellung hinausgehen",
+  "SEO_DESCRIPTION": "Portico Sport bietet weltweit umfassende Padelplatzlösungen mit fachkundiger Unterstützung, zertifizierter Installation und maßgeschneiderten Dienstleistungen, um eine reibungslose, hochwertige Projektausführung zu gewährleisten.",
+  "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
+  "GALLERY": "tour-service/galerie",
+  "TITLE": "Unsere Dienstleistungen",
+  "ROUTE": {
+    "LABEL": "Unsere Dienstleistungen",
+    "URL": "/unsere-dienstleistungen"
+  },
+  "SECTION_1": {
+    "TITLE": "Umfassende Lösungen für jedes Padelprojekt",
+    "DESCRIPTION": "Bei Portico Sport bieten wir mehr als nur den Bau von Padelplätzen – wir liefern einen vollständigen, umfassenden Service, der darauf ausgelegt ist, Ihr Projekt effizient, reibungslos und erfolgreich zu gestalten. Mit über 4.000 weltweit installierten Padelplätzen wissen wir, dass jedes Projekt einzigartig ist. Deshalb bieten wir eine breite Palette von Dienstleistungen an, die über die Herstellung hinausgehen, einschließlich maßgeschneiderter technischer Unterstützung, zertifizierter Installation, finanzieller Lösungen und fachkundiger Anleitung zur Standortvorbereitung, um Sie in jeder Phase zu unterstützen – mit zuverlässigem Service, fachkundiger Beratung und höchsten Qualitätsstandards."
+  },
+  "SVC_1": {
+    "TITLE": "Technische Unterstützung & Projektbetreuung",
+    "DESCRIPTION": "Unser Team aus internen Bauingenieuren, Architekten und Infrastrukturexperten bietet jedem Kunden maßgeschneiderte technische Unterstützung. Wir arbeiten von Anfang an mit Ihnen zusammen – bieten strategische Planung, Beratung zur Raumoptimierung und Bauanleitung. Mit erweiterten 3D-Renderings und digitalen Rundgängen helfen wir Ihnen, Ihre Platzkonfiguration vor Baubeginn zu visualisieren. Unsere Mission ist es, komplexe Entscheidungen einfach zu machen und Sie mit Lösungen zu führen, die auf Ihren Standort, Ihre Ziele und Ihr Budget zugeschnitten sind.",
+    "IMAGE": ""
+  },
+  "SVC_2": {
+    "TITLE": "Bodenbereitung & Bauanleitung",
+    "DESCRIPTION": "Der Bau eines Padelplatzes beginnt mit soliden Grundlagen – buchstäblich. Wir beraten unsere Kunden bei der Standortvorbereitung, einschließlich Plattenbau, Entwässerungsplanung und Anforderungen an Betonfundamente. Um Ihren Bau zu optimieren, stellen wir nach Auftragsbestätigung auch kostenlose grundlegende Baupläne zur Verfügung. Dies stellt sicher, dass die Grundlagen genau und im Einklang mit Ihrem gewählten Platzmodell abgeschlossen werden, wodurch Sie Zeit sparen und kostspielige Korrekturen vermeiden.",
+    "IMAGE": ""
+  },
+  "SVC_3": {
+    "TITLE": "Zertifiziertes Installationsteam weltweit",
+    "DESCRIPTION_1": "Jeder von uns hergestellte Padelplatz wird von einem vertrauenswürdigen Team zertifizierter Installateure und lokaler Vertriebspartner installiert. Sorgfältig geschult, um den strengen Standards von Portico Sport zu entsprechen, stellt unser Installationsteam sicher, dass jeder Padelplatz und jede Überdachung mit Präzision, Sicherheit und Sorgfalt zusammengebaut wird – überall auf der Welt.",
+    "DESCRIPTION_2": "Dieses globale Netzwerk von Fachleuten garantiert Konsistenz, technische Genauigkeit und Sicherheit während des gesamten Installationsprozesses.",
+    "IMAGE": ""
+  },
+  "SVC_4": {
+    "TITLE": "Flexible Finanzdienstleistungen",
+    "DESCRIPTION": "Wir verstehen, dass die Finanzierung ein entscheidender Bestandteil der Umsetzung von Padelprojekten ist. Deshalb haben wir exklusive Partnerschaften mit Finanzinstituten geschlossen, um unseren Kunden flexible Finanzierungsmöglichkeiten anzubieten. Von Leasinglösungen bis hin zu maßgeschneiderten Finanzierungsplänen arbeiten wir mit Clubs, Verbänden und Entwicklern zusammen, um finanzielle Barrieren zu beseitigen und hochwertige Padel-Infrastruktur zugänglicher zu machen.",
+    "IMAGE": "",
+    "BUTTON": {
+      "LABEL": "Erfahren Sie mehr über die Finanzierung von Padelplätzen",
+      "URL": "/",
+      "TITLE": "Finanzdienstleistungen erkunden"
+    },
+    "MINDSPRING_TITLE": "Sofortige Finanzierung für Padelplätze durch Mindspring-Partnerschaft",
+    "MINDSPRING_DESCRIPTION": "Portico Sport bietet seinen Kunden jetzt eine spannende Möglichkeit zur sofortigen Finanzierung ihrer neuen Plätze über die globale Partnerschaft mit Mindspring Padel. Als Marktführer bei der Unterstützung von Clubs bei der Integration von Padel verfügt Mindspring Padel über ein einzigartiges Umsatzbeteiligungsmodell, das es Clubs ermöglicht, neue Portico Sport Plätze sehr einfach und ohne Risiko oder Kapitalaufwand zu erwerben. Wenn Sie also an einer 100%igen Finanzierung für Portico Sport Padelplätze in Ihrem Tennis-, Padel- oder Sportclub interessiert sind, kontaktieren Sie noch heute Portico Sport oder Mindspring Padel!"
+  },
+  "SVC_5": {
+    "TITLE": "After-Sales-Support",
+    "DESCRIPTION": "Bei Portico Sport glauben wir an den Aufbau langfristiger Beziehungen durch Qualität, Vertrauen und Professionalität. Mit jahrelanger Branchenerfahrung und einem kundenorientierten Ansatz bieten wir umfassenden, personalisierten After-Sales-Support, um die Kundenzufriedenheit sicherzustellen, indem wir technische Unterstützung und fachkundige Beratung bereitstellen, um alle Bedenken auszuräumen und Ihre Padel-Anlage in bestem Zustand zu halten.",
+    "IMAGE": ""
+  },
+  "SVC_6": {
+    "TITLE": "Wartung & Upgrades",
+    "DESCRIPTION": "Unser Engagement endet nicht mit der Installation. Portico Sport bietet fortlaufende Wartungsdienste für Padelplätze und eine vollständige Palette von Ersatzteilen und Komponenten – um sicherzustellen, dass Ihr Platz über Jahre hinweg in bestem Zustand bleibt. Wir unterstützen auch Clubs und Veranstaltungsorte, die ihre Platzmodelle aufrüsten oder neue Funktionen hinzufügen möchten, um das Spielerlebnis zu verbessern. Mit unserem langfristigen technischen Support und dem Zugang zu Originalteilen können Sie die Lebensdauer und Leistung Ihrer Plätze mit voller Zuversicht verlängern.",
+    "IMAGE": ""
+  },
+  "SECTION_2": {
+    "TITLE": "Lassen Sie uns gemeinsam Ihr Padelprojekt realisieren.",
+    "DESCRIPTION": "Ob Sie sich noch in der Ideenphase befinden oder bereits bereit sind, den ersten Spatenstich zu setzen – unser Team ist hier, um Ihnen zum Erfolg zu verhelfen. Kontaktieren Sie uns noch heute, um herauszufinden, wie wir Ihr Projekt mit fachkundiger Beratung, hochwertigem Engineering und erstklassigem Service unterstützen können.",
+    "BUTTON": {
+      "LABEL": "Kontaktieren Sie uns, um loszulegen",
+      "URL": "/kundenkontakt",
+      "TITLE": "Kontaktieren Sie Portico Sport"
+    }
+  }
+},
 
    "TURF": {
   "ID": "turf-section",
