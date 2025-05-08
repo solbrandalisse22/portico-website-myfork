@@ -2002,6 +2002,69 @@
     }
   }
 },
+"OUR_SERVICES": {
+  "ID": "nos-services",
+  "SEO_TITLE": "Services de Portico Sport - Bien plus que la fabrication",
+  "SEO_DESCRIPTION": "Portico Sport propose des solutions de terrains de padel clés en main dans le monde entier, avec un accompagnement d’experts, une installation certifiée et des services personnalisés pour garantir une exécution fluide et de haute qualité.",
+  "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
+  "GALLERY": "tour-service/galerie",
+  "TITLE": "Nos Services",
+  "ROUTE": {
+    "LABEL": "Nos Services",
+    "URL": "/nos-services"
+  },
+  "SECTION_1": {
+    "TITLE": "Des solutions complètes pour chaque projet de padel",
+    "DESCRIPTION": "Chez Portico Sport, nous offrons bien plus que la construction de terrains de padel : nous fournissons un service global, conçu pour rendre votre projet efficace, fluide et réussi. Avec plus de 4 000 terrains installés dans le monde entier, nous savons que chaque projet est unique. C’est pourquoi nous proposons une large gamme de services au-delà de la fabrication : assistance technique personnalisée, installation certifiée, solutions de financement et conseils en préparation du site. Nous vous accompagnons à chaque étape avec fiabilité, expertise et les plus hauts standards de qualité."
+  },
+  "SVC_1": {
+    "TITLE": "Assistance technique et support de projet",
+    "DESCRIPTION": "Notre équipe interne d’ingénieurs civils, d’architectes et d’experts en infrastructures fournit une assistance technique sur mesure à chaque client. Nous vous accompagnons dès le départ, avec une planification stratégique, des conseils d’optimisation de l’espace et des recommandations pour la construction. Grâce à des rendus 3D avancés et des visites virtuelles, nous vous aidons à visualiser votre terrain avant même le début des travaux. Notre objectif : simplifier les décisions complexes avec des solutions adaptées à votre site, vos objectifs et votre budget.",
+    "IMAGE": ""
+  },
+  "SVC_2": {
+    "TITLE": "Préparation du terrain et conseils en construction",
+    "DESCRIPTION": "La construction d’un terrain de padel commence par des fondations solides, au sens propre. Nous conseillons nos clients sur la préparation du site, y compris la construction de la dalle, la planification du drainage et les fondations en béton. Pour accélérer votre chantier, nous fournissons gratuitement des plans de construction de base dès la confirmation de commande. Cela garantit un travail de fond précis et conforme au modèle de terrain choisi, évitant ainsi des retards ou des corrections coûteuses.",
+    "IMAGE": ""
+  },
+  "SVC_3": {
+    "TITLE": "Équipes d’installation certifiées dans le monde entier",
+    "DESCRIPTION_1": "Chaque terrain de padel que nous fabriquons est installé par des équipes certifiées et des partenaires locaux fiables. Formés selon les standards exigeants de Portico Sport, nos installateurs assurent un montage précis, sécurisé et soigné, partout dans le monde.",
+    "DESCRIPTION_2": "Ce réseau mondial de professionnels garantit une qualité constante, une rigueur technique et une tranquillité d’esprit totale lors de l’installation.",
+    "IMAGE": ""
+  },
+  "SVC_4": {
+    "TITLE": "Solutions de financement flexibles",
+    "DESCRIPTION": "Nous savons que le financement est une étape clé dans la réalisation d’un projet de padel. C’est pourquoi nous avons établi des partenariats exclusifs avec des institutions financières pour proposer des solutions de financement adaptées. Du leasing aux plans personnalisés, nous accompagnons clubs, associations et promoteurs pour lever les freins financiers et rendre le padel de qualité accessible à tous.",
+    "IMAGE": "",
+    "BUTTON": {
+      "LABEL": "En savoir plus sur le financement de terrains",
+      "URL": "/",
+      "TITLE": "Découvrir les services financiers"
+    },
+    "MINDSPRING_TITLE": "Financement instantané des terrains avec Mindspring",
+    "MINDSPRING_DESCRIPTION": "Portico Sport propose désormais à ses clients une solution de financement immédiate grâce à un partenariat mondial avec Mindspring Padel. Leader dans l’intégration du padel dans les clubs, Mindspring Padel propose un modèle unique basé sur le partage de revenus, permettant aux clubs d’acquérir des terrains Portico Sport sans investissement initial ni risque. Si vous souhaitez financer à 100 % des terrains de padel Portico Sport dans votre club, contactez Portico Sport ou Mindspring Padel dès aujourd’hui."
+  },
+  "SVC_5": {
+    "TITLE": "Support après-vente",
+    "DESCRIPTION": "Chez Portico Sport, nous bâtissons des relations durables fondées sur la qualité, la confiance et le professionnalisme. Forts de notre expérience et orientés client, nous offrons un support après-vente personnalisé pour garantir votre satisfaction, avec des conseils d’entretien et une assistance technique experte pour que vos terrains restent en parfait état.",
+    "IMAGE": ""
+  },
+  "SVC_6": {
+    "TITLE": "Entretien et mises à jour",
+    "DESCRIPTION": "Notre engagement ne s’arrête pas à l’installation. Portico Sport propose des services d’entretien réguliers pour vos terrains, ainsi qu’une gamme complète de pièces détachées. Nous accompagnons également les clubs qui souhaitent moderniser leurs installations ou ajouter de nouvelles fonctionnalités pour améliorer l’expérience des joueurs. Grâce à notre assistance technique continue et à nos pièces d’origine, vous prolongez la durée de vie de vos terrains en toute confiance.",
+    "IMAGE": ""
+  },
+  "SECTION_2": {
+    "TITLE": "Rendons votre projet padel réalité.",
+    "DESCRIPTION": "Que vous soyez au stade de l’idée ou prêt à construire, notre équipe est à vos côtés pour garantir le succès de votre projet. Contactez-nous dès aujourd’hui pour bénéficier de notre expertise, de notre qualité d’ingénierie et d’un service irréprochable.",
+    "BUTTON": {
+      "LABEL": "Contactez-nous pour démarrer",
+      "URL": "/contact-client",
+      "TITLE": "Contacter Portico Sport"
+    }
+  }
+},
 
     "TURF": {
   "ID": "turf-section",
