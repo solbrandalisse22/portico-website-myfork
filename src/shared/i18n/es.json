@@ -2020,6 +2020,69 @@
     }
   }
 },
+"OUR_SERVICES": {
+  "ID": "nuestros-servicios",
+  "SEO_TITLE": "Servicios de Portico Sport - Servicios que van más allá de la fabricación",
+  "SEO_DESCRIPTION": "Portico Sport ofrece soluciones integrales de pistas de pádel en todo el mundo, con soporte experto, instalación certificada y servicios personalizados para garantizar una ejecución de proyectos fluida y de alta calidad.",
+  "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
+  "GALLERY": "tour-servicio/galeria",
+  "TITLE": "Nuestros Servicios",
+  "ROUTE": {
+    "LABEL": "Nuestros Servicios",
+    "URL": "/nuestros-servicios"
+  },
+  "SECTION_1": {
+    "TITLE": "Soluciones integrales para cada proyecto de pádel",
+    "DESCRIPTION": "En Portico Sport, ofrecemos más que solo la construcción de pistas de pádel: brindamos un servicio completo y integral diseñado para que su proyecto sea eficiente, fluido y exitoso. Con más de 4.000 pistas de pádel instaladas en todo el mundo, entendemos que cada proyecto es único. Por eso, proporcionamos una amplia gama de servicios que van más allá de la fabricación, incluyendo asistencia técnica personalizada, instalación certificada, soluciones financieras y orientación experta en la preparación del sitio para apoyarlo en cada paso del camino, con un servicio confiable, asesoramiento experto y los más altos estándares de calidad."
+  },
+  "SVC_1": {
+    "TITLE": "Asistencia técnica y soporte de proyecto",
+    "DESCRIPTION": "Nuestro equipo de ingenieros civiles, arquitectos y expertos en infraestructura internos proporciona asistencia técnica personalizada a cada cliente. Trabajamos con usted desde el principio, ofreciendo planificación estratégica, asesoramiento sobre optimización del espacio y orientación en la construcción. Con renders 3D mejorados y recorridos digitales, le ayudamos a visualizar la configuración de su pista antes de que comience la construcción. Nuestra misión es simplificar decisiones complejas y guiarlo con soluciones adaptadas a su sitio, objetivos y presupuesto.",
+    "IMAGE": ""
+  },
+  "SVC_2": {
+    "TITLE": "Preparación del terreno y orientación en la construcción",
+    "DESCRIPTION": "La construcción de una pista de pádel comienza con cimientos sólidos, literalmente. Asesoramos a nuestros clientes sobre la preparación del sitio, incluyendo la construcción de losas, planificación de drenaje y requisitos de cimentación de concreto. Para agilizar su construcción, también proporcionamos planos básicos de construcción sin costo adicional al confirmar el pedido. Esto asegura que el trabajo de base se complete con precisión y en línea con el modelo de pista elegido, ahorrándole tiempo y evitando correcciones costosas.",
+    "IMAGE": ""
+  },
+  "SVC_3": {
+    "TITLE": "Equipo de instalación certificado a nivel mundial",
+    "DESCRIPTION_1": "Cada pista de pádel que fabricamos es instalada por un equipo confiable de instaladores certificados y distribuidores locales. Cuidadosamente capacitados para cumplir con los exigentes estándares de Portico Sport, nuestro equipo de instalación asegura que cada pista de pádel y cubierta se ensamble con precisión, seguridad y cuidado, en cualquier parte del mundo.",
+    "DESCRIPTION_2": "Esta red global de profesionales garantiza consistencia, precisión técnica y tranquilidad durante todo el proceso de instalación.",
+    "IMAGE": ""
+  },
+  "SVC_4": {
+    "TITLE": "Servicios financieros flexibles",
+    "DESCRIPTION": "Entendemos que la financiación es una parte clave para llevar a cabo proyectos de pádel. Por eso, hemos establecido alianzas exclusivas con entidades financieras para ofrecer a nuestros clientes opciones de financiación flexibles. Desde soluciones de leasing hasta planes de financiación personalizados, trabajamos con clubes, asociaciones y desarrolladores para eliminar las barreras económicas y hacer que una infraestructura de pádel de alta calidad sea más accesible.",
+    "IMAGE": "",
+    "BUTTON": {
+      "LABEL": "Más sobre financiación de pistas de pádel",
+      "URL": "/financiamiento-pistas-de-padel",
+      "TITLE": "Explorar servicios financieros"
+    },
+    "MINDSPRING_TITLE": "Financiación inmediata de pistas de pádel con Mindspring",
+    "MINDSPRING_DESCRIPTION": "Portico Sport ahora ofrece a sus clientes la posibilidad de financiar sus nuevas pistas al instante, gracias a una colaboración global con Mindspring Padel. Como líder en apoyar a clubes a integrar el pádel, Mindspring Padel ofrece un modelo único de participación en los ingresos, que permite a los clubes adquirir nuevas pistas Portico Sport sin riesgos ni inversión inicial. Si está interesado en una financiación al 100% para pistas de pádel Portico Sport en su club deportivo, no dude en contactar a Portico Sport o Mindspring Padel hoy mismo."
+  },
+  "SVC_5": {
+    "TITLE": "Soporte postventa",
+    "DESCRIPTION": "En Portico Sport creemos en construir relaciones duraderas basadas en la calidad, la confianza y la profesionalidad. Con años de experiencia en la industria y un enfoque orientado al cliente, ofrecemos un soporte postventa completo y personalizado para garantizar la satisfacción del cliente, proporcionando asistencia técnica y asesoramiento experto para resolver cualquier duda y mantener su pista de pádel en óptimas condiciones.",
+    "IMAGE": ""
+  },
+  "SVC_6": {
+    "TITLE": "Mantenimiento y actualizaciones",
+    "DESCRIPTION": "Nuestro compromiso no termina con la instalación. Portico Sport ofrece servicios de mantenimiento continuo para pistas de pádel y una gama completa de piezas de repuesto y componentes, para asegurar que su pista se mantenga en excelentes condiciones a lo largo del tiempo. También apoyamos a clubes y recintos que desean actualizar sus pistas o añadir nuevas funciones para mejorar la experiencia del jugador. Con nuestro soporte técnico a largo plazo y acceso a piezas originales, puede prolongar la vida útil y el rendimiento de sus pistas con total confianza.",
+    "IMAGE": ""
+  },
+  "SECTION_2": {
+    "TITLE": "Hagamos realidad su proyecto de pádel.",
+    "DESCRIPTION": "Ya sea que esté comenzando con una idea o listo para construir, nuestro equipo está aquí para ayudarle a lograr el éxito. Contáctenos hoy mismo para descubrir cómo podemos apoyar su proyecto con asesoramiento experto, ingeniería de alta calidad y un servicio excepcional.",
+    "BUTTON": {
+      "LABEL": "Contáctenos para comenzar",
+      "URL": "/contacto-cliente",
+      "TITLE": "Contactar a Portico Sport"
+    }
+  }
+},
 
 "TURF":{
       "ID":"turf-section",
