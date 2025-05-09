@@ -213,15 +213,17 @@ const LINKS = [
     class="bg-background/90 -translate-y-full gap-2 transition-transform xl:hidden w-full flex flex-col items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh place-content-center"
   >
     {
-      LINKS.map(({ href, text, children }) => (
-        text !== i18n.PAGES.CONTACT.ROUTE.LABEL ? 
-        i18n.PAGES.COURTS.ROUTE.LABEL === text ?
+    LINKS.map(({ href, text, children }) => {
+      const hasDropdown = children && children.length > 0;
+  
+      if (hasDropdown) {
+        return (
           <div
             data-dropdown-toggle="dropdownMobileNavbar"
             class="relative gap-2 w-max group"
           >
-            <HeaderLink class={`flex justify-center items-center text__glowing pointer-events-none`} href={href || '#'}>
-              {`${capitalize(text)} `}
+            <HeaderLink class="flex justify-center items-center text__glowing" href={href || '#'}>
+              {capitalize(text)}
               <svg
                 class="w-2.5 h-2.5 ms-2.5"
                 aria-hidden="true"
@@ -240,15 +242,12 @@ const LINKS = [
             </HeaderLink>
             <div
               id="dropdownMobileNavbar"
-              class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block w-[300px] ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
+              class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
             >
-              <ul
-                class="py-2 text-sm flex flex-col gap-4 w-full bg-background rounded-xl border"
-                aria-labelledby="dropdownLargeButton"
-              >
+              <ul class="py-2 text-sm flex flex-col gap-4 w-full bg-background rounded-xl border">
                 {children.map(({ href, text }) => (
                   <li class="text-center">
-                    <HeaderLink class={`text__glowing w-full text-lg`} href={href}>
+                    <HeaderLink class="text__glowing w-full text-lg" href={href}>
                       {capitalize(text)}
                     </HeaderLink>
                   </li>
@@ -256,13 +255,16 @@ const LINKS = [
               </ul>
             </div>
           </div>
-        : <HeaderLink class="text__glowing item-link" href={href || '#'}>
+        );
+      }
+  
+      return (
+        <HeaderLink class="text__glowing item-link" href={href || '#'}>
           {capitalize(text)}
-        </HeaderLink> : children?.map((item) => <HeaderLink class="text__glowing item-link" href={item.href || '#'}>
-          {capitalize(item.text)}
-        </HeaderLink>)
-      ))
-    }
+        </HeaderLink>
+      );
+    })
+  }
     <!-- <Button
       class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
       url={i18n.PAGES.CONTACT.ROUTE.URL}
