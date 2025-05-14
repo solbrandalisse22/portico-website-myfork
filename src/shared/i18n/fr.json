@@ -2165,6 +2165,79 @@
     }
   }
 },
+  "FUNDING": {
+    "ID": "financement",
+    "SEO_TITLE": "Financement de courts de padel | Portico Sport",
+    "SEO_DESCRIPTION": "Portico Sport propose une variété de solutions de financement pour votre projet de court de padel, facilitant la gestion des coûts dans le temps.",
+    "ROUTE": {
+      "LABEL": "Financement de courts de padel",
+      "URL": "/financement-courts-padel"
+    },
+    "TITLE": "Financement de courts de padel",
+    "INTRO_SECTION": {
+      "TITLE": "Financement pour courts de padel",
+      "DESCRIPTION": "<p>Chez Portico Sport, nous comprenons que construire un court de padel est une entreprise passionnante et un investissement important. C'est pourquoi nous proposons des solutions de financement sur mesure, y compris des partenariats exclusifs comme Mindspring Padel, ainsi que des accords personnalisés avec des institutions financières de premier plan.</p><p>Nos collaborations avec des banques et des institutions financières offrent un accès à une large gamme de services, y compris le leasing et le financement par emprunt. Ces options sont conçues pour répondre aux besoins uniques de chaque client, offrant des conditions compétitives adaptées à vos exigences.</p>",
+      "BUTTON": {
+        "LABEL": "Construisons votre court de padel",
+        "TITLE": "Constructeurs de courts de padel",
+        "URL": "/contact-client"
+      },
+      "IMG": {
+        "SRC": "/projects/gallery/thumbnails/projects-9.webp",
+        "ALT": "Grand court de padel en France"
+      }
+    },
+    "SECTION_MINDSPRING": {
+      "TITLE": "Financement immédiat pour courts de padel via le partenariat Mindspring",
+      "DESCRIPTION": "Portico Sport offre désormais à ses clients une opportunité passionnante de financement immédiat de leurs nouveaux courts grâce à son partenariat mondial avec <a href='https://www.mindspringpadel.com/'>Mindspring Padel</a>. En tant que leader du marché dans l'intégration du padel dans les clubs, Mindspring Padel propose un modèle unique de partage des revenus permettant aux clubs d'acquérir facilement de nouveaux courts Portico Sport sans risque ni investissement initial. Si vous êtes intéressé par un financement à 100 % pour des courts de padel Portico Sport dans votre club de tennis, de padel ou sportif, contactez Portico Sport ou Mindspring Padel dès aujourd'hui !",
+      "BUTTON": {
+        "LABEL": "Intéressé par le financement de courts",
+        "TITLE": "Constructeurs de courts de padel",
+        "URL": "/contact-client"
+      }
+    },
+    "FINANCING_SECTION": {
+      "TITLE": "Meilleurs constructeurs de courts de padel avec programmes de financement",
+      "DESCRIPTION": "<p>Alternativement, Portico Sport propose également des solutions de financement directes via des banques et des options de leasing, conçues pour répondre aux besoins des clubs avec différentes stratégies financières.</p><p>Nos collaborations avec des banques et des institutions financières offrent un accès à une large gamme de services, y compris le leasing et le financement par emprunt. Ces options sont conçues pour répondre aux besoins uniques de chaque client, offrant des conditions compétitives adaptées à vos exigences.</p>",
+      "POINT_1": {
+        "TITLE": "Leasing",
+        "DESCRIPTION": "Idéal pour les entreprises et les particuliers souhaitant acquérir des actifs sans investissement initial important. Répartissez les paiements dans le temps et conservez l'option de posséder le court à la fin du contrat de location."
+      },
+      "POINT_2": {
+        "TITLE": "Financement par emprunt",
+        "DESCRIPTION": "Obtenez des capitaux via des prêts bancaires ou des lignes de crédit pour maintenir la liquidité tout en finançant votre court. Cela offre une flexibilité financière et vous aide à gérer efficacement votre flux de trésorerie."
+      }
+    },
+    "PROGRAMS_SECTION": {
+      "TITLE": "Développez le financement de votre court de padel avec Portico Sport",
+      "DESCRIPTION": "Investir dans un court de padel n'a jamais été aussi simple. Le financement avec Portico Sport signifie que vous pouvez atteindre vos objectifs plus rapidement, accéder à des options de paiement flexibles et garantir que votre projet est réalisé selon les normes les plus élevées.",
+      "SUBTITLE_1": "Pourquoi choisir le financement pour votre projet de court de padel ?",
+      "BENEFITS": {
+        "DESCRIPTION": "Avec nos programmes de financement, vous bénéficierez de :",
+        "BENEFIT_1": "Options de financement flexibles pour des courts de padel de qualité supérieure.",
+        "BENEFIT_2": "Amélioration du flux de trésorerie et meilleur contrôle de vos finances.",
+        "BENEFIT_3": "Expansion ou mise à niveau des installations avec une pression financière minimale.",
+        "BENEFIT_4": "Lancez ou développez votre projet immédiatement sans période d'attente.",
+        "BENEFIT_5": "Accédez à des modèles innovants de partage des revenus sans coût initial via des partenaires de confiance."
+      },
+      "BUTTON_1": {
+        "LABEL": "Explorez les options de financement maintenant",
+        "TITLE": "Constructeurs de courts de padel",
+        "URL": "/contact-client"
+      },
+      "SUBTITLE_2": "Réalisez votre vision du court de padel",
+      "DESCRIPTION_2": "<p>Imaginez votre court de padel ultramoderne animé par des joueurs et de l'énergie. Avec le financement de Portico Sport, ce rêve est à portée de main. Nos options de financement sur mesure sont conçues pour répondre à vos besoins spécifiques, garantissant un processus fluide du début à la fin.<br>Discutez de vos <strong>options de financement de court de padel</strong> avec nos experts et faites le premier pas vers la construction de votre court de rêve. <strong>Faisons de votre projet un succès !</strong></br>",
+      "BUTTON_2": {
+        "LABEL": "Contactez-nous pour un financement personnalisé",
+        "TITLE": "Constructeurs de courts de padel",
+        "URL": "/contact-client"
+      },
+      "IMG": {
+        "SRC": "/heros/hero-courts.webp",
+        "ALT": "Constructeurs de courts de padel"
+      }
+    }
+  },
 "CREDENTIALS": {
     "SEO_TITLE": "Certifications et Adhésions | Portico Sport – Leader dans la Fabrication de Terrains de Padel",
     "SEO_DESCRIPTION": "Portico Sport est un leader de confiance dans la construction de terrains de padel, soutenu par des adhésions clés du secteur telles que SAPCA et l'International Padel Cluster.",
