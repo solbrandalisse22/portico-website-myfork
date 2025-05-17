@@ -1,0 +1,101 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import ContactSection from "@/shared/components/sections/ContactSectionIrl.astro";
+import SliderProjects from "@/shared/components/sections/SectionSliderGallery.astro"
+
+interface Props {
+  language: string
+  gallery: Photo[]
+
+}
+
+const { language, gallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.SECTION_CA_CALGARY.SEO_TITLE} 
+description={i18n.PAGES.SECTION_CA_CALGARY.SEO_DESCRIPTION} 
+robots="index,follow"
+currentLocale={currentLocale} 
+language={language}
+  bgImage="/projects-Ireland/gallery/projectsIreland-2.webp"
+  bgClass="brightness-50"
+>
+    
+<main class="flex flex-col gradient-bg relative">
+  <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4">
+    <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.SECTION_CA_CALGARY.TITLE} responsive />
+  </div>
+<div class="bg-main relative bg-background">
+     
+        <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          { label: i18n.PAGES.SECTION_CA.ROUTE.LABEL, href: i18n.PAGES.SECTION_CA.ROUTE.URL},
+          {label: i18n.PAGES.SECTION_CA_CALGARY.ROUTE.LABEL, href: i18n.PAGES.SECTION_CA_CALGARY.ROUTE.URL},
+        ]}
+      />
+        
+    <Section 
+     id={i18n.PAGES.SECTION_CA_CALGARY.ID} 
+     heading2={i18n.PAGES.SECTION_CA_CALGARY.SECTION_1.TITLE}
+     >
+ 
+     <Typography tag="div" className="mb-6 text-center" text={i18n.PAGES.SECTION_CA_CALGARY.SECTION_1.DESCRIPTION} responsive/>
+      
+    </Section>
+ 
+  
+
+    <div class="intro-section flex flex-wrap w-full h-auto">
+      <div class="w-full md:w-1/2 text-center xs:m-auto">
+        <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SECTION_CA_CALGARY.SECTION_2.TITLE} responsive />
+        <Typography tag="div" className="ml-12" text={i18n.PAGES.SECTION_CA_CALGARY.SECTION_2.DESCRIPTION} responsive/>
+      
+      </div>
+      <div class="w-full md:w-1/2 md:m-auto">
+        <img
+          src="/projects-customization/gallery/proyecto-6.webp"
+          alt="Padel Pro in Cyprus"
+          class="img-structure w-full object-cover scale-[75%]"
+        />
+      </div>
+    </div>
+
+    <Section 
+    
+     heading2={i18n.PAGES.SECTION_CA_CALGARY.SECTION_3.TITLE}
+     >
+
+     <Typography tag="div" className="mb-6 text-center" text={i18n.PAGES.SECTION_CA_CALGARY.SECTION_3.DESCRIPTION} responsive/>
+     
+    </Section>
+    <SliderProjects
+
+    id={i18n.PAGES.SECTION_NZ.ID}
+    photos={gallery}
+    offset={5}
+    path={i18n.PAGES.SECTION_NZ.GALLERY}
+    
+    />
+      <Typography tag="h3" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.SECTION_CA_CALGARY.CONTACT_SECTION.TITLE} responsive/>
+      <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_CA_CALGARY.CONTACT_SECTION.DESCRIPTION} responsive />
+     
+          <ContactSection language={language} 
+
+          button_text={i18n.PAGES.SECTION_CA_CALGARY.CONTACT_SECTION.BUTTON.LABEL}
+          button_url={i18n.PAGES.SECTION_CA_CALGARY.CONTACT_SECTION.BUTTON.URL}
+          button_title={i18n.PAGES.SECTION_CA_CALGARY.CONTACT_SECTION.BUTTON.TITLE}
+          />
+      
+          
+</div>
+</main>
+</Layout>
