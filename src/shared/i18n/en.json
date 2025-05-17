@@ -1531,6 +1531,154 @@
      }
     }
   },
+    "SECTION_CA_TORONTO":{
+    "SEO_TITLE":"Padel Court Construction in Toronto | Portico Sport Canada",
+    "SEO_DESCRIPTION":"Discover top-quality padel court construction in Toronto with Portico Sport. We offer turn-key solutions for clubs, gyms, schools & private projects—engineered for Canadian climate.",
+    "TITLE":"Padel courts Toronto",
+    "ID": "toronto",
+      "ROUTE": {
+        "LABEL": "Toronto",
+        "URL": "/ca/toronto"
+      },
+    "SECTION_1":{
+      "TITLE":"Building premium quality padel courts in Toronto",
+      "DESCRIPTION":"<p>As padel continues to grow rapidly across Canada, Toronto is emerging as a leading city for the sport’s expansion. At Portico Sport, we’re proud to support that growth by offering turn-key padel court construction solutions tailored to the needs of clubs, gyms, schools, and private developers throughout the GTA.</p><p>Combining European engineering excellence with local expertise, we build courts that meet international standards and are optimised for Toronto’s climate—ensuring performance and durability year-round.</p>"
+    },
+    "SECTION_2":{
+      "TITLE":"Your local padel court construction partner",
+      "DESCRIPTION":"<p>As established padel court builders in Toronto, we manage every step of the process in-house—from design and production to logistics and installation. This allows us to maintain full quality control, ensure on-time delivery, and offer flexible customisation options.</p><p>Our courts are built for long-term use and high-level performance, ideal for both recreational venues and competitive facilities.</p><p>Whether you’re planning a single outdoor court or a multi-court complex for a real estate project, school, or sports centre, we provide wholesale padel court construction solutions that help you scale efficiently—without compromising on safety or compliance.</p>"
+    },
+    "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Build you padel court in Toronto with confidence",
+     "DESCRIPTION":"Partner with Portico Sport to bring your padel project to life. Contact us today for expert advice and a custom quote—let’s build the future of padel in Toronto, with courts made to last.",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Request your padel court quote",
+      "URL":"/client-contact",
+      "TITLE":"Contact Portico Sport"
+     }
+    }
+
+  },
+  "SECTION_CA_MONT":{
+    "SEO_TITLE":"Padel Court Construction in Montreal | Portico Sport Canada",
+    "SEO_DESCRIPTION":"Premium padel courts in Montreal, built for Quebec’s climate and design standards.",
+    "TITLE":"Padel courts Montreal",
+    "ID": "montreal",
+      "ROUTE": {
+        "LABEL": "Montreal",
+        "URL": "/ca/montreal"
+      },
+    "SECTION_1":{
+      "TITLE":"Expanding the padel movement in Montreal",
+      "DESCRIPTION":"Montreal is fast becoming a key location for padel in Eastern Canada, and Portico Sport is proud to be part of this growth. As demand increases, we are leading the way with high-quality padel court construction solutions tailored to the unique climate and architectural landscape of Quebec."
+    },
+    "SECTION_2":{
+      "TITLE":"Padel court construction in Montreal",
+      "DESCRIPTION":"We’ve successfully delivered our first project in Montreal—designed for performance, durability, and aesthetic appeal—and we’re ready to support more initiatives that aim to grow the sport across Montreal and beyond "
+    },
+    "SECTION_3":{
+      "TITLE":"Wholesale Padel Court Solutions for the Quebec Market",
+      "DESCRIPTION":"<p>At Portico Sport, we offer wholesale padel court construction services throughout Montreal and the greater Quebec region. Our in-house engineering and production give us full control over quality, lead times, and customisation.</p><p>Each court is built with materials adapted to snow, frost, and temperature fluctuations, ensuring year-round performance. Whether you're developing a sports facility, residential complex, or municipal space, our solutions are scalable and cost-efficient.</p>"
+    },
+    "SECTION_4":{
+      "TITLE":"Your trusted padel court supplier in Montreal",
+      "DESCRIPTION":"As established padel court suppliers in Canada, we bring European technology and industry expertise to every Montreal project. Our courts come in standard and panoramic formats, with a wide range of finishes to suit your design goals—without compromising on durability, safety, or playability."
+    },
+    "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Start your padel project in Montreal",
+     "DESCRIPTION":"Looking to build a padel court in Montreal? Contact Portico Sport for expert advice and a custom quote. Let’s work together to make padel more accessible across Quebec with courts built to last.",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Contact Portico Sport Now",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
+
+  },
+  "SECTION_CA_CALGARY":{
+    "SEO_TITLE":"Padel Court Construction in Calgary | Portico Sport Canada",
+    "SEO_DESCRIPTION":"Weather-resistant padel courts in Calgary, designed for Alberta’s climate. Turn-key solutions for clubs, gyms, and private developments in Western Canada.",
+    "TITLE":"Padel courts Calgary",
+    "ID": "calgary",
+      "ROUTE": {
+        "LABEL": "Calgary",
+        "URL": "/ca/calgary"
+      },
+    "SECTION_1":{
+      "TITLE":"Padel court construction in Calgary",
+      "DESCRIPTION":"<p>As padel continues to expand across Alberta, Calgary is quickly becoming a hub for this dynamic sport. At Portico Sport, we bring global expertise in padel court construction to support local clubs, developers, and sports centres in delivering top-level facilities across Western Canada.</p><p>Our courts are built to withstand Calgary’s unique climate, engineered with weather-resistant materials that perform year-round—resilient to snow, UV exposure, and seasonal changes</p>"
+    },
+    "SECTION_2":{
+      "TITLE":"Trusted padel court builders for Alberta",
+      "DESCRIPTION":"<p>We handle the entire process in-house—from design and manufacturing to delivery and installation—ensuring total quality control and seamless execution for every project. Whether you’re building a private court or launching a multi-court complex, we provide scalable, cost-effective solutions tailored to Calgary’s market.</p><p>From indoor venues to panoramic outdoor padel courts, we construct padel courts that balance aesthetic appeal, durability, and playability.</p>"
+    },
+    "SECTION_3":{
+      "TITLE":"Padel court suppliers in Calgary",
+      "DESCRIPTION":"<p>As one of Canada’s top padel court suppliers, Portico Sport is proud to support the sport’s growth in Calgary with premium courts built to last. Our flexible systems are ideal for residential, municipal, and commercial applications.</p><p>Thanks to fast production times, customised finishes, and in-house control, we deliver courts that meet your timeline, budget, and long-term vision.</p>"
+    },
+    "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Build you padel court in Toronto with confidence",
+     "DESCRIPTION":"Request your padel court quote",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Start your padel court project today",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
+
+  },
+  "SECTION_CA_OTTAWA":{
+    "SEO_TITLE":"Padel Court Construction in Ottawa | Portico Sport Canada",
+    "SEO_DESCRIPTION":"Build premium indoor & outdoor padel courts in Ottawa with Portico Sport. Engineered for Canada’s capital with durable, all-weather materials and top performance.",
+    "TITLE":"Padel Court Construction in Ottawa",
+    "ID": "ottawa",
+      "ROUTE": {
+        "LABEL": "Ottawa",
+        "URL": "/ottawa"
+      },
+    "SECTION_1":{
+      "TITLE":"Bringing World-Class Padel Courts to Ottawa",
+      "DESCRIPTION":"<p>As padel continues to grow across Ontario, Ottawa is emerging as a key destination for this fast-paced sport. At Portico Sport, we specialise in padel court construction tailored to both indoor and outdoor settings—ideal for the seasonal climate and unique facilities of Canada’s capital.</p><p>Our courts combine European engineering with durable, all-weather materials, ensuring top performance and longevity for clubs, public spaces, and private developments.</p>"
+    },
+    "SECTION_2":{
+      "TITLE":"Bulk Padel Court Installation for Ottawa Projects",
+      "DESCRIPTION":"<p>With years of global experience and a strong footprint in Canada, Portico Sport offers turnkey solutions for bulk padel court construction in Ottawa and across Ontario.</p><p>We handle every phase in-house—from design and manufacturing to shipping and installation—allowing full control over quality, cost, and timelines. Our wholesale court packages are ideal for sports complexes, residential communities, and public-sector developments looking to scale.</p>"
+    },
+    "SECTION_3":{
+      "TITLE":"Leading padel court suppliers in Ottawa",
+      "DESCRIPTION":"<p>As trusted padel court builders in Canada, we support Ottawa’s growing padel scene with courts that prioritise performance, aesthetics, and safety.</p><p>Whether you’re planning a single panoramic padel court or a full facility with multiple courts, we customise each project to suit your location, audience, and budget. Our fully in-house process guarantees consistency and quality in every detail.</p>"
+    },
+    "CONTACT_SECTION":{
+     "ID":"contact",
+     "TITLE":"Ready to build a padel court in Ottawa?",
+     "DESCRIPTION":"Get in touch with Portico Sport for a personalised quote and expert guidance. Let’s make Ottawa a leading destination for padel with premium courts built to perform in every season.",
+     "SUBTITLE_1":"Tailored advice for your Padel project",
+     "SUBTITLE_2":"Custom design and manufacturing",
+     "SUBTITLE_3":"General enquiries and initial consultations",
+     "SUBTITLE_4":"Comprehensive project management",
+     "BUTTON":{
+      "LABEL":"Build your padel court with us",
+      "URL":"/client-contact",
+      "TITLE":"contact Portico Sport"
+     }
+    }
+
+  },
     "SECTION_ME":{
       "ID": "middle-east",
       "ROUTE": {
