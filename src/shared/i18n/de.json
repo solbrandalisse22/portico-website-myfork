@@ -2001,6 +2001,8 @@
     "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
     "TITLE": "Unsere Partner",
     "SUBTITLE": "Exzellenz im Bau von Padelplätzen",
+    "POPUP":"Descubre más",
+    "NEW"="https://www.porticosport.es/noticias/portico-sport-y-head-forjan-una-alianza-estrategica",
     "ROUTE": {
       "LABEL": "Partner",
       "URL": "/partner"
