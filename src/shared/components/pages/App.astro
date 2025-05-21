@@ -20,6 +20,7 @@ import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import { type Photo } from "@/types/types.ts";
 import Slider from "@/shared/components/sections/Slider.astro";
 import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
+import PopupPartners from "@/shared/components/PopupPartners.astro"
 
 
 interface Props {
@@ -48,12 +49,15 @@ const posts = await response.json();
         <button id="logo-hexagon-cup">
           <HexagonCupLogo />
         </button>
-        
+         <button class="mt-12">
+          <img src="/Head-logo.png" class="invert"/>
+        </button>
 
       </div>
     </div>
   </Video>
   <main>
+ <PopupPartners/>
     <SectionIntro language={language} />
 <section  id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}
      >
