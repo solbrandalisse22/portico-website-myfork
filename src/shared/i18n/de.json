@@ -2002,7 +2002,7 @@
     "TITLE": "Unsere Partner",
     "SUBTITLE": "Exzellenz im Bau von Padelplätzen",
     "POPUP":"Mehr erfahren",
-    "NEW"="https://www.porticosport.com/news/portico-sport-and-head-forge-strategic-alliance",
+    "NEW":"https://www.porticosport.com/news/portico-sport-and-head-forge-strategic-alliance",
     "ROUTE": {
       "LABEL": "Partner",
       "URL": "/partner"
