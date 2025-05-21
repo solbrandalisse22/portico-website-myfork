@@ -2091,17 +2091,17 @@
         "IMAGES": [
           {
             "id": "slide-2.1",
-            "src": "/partners/repsol/Repsol-01.webp",
+            "src": "/partners/Repsol/Repsol-01.webp",
             "alt": "Portico Sport & Repsol"
           },
           {
             "id": "slide-2.2",
-            "src": "/partners/repsol/Repsol-02.webp",
+            "src": "/partners/Repsol/Repsol-02.webp",
             "alt": "Portico Sport & Repsol"
           },
           {
             "id": "slide-2.3",
-            "src": "/partners/repsol/Repsol-03.webp",
+            "src": "/partners/Repsol/Repsol-03.webp",
             "alt": "Portico Sport & Repsol"
           }
         ],
@@ -2123,22 +2123,22 @@
       "IMAGES": [
         {
           "id": "slide-3.1",
-          "src": "/partners/even-padel/EvenPadel-tour1.webp",
+          "src": "/partners/Even Padel/EvenPadel-tour1.webp",
           "alt": "Even Padel Tour"
         },
         {
           "id": "slide-3.2",
-          "src": "/partners/even-padel/EvenPadel-tour2.webp",
+          "src": "/partners/Even Padel/EvenPadel-tour2.webp",
           "alt": "Even Padel Tour"
         },
         {
           "id": "slide-3.3",
-          "src": "/partners/even-padel/EvenPadel-tour3.webp",
+          "src": "/partners/Even Padel/EvenPadel-tour3.webp",
           "alt": "Even Padel Tour"
         },
         {
           "id": "slide-3.4",
-          "src": "/partners/even-padel/EvenPadel-tour4.webp",
+          "src": "/partners/Even Padel/EvenPadel-tour4.webp",
           "alt": "Even Padel Tour"
         }
       ],
