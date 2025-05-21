@@ -2026,6 +2026,8 @@
     "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
     "TITLE": "Nuestros Socios",
     "SUBTITLE": "Excelencia en la construcción de pistas de pádel",
+    "POPUP":"Descubre más",
+     "NEW":"https://www.porticosport.es/noticias/portico-sport-y-head-forjan-una-alianza-estrategica",
     "ROUTE": {
       "LABEL": "Socios",
       "URL": "/socios"
