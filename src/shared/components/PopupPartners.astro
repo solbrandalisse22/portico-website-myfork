@@ -1,0 +1,85 @@
+<div id="popup" class="popup">
+    <div class="popup-content">
+      <button class="close-btn" onclick="document.getElementById('popup').style.display='none'">X</button>
+      
+      <img src="/popup.jpg" alt="Head partners" />
+  
+      <div class="popup-buttons">
+        <a href="/partners" class="read-more-btn">Read more</a>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      animation: fadeOut 10s forwards;
+    }
+  
+    .popup-content {
+      position: relative;
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 90%;
+      max-height: 90%;
+      box-shadow: 0 0 10px black;
+    }
+  
+    .popup-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+  
+    .popup-buttons {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .read-more-btn {
+      background:rgb(30, 32, 92);
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+  
+    .close-btn {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      
+      background: transparent;
+      border: none;
+      font-size: 1.2rem;
+      color: #555;
+      cursor: pointer;
+    }
+  
+    @keyframes fadeOut {
+      0% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+  </style>
+  
+  <script>
+    setTimeout(() => {
+      const popup = document.getElementById('popup');
+      if (popup) popup.style.display = 'none';
+    }, 10000);
+  </script>
+  
