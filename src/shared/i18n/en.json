@@ -3395,6 +3395,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
       "TITLE": "Our Partners ",
       "SUBTITLE":"Excellence in Padel Court Construction",
+      "POPUP":"Discover more",
       "ROUTE": {
         "LABEL": "Partners",
         "URL": "/partners"
