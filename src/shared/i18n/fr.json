@@ -2002,6 +2002,175 @@
     }
   }
 },
+  "PARTNERS": {
+    "SEO_TITLE": "Partenaires de confiance dans l'innovation des terrains de padel | Portico Sport",
+    "SEO_DESCRIPTION": "Découvrez les partenaires clés derrière le succès de Portico Sport dans la construction de terrains de padel premium. Apprenez-en davantage sur nos collaborations.",
+    "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+    "TITLE": "Nos Partenaires",
+    "SUBTITLE": "Excellence dans la construction de terrains de padel",
+    "ROUTE": {
+      "LABEL": "Partenaires",
+      "URL": "/partenaires"
+    },
+    "PARTNER_1": {
+      "ID": "hexagon-partner",
+      "TITLE": "Portico Sport - Terrain de padel officiel de la Hexagon Cup",
+      "SUBTITLE": "Le terrain officiel de padel de l'Alpine Hexagon Cup - Maintenant disponible pour votre club",
+      "DESCRIPTION": "<p>La <strong><a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a></strong> est la compétition privée par équipes la plus dynamique au monde, redéfinissant le padel professionnel avec son format innovant et son ambiance électrisante.</p><p>En tant que <strong>terrain officiel, Portico Sport</strong> a conçu le <strong>terrain violet emblématique du tournoi</strong>, conçu pour une performance élite, une durabilité et une visibilité optimale pour les joueurs, les spectateurs et les diffuseurs.</p>",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/partners/hexagon/Hexagon-01.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      },{
+        "id": "slide-2",
+        "src": "/partners/hexagon/Hexagon-02.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      },{
+        "id": "slide-3",
+        "src": "/partners/hexagon/Hexagon-03.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      },{
+        "id": "slide-4",
+        "src": "/partners/hexagon/Hexagon-04.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      }],
+      "BUTTON": {
+        "TEXT": "Découvrez le terrain officiel de l'Alpine Hexagon Cup",
+        "URL": "https://hexagoncup.porticosport.com/",
+        "TITLE": "Terrain officiel de la Hexagon Cup"
+      },
+      "SUBTITLE_2": "Le terrain officiel de padel de l'Alpine Hexagon Cup - Maintenant disponible pour votre club",
+      "DESCRIPTION_2": "<p>Maintenant, les clubs peuvent apporter <strong>l'expérience de l'Alpine Hexagon Cup</strong> à leurs installations avec des <strong>terrains exclusifs aux couleurs de Hexagon.</strong> Construits selon des normes professionnelles, ces terrains améliorent le jeu et connectent votre club à l'un des événements les plus excitants du padel.</p><p><strong>Améliorez votre installation avec le même terrain qui a accueilli certains des meilleurs joueurs de padel au monde.</strong></p>"
+    },
+    "PARTNER_2": {
+    "ID": "head",
+    "TITLE": "HEAD & PORTICO SPORT SOUTIENNENT LA CROISSANCE MONDIALE DU PADEL",
+    "DESCRIPTION": "<p>Un partenariat stratégique entre <strong><a href=https://www.head.com/>HEAD Padel</a></strong> et Portico Sport, renforçant leur engagement envers l’innovation et contribuant à l’expansion mondiale du padel.</p>",
+    "FIRST_SECTION": {
+      "SUBTITLE": "Terrains de padel haut de gamme répondant aux normes de qualité et de durabilité les plus élevées.",
+      "IMAGES": [{
+        "id": "slide-1.1",
+        "src": "/partners/head/Head-court-01.webp",
+        "alt": "Terrain exclusif de HEAD Padel"
+      }, {
+        "id": "slide-1.2",
+        "src": "/partners/head/Head-court-02.webp",
+        "alt": "Terrain exclusif de HEAD Padel"
+      }, {
+        "id": "slide-1.3",
+        "src": "/partners/head/Head-court-03.webp",
+        "alt": "Terrain exclusif de HEAD Padel"
+      }, {
+        "id": "slide-1.4",
+        "src": "/partners/head/Head-court-04.webp",
+        "alt": "Terrain exclusif de HEAD Padel"
+      }],
+      "LIST": [
+        "<strong>Terrains de padel exclusifs avec l’image de marque emblématique de HEAD.</strong>",
+        "<strong>Certification et homologation</strong>",
+        "<strong>Technologie avancée en structure et surface</strong>",
+        "<strong>Éclairage intégré</strong>",
+        "<strong>Durabilité et respect de l’environnement</strong>",
+        "<strong>Design moderne, esthétique et résistant</strong>"
+      ]
+    },
+    "SECOND_SECTION": {
+      "DESCRIPTION": "<p>Les clients recevront un <strong>pack premium de produits et accessoires HEAD</strong>, apportant une valeur ajoutée pour les joueurs et les propriétaires de clubs.</p><p>Portico Sport et HEAD soutiendront la croissance des terrains de padel à l’échelle mondiale tout en proposant aux clubs une large gamme d’équipements.</p><p><strong>Une solution complète pour les clubs et joueurs du monde entier.</strong></p>"
+    }
+  },
+  "PARTNER_3": {
+    "ID": "repsol",
+    "TITLE": "Repsol & Portico Sport : Promouvoir la durabilité dans le padel",
+    "DESCRIPTION": "Un partenariat stratégique entre <strong><a href=https://www.repsol.com/>Repsol</a></strong> et Portico Sport visant à apporter des solutions énergétiques renouvelables et de mobilité écologique à l'industrie du padel.",
+    "FIRST_SECTION": {
+      "SUBTITLE": "Solutions durables pour les clubs de padel et de tennis",
+      "DESCRIPTION": "Cette collaboration transformera les clubs avec :",
+      "IMAGES": [{
+        "id": "slide-2.1",
+        "src": "/partners/Repsol/Repsol-01.webp",
+        "alt": "Portico Sport & Repsol"
+      }, {
+        "id": "slide-2.2",
+        "src": "/partners/Repsol/Repsol-02.webp",
+        "alt": "Portico Sport & Repsol"
+      }, {
+        "id": "slide-2.3",
+        "src": "/partners/Repsol/Repsol-03.webp",
+        "alt": "Portico Sport & Repsol"
+      }],
+      "LIST": [
+        "<strong>Autoconsommation photovoltaïque</strong> : Exploitez l'énergie solaire pour une meilleure efficacité énergétique.",
+        "<strong>Communautés solaires</strong> : Partage d'énergie renouvelable pour un avenir plus vert.",
+        "<strong>Électricité 100 % renouvelable</strong> : Réduction de l’empreinte carbone des installations sportives.",
+        "<strong>Mobilité durable</strong> : Solutions de recharge pour véhicules électriques dans les clubs."
+      ]
+    },
+    "SECOND_SECTION": {
+      "DESCRIPTION": "<p>En combinant l'expertise de Portico Sport dans la construction de terrains avec le leadership de Repsol dans l'énergie renouvelable, ce partenariat ouvre la voie à une industrie sportive plus durable.</p><p><strong>Rejoignez-nous pour bâtir un avenir plus écologique et éco-responsable pour le padel.</strong></p>"
+    }
+  },
+    "PARTNER_4": {
+    "ID": "even-padel",
+    "TITLE": "Portico Sport & Even Padel Tour : Élever la compétition amateur",
+    "DESCRIPTION": "<p>Portico Sport est <strong>le sponsor officiel du <a href=https://www.evenpadel.com/>Even Padel Tour</a></strong>, une initiative clé qui favorise la professionnalisation des compétitions amateurs, qui concernent 97 % des joueurs de padel.</p><p>Grâce à ce partenariat, nous améliorons la qualité du tour tout en soutenant les clubs hôtes avec des terrains de padel haut de gamme et des avantages exclusifs sur nos produits et services.</p><p><strong>Vous souhaitez rejoindre le tour ou améliorer vos terrains ?</strong></p>",
+    "IMAGES": [{
+      "id": "slide-3.1",
+      "src": "/partners/Even Padel/EvenPadel-tour1.webp",
+      "alt": "Even Padel Tour"
+    }, {
+      "id": "slide-3.2",
+      "src": "/partners/Even Padel/EvenPadel-tour2.webp",
+      "alt": "Even Padel Tour"
+    }, {
+      "id": "slide-3.3",
+      "src": "/partners/Even Padel/EvenPadel-tour3.webp",
+      "alt": "Even Padel Tour"
+    }, {
+      "id": "slide-3.4",
+      "src": "/partners/Even Padel/EvenPadel-tour4.webp",
+      "alt": "Even Padel Tour"
+    }],
+    "BUTTON": {
+      "TEXT": "Développons le padel ensemble !",
+      "URL": "/client-contact",
+      "TITLE": "Contacter Portico Sport"
+    }
+  },
+     "PARTNER_5": {
+    "ID": "mindspring",
+    "TITLE": "Mindspring & Portico Sport : Offrez le padel à votre club",
+    "SUBTITLE": "Financement à 100 % des terrains de padel – Aucun risque, que des avantages",
+    "DESCRIPTION": "<p>Apportez l'excitation du padel à votre club de tennis, padel ou multisport avec une <strong>solution clé en main entièrement financée</strong>, conçue pour une intégration fluide.</p><p>Avec <strong>un risque financier nul</strong>, notre partenariat garantit que votre club peut adopter le padel sans souci, maximisant ses bénéfices dès le premier jour. Que vous souhaitiez agrandir vos infrastructures existantes ou introduire le padel pour la première fois, nous vous apportons l'expertise, le financement et l’accompagnement nécessaires pour concrétiser votre projet—rapidement et efficacement.</p>",
+    "IMAGES": [{
+      "id": "slide-4.1",
+      "src": "/partners/Mindspring/LosNaranjos-01.webp",
+      "alt": "Club de padel Los Naranjos"
+    },{
+      "id": "slide-4.2",
+      "src": "/partners/Mindspring/cerrado del aguila.webp",
+      "alt": "Cerrado del Aguila"
+    },{
+      "id": "slide-4.3",
+      "src": "/partners/Mindspring/LosNaranjos-02.webp",
+      "alt": "Club de padel Los Naranjos"
+    },{
+      "id": "slide-4.4",
+      "src": "/partners/Mindspring/Smash club padel Bicester.webp",
+      "alt": "Smash Club Padel Bicester"
+    }],
+    "LIST": [
+      "<strong>Installation rapide et sans tracas</strong>",
+      "<strong>Aucun investissement initial requis</strong>",
+      "<strong>Une solution intelligente pour développer votre club</strong>"
+    ],
+    "DESCRIPTION_2": "<p><strong>Prêt à faire passer votre club à l’étape supérieure avec le padel ?</strong></p>",
+    "BUTTON": {
+      "TEXT": "Faisons-le ensemble !",
+      "URL": "https://www.mindspringpadel.com/",
+      "TITLE": "Mindspring Padel"
+    }
+  }
+  },
 "OUR_SERVICES": {
   "ID": "nos-services",
   "SEO_TITLE": "Services de Portico Sport - Bien plus que la fabrication",
