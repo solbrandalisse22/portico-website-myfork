@@ -1,0 +1,441 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import Typography from "@/shared/components/ui/Typography.astro"
+import Button from "@/shared/components/Button.astro"
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Section from "@/shared/components/Section.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import { type Photo } from "@/types/types";
+import FeatureList from "@/shared/components/FeatureList.astro";
+
+
+
+interface Props {
+  language: string;
+
+}
+const mindspringImages = [] as Photo[];
+const hexagonImages = [] as Photo[];
+const headImages = [] as Photo[];
+const repsolImages = [] as Photo[];
+const evenImages = [] as Photo[];
+
+const { language} = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+i18n.PAGES.PARTNERS.PARTNER_5.IMAGES.forEach((image: Photo) => {
+    mindspringImages.push({
+      id: image.id,
+      src: image.src,
+      alt: image.alt,
+    });
+  });
+
+i18n.PAGES.PARTNERS.PARTNER_1.IMAGES.forEach((image: Photo) => {
+    hexagonImages.push({
+      id: image.id,
+      src: image.src,
+      alt: image.alt,
+    });
+  });
+  i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.IMAGES.forEach((image: Photo) => {
+    headImages.push({
+      id: image.id,
+      src: image.src,
+      alt: image.alt,
+    });
+  });
+
+  i18n.PAGES.PARTNERS.PARTNER_3.FIRST_SECTION.IMAGES.forEach((image: Photo) => {
+    repsolImages.push({
+      id: image.id,
+      src: image.src,
+      alt: image.alt,
+    });
+  });
+  i18n.PAGES.PARTNERS.PARTNER_4.IMAGES.forEach((image: Photo) => {
+    evenImages.push({
+      id: image.id,
+      src: image.src,
+      alt: image.alt,
+    });
+  });
+  
+---
+
+<Layout
+  title={i18n.PAGES.PARTNERS.SEO_TITLE}
+  description={i18n.PAGES.PARTNERS.SEO_DESCRIPTION}
+  ogImage={i18n.PAGES.PARTNERS.OG_IMG}
+  currentLocale={currentLocale}
+bgImage="/public/varios/_DSC1006.webp"
+bgClass="brightness-50"
+  language={language}
+>
+ <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+<Section 
+heading1={i18n.PAGES.PARTNERS.TITLE} className="uppercase text-secondary" >
+
+
+ </div>
+</Section>
+<div class="bg-main relative bg-background">
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+        { label: i18n.PAGES.PARTNERS.ROUTE.LABEL, href: i18n.PAGES.PARTNERS.ROUTE.URL },
+      ]}
+    />
+   
+      
+        <Section className="flex flex-col max-w-none p-0 border-b-4 border-black" style="padding: 0; margin-left: 0; margin-right: 0;">
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="relative w-full xl:w-1/2 flex-1">
+            {
+              hexagonImages.map((image, index) => (
+                <img
+                  loading="lazy"
+                  draggable={false}
+                  id={image.id}
+                  src={image.src}
+                  alt={image.alt}
+                  class={`${index === 0 ? "relative" : "absolute"} object-cover w-full h-full  top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                />
+              ))
+            }
+            <img src="/public/hexagon-logo.svg" alt="Hexagon cup logo" class="absolute top-1 left-1/2 transform -translate-x-1/2 z-10 w-80"/>
+          </div>
+          <div class="w-full xl:w-1/2 py-8 px-4 md:px-8 flex-1 z-10">
+            <Typography tag="h2" className="mb-6 font-bold uppercase" text={i18n.PAGES.PARTNERS.PARTNER_1.TITLE} type="secondary" responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_1.DESCRIPTION} responsive />
+            <Typography tag="h3" className="mb-4 font-thin" text={i18n.PAGES.PARTNERS.PARTNER_1.SUBTITLE_2} type="primary" responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_1.DESCRIPTION_2} responsive />
+            <Button
+            url={i18n.PAGES.PARTNERS.PARTNER_1.BUTTON.URL}
+            title={i18n.PAGES.PARTNERS.PARTNER_1.BUTTON.TITLE}
+          >
+            {i18n.PAGES.PARTNERS.PARTNER_1.BUTTON.TEXT}
+          </Button>
+          </div>
+        </div>
+      </Section> 
+      
+      <Section className="flex flex-col max-w-none p-0 border-b-4 border-black " style="padding: 0; margin-left: 0; margin-right: 0;">
+        <div class="flex flex-col xl:flex-row-reverse max-w-none">
+          
+          <div class="relative w-full xl:w-1/2 flex-1">
+            {
+              headImages.map((image, index) => (
+                <img
+                  loading="lazy"
+                  draggable={false}
+                  id={image.id}
+                  src={image.src}
+                  alt={image.alt}
+                  class={`${index === 0 ? "relative" : "absolute"} image-reverse object-cover w-full xl:max-w-[1024px] h-full top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                />
+              ))
+            }
+            <img src="/public/Head-logo.png" alt="HEAD padel logo" class="invert absolute top-1 left-1/2 transform -translate-x-1/2 z-10 w-80"/>
+
+          </div>
+                <div class="w-full xl:w-1/2 py-8 px-4 md:px-8 flex-1 z-10">
+            <Typography tag="h2" className="mb-6 font-bold uppercase" text={i18n.PAGES.PARTNERS.PARTNER_2.TITLE} type="secondary" responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.DESCRIPTION} responsive />
+            <Typography tag="h3" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.SUBTITLE} responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.DESCRIPTION} responsive />
+      
+            <FeatureList className="scale-75" list={i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.LIST} />
+            <Typography tag="h3" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.SECOND_SECTION.SUBTITLE} responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.SECOND_SECTION.DESCRIPTION} responsive />
+          </div>
+        </div>
+      </Section>
+      
+     <Section className="flex flex-col max-w-none p-0 border-b-4 border-black" style="padding: 0; margin-left: 0; margin-right: 0;">
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="relative w-full xl:w-1/2 flex-1">
+            {
+              repsolImages.map((image, index) => (
+                <img
+                  loading="lazy"
+                  draggable={false}
+                  id={image.id}
+                  src={image.src}
+                  alt={image.alt}
+                  class={`${index === 0 ? "relative" : "absolute"} object-cover xl:max-w-[1024px] w-full h-full  top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                />
+              ))
+            }
+          <img src="/public/repsol-logo.svg" alt="Repsol logo" class="absolute top-1 left-1/2 transform -translate-x-1/2 z-10 w-60"/>
+
+          </div>
+          <div class="w-full py-8 px-4 md:px-8 xl:w-1/2 flex-1 z-10">
+            <Typography tag="h2" className="mb-6 font-bold uppercase" text={i18n.PAGES.PARTNERS.PARTNER_3.TITLE} type="secondary" responsive />
+            <Typography tag="p" className="mb-4 font-thin" text={i18n.PAGES.PARTNERS.PARTNER_3.SUBTITLE}} type="primary" responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_3.DESCRIPTION} responsive />
+            <FeatureList className="scale-75" list={i18n.PAGES.PARTNERS.PARTNER_3.FIRST_SECTION.LIST} />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_3.SECOND_SECTION.DESCRIPTION} responsive />
+          </div>
+        </div>
+      </Section> 
+      <Section className="flex flex-col max-w-none p-0  border-b-4 border-black" style="padding: 0; margin-left: 0; margin-right: 0;">
+        <div class="flex flex-col xl:flex-row-reverse max-w-none">
+          <div class="relative w-full xl:w-1/2 flex-1">
+            {
+              evenImages.map((image, index) => (
+                <img
+                  loading="lazy"
+                  draggable={false}
+                  id={image.id}
+                  src={image.src}
+                  alt={image.alt}
+                  class={`${index === 0 ? "relative" : "absolute"} image-reverse object-cover w-full h-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                />
+              ))
+            }
+          <img src="/public/evenpadel-logo.svg" alt="Even padel logo" class="absolute top-1 left-1/2 transform -translate-x-1/2 z-10 w-80"/>
+
+          </div>
+          <div class="w-full py-8 px-4 md:px-8 xl:w-1/2 flex-1 z-10">
+            <Typography tag="h2" className="mb-6 font-bold uppercase" text={i18n.PAGES.PARTNERS.PARTNER_4.TITLE} type="secondary" responsive />
+            <Typography tag="p" className="mb-4 font-thin" text={i18n.PAGES.PARTNERS.PARTNER_4.SUBTITLE}} type="primary" responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_4.DESCRIPTION} responsive />
+            <Button
+            url={i18n.PAGES.PARTNERS.PARTNER_4.BUTTON.URL}
+            title={i18n.PAGES.PARTNERS.PARTNER_4.BUTTON.TITLE}
+          >
+            {i18n.PAGES.PARTNERS.PARTNER_4.BUTTON.TEXT}
+          </Button>
+          </div>
+        </div>
+      </Section> 
+      <Section className="flex flex-col max-w-none p-0 border-b-4 border-black" style="padding: 0; margin-left: 0; margin-right: 0;">
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="relative w-full xl:w-1/2 flex-1">
+            {
+              mindspringImages.map((image, index) => (
+                <img
+                  loading="lazy"
+                  draggable={false}
+                  id={image.id}
+                  src={image.src}
+                  alt={image.alt}
+                  class={`${index === 0 ? "relative" : "absolute"} object-cover w-full h-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                />
+              ))
+            }
+           <img src="/public/mindspringpadel_logo.svg" alt="Mindspring logo" class="absolute top-1 left-1/2 bg-white/70 p-2 transform -translate-x-1/2 z-10 w-80 "/>
+
+          </div>
+          <div class="w-full py-8 px-4 md:px-8 xl:w-1/2 flex-1 z-10">
+            <Typography tag="h2" className="mb-6 font-bold uppercase" text={i18n.PAGES.PARTNERS.PARTNER_5.TITLE} type="secondary" responsive />
+            <Typography tag="p" className="mb-4 font-thin" text={i18n.PAGES.PARTNERS.PARTNER_5.SUBTITLE}} type="primary" responsive />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_5.DESCRIPTION} responsive />
+            <FeatureList className="scale-75" list={i18n.PAGES.PARTNERS.PARTNER_5.LIST} />
+            <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_5.DESCRIPTION_2} responsive />
+
+            <Button
+            url={i18n.PAGES.PARTNERS.PARTNER_5.BUTTON.URL}
+            title={i18n.PAGES.PARTNERS.PARTNER_5.BUTTON.TITLE}
+          >
+            {i18n.PAGES.PARTNERS.PARTNER_5.BUTTON.TEXT}
+          </Button>  
+        </div>
+        </div>
+      </Section> 
+    </div>
+    </main>
+
+
+</Layout>
+<style>
+
+  .section-renders {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+  
+  .front {
+    grid-column: 1 / -1;
+  }
+  
+  .section-renders img {
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .section-renders img:hover {
+    filter: drop-shadow(1px 1px 10px rgb(183 228 253));
+  }
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>
+<script is:inline define:vars={{ hexagonImages }}>
+    const updatehexagonImages = (hexagonImages) => {
+      // cambiar a la siguiente imagen cada 3 segundos
+  
+      let index = 0;
+      setInterval(() => {
+        const currentImage = hexagonImages[index];
+        const nextImage = hexagonImages[index + 1] || hexagonImages[0];
+  
+        const currentImageElement = document.getElementById(currentImage.id);
+        const nextImageElement = document.getElementById(nextImage.id);
+  
+        if (currentImageElement && nextImageElement) {
+          currentImageElement.classList.remove("opacity-100");
+          currentImageElement.classList.add("opacity-0");
+          nextImageElement.classList.remove("opacity-0");
+          nextImageElement.classList.add("opacity-100");
+        }
+  
+        index = index + 1;
+        if (index === hexagonImages.length) index = 0;
+      }, 3000);
+    };
+  
+    hexagonImages.length && updatehexagonImages(hexagonImages);
+  </script>
+  <script is:inline define:vars={{ headImages }}>
+    const updateheadImages = (headImages) => {
+      // cambiar a la siguiente imagen cada 3 segundos
+  
+      let index = 0;
+      setInterval(() => {
+        const currentImage = headImages[index];
+        const nextImage = headImages[index + 1] || headImages[0];
+  
+        const currentImageElement = document.getElementById(currentImage.id);
+        const nextImageElement = document.getElementById(nextImage.id);
+  
+        if (currentImageElement && nextImageElement) {
+          currentImageElement.classList.remove("opacity-100");
+          currentImageElement.classList.add("opacity-0");
+          nextImageElement.classList.remove("opacity-0");
+          nextImageElement.classList.add("opacity-100");
+        }
+  
+        index = index + 1;
+        if (index === headImages.length) index = 0;
+      }, 3000);
+    };
+  
+    headImages.length && updateheadImages(headImages);
+  </script>
+  <script is:inline define:vars={{ repsolImages }}>
+    const updaterepsolImages = (repsolImages) => {
+      // cambiar a la siguiente imagen cada 3 segundos
+  
+      let index = 0;
+      setInterval(() => {
+        const currentImage = repsolImages[index];
+        const nextImage = repsolImages[index + 1] || repsolImages[0];
+  
+        const currentImageElement = document.getElementById(currentImage.id);
+        const nextImageElement = document.getElementById(nextImage.id);
+  
+        if (currentImageElement && nextImageElement) {
+          currentImageElement.classList.remove("opacity-100");
+          currentImageElement.classList.add("opacity-0");
+          nextImageElement.classList.remove("opacity-0");
+          nextImageElement.classList.add("opacity-100");
+        }
+  
+        index = index + 1;
+        if (index === repsolImages.length) index = 0;
+      }, 3000);
+    };
+  
+    repsolImages.length && updaterepsolImages(repsolImages);
+  </script>
+  <script is:inline define:vars={{ evenImages }}>
+    const updateevenImages = (evenImages) => {
+      // cambiar a la siguiente imagen cada 3 segundos
+  
+      let index = 0;
+      setInterval(() => {
+        const currentImage = evenImages[index];
+        const nextImage = evenImages[index + 1] || evenImages[0];
+  
+        const currentImageElement = document.getElementById(currentImage.id);
+        const nextImageElement = document.getElementById(nextImage.id);
+  
+        if (currentImageElement && nextImageElement) {
+          currentImageElement.classList.remove("opacity-100");
+          currentImageElement.classList.add("opacity-0");
+          nextImageElement.classList.remove("opacity-0");
+          nextImageElement.classList.add("opacity-100");
+        }
+  
+        index = index + 1;
+        if (index === evenImages.length) index = 0;
+      }, 3000);
+    };
+  
+    evenImages.length && updateevenImages(evenImages);
+  </script>
+  <script is:inline define:vars={{ mindspringImages }}>
+    const updatemindspringImages = (mindspringImages) => {
+      // cambiar a la siguiente imagen cada 3 segundos
+  
+      let index = 0;
+      setInterval(() => {
+        const currentImage = mindspringImages[index];
+        const nextImage = mindspringImages[index + 1] || mindspringImages[0];
+  
+        const currentImageElement = document.getElementById(currentImage.id);
+        const nextImageElement = document.getElementById(nextImage.id);
+  
+        if (currentImageElement && nextImageElement) {
+          currentImageElement.classList.remove("opacity-100");
+          currentImageElement.classList.add("opacity-0");
+          nextImageElement.classList.remove("opacity-0");
+          nextImageElement.classList.add("opacity-100");
+        }
+  
+        index = index + 1;
+        if (index === mindspringImages.length) index = 0;
+      }, 3000);
+    };
+  
+    mindspringImages.length && updatemindspringImages(mindspringImages);
+  </script>
