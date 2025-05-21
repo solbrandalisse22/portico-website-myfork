@@ -2013,22 +2013,22 @@
       "IMAGES": [
         {
           "id": "slide-1",
-          "src": "/partner/hexagon/Hexagon-01.webp",
+          "src": "/partners/hexagon/Hexagon-01.webp",
           "alt": "Offizieller Padelplatz des Hexagon Cups"
         },
         {
           "id": "slide-2",
-          "src": "/partner/hexagon/Hexagon-02.webp",
+          "src": "/partners/hexagon/Hexagon-02.webp",
           "alt": "Offizieller Padelplatz des Hexagon Cups"
         },
         {
           "id": "slide-3",
-          "src": "/partner/hexagon/Hexagon-03.webp",
+          "src": "/partners/hexagon/Hexagon-03.webp",
           "alt": "Offizieller Padelplatz des Hexagon Cups"
         },
         {
           "id": "slide-4",
-          "src": "/partner/hexagon/Hexagon-04.webp",
+          "src": "/partners/hexagon/Hexagon-04.webp",
           "alt": "Offizieller Padelplatz des Hexagon Cups"
         }
       ],
@@ -2049,22 +2049,22 @@
         "IMAGES": [
           {
             "id": "slide-1.1",
-            "src": "/partner/head/Head-court-01.webp",
+            "src": "/partners/head/Head-court-01.webp",
             "alt": "Exklusiver HEAD Padelplatz"
           },
           {
             "id": "slide-1.2",
-            "src": "/partner/head/Head-court-02.webp",
+            "src": "/partners/head/Head-court-02.webp",
             "alt": "Exklusiver HEAD Padelplatz"
           },
           {
             "id": "slide-1.3",
-            "src": "/partner/head/Head-court-03.webp",
+            "src": "/partners/head/Head-court-03.webp",
             "alt": "Exklusiver HEAD Padelplatz"
           },
           {
             "id": "slide-1.4",
-            "src": "/de/partner/head/Head-court-04.webp",
+            "src": "/partners/head/Head-court-04.webp",
             "alt": "Exklusiver HEAD Padelplatz"
           }
         ],
@@ -2091,17 +2091,17 @@
         "IMAGES": [
           {
             "id": "slide-2.1",
-            "src": "/partner/repsol/Repsol-01.webp",
+            "src": "/partners/repsol/Repsol-01.webp",
             "alt": "Portico Sport & Repsol"
           },
           {
             "id": "slide-2.2",
-            "src": "/partner/repsol/Repsol-02.webp",
+            "src": "/partners/repsol/Repsol-02.webp",
             "alt": "Portico Sport & Repsol"
           },
           {
             "id": "slide-2.3",
-            "src": "/partner/repsol/Repsol-03.webp",
+            "src": "/partners/repsol/Repsol-03.webp",
             "alt": "Portico Sport & Repsol"
           }
         ],
@@ -2123,22 +2123,22 @@
       "IMAGES": [
         {
           "id": "slide-3.1",
-          "src": "/partner/even-padel/EvenPadel-tour1.webp",
+          "src": "/partners/even-padel/EvenPadel-tour1.webp",
           "alt": "Even Padel Tour"
         },
         {
           "id": "slide-3.2",
-          "src": "/partner/even-padel/EvenPadel-tour2.webp",
+          "src": "/partners/even-padel/EvenPadel-tour2.webp",
           "alt": "Even Padel Tour"
         },
         {
           "id": "slide-3.3",
-          "src": "/partner/even-padel/EvenPadel-tour3.webp",
+          "src": "/partners/even-padel/EvenPadel-tour3.webp",
           "alt": "Even Padel Tour"
         },
         {
           "id": "slide-3.4",
-          "src": "/partner/even-padel/EvenPadel-tour4.webp",
+          "src": "/partners/even-padel/EvenPadel-tour4.webp",
           "alt": "Even Padel Tour"
         }
       ],
@@ -2184,6 +2184,51 @@
     }
   }
 },
+    
+  "PARTNERS": {
+    "SEO_TITLE": "Partenaires de confiance dans l'innovation des terrains de padel | Portico Sport",
+    "SEO_DESCRIPTION": "Découvrez les partenaires clés derrière le succès de Portico Sport dans la construction de terrains de padel premium. Apprenez-en davantage sur nos collaborations.",
+    "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
+    "TITLE": "Nos Partenaires",
+    "SUBTITLE": "Excellence dans la construction de terrains de padel",
+    "ROUTE": {
+      "LABEL": "Partenaires",
+      "URL": "/partners"
+    },
+    "PARTNER_1": {
+      "ID": "hexagon-partner",
+      "TITLE": "Portico Sport - Terrain de padel officiel de la Hexagon Cup",
+      "SUBTITLE": "Le terrain officiel de padel de l'Alpine Hexagon Cup - Maintenant disponible pour votre club",
+      "DESCRIPTION": "<p>La <strong><a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a></strong> est la compétition privée par équipes la plus dynamique au monde, redéfinissant le padel professionnel avec son format innovant et son ambiance électrisante.</p><p>En tant que <strong>terrain officiel, Portico Sport</strong> a conçu le <strong>terrain violet emblématique du tournoi</strong>, conçu pour une performance élite, une durabilité et une visibilité optimale pour les joueurs, les spectateurs et les diffuseurs.</p>",
+      "IMAGES": [{
+        "id": "slide-1",
+        "src": "/partners/hexagon/Hexagon-01.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      },{
+        "id": "slide-2",
+        "src": "/partners/hexagon/Hexagon-02.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      },{
+        "id": "slide-3",
+        "src": "/partners/hexagon/Hexagon-03.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      },{
+        "id": "slide-4",
+        "src": "/partners/hexagon/Hexagon-04.webp",
+        "alt": "Terrain de padel officiel de la Hexagon Cup"
+      }],
+      "BUTTON": {
+        "TEXT": "Découvrez le terrain officiel de l'Alpine Hexagon Cup",
+        "URL": "https://hexagoncup.porticosport.com/",
+        "TITLE": "Terrain officiel de la Hexagon Cup"
+      },
+      "SUBTITLE_2": "Le terrain officiel de padel de l'Alpine Hexagon Cup - Maintenant disponible pour votre club",
+      "DESCRIPTION_2": "<p>Maintenant, les clubs peuvent apporter <strong>l'expérience de l'Alpine Hexagon Cup</strong> à leurs installations avec des <strong>terrains exclusifs aux couleurs de Hexagon.</strong> Construits selon des normes professionnelles, ces terrains améliorent le jeu et connectent votre club à l'un des événements les plus excitants du padel.</p><p><strong>Améliorez votre installation avec le même terrain qui a accueilli certains des meilleurs joueurs de padel au monde.</strong></p>"
+    },
+    
+  }
+
+
 
 "OUR_SERVICES": {
   "ID": "unsere-dienstleistungen",
