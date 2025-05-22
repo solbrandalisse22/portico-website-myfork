@@ -29,6 +29,11 @@ news?: boolean;
 }
 
 const { news, schema, description, title, currentLocale, contactForm , keywords ,language, robots ,bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
+const category = 70;
+const response = await fetch(
+    `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=100&_embed`
+  );
+  const posts = await response.json();
 ---
 
 <!doctype html>
@@ -36,12 +41,12 @@ const { news, schema, description, title, currentLocale, contactForm , keywords 
   <head>
 <meta name="google-site-verification" content="bVDtzyF2kbTOYRSyeZL7gLBAwqaWQ9f7P_5tN1V1GRw" />
     <Seo title={title} description={description} robots={robots} currentLocale={currentLocale} image={ogImage} keywords = {keywords} language={language} />
-{news && (
-      
-  <link rel="alternate" type="application/rss+xml" title="Portico Sport; Feed" href="https://portico.porticosport.com/feed/" />
-  <link rel="alternate" type="application/rss+xml" title="Portico Sport; Feed de los comentarios" href="https://portico.porticosport.com/comments/feed/" />
-
-    )}  
+{news && posts.map(post => (
+  <link
+    rel="alternate" type="application/rss+xml" href={`https://portico.porticosport.com/feed/${post.slug}/`}
+  />
+))
+}   
 {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     )}   
