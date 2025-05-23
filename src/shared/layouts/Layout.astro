@@ -41,11 +41,11 @@ const response = await fetch(
   <head>
 <meta name="google-site-verification" content="bVDtzyF2kbTOYRSyeZL7gLBAwqaWQ9f7P_5tN1V1GRw" />
     <Seo title={title} description={description} robots={robots} currentLocale={currentLocale} image={ogImage} keywords = {keywords} language={language} />
-{news && posts.map(post => (
+{news && 
   <link
-    rel="alternate" type="application/rss+xml" href={`https://portico.porticosport.com/feed/${post.slug}/`}
+    rel="alternate" type="application/rss+xml" href="https://portico.porticosport.com/feed/"
   />
-))
+
 }   
 {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
