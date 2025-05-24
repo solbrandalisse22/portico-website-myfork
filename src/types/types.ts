@@ -1,5 +1,10 @@
 import CourtItem from "@/shared/components/CourtItem.astro";
 
+export interface Review {
+  autor: string,
+  review: string
+}
+
 export interface Photo {
   src: string;
   alt: string;
