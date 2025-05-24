@@ -168,7 +168,10 @@
     }
   }
 },
-
+     "REVIEWS_SECTION":{
+        "ID":"reviews",
+        "TITLE":"Avis des clients de Portico Sport : Retours authentiques des joueurs de padel"
+      },
      
       "FAQS_SECTION": {
         "ID": "faqs",
