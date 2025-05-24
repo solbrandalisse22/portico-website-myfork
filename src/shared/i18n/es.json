@@ -165,6 +165,10 @@
     }
   }
 },
+      "REVIEWS_SECTION":{
+        "ID":"reviews",
+        "TITLE":"Reseñas de los clientes de Portico Sport: Opiniones reales de jugadores de pádel"
+      },
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Preguntas sobre constructores de Pistas de Pádel",
