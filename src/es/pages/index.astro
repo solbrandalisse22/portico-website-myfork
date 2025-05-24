@@ -2,6 +2,8 @@
 import App from "@/shared/components/pages/App.astro"
 import { LANGUAGES } from "@/shared/i18n/constants"
 import projectsGallery from "@/es/data/projects-gallery.json"
+import reviews from "@/en/data/reviews.json"
+
 ---
 
-<App language={LANGUAGES.ES} projectsGallery={projectsGallery} />
+<App language={LANGUAGES.ES} projectsGallery={projectsGallery} reviews={reviews}/>
