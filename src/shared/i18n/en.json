@@ -65,8 +65,8 @@
       "INTRO_SECTION_UK": {
         "ID": "intro",
         "TITLE": "Padel Court Manufacturers and installers in UK",
-"DESCRIPTION":"<p>Located in Congleton, near Manchester, our UK office and warehouse serve as the hub for our operations—positioning  us as one of the leading padel court suppliers in the UK . From here, we collaborate with our expert team on growing padel across every corner of the UK.</p><p>Our strategically located warehouse facilitates efficient material shipping processes, both domestically and to neighbouring countries, enabling us to swiftly deliver our products and services to clients.</p><p>Based in Spain, Portico Sport is one of the <strong>leading builders of premier padel courts and installation of canopies globally</strong>. The company counts with more than 15 years of experience in the industry, presence <strong>in over 35 countries and +4,000 courts installed.</strong></p><p>At Portico Sport UK, we combine this international know-how with local insight, delivering the high-quality standards expected from a top-tier padel court supplier in the UK.  Our engineering expertise enables us to provide a complete turnkey solution, combining courts and canopies with<strong> 100% in house</strong> design and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong>, in Spain, expanding over 10,000 square meters making it <strong>the largest and most technologically advanced</strong>  padel court manufacturer in the industry. With the latest technology and fully in-house production, we deliver custom-built padel courts and canopies across the UK.</p>",        
-"EMAIL_CONTACT_TITLE": "Our team at your disposal",
+        "DESCRIPTION":"<p>Located in Congleton, near Manchester, our UK office and warehouse serve as the hub for our operations—positioning  us as one of the leading padel court suppliers in the UK . From here, we collaborate with our expert team on growing padel across every corner of the UK.</p><p>Our strategically located warehouse facilitates efficient material shipping processes, both domestically and to neighbouring countries, enabling us to swiftly deliver our products and services to clients.</p><p>Based in Spain, Portico Sport is one of the <strong>leading builders of premier padel courts and installation of canopies globally</strong>. The company counts with more than 15 years of experience in the industry, presence <strong>in over 35 countries and +4,000 courts installed.</strong></p><p>At Portico Sport UK, we combine this international know-how with local insight, delivering the high-quality standards expected from a top-tier padel court supplier in the UK.  Our engineering expertise enables us to provide a complete turnkey solution, combining courts and canopies with<strong> 100% in house</strong> design and manufacturing.</p><p>In 2023 the company inaugurated a <strong>new manufacturing site</strong>, in Spain, expanding over 10,000 square meters making it <strong>the largest and most technologically advanced</strong>  padel court manufacturer in the industry. With the latest technology and fully in-house production, we deliver custom-built padel courts and canopies across the UK.</p>",        
+        "EMAIL_CONTACT_TITLE": "Our team at your disposal",
         "SALES_EMAIL": "For sales queries please contact <a class=text__glowing href=mailto:sales@porticosport.uk class=text-primary>sales@porticosport.uk</a>"
       },
       "INTRO_SECTION_USA": {
@@ -417,8 +417,6 @@
             "TITLE": "Hangers and hooks",
             "DESCRIPTION": "Add practical elements that keep your facility organized and professional."
           }
-          
-
         }
       },
       "COMPLEMENTS_SECTION_USA": {
@@ -486,8 +484,7 @@
           "ITEM_6": {
             "TITLE": "Customize your court",
             "DESCRIPTION": "<strong>TAILOR YOUR COURT TO PERFECTION:</strong> From integrated benches and engraved corner logos to custom screen-printed nets, we offer a range of bespoke features to personalise your padel court."
-          }
-        },
+          }},
         "BUTTON":
         {
         "TITLE":"Customize your court",
@@ -523,9 +520,7 @@
           "ITEM_6": {
             "TITLE": "Customize your Padel court",
             "DESCRIPTION": "Enhance the appearance of your court with lacquered paint, integrated benches, engraved corners that showcase your club's logo, and screen-printed nets to produce a distinctive, branded playing environment."
-          }
-        }
-      },
+          }}},
       "COMPLEMENTS_SECTION_ZA": {
         "ID": "complements",
         "TITLE": "Premier Padel Court Construction in South Africa: Efficient & Reliable",
@@ -554,12 +549,14 @@
           "ITEM_6": {
             "TITLE": "Customized Padel Court Design",
             "DESCRIPTION": "Elevate your Padel court’s appeal with lacquered paint, built-in seating, engraved corner details with club logos, and screen-printed nets for a branded, unique playing environment."
-          }
-        }
-      },
+          }}},
+      
       "TITLE_AUS_NZ":"Visit our websites to discover Padel Courts in Oceania",
       "SUBTITLE_AUS_NZ":"We deliver premium, 100% manufactured Padel courts and canopies across Oceania, shaping the future of the sport. Visit our Australia and New Zealand websites to learn more about our courts in these regions.",
-      
+      "REVIEWS_SECTION":{
+        "ID":"reviews",
+        "TITLE":"Reviews from Portico Sport clients: Real Feedback from Padel Players"
+      },
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "ASK Question about Padel Court Builders",
