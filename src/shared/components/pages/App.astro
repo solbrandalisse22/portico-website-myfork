@@ -21,14 +21,16 @@ import { type Photo } from "@/types/types.ts";
 import Slider from "@/shared/components/sections/Slider.astro";
 import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
 import PopupPartners from "@/shared/components/PopupPartners.astro"
+import SectionReviews from "@/shared/components/sections/SectionReviews.astro";
 
 
 interface Props {
   language: string,
   projectsGallery: Photo[]
+  reviews: Review[]
 }
 
-const { language, projectsGallery } = Astro.props
+const { language, projectsGallery, reviews } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
@@ -97,6 +99,7 @@ const posts = await response.json();
     
     
     <SectionComplements language={language} />
+    <SectionReviews  reviews={reviews} />
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE}
      urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
     buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
