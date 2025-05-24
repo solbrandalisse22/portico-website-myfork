@@ -1,0 +1,93 @@
+---
+import { type Review } from "@/types/types.ts";
+
+
+interface Props {
+	reviews: Review[];
+}
+
+const { reviews = [] } = Astro.props;
+---
+
+<section class="reviews-section">
+  <div
+    id="reviews-container"
+    class="reviews-container"
+    data-reviews={JSON.stringify(reviews)}
+  >
+    {
+      reviews.slice(0, 3).map(({ autor, review }) => (
+        <div class="review-card">
+          <h4 >{review}</h4>
+          <p>📍 {autor}</p>
+          
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+ .reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 1rem;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+}
+
+
+.reviews-container.fade-out {
+  opacity: 0;
+}
+
+
+  .review-card {
+    flex: 1;
+   
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+</style>
+
+<script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('reviews-container');
+      const reviewsData = container.getAttribute('data-reviews');
+      if (!reviewsData) return;
+  
+      const reviews = JSON.parse(reviewsData);
+      let currentIndex = 0;
+      const reviewsPerPage = 3;
+  
+      function updateReviews() {
+        
+        container.classList.add('fade-out');
+  
+       
+        setTimeout(() => {
+          currentIndex = (currentIndex + reviewsPerPage) % reviews.length;
+          const newReviews = reviews.slice(currentIndex, currentIndex + reviewsPerPage);
+          container.innerHTML = newReviews
+            .map(
+              (review) => `
+              <div class="review-card">
+                <h4>${review.review}</h4>
+                <p> 📍 ${review.autor}</p>
+                
+              </div>
+            `
+            )
+            .join('');
+  
+         
+          container.classList.remove('fade-out');
+        }, 800);
+      }
+  
+      setInterval(updateReviews, 20000); 
+    });
+  </script>
+  
