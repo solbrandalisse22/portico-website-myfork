@@ -12,7 +12,7 @@ const { language, reviews = [] } = Astro.props
 const i18n = getI18N({ language });
 
 ---
-<Section>
+<Section id={i18n.PAGES.HOME.REVIEWS_SECTION.ID} heading2={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}>
 <section class="reviews-section">
   <div
     id="reviews-container"
