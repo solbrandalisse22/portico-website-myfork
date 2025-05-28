@@ -60,14 +60,17 @@ const posts = await response.json();
     </div>
   </Video>
   <main>
+
  <PopupPartners language={language}/>
-    <SectionIntro language={language} />
-<section  id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}
-     >
+
+ <SectionIntro language={language} />
+
+ <section  id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}>
       <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} className="mx-auto mb-8 mt-10 text-center font-semibold uppercase" />
-    </section>
-    <SliderProjects language={language}
-    heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+ </section>
+ 
+ <SliderProjects language={language}
+      heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
       id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
       photos={projectsGallery}
       offset={14}
@@ -75,20 +78,23 @@ const posts = await response.json();
       urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
       buttonTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
       urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
-    />
+ />
 
-    <SectionGraphicProcess language={language} />
-    <SectionInfiniteScroll language={language} />
-    <SectionCourts language={language} 
-    urlButton={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.URL}
-    buttonTitle={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TITLE}
-    urlText={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TEXT}/>
-    <NormativeLogos language={language} showInfo 
-   urlButton={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.URL}
-    buttonTitle={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TITLE}
-    urlText={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TEXT}
-/>
-    <SectionCanopies
+ <SectionGraphicProcess language={language} />
+    
+ <SectionInfiniteScroll language={language} />
+    
+ <SectionCourts language={language} 
+      urlButton={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.URL}
+      buttonTitle={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TITLE}
+      urlText={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TEXT}/>
+      <NormativeLogos language={language} showInfo 
+      urlButton={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.URL}
+      buttonTitle={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TITLE}
+      urlText={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TEXT}
+ />
+
+ <SectionCanopies
       video="https://res.cloudinary.com/duvzvbia1/video/upload/v1746007690/cubiertas_hn7fsa.mp4"
       subtitle={i18n.PAGES.HOME.CANOPIES_SECTION.SUBTITLE}
       title={i18n.PAGES.HOME.CANOPIES_SECTION.TITLE}
@@ -96,26 +102,29 @@ const posts = await response.json();
       buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
       buttonText={i18n.PAGES.HOME.CANOPIES_SECTION.BUTTON_TEXT}
       buttonTitle={i18n.PAGES.HOME.CANOPIES_SECTION.BUTTON_TITLE}
-    />
+ />
     
     
-    <SectionComplements language={language} />
-   <Section id={i18n.PAGES.HOME.REVIEWS_SECTION.ID} heading2={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}>
-    <SectionReviews reviews={reviews} />
-   </Section>
-    <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE}
-     urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
-    buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
-    urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}/>
-    <Slider language={language} posts={posts} />
-   {language === "en" && <SectionCountries showInfo language="en"
+  <SectionComplements language={language} />
+   
+  <SectionReviews reviews={reviews} />
+    
+  <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE}
+      urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+      buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+      urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}/>
+   
+  <Slider language={language} posts={posts} />
+   
+ {language === "en" && <SectionCountries showInfo language="en"
     title={i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE}
     subtitle={i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE}
     description={i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION}
-    />}
+  />}
     
-    <SectionPartnerLogos />
-  </main>
+ <SectionPartnerLogos />
+
+</main>
 </Layout>
 
 <script>
