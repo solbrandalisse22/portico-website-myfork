@@ -12,7 +12,7 @@ const { language, reviews = [] } = Astro.props
 const i18n = getI18N({ language });
 
 ---
-
+<Section>
 <section class="reviews-section">
   <div
     id="reviews-container"
@@ -30,7 +30,7 @@ const i18n = getI18N({ language });
     }
   </div>
 </section>
-
+</Section>
 <style>
   .reviews-container {
   display: grid;
