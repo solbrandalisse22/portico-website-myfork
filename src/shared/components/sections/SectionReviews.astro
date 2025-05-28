@@ -1,13 +1,16 @@
 ---
 import { type Review } from "@/types/types.ts";
 import Section from "@/shared/components/Section.astro";
-
+import { getI18N } from "@/shared/i18n";
 
 interface Props {
-	reviews: Review[];
+  reviews: Review[];
+  language: string;
 }
 
-const { reviews = [] } = Astro.props;
+const { language, reviews = [] } = Astro.props
+const i18n = getI18N({ language });
+
 ---
 <div class="bg-white cont text-black mb-12 ">
   <Section id={i18n.PAGES.HOME.REVIEWS_SECTION.ID} heading2={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}>
