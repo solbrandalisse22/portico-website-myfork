@@ -23,8 +23,12 @@ const transformedDate = (date: string) => new Date(date).toLocaleDateString(i18n
 });
 
 ---
-<Section heading={heading || i18n.PAGES.NEWS.LIST.TITLE} 
-subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}>
+<div class="cont" style="background-color:white; ">
+<Section>
+<Typography tag="h2" type="black" className="text-center font-bold mb-6 " text={i18n.PAGES.NEWS.LIST.TITLE}/>
+<Typography tag="p" type="secondary" className="text-center mb-6 font-bold"  text={i18n.PAGES.NEWS.LIST.SUBTITLE}/>
+
+
 
 <images-carousel class="wrapper w-full">
   <ul class="carousel list-none">
@@ -46,23 +50,26 @@ subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}>
   </ul>
   <div class="flex justify-center items-center w-full gap-6 p-4">
     <button class="w-10 h-10 flex justify-center items-center rounded-full back">
-      <LogoCircles className="w-[90%]">
+      <LogoCircles className="w-[90%] invert">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
       </LogoCircles>
     </button>
     <button class="w-10 h-10 flex justify-center items-center rounded-full next">
-      <LogoCircles className="w-[90%]">
+      <LogoCircles className="w-[90%] invert">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
       </LogoCircles>
     </button>
   </div>
 </images-carousel>
-
+</Section>
+</div>
 <style>
+  
   .carousel {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% / 3) - 1rem);
+
     gap: 1rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -157,7 +164,6 @@ subheading={subheading || i18n.PAGES.NEWS.LIST.SUBTITLE}>
           $carousel.scrollLeft = $carousel.scrollWidth - (2 * $carousel.offsetWidth);
           $carousel.classList.remove("no-transition");
         }
-        // If the carousel is at the end, scroll to the beginning
         else if(Math.ceil($carousel.scrollLeft) === $carousel.scrollWidth - $carousel.offsetWidth) {
           $carousel.classList.add('no-transition');
           $carousel.scrollLeft = $carousel.offsetWidth;

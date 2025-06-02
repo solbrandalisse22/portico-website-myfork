@@ -12,7 +12,8 @@ export default {
       colors: {
         background: "rgb(21 26 54)",
         primary: "rgb(183 228 253);",
-        secondary: "rgb(60 160 215);",
+        secondary: "rgb(0, 171, 218, 0.973);",
+        black:"rgb(0,0,0)",
         footer: "rgb(10 12 31)",
       },
       boxShadow: {

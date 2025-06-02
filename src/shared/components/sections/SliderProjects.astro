@@ -22,7 +22,7 @@ const {
   heading,
   subheading,
   photos = [],
-  offset=12,
+  offset = 12,
   path = "",
   loadMoreText,
   language,
@@ -35,18 +35,13 @@ const i18n = getI18N({ language });
 ---
 
 <Section heading={heading} subheading={subheading}>
- 
-  <div class=" scroller-projects ">
-   
-  <ul class=" tag-list scroller_inner items-center ">
-    
-        {photos.slice(0,offset).map(({ src, width, height, alt }: Photo) => (
-          
-            <li>
+  <div class="scroller-projects">
+    <div class="scroller_inner">
+      {
+        photos.slice(0, offset).map(({ src, width, height, alt }: Photo) => (
+          <div class="item">
             <span
               class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
-              href={`/${path}/${src}`}
-              target="_blank"
               data-cropped="true"
               data-pswp-width={width}
               data-pswp-height={height}
@@ -54,101 +49,75 @@ const i18n = getI18N({ language });
               <img
                 class="rounded-xl object-cover h-auto"
                 src={`/${path}/thumbnails/${src}`}
-                
+                loading="lazy"
                 alt={alt}
                 width="397"
                 height="264"
               />
-       
-             
-            </span> </li>
-          
-        ))} </ul> 
-      
-    
-  </div> 
-
-  {urlButton && urlText ? (
-    <div class="text-center mx-auto">
-      <Button url={urlButton} target="_self" title={buttonTitle}>
-        {urlText}
-      </Button>
+            </span>
+          </div>
+        ))
+      }
+      {
+        photos.slice(0, offset).map(({ src, width, height, alt }: Photo) => (
+          <div class="item" aria-hidden="true">
+            <span
+              class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
+              data-cropped="true"
+              data-pswp-width={width}
+              data-pswp-height={height}
+            >
+              <img
+                class="rounded-xl object-cover h-auto"
+                src={`/${path}/thumbnails/${src}`}
+                loading="lazy"
+                alt={alt}
+                width="397"
+                height="264"
+              />
+            </span>
+          </div>
+        ))
+      }
     </div>
-  ) : null}
-  
+  </div>
+
+  {
+    urlButton && urlText ? (
+      <div class="text-center mx-auto mt-6">
+        <Button url={urlButton} target="_self" title={buttonTitle}>
+          {urlText}
+        </Button>
+      </div>
+    ) : null
+  }
 </Section>
 
-<script type="module">
-  document.addEventListener('astro:page-load', () => {
-    
-    const scroller = document.querySelector(".scroller-projects");
-
-    function addAnimation() {
-      scroller.setAttribute("data-animated", true)
-      const scrollerInner = scroller.querySelector(".scroller_inner")
-      const scrollerContent = Array.from(scrollerInner.children)
-  
-      scrollerContent.forEach((item) => {
-        const clone = item.cloneNode(true)
-        clone.setAttribute("aria-hidden", true)
-        scrollerInner.appendChild(clone)
-      })
-    }
-  
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-
-      addAnimation()
-    }
-  })
-  
-</script>
-
 <style>
-
-.tag-list {
-  list-style: none;
-  padding-inline: 0;
-}
-.tag-list li {
-  padding: 1rem;
-  background: current;
-  position: relative;
-  white-space: nowrap;
-  margin: auto;
-  
-}
-
-.scroller-projects {
-  max-width: calc(100% - 1px);
-}
-
-.scroller_inner {
-  padding-block: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem
-}
-
-.scroller-projects[data-animated="true"] {
-  overflow: hidden;
-  /* mask: linear-gradient(to right, transparent, currentColor 50px, currentColor calc(100% - 50px), transparent); */
-  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-}
-
-.scroller-projects[data-animated="true"] .scroller_inner {
-  width: max-content;
-  flex-wrap: nowrap;
-  animation: scroll 10000s linear infinite;
-  animation-delay: 3s;
-}
-
-@keyframes scroll {
-  to {
-    transform: translate(calc(-50% - .5rem));
+  .scroller-projects {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
   }
-}
 
+  .scroller_inner {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    min-width: 200%;
+    animation: scroll 10s linear infinite;
+  }
 
+  .item {
+    flex: 0 0 auto;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 </style>
-

@@ -21,7 +21,8 @@ const i18n = getI18N({ language })
   heading2 = {title || i18n.PAGES.HOME.FAQS_SECTION.TITLE} 
 subheading ={subtitle || i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} >  
 <Faqs items={items} />
-
+<div class="hidden md:flex justify-center items-center px-4">
+  <p class="font-bold text-5xl rotate-90">></p>  </div>
 {urlButton && urlText ? (
   <div class="text-center mx-auto pt-6">
     <Button url={urlButton} target="_self" title={buttonTitle}>
