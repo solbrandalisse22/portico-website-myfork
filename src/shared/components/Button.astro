@@ -5,15 +5,21 @@ interface Props {
   target?: string
   url: string
   size?: 'sm' | 'md' | 'lg';
+  color?: 'black' | 'white'
 }
 
-const { url, target, class: className, size = 'md', ...rest } = Astro.props
+const { url, target, class: className,color ='white',size = 'md', ...rest} = Astro.props
 
 const sizeClasses = {
   sm: 'text-sm px-2 py-1 lg:text-base',
   md: 'text-base px-3 py-2 lg:text-lg',
   lg: 'text-lg px-5 py-3 lg:text-xl',
 }
+const colorText = {
+  black: 'text-black',
+  white: 'text-white'
+}
+
 ---
 
 <a
@@ -22,12 +28,13 @@ const sizeClasses = {
   rel="noopener noreferrer"
   class:list={[
     sizeClasses[size],
+    colorText[color],
     "w-fit",
     "font-medium",
     "no-underline",
     "border",
     "border-solid",
-    "border-white",
+    "border-sky-400",
     "rounded-full",
     "uppercase",
     className,
