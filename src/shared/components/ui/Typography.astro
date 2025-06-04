@@ -5,16 +5,17 @@ const TYPES = {
   current: "text-current",
   primary: "text-primary",
   secondary: "text-secondary",
+  black: "text-black",
 } as TypographyTypes;
-
 interface Props {
   tag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span"| "div";
-  type?: "current" | "primary" | "secondary";
+  type?: "current" | "primary" | "secondary" | "black";
   size?: "small" | "medium" | "large";
   text?: string;
   className?: string;
   responsive?: boolean;
   customSize?: string;
+  style?: string;
 }
 
 const TAGS = {
@@ -169,78 +170,77 @@ const TAGS = {
         responsive: "text-md md:text-lg lg:text-xl"
       },
     },
-    extra: "text-pretty font-thin"
+    extra: "text-pretty"
   },
 } as TypograghyTags;
 
-const { tag = "p", text, type = "current", size = "medium", className = "", responsive = false, customSize } = Astro.props;
+const { tag = "p", text, type = "current", size = "medium", className = "", responsive = false, customSize, style = "" } = Astro.props;
 const sizing = responsive ? TAGS[tag].size[size].responsive : TAGS[tag].size[size].base;
 const processedSize = customSize ? customSize : sizing;
 const classes = `${processedSize} ${TAGS[tag].extra} ${TYPES[type]} ${className}`;
+
 ---
 
 {
   tag === "h1" && (
-    <h1 class={`${classes}`} set:html={text}>
+    <h1 class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </h1>
   )
 }
 {
   tag === "h2" && (
-    <h2 class={`${classes}`} set:html={text}>
+    <h2 class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </h2>
   )
 }
 {
   tag === "h3" && (
-    <h3 class={`${classes}`} set:html={text}>
+    <h3 class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </h3>
   )
 }
 {
   tag === "h4" && (
-    <h4 class={`${classes}`} set:html={text}>
+    <h4 class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </h4>
   )
 }
 {
   tag === "h5" && (
-    <h5 class={`${classes}`} set:html={text}>
+    <h5 class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </h5>
   )
 }
 {
   tag === "h6" && (
-    <h6 class={`${classes}`} set:html={text}>
+    <h6 class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </h6>
   )
 }
 {
   tag === "p" && (
-    <p class={`${classes}`} set:html={text}>
+    <p class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </p>
   )
 }
 {
   tag === "span" && (
-    <span class={`${classes}`} set:html={text}>
+    <span class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </span>
   )
 }
 {
   tag === "div" && (
-    <div class={`${classes}`} set:html={text}>
+    <div class={`${classes}`} set:html={text} style={`${style}`}>
       {!text && <slot>{text}</slot>}
     </div>
   )
 }
-
-
