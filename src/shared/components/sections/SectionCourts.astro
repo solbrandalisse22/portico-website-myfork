@@ -80,7 +80,8 @@ buttontitle: i18n.PAGES.SINGLE_COURT.ROUTE.TITLE,
 buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
 }] as CourtItem[]
 ---
-<Typography tag = "h2" className="text-center font-bold" text={i18n.PAGES.HOME.COURTS_SECTION.TITLE} />
+<Section>
+<Typography tag = "h2" type="black" className="text-center font-bold" text={i18n.PAGES.HOME.COURTS_SECTION.TITLE} />
 <images-carousel class="wrapper w-full">
   <ul class="carousel list-none">
     {
@@ -94,12 +95,13 @@ buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
           images={images}
           description={description}
           className="mb-4 max-w-[1280px]"
+          
         >
           
         </ArticleCard></li>))
       }
   </ul>
-  <div class="flex justify-center items-center w-full gap-6 p-4">
+  <div class="flex justify-center items-center w-full gap-6 p-4 invert">
     <button class="w-10 h-10 flex justify-center items-center rounded-full back">
       <LogoCircles className="w-[90%]">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
@@ -113,14 +115,7 @@ buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
   </div>
 </images-carousel>
 
-{urlButton && urlText ? (
-  <div class="text-center mx-auto pt-4">
-    <Button url={urlButton}  target="_self" title={buttonTitle}>
-      {urlText}
-    </Button>
-  </div>
-) : null}
-
+</Section>
 <style>
   .carousel {
     display: grid;
@@ -138,6 +133,7 @@ buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
     user-select: none;
     scroll-snap-type: none;
     scroll-behavior: auto;
+    
   }
 
   .carousel.no-transition {
@@ -150,6 +146,7 @@ buttontitle: i18n.PAGES.MINI_COURT.ROUTE.TITLE,
 
   .carousel li {
     scroll-snap-align: start;
+    
   }
 
   @media (max-width: 1024px) {
