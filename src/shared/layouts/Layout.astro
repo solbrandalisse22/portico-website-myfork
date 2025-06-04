@@ -43,7 +43,7 @@ const response = await fetch(
     <Seo title={title} description={description} robots={robots} currentLocale={currentLocale} image={ogImage} keywords = {keywords} language={language} />
 {news && 
   <link
-    rel="alternate" type="application/rss+xml" href="https://www.porticosport.com/padel-news/feed/"
+    rel="alternate" type="application/rss+xml" href="https://portico.porticosport.com/feed/"
   />
 
 }   
@@ -86,126 +86,139 @@ contactForm? <Footer language={language} contactForm/> :
     <Footer language={language} />
     }
 
-    <style is:global>
-      :root {
-        color-scheme: dark;
-      }
+<style is:global>
+  :root {
+    color-scheme: dark;
+  }
 
-      h1 {
-        font-family: "Prompt", system-ui, sans-serif;
-        font-weight: 500;
-      }
+  h1 {
+    font-family: "Prompt", system-ui, sans-serif;
+    font-weight: 500;
+  }
 
-      h2 {
-        font-family: "Prompt", system-ui, sans-serif;
-        font-weight: 300;
-      }
+  h2 {
+    font-family: "Prompt", system-ui, sans-serif;
+    font-weight: 300;
+  }
 
-      html {
-        font-family: "Onest Variable", system-ui, sans-serif;
-        @apply bg-background;
-        scroll-behavior: smooth;
-      }
+  html {
+    font-family: "Onest Variable", system-ui, sans-serif;
+    @apply bg-background;
+    scroll-behavior: smooth;
+  }
 
 
-      p {
-        color: rgba(255, 255, 255, 0.9);
-        line-height: 1.4;
-        margin-bottom: 1em;
-        font-weight: 100;
-        letter-spacing: 0.5px;
-      }
+  p {
+    
+    line-height: 1.4;
+    margin-bottom: 1em;
+    letter-spacing: 0.5px;
+  }
 
-      p strong {
-        color: white;
-        font-weight: 700;
-      }
+  p strong {
+    color: rgb(0, 171, 218, 0.973);
+    font-weight: 700;
+  }
 
-      .section-description p {
-        margin-bottom: 0;
-      }
+  .section-description p {
+    margin-bottom: 0;
+  }
 
-      .text__glowing {
-        transition: text-shadow 0.3s ease;
-      }
+  .text__glowing {
+    transition: text-shadow 0.3s ease;
+  }
+  
+  .text__glowing:hover {
+    text-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #fff,
+      0 0 80px #fff,
+      0 0 120px #fff;
+  }
+  .text__glowing__header {
+    color:#151a36;
+    transition: text-shadow 0.3s ease;
+  }
+  @media (max-width: 1024px) {
+    .text__glowing__header {
+      color:white;
+    }
+  }
+  .text__glowing__header:hover {
+text-shadow:
+0 0 10px #000,
+0 0 20px #000,
+0 0 40px #000,
+0 0 80px #000,
+0 0 120px #000;
+}
+  a.text__min_glowing {
+    transition: text-shadow 0.3s ease;
+  }
 
-      .text__glowing:hover {
-        text-shadow:
-          0 0 10px #fff,
-          0 0 20px #fff,
-          0 0 40px #fff,
-          0 0 80px #fff,
-          0 0 120px #fff;
-      }
+  a.text__min_glowing:hover {
+    text-shadow: 0 0 10px #fff;
+  }
 
-      a.text__min_glowing {
-        transition: text-shadow 0.3s ease;
-      }
+  .bg-pattern {
+    --s: 86px; /* control the size */
+    --a: 60deg; /* control the angle */
 
-      a.text__min_glowing:hover {
-        text-shadow: 0 0 10px #fff;
-      }
+    --g: #0000 50%, #b7e4fd 51% 30%, #0000 31%;
+    background:
+      linear-gradient(var(--a), var(--g)),
+      linear-gradient(calc(-1 * var(--a)), var(--g)) #151a36;
+    background-size: var(--s) calc(tan(var(--a)) * var(--s));
+  }
 
-      .bg-pattern {
-        --s: 86px; /* control the size */
-        --a: 60deg; /* control the angle */
+  #header-nav {
+   background-color: white;
+  }
 
-        --g: #0000 50%, #b7e4fd 51% 30%, #0000 31%;
-        background:
-          linear-gradient(var(--a), var(--g)),
-          linear-gradient(calc(-1 * var(--a)), var(--g)) #151a36;
-        background-size: var(--s) calc(tan(var(--a)) * var(--s));
-      }
+  .bg-main::before {
+    content: "";
+    @apply w-full;
+    @apply h-20;
+    background: linear-gradient(
+      180deg,
+      rgba(21, 26, 54, 0) 0%,
+      rgba(21, 26, 54, 0.7) 34%,
+      rgba(21, 26, 54, 1) 68%,
+      rgba(21, 26, 54, 1) 100%
+    );
+    position: absolute;
+    @apply -top-20;
+  }
 
-      #header-nav {
-        animation: blur linear both;
-        animation-timeline: scroll();
-        animation-range: 0 500px;
-      }
+  @media (min-width: 1024px) {
+    .bg-main::before {
+      @apply h-64;
+      @apply -top-64;
+    }
+  }
 
-      .bg-main::before {
-        content: "";
-        @apply w-full;
-        @apply h-20;
-        background: linear-gradient(
-          180deg,
-          rgba(21, 26, 54, 0) 0%,
-          rgba(21, 26, 54, 0.7) 34%,
-          rgba(21, 26, 54, 1) 68%,
-          rgba(21, 26, 54, 1) 100%
-        );
-        position: absolute;
-        @apply -top-20;
-      }
+  .map {
+    background: radial-gradient(circle, rgba(21,26,52,1) 30%, rgba(60,160,215,1) 70%);
+  }
 
-      @media (min-width: 1024px) {
-        .bg-main::before {
-          @apply h-64;
-          @apply -top-64;
-        }
-      }
+  .ol-unselectable.ol-layers {
+    background: radial-gradient(circle, rgba(183,228,253,1) 0%, rgba(148,187,233,.5) 100%);
+  }
 
-      .map {
-        background: radial-gradient(circle, rgba(21,26,52,1) 30%, rgba(60,160,215,1) 70%);
-      }
+  .ol-viewport {
+    background: radial-gradient(circle, rgb(46 49 48) 35%, rgb(1 25 21) 65%)
+  }
 
-      .ol-unselectable.ol-layers {
-        background: radial-gradient(circle, rgba(183,228,253,1) 0%, rgba(148,187,233,.5) 100%);
-      }
-
-      .ol-viewport {
-        background: radial-gradient(circle, rgb(46 49 48) 35%, rgb(1 25 21) 65%)
-      }
-
-      @keyframes blur {
-        to {
-          box-shadow:
-            0px 5px 50px -5px rgba(0, 0, 0, 0.1),
-            0px 0px 0 1px rgba(0, 0, 0, 0.3);
-          background: rgba(0, 0, 0, 0.3);
-          backdrop-filter: blur(10px);
-        }
-      }
-    </style>
+  @keyframes blur {
+    to {
+      box-shadow:
+        0px 5px 50px -5px rgba(0, 0, 0, 0.1),
+        0px 0px 0 1px rgba(0, 0, 0, 0.3);
+      background: white;
+      backdrop-filter: blur(10px);
+    }
+  }
+</style>
   </body>
 </html>
