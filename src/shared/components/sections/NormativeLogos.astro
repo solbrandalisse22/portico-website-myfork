@@ -22,52 +22,47 @@ interface Props {
 
 const { showInfo, language, title, subtitle, description, urlButton, urlText, buttonTitle } = Astro.props
 const i18n = getI18N({ language })
-
 const heading2 = showInfo ? title || i18n.NORMATIVE_SECTION_LOGOS.TITLE : null
 const subheading = showInfo ? subtitle || i18n.NORMATIVE_SECTION_LOGOS.SUBTITLE : null
 const descriptionText = showInfo ? description || i18n.NORMATIVE_SECTION_LOGOS.DESCRIPTION : null
 ---
-
-<Section heading2={heading2} subheading={subheading}>
-  {
-    descriptionText && (
-      <Typography tag="div" className="mb-16 text-center" text={descriptionText} />
-    )
-  }
-  <div class="logos items-center">
-    
-    <LogoEAE />
-    <LogoAsce />
-    <LogoInstituteSteel />
-    <LogoNormativaPadel />
+<div class="flex flex-col md:flex-row items-center justify-center m-6 md:m-24 gap-6 md:gap-0">
+  <div class="w-full md:w-1/2 border border-white p-4 md:p-6 text-white">
+    {heading2 && (
+      <Typography tag="h2" className="mb-6 md:mb-16 text-center font-bold" text={heading2} />
+    )}
+    {subheading && (
+      <Typography tag="h3" type="primary" className="mb-6 md:mb-16 text-center" text={subheading} />
+    )}
   </div>
-<div class="mx auto text-center mt-12">
-{urlButton && urlText ? (
-  
-    <Button   url={urlButton} target="_self" title={buttonTitle}>
-      {urlText}
-    </Button>
- 
-) : null}
-</div>
-</Section>
 
-        
+  <div class="flex justify-center items-center px-4  md:my-0">
+    <p class="font-bold text-5xl transform md:rotate-0 rotate-90">></p>
+  </div>
+
+  <div class="w-full md:w-1/2 flex flex-col items-center">
+    {descriptionText && (
+      <Typography tag="div" className="mb-6 md:mb-16 text-center" text={descriptionText} />
+    )}
+    <div class="logos grid items-center bg-[#171F44] p-2 gap-4">
+      <LogoEAE />
+      <LogoAsce />
+      <LogoInstituteSteel />
+      <LogoNormativaPadel />
+    </div>
+  </div>
+</div>
 
 <style>
   .logos {
-    display: grid;
-    grid-template-columns: repeat(2,minmax(110px,1fr)) 100px minmax(110px,1fr);
-    @apply gap-4;
-margin:0;
+    grid-template-columns: repeat(2, minmax(110px, 1fr)) 100px minmax(110px, 1fr);
   }
-.logos svg{
-margin: auto;
-}
+  .logos svg {
+    margin: auto;
+  }
   @media (max-width: 768px) {
     .logos {
-      grid-template-columns: repeat(auto-fill,max(100px));
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
   }
-  
 </style>
