@@ -1,5 +1,5 @@
 ---
-import LogoWhite from "@/shared/components/logos/LogoWhite.astro";
+import LogoWhite from "@/shared/components/logos/Logo.astro";
 import { getI18N } from "../i18n/";
 import LanguageSelector from "./LanguageSelector.astro";
 import HeaderLink from "./HeaderLink.astro";
@@ -30,10 +30,6 @@ const LINKS = [
 {
     href: i18n.PAGES.CREDENTIALS.ROUTE.URL,
     text: i18n.PAGES.CREDENTIALS.ROUTE.LABEL,
-  },
-{
-    href: i18n.PAGES.PARTNERS.ROUTE.URL,
-    text: i18n.PAGES.PARTNERS.ROUTE.LABEL,
   },
   {
     href: i18n.PAGES.NEWS.ROUTE.URL,
@@ -119,7 +115,6 @@ const LINKS = [
   },
 ];
 ---
-
 <header id="header-nav" class="fixed top-0 z-30 w-full px-6 py-2">
   <div class="mx-auto flex max-w-7xl items-center justify-between">
     <div class="flex flex-grow basis-0 z-30">
@@ -132,7 +127,7 @@ const LINKS = [
         <LogoWhite
           class="h-auto w-40 blur-sm absolute inset-0 m-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         />
-        <LogoWhite class="h-auto w-40" />
+        <LogoWhite class="h-auto w-60 items-left" />
       </HeaderLink>
     </div>
 
@@ -147,7 +142,7 @@ const LINKS = [
               data-dropdown-toggle="dropdownNavbar"
               class="relative gap-2 w-max group"
             >
-              <HeaderLink class={`flex justify-center items-center text__glowing ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
+              <HeaderLink class={`flex justify-center items-center text__glowing__header  ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
                 {`${capitalize(text)} `}
                 <svg
                   class="w-2.5 h-2.5 ms-2.5"
@@ -170,12 +165,12 @@ const LINKS = [
                 class={`z-10 hidden absolute left-1/2 top-1/3 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
               >
                 <ul
-                  class="py-2 text-sm flex flex-col gap-4 w-full bg-background/90 rounded-xl border"
+                  class="py-2 text-sm flex flex-col gap-4 w-full bg-white/90 rounded-xl border"
                   aria-labelledby="dropdownLargeButton"
                 >
                   {children.map(({ href, text, title }) => (
                     <li class="text-center">
-                      <HeaderLink class={`text__glowing w-full text-lg`} href={href} title={title}>
+                      <HeaderLink class={`text__glowing__header w-full text-lg`} href={href} title={title}>
                         {capitalize(text)}
                       </HeaderLink>
                     </li>
@@ -184,7 +179,7 @@ const LINKS = [
               </div>
             </div>
           ) : (
-            <HeaderLink class={`w-max text__glowing ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
+            <HeaderLink class={`w-max text__glowing__header ${!href ? 'pointer-events-none' : ''}`} href={href || '#'}>
               {capitalize(text)}
             </HeaderLink>
           )
@@ -196,7 +191,7 @@ const LINKS = [
     <!-- Botón de menú para pantallas pequeñas -->
     <button
       id="menu-toggle"
-      class="flex flex-grow basis-0 justify-end text-2xl xl:hidden z-50"
+      class="flex flex-grow basis-0 justify-end text-2xl xl:hidden z-50 text-black"
     >
       <span id="menu-icon">☰</span>
     </button>
@@ -229,7 +224,7 @@ const LINKS = [
             data-dropdown-toggle="dropdownMobileNavbar"
             class="relative gap-2 w-max group"
           >
-            <HeaderLink class="flex justify-center items-center text__glowing" href={href || '#'}>
+            <HeaderLink class="flex justify-center items-center text__glowing__header" href={href || '#'}>
               {capitalize(text)}
               <svg
                 class="w-2.5 h-2.5 ms-2.5"
@@ -254,7 +249,7 @@ const LINKS = [
               <ul class="py-2 text-sm flex flex-col gap-4 w-full bg-background rounded-xl border">
                 {children.map(({ href, text }) => (
                   <li class="text-center">
-                    <HeaderLink class="text__glowing w-full text-lg" href={href}>
+                    <HeaderLink class="text__glowing__header w-full text-lg" href={href}>
                       {capitalize(text)}
                     </HeaderLink>
                   </li>
@@ -266,7 +261,7 @@ const LINKS = [
       }
   
       return (
-        <HeaderLink class="text__glowing item-link" href={href || '#'}>
+        <HeaderLink class="text__glowing__header item-link" href={href || '#'}>
           {capitalize(text)}
         </HeaderLink>
       );
