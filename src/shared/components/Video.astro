@@ -40,7 +40,7 @@ const type = getTipeFromVideo();
 ---
 
 <div
-  class="relative h-[105dvh] w-full max-w-[100vw] md:aspect-video"
+  class="relative h-[80dvh] w-full max-w-[100vw] md:aspect-video"
 >
   <div
     class="absolute inset-0 h-full z-10 m-auto flex flex-col items-center w-full"
@@ -106,20 +106,12 @@ const type = getTipeFromVideo();
       playsinline
       id="main-video"
       preload="none"
-      class={`video cp-v h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50 ${classVideo}`}
+      class={`video h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50 ${classVideo}`}
     >
       <source data-src={video} type={type} />
     </video>
   </div>
-  <video
-    class="video absolute -bottom-48 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50"
-    autoplay
-    loop
-    muted
-    preload="none"
-  >
-    <source data-src={video} type={type} />
-  </video>
+  
   <slot name="bottom" />
 </div>
 
