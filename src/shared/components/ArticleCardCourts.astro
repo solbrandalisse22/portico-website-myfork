@@ -26,12 +26,13 @@ const { title, alt,heading, images,description, hideHeader = false, hideFooter =
 ---
 
 <article class=`w-full mx-auto my-14 ${className ? className : ''}`>
-  <div class="border  bg-black/30 rounded-xl border-primary p-6 "
+  <div class="border   rounded-xl border-primary p-6 "
     style={{
       backgroundImage: bgImage ? `url(${bgImage})` : '',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat'
+      backgroundRepeat: 'no-repeat',
+      backgroundColor: 'rgb(19, 25, 55)'
     }}>
     {
       !hideHeader && (
@@ -51,7 +52,7 @@ const { title, alt,heading, images,description, hideHeader = false, hideFooter =
             
               {heading && (<Typography tag="h3" className="" text={heading} type="primary" responsive />)}
               {description && (<Typography tag="div" className="lg:mb-2 mb-0 items-center h-[165px]" text={description} size="small" />)}
-              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base truncate scale-[85%] self-center mb-0 xs:mt-[50px] text-center" target={target}>{buttonText}</Button>}
+              {buttonText && buttonUrl && <Button url={buttonUrl} class="text-base truncate scale-[75%] self-center mb-0 xs:mt-[50px] text-center" target={target}>{buttonText}</Button>}
             </div>
           </header>
         </slot>
