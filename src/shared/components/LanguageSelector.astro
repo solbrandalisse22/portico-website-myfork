@@ -5,7 +5,7 @@ import FrenchFlag from "@/shared/components/flags/French.astro"
 import UkFlag from "@/shared/components/flags/UkFlag.astro"
 import ItalianFlag from "@/shared/components/flags/Italy.astro"
 import GermanyFlag from "@/shared/components/flags/Germany.astro"
-import ChevronIcon from "@/shared/components/icons/Chevron.astro"
+import ChevronIcon from "@/shared/components/icons/ChevronBlack.astro"
 
 const { currentLocale = "en", url, props } = Astro
 const { language } = props
@@ -59,10 +59,9 @@ const otherLocales = Object.values(LOCALES).filter(
 )
 const currentPath = url.pathname.replace(currentLocaleData.href, "")
 ---
-
 <div class="relative inline-block text-left">
   <div
-    class="group text-white rounded-md text-xs font-semibold bg-black/30 hover:bg-black/70 transition-all"
+    class="group text-black rounded-md text-xs font-semibold bg-white transition-all"
   >
     <button
       type="button"
@@ -80,7 +79,7 @@ const currentPath = url.pathname.replace(currentLocaleData.href, "")
         otherLocales.map((locale) => (
           <li class="">
             <a
-              class="rounded-md bg-black/30 hover:bg-black/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
+              class="rounded-md bg-white/70  hover:bg-white/30 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
               href={`${locale.href}`}
             >
               <locale.flag />
