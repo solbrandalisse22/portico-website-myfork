@@ -1,49 +1,68 @@
 ---
-import Layout from "@/shared/layouts/Layout.astro"
-import Video from "@/shared/components/Video.astro"
-import Typography from "@/shared/components/ui/Typography.astro"
-import SectionIntro from "@/shared/components/sections/SectionIntro.astro"
-import SectionContact from "@/shared/components/sections/SectionContact.astro"
-import SectionCourts from "@/shared/components/sections/SectionCourts.astro"
-import SectionCountries from "@/shared/components/sections/CountriesSection.astro"
-import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro"
-import SectionComplements from "@/shared/components/sections/SectionComplements2.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import Video from "@/shared/components/Video.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import SectionIntro from "@/shared/components/sections/SectionIntro.astro";
+import SectionCourts from "@/shared/components/sections/SectionCourts.astro";
+import SectionCountries from "@/shared/components/sections/CountriesSection.astro";
+import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro";
+import SectionComplements from "@/shared/components/sections/SectionComplements2.astro";
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
-import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n"
-import Gallery from "../Gallery.astro"
-import NewsList from "../NewsList.astro"
-import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
-import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro"
-import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
+import PopupPartners from "@/shared/components/PopupPartners.astro";
+import {
+  getI18N,
+  getCurrentLocale,
+  getCategoryByLanguage,
+} from "@/shared/i18n";
+import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro";
+import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
 import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import { type Photo } from "@/types/types.ts";
+import { type Review } from "@/types/types.ts";
 import Slider from "@/shared/components/sections/Slider.astro";
 import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
-import PopupPartners from "@/shared/components/PopupPartners.astro"
 import SectionReviews from "@/shared/components/sections/SectionReviews.astro";
-import Section from "@/shared/components/Section.astro";
-
 
 interface Props {
-  language: string,
-  projectsGallery: Photo[]
-  reviews: Review[]
+  language: string;
+  projectsGallery: Photo[];
+  reviews: Review[];
 }
 
-const { language, projectsGallery, reviews } = Astro.props
-const i18n = getI18N({ language })
-const currentLocale = getCurrentLocale({language})
-const category = getCategoryByLanguage({language})
+const { language, projectsGallery, reviews } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+const category = getCategoryByLanguage({ language });
 
-const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=15&_embed`)
+const response = await fetch(
+  `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=15&_embed`
+);
 // const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?per_page=6&_embed`)
 const posts = await response.json();
 ---
 
-<Layout title={i18n.PAGES.HOME.SEO_TITLE} robots="index,follow" contactForm keywords={i18n.PAGES.HOME.SEO_KEYWORDS} description={i18n.PAGES.HOME.SEO_DESCRIPTION} currentLocale={currentLocale} language={language}>
-
-  <Video language={language} video="https://res.cloudinary.com/duvzvbia1/video/upload/v1746444467/video-home-portico_oeofev.mp4" subtitle={i18n.PAGES.HOME.SUBTITLE} title={i18n.PAGES.HOME.TITLE} slogan={i18n.PAGES.HOME.SLOGAN} titleH3={i18n.PAGES.HOME.TITLE_H3} buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL} buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL} language={language} classVideo="cp-elipse"  subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}>
+<Layout
+  title={i18n.PAGES.HOME.SEO_TITLE}
+  robots="index,follow"
+  contactForm
+  keywords={i18n.PAGES.HOME.SEO_KEYWORDS}
+  description={i18n.PAGES.HOME.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+>
+  <Video
+    language={language}
+    video="https://res.cloudinary.com/duvzvbia1/video/upload/v1746444467/video-home-portico_oeofev.mp4"
+    subtitle={i18n.PAGES.HOME.SUBTITLE}
+    title={i18n.PAGES.HOME.TITLE}
+    slogan={i18n.PAGES.HOME.SLOGAN}
+    titleH3={i18n.PAGES.HOME.TITLE_H3}
+    buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL}
+    buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL}
+    language={language}
+    subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}
+  >
     <div
       slot="bottom"
       class="absolute bottom-[2.5%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
@@ -52,49 +71,55 @@ const posts = await response.json();
         <button id="logo-hexagon-cup">
           <HexagonCupLogo />
         </button>
-         <button class="mt-12">
-          <img src="/Head-logo.png" class="invert"/>
+        <button class="mt-12">
+          <img src="/Head-logo.png" class="invert" />
         </button>
-
       </div>
     </div>
   </Video>
   <main>
+    <PopupPartners language={language} />
+    <SectionIntro language={language} />
 
- <PopupPartners language={language}/>
+    <section id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}>
+      <Typography
+        tag="h2"
+        text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE}
+        className="mx-auto mb-8 mt-10 text-center font-semibold"
+      />
 
- <SectionIntro language={language} />
+      <SliderProjects
+        language={language}
+        heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+        id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
+        photos={projectsGallery}
+        offset={14}
+        path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
+        urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+        buttonTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
+        urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
+      />
+    </section>
 
- <section  id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}>
-      <Typography tag="h2" text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE} className="mx-auto mb-8 mt-10 text-center font-semibold uppercase" />
- </section>
- 
- <SliderProjects language={language}
-      heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
-      id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
-      photos={projectsGallery}
-      offset={14}
-      path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
-      urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
-      buttonTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
-      urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
- />
-
- <SectionGraphicProcess language={language} />
-    
- <SectionInfiniteScroll language={language} />
-    
- <SectionCourts language={language} 
-      urlButton={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.URL}
-      buttonTitle={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TITLE}
-      urlText={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TEXT}/>
-      <NormativeLogos language={language} showInfo 
-      urlButton={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.URL}
-      buttonTitle={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TITLE}
-      urlText={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TEXT}
- />
-
- <SectionCanopies
+    <div class="shadow-2xl shadow-blue-500/30" style="background-color: white;">
+      <SectionCourts
+        language={language}
+        urlButton={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.URL}
+        buttonTitle={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TITLE}
+        urlText={i18n.PAGES.HOME.COURTS_SECTION.BUTTON.TEXT}
+      />
+    </div>
+    <div class="bg-gradient-to-b from-white via-[#131937] to-[#131937] pt-12">
+      <SectionInfiniteScroll language={language} />
+      <NormativeLogos
+        language={language}
+        showInfo
+        urlButton={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.URL}
+        buttonTitle={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TITLE}
+        urlText={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TEXT}
+      />
+    </div>
+    <SectionCanopies
       video="https://res.cloudinary.com/duvzvbia1/video/upload/v1746007690/cubiertas_hn7fsa.mp4"
       subtitle={i18n.PAGES.HOME.CANOPIES_SECTION.SUBTITLE}
       title={i18n.PAGES.HOME.CANOPIES_SECTION.TITLE}
@@ -102,60 +127,70 @@ const posts = await response.json();
       buttonUrl={i18n.PAGES.CANOPIES.ROUTE.URL}
       buttonText={i18n.PAGES.HOME.CANOPIES_SECTION.BUTTON_TEXT}
       buttonTitle={i18n.PAGES.HOME.CANOPIES_SECTION.BUTTON_TITLE}
- />
-    
-    
-  <SectionComplements language={language} />
-   
-  <SectionReviews reviews={reviews} language={language} />
-    
-  <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE}
-      urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
-      buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
-      urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}/>
-   
-  <Slider language={language} posts={posts} />
-   
- {language === "en" && <SectionCountries showInfo language="en"
-    title={i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE}
-    subtitle={i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE}
-    description={i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION}
-  />}
-    
- <SectionPartnerLogos />
+    />
+    <div class="grid grid-cols-1 md:grid-cols-2 bg-white gap-[1rem]">
+      <div class="bg-gradient-to-bl from-[#315A75] via-[#151a36] to-[#151a36]">
+        <SectionComplements language={language} />
+      </div>
+      <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE}
+          subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      </div>
+    </div>
 
-</main>
+    <SectionReviews reviews={reviews} />
+
+    <Slider language={language} posts={posts} />
+    {
+      language === "en" && (
+        <SectionCountries
+          showInfo
+          language="en"
+          title={i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE}
+          subtitle={i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE}
+          description={i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION}
+        />
+      )
+    }
+
+    <SectionPartnerLogos />
+  </main>
 </Layout>
 
 <script>
-  const logoHexagonCup = document.getElementById('logo-hexagon-cup');
+  const logoHexagonCup = document.getElementById("logo-hexagon-cup");
 
-  logoHexagonCup?.addEventListener('click', () => {
-    window.open('https://www.hexagoncup.com/', '_blank');
+  logoHexagonCup?.addEventListener("click", () => {
+    window.open("https://www.hexagoncup.com/", "_blank");
   });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const lazyBgElements = document.querySelectorAll('.lazy-bg');
+  document.addEventListener("DOMContentLoaded", () => {
+    const lazyBgElements = document.querySelectorAll(".lazy-bg");
 
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const element = entry.target;
-        const bgImage = element.getAttribute('data-bg');
-        element.style.backgroundImage = `url(${bgImage})`;  
-        observer.unobserve(element); 
-      }
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const element = entry.target;
+          const bgImage = element.getAttribute("data-bg");
+          element.style.backgroundImage = `url(${bgImage})`;
+          observer.unobserve(element);
+        }
+      });
+    });
+
+    lazyBgElements.forEach((element) => {
+      observer.observe(element);
     });
   });
-
-  lazyBgElements.forEach(element => {
-    observer.observe(element); 
-  });
-});
-
 </script>
 <style>
-.lazy-bg {
-  background-image: none;
-}
+  .lazy-bg {
+    background-image: none;
+  }
 </style>
