@@ -1,7 +1,7 @@
 ---
 import Section from "@/shared/components/Section.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
-import { getI18N } from "@/shared/i18n/"
+import { getI18N } from "@/shared/i18n/";
 import Button from '@/shared/components/Button.astro';
 
 interface Props {
@@ -13,98 +13,104 @@ interface Props {
   buttonurl?: string;
   buttontitle?: string;
   buttontext?: string;
-
 }
 
-const { showInfo, language, title, subtitle, description, buttonurl, buttontitle, buttontext} = Astro.props
-const i18n = getI18N({ language })
+const { showInfo, language, title, subtitle, description, buttonurl, buttontitle, buttontext} = Astro.props;
+const i18n = getI18N({ language });
 
-const heading2 = showInfo ? title : null
-const subheading = showInfo ? subtitle  : null
-const descriptionText = showInfo ? description : null
+const heading2 = showInfo ? title : null;
+const subheading = showInfo ? subtitle : null;
+const descriptionText = showInfo ? description : null;
 ---
 
-<Section  >
- {
-    heading2 && (
-      <Typography tag="h2" className="mb-16 text-center font-bold" text={title} />
-    )
-  }
-  {
-    descriptionText && (
-      <Typography tag="div" className="mb-16 text-center" text={description} />
-    )
-  }
-  {
-    subheading && (
-      <Typography tag="div" type="primary" className="mb-16 text-center" text={subtitle} />
-    )
-  }
-
-
-    <div class="grid grid-cols-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
-    <Button
-      class="button"
-      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.URL}
-      target="_self"
-      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TITLE}
-    >
-      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TEXT}
-    </Button>
-    <Button
-      class="button"
-      url={buttonurl || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.URL}
-      target="_self"
-      title={buttontitle || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TITLE}
-    >
-      {buttontext || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TEXT}
-    </Button>
-    <Button
-      class="button"
-      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.URL}
-      target="_self"
-      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TITLE}
-    >
-      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TEXT}
-    </Button>
-    <Button
-      class="button"
-      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.URL}
-      target="_self"
-      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TITLE}
-    >
-      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TEXT}
-    </Button>
-    <Button
-      class="button"
-      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.URL}
-      target="_self"
-      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TITLE}
-    >
-      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TEXT}
-    </Button>
-    <Button
-      class="button"
-      url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.URL}
-      target="_self"
-      title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TITLE}
-    >
-      {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TEXT}
-    </Button>
+<div class="flex flex-col md:flex-row">
+  <div class="w-full md:w-1/2">
+    <Section>
+      {
+        heading2 && (
+          <Typography tag="h2" className="mb-16 text-center font-bold" text={title} />
+        )
+      }
+      {
+        descriptionText && (
+          <Typography tag="div" className="mb-16 text-center" text={description} />
+        )
+      }
+    </Section>
   </div>
-   </Section>
-  
-  
 
+  <div class="hidden md:flex justify-center items-center px-4">
+    <p class="font-bold text-5xl">></p>
+  </div>
 
+  <div class="w-full md:w-1/2">
+    <Section>
+      {
+        subheading && (
+          <Typography tag="div" type="primary" className="mb-16 text-center" text={subtitle} />
+        )
+      }
+
+      <div class="grid grid-cols-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
+        <Button
+          class="button"
+          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.URL}
+          target="_self"
+          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TITLE}
+        >
+          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TEXT}
+        </Button>
+        <Button
+          class="button"
+          url={buttonurl || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.URL}
+          target="_self"
+          title={buttontitle || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TITLE}
+        >
+          {buttontext || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TEXT}
+        </Button>
+        <Button
+          class="button"
+          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.URL}
+          target="_self"
+          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TITLE}
+        >
+          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TEXT}
+        </Button>
+        <Button
+          class="button"
+          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.URL}
+          target="_self"
+          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TITLE}
+        >
+          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TEXT}
+        </Button>
+        <Button
+          class="button"
+          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.URL}
+          target="_self"
+          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TITLE}
+        >
+          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TEXT}
+        </Button>
+        <Button
+          class="button"
+          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.URL}
+          target="_self"
+          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TITLE}
+        >
+          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TEXT}
+        </Button>
+      </div>
+    </Section>
+  </div>
+</div>
 <style>
-
 .button {
-    width:100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
 }
 </style>
