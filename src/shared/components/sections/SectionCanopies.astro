@@ -1,6 +1,6 @@
 ---
-import Button from '@/shared/components/Button.astro';
-import Typography from "@/shared/components/ui/Typography.astro"
+import Button from "@/shared/components/Button.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
 
 interface Props {
   video: string;
@@ -28,73 +28,60 @@ function getTipeFromVideo() {
 const type = getTipeFromVideo();
 ---
 
-<section
-  class="relative w-full h-[600px] lg:h-[800px]"
->
-  <div
-    class="absolute inset-0 h-full justify-center z-10 m-auto flex flex-col items-center w-full"
-  >
-    <slot>
-      <div
-        class="absolute z-10 animate-fade-up flex justify-center items-center gap-4 md:gap-8 flex-col"
-      >
-        {
-          subtitle && (<Typography tag="p" text="primary" className="text-center px-4 mb-0" text={subtitle} />)
-        }
-        {
-          title && (<div  class="flex items-center text-4xl gap-5 lg:gap-20 px-4 text-center font-bold text-balance tracking-wide" >{title} </div>)
-        }
-        {
-          text && (<Typography tag="div" className="text-center px-4 mb-0 max-w-[60ch]" text={text} responsive />)
-        }
-        {
-          buttonUrl && buttonText ? (
-            <Button
-              target="_self"
-              url={buttonUrl}
-             title={buttonTitle}
-            >
-              {buttonText}
-            </Button>
-          ) : null
-        }
-      </div>
-    </slot>
+<div class="flex flex-col md:flex-row bg-white">
+  
+  <div class="w-full md:w-1/2 px-4 md:px-12 py-12">
+    {title && (
+      <Typography
+        tag="h2"
+        type="black"
+        className="text-center font-bold mb-12"
+        text={title}
+      />
+    )}
+    {text && (
+      <Typography
+        tag="div"
+        type="black"
+        className="text-center px-4 mb-12"
+        text={text}
+        responsive
+      />
+    )}
+    <div class="flex flex-cols-3 mx-auto justify-center gap-16 mb-12">
+      <img src="/public/Strength.png" />
+      <img src="/public/High Technology.png" />
+      <img src="/public/Durability.png" />
+    </div>
+    <div class="text-center">
+      {buttonUrl && buttonText ? (
+        <Button
+          target="_self"
+          url={buttonUrl}
+          title={buttonTitle}
+          color="black"
+        >
+          {buttonText}
+        </Button>
+      ) : null}
+    </div>
+  </div>
 
+ 
+  <div class="relative w-full md:w-1/2 flex items-center justify-center mt-12 mb-12 ml-0 md:ml-12">
+    
+    <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36] w-full h-[250px] md:w-[800px] md:h-[550px] z-0"></div>
+
+   
     <video
       autoplay
       loop
       muted
       playsinline
-      id="main-video"
       preload="none"
-      class="video h-full w-full object-cover object-top animate-duration-[2s] animate-ease-in-out brightness-50"
+      class="absolute w-[90%] h-[250px] md:left-[-40px] md:w-[700px] md:h-[450px] object-cover object-top brightness-50 z-10"
     >
-      <source data-src={video} type={type} />
+      <source src={video} type={type} />
     </video>
   </div>
-  <video
-    class="video absolute -bottom-48 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50"
-    autoplay
-    loop
-    muted
-    preload="none"
-  >
-    <source data-src={video} type={type} />
-  </video>
-  <video
-    class="video absolute -top-20 -z-40 blur-3xl animate-duration-[2s] animate-ease-in-out brightness-50 w-full"
-    autoplay
-    loop
-    muted
-    preload="none"
-  >
-    <source data-src={video} type={type} />
-  </video>
-  <slot name="bottom" />
-</section>
-<style>
-div {
- font-family: 'Prompt', system-ui, sans-serif;
-} 
-</style>
+</div>
