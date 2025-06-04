@@ -1,19 +1,18 @@
 ---
 import { type Review } from "@/types/types.ts";
 import Section from "@/shared/components/Section.astro";
-import { getI18N } from "@/shared/i18n";
+import Typography from "@/shared/components/ui/Typography.astro";
+
 
 interface Props {
-  reviews: Review[];
-  language: string;
+	reviews: Review[];
 }
 
-const { language, reviews = [] } = Astro.props
-const i18n = getI18N({ language });
-
+const { reviews = [] } = Astro.props;
 ---
-<Section id={i18n.PAGES.HOME.REVIEWS_SECTION.ID} heading2={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}>
-<section class="reviews-section">
+<div class="bg-white cont text-black mb-12 ">
+<Section >
+  <Typography tag="h2" type="black" className=" font-bold text-center mb-12" text="What They Say About Our Construction of Padel Courts"/>
   <div
     id="reviews-container"
     class="reviews-container"
@@ -29,9 +28,10 @@ const i18n = getI18N({ language });
       ))
     }
   </div>
-</section>
 </Section>
+</div>
 <style>
+  
   .reviews-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -47,7 +47,7 @@ const i18n = getI18N({ language });
 }
 
 .review-card {
-  flex: 1 1 calc(33.333% - 1rem);
+  flex: 1 1 calc(33.333% - 1rem); 
   box-sizing: border-box; 
   min-width: 250px; 
   border-radius: 0.5rem;
@@ -73,42 +73,48 @@ const i18n = getI18N({ language });
 }
 
 </style>
-
 <script type="module">
-    document.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('reviews-container');
-      const reviewsData = container.getAttribute('data-reviews');
-      if (!reviewsData) return;
-  
-      const reviews = JSON.parse(reviewsData);
-      let currentIndex = 0;
-      const reviewsPerPage = 3;
-  
-      function updateReviews() {
-        
-        container.classList.add('fade-out');
-  
-       
-        setTimeout(() => {
-          currentIndex = (currentIndex + reviewsPerPage) % reviews.length;
-          const newReviews = reviews.slice(currentIndex, currentIndex + reviewsPerPage);
-          container.innerHTML = newReviews
-            .map(
-              (review) => `
-              <div class="review-card">
-                <h4>${review.review}</h4>
-                <p> 📍 ${review.autor}</p>
-                
-              </div>
-            `
-            )
-            .join('');
-  
-         
-          container.classList.remove('fade-out');
-        }, 800);
-      }
-  
-      setInterval(updateReviews, 20000); 
-    });
-  </script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('reviews-container');
+    const reviewsData = container.getAttribute('data-reviews');
+    if (!reviewsData) return;
+
+    const reviews = JSON.parse(reviewsData);
+    let currentIndex = 0;
+    const reviewsPerPage = 3;
+
+    function updateReviews() {
+      container.classList.add('fade-out');
+
+      setTimeout(() => {
+        while (container.firstChild) {
+          container.removeChild(container.firstChild);
+        }
+
+        for (let i = 0; i < reviewsPerPage; i++) {
+          const index = (currentIndex + i) % reviews.length;
+          const review = reviews[index];
+
+          const reviewCard = document.createElement('div');
+          reviewCard.classList.add('review-card');
+
+          const h4 = document.createElement('h4');
+          h4.textContent = review.review;
+
+          const p = document.createElement('p');
+          p.textContent = `📍 ${review.autor}`;
+
+          reviewCard.appendChild(h4);
+          reviewCard.appendChild(p);
+
+          container.appendChild(reviewCard);
+        }
+
+        container.classList.remove('fade-out');
+        currentIndex = (currentIndex + reviewsPerPage) % reviews.length;
+      }, 800);
+    }
+
+    setInterval(updateReviews, 20000);
+  });
+</script>
