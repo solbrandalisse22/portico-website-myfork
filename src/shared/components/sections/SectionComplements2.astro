@@ -8,12 +8,17 @@ const { language } = Astro.props;
 const i18n = getI18N({ language });
 
 ---
-<div class="flex flex-col justify-center items-center min-h-screen px-4">
+<div class="flex flex-col  items-center min-h-screen px-4">
   <Section id={i18n.PAGES.HOME.COMPLEMENTS_SECTION.ID} className="text-center">
     <Typography tag="h2" className="mx-auto mb-10 text-wrap font-semibold" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION.TITLE} />
     <Typography tag="div" className="max-w-[60ch] mx-auto" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION.DESCRIPTION} />
   </Section>
-
+<div class="w-full mt-6 mb-6 flex justify-center">
+    <img
+      src="/customization/complementsSection.webp" 
+      class="w-full  max-w-[350px]  aspect-square object-cover rounded-lg"
+    />
+</div>
   <div class="hidden md:flex justify-center items-center my-6">
     <p class="font-bold text-5xl rotate-90">></p>
   </div>
@@ -23,4 +28,5 @@ const i18n = getI18N({ language });
       {i18n.PAGES.HOME.COMPLEMENTS_SECTION.BUTTON.LABEL}
     </Button>
   </div>
+  
 </div>
