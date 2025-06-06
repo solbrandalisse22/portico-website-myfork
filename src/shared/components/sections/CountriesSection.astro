@@ -23,35 +23,24 @@ const subheading = showInfo ? subtitle : null;
 const descriptionText = showInfo ? description : null;
 ---
 
-<div class="flex flex-col md:flex-row">
-  <div class="w-full md:w-1/2">
-    <Section>
+
+    
       {
         heading2 && (
-          <Typography tag="h2" className="mb-16 text-center font-bold" text={title} />
+          <Typography tag="h2" className=" text-center mt-12 mb-4 font-bold" text={title} />
         )
       }
-      {
-        descriptionText && (
-          <Typography tag="div" className="mb-16 text-center" text={description} />
-        )
-      }
-    </Section>
-  </div>
-
-  <div class="hidden md:flex justify-center items-center px-4">
-    <p class="font-bold text-5xl">></p>
-  </div>
-
-  <div class="w-full md:w-1/2">
-    <Section>
-      {
+   {
         subheading && (
-          <Typography tag="div" type="primary" className="mb-16 text-center" text={subtitle} />
+          <Typography tag="div" type="primary" className="mb-4 text-center" text={subtitle} />
         )
       }
+    
+  
+    <Section>
+     
 
-      <div class="grid grid-cols-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
+      <div class=" mt-0 grid grid-rows-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
         <Button
           class="button"
           url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.URL}
@@ -102,8 +91,8 @@ const descriptionText = showInfo ? description : null;
         </Button>
       </div>
     </Section>
-  </div>
-</div>
+  
+
 <style>
 .button {
   width: 100%;
