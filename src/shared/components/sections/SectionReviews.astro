@@ -1,78 +1,82 @@
 ---
 import { type Review } from "@/types/types.ts";
 import Section from "@/shared/components/Section.astro";
+import { getI18N } from "@/shared/i18n";
 import Typography from "@/shared/components/ui/Typography.astro";
 
-
 interface Props {
-	reviews: Review[];
+  reviews: Review[];
+  language: string;
 }
 
-const { reviews = [] } = Astro.props;
+const { language, reviews = [] } = Astro.props;
+const i18n = getI18N({ language });
 ---
-<div class="bg-white cont text-black mb-12 ">
-<Section >
-  <Typography tag="h2" type="black" className=" font-bold text-center mb-12" text="What They Say About Our Construction of Padel Courts"/>
-  <div
-    id="reviews-container"
-    class="reviews-container"
-    data-reviews={JSON.stringify(reviews)}
-  >
-    {
-      reviews.slice(0, 3).map(({ autor, review }) => (
-        <div class="review-card">
-          <h4 >{review}</h4>
-          <p>📍 {autor}</p>
-          
-        </div>
-      ))
-    }
-  </div>
-</Section>
+
+<div class="bg-white cont text-black mb-12">
+  <Section>
+    <Typography
+      tag="h2"
+      type="black"
+      className="font-bold text-center mb-12"
+      text={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}
+    />
+    <Typography
+      tag="h3"
+      type="black"
+      className="text-center mb-12"
+      text={i18n.PAGES.HOME.REVIEWS_SECTION.SUBTITLE}
+    />
+
+    <div
+      id="reviews-container"
+      class="reviews-container"
+      data-reviews={JSON.stringify(reviews)}
+    >
+    </div>
+  </Section>
 </div>
-<style>
-  
+
+<style is:global>
   .reviews-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  opacity: 1;
-  transition: opacity 0.8s ease-in-out;
-  
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+  }
 
+  .reviews-container.fade-out {
+    opacity: 0;
+  }
 
-.reviews-container.fade-out {
-  opacity: 0;
-}
+  .review-card {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+  }
 
-.review-card {
-  flex: 1 1 calc(33.333% - 1rem); 
-  box-sizing: border-box; 
-  min-width: 250px; 
-  border-radius: 0.5rem;
-  padding: 1rem;
-  overflow: hidden; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
+  .review-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    word-break: break-word;
+  }
 
-}
-
-.review-card h4 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  word-break: break-word; 
-}
-
-.review-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  color: #555;
-  font-style: italic;
-}
-
+  .review-card p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #555;
+    font-style: italic;
+  }
 </style>
+
 <script type="module">
   document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('reviews-container');
@@ -87,9 +91,7 @@ const { reviews = [] } = Astro.props;
       container.classList.add('fade-out');
 
       setTimeout(() => {
-        while (container.firstChild) {
-          container.removeChild(container.firstChild);
-        }
+        container.innerHTML = ''; 
 
         for (let i = 0; i < reviewsPerPage; i++) {
           const index = (currentIndex + i) % reviews.length;
@@ -115,6 +117,7 @@ const { reviews = [] } = Astro.props;
       }, 800);
     }
 
-    setInterval(updateReviews, 20000);
+    updateReviews(); 
+    setInterval(updateReviews, 20000); 
   });
 </script>
