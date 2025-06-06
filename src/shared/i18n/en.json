@@ -60,7 +60,7 @@
       "INTRO_SECTION": {
         "ID": "intro",
         "TITLE": "Padel Court Manufacturers and installers",
-        "DESCRIPTION": "<p>Based in Spain, Portico Sport is one of the <strong>leading global builders and suppliers of premier Padel courts and canopy installations</strong>. With more than 15 years of experience and a <strong>presence in over 35 countries</strong>, we’ve successfully delivered <strong>more than 4,000 padel courts worldwide</strong>—making us a trusted padel court supplier with proven international reach.</p><p>At Portico Sport, we stand for quality, innovation, and excellence in customer service. With strong engineering at our core, we offer a complete turnkey solution that combines padel courts and sports canopies—<strong>100% designed and manufactured in-house</strong> for total quality control.</p><p>In 2023, we inaugurated a new 110,000+ sqft manufacturing site, positioning Portico Sport as <strong>the largest and most technologically advanced padel court manufacturer</strong> in the industry. This facility enables us to deliver fast, high-quality production—whether you're looking for an indoor padel court supplier, an outdoor padel court supplier, or a fully customized project.</p>",
+        "DESCRIPTION": "<p>Based in Spain, at Portico Sport, we stand for quality, innovation, and excellence in customer service. With strong engineering at our core, we offer a complete turnkey solution that combines padel courts and sports canopies—<strong>100% designed and manufactured in-house</strong> for total quality control.</p><p>In 2023, we inaugurated a new 110,000+ sqft manufacturing site, positioning Portico Sport as <strong>the largest and most technologically advanced padel court manufacturer</strong> in the industry. This facility enables us to deliver fast, high-quality production—whether you're looking for an indoor padel court supplier, an outdoor padel court supplier, or a fully customized project.</p>",
         "TITLE_2":"<p><strong>Leading global</strong> builders and suppliers of premier Padel courts and canopy installations</p>"
       },
       "INTRO_SECTION_UK": {
@@ -375,7 +375,7 @@
      "COMPLEMENTS_SECTION": {
         "ID": "complements",
         "TITLE": "Premium Padel Court Construction: Quality, Innovation & Customization",
-        "DESCRIPTION":"<p>Portico Sport is a trusted padel court builder, offering a wide range of indoor, outdoor, and panoramic models—all customizable to fit your venue, climate, and brand.</p><p>Our courts are built with premium materials: galvanized steel structures, 10–12 mm tempered safety glass, anti-UV artificial turf, and <strong>countless customization options</strong>including branded netting, bespoke court and turf colors, and integrated bench systems. Performance meets identity, with every detail tailored to elevate the playing experience.</p>",
+        "DESCRIPTION":"Portico Sport is a leading padel court builder, offering indoor, outdoor, and panoramic models fully customizable—with options for branding, turf colors, netting, and integrated benches—to match your venue and style.",
        "BUTTON":{
           "LABEL":"Discover Customization Options",
           "TITLE":"Padel Court Builders | Contact",
@@ -716,6 +716,11 @@
 }
 
 ]
+      },
+      "REVIEWS_SECTION":{
+        "ID":"reviews",
+        "TITLE":"Padel Court Builders Worldwide",
+        "SUBTITLE":"What They Say About Our Construction of Padel Courts"
       },
       "COUNTRIES_SECTION":{
        "ID":"countires",
