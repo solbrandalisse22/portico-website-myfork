@@ -82,15 +82,11 @@ const posts = await response.json();
     <SectionIntro language={language} />
 
     <section id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}>
-      <Typography
-        tag="h2"
-        text={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE}
-        className="mx-auto mb-8 mt-10 text-center font-semibold"
-      />
 
       <SliderProjects
         language={language}
-        heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+        heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE}
+        subheading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
         id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
         photos={projectsGallery}
         offset={14}
