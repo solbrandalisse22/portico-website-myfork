@@ -10,7 +10,7 @@ import { getI18N } from "@/shared/i18n";
 const { language } = Astro.props
 const i18n = getI18N({ language })
 ---
-<Section heading2={i18n.INFINITE_SCROLL.TITLE} style=" color:black; background-color: white; border-radius: 12px;">
+<Section heading2={i18n.INFINITE_SCROLL.TITLE} className="lg:p-10" style=" color:black; background-color: white; border-radius: 12px;">
 <Typography tag="p" type="black" className="text-center mb-2 sm:mb-10 xs:mb-16" style="font-weight: bold;" text={i18n.INFINITE_SCROLL.SUBTITLE}/>
 
   <div class="logos items-center">
